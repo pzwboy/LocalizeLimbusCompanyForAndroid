@@ -1,0 +1,851 @@
+{
+  "dataList": [
+    {
+      "id": 9014001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "别来烦我",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根据目标的[Vibration]层数，对自身施加相应层数的[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 对自身施加2层[Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "秘密武器",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "肮脏的表链子！",
+          "desc": "自身每带有5层[Vibration]，使本技能的拼点威力+1(最多+2)\n[WhenUse] 使自身的[Vibration][Switch_Vibration]为[VibrationDistribution]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根据自身的[Vibration]层数，对目标施加相应层数的[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防御",
+          "desc": "[StartBattle] 使自身获得2×(自身的[Vibration]层数)点护盾体力(最多20点)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "让开让开",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根据目标的[Vibration]强度，使自身增加相应的[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加6级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 对自身施加2层[Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "可别小瞧我了？",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "下贱的表链子！",
+          "desc": "自身每带有5层[Vibration]，使本技能的拼点威力+1(最多+2)\n[WhenUse] 使自身的[Vibration][Switch_Vibration]为[VibrationDistribution]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根据自身的[Vibration]强度，使目标增加相应的[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防御",
+          "desc": "[StartBattle] 使自身获得2×(自身的[Vibration]层数)点护盾体力(最多20点)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你没良心吗？",
+          "desc": "[WhenUse] 对自身施加1层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Vibration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你没良心啊",
+          "desc": "[WhenUse] 对自身施加1层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "保护得了他们吗？",
+          "desc": "[WhenUse] 对自身施加1层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于10层，则使目标[VibrationExplosion]并使目标的[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]并使其[Vibration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你那武器报废了吧？",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标[Switch_Vibration]为[VibrationCollapse]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "做好觉悟了？",
+          "desc": "优先指定带有[VibrationCollapse]的目标\n[WhenUse] 根据自身带有的[Vibration]层数，对除自身以外的全体友方单位施加相应层数的[Vibration]\n[WhenUse] 使包括自身在内的全体友方单位的[Vibration][Switch_Vibration]为[VibrationDistribution]",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加10级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标以[VibrationEcho][FusionVibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防御",
+          "desc": "[StartBattle] 使自身获得3×(自身的[Vibration]层数)点护盾体力(最多30点)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "为了我们的大义",
+          "desc": "[CantDuel]\n[StartBattle] 对自身施加层数相当于除自身以外全体友方单位[Vibration]层数之和的[Vibration]，解除全体友方单位的[Vibration]\n[StartBattle] 自身每带有3层[Vibration]，使自身获得1层[AttackUp]\n[WhenUse] 对自身施加9层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加10级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每带有1层[Vibration]，对目标额外造成本硬币伤害量10%的怠惰伤害"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加4层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每带有1层[Vibration]，对目标额外造成本硬币伤害量10%的怠惰伤害"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的3层[Vibration]使目标[VibrationExplosion]，并使目标的[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的3层[Vibration]使目标[VibrationExplosion]，并使目标的[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的3层[Vibration]使目标[VibrationExplosion]，并使目标的[Vibration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "征收检查",
+          "desc": "[WhenUse] 对自身施加1层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]层数不低于4层，则对其施加1层[InterlockingTime]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]层数不低于4层，则对其施加1层[InterlockingTime]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对自身施加1层[Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "请您止步。",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]\n[WhenUse] 若自身的[Vibration]层数不低于4层，则使本技能的拼点威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于4层，则使目标增加8级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对自身施加2层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于4层，则对目标施加8层[Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "强制征收执行中。",
+          "desc": "[WhenUse] 自身每带有5层[Vibration]，则使本技能的拼点威力+1(最多+2)\n[WhenUse] 若自身的[Vibration]层数不低于5层，则自身每带有1层[Vibration]，使本技能造成的伤害+10%(最多+100%)\n[EndSkill] 消耗自身所有[Vibration]层数",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对自身施加2层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]强度不低于8级，则对其施加1层[InterlockingTime]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于4层，则使目标增加8级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对自身施加2层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]层数不低于4层，则对其施加1层[InterlockingTime]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于4层，则对目标施加5层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于7层，则对目标施加1层[InterlockingTime]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于4层，则使目标[Switch_Vibration]为[VibrationChain]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "时间租赁",
+          "desc": "[StartBattle] 消耗5层[Vibration]并使自身获得3层[TimeRentalTwo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "征收准备",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于3层，则使目标增加3级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 对自身施加1层[Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "T公司制加速切割机",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Vulnerable]"
+                },
+                {
+                  "desc": "使目标增加2级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对自身施加2层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Vibration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "请出示钟表。",
+          "desc": "[WhenUse] 若自身的[Vibration]层数不低于5层，则使本技能的拼点威力+1\n[WhenUse] 对自身施加2层[Vibration]\n[WinDuel] 消耗自身的3层[Vibration]并使自身获得1层[TimeRentalTwo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层虚弱 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于5层，则使目标[Switch_Vibration]为[VibrationChain]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "强制征收执行中。",
+          "desc": "[WhenUse] 对自身施加3层[Vibration]\n[WhenUse] 自身每带有4层[Vibration]，使本技能的基础威力+1(最多+3)\n[WinDuel] 消耗自身的5层[Vibration]并使自身获得3层[TimeRentalTwo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的1层[Vibration]并对目标施加1层易损 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的1层[Vibration]并对目标施加3层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的1层[Vibration]并使目标增加8级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的2层[Vibration]，使目标[VibrationExplosion]并重复使用本硬币(最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的5层[Vibration]并对目标施加2层[TimeAccumulation]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "时间租赁",
+          "desc": "[StartBattle] 消耗4层[Vibration]并使自身获得3层[TimeRentalTwo]\n[StartBattle] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "征收准备",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[Vibration]层数不低于3层，则使目标增加3级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 对自身施加1层[Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "T公司制时间捕捉器",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的1层[Vibration]，使目标增加2级[Vibration]强度并在下回合对其施加2层[Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对自身施加2层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的1层[Vibration]，使目标增加2级[Vibration]强度并在下回合对其施加2层[Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "请您留步。",
+          "desc": "[WhenUse] 若自身的[Vibration]层数不低于5层，则使本技能的拼点威力+1\n[WhenUse] 对自身施加2层[Vibration]\n[WinDuel] 消耗自身的3层[Vibration]并使自身获得1层[TimeRentalTwo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的2层[Vibration]并在下回合对目标施加2层[Binding]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的2层[Vibration]并在下回合对目标施加1层[ParryingResultDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "强制征收执行中。",
+          "desc": "[WhenUse] 对自身施加3层[Vibration]\n[WhenUse] 自身每带有4层[Vibration]，使本技能的基础威力+1(最多+3)\n[WinDuel] 消耗自身的5层[Vibration]并使自身获得3层[TimeRentalTwo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的1层[Vibration]并对目标施加1层易损 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的1层[Vibration]并对目标施加3层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的1层[Vibration]并使目标增加8级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的2层[Vibration]，使目标[VibrationExplosion]并重复使用本硬币(最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身的5层[Vibration]并对目标施加2层[TimeAccumulation]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9014405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "时间租赁",
+          "desc": "[StartBattle] 消耗4层[Vibration]并使自身获得3层[TimeRentalTwo]\n[StartBattle] 对自身施加2层[Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

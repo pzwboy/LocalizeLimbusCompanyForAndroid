@@ -1,0 +1,19 @@
+{
+  "dataList": [
+    {
+      "id": 40003701,
+      "name": "热丝武器",
+      "desc": "关卡开始时带有[HeatingWireOffSpider]\n\n回合开始时，若自身的[ReinforcedTattooSpiderDaughterTwo]层数不低于2层，则使自身获得[HeatingWireOnSpiderTwo]，令施加[Laceration]的技能额外施加[Combustion]"
+    },
+    {
+      "id": 40003702,
+      "name": "<s>中指</s>",
+      "desc": "2个技能命中后，使自身获得1层[ReinforcedTattooSpiderDaughterTwo](命中次数累计计算)"
+    },
+    {
+      "id": 40003703,
+      "name": "仇怨",
+      "desc": "受到技能攻击时，使自身获得2层[ResentmentSpiderDaughterTwo](每个技能最多1次)\n\n友方单位受到攻击时，使自身获得1层[ResentmentSpiderDaughterTwo](每个技能最多1次)\n\n若自身的[ResentmentSpiderDaughterTwo]层数为最大值，则使用强力攻击\n\n回合结束时，若现存体力低于80%、60%或40%，则使自身的[ResentmentSpiderDaughterTwo]层数变为最大值"
+    }
+  ]
+}

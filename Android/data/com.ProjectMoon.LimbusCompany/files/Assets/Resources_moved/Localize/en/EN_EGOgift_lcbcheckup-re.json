@@ -1,0 +1,106 @@
+{
+  "dataList": [
+    {
+      "id": 9243,
+      "name": "试验提取：红艳煞",
+      "desc": "增加[Combustion]强度，施加[Combustion]层数或施加特殊烧伤的攻击技能造成的伤害+10%\n- 若该技能对自身施加[Combustion]层数，则额外使该技能的拼点威力+1\n- 自身每失去2%的体力，使造成的伤害额外+1%(最多+15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9243,
+          "simpleDesc": "符合条件时攻击技能造成的伤害与拼点威力增加"
+        }
+      ]
+    },
+    {
+      "id": 9244,
+      "name": "试验提取：提灯",
+      "desc": "增加[Burst]强度或施加[Burst]层数的攻击技能造成的伤害+10%\n- 若自身已失去体力不低于体力上限的20%，则额外使该技能的拼点威力+1\n- 自身所有行动槽的[Aggro]之和每有1点，使攻击技能造成的伤害+1%(最多+15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9244,
+          "simpleDesc": "符合条件时攻击技能造成的伤害与拼点威力增加"
+        }
+      ]
+    },
+    {
+      "id": 9245,
+      "name": "变形提取：AEDD",
+      "desc": "若自身本回合获得[Charge]层数或特殊充能超出上限，则每溢出2层，下回合使自身获得1层[AttackUp](每回合每名人格最多2层)\n- 拥有获得或消耗[Charge]层数或特殊充能的基础技能的人格改为每回合每名人格最多6层\n- 若自身带有[HighVoltageExoshell]，则额外使自身增加1级[Charge]强度(每场战斗最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9245,
+          "simpleDesc": "基于溢出的[Charge]层数使自身获得[AttackUp]，符合条件时使自身增加[Charge]强度"
+        }
+      ]
+    },
+    {
+      "id": 9246,
+      "name": "某人遗落的员工证",
+      "desc": "属于边狱公司的人格获得以下效果\n- 回合开始时获得(参战且属于边狱公司的人格数/3)层[ParryingResultUp](最多2层；向下取整)\n\n属于LCE的人格获得以下效果\n- 使自身造成的伤害+(参战且身着E.G.O装备的人格数×10)%(最多+30%)\n- 与自身属于同一阵营的友方单位阵亡时，获得所有属性的E.G.O资源各1个；本场战斗中，回合开始时使自身获得1层[PlusCoinValueUp]并对自身施加1层[MinusCoinValueUp](每场战斗每名人格最多2次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9246,
+          "simpleDesc": "基于参战且属于边狱公司的人格数使自身获得[ParryingResultUp]"
+        },
+        {
+          "abilityID": 92461,
+          "simpleDesc": "根据参战且身着E.G.O装备的人格数使自身造成的伤害增加"
+        },
+        {
+          "abilityID": 92462,
+          "simpleDesc": "与自身属于同一阵营的友方单位阵亡时，获得E.G.O资源；本场战斗中，从下回合起，回合开始时使自身获得[PlusCoinValueUp]并对自身施加[MinusCoinValueUp]"
+        }
+      ]
+    },
+    {
+      "id": 9248,
+      "name": "山茶花、眼镜和送达的信",
+      "desc": "[第1、第2、第3顺位人格专属]\n\n增加[Burst]强度或施加[Burst]层数的攻击技能拼点胜利时，使目标增加5级[Burst]强度并对其施加3层[Burst](每回合每名人格最多1次)\n\n与速度值低于自身的敌方单位拼点时，使自身的最终威力+1，造成的伤害+25%。\n\n与带有[AttackUp]的敌方单位拼点胜利时，下回合使自身获得3层[AttackUp]并对拼点失败的敌方单位施加3层[AttackDown](每回合每名人格最多3次)\n\n使用1技能，2技能或3技能时，触发以下效果(每种技能最多1次)\n- 使用以上技能的人格本场战斗中，回合开始时获得1层[Agility]与1层[SkillPowerUp](最多叠加3次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9248,
+          "simpleDesc": "拼点胜利时，对目标施加[Burst]"
+        },
+        {
+          "abilityID": 92481,
+          "simpleDesc": "与速度值低于自身的敌方单位拼点时，使自身最终威力与造成的伤害增加"
+        },
+        {
+          "abilityID": 92482,
+          "simpleDesc": "符合条件时使自身获得[AttackUp]，对敌方单位施加[AttackDown]"
+        },
+        {
+          "abilityID": 92483,
+          "simpleDesc": "符合条件时，回合开始时获得[Agility]与[SkillPowerUp]"
+        }
+      ]
+    },
+    {
+      "id": 9249,
+      "name": "小巧而精致的小提琴",
+      "desc": "[第5、第6顺位人格专属]\n\n使自身恢复技能造成体力伤害量10%的体力(每个技能最多20点)\n\n拼点胜利时，使自身获得1层[AttackUp]与1层[TakeHpHealIncrease](每回合每名人格最多2次)\n\n使用技能时，使自身获得1层[AttackUp]与1层[TakeHpHealIncrease](每回合每名人格最多2次)\n\n打击技能造成的伤害+10%\n\n拼点胜利的技能造成的伤害+(拼点次数×6)%(最多+30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9249,
+          "simpleDesc": "基于技能造成的体力伤害量恢复体力"
+        },
+        {
+          "abilityID": 92491,
+          "simpleDesc": "拼点胜利时获得[AttackUp]与[TakeHpHealIncrease]"
+        },
+        {
+          "abilityID": 92492,
+          "simpleDesc": "使用技能时获得[AttackUp]与[TakeHpHealIncrease]"
+        },
+        {
+          "abilityID": 92493,
+          "simpleDesc": "打击技能造成的伤害增加"
+        },
+        {
+          "abilityID": 92494,
+          "simpleDesc": "拼点胜利的技能造成的伤害增加"
+        }
+      ]
+    }
+  ]
+}

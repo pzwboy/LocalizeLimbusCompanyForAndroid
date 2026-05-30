@@ -1,0 +1,64 @@
+{
+  "dataList": [
+    {
+      "id": 9104301,
+      "name": "强烈原色-红色",
+      "desc": "攻击命中前，若目标未带有[Laceration]，则对其施加3层[Laceration](每回合每名敌方单位最多1次)"
+    },
+    {
+      "id": 9104302,
+      "name": "野兽派-犬面",
+      "desc": "技能命中敌方单位时，对其施加1层[BearClawWound]\n\n每当自身施加4层[BearClawWound]时，下回合使自身获得1层[Enhancement](每回合最多2次)",
+      "flavor": "“从一种动物开始。”\n“越是探究艺术与野性，便越会在其上叠加其他的动物。”"
+    },
+    {
+      "id": 9104303,
+      "name": "充盈的灵感",
+      "desc": "自身或友方单位受到攻击时，下回合使自身获得1层[AttackUp](每个技能最多1次，每回合最多3层)"
+    },
+    {
+      "id": 9104304,
+      "name": "最后的笔触",
+      "desc": "阵亡时，随机对2名敌方单位施加3层[BearClawWound]"
+    },
+    {
+      "id": 9104501,
+      "name": "强烈原色-蓝色",
+      "desc": "攻击命中前，若目标未带有[Sinking]，则对其施加3层[Sinking](每回合每名敌方单位最多1次)"
+    },
+    {
+      "id": 9104502,
+      "name": "野兽派-山羊·枭面",
+      "desc": "技能命中敌方单位时，对其施加1层[EagleClawWound]\n- 若自身带有[Agility]，则额外施加1层[EagleClawWound]\n\n每当自身施加4层[EagleClawWound]时，下回合使自身获得1层[Agility](每回合最多2次)",
+      "flavor": "“展现出自己独有的身份的一种野兽。我们将这种野兽作为艺术的基础，并以此为傲。因此，即使某种特定的野兽在野兽派中流行，我们也不会因此而改变作为自己身份的野兽。”\n“不过，偶尔也会有快速地改变自己的身份，毫无主见地更换野兽的家伙……嗯。”"
+    },
+    {
+      "id": 9104503,
+      "name": "敏捷表现",
+      "desc": "若自身的速度值高于目标，则使自身的拼点威力+1"
+    },
+    {
+      "id": 9104504,
+      "name": "最后的笔触",
+      "desc": "阵亡时，随机对2名敌方单位施加3层[EagleClawWound]"
+    },
+    {
+      "id": 9103401,
+      "name": "由纸条所传达的指令",
+      "desc": "回合开始时：\n- 根据自身的[BlessingOfIndexPrescriptEnemy]层数，使自身获得[IndexPrescriptEnemy_0]/[IndexPrescriptEnemy_1]/[IndexPrescriptEnemy_2]/[IndexPrescriptEnemy_3]\n- 随机对1名罪人施加[IndexPrescriptTargetToPersonality]\n(若是集中遭遇战，则优先攻击该罪人)",
+      "flavor": "“诸位之中有些人可能知道，指令会以多种方式传达。而在其中，以纸条传达的指令最为常见，也有很多人偏好这种形式。”"
+    },
+    {
+      "id": 9103402,
+      "name": "指令之意",
+      "desc": "若本回合自身执行了[IndexPrescript_Base]，\n则回合结束时使自身恢复5点理智值并获得2层[BlessingOfIndexPrescriptEnemy](每回合最多1次)\n- 若自身带有[IndexPrescriptEnemy_2]或执行[IndexPrescript_Base]时目标带有[IndexPrescriptTargetToPersonality]，\n则改为恢复10点理智值并获得3层[BlessingOfIndexPrescriptEnemy]\n\n若本回合自身未执行[IndexPrescript_Base]，\n则回合结束时对自身施加10层[KarmaOfIndexEnemy]\n- 若自身的[BlessingOfIndexPrescriptEnemy]低于6层，则使自身获得1层[BlessingOfIndexPrescriptEnemy]\n- 若自身的[BlessingOfIndexPrescriptEnemy]层数为9层，则不会施加[KarmaOfIndexEnemy]",
+      "flavor": "“那么指令的传达方式……有多少种类型呢？然后那多种形态的指令是否来源于同一处？或者不同的传达方式存在着不同的主体？”\n“探求这些就是我们食指研究会的义务。请问要入会吗？”"
+    },
+    {
+      "id": 9103403,
+      "name": "苦行之刃",
+      "desc": "自身每带有1层[BlessingOfIndexPrescriptEnemy]，使自身对[IndexPrescriptTargetToPersonality]造成的伤害+2.5%(最多+20%)\n- 若自身的[BlessingOfIndexPrescriptEnemy]层数为9层，则改为对全体目标造成的伤害+30%\n\n命中带有[IndexPrescriptTargetToPersonality]的目标时，\n使自身增加1级[Breath]强度并对使目标增加1级[Sinking]强度(每回合最多1次)\n- 自身每带有3层[BlessingOfIndexPrescriptEnemy]，使该效果每回合可触发的次数+1(最多+2)",
+      "flavor": "一柄看似毫不起眼的平凡之剑。\n这柄剑将在遵循指令、践行其内容的过程中，凭借暗处现身的传令员们的协助，以及代行者们的教导，逐渐成为一柄特别的剑。"
+    }
+  ]
+}

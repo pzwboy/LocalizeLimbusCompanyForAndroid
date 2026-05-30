@@ -1,0 +1,223 @@
+{
+  "dataList": [
+    {
+      "id": 112204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "弑主妖剑",
+          "desc": "[WhenUse] 使自身获得3层[Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-10"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身增加3级[Breath]强度并使自身获得1层[Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-10"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得2层[SlashDamageUp]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加2层[SlashResistDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-10"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加5级[Laceration]强度"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 下回合对目标施加2层[Paralysis]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加3层[Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "断汝筋骨",
+          "desc": "[StartBattle] 使自身获得100点护盾\n[WhenUse] 若护盾未被全部消耗，则使本技能的拼点威力+5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-20"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加3层[SlashResistDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-20"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使本硬币暴击时造成的伤害+100%"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加10级[Laceration]强度并对其施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-20"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若护盾未被全部消耗，则对目标造成(自身的[Grudge]层数/本技能的攻击容量)点固定伤害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "断汝筋骨",
+          "desc": "[StartBattle] 使自身获得250点护盾\n[WhenUse] 使自身获得3层[Breath]\n[WhenUse] 若护盾未被全部消耗，则使本技能的拼点威力+10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-23"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[SlashResistDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-23"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使本硬币暴击时造成的伤害+100%"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 下回合对目标施加5层[Paralysis]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加10级[Laceration]强度并对其施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-23"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若护盾未被全部消耗，则对目标造成(自身的[Grudge]层数/本技能的攻击容量)点固定伤害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112309,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "断汝筋骨",
+          "desc": "[CantChangeTarget]\n优先指定体力最低的目标\n[EnemyKill] 使自身的[Grudge]层数变为2倍\n[EnemyKill] 使自身恢复(自身的[Grudge]层数)点体力",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-25"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-25"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若本硬币被摧毁，则使本技能的最终威力-25"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标造成(自身的[Grudge]层数)点固定伤害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
