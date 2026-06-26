@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "呜咽拍击",
-          "desc": "[WhenUse] 使目标失去15点理智值",
+          "desc": "[WhenUse] 使目标失去15点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -25,12 +25,12 @@
         {
           "level": 1,
           "name": "悲痛拍击",
-          "desc": "[StartDuel] 使目标恢复5点理智值",
+          "desc": "[StartDuel] 使目标恢复5点理智値",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[AlwaysUse] 造成显示伤害一半的理智伤害"
+                  "desc": "[AlwaysUse] 造成顕示伤害一半的理智伤害"
                 },
                 {
                   "desc": "[AlwaysUse] 不造成体力伤害"
@@ -47,19 +47,19 @@
         {
           "level": 1,
           "name": "融化之眼",
-          "desc": "[WhenUse] 使目标失去5点理智值\n若目标的理智值低于0点，则使本技能造成的伤害+10%",
+          "desc": "[WhenUse] 使目标失去5点理智値\n若目标的理智値低于0点，则使本技能造成的伤害+10%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其额外造成相应的伤害"
+                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其額外造成相応的伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其额外造成相应的理智伤害"
+                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其額外造成相応的理智伤害"
                 }
               ]
             }
@@ -72,8 +72,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "席卷而来的忧郁",
-          "desc": "[WhenUse] 使目标失去5点理智值，\n优先指定沉沦 强度最高的单位",
+          "name": "席巻而来的忧鬱",
+          "desc": "[WhenUse] 使目标失去5点理智値，\n优先指定沉沦 强度最高的単位",
           "coinlist": [
             {
               "coindescs": [
@@ -85,14 +85,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其额外造成相应的伤害"
+                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其額外造成相応的伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其额外造成相应的理智伤害"
+                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其額外造成相応的理智伤害"
                 }
               ]
             }
@@ -106,12 +106,12 @@
         {
           "level": 1,
           "name": "眼球重摆",
-          "desc": "[DefeatDuel] 摧毁自身的所有技能\n[DefeatDuel] 对自身施加3层易损 \n若目标的理智值低于0点，则使本技能造成的伤害+10%",
+          "desc": "[DefeatDuel] 摧毁自身的所有技能\n[DefeatDuel] 对自身施加3层易损 \n若目标的理智値低于0点，则使本技能造成的伤害+10%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 使目标的沉沦 强度与层数变为2倍"
+                  "desc": "[OnSucceedAttackHead] 使目标的沉沦 强度与层数变為2倍"
                 }
               ]
             }
@@ -125,12 +125,12 @@
         {
           "level": 1,
           "name": "融落之眼",
-          "desc": "[WhenUse] 使目标失去5点理智值\n若目标的理智值低于0点，则使本技能造成的伤害+10%",
+          "desc": "[WhenUse] 使目标失去5点理智値\n若目标的理智値低于0点，则使本技能造成的伤害+10%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其额外造成相应的理智伤害"
+                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其額外造成相応的理智伤害"
                 }
               ]
             }
@@ -144,12 +144,12 @@
         {
           "level": 1,
           "name": "融落之眼",
-          "desc": "[WhenUse] 使目标失去5点理智值\n若目标的理智值低于0点，则使本技能造成的伤害+10%",
+          "desc": "[WhenUse] 使目标失去5点理智値\n若目标的理智値低于0点，则使本技能造成的伤害+10%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其额外造成相应的伤害"
+                  "desc": "[OnSucceedAttackHead] 根据目标的沉沦 强度，对其額外造成相応的伤害"
                 }
               ]
             }
@@ -173,7 +173,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "准备小镇参观活动",
+          "name": "准备小镇参観活动",
           "desc": "[WhenUse] 使自身获得4层充能 ",
           "coinlist": [
             {}
@@ -186,7 +186,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "欢迎参观小镇",
+          "name": "歓迎参観小镇",
           "desc": "",
           "coinlist": [
             {},
@@ -206,7 +206,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "请您配合！",
+          "name": "請您配合！",
           "desc": "",
           "coinlist": [
             {
@@ -225,7 +225,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "处理小镇迁居申请",
+          "name": "处理小镇遷居申請",
           "desc": "[WhenUse] 消耗所有充能 层数",
           "coinlist": [
             {
@@ -244,8 +244,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "请多多关照，亲爱的邻居",
-          "desc": "[CantDuel]\n指定被禁锢的单位",
+          "name": "請多多関照，親爱的隣居",
+          "desc": "[CantDuel]\n指定被禁锢的単位",
           "coinlist": [
             {
               "coindescs": [
@@ -263,8 +263,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "检测到系统错误",
-          "desc": "下回合使自身陷入混乱",
+          "name": "检测到系统錯誤",
+          "desc": "下回合使自身陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -289,7 +289,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "正在进行计算处理",
+          "name": "正在進行計算处理",
           "desc": "[WhenUse] 使自身获得5层守护 ",
           "coinlist": []
         }
@@ -311,8 +311,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "处理小镇新迁居申请",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n指定体力最高的单位\n[WhenUse] 消耗所有充能 ",
+          "name": "处理小镇新遷居申請",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n指定体力最高的単位\n[WhenUse] 消耗所有充能 ",
           "coinlist": [
             {
               "coindescs": [
@@ -349,7 +349,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "镇压",
+          "name": "镇圧",
           "desc": "",
           "coinlist": [
             {
@@ -388,7 +388,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 对目标造成相当于破裂 强度点伤害\n随后解除目标的破裂 效果"
+                  "desc": "[OnSucceedAttackHead] 对目标造成相当于破裂 强度点伤害\n随後解除目标的破裂 效果"
                 }
               ]
             }
@@ -441,27 +441,27 @@
         {
           "level": 1,
           "name": "拦截可疑目标",
-          "desc": "优先指定体力最高的单位",
+          "desc": "优先指定体力最高的単位",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "若第1枚硬币的朝向为正面，则使本硬币造成的伤害+10%"
+                  "desc": "若第1枚硬币的朝向為正面，则使本硬币造成的伤害+10%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "若第2枚硬币的朝向为正面，则使本硬币造成的伤害+10%"
+                  "desc": "若第2枚硬币的朝向為正面，则使本硬币造成的伤害+10%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "若第2和第3枚硬币的朝向为正面，则使本硬币造成的伤害+30%"
+                  "desc": "若第2和第3枚硬币的朝向為正面，则使本硬币造成的伤害+30%"
                 }
               ]
             }
@@ -475,7 +475,7 @@
         {
           "level": 1,
           "name": "布施",
-          "desc": "[WhenUse] 使除自身以外的1名友方单位获得2层守护 ",
+          "desc": "[WhenUse] 使除自身以外的1名友方単位获得2层守护 ",
           "coinlist": [
             {},
             {
@@ -494,14 +494,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "阐经",
-          "desc": "[WhenUse] 使除自身以外的1名友方单位获得2层强壮 ",
+          "name": "闡经",
+          "desc": "[WhenUse] 使除自身以外的1名友方単位获得2层强壮 ",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 下回合随机使除自身以外的1名友方单位获得2层强壮 "
+                  "desc": "[OnSucceedAttack] 下回合随机使除自身以外的1名友方単位获得2层强壮 "
                 }
               ]
             }
@@ -537,7 +537,7 @@
         {
           "level": 1,
           "name": "般若波罗蜜",
-          "desc": "[CantIdentify] 指定业报 层数最高的单位\n根据目标带有的业报 层数，使本技能造成的伤害增加(每层+2%)\n若目标未带有业报 ，则使本技能造成的伤害-50%",
+          "desc": "[CantIdentify] 指定业报 层数最高的単位\n根据目标带有的业报 层数，使本技能造成的伤害增加(每层+2%)\n若目标未带有业报 ，则使本技能造成的伤害-50%",
           "coinlist": [
             {
               "coindescs": [
@@ -556,7 +556,7 @@
         {
           "level": 1,
           "name": "禅那",
-          "desc": "[WinDuel] 使自身带有的负面状态减半",
+          "desc": "[WinDuel] 使自身带有的負面状态減半",
           "coinlist": [
             {
               "coindescs": [
@@ -575,7 +575,7 @@
         {
           "level": 1,
           "name": "强制供奉",
-          "desc": "[DefeatDuel] 随机对除自身以外的1名友方单位施加20层业报 ",
+          "desc": "[DefeatDuel] 随机对除自身以外的1名友方単位施加20层业报 ",
           "coinlist": [
             {
               "coindescs": [
@@ -594,7 +594,7 @@
         {
           "level": 1,
           "name": "鞭策",
-          "desc": "[DefeatDuel] 随机对除自身以外的1名友方单位施加20层业报 ",
+          "desc": "[DefeatDuel] 随机对除自身以外的1名友方単位施加20层业报 ",
           "coinlist": [
             {
               "coindescs": [
@@ -625,14 +625,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 移除随机属性的3个E.G.O资源"
+                  "desc": "[OnSucceedAttack] 移除随机属性的3个E.G.O資源"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 移除随机属性的3个E.G.O资源"
+                  "desc": "[OnSucceedAttack] 移除随机属性的3个E.G.O資源"
                 }
               ]
             }
@@ -651,7 +651,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加1层业报轮回 "
+                  "desc": "[OnSucceedAttack] 对目标施加1层业报輪回 "
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 下回合对目标施加3层麻痹 "
@@ -675,7 +675,7 @@
         {
           "level": 1,
           "name": "菩提娑婆诃",
-          "desc": "[WhenUse] 使自身获得10层伤害强化 \n优先指定陷入混乱的单位",
+          "desc": "[WhenUse] 使自身获得10层伤害强化 \n优先指定陥入混乱的単位",
           "coinlist": []
         }
       ]
@@ -704,7 +704,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "涤净…",
+          "name": "涤浄…",
           "desc": "",
           "coinlist": [
             {},

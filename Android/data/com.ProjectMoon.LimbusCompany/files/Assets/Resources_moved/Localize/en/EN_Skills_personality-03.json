@@ -27,7 +27,7 @@
         {
           "level": 2,
           "name": "核查账簿",
-          "desc": "[WhenUse] 使自身恢复5点理智值",
+          "desc": "[WhenUse] 使自身恢复5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -48,7 +48,7 @@
         {
           "level": 4,
           "name": "核查账簿",
-          "desc": "[WhenUse] 使自身恢复5点理智值",
+          "desc": "[WhenUse] 使自身恢复5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -73,7 +73,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "忠义的证明",
+          "name": "忠义的証明",
           "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/3)级攻击等级(最多增加4级)",
           "coinlist": [
             {
@@ -95,8 +95,8 @@
         },
         {
           "level": 2,
-          "name": "忠义的证明",
-          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/3)级攻击等级(最多增加4级)\n若最大完全共鸣为嫉妒完全共鸣，则使本技能增加的攻击等级额外+50%(向下取整)",
+          "name": "忠义的証明",
+          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/3)级攻击等级(最多增加4级)\n若最大完全共鸣為嫉妒完全共鸣，则使本技能增加的攻击等级額外+50%(向下取整)",
           "coinlist": [
             {
               "coindescs": [
@@ -117,8 +117,8 @@
         },
         {
           "level": 4,
-          "name": "忠义的证明",
-          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/2)级攻击等级(最多增加6级)\n若最大完全共鸣为嫉妒完全共鸣，则使本技能增加的攻击等级额外+50%(向下取整)\n若为参战人数上限不高于7名的集中遭遇战，则使本技能增加的攻击等级变为2倍。",
+          "name": "忠义的証明",
+          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/2)级攻击等级(最多增加6级)\n若最大完全共鸣為嫉妒完全共鸣，则使本技能增加的攻击等级額外+50%(向下取整)\n若為参战人数上限不高于7名的集中遭遇战，则使本技能增加的攻击等级变為2倍。",
           "coinlist": [
             {
               "coindescs": [
@@ -145,7 +145,7 @@
         {
           "level": 3,
           "name": "正义的报复",
-          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/3)级攻击等级(最多增加4级)\n若最大完全共鸣为嫉妒完全共鸣，则使本技能增加的攻击等级额外+50%(向下取整)",
+          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/3)级攻击等级(最多增加4级)\n若最大完全共鸣為嫉妒完全共鸣，则使本技能增加的攻击等级額外+50%(向下取整)",
           "coinlist": [
             {
               "coindescs": [
@@ -171,7 +171,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] 若击杀目标，则使理智值最低的1名友方单位恢复6点理智值"
+                  "desc": "[EndSkill] 若击杀目标，则使理智値最低的1名友方単位恢复6点理智値"
                 }
               ]
             }
@@ -180,7 +180,7 @@
         {
           "level": 4,
           "name": "正义的报复",
-          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/2)级攻击等级(最多增加6级)\n若最大完全共鸣为嫉妒完全共鸣，则使本技能增加的攻击等级额外+50%(向下取整)\n若为参战人数上限不高于7名的集中遭遇战，则使本技能增加的攻击等级变为2倍。",
+          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/2)级攻击等级(最多增加6级)\n若最大完全共鸣為嫉妒完全共鸣，则使本技能增加的攻击等级額外+50%(向下取整)\n若為参战人数上限不高于7名的集中遭遇战，则使本技能增加的攻击等级变為2倍。",
           "coinlist": [
             {
               "coindescs": [
@@ -206,7 +206,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] 若击杀目标，则使理智值最低的1名友方单位恢复6点理智值"
+                  "desc": "[EndSkill] 若击杀目标，则使理智値最低的1名友方単位恢复6点理智値"
                 }
               ]
             }
@@ -219,20 +219,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "加倍奉还",
+          "name": "加倍奉還",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身的混乱阈值后移3"
+                  "desc": "[OnSucceedAttack] 使自身的混乱閾値後移3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身的混乱阈值后移3"
+                  "desc": "[OnSucceedAttack] 使自身的混乱閾値後移3"
                 }
               ]
             }
@@ -240,20 +240,20 @@
         },
         {
           "level": 4,
-          "name": "加倍奉还",
-          "desc": "[StartBattle] 若嫉妒完全共鸣数总计不低于6，则反击时改为使用“正义的报复”进行反击\n触发以上效果时，将本技能的罪孽属性转化为嫉妒\n(仪表盘上位于左侧的加倍奉还优先触发，每回合最多触发2次)",
+          "name": "加倍奉還",
+          "desc": "[StartBattle] 若嫉妒完全共鸣数总計不低于6，则反击时改為使用“正义的报复”進行反击\n触发以上效果时，将本技能的罪孽属性転化為嫉妒\n(仪表盘上位于左侧的加倍奉還优先触发，每回合最多触发2次)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身的混乱阈值后移5"
+                  "desc": "[OnSucceedAttack] 使自身的混乱閾値後移5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身的混乱阈值后移5"
+                  "desc": "[OnSucceedAttack] 使自身的混乱閾値後移5"
                 }
               ]
             }
@@ -267,7 +267,7 @@
         {
           "level": 3,
           "name": "正义的报复",
-          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/3)级攻击等级(最多增加4级)\n若最大完全共鸣为嫉妒完全共鸣，则使本技能增加的攻击等级额外+50%(向下取整)",
+          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/3)级攻击等级(最多增加4级)\n若最大完全共鸣為嫉妒完全共鸣，则使本技能增加的攻击等级額外+50%(向下取整)",
           "coinlist": [
             {
               "coindescs": [
@@ -293,7 +293,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] 若击杀目标，则使理智值最低的1名友方单位恢复6点理智值"
+                  "desc": "[EndSkill] 若击杀目标，则使理智値最低的1名友方単位恢复6点理智値"
                 }
               ]
             }
@@ -302,7 +302,7 @@
         {
           "level": 4,
           "name": "正义的报复",
-          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/2)级攻击等级(最多增加6级)\n若最大完全共鸣为嫉妒完全共鸣，则使本技能增加的攻击等级额外+50%(向下取整)\n若为参战人数上限不高于6名的遭遇战，则使本技能增加的攻击等级变为2倍。",
+          "desc": "[StartBattle] 使本技能增加(最大完全共鸣数/2)级攻击等级(最多增加6级)\n若最大完全共鸣為嫉妒完全共鸣，则使本技能增加的攻击等级額外+50%(向下取整)\n若為参战人数上限不高于6名的遭遇战，则使本技能增加的攻击等级变為2倍。",
           "coinlist": [
             {
               "coindescs": [
@@ -328,7 +328,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] 若击杀目标，则使理智值最低的1名友方单位恢复6点理智值"
+                  "desc": "[EndSkill] 若击杀目标，则使理智値最低的1名友方単位恢复6点理智値"
                 }
               ]
             }
@@ -356,7 +356,7 @@
         {
           "level": 2,
           "name": "吾当啮之！",
-          "desc": "[WhenUse] 下回合使本技能对应行动槽的[Aggro]+1",
+          "desc": "[WhenUse] 下回合使本技能对応行动槽的[Aggro]+1",
           "coinlist": [
             {
               "coindescs": [
@@ -370,7 +370,7 @@
         {
           "level": 4,
           "name": "吾当啮之！",
-          "desc": "[WhenUse] 下回合使本技能对应行动槽的[Aggro]+3",
+          "desc": "[WhenUse] 下回合使本技能对応行动槽的[Aggro]+3",
           "coinlist": [
             {
               "coindescs": [
@@ -417,7 +417,7 @@
         {
           "level": 2,
           "name": "闪烁诱饵",
-          "desc": "[WhenUse] 下回合使本技能对应行动槽的[Aggro]+2",
+          "desc": "[WhenUse] 下回合使本技能对応行动槽的[Aggro]+2",
           "coinlist": [
             {
               "coindescs": [
@@ -448,7 +448,7 @@
         {
           "level": 4,
           "name": "闪烁诱饵",
-          "desc": "[WhenUse] 下回合使本技能对应行动槽的[Aggro]+4\n[WhenUse] 若目标的[Burst]强度不低于6级，则使本技能的硬币威力+1",
+          "desc": "[WhenUse] 下回合使本技能对応行动槽的[Aggro]+4\n[WhenUse] 若目标的[Burst]强度不低于6级，则使本技能的硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -483,8 +483,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "嚼嚼旋风！",
-          "desc": "[WhenUse] 下回合使本技能对应行动槽的[Aggro]+3",
+          "name": "嚼嚼旋風！",
+          "desc": "[WhenUse] 下回合使本技能对応行动槽的[Aggro]+3",
           "coinlist": [
             {
               "coindescs": [
@@ -500,7 +500,7 @@
                   "desc": "[OnSucceedAttack] 使自身恢复10点体力"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 根据目标带有的[Burst]强度，相应增加恢复的体力(每1级[Burst]强度额外恢复1点体力，最多20点)"
+                  "desc": "[OnSucceedAttack] 根据目标带有的[Burst]强度，相応增加恢复的体力(每1级[Burst]强度額外恢复1点体力，最多20点)"
                 },
                 {
                   "desc": "若现存体力低于体力上限的50%，则重复使用本硬币1次"
@@ -511,8 +511,8 @@
         },
         {
           "level": 4,
-          "name": "嚼嚼旋风！",
-          "desc": "[WhenUse] 下回合使本技能对应行动槽的[Aggro]+5\n[WhenUse] 若目标的[Burst]强度不低于6级，则使本技能的硬币威力+1",
+          "name": "嚼嚼旋風！",
+          "desc": "[WhenUse] 下回合使本技能对応行动槽的[Aggro]+5\n[WhenUse] 若目标的[Burst]强度不低于6级，则使本技能的硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -525,10 +525,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复15点体力。本硬币重复使用时恢复的体力额外+50%"
+                  "desc": "[OnSucceedAttack] 使自身恢复15点体力。本硬币重复使用时恢复的体力額外+50%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 根据目标带有的[Burst]强度，相应增加恢复的体力(每1级[Burst]强度额外恢复2点体力，最多40点)"
+                  "desc": "[OnSucceedAttack] 根据目标带有的[Burst]强度，相応增加恢复的体力(每1级[Burst]强度額外恢复2点体力，最多40点)"
                 },
                 {
                   "desc": "若现存体力低于体力上限的50%，则重复使用本硬币1次"
@@ -545,7 +545,7 @@
         {
           "level": 1,
           "name": "磨牙霍霍",
-          "desc": "[EndBattle] 根据自身剩余的护盾，使自身恢复相应的体力(每回合最多1次。最大恢复量：体力上限的10%)",
+          "desc": "[EndBattle] 根据自身剰余的护盾，使自身恢复相応的体力(每回合最多1次。最大恢复量：体力上限的10%)",
           "coinlist": [
             {
               "coindescs": [
@@ -559,7 +559,7 @@
         {
           "level": 4,
           "name": "磨牙霍霍",
-          "desc": "[WhenUse] 若目标的[Burst]强度不低于6级，则使本技能的最终威力+3\n[EndBattle] 根据自身剩余的护盾，使自身恢复相应的体力(每回合最多1次。最大恢复量：体力上限的10%)",
+          "desc": "[WhenUse] 若目标的[Burst]强度不低于6级，则使本技能的最终威力+3\n[EndBattle] 根据自身剰余的护盾，使自身恢复相応的体力(每回合最多1次。最大恢复量：体力上限的10%)",
           "coinlist": [
             {
               "coindescs": [
@@ -577,7 +577,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "寒芒出鞘",
+          "name": "拔剑",
           "desc": "[WhenUse] 使自身获得2层[Breath]",
           "coinlist": [
             {
@@ -598,7 +598,7 @@
         },
         {
           "level": 2,
-          "name": "寒芒出鞘",
+          "name": "拔剑",
           "desc": "[WhenUse] 使自身获得2层[Breath]",
           "coinlist": [
             {
@@ -619,7 +619,7 @@
         },
         {
           "level": 4,
-          "name": "寒芒出鞘",
+          "name": "拔剑",
           "desc": "<style=\"highlight\">若自身的[Breath]强度不低于5级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身获得2层[Breath]",
           "coinlist": [
             {
@@ -658,7 +658,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或[Breath]强度最低的1名友方单位增加2级[Breath]强度"
+                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或[Breath]强度最低的1名友方単位增加2级[Breath]强度"
                 }
               ]
             }
@@ -679,7 +679,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或[Breath]强度最低的1名友方单位增加2级[Breath]强度"
+                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或[Breath]强度最低的1名友方単位增加2级[Breath]强度"
                 }
               ]
             }
@@ -700,7 +700,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或[Breath]强度最低的1名友方单位增加2级[Breath]强度\n<style=\"highlight\">若该友方单位属于剑契组成员，则使其额外增加2级[Breath]强度</style>"
+                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或[Breath]强度最低的1名友方単位增加2级[Breath]强度\n<style=\"highlight\">若該友方単位属于剑契组成员，则使其額外增加2级[Breath]强度</style>"
                 }
               ]
             }
@@ -713,20 +713,20 @@
       "levelList": [
         {
           "level": 3,
-          "name": "永别了！",
+          "name": "永別了！",
           "desc": "[WhenUse] 使自身增加5级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 使本技能最后一枚硬币造成的伤害+10%"
+                  "desc": "[OnSucceedAttackHead] 使本技能最後一枚硬币造成的伤害+10%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 使本技能最后一枚硬币造成的伤害+10%"
+                  "desc": "[OnSucceedAttackHead] 使本技能最後一枚硬币造成的伤害+10%"
                 }
               ]
             },
@@ -734,7 +734,7 @@
               "coindescs": [
                 {},
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或呼吸法层数最低的2名友方单位获得2层[Breath]"
+                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或呼吸法层数最低的2名友方単位获得2层[Breath]"
                 },
                 {
                   "desc": "[EndSkill] 若击杀目标，则下回合使自身获得1层[SlashDamageUp]"
@@ -745,20 +745,20 @@
         },
         {
           "level": 4,
-          "name": "永别了！",
+          "name": "永別了！",
           "desc": "<style=\"highlight\">若自身的[Breath]强度不低于10级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身增加5级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 使本技能最后一枚硬币造成的伤害+10%"
+                  "desc": "[OnSucceedAttackHead] 使本技能最後一枚硬币造成的伤害+10%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 使本技能最后一枚硬币造成的伤害+10%"
+                  "desc": "[OnSucceedAttackHead] 使本技能最後一枚硬币造成的伤害+10%"
                 }
               ]
             },
@@ -769,10 +769,10 @@
                   "desc": "使本硬币暴击时造成的伤害+30%"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或[Breath]层数最低的2名友方单位获得2层[Breath]\n<style=\"highlight\">若该友方单位属于剑契组成员，则使其额外获得2层[Breath]</style>"
+                  "desc": "[CriticalOnSucceedAttack] 使未带有[Breath]或[Breath]层数最低的2名友方単位获得2层[Breath]\n<style=\"highlight\">若該友方単位属于剑契组成员，则使其額外获得2层[Breath]</style>"
                 },
                 {
-                  "desc": "[EndSkill] 若击杀目标，<style=\"highlight\">则下回合随机使除自身以外的1名友方单位与自身获得1层[SlashDamageUp]</style>"
+                  "desc": "[EndSkill] 若击杀目标，<style=\"highlight\">则下回合随机使除自身以外的1名友方単位与自身获得1层[SlashDamageUp]</style>"
                 }
               ]
             }
@@ -818,7 +818,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "该征收了",
+          "name": "該征收了",
           "desc": "[WhenUse] 对自身施加2层[Vibration]",
           "coinlist": [
             {},
@@ -833,8 +833,8 @@
         },
         {
           "level": 2,
-          "name": "该征收了",
-          "desc": "[WhenUse] 对自身施加2层[Vibration]\n<style=\"highlight\">[WhenUse] 若目标的[Vibration]强度不低于6级，则使本技能的拼点威力+1\n[WhenUse] 下回合使本技能对应行动槽的[Aggro]+3</style>",
+          "name": "該征收了",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]\n<style=\"highlight\">[WhenUse] 若目标的[Vibration]强度不低于6级，则使本技能的拼点威力+1\n[WhenUse] 下回合使本技能对応行动槽的[Aggro]+3</style>",
           "coinlist": [
             {},
             {
@@ -848,13 +848,13 @@
         },
         {
           "level": 4,
-          "name": "该征收了",
-          "desc": "[WhenUse] 对自身施加2层[Vibration]\n<style=\"highlight\">[WhenUse] 目标每带有6级[Vibration]强度，使本技能的拼点威力+1(最多+2)</style>\n[WhenUse] 下回合使本技能对应行动槽的[Aggro]+3",
+          "name": "該征收了",
+          "desc": "[WhenUse] 对自身施加2层[Vibration]\n<style=\"highlight\">[WhenUse] 目标每带有6级[Vibration]强度，使本技能的拼点威力+1(最多+2)</style>\n[WhenUse] 下回合使本技能对応行动槽的[Aggro]+3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 下回合使本技能对应行动槽的[Aggro]+4</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 下回合使本技能对応行动槽的[Aggro]+4</style>"
                 }
               ]
             },
@@ -880,7 +880,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 消耗目标至多3级[Vibration]强度并对自身施加(消耗的[Vibration]强度)层[Vibration]"
+                  "desc": "[OnSucceedAttack] 消耗目标最多3级[Vibration]强度并对自身施加(消耗的[Vibration]强度)层[Vibration]"
                 }
               ]
             },
@@ -901,7 +901,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 消耗目标至多3级[Vibration]强度并对自身施加(消耗的[Vibration]强度)层[Vibration]"
+                  "desc": "[OnSucceedAttack] 消耗目标最多3级[Vibration]强度并对自身施加(消耗的[Vibration]强度)层[Vibration]"
                 }
               ]
             },
@@ -915,7 +915,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 若本技能的硬币效果消耗了目标的[Vibration]强度，则使其[VibrationExplosion]并使其[Vibration]层数减少1层</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 若本技能的硬币效果消耗了目标的[Vibration]强度，则使其[VibrationExplosion]并使其[Vibration]层数減少1层</style>"
                 }
               ]
             }
@@ -929,7 +929,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 消耗目标至多3级[Vibration]强度并对自身施加(消耗的[Vibration]强度<style=\"highlight\">×2</style>)层[Vibration]\n<style=\"highlight\">下回合对目标施加(消耗的[Vibration]强度-1)层[Binding]</style>"
+                  "desc": "[OnSucceedAttack] 消耗目标最多3级[Vibration]强度并对自身施加(消耗的[Vibration]强度<style=\"highlight\">×2</style>)层[Vibration]\n<style=\"highlight\">下回合对目标施加(消耗的[Vibration]强度-1)层[Binding]</style>"
                 }
               ]
             },
@@ -943,7 +943,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若本技能的硬币效果消耗了目标的[Vibration]强度，则使其[VibrationExplosion]并使其[Vibration]层数减少1层<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 若本技能的硬币效果消耗了目标的[Vibration]强度，则使其[VibrationExplosion]并使其[Vibration]层数減少1层<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -956,7 +956,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "那位，请止步！",
+          "name": "那位，請止步！",
           "desc": "[WhenUse] 若目标的[Vibration]强度不低于6级，则使本技能的拼点威力+1\n[WhenUse] 消耗自身的10层[Vibration]并使本技能的硬币威力+2",
           "coinlist": [
             {},
@@ -971,10 +971,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Vibration]强度不低于10级，则消耗其10级[Vibration]强度并对其施加2层[TimeSuspend]\n- 若自身带有[TimeRentalTwoPersonality]，则该效果不消耗目标的[Vibration]"
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]强度不低于10级，则消耗其10级[Vibration]强度并对其施加2层[TimeSuspend]\n- 若自身带有[TimeRentalTwoPersonality]，则該效果不消耗目标的[Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标的速度值低于自身，则使目标振幅转换 为[VibrationChainPersonality]"
+                  "desc": "[OnSucceedAttack] 若目标的速度値低于自身，则使目标振幅転换 為[VibrationChainPersonality]"
                 }
               ]
             }
@@ -982,7 +982,7 @@
         },
         {
           "level": 4,
-          "name": "那位，请止步！",
+          "name": "那位，請止步！",
           "desc": "[WhenUse] 目标<style=\"highlight\">每带有6级[Vibration]强度，使本技能的拼点威力+1(最多+2)</style>\n<style=\"highlight\">[WhenUse] 若目标带有[Binding]，则使本技能的拼点威力+1</style>\n[WhenUse] 消耗自身的10层[Vibration]并使本技能的硬币威力+2",
           "coinlist": [
             {},
@@ -1003,13 +1003,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Vibration]强度不低于10级，则消耗其10级[Vibration]强度并对其施加2层[TimeSuspend]\n- 若自身带有[TimeRentalTwoPersonality]，则该效果不消耗目标的[Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]强度不低于10级，则消耗其10级[Vibration]强度并对其施加2层[TimeSuspend]\n- 若自身带有[TimeRentalTwoPersonality]，则該效果不消耗目标的[Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标的速度值低于自身，则使目标振幅转换 为[VibrationChainPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 若目标的速度値低于自身，则使目标振幅転换 為[VibrationChainPersonality]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1022,16 +1022,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "抽取时间吧",
-          "desc": "[StartBattle] 若自身未带有[TimeRentalTwoPersonality]，则回合结束时使自身获得4层[TimeRentalTwoPersonality](每回合最多1次)\n[WhenUse] 本回合内自身受到敌方单位攻击时，下回合使目标增加2级[Vibration]强度(每回合最多2次)",
+          "name": "抽取时間吧",
+          "desc": "[StartBattle] 若自身未带有[TimeRentalTwoPersonality]，则回合结束时使自身获得4层[TimeRentalTwoPersonality](每回合最多1次)\n[WhenUse] 本回合内自身受到敌方単位攻击时，下回合使目标增加2级[Vibration]强度(每回合最多2次)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "抽取时间吧",
-          "desc": "[StartBattle] 若自身未带有[TimeRentalTwoPersonality]，则回合结束时使自身获得4层[TimeRentalTwoPersonality](每回合最多1次)\n[WhenUse] 本回合内自身受到敌方单位攻击时，下回合使目标增加<style=\"highlight\">3</style>级[Vibration]强度(每回合最多<style=\"highlight\">6</style>次)",
+          "name": "抽取时間吧",
+          "desc": "[StartBattle] 若自身未带有[TimeRentalTwoPersonality]，则回合结束时使自身获得4层[TimeRentalTwoPersonality](每回合最多1次)\n[WhenUse] 本回合内自身受到敌方単位攻击时，下回合使目标增加<style=\"highlight\">3</style>级[Vibration]强度(每回合最多<style=\"highlight\">6</style>次)",
           "coinlist": [
             {}
           ]
@@ -1044,7 +1044,7 @@
         {
           "level": 1,
           "name": "忍耐已经结束",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗至多50层[BloodDinner]，每消耗5层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗最多50层[BloodDinner]，每消耗5层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度",
           "coinlist": [
             {},
             {
@@ -1059,7 +1059,7 @@
         {
           "level": 2,
           "name": "忍耐已经结束",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗至多50层[BloodDinner]，每消耗5层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n<style=\"highlight\">[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1</style>",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗最多50层[BloodDinner]，每消耗5层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n<style=\"highlight\">[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1</style>",
           "coinlist": [
             {},
             {
@@ -1074,7 +1074,7 @@
         {
           "level": 4,
           "name": "忍耐已经结束",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗至多50层[BloodDinner]，每消耗5层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n[WhenUse] 目标<style=\"highlight\">每带有6级</style>[Laceration]强度，使本技能的硬币威力+1<style=\"highlight\">(最多+2)</style>",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗最多50层[BloodDinner]，每消耗5层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n[WhenUse] 目标<style=\"highlight\">每带有6级</style>[Laceration]强度，使本技能的硬币威力+1<style=\"highlight\">(最多+2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1100,7 +1100,7 @@
         {
           "level": 1,
           "name": "随心所欲地盛放吧",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n[BeforeAttack] 若自身的[BloodArmorPersonalityFirst]层数不低于10层，则使本技能的攻击容量+1",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n[BeforeAttack] 若自身的[BloodArmorPersonalityFirst]层数不低于10层，则使本技能的攻击容量+1",
           "coinlist": [
             {
               "coindescs": [
@@ -1124,7 +1124,7 @@
         {
           "level": 2,
           "name": "随心所欲地盛放吧",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n<style=\"highlight\">[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1</style>\n[BeforeAttack] 自身<style=\"highlight\">每带有10层</style>[BloodArmorPersonalityFirst]，使本技能的攻击容量+1<style=\"highlight\">(最多+2)</style>",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n<style=\"highlight\">[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1</style>\n[BeforeAttack] 自身<style=\"highlight\">每带有10层</style>[BloodArmorPersonalityFirst]，使本技能的攻击容量+1<style=\"highlight\">(最多+2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1148,7 +1148,7 @@
         {
           "level": 4,
           "name": "随心所欲地盛放吧",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n[WhenUse] 目标<style=\"highlight\">每带有6级</style>[Laceration]强度，使本技能的硬币威力+1<style=\"highlight\">(最多+2)</style>\n[BeforeAttack] 自身每带有10层[BloodArmorPersonalityFirst]，使本技能的攻击容量+1(最多+2)",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量30%的体力(最多10点)\n[WhenUse] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加5级[Laceration]强度\n[WhenUse] 目标<style=\"highlight\">每带有6级</style>[Laceration]强度，使本技能的硬币威力+1<style=\"highlight\">(最多+2)</style>\n[BeforeAttack] 自身每带有10层[BloodArmorPersonalityFirst]，使本技能的攻击容量+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1177,7 +1177,7 @@
         {
           "level": 3,
           "name": "将由我来刺穿",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多10点)\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，使本技能的拼点威力+1(最多+2)\n[WhenUse] 若目标的[Laceration]强度不低于10级，则使本技能的硬币威力+1\n[WhenUse] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%(最多+50%)\n自身每带有100层[BloodDinner_Accumulation]，使本技能造成的伤害+10%(最多+50%)\n[EndSkill] 若击杀目标，则获得30层[BloodDinner]，并使自身获得10层[BloodArmorPersonalityFirst](每回合最多1次)",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多10点)\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，使本技能的拼点威力+1(最多+2)\n[WhenUse] 若目标的[Laceration]强度不低于10级，则使本技能的硬币威力+1\n[WhenUse] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%(最多+50%)\n自身每带有100层[BloodDinner_Accumulation]，使本技能造成的伤害+10%(最多+50%)\n[EndSkill] 若击杀目标，则获得30层[BloodDinner]，并使自身获得10层[BloodArmorPersonalityFirst](每回合最多1次)",
           "coinlist": [
             {},
             {},
@@ -1193,7 +1193,7 @@
         {
           "level": 4,
           "name": "将由我来刺穿",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多10点)\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，使本技能的拼点威力+1(最多+2)\n[WhenUse] 目标<style=\"highlight\">每带有5级</style>[Laceration]强度，使本技能的硬币威力+1<style=\"highlight\">(最多+2)</style>\n[WhenUse] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%(最多+50%)\n自身每带有100层[BloodDinner_Accumulation]，使本技能造成的伤害+<style=\"highlight\">20</style>%(最多+<style=\"highlight\">100</style>%)\n[EndSkill] 若击杀目标，则获得<style=\"highlight\">60</style>层[BloodDinner]，并使自身获得10层[BloodArmorPersonalityFirst](每回合最多1次)",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多10点)\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，使本技能的拼点威力+1(最多+2)\n[WhenUse] 目标<style=\"highlight\">每带有5级</style>[Laceration]强度，使本技能的硬币威力+1<style=\"highlight\">(最多+2)</style>\n[WhenUse] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%(最多+50%)\n自身每带有100层[BloodDinner_Accumulation]，使本技能造成的伤害+<style=\"highlight\">20</style>%(最多+<style=\"highlight\">100</style>%)\n[EndSkill] 若击杀目标，则获得<style=\"highlight\">60</style>层[BloodDinner]，并使自身获得10层[BloodArmorPersonalityFirst](每回合最多1次)",
           "coinlist": [
             {},
             {},
@@ -1214,7 +1214,7 @@
         {
           "level": 1,
           "name": "笑声将归于寂静",
-          "desc": "[DuelCounter]\n[StartBattle] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度\n[StartBattle] 每有50层[BloodDinner_Common_Accumulation]，使现存体力最低的1名友方单位获得1层[SwirlingBloodPersonality](最多10层，每回合最多1次)",
+          "desc": "[DuelCounter]\n[StartBattle] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度\n[StartBattle] 每有50层[BloodDinner_Common_Accumulation]，使现存体力最低的1名友方単位获得1层[SwirlingBloodPersonality](最多10层，每回合最多1次)",
           "coinlist": [
             {},
             {
@@ -1229,7 +1229,7 @@
         {
           "level": 4,
           "name": "笑声将归于寂静",
-          "desc": "[DuelCounter]\n[StartBattle] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度\n[StartBattle] 每有50层[BloodDinner_Common_Accumulation]，使现存体力最低的1名友方单位获得1层[SwirlingBloodPersonality](最多<style=\"highlight\">15</style>层，每回合最多1次)",
+          "desc": "[DuelCounter]\n[StartBattle] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmorPersonalityFirst]\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度\n[StartBattle] 每有50层[BloodDinner_Common_Accumulation]，使现存体力最低的1名友方単位获得1层[SwirlingBloodPersonality](最多<style=\"highlight\">15</style>层，每回合最多1次)",
           "coinlist": [
             {},
             {
@@ -1249,7 +1249,7 @@
         {
           "level": 1,
           "name": "桑丘变体硬血6式-鞭",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多20点)\n[WhenUse] 使自身增加20级[Laceration]强度\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，令本技能命中时增加的[Laceration]强度额外+1级(最多+2)。攻击后消耗10层[BloodArmorPersonalityFirst]",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多20点)\n[WhenUse] 使自身增加20级[Laceration]强度\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，令本技能命中时增加的[Laceration]强度額外+1级(最多+2)。攻击後消耗10层[BloodArmorPersonalityFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1283,7 +1283,7 @@
         {
           "level": 2,
           "name": "桑丘变体硬血6式-鞭",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多20点)\n<style=\"highlight\">[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身增加20级[Laceration]强度\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，令本技能命中时增加的[Laceration]强度额外+1级(最多+2)。攻击后消耗10层[BloodArmorPersonalityFirst]",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多20点)\n<style=\"highlight\">[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身增加20级[Laceration]强度\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，令本技能命中时增加的[Laceration]强度額外+1级(最多+2)。攻击後消耗10层[BloodArmorPersonalityFirst]",
           "coinlist": [
             {},
             {
@@ -1311,7 +1311,7 @@
         {
           "level": 4,
           "name": "桑丘变体硬血6式-鞭",
-          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多20点)\n[WhenUse] 目标<style=\"highlight\">每带有6级</style>[Laceration]强度，使本技能的硬币威力+1<style=\"highlight\">(最多+2)</style>\n[WhenUse] 使自身增加20级[Laceration]强度\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，令本技能命中时增加的[Laceration]强度额外+1级(最多+2)。攻击后消耗10层[BloodArmorPersonalityFirst]",
+          "desc": "本技能命中时，使自身恢复造成体力伤害量50%的体力(最多20点)\n[WhenUse] 目标<style=\"highlight\">每带有6级</style>[Laceration]强度，使本技能的硬币威力+1<style=\"highlight\">(最多+2)</style>\n[WhenUse] 使自身增加20级[Laceration]强度\n[WhenUse] 自身每带有10层[BloodArmorPersonalityFirst]，令本技能命中时增加的[Laceration]强度額外+1级(最多+2)。攻击後消耗10层[BloodArmorPersonalityFirst]",
           "coinlist": [
             {},
             {
@@ -1333,7 +1333,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 触发目标的[Laceration]1次并使其[Laceration]层数减少1层</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 触发目标的[Laceration]1次并使其[Laceration]层数減少1层</style>"
                 }
               ]
             }
@@ -1486,7 +1486,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Laceration]强度并对其施加4层[Laceration]"
                 },
                 {
-                  "desc": "[EndSkill] 若击杀目标，则使全体敌方单位增加5级[Laceration]强度并对全体敌方单位施加1层[Laceration]"
+                  "desc": "[EndSkill] 若击杀目标，则使全体敌方単位增加5级[Laceration]强度并对全体敌方単位施加1层[Laceration]"
                 }
               ]
             }
@@ -1527,7 +1527,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加<style=\"highlight\">8</style>级[Laceration]强度并对其施加4层[Laceration]"
                 },
                 {
-                  "desc": "[EndSkill] 若击杀目标，则使全体敌方单位增加5级[Laceration]强度并对全体敌方单位施加1层[Laceration]"
+                  "desc": "[EndSkill] 若击杀目标，则使全体敌方単位增加5级[Laceration]强度并对全体敌方単位施加1层[Laceration]"
                 }
               ]
             }
@@ -1541,7 +1541,7 @@
         {
           "level": 1,
           "name": "桑丘变体硬血15式-落幕的准备",
-          "desc": "[DuelCounter]\n[StartBattle] 每有40层[BloodDinner_Common_Accumulation]，使现存体力最低的(3+最大共鸣数/2)名友方单位获得(1+自身的[BloodArmorPersonalityFirst]层数/15)层[SwirlingBloodPersonality]，使自身的[BloodArmorPersonalityFirst]层数减半(每名友方单位最多1次，向下取整)",
+          "desc": "[DuelCounter]\n[StartBattle] 每有40层[BloodDinner_Common_Accumulation]，使现存体力最低的(3+最大共鸣数/2)名友方単位获得(1+自身的[BloodArmorPersonalityFirst]层数/15)层[SwirlingBloodPersonality]，使自身的[BloodArmorPersonalityFirst]层数減半(每名友方単位最多1次，向下取整)",
           "coinlist": [
             {},
             {
@@ -1559,7 +1559,7 @@
         {
           "level": 4,
           "name": "桑丘变体硬血15式-落幕的准备",
-          "desc": "[DuelCounter]\n[StartBattle] 每有40层[BloodDinner_Common_Accumulation]，使现存体力最低的(3+最大共鸣数/2)名友方单位获得(1+自身的[BloodArmorPersonalityFirst]层数/<style=\"highlight\">10</style>)层[SwirlingBloodPersonality]，使自身的[BloodArmorPersonalityFirst]层数减半(每名友方单位最多1次，向下取整)",
+          "desc": "[DuelCounter]\n[StartBattle] 每有40层[BloodDinner_Common_Accumulation]，使现存体力最低的(3+最大共鸣数/2)名友方単位获得(1+自身的[BloodArmorPersonalityFirst]层数/<style=\"highlight\">10</style>)层[SwirlingBloodPersonality]，使自身的[BloodArmorPersonalityFirst]层数減半(每名友方単位最多1次，向下取整)",
           "coinlist": [
             {},
             {
@@ -1582,7 +1582,7 @@
         {
           "level": 1,
           "name": "发劲",
-          "desc": "若自身的速度值高于目标至少3点，则使本技能的硬币威力+1\n[WhenUse] 使自身获得2层[Breath]",
+          "desc": "若自身的速度値高于目标至少3点，则使本技能的硬币威力+1\n[WhenUse] 使自身获得2层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1603,7 +1603,7 @@
         {
           "level": 2,
           "name": "发劲",
-          "desc": "若自身的速度值高于目标至少<style=\"highlight\">2</style>点，则使本技能的硬币威力+1\n[WhenUse] 使自身获得2层[Breath]",
+          "desc": "若自身的速度値高于目标至少<style=\"highlight\">2</style>点，则使本技能的硬币威力+1\n[WhenUse] 使自身获得2层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1624,7 +1624,7 @@
         {
           "level": 4,
           "name": "发劲",
-          "desc": "<style=\"highlight\">若自身的速度值高于目标，则根据速度值之差，相应使本技能的硬币威力增加(速度值每相差2点，使本技能的硬币威力+1，最多+2)</style>\n[WhenUse] 使自身获得<style=\"highlight\">3</style>层[Breath]",
+          "desc": "<style=\"highlight\">若自身的速度値高于目标，则根据速度値之差，相応使本技能的硬币威力增加(速度値每相差2点，使本技能的硬币威力+1，最多+2)</style>\n[WhenUse] 使自身获得<style=\"highlight\">3</style>层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1653,7 +1653,7 @@
         {
           "level": 1,
           "name": "翠炎掌",
-          "desc": "若自身的速度值高于目标至少3点，则使本技能的硬币威力+1\n[WinDuel] 使自身增加3级[Breath]强度",
+          "desc": "若自身的速度値高于目标至少3点，则使本技能的硬币威力+1\n[WinDuel] 使自身增加3级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -1684,7 +1684,7 @@
         {
           "level": 2,
           "name": "翠炎掌",
-          "desc": "若自身的速度值高于目标至少<style=\"highlight\">2</style>点，则使本技能的硬币威力+1\n[WinDuel] 使自身增加3级[Breath]强度",
+          "desc": "若自身的速度値高于目标至少<style=\"highlight\">2</style>点，则使本技能的硬币威力+1\n[WinDuel] 使自身增加3级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -1715,7 +1715,7 @@
         {
           "level": 4,
           "name": "翠炎掌",
-          "desc": "<style=\"highlight\">若自身的速度值高于目标，则根据速度值之差，相应使本技能的硬币威力增加(速度值每相差2点，使本技能的硬币威力+1，最多+2)</style>\n[WinDuel] 使自身增加3级[Breath]强度\n<style=\"highlight\">- 使自身获得层数相当于目标[DianxueDonQuixote]层数的[Breath]</style>",
+          "desc": "<style=\"highlight\">若自身的速度値高于目标，则根据速度値之差，相応使本技能的硬币威力增加(速度値每相差2点，使本技能的硬币威力+1，最多+2)</style>\n[WinDuel] 使自身增加3级[Breath]强度\n<style=\"highlight\">- 使自身获得层数相当于目标[DianxueDonQuixote]层数的[Breath]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1737,7 +1737,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加2级[Combustion]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 目标每带有6级[Combustion]强度，对其施加1层[DefenseDown](最多<style=\"highlight\">5</style>层，每回合最多1次)\n<style=\"highlight\">- 对目标额外施加层数相当于其[DianxueDonQuixote]层数的[DefenseDown]</style>"
+                  "desc": "[OnSucceedAttack] 目标每带有6级[Combustion]强度，对其施加1层[DefenseDown](最多<style=\"highlight\">5</style>层，每回合最多1次)\n<style=\"highlight\">- 对目标額外施加层数相当于其[DianxueDonQuixote]层数的[DefenseDown]</style>"
                 }
               ]
             }
@@ -1750,8 +1750,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "请您赐教",
-          "desc": "目标每带有1层[DianxueDonQuixote]，使本技能造成的伤害+10%(最多+30%)\n若自身的速度值高于目标至少2点，则使本技能的硬币威力+1\n[WinDuel] 使自身增加5级[Breath]强度\n- 若目标带有[DianxueDonQuixote]，则使自身额外增加3级[Breath]强度",
+          "name": "請您賜教",
+          "desc": "目标每带有1层[DianxueDonQuixote]，使本技能造成的伤害+10%(最多+30%)\n若自身的速度値高于目标至少2点，则使本技能的硬币威力+1\n[WinDuel] 使自身增加5级[Breath]强度\n- 若目标带有[DianxueDonQuixote]，则使自身額外增加3级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -1785,8 +1785,8 @@
         },
         {
           "level": 4,
-          "name": "请您赐教",
-          "desc": "目标每带有1层[DianxueDonQuixote]，使本技能造成的伤害<style=\"highlight\">+15%</style>(最多+<style=\"highlight\">45%</style>)\n<style=\"highlight\">若自身的速度值高于目标，则根据速度值之差，相应使本技能的硬币威力增加(速度值每相差2点，使本技能的硬币威力+1，最多+2)</style>\n[WinDuel] 使自身增加5级[Breath]强度\n- 若目标带有[DianxueDonQuixote]，则使自身额外增加3级[Breath]强度",
+          "name": "請您賜教",
+          "desc": "目标每带有1层[DianxueDonQuixote]，使本技能造成的伤害<style=\"highlight\">+15%</style>(最多+<style=\"highlight\">45%</style>)\n<style=\"highlight\">若自身的速度値高于目标，则根据速度値之差，相応使本技能的硬币威力增加(速度値每相差2点，使本技能的硬币威力+1，最多+2)</style>\n[WinDuel] 使自身增加5级[Breath]强度\n- 若目标带有[DianxueDonQuixote]，则使自身額外增加3级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -1837,7 +1837,7 @@
         {
           "level": 4,
           "name": "先去学学餐桌礼仪吧！",
-          "desc": "<style=\"highlight\">若自身的速度值高于攻击者，则每相差2点，使本技能的硬币威力+1(最多+2)</style>",
+          "desc": "<style=\"highlight\">若自身的速度値高于攻击者，则每相差2点，使本技能的硬币威力+1(最多+2)</style>",
           "coinlist": [
             {}
           ]
@@ -2104,8 +2104,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "恶人…在哪儿…？",
-          "desc": "自身每带有1层[HystericGauge]，使本技能造成的伤害+3%(最多+9%)\n[WhenUse] 使自身获得2层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去5点理智值",
+          "name": "悪人…在哪儿…？",
+          "desc": "自身每带有1层[HystericGauge]，使本技能造成的伤害+3%(最多+9%)\n[WhenUse] 使自身获得2层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -2128,8 +2128,8 @@
         },
         {
           "level": 2,
-          "name": "恶人…在哪儿…？",
-          "desc": "自身每带有1层[HystericGauge]，使本技能造成的伤害<style=\"highlight\">+4%(最多+12%)</style>\n<style=\"highlight\">[WhenUse] 消耗自身的5层[ThePowerOfLoveAndHate]并使本技能的基础威力+1</style>\n[WhenUse] 使自身获得<style=\"highlight\">3</style>层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去5点理智值",
+          "name": "悪人…在哪儿…？",
+          "desc": "自身每带有1层[HystericGauge]，使本技能造成的伤害<style=\"highlight\">+4%(最多+12%)</style>\n<style=\"highlight\">[WhenUse] 消耗自身的5层[ThePowerOfLoveAndHate]并使本技能的基础威力+1</style>\n[WhenUse] 使自身获得<style=\"highlight\">3</style>层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -2152,8 +2152,8 @@
         },
         {
           "level": 4,
-          "name": "恶人…在哪儿…？",
-          "desc": "自身每带有1层[HystericGauge]，使本技能造成的伤害<style=\"highlight\">+5%(最多+15%)</style>\n[WhenUse] 消耗自身的5层[ThePowerOfLoveAndHate]并使本技能的基础威力+1\n<style=\"highlight\">[WhenUse] 自身每带有2级[ThePowerOfLoveAndHate]强度，使本技能的基础威力+1(最多+2)</style>\n[WhenUse] 使自身获得3层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去5点理智值",
+          "name": "悪人…在哪儿…？",
+          "desc": "自身每带有1层[HystericGauge]，使本技能造成的伤害<style=\"highlight\">+5%(最多+15%)</style>\n[WhenUse] 消耗自身的5层[ThePowerOfLoveAndHate]并使本技能的基础威力+1\n<style=\"highlight\">[WhenUse] 自身每带有2级[ThePowerOfLoveAndHate]强度，使本技能的基础威力+1(最多+2)</style>\n[WhenUse] 使自身获得3层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -2179,8 +2179,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "从我的脑袋里出去…",
-          "desc": "若自身带有[HystericGauge]，则使本技能的拼点威力+1\n[WhenUse] 使自身获得3层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去8点理智值",
+          "name": "从我的脳袋里出去…",
+          "desc": "若自身带有[HystericGauge]，则使本技能的拼点威力+1\n[WhenUse] 使自身获得3层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去8点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -2200,8 +2200,8 @@
         },
         {
           "level": 2,
-          "name": "从我的脑袋里出去…",
-          "desc": "若自身带有[HystericGauge]，则使本技能的<style=\"highlight\">基础威力+1</style>\n<style=\"highlight\">[WhenUse] 消耗自身的6层[ThePowerOfLoveAndHate]并使本技能的基础威力+1</style>\n[WhenUse] 使自身获得3层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去8点理智值",
+          "name": "从我的脳袋里出去…",
+          "desc": "若自身带有[HystericGauge]，则使本技能的<style=\"highlight\">基础威力+1</style>\n<style=\"highlight\">[WhenUse] 消耗自身的6层[ThePowerOfLoveAndHate]并使本技能的基础威力+1</style>\n[WhenUse] 使自身获得3层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去8点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -2224,8 +2224,8 @@
         },
         {
           "level": 4,
-          "name": "从我的脑袋里出去…",
-          "desc": "<style=\"highlight\">自身每带有1层[HystericGauge]，使本技能的基础威力+1(最多+2)\n- 若自身的[HystericGauge]层数为3层，则使本技能的攻击容量+1\n- 使本技能对次要目标造成的伤害-50%</style>\n[WhenUse] 消耗自身的6层[ThePowerOfLoveAndHate]并使本技能的基础威力+1\n[WhenUse] 使自身获得<style=\"highlight\">5</style>层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去8点理智值",
+          "name": "从我的脳袋里出去…",
+          "desc": "<style=\"highlight\">自身每带有1层[HystericGauge]，使本技能的基础威力+1(最多+2)\n- 若自身的[HystericGauge]层数為3层，则使本技能的攻击容量+1\n- 使本技能对次要目标造成的伤害-50%</style>\n[WhenUse] 消耗自身的6层[ThePowerOfLoveAndHate]并使本技能的基础威力+1\n[WhenUse] 使自身获得<style=\"highlight\">5</style>层[ThePowerOfLoveAndHate]\n[WhenUse] 使自身失去8点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -2254,7 +2254,7 @@
         {
           "level": 3,
           "name": "逆位律动/逆位阿卡纳光破斩",
-          "desc": "使本技能对次要目标造成的伤害-50%\n\n[WhenUse] 消耗所有[HystericGauge]并使本技能的拼点威力+1\n[WhenUse] 消耗自身的8层[ThePowerOfLoveAndHate]并使本技能的拼点威力+1(最多+2)\n自身每带有1级[ThePowerOfLoveAndHate]强度，使本技能造成的伤害+15%(最多+60%)\n[BeforeAttack] 消耗自身所有[ArcanaQueenOfHate]并使本技能的攻击容量+1\n[BeforeAttack] 若本技能仅指定1名目标(若是集中遭遇战，则改为1个部位)且本技能的攻击容量不低于2点，则使本技能造成的伤害+20%\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-6(最多-18)\n[EndBattle] 若自身的理智值不为-45点且低于0点，则使自身恢复10点理智值。根据自身理智值与0点之差，相应使自身额外恢复理智值(每相差1点，额外恢复2点理智值，最多50点)\n[WhenUse] 使自身失去10点理智值",
+          "desc": "使本技能对次要目标造成的伤害-50%\n\n[WhenUse] 消耗所有[HystericGauge]并使本技能的拼点威力+1\n[WhenUse] 消耗自身的8层[ThePowerOfLoveAndHate]并使本技能的拼点威力+1(最多+2)\n自身每带有1级[ThePowerOfLoveAndHate]强度，使本技能造成的伤害+15%(最多+60%)\n[BeforeAttack] 消耗自身所有[ArcanaQueenOfHate]并使本技能的攻击容量+1\n[BeforeAttack] 若本技能僅指定1名目标(若是集中遭遇战，则改為1个部位)且本技能的攻击容量不低于2点，则使本技能造成的伤害+20%\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-6(最多-18)\n[EndBattle] 若自身的理智値不為-45点且低于0点，则使自身恢复10点理智値。根据自身理智値与0点之差，相応使自身額外恢复理智値(每相差1点，額外恢复2点理智値，最多50点)\n[WhenUse] 使自身失去10点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -2288,7 +2288,7 @@
         {
           "level": 4,
           "name": "逆位律动/逆位阿卡纳光破斩",
-          "desc": "使本技能对次要目标造成的伤害-50%\n\n[WhenUse] 消耗所有[HystericGauge]，<style=\"highlight\">每消耗1层[HystericGauge]，使本技能的拼点威力+1(最多+3)</style>\n[WhenUse] 消耗自身的<style=\"highlight\">5</style>层[ThePowerOfLoveAndHate]并使本技能的拼点威力+1<style=\"highlight\">(最多+4)</style>\n自身每带有1级[ThePowerOfLoveAndHate]强度，使本技能造成的伤害+<style=\"highlight\">30</style>%(最多+<style=\"highlight\">150</style>%)\n[BeforeAttack] 消耗自身所有[ArcanaQueenOfHate]，<style=\"highlight\">每消耗1层[ArcanaQueenOfHate]，使本技能的攻击容量+1(最多+3)\n- 若本技能消耗了3层[HystericGauge]，则使本技能的攻击容量+1</style>\n[BeforeAttack] 若本技能仅指定1名目标(若是集中遭遇战，则改为1个部位)，<style=\"highlight\">则使本技能造成的伤害+(20×(本技能的攻击容量-1))%(最多+80%)</style>\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-6(最多-18)\n[EndBattle] 若自身的理智值不为-45点且低于0点，则使自身恢复10点理智值。根据自身理智值与0点之差，相应使自身额外恢复理智值(每相差1点，额外恢复2点理智值，最多50点)\n[WhenUse] 使自身失去10点理智值",
+          "desc": "使本技能对次要目标造成的伤害-50%\n\n[WhenUse] 消耗所有[HystericGauge]，<style=\"highlight\">每消耗1层[HystericGauge]，使本技能的拼点威力+1(最多+3)</style>\n[WhenUse] 消耗自身的<style=\"highlight\">5</style>层[ThePowerOfLoveAndHate]并使本技能的拼点威力+1<style=\"highlight\">(最多+4)</style>\n自身每带有1级[ThePowerOfLoveAndHate]强度，使本技能造成的伤害+<style=\"highlight\">30</style>%(最多+<style=\"highlight\">150</style>%)\n[BeforeAttack] 消耗自身所有[ArcanaQueenOfHate]，<style=\"highlight\">每消耗1层[ArcanaQueenOfHate]，使本技能的攻击容量+1(最多+3)\n- 若本技能消耗了3层[HystericGauge]，则使本技能的攻击容量+1</style>\n[BeforeAttack] 若本技能僅指定1名目标(若是集中遭遇战，则改為1个部位)，<style=\"highlight\">则使本技能造成的伤害+(20×(本技能的攻击容量-1))%(最多+80%)</style>\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-6(最多-18)\n[EndBattle] 若自身的理智値不為-45点且低于0点，则使自身恢复10点理智値。根据自身理智値与0点之差，相応使自身額外恢复理智値(每相差1点，額外恢复2点理智値，最多50点)\n[WhenUse] 使自身失去10点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -2444,7 +2444,7 @@
         {
           "level": 2,
           "name": "破竹之势",
-          "desc": "<style=\"highlight\">若目标的[Burst]强度与[Sinking]强度之和不低于6级，则使本技能的硬币威力+1\n[StartBattle] 若自身带有[GrownHorns]，则使本技能的最后一枚硬币转化为[SuperCoin]</style>",
+          "desc": "<style=\"highlight\">若目标的[Burst]强度与[Sinking]强度之和不低于6级，则使本技能的硬币威力+1\n[StartBattle] 若自身带有[GrownHorns]，则使本技能的最後一枚硬币転化為[SuperCoin]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2469,7 +2469,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自身每带有1层[GrownHorns]，对目标额外造成本硬币最终伤害量5%的斩击伤害(最多15%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自身每带有1层[GrownHorns]，对目标額外造成本硬币最终伤害量5%的斩击伤害(最多15%)</style>"
                 }
               ]
             }
@@ -2478,7 +2478,7 @@
         {
           "level": 4,
           "name": "破竹之势",
-          "desc": "目标的[Burst]强度与[Sinking]强度之和每有<style=\"highlight\">6级，使本技能的硬币威力+1(最多+2)</style>\n[StartBattle] 若自身带有[GrownHorns]，则使本技能的最后一枚硬币转化为[SuperCoin]，<style=\"highlight\">且每带有1层[GrownHorns]，使本技能的最后一枚硬币造成的伤害+5%(最多+15%)</style>",
+          "desc": "目标的[Burst]强度与[Sinking]强度之和每有<style=\"highlight\">6级，使本技能的硬币威力+1(最多+2)</style>\n[StartBattle] 若自身带有[GrownHorns]，则使本技能的最後一枚硬币転化為[SuperCoin]，<style=\"highlight\">且每带有1层[GrownHorns]，使本技能的最後一枚硬币造成的伤害+5%(最多+15%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2503,7 +2503,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加<style=\"highlight\">2</style>级[Sinking]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自身每带有1层[GrownHorns]，对目标额外造成本硬币最终伤害量<style=\"highlight\">10%</style>的斩击伤害(最多<style=\"highlight\">30%</style>)"
+                  "desc": "[OnSucceedAttack] 自身每带有1层[GrownHorns]，对目标額外造成本硬币最终伤害量<style=\"highlight\">10%</style>的斩击伤害(最多<style=\"highlight\">30%</style>)"
                 }
               ]
             }
@@ -2517,7 +2517,7 @@
         {
           "level": 3,
           "name": "破碎角",
-          "desc": "若目标的[Burst]强度与[Sinking]强度之和不低于6级，则使本技能的硬币威力+1\n[StartBattle] 若自身带有[GrownHorns]，则使本技能的所有硬币转化为[SuperCoin]\n[WhenUse] 使自身获得3层[GrownHorns]",
+          "desc": "若目标的[Burst]强度与[Sinking]强度之和不低于6级，则使本技能的硬币威力+1\n[StartBattle] 若自身带有[GrownHorns]，则使本技能的所有硬币転化為[SuperCoin]\n[WhenUse] 使自身获得3层[GrownHorns]",
           "coinlist": [
             {},
             {
@@ -2543,7 +2543,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "目标每带有1层改变恐慌类型的状态效果，使本硬币造成的伤害+5%(最多+15%)"
+                  "desc": "目标每带有1层改变恐慌類型的状态效果，使本硬币造成的伤害+5%(最多+15%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 对目标造成本硬币最终伤害量25%的斩击伤害"
@@ -2558,7 +2558,7 @@
         {
           "level": 4,
           "name": "破碎角",
-          "desc": "目标的[Burst]强度与[Sinking]强度之和每有<style=\"highlight\">6级，使本技能的硬币威力+1(最多+2)</style>\n[StartBattle] 若自身带有[GrownHorns]，则使本技能的所有硬币转化为[SuperCoin]，<style=\"highlight\">且每带有1层[GrownHorns]，使本技能造成的伤害+10%(最多+30%)</style>\n[WhenUse] 使自身获得3层[GrownHorns]",
+          "desc": "目标的[Burst]强度与[Sinking]强度之和每有<style=\"highlight\">6级，使本技能的硬币威力+1(最多+2)</style>\n[StartBattle] 若自身带有[GrownHorns]，则使本技能的所有硬币転化為[SuperCoin]，<style=\"highlight\">且每带有1层[GrownHorns]，使本技能造成的伤害+10%(最多+30%)</style>\n[WhenUse] 使自身获得3层[GrownHorns]",
           "coinlist": [
             {},
             {
@@ -2584,13 +2584,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "目标每带有1层改变恐慌类型的状态效果，使本硬币造成的伤害<style=\"highlight\">+10%</style>(最多+<style=\"highlight\">30%</style>)"
+                  "desc": "目标每带有1层改变恐慌類型的状态效果，使本硬币造成的伤害<style=\"highlight\">+10%</style>(最多+<style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 对目标造成本硬币最终伤害量25%的斩击伤害\n<style=\"highlight\">-若目标带有[CrushMarks]，则改为对目标造成本硬币最终伤害量50%的斩击伤害</style>"
+                  "desc": "[OnSucceedAttack] 对目标造成本硬币最终伤害量25%的斩击伤害\n<style=\"highlight\">-若目标带有[CrushMarks]，则改為对目标造成本硬币最终伤害量50%的斩击伤害</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 下回合对目标施加3层[CrushMarks]\n<style=\"highlight\">- 若其带有改变恐慌类型的状态效果，则对其施加3层[Sinking](每回合最多1次)</style>"
+                  "desc": "[OnSucceedAttack] 下回合对目标施加3层[CrushMarks]\n<style=\"highlight\">- 若其带有改变恐慌類型的状态效果，则对其施加3层[Sinking](每回合最多1次)</style>"
                 }
               ]
             }
@@ -2651,7 +2651,7 @@
         {
           "level": 1,
           "name": "粉碎颅骨",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害+10%\n[WhenUse] 使自身获得1层[Breath]",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害+10%\n[WhenUse] 使自身获得1层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2672,7 +2672,7 @@
         {
           "level": 2,
           "name": "粉碎颅骨",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害+10%\n<style=\"highlight\">若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身获得<style=\"highlight\">2</style>层[Breath]",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害+10%\n<style=\"highlight\">若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身获得<style=\"highlight\">2</style>层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2693,7 +2693,7 @@
         {
           "level": 4,
           "name": "粉碎颅骨",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能<style=\"highlight\">的最终威力+1</style>，造成的伤害<style=\"highlight\">+15%</style>\n自身的[Breath]强度与目标的[Sinking]强度之和<style=\"highlight\">每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身获得2层[Breath]",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能<style=\"highlight\">的最终威力+1</style>，造成的伤害<style=\"highlight\">+15%</style>\n自身的[Breath]强度与目标的[Sinking]强度之和<style=\"highlight\">每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身获得2层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2722,7 +2722,7 @@
         {
           "level": 1,
           "name": "噤、噤声",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能的拼点威力+1\n[WhenUse] 使自身增加3级[Breath]强度",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能的拼点威力+1\n[WhenUse] 使自身增加3级[Breath]强度",
           "coinlist": [
             {},
             {
@@ -2744,7 +2744,7 @@
         {
           "level": 2,
           "name": "噤、噤声",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能的拼点威力+1\n<style=\"highlight\">若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身增加3级[Breath]强度",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能的拼点威力+1\n<style=\"highlight\">若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身增加3级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -2772,7 +2772,7 @@
         {
           "level": 4,
           "name": "噤、噤声",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能的<style=\"highlight\">最终威力+1</style>\n自身的[Breath]强度与目标的[Sinking]强度之和<style=\"highlight\">每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身增加3级[Breath]强度",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能的<style=\"highlight\">最终威力+1</style>\n自身的[Breath]强度与目标的[Sinking]强度之和<style=\"highlight\">每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身增加3级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -2808,7 +2808,7 @@
         {
           "level": 3,
           "name": "立、立刻执行指令…",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能暴击时造成的伤害+20%\n自身的[Breath]强度与目标的[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+2)\n[StartBattle] 若自身的[UnlockBuff_Base]阶段不低于2，则使本技能的所有硬币转化为[SuperCoin]\n[WhenUse] 使自身获得3层[Breath]",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能暴击时造成的伤害+20%\n自身的[Breath]强度与目标的[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+2)\n[StartBattle] 若自身的[UnlockBuff_Base]階段不低于2，则使本技能的所有硬币転化為[SuperCoin]\n[WhenUse] 使自身获得3层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2820,7 +2820,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "自身的[UnlockBuff_Base]每有1阶段，使本硬币造成的伤害+20%(最多+60%)"
+                  "desc": "自身的[UnlockBuff_Base]每有1階段，使本硬币造成的伤害+20%(最多+60%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加2级[Sinking]强度并对其施加1层[Sinking]"
@@ -2835,7 +2835,7 @@
         {
           "level": 4,
           "name": "立、立刻执行指令…",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能<style=\"highlight\">的硬币威力+1</style>，暴击时造成的伤害<style=\"highlight\">+40%</style>\n自身的[Breath]强度与目标的[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+<style=\"highlight\">4</style>)\n[StartBattle] 若自身的[UnlockBuff_Base]阶段不低于2，则使本技能的所有硬币转化为[SuperCoin]，<style=\"highlight\">且自身的[UnlockBuff_Base]每有1阶段，使本技能造成的伤害+20%(最多+60%)</style>\n[WhenUse] 使自身获得3层[Breath]\n<style=\"highlight\">- 额外使自身增加相当于自身[UnlockBuff_Base]阶段的[Breath]强度</style>",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能<style=\"highlight\">的硬币威力+1</style>，暴击时造成的伤害<style=\"highlight\">+40%</style>\n自身的[Breath]强度与目标的[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+<style=\"highlight\">4</style>)\n[StartBattle] 若自身的[UnlockBuff_Base]階段不低于2，则使本技能的所有硬币転化為[SuperCoin]，<style=\"highlight\">且自身的[UnlockBuff_Base]每有1階段，使本技能造成的伤害+20%(最多+60%)</style>\n[WhenUse] 使自身获得3层[Breath]\n<style=\"highlight\">- 額外使自身增加相当于自身[UnlockBuff_Base]階段的[Breath]强度</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2847,7 +2847,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "自身的[UnlockBuff_Base]每有1阶段，使本硬币造成的伤害<style=\"highlight\">+40%</style>(最多+<style=\"highlight\">120%</style>)"
+                  "desc": "自身的[UnlockBuff_Base]每有1階段，使本硬币造成的伤害<style=\"highlight\">+40%</style>(最多+<style=\"highlight\">120%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加2级[Sinking]强度并对其施加1层[Sinking]<style=\"highlight\"></style>"
@@ -2866,8 +2866,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "指令所赐、指令织就之布",
-          "desc": "自身的[UnlockBuff_Base]每有1阶段，使本技能的最终威力+1(最多+3)\n[StartBattle] 使自身获得自身体力上限10%的护盾(每回合最多1次)\n- 自身每带有5层[KarmaOfIndexAlly]，使该效果获得的护盾减少1%，若自身的[KarmaOfIndexAlly]层数不低于50层，则不会获得护盾\n[WhenUse] 使自身获得2层[Breath]\n[EndBattle] 若自身未带有[UnlockBuff_Base]，则使自身获得[UnlockBuffAlly_1](每回合最多1次)\n- 使自身的[BlessingOfIndexPrescriptAlly]层数变为3层\n- 每获得1层[BlessingOfIndexPrescriptAlly]，下回合开始时对自身施加5层[KarmaOfIndexAlly]",
+          "name": "指令所賜、指令织就之布",
+          "desc": "自身的[UnlockBuff_Base]每有1階段，使本技能的最终威力+1(最多+3)\n[StartBattle] 使自身获得自身体力上限10%的护盾(每回合最多1次)\n- 自身每带有5层[KarmaOfIndexAlly]，使該效果获得的护盾減少1%，若自身的[KarmaOfIndexAlly]层数不低于50层，则不会获得护盾\n[WhenUse] 使自身获得2层[Breath]\n[EndBattle] 若自身未带有[UnlockBuff_Base]，则使自身获得[UnlockBuffAlly_1](每回合最多1次)\n- 使自身的[BlessingOfIndexPrescriptAlly]层数变為3层\n- 每获得1层[BlessingOfIndexPrescriptAlly]，下回合開始时对自身施加5层[KarmaOfIndexAlly]",
           "coinlist": [
             {
               "coindescs": [
@@ -2888,8 +2888,8 @@
         },
         {
           "level": 4,
-          "name": "指令所赐、指令织就之布",
-          "desc": "自身的[UnlockBuff_Base]每有1阶段，使本技能的最终威力+1，<style=\"highlight\">造成的伤害+15%</style>(最多+3；<style=\"highlight\">最多+45%</style>)\n[StartBattle] 使自身获得自身体力上限<style=\"highlight\">15%</style>的护盾(每回合最多1次)\n- 自身每带有5层[KarmaOfIndexAlly]，使该效果获得的护盾减少<style=\"highlight\">1.5%</style>，若自身的[KarmaOfIndexAlly]层数不低于50层，则不会获得护盾\n[WhenUse] 使自身获得2层[Breath]\n[EndBattle] 若自身未带有[UnlockBuff_Base]，则使自身获得[UnlockBuffAlly_1](每回合最多1次)\n- 使自身的[BlessingOfIndexPrescriptAlly]层数变为3层\n- 每获得1层[BlessingOfIndexPrescriptAlly]，下回合开始时对自身施加5层[KarmaOfIndexAlly]",
+          "name": "指令所賜、指令织就之布",
+          "desc": "自身的[UnlockBuff_Base]每有1階段，使本技能的最终威力+1，<style=\"highlight\">造成的伤害+15%</style>(最多+3；<style=\"highlight\">最多+45%</style>)\n[StartBattle] 使自身获得自身体力上限<style=\"highlight\">15%</style>的护盾(每回合最多1次)\n- 自身每带有5层[KarmaOfIndexAlly]，使該效果获得的护盾減少<style=\"highlight\">1.5%</style>，若自身的[KarmaOfIndexAlly]层数不低于50层，则不会获得护盾\n[WhenUse] 使自身获得2层[Breath]\n[EndBattle] 若自身未带有[UnlockBuff_Base]，则使自身获得[UnlockBuffAlly_1](每回合最多1次)\n- 使自身的[BlessingOfIndexPrescriptAlly]层数变為3层\n- 每获得1层[BlessingOfIndexPrescriptAlly]，下回合開始时对自身施加5层[KarmaOfIndexAlly]",
           "coinlist": [
             {
               "coindescs": [
@@ -2921,8 +2921,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "用这双手代替…",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害+10%\n[WhenUse] 使自身获得1层[Breath]\n[EndSkill] 使自身失去3点理智值(每回合最多2次)",
+          "name": "用這双手代替…",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害+10%\n[WhenUse] 使自身获得1层[Breath]\n[EndSkill] 使自身失去3点理智値(每回合最多2次)",
           "coinlist": [
             {
               "coindescs": [
@@ -2942,8 +2942,8 @@
         },
         {
           "level": 2,
-          "name": "用这双手代替…",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害+10%\n<style=\"highlight\">若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身获得<style=\"highlight\">2</style>层[Breath]\n[EndSkill] 使自身失去3点理智值(每回合最多2次)",
+          "name": "用這双手代替…",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害+10%\n<style=\"highlight\">若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身获得<style=\"highlight\">2</style>层[Breath]\n[EndSkill] 使自身失去3点理智値(每回合最多2次)",
           "coinlist": [
             {
               "coindescs": [
@@ -2963,8 +2963,8 @@
         },
         {
           "level": 4,
-          "name": "用这双手代替…",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害<style=\"highlight\">+15%</style>\n自身的[Breath]强度与目标的[Sinking]强度之和<style=\"highlight\">每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身获得2层[Breath]\n[EndSkill] 使自身失去3点理智值(每回合最多2次)",
+          "name": "用這双手代替…",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害<style=\"highlight\">+15%</style>\n自身的[Breath]强度与目标的[Sinking]强度之和<style=\"highlight\">每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身获得2层[Breath]\n[EndSkill] 使自身失去3点理智値(每回合最多2次)",
           "coinlist": [
             {
               "coindescs": [
@@ -2993,7 +2993,7 @@
         {
           "level": 1,
           "name": "代行：铭刻",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害+5%\n[WhenUse] 使自身增加3级[Breath]强度\n[EndSkill] 使自身失去6点理智值(每回合最多2次)",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害+5%\n[WhenUse] 使自身增加3级[Breath]强度\n[EndSkill] 使自身失去6点理智値(每回合最多2次)",
           "coinlist": [
             {},
             {
@@ -3015,7 +3015,7 @@
         {
           "level": 2,
           "name": "代行：铭刻",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害+5%\n<style=\"highlight\">若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身增加3级[Breath]强度\n[EndSkill] 使自身失去6点理智值(每回合最多2次)",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害+5%\n<style=\"highlight\">若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 使自身增加3级[Breath]强度\n[EndSkill] 使自身失去6点理智値(每回合最多2次)",
           "coinlist": [
             {
               "coindescs": [
@@ -3043,7 +3043,7 @@
         {
           "level": 4,
           "name": "代行：铭刻",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害<style=\"highlight\">+10%</style>\n<style=\"highlight\">自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身增加3级[Breath]强度\n[EndSkill] 使自身失去6点理智值(每回合最多2次)",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害<style=\"highlight\">+10%</style>\n<style=\"highlight\">自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身增加3级[Breath]强度\n[EndSkill] 使自身失去6点理智値(每回合最多2次)",
           "coinlist": [
             {
               "coindescs": [
@@ -3079,7 +3079,7 @@
         {
           "level": 3,
           "name": "代行：抹杀",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害+15%\n若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1\n[WhenUse] 使自身获得3层[Breath]\n[EndSkill] 使自身失去15点理智值(每回合最多2次)",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害+15%\n若自身的[Breath]强度与目标的[Sinking]强度之和不低于6级，则使本技能的硬币威力+1\n[WhenUse] 使自身获得3层[Breath]\n[EndSkill] 使自身失去15点理智値(每回合最多2次)",
           "coinlist": [
             {
               "coindescs": [
@@ -3117,7 +3117,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "自身的[UnlockBuff_Base]每有1阶段，使本硬币造成的伤害+20%(最多+60%)"
+                  "desc": "自身的[UnlockBuff_Base]每有1階段，使本硬币造成的伤害+20%(最多+60%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度"
@@ -3132,7 +3132,7 @@
         {
           "level": 4,
           "name": "代行：抹杀",
-          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标记，则使本技能造成的伤害<style=\"highlight\">+25%</style>\n自身的[Breath]强度与目标的[Sinking]强度之和<style=\"highlight\">每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身获得3层[Breath]\n<style=\"highlight\">- 额外使自身增加相当于自身[UnlockBuff_Base]阶段的[Breath]强度</style>\n[EndSkill] 使自身失去15点理智值(每回合最多2次)",
+          "desc": "若本技能被[IndexPrescriptTargetMarkToEnemy]标記，则使本技能造成的伤害<style=\"highlight\">+25%</style>\n自身的[Breath]强度与目标的[Sinking]强度之和<style=\"highlight\">每有6级，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 使自身获得3层[Breath]\n<style=\"highlight\">- 額外使自身增加相当于自身[UnlockBuff_Base]階段的[Breath]强度</style>\n[EndSkill] 使自身失去15点理智値(每回合最多2次)",
           "coinlist": [
             {
               "coindescs": [
@@ -3170,7 +3170,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "自身的[UnlockBuff_Base]每有1阶段，使本硬币的<style=\"highlight\">威力+1</style>，造成的伤害<style=\"highlight\">+40%</style><style=\"highlight\">(最多+3；最多+120%)</style>"
+                  "desc": "自身的[UnlockBuff_Base]每有1階段，使本硬币的<style=\"highlight\">威力+1</style>，造成的伤害<style=\"highlight\">+40%</style><style=\"highlight\">(最多+3；最多+120%)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度<style=\"highlight\"></style>"
@@ -3190,7 +3190,7 @@
         {
           "level": 1,
           "name": "强制解放",
-          "desc": "[DuelCounter]\n[WhenUse] 使自身增加3级[Breath]强度\n[EndBattle] 若自身的[UnlockBuff_Base]阶段低于3，则触发以下效果(每回合最多1次)\n- 若自身带有[UnlockBuff_Base]，则使其增加1阶段\n- 若自身的[BlessingOfIndexPrescriptAlly]层数低于6层/9层，则使自身的[BlessingOfIndexPrescriptAlly]层数变为6层/9层\n- 每获得1层[BlessingOfIndexPrescriptAlly]，下回合开始时对自身施加5层[KarmaOfIndexAlly]",
+          "desc": "[DuelCounter]\n[WhenUse] 使自身增加3级[Breath]强度\n[EndBattle] 若自身的[UnlockBuff_Base]階段低于3，则触发以下效果(每回合最多1次)\n- 若自身带有[UnlockBuff_Base]，则使其增加1階段\n- 若自身的[BlessingOfIndexPrescriptAlly]层数低于6层/9层，则使自身的[BlessingOfIndexPrescriptAlly]层数变為6层/9层\n- 每获得1层[BlessingOfIndexPrescriptAlly]，下回合開始时对自身施加5层[KarmaOfIndexAlly]",
           "coinlist": [
             {},
             {
@@ -3212,7 +3212,7 @@
         {
           "level": 4,
           "name": "强制解放",
-          "desc": "[DuelCounter]\n<style=\"highlight\">自身的[UnlockBuff_Base]每有1阶段，使本技能的最终威力+1(最多+3)</style>\n[WhenUse] 使自身增加3级[Breath]强度\n[EndBattle] 若自身的[UnlockBuff_Base]阶段低于3，则触发以下效果(每回合最多1次)\n- 若自身带有[UnlockBuff_Base]，则使其增加1阶段\n- 若自身的[BlessingOfIndexPrescriptAlly]层数低于6层/9层，则使自身的[BlessingOfIndexPrescriptAlly]层数变为6层/9层\n- 每获得1层[BlessingOfIndexPrescriptAlly]，下回合开始时对自身施加5层[KarmaOfIndexAlly]",
+          "desc": "[DuelCounter]\n<style=\"highlight\">自身的[UnlockBuff_Base]每有1階段，使本技能的最终威力+1(最多+3)</style>\n[WhenUse] 使自身增加3级[Breath]强度\n[EndBattle] 若自身的[UnlockBuff_Base]階段低于3，则触发以下效果(每回合最多1次)\n- 若自身带有[UnlockBuff_Base]，则使其增加1階段\n- 若自身的[BlessingOfIndexPrescriptAlly]层数低于6层/9层，则使自身的[BlessingOfIndexPrescriptAlly]层数变為6层/9层\n- 每获得1层[BlessingOfIndexPrescriptAlly]，下回合開始时对自身施加5层[KarmaOfIndexAlly]",
           "coinlist": [
             {},
             {

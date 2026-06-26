@@ -40,7 +40,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加8级[Vibration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -59,10 +59,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标[Switch_Vibration]为[VibrationEcho]"
+                  "desc": "[OnSucceedAttack] 使目标[Switch_Vibration]為[VibrationEcho]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 目标每带有2层[Vibration]，使其[VibrationExplosion]1次(最多2次)。使其[Vibration]层数减少2层"
+                  "desc": "[OnSucceedAttack] 目标每带有2层[Vibration]，使其[VibrationExplosion]1次(最多2次)。使其[Vibration]层数減少2层"
                 },
                 {
                   "desc": "[OnSucceedAttack] 对目标施加4层[Vibration]"
@@ -97,7 +97,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "蚕食冲撞",
+          "name": "蚕食沖撞",
           "desc": "[WhenUse] 若目标的[Sinking]强度不低于5级，则使本技能的硬币威力+1",
           "coinlist": [
             {
@@ -141,7 +141,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "漫溢的忧郁",
+          "name": "漫溢的忧鬱",
           "desc": "[WhenUse] 目标每带有3级[Sinking]强度，使本技能的硬币威力+1(最多+3)\n[WinDuel] 目标每带有5级[Sinking]强度，使本技能的攻击容量+1(最多+2)",
           "coinlist": [
             {
@@ -174,7 +174,7 @@
         {
           "level": 1,
           "name": "闪避",
-          "desc": "[OnSucceedEvade] 使目标失去5点理智值",
+          "desc": "[OnSucceedEvade] 使目标失去5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -193,7 +193,7 @@
         {
           "level": 1,
           "name": "摧垮",
-          "desc": "[WhenUse] 消耗至多20层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmor]\n[WhenUse] 自身每带有10层[BloodArmor]，使本技能的硬币威力+1(最多+2)\n[WhenUse] 自身每带有10级[Laceration]，使本技能的硬币威力+1(最多+3)",
+          "desc": "[WhenUse] 消耗最多20层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmor]\n[WhenUse] 自身每带有10层[BloodArmor]，使本技能的硬币威力+1(最多+2)\n[WhenUse] 自身每带有10级[Laceration]，使本技能的硬币威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -219,7 +219,7 @@
         {
           "level": 1,
           "name": "致伤",
-          "desc": "[WhenUse] 消耗至多20层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmor]\n[WhenUse] 自身每带有10层[BloodArmor]，使本技能的硬币威力+1(最多+2)\n[WhenUse] 自身每带有10级[Laceration]，使本技能的硬币威力+1(最多+3)",
+          "desc": "[WhenUse] 消耗最多20层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmor]\n[WhenUse] 自身每带有10层[BloodArmor]，使本技能的硬币威力+1(最多+2)\n[WhenUse] 自身每带有10级[Laceration]，使本技能的硬币威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -245,7 +245,7 @@
         {
           "level": 1,
           "name": "堂吉诃德派硬血4式-剜除",
-          "desc": "[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1\n[WinDuel] 自身的[BloodArmor]每有1阶段，使本技能造成的伤害+20%(最多+60%)\n[DefeatDuel] 消耗4层[BloodArmor]",
+          "desc": "[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1\n[WinDuel] 自身的[BloodArmor]每有1階段，使本技能造成的伤害+20%(最多+60%)\n[DefeatDuel] 消耗4层[BloodArmor]",
           "coinlist": [
             {
               "coindescs": [
@@ -270,8 +270,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "堂吉诃德派硬血11式-贯穿",
-          "desc": "[WhenUse] 目标每带有3级[Laceration]强度，使本技能的基础威力+1(最多+3)\n[WinDuel] 自身的[BloodArmor]每有1阶段，使本技能造成的伤害+20% (最多+60%)\n[DefeatDuel] 消耗4层[BloodArmor]",
+          "name": "堂吉诃德派硬血11式-貫穿",
+          "desc": "[WhenUse] 目标每带有3级[Laceration]强度，使本技能的基础威力+1(最多+3)\n[WinDuel] 自身的[BloodArmor]每有1階段，使本技能造成的伤害+20% (最多+60%)\n[DefeatDuel] 消耗4层[BloodArmor]",
           "coinlist": [
             {
               "coindescs": [
@@ -304,7 +304,7 @@
         {
           "level": 1,
           "name": "堂吉诃德派桑丘变体4式-追踪",
-          "desc": "优先指定[Laceration]最多的目标\n[BeforeAttack] 自身每带有10层[BloodArmor]，使本技能的攻击容量+1(最多+3)\n[WhenUse] 目标每带有5级[Laceration]强度，使本技能的拼点威力+1(最多+3)\n[WhenUse] 消耗至多30层[BloodDinner]，每消耗15层[BloodDinner]，使自身获得1层[BloodArmor]并使本技能的硬币威力+1(最多2)\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度，立即触发自身的[Laceration]，并使自身的[Laceration]层数减少2层\n[EndSkill] 获得层数相当于本技能伤害量的[BloodDinner]",
+          "desc": "优先指定[Laceration]最多的目标\n[BeforeAttack] 自身每带有10层[BloodArmor]，使本技能的攻击容量+1(最多+3)\n[WhenUse] 目标每带有5级[Laceration]强度，使本技能的拼点威力+1(最多+3)\n[WhenUse] 消耗最多30层[BloodDinner]，每消耗15层[BloodDinner]，使自身获得1层[BloodArmor]并使本技能的硬币威力+1(最多2)\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度，立即触发自身的[Laceration]，并使自身的[Laceration]层数減少2层\n[EndSkill] 获得层数相当于本技能伤害量的[BloodDinner]",
           "coinlist": [
             {
               "coindescs": [
@@ -316,7 +316,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding]\n- 若本技能消耗了30层[BloodDinner]，则额外施加2层[Binding]"
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding]\n- 若本技能消耗了30层[BloodDinner]，则額外施加2层[Binding]"
                 }
               ]
             }
@@ -330,7 +330,7 @@
         {
           "level": 1,
           "name": "堂吉诃德派桑丘变体3式-突袭",
-          "desc": "优先指定[Laceration]最多的目标\n[BeforeAttack] 目标每带有10级[Laceration]强度，使本技能的攻击容量+1(最多+2)\n[WhenUse] 目标每带有5级[Laceration]强度，使本技能的拼点威力+1(最多+3)\n[WhenUse] 消耗至多30层[BloodDinner]，每消耗15层[BloodDinner]，使自身获得1层[BloodArmor]并使本技能的硬币威力+1(最多2)\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度，立即触发自身的[Laceration]，并使自身的[Laceration]层数减少1层\n[EndSkill] 获得层数相当于本技能伤害量的[BloodDinner]",
+          "desc": "优先指定[Laceration]最多的目标\n[BeforeAttack] 目标每带有10级[Laceration]强度，使本技能的攻击容量+1(最多+2)\n[WhenUse] 目标每带有5级[Laceration]强度，使本技能的拼点威力+1(最多+3)\n[WhenUse] 消耗最多30层[BloodDinner]，每消耗15层[BloodDinner]，使自身获得1层[BloodArmor]并使本技能的硬币威力+1(最多2)\n- 若未消耗[BloodDinner]，则使自身增加10级[Laceration]强度，立即触发自身的[Laceration]，并使自身的[Laceration]层数減少1层\n[EndSkill] 获得层数相当于本技能伤害量的[BloodDinner]",
           "coinlist": [
             {
               "coindescs": [
@@ -349,7 +349,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Paralysis]\n- 若本技能消耗了50层[BloodDinner]，则额外施加2层[Paralysis]"
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Paralysis]\n- 若本技能消耗了50层[BloodDinner]，则額外施加2层[Paralysis]"
                 }
               ]
             }
@@ -363,7 +363,7 @@
         {
           "level": 1,
           "name": "堂吉诃德派硬血2式-硬血",
-          "desc": "可无视速度值与本技能拼点\n[StartBattle] 使自身获得1层[SwirlingBlood]\n[StartBattle] 消耗100层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmor]，20点护盾体力\n- 若[BloodDinner]层数不足，则使自身增加50级[Laceration]强度，并使自身的[Laceration]层数减少2层。随后使自身获得200点护盾体力(该伤害不会使自身的体力低于1)\n[DefeatDuel] 带有通过本技能获得的护盾体力时，对自身施加3层[Vulnerable]\n[DefeatDuel] 使本技能造成的伤害-50%\n[EndSkill] 结束本回合",
+          "desc": "可无視速度値与本技能拼点\n[StartBattle] 使自身获得1层[SwirlingBlood]\n[StartBattle] 消耗100层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodArmor]，20点护盾体力\n- 若[BloodDinner]层数不足，则使自身增加50级[Laceration]强度，并使自身的[Laceration]层数減少2层。随後使自身获得200点护盾体力(該伤害不会使自身的体力低于1)\n[DefeatDuel] 带有通過本技能获得的护盾体力时，对自身施加3层[Vulnerable]\n[DefeatDuel] 使本技能造成的伤害-50%\n[EndSkill] 结束本回合",
           "coinlist": [
             {
               "coindescs": [
@@ -405,8 +405,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "冒险结束了",
-          "desc": "目标每带有1级[Laceration]强度，使本技能造成的伤害+10%(最多+200%)\n自身每带有3层[BloodArmor]，使本技能造成的伤害+10%(最多+100%)\n[StartBattle] 消耗(45-自身的理智值)层[BloodDinner]并使自身理智值恢复至45点\n- 若[BloodDinner]层数不足，则使自身增加20级[Laceration]强度并使自身理智值恢复至45点\n- 获得相当于剩余[BloodDinner]层数的护盾体力(最多100点)\n[WinDuel] 使目标增加10级[Laceration]强度\n[EndSkill] 获得相当于对目标造成伤害量的[BloodDinner]层数\n[EndSkill] 若击杀目标，则获得相当于目标体力上限的[BloodDinner]层数",
+          "name": "冒険结束了",
+          "desc": "目标每带有1级[Laceration]强度，使本技能造成的伤害+10%(最多+200%)\n自身每带有3层[BloodArmor]，使本技能造成的伤害+10%(最多+100%)\n[StartBattle] 消耗(45-自身的理智値)层[BloodDinner]并使自身理智値恢复至45点\n- 若[BloodDinner]层数不足，则使自身增加20级[Laceration]强度并使自身理智値恢复至45点\n- 获得相当于剰余[BloodDinner]层数的护盾体力(最多100点)\n[WinDuel] 使目标增加10级[Laceration]强度\n[EndSkill] 获得相当于对目标造成伤害量的[BloodDinner]层数\n[EndSkill] 若击杀目标，则获得相当于目标体力上限的[BloodDinner]层数",
           "coinlist": [
             {
               "coindescs": [
@@ -417,7 +417,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加10级[Laceration]强度并对其施加3层[Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使除目标以外的全体敌方单位增加5级[Laceration]强度并对其施加3层[Laceration]"
+                  "desc": "[OnSucceedAttack] 使除目标以外的全体敌方単位增加5级[Laceration]强度并对其施加3层[Laceration]"
                 }
               ]
             }
@@ -430,8 +430,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "冒险结束了…",
-          "desc": "全体目标总计每带有10级[Laceration]强度，使本技能造成的伤害+40%(最多+200%)\n自身每消耗1层[BloodDinner]，使本技能造成的伤害+10%(最多+100%)\n[StartBattle] 消耗(45-自身的理智值)层[BloodDinner]并使自身理智值恢复至45点\n- 若[BloodDinner]层数不足，则使自身增加20级[Laceration]强度并使自身理智值恢复至45点\n- 获得相当于剩余[BloodDinner]层数的护盾体力(最多100点)\n[WinDuel] 使目标增加10级[Laceration]强度\n[EndSkill] 获得相当于对目标造成伤害量的[BloodDinner]层数\n[EndSkill] 若击杀目标，则获得相当于目标体力上限的[BloodDinner]层数",
+          "name": "冒険结束了…",
+          "desc": "全体目标总計每带有10级[Laceration]强度，使本技能造成的伤害+40%(最多+200%)\n自身每消耗1层[BloodDinner]，使本技能造成的伤害+10%(最多+100%)\n[StartBattle] 消耗(45-自身的理智値)层[BloodDinner]并使自身理智値恢复至45点\n- 若[BloodDinner]层数不足，则使自身增加20级[Laceration]强度并使自身理智値恢复至45点\n- 获得相当于剰余[BloodDinner]层数的护盾体力(最多100点)\n[WinDuel] 使目标增加10级[Laceration]强度\n[EndSkill] 获得相当于对目标造成伤害量的[BloodDinner]层数\n[EndSkill] 若击杀目标，则获得相当于目标体力上限的[BloodDinner]层数",
           "coinlist": [
             {
               "coindescs": [
@@ -452,7 +452,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "压缩",
+          "name": "圧缩",
           "desc": "[WhenUse] 自身每带有5级[Breath]强度，使本技能的最终威力+1(最多+3)",
           "coinlist": [
             {
@@ -486,7 +486,7 @@
                   "desc": "[WinDuelAttack] 对目标施加3层[Vibration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]。使其[VibrationExplosion]时，使其[Vibration]层数减少1层"
+                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]。使其[VibrationExplosion]时，使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -500,7 +500,7 @@
         {
           "level": 1,
           "name": "执行分析",
-          "desc": "[WhenUse] 若自身的[Breath]强度不低于10级，则消耗[Breath]强度，每消耗3级[Breath]强度，使本技能的最终威力+2(最多+4)。该效果每使本技能增加1点最终威力，额外消耗3级[Breath]强度",
+          "desc": "[WhenUse] 若自身的[Breath]强度不低于10级，则消耗[Breath]强度，每消耗3级[Breath]强度，使本技能的最终威力+2(最多+4)。該效果每使本技能增加1点最终威力，額外消耗3级[Breath]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -508,13 +508,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Vibration]层数不低于5层，则使目标[VibrationExplosion]。使其[VibrationExplosion]时，使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]层数不低于5层，则使目标[VibrationExplosion]。使其[VibrationExplosion]时，使其[Vibration]层数減少1层"
                 },
                 {
                   "desc": "[WinDuelAttack] 使目标增加5级[Vibration]强度并对其施加3层[Vibration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]2次。使其[VibrationExplosion]时，使其[Vibration]层数减少1层(若自身拼点胜利，则使减少的效果无效1次)"
+                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]2次。使其[VibrationExplosion]时，使其[Vibration]层数減少1层(若自身拼点胜利，则使減少的效果无效1次)"
                 }
               ]
             }
@@ -528,7 +528,7 @@
         {
           "level": 1,
           "name": "启动销毁程序",
-          "desc": "[WhenUse] 消耗自身一半的[Breath]强度与[Breath]层数\n- 使本技能的最终威力+(消耗的[Breath]强度与[Breath]层数之和/2)(最多+20)\n- 使本技能造成的伤害+(消耗的[Breath]强度×2)%(最多+50%)\n- 使本技能暴击时造成的伤害+(消耗的[Breath]层数×4)%(最多+100%)\n[DefeatDuel] 使自身剩余的[Breath]层数减半",
+          "desc": "[WhenUse] 消耗自身一半的[Breath]强度与[Breath]层数\n- 使本技能的最终威力+(消耗的[Breath]强度与[Breath]层数之和/2)(最多+20)\n- 使本技能造成的伤害+(消耗的[Breath]强度×2)%(最多+50%)\n- 使本技能暴击时造成的伤害+(消耗的[Breath]层数×4)%(最多+100%)\n[DefeatDuel] 使自身剰余的[Breath]层数減半",
           "coinlist": [
             {
               "coindescs": [
@@ -542,7 +542,7 @@
                   "desc": "若自身上回合受到了体力伤害，则使本硬币必定不会暴击，并使造成的伤害-80%"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]3次。使其[VibrationExplosion]时，每触发1次[VibrationExplosion]，使其[Vibration]层数减少3层(最多减少9层)"
+                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]3次。使其[VibrationExplosion]时，每触发1次[VibrationExplosion]，使其[Vibration]层数減少3层(最多減少9层)"
                 }
               ]
             }
@@ -556,7 +556,7 @@
         {
           "level": 1,
           "name": "考察",
-          "desc": "[WhenUse] 自身每带有3级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 使自身增加4级[Breath]强度\n- 若自身带有护盾，则额外使自身获得2层[Breath]",
+          "desc": "[WhenUse] 自身每带有3级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 使自身增加4级[Breath]强度\n- 若自身带有护盾，则額外使自身获得2层[Breath]",
           "coinlist": [
             {}
           ]
@@ -568,7 +568,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "压缩",
+          "name": "圧缩",
           "desc": "[WhenUse] 自身每带有5级[Breath]强度，使本技能的最终威力+1(最多+3)",
           "coinlist": [
             {
@@ -591,7 +591,7 @@
         {
           "level": 1,
           "name": "分解",
-          "desc": "[WhenUse] 自身每带有3级[Breath]强度，使本技能的最终威力+1(最多+5)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若目标的[ObservedPerson]层数不低于20层，则使本技能的所有硬币转化为[SuperCoin]</u></b></mark></color>",
+          "desc": "[WhenUse] 自身每带有3级[Breath]强度，使本技能的最终威力+1(最多+5)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若目标的[ObservedPerson]层数不低于20层，则使本技能的所有硬币転化為[SuperCoin]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -602,7 +602,7 @@
                   "desc": "[WinDuelAttack] 对目标施加3层[Vibration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -624,13 +624,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Vibration]层数不低于5层，则使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 若目标的[Vibration]层数不低于5层，则使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 },
                 {
                   "desc": "[WinDuelAttack] 使目标增加5级[Vibration]强度并对其施加3层[Vibration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]2次，并使其[Vibration]层数减少2层"
+                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]2次，并使其[Vibration]层数減少2层"
                 }
               ]
             }
@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "启动销毁程序",
-          "desc": "[WhenUse] 消耗自身一半的[Breath]强度与[Breath]层数\n- 使本技能的最终威力+(消耗的[Breath]强度与[Breath]层数之和/2)(最多+20)\n- 使本技能造成的伤害+(消耗的[Breath]强度×2)%(最多+50%)\n- 使本技能暴击时造成的伤害+(消耗的[Breath]层数×4)%(最多+100%)\n[DefeatDuel] 使自身剩余的[Breath]层数减半",
+          "desc": "[WhenUse] 消耗自身一半的[Breath]强度与[Breath]层数\n- 使本技能的最终威力+(消耗的[Breath]强度与[Breath]层数之和/2)(最多+20)\n- 使本技能造成的伤害+(消耗的[Breath]强度×2)%(最多+50%)\n- 使本技能暴击时造成的伤害+(消耗的[Breath]层数×4)%(最多+100%)\n[DefeatDuel] 使自身剰余的[Breath]层数減半",
           "coinlist": [
             {
               "coindescs": [
@@ -658,7 +658,7 @@
                   "desc": "若自身上回合受到了体力伤害，则使本硬币必定不会暴击，并使造成的伤害-80%"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]3次，并使其[Vibration]层数减少3层"
+                  "desc": "[CriticalOnSucceedAttack] 使目标[VibrationExplosion]3次，并使其[Vibration]层数減少3层"
                 }
               ]
             }
@@ -672,7 +672,7 @@
         {
           "level": 1,
           "name": "考察",
-          "desc": "[CanDuelGuard]\n[WhenUse] 自身每带有3级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 使自身增加4级[Breath]强度\n- 若自身带有护盾，则额外使自身获得2层[Breath]",
+          "desc": "[CanDuelGuard]\n[WhenUse] 自身每带有3级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 使自身增加4级[Breath]强度\n- 若自身带有护盾，则額外使自身获得2层[Breath]",
           "coinlist": [
             {
               "coindescs": [

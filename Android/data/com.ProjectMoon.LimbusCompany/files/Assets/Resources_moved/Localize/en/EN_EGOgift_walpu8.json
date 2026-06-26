@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": 9233,
-      "name": "夹杂着噪音的对讲机",
+      "name": "夹雑着噪音的对講机",
       "desc": "使用获得或消耗[Bullet]的技能时，下回合使自身获得1层[Agility]与2层[AttackUp](每回合每名人格最多1次)\n- 增加[Sinking]强度，施加[Sinking]层数与施加特殊沉沦的技能造成的伤害+(20/硬币数)%",
       "simpleDesc": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "id": 9234,
-      "name": "喙形项链",
+      "name": "喙形項链",
       "desc": "使用获得或消耗[Bullet]的技能时，下回合使自身获得1层[Agility]与1层[Enhancement](每回合每名人格最多1次)\n- 增加[Laceration]强度，施加[Laceration]层数与施加特殊流血的技能造成的伤害+(20/硬币数)%",
       "simpleDesc": [
         {
@@ -33,7 +33,7 @@
     {
       "id": 9235,
       "name": "亡命之徒",
-      "desc": "根据编入的拥有获得或消耗[Bullet]的攻击技能的人格数，相应强化本饰品效果(不包括E.G.O技能，包括编队中全体单位)\n\n- 不低于2名\n使用获得或消耗[Bullet]的技能时，下回合使自身获得2层[Agility]与4层[AttackUp](每回合每名人格最多1次)\n\n- 不低于5名\n获得或消耗[Bullet]的人格使用的技能拼点威力+1，造成的伤害+10%\n获得或消耗[Bullet]的技能造成的伤害+(100/硬币数)%\n若消耗了所有[Bullet]，则下回合开始时使自身获得4发[Bullet](每场战斗每名人格最多1次)\n\n- 不低于8名\n回合开始时，使获得或消耗[Bullet]的人格获得1层[DesperadoBuff]\n· 若该单位上回合未消耗[Bullet]，则使其额外获得1层[DesperadoBuff]\n战斗结束时，随机对1名敌方单位造成(全体友方单位的[DesperadoBuff]层数之和×3)点突刺伤害(最多30点)\n· 并重复该效果(编入的获得或消耗[Bullet]的友方单位数-1)次",
+      "desc": "根据编入的拥有获得或消耗[Bullet]的攻击技能的人格数，相応强化本飾品效果(不包括E.G.O技能，包括编隊中全体単位)\n\n- 不低于2名\n使用获得或消耗[Bullet]的技能时，下回合使自身获得2层[Agility]与4层[AttackUp](每回合每名人格最多1次)\n\n- 不低于5名\n获得或消耗[Bullet]的人格使用的技能拼点威力+1，造成的伤害+10%\n获得或消耗[Bullet]的技能造成的伤害+(100/硬币数)%\n若消耗了所有[Bullet]，则下回合開始时使自身获得4发[Bullet](每场战斗每名人格最多1次)\n\n- 不低于8名\n回合開始时，使获得或消耗[Bullet]的人格获得1层[DesperadoBuff]\n· 若該単位上回合未消耗[Bullet]，则使其額外获得1层[DesperadoBuff]\n战斗结束时，随机对1名敌方単位造成(全体友方単位的[DesperadoBuff]层数之和×3)点突刺伤害(最多30点)\n· 并重复該效果(编入的获得或消耗[Bullet]的友方単位数-1)次",
       "simpleDesc": [
         {
           "abilityID": 9235,
@@ -53,18 +53,18 @@
         },
         {
           "abilityID": 92354,
-          "simpleDesc": "获得[DesperadoBuff]，满足条件时额外获得[DesperadoBuff]"
+          "simpleDesc": "获得[DesperadoBuff]，满足条件时額外获得[DesperadoBuff]"
         },
         {
           "abilityID": 92355,
-          "simpleDesc": "随机对1名敌方单位造成突刺伤害"
+          "simpleDesc": "随机对1名敌方単位造成突刺伤害"
         }
       ]
     },
     {
       "id": 9236,
       "name": "泛音",
-      "desc": "本回合友方单位或敌方单位阵亡时，下回合对全体单位施加1层[Vulnerable](每个波次最多1次)\n- 触发该效果的下回合友方单位拼点胜利时，使全体友方单位的[Vulnerable]层数减少1层，并使全体敌方单位增加4级[Laceration]强度并对全体敌方单位施加2层[Laceration](每回合最多1次)",
+      "desc": "本回合友方単位或敌方単位陣亡时，下回合对全体単位施加1层[Vulnerable](每个波次最多1次)\n- 触发該效果的下回合友方単位拼点胜利时，使全体友方単位的[Vulnerable]层数減少1层，并使全体敌方単位增加4级[Laceration]强度并对全体敌方単位施加2层[Laceration](每回合最多1次)",
       "simpleDesc": [
         {
           "abilityID": 9236,
@@ -72,14 +72,14 @@
         },
         {
           "abilityID": 92361,
-          "simpleDesc": "全体友方单位的[Vulnerable]层数减少，使全体敌方单位增加[Laceration]强度并对全体敌方单位施加[Laceration]层数"
+          "simpleDesc": "全体友方単位的[Vulnerable]层数減少，使全体敌方単位增加[Laceration]强度并对全体敌方単位施加[Laceration]层数"
         }
       ]
     },
     {
       "id": 19236,
       "name": "泛音+",
-      "desc": "本回合友方单位或敌方单位阵亡时，下回合对全体单位施加1层[Vulnerable](每个波次最多<style=\"upgradeHighlight\">2</style>次)\n- 触发该效果的下回合友方单位拼点胜利时，使全体友方单位的[Vulnerable]层数减少1层，并使全体敌方单位增加4级[Laceration]强度并对全体敌方单位施加2层[Laceration](每回合最多<style=\"upgradeHighlight\">2</style>次)",
+      "desc": "本回合友方単位或敌方単位陣亡时，下回合对全体単位施加1层[Vulnerable](每个波次最多<style=\"upgradeHighlight\">2</style>次)\n- 触发該效果的下回合友方単位拼点胜利时，使全体友方単位的[Vulnerable]层数減少1层，并使全体敌方単位增加4级[Laceration]强度并对全体敌方単位施加2层[Laceration](每回合最多<style=\"upgradeHighlight\">2</style>次)",
       "simpleDesc": [
         {
           "abilityID": 19236,
@@ -87,14 +87,14 @@
         },
         {
           "abilityID": 192361,
-          "simpleDesc": "全体友方单位的[Vulnerable]层数减少，使全体敌方单位增加[Laceration]强度并对全体敌方单位施加[Laceration]层数"
+          "simpleDesc": "全体友方単位的[Vulnerable]层数減少，使全体敌方単位增加[Laceration]强度并对全体敌方単位施加[Laceration]层数"
         }
       ]
     },
     {
       "id": 29236,
       "name": "泛音++",
-      "desc": "本回合友方单位或敌方单位阵亡时，下回合对全体单位施加1层[Vulnerable](每个波次最多<style=\"upgradeHighlight\">3</style>次)\n- 触发该效果的下回合友方单位拼点胜利时，使全体友方单位的[Vulnerable]层数减少1层，并使全体敌方单位增加4级[Laceration]强度并对全体敌方单位施加2层[Laceration](每回合最多<style=\"upgradeHighlight\">3</style>次)",
+      "desc": "本回合友方単位或敌方単位陣亡时，下回合对全体単位施加1层[Vulnerable](每个波次最多<style=\"upgradeHighlight\">3</style>次)\n- 触发該效果的下回合友方単位拼点胜利时，使全体友方単位的[Vulnerable]层数減少1层，并使全体敌方単位增加4级[Laceration]强度并对全体敌方単位施加2层[Laceration](每回合最多<style=\"upgradeHighlight\">3</style>次)",
       "simpleDesc": [
         {
           "abilityID": 29236,
@@ -102,14 +102,14 @@
         },
         {
           "abilityID": 292361,
-          "simpleDesc": "全体友方单位的[Vulnerable]层数减少，使全体敌方单位增加[Laceration]强度并对全体敌方单位施加[Laceration]层数"
+          "simpleDesc": "全体友方単位的[Vulnerable]层数減少，使全体敌方単位增加[Laceration]强度并对全体敌方単位施加[Laceration]层数"
         }
       ]
     },
     {
       "id": 9237,
-      "name": "行进贝斯",
-      "desc": "[第3顺位人格专属]\n\n回合开始时，使自身获得1层[TensionUp]\n\n攻击命中时，以25%的概率使自身与随机1名友方单位获得1层[TensionUp]\n- 若该技能为增加[Laceration]或[Combustion]强度，或施加[Laceration]或[Combustion]层数的技能(包括特殊关键词)，则改为以50%的概率获得",
+      "name": "行進貝斯",
+      "desc": "[第3順位人格专属]\n\n回合開始时，使自身获得1层[TensionUp]\n\n攻击命中时，以25%的概率使自身与随机1名友方単位获得1层[TensionUp]\n- 若該技能為增加[Laceration]或[Combustion]强度，或施加[Laceration]或[Combustion]层数的技能(包括特殊関键詞)，则改為以50%的概率获得",
       "simpleDesc": [
         {
           "abilityID": 9237,
@@ -117,14 +117,14 @@
         },
         {
           "abilityID": 92371,
-          "simpleDesc": "使自身与随机1名友方单位获得[TensionUp]"
+          "simpleDesc": "使自身与随机1名友方単位获得[TensionUp]"
         }
       ]
     },
     {
       "id": 19237,
-      "name": "行进贝斯+",
-      "desc": "[第3、<style=\"upgradeHighlight\">第4</style>顺位人格专属]\n\n回合开始时，使自身获得1层[TensionUp]\n\n攻击命中时，以25%的概率使自身与随机1名友方单位获得1层[TensionUp]\n- 若该技能为增加[Laceration]或[Combustion]强度，或施加[Laceration]或[Combustion]层数的技能(包括特殊关键词)，则改为以<style=\"upgradeHighlight\">75</style>%的概率获得",
+      "name": "行進貝斯+",
+      "desc": "[第3、<style=\"upgradeHighlight\">第4</style>順位人格专属]\n\n回合開始时，使自身获得1层[TensionUp]\n\n攻击命中时，以25%的概率使自身与随机1名友方単位获得1层[TensionUp]\n- 若該技能為增加[Laceration]或[Combustion]强度，或施加[Laceration]或[Combustion]层数的技能(包括特殊関键詞)，则改為以<style=\"upgradeHighlight\">75</style>%的概率获得",
       "simpleDesc": [
         {
           "abilityID": 19237,
@@ -132,14 +132,14 @@
         },
         {
           "abilityID": 192371,
-          "simpleDesc": "使自身与随机1名友方单位获得[TensionUp]"
+          "simpleDesc": "使自身与随机1名友方単位获得[TensionUp]"
         }
       ]
     },
     {
       "id": 29237,
-      "name": "行进贝斯++",
-      "desc": "[第3、第4顺位人格专属]\n\n回合开始时，使自身获得1层[TensionUp]\n\n攻击命中时，以25%的概率使自身与随机<style=\"upgradeHighlight\">2</style>名友方单位获得1层[TensionUp]\n- 若该技能为增加[Laceration]或[Combustion]强度，或施加[Laceration]或[Combustion]层数的技能(包括特殊关键词)，则改为以<style=\"upgradeHighlight\">100</style>%的概率获得",
+      "name": "行進貝斯++",
+      "desc": "[第3、第4順位人格专属]\n\n回合開始时，使自身获得1层[TensionUp]\n\n攻击命中时，以25%的概率使自身与随机<style=\"upgradeHighlight\">2</style>名友方単位获得1层[TensionUp]\n- 若該技能為增加[Laceration]或[Combustion]强度，或施加[Laceration]或[Combustion]层数的技能(包括特殊関键詞)，则改為以<style=\"upgradeHighlight\">100</style>%的概率获得",
       "simpleDesc": [
         {
           "abilityID": 29237,
@@ -147,14 +147,14 @@
         },
         {
           "abilityID": 292371,
-          "simpleDesc": "使自身与随机2名友方单位获得[TensionUp]"
+          "simpleDesc": "使自身与随机2名友方単位获得[TensionUp]"
         }
       ]
     },
     {
       "id": 9238,
       "name": "粉红花瓣",
-      "desc": "友方单位增加[Sinking]强度，施加[Sinking]层数与施加特殊沉沦的技能命中敌方单位时，对该敌方单位施加1层[PinkPetals]\n- 该敌方单位每带有5级[Sinking]，对该敌方单位额外施加1层[PinkPetals](最多4层)",
+      "desc": "友方単位增加[Sinking]强度，施加[Sinking]层数与施加特殊沉沦的技能命中敌方単位时，对該敌方単位施加1层[PinkPetals]\n- 該敌方単位每带有5级[Sinking]，对該敌方単位額外施加1层[PinkPetals](最多4层)",
       "simpleDesc": [
         {
           "abilityID": 9238,
@@ -165,7 +165,7 @@
     {
       "id": 9239,
       "name": "粉红花束",
-      "desc": "突刺技能命中敌方单位时，下回合使自身获得1层[Agility]与1层[PenetrateDamageUp](每回合每名人格最多2次)\n- 该技能击杀敌方单位时，下回合使自身额外获得1层[Agility]与2层[PenetrateDamageUp](每回合每名人格最多1次)\n\n增加[Sinking]强度，施加[Sinking]层数与施加特殊沉沦的技能命中敌方单位时，对其施加2层[PinkPetals]\n- 其每带有5级[Sinking]强度，对其额外施加1层[PinkPetals](最多4层)\n- 若其[PinkPetals]层数不低于10层，则攻击命中时使其增加2级[Vibration]强度(每回合最多3次)\n\n回合结束时，下回合对[Sinking]强度与[Vibration]强度之和不低于5级的敌方单位(若是异想体，则改为以部位判定)施加2层[Binding]与3层[DefenseDown]\n- 若目标的[Sinking]强度与[Vibration]强度之和不低于10级，则改为施加2层[Binding]、1层[Paralysis]与4层[DefenseDown]\n\n回合结束时，若全体敌方单位均带有[PinkPetals]，则下回合使全体友方单位获得1层[Enhancement]",
+      "desc": "突刺技能命中敌方単位时，下回合使自身获得1层[Agility]与1层[PenetrateDamageUp](每回合每名人格最多2次)\n- 該技能击杀敌方単位时，下回合使自身額外获得1层[Agility]与2层[PenetrateDamageUp](每回合每名人格最多1次)\n\n增加[Sinking]强度，施加[Sinking]层数与施加特殊沉沦的技能命中敌方単位时，对其施加2层[PinkPetals]\n- 其每带有5级[Sinking]强度，对其額外施加1层[PinkPetals](最多4层)\n- 若其[PinkPetals]层数不低于10层，则攻击命中时使其增加2级[Vibration]强度(每回合最多3次)\n\n回合结束时，下回合对[Sinking]强度与[Vibration]强度之和不低于5级的敌方単位(若是异想体，则改為以部位判定)施加2层[Binding]与3层[DefenseDown]\n- 若目标的[Sinking]强度与[Vibration]强度之和不低于10级，则改為施加2层[Binding]、1层[Paralysis]与4层[DefenseDown]\n\n回合结束时，若全体敌方単位均带有[PinkPetals]，则下回合使全体友方単位获得1层[Enhancement]",
       "simpleDesc": [
         {
           "abilityID": 9239,
@@ -185,14 +185,14 @@
         },
         {
           "abilityID": 92394,
-          "simpleDesc": "下回合全体友方单位获得[Enhancement]"
+          "simpleDesc": "下回合全体友方単位获得[Enhancement]"
         }
       ]
     },
     {
       "id": 9240,
       "name": "蜂王浆香水",
-      "desc": "[第6顺位人格专属]\n\n关卡开始时，使自身获得[QueenBeepheromone]\n\n受到带有[Combustion]的敌方单位的伤害-15%\n\n回合结束时，下回合对对自身造成的伤害最多的敌方单位(若是集中遭遇战，则改为以部位判定)施加[QueenBeeMark]\n- 若未受到来自敌方单位的伤害，则下回合随机对1名敌方单位(若是集中遭遇战，则改为以部位判定)施加[QueenBeeMark]",
+      "desc": "[第6順位人格专属]\n\n関卡開始时，使自身获得[QueenBeepheromone]\n\n受到带有[Combustion]的敌方単位的伤害-15%\n\n回合结束时，下回合对对自身造成的伤害最多的敌方単位(若是集中遭遇战，则改為以部位判定)施加[QueenBeeMark]\n- 若未受到来自敌方単位的伤害，则下回合随机对1名敌方単位(若是集中遭遇战，则改為以部位判定)施加[QueenBeeMark]",
       "simpleDesc": [
         {
           "abilityID": 9240,
@@ -207,11 +207,11 @@
     {
       "id": 9241,
       "name": "尚且温热的咖啡",
-      "desc": "[第1顺位人格专属]\n\n使用攻击技能的回合结束时，使自身恢复5点理智值\n- 若自身理智值为最大值且属于脑叶公司，则下回合使自身获得1层[PlusCoinValueUp]",
+      "desc": "[第1順位人格专属]\n\n使用攻击技能的回合结束时，使自身恢复5点理智値\n- 若自身理智値為最大値且属于脳叶公司，则下回合使自身获得1层[PlusCoinValueUp]",
       "simpleDesc": [
         {
           "abilityID": 9241,
-          "simpleDesc": "恢复理智值，满足条件的下回合获得[PlusCoinValueUp]"
+          "simpleDesc": "恢复理智値，满足条件的下回合获得[PlusCoinValueUp]"
         }
       ]
     }

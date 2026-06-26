@@ -108,8 +108,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "坚固祭坛",
-          "desc": "[StartBattle] 对带有[Combustion]的全体敌方单位施加3层[Combustion]",
+          "name": "堅固祭坛",
+          "desc": "[StartBattle] 对带有[Combustion]的全体敌方単位施加3层[Combustion]",
           "coinlist": [
             {}
           ]
@@ -122,7 +122,7 @@
         {
           "level": 1,
           "name": "宇宙热寂",
-          "desc": "[CantDuel]\n指定友方单位",
+          "desc": "[CantDuel]\n指定友方単位",
           "coinlist": [
             {}
           ]
@@ -256,7 +256,7 @@
         {
           "level": 1,
           "name": "6463",
-          "desc": "自身每带有50层[AccumulatedPast]，使本技能造成的伤害+10%\n[WhenUse] 目标的[Vibration]强度与[Vibration]层数之和每有10点，使本技能的基础威力+1(最多+3)\n[WhenUse] 若自身的[AccumulatedPast]层数为奇数，则使本技能造成的伤害+30%",
+          "desc": "自身每带有50层[AccumulatedPast]，使本技能造成的伤害+10%\n[WhenUse] 目标的[Vibration]强度与[Vibration]层数之和每有10点，使本技能的基础威力+1(最多+3)\n[WhenUse] 若自身的[AccumulatedPast]层数為奇数，则使本技能造成的伤害+30%",
           "coinlist": [
             {
               "coindescs": [
@@ -278,7 +278,7 @@
         {
           "level": 1,
           "name": "6753",
-          "desc": "自身每带有50层[AccumulatedPast]，使本技能造成的伤害+10%\n[WhenUse] 目标的[Vibration]强度与[Vibration]层数之和每有10点，使本技能的基础威力+1(最多+3)\n[WhenUse] 若自身的[AccumulatedPast]层数为偶数，则使自身获得3层[Protection](每回合最多1次)",
+          "desc": "自身每带有50层[AccumulatedPast]，使本技能造成的伤害+10%\n[WhenUse] 目标的[Vibration]强度与[Vibration]层数之和每有10点，使本技能的基础威力+1(最多+3)\n[WhenUse] 若自身的[AccumulatedPast]层数為偶数，则使自身获得3层[Protection](每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -315,7 +315,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标的混乱阈值前移本硬币伤害量的50%"
+                  "desc": "[OnSucceedAttack] 使目标的混乱閾値前移本硬币伤害量的50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 自身每带有1层[AccumulatedPast]，使本技能造成的伤害+1%(最多+50%)"
@@ -337,7 +337,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标的混乱阈值前移相当于自身[Breath]强度的数值"
+                  "desc": "[OnSucceedAttack] 使目标的混乱閾値前移相当于自身[Breath]强度的数値"
                 }
               ]
             },
@@ -366,7 +366,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若自身的[Breath]强度不低于5级，则使目标的混乱阈值前移本硬币伤害量的50%"
+                  "desc": "[OnSucceedAttack] 若自身的[Breath]强度不低于5级，则使目标的混乱閾値前移本硬币伤害量的50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使所有部位增加8级[Breath]强度并获得4层[Breath]"
@@ -401,7 +401,7 @@
                   "desc": "自身每带有1层[AccumulatedPast]，使本硬币造成的伤害+1%(最多+200%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自身每带有50层[AccumulatedPast]，使目标[VibrationExplosion]1次。使目标的[Vibration]层数减少1层(最多5次)"
+                  "desc": "[OnSucceedAttack] 自身每带有50层[AccumulatedPast]，使目标[VibrationExplosion]1次。使目标的[Vibration]层数減少1层(最多5次)"
                 }
               ]
             }
@@ -415,7 +415,7 @@
         {
           "level": 1,
           "name": "叽！",
-          "desc": "[WhenUse] 每有1只生鸡存活，使本技能的拼点威力+1\n[WhenUse] 每有2只生鸡存活，令本技能施加的负面状态额外+1",
+          "desc": "[WhenUse] 每有1只生鶏存活，使本技能的拼点威力+1\n[WhenUse] 每有2只生鶏存活，令本技能施加的負面状态額外+1",
           "coinlist": [
             {
               "coindescs": [
@@ -441,7 +441,7 @@
         {
           "level": 1,
           "name": "咯咯",
-          "desc": "[WhenUse] 每有1只生鸡存活，使本技能的拼点威力+1\n[WhenUse] 每有2只生鸡存活，令本技能施加的负面状态额外+1",
+          "desc": "[WhenUse] 每有1只生鶏存活，使本技能的拼点威力+1\n[WhenUse] 每有2只生鶏存活，令本技能施加的負面状态額外+1",
           "coinlist": [
             {
               "coindescs": [
@@ -470,7 +470,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -484,7 +484,7 @@
         {
           "level": 1,
           "name": "咕咕！",
-          "desc": "优先指定理智值最低的目标\n[OnSucceedAttack] 生成一只生鸡",
+          "desc": "优先指定理智値最低的目标\n[OnSucceedAttack] 生成一只生鶏",
           "coinlist": [
             {
               "coindescs": [
@@ -492,7 +492,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加7级[Sinking]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标失去10点理智值"
+                  "desc": "[OnSucceedAttack] 使目标失去10点理智値"
                 }
               ]
             }
@@ -506,7 +506,7 @@
         {
           "level": 1,
           "name": "咕咕…",
-          "desc": "[StartBattle] 使自身获得(存活的生鸡数量×100)点护盾",
+          "desc": "[StartBattle] 使自身获得(存活的生鶏数量×100)点护盾",
           "coinlist": [
             {}
           ]
@@ -519,7 +519,7 @@
         {
           "level": 1,
           "name": "咕咯",
-          "desc": "优先指定体力最低的目标\n[WhenUse] 若自身的速度值低于目标，则使本技能的拼点威力+(自身的速度值)(最多+3)",
+          "desc": "优先指定体力最低的目标\n[WhenUse] 若自身的速度値低于目标，则使本技能的拼点威力+(自身的速度値)(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -538,7 +538,7 @@
         {
           "level": 1,
           "name": "咯咯啵",
-          "desc": "优先指定体力最低的目标\n[WhenUse] 若自身的速度值低于目标，则使本技能的拼点威力+(自身的速度值)(最多+3)",
+          "desc": "优先指定体力最低的目标\n[WhenUse] 若自身的速度値低于目标，则使本技能的拼点威力+(自身的速度値)(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -570,7 +570,7 @@
         {
           "level": 1,
           "name": "咕",
-          "desc": "[OnSucceedEvade] 使目标失去15点理智值",
+          "desc": "[OnSucceedEvade] 使目标失去15点理智値",
           "coinlist": [
             {}
           ]
@@ -583,7 +583,7 @@
         {
           "level": 1,
           "name": "咕咕！",
-          "desc": "若自身在上回合未受到伤害，则使本技能的硬币威力+3\n[WhenUse] 若自身的速度值高于目标，则使本技能的拼点威力+(自身的速度值)(最多+3) ",
+          "desc": "若自身在上回合未受到伤害，则使本技能的硬币威力+3\n[WhenUse] 若自身的速度値高于目标，则使本技能的拼点威力+(自身的速度値)(最多+3) ",
           "coinlist": [
             {
               "coindescs": [
@@ -602,7 +602,7 @@
         {
           "level": 1,
           "name": "咕咕呜！",
-          "desc": "若自身在上回合未受到伤害，则使本技能的硬币威力+3\n[WhenUse] 若自身的速度值高于目标，则使本技能的拼点威力+(自身的速度值)(最多+3) ",
+          "desc": "若自身在上回合未受到伤害，则使本技能的硬币威力+3\n[WhenUse] 若自身的速度値高于目标，则使本技能的拼点威力+(自身的速度値)(最多+3) ",
           "coinlist": [
             {
               "coindescs": [
@@ -634,7 +634,7 @@
         {
           "level": 1,
           "name": "咯咯！",
-          "desc": "[OnSucceedEvade] 使目标失去15点理智值",
+          "desc": "[OnSucceedEvade] 使目标失去15点理智値",
           "coinlist": [
             {}
           ]
@@ -647,7 +647,7 @@
         {
           "level": 1,
           "name": "咕",
-          "desc": "优先指定体力最高的目标\n[WhenUse] 若自身的速度值低于目标，则使本技能的拼点威力+(自身的速度值)(最多+3)",
+          "desc": "优先指定体力最高的目标\n[WhenUse] 若自身的速度値低于目标，则使本技能的拼点威力+(自身的速度値)(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -666,7 +666,7 @@
         {
           "level": 1,
           "name": "咯咕呜",
-          "desc": "优先指定体力最高的目标\n[WhenUse] 若自身的速度值低于目标，则使本技能的拼点威力+(自身的速度值)(最多+3)",
+          "desc": "优先指定体力最高的目标\n[WhenUse] 若自身的速度値低于目标，则使本技能的拼点威力+(自身的速度値)(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -698,7 +698,7 @@
         {
           "level": 1,
           "name": "叽！",
-          "desc": "[OnSucceedEvade] 使目标失去15点理智值",
+          "desc": "[OnSucceedEvade] 使目标失去15点理智値",
           "coinlist": [
             {}
           ]
@@ -711,7 +711,7 @@
         {
           "level": 1,
           "name": "呜咽拍击",
-          "desc": "[WhenUse] 使目标失去15点理智值",
+          "desc": "[WhenUse] 使目标失去15点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -733,12 +733,12 @@
         {
           "level": 1,
           "name": "悲痛拍击",
-          "desc": "[StartDuel] 使目标恢复10点理智值",
+          "desc": "[StartDuel] 使目标恢复10点理智値",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[AlwaysUse] 造成显示伤害一半的理智伤害"
+                  "desc": "[AlwaysUse] 造成顕示伤害一半的理智伤害"
                 },
                 {
                   "desc": "[AlwaysUse] 不造成体力伤害"
@@ -755,19 +755,19 @@
         {
           "level": 1,
           "name": "融化之眼",
-          "desc": "[WhenUse] 使目标失去10点理智值\n若目标的理智值低于0点，则使本技能造成的伤害+50%",
+          "desc": "[WhenUse] 使目标失去10点理智値\n若目标的理智値低于0点，则使本技能造成的伤害+50%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成相当于其[Sinking]强度的体力伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成相当于其[Sinking]强度的体力伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成相当于其[Sinking]强度的理智伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成相当于其[Sinking]强度的理智伤害"
                 }
               ]
             }
@@ -780,8 +780,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "席卷而来的忧郁",
-          "desc": "[WhenUse] 使目标失去5点理智值\n优先指定[Sinking]强度最高的目标\n若目标的理智值低于0点，则使本技能造成的伤害+30%",
+          "name": "席巻而来的忧鬱",
+          "desc": "[WhenUse] 使目标失去5点理智値\n优先指定[Sinking]强度最高的目标\n若目标的理智値低于0点，则使本技能造成的伤害+30%",
           "coinlist": [
             {
               "coindescs": [
@@ -793,14 +793,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成相当于其[Sinking]强度的体力伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成相当于其[Sinking]强度的体力伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成相当于其[Sinking]强度的理智伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成相当于其[Sinking]强度的理智伤害"
                 }
               ]
             }
@@ -814,12 +814,12 @@
         {
           "level": 1,
           "name": "眼球重摆",
-          "desc": "[DefeatDuel] 摧毁自身的所有技能\n[DefeatDuel] 对自身施加3层[Vulnerable]\n若目标的理智值低于0点，则使本技能造成的伤害+100%",
+          "desc": "[DefeatDuel] 摧毁自身的所有技能\n[DefeatDuel] 对自身施加3层[Vulnerable]\n若目标的理智値低于0点，则使本技能造成的伤害+100%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标的[Sinking]强度与[Sinking]层数变为2倍"
+                  "desc": "[OnSucceedAttack] 使目标的[Sinking]强度与[Sinking]层数变為2倍"
                 }
               ]
             }
@@ -882,7 +882,7 @@
         {
           "level": 1,
           "name": "尾鳍抽打",
-          "desc": "[DefeatDuel] 摧毁自身的所有技能\n[DefeatDuel] 对自身施加3层[Vulnerable]\n若目标的理智值低于0点，则使本技能造成的伤害+100%",
+          "desc": "[DefeatDuel] 摧毁自身的所有技能\n[DefeatDuel] 对自身施加3层[Vulnerable]\n若目标的理智値低于0点，则使本技能造成的伤害+100%",
           "coinlist": [
             {
               "coindescs": [
@@ -907,8 +907,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "挤压液囊",
-          "desc": "[DefeatDuel] 摧毁自身的所有技能\n[DefeatDuel] 对自身施加3层[Vulnerable]\n若目标的理智值低于0点，则使本技能造成的伤害+100%",
+          "name": "挤圧液囊",
+          "desc": "[DefeatDuel] 摧毁自身的所有技能\n[DefeatDuel] 对自身施加3层[Vulnerable]\n若目标的理智値低于0点，则使本技能造成的伤害+100%",
           "coinlist": [
             {
               "coindescs": [
@@ -926,8 +926,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "血液轰击",
-          "desc": "[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "血液轟击",
+          "desc": "[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -935,7 +935,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "若目标带有负面状态，则使本硬币造成的伤害+50%"
+                  "desc": "若目标带有負面状态，则使本硬币造成的伤害+50%"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加20级[Laceration]强度"
@@ -952,7 +952,7 @@
         {
           "level": 1,
           "name": "血液凝结",
-          "desc": "[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -960,7 +960,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "若目标带有负面状态，则使本硬币造成的伤害+100%"
+                  "desc": "若目标带有負面状态，则使本硬币造成的伤害+100%"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加30级[Laceration]强度"
@@ -995,7 +995,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "恒定电压",
+          "name": "恒定電圧",
           "desc": "自身每带有1层[DogThunder]，使本技能的硬币威力+2(最多+6)\n[WhenUse] 目标的[Laceration]强度与[Burst]强度之和每有5级，使本技能造成的伤害+20%(最多+80%)",
           "coinlist": [
             {
@@ -1014,7 +1014,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "恒压追击",
+          "name": "恒圧追击",
           "desc": "自身每带有1层[DogThunder]，使本技能的硬币威力+1(最多+3)\n[WhenUse] 目标的[Laceration]强度与[Burst]强度之和每有5级，使本技能造成的伤害+15%(最多+60%)",
           "coinlist": [
             {
@@ -1041,7 +1041,7 @@
         {
           "level": 1,
           "name": "咆哮",
-          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1069,7 +1069,7 @@
         {
           "level": 1,
           "name": "雷霆咆哮",
-          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1112,7 +1112,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "赤色闪电",
+          "name": "赤色闪電",
           "desc": "[WhenUse] 目标的[Laceration]强度与[Burst]强度之和每有5级，使本技能造成的伤害+15%(最多+60%)",
           "coinlist": [
             {
@@ -1139,7 +1139,7 @@
         {
           "level": 1,
           "name": "咆哮",
-          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1163,8 +1163,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "诡异之瞳",
-          "desc": "[WhenUse] 若目标的理智值低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得1层[Aggressive]",
+          "name": "詭异之瞳",
+          "desc": "[WhenUse] 若目标的理智値低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得1层[Aggressive]",
           "coinlist": [
             {
               "coindescs": [
@@ -1202,8 +1202,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "修补躯壳",
-          "desc": "[WhenUse] 若目标的理智值低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得5层[Aggressive]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "修補躯壳",
+          "desc": "[WhenUse] 若目标的理智値低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得5层[Aggressive]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1228,7 +1228,7 @@
         {
           "level": 1,
           "name": "粉身碎骨",
-          "desc": "[WhenUse] 若目标的理智值低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得1层[Aggressive]",
+          "desc": "[WhenUse] 若目标的理智値低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得1层[Aggressive]",
           "coinlist": [
             {
               "coindescs": [
@@ -1253,8 +1253,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "诡异之瞳",
-          "desc": "[WhenUse] 若目标的理智值低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得1层[Aggressive]",
+          "name": "詭异之瞳",
+          "desc": "[WhenUse] 若目标的理智値低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得1层[Aggressive]",
           "coinlist": [
             {
               "coindescs": [
@@ -1292,8 +1292,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "修补躯壳",
-          "desc": "[WhenUse] 若目标的理智值低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得5层[Aggressive]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "修補躯壳",
+          "desc": "[WhenUse] 若目标的理智値低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得5层[Aggressive]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1318,7 +1318,7 @@
         {
           "level": 1,
           "name": "粉身碎骨",
-          "desc": "[WhenUse] 若目标的理智值低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得1层[Aggressive]",
+          "desc": "[WhenUse] 若目标的理智値低于0点，则使本技能的基础威力+2\n[WhenUse] 使自身获得1层[Aggressive]",
           "coinlist": [
             {
               "coindescs": [
@@ -1376,8 +1376,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "狂暴冲撞",
-          "desc": "指定体力最低的敌方单位\n[WhenUse] 若目标的[Laceration]强度不低于3级，则使本技能的硬币威力+1",
+          "name": "狂暴沖撞",
+          "desc": "指定体力最低的敌方単位\n[WhenUse] 若目标的[Laceration]强度不低于3级，则使本技能的硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -1403,7 +1403,7 @@
         {
           "level": 1,
           "name": "野蛮撕裂",
-          "desc": "指定体力最低的单位\n[WhenUse] 若目标的[Laceration]强度不低于3级，则使本技能的硬币威力+1\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "指定体力最低的単位\n[WhenUse] 若目标的[Laceration]强度不低于3级，则使本技能的硬币威力+1\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1455,7 +1455,7 @@
         {
           "level": 1,
           "name": "狂暴追击",
-          "desc": "指定体力最低的单位\n[WhenUse] 目标每带有3级[Laceration]强度，使本技能的基础威力+2(最多+4)",
+          "desc": "指定体力最低的単位\n[WhenUse] 目标每带有3级[Laceration]强度，使本技能的基础威力+2(最多+4)",
           "coinlist": [
             {
               "coindescs": [
@@ -1490,7 +1490,7 @@
         {
           "level": 1,
           "name": "盘绕双臂",
-          "desc": "[WhenUse] 若目标带有的负面状态不少于2种，则使本技能的基础威力+2",
+          "desc": "[WhenUse] 若目标带有的負面状态不少于2种，则使本技能的基础威力+2",
           "coinlist": [
             {
               "coindescs": [
@@ -1509,7 +1509,7 @@
         {
           "level": 1,
           "name": "缠绕扭断",
-          "desc": "[WhenUse] 若目标带有的负面状态不少于2种，则使本技能的硬币威力+1\n[DefeatDuel] 使自身失去1层[Aggressive]",
+          "desc": "[WhenUse] 若目标带有的負面状态不少于2种，则使本技能的硬币威力+1\n[DefeatDuel] 使自身失去1层[Aggressive]",
           "coinlist": [
             {},
             {
@@ -1532,7 +1532,7 @@
         {
           "level": 1,
           "name": "双臂挥砸",
-          "desc": "每有一处手臂被破坏，使本技能的基础威力-1\n[WhenUse] 若目标带有的负面状态不少于2种，则使本技能的拼点威力+2",
+          "desc": "每有一处手臂被破坏，使本技能的基础威力-1\n[WhenUse] 若目标带有的負面状态不少于2种，则使本技能的拼点威力+2",
           "coinlist": [
             {
               "coindescs": [
@@ -1565,12 +1565,12 @@
         {
           "level": 1,
           "name": "双臂痛殴",
-          "desc": "[WhenUse] 若目标带有的负面状态不少于2种，则使本技能的基础威力+2\n[DefeatDuel] 使自身失去1层[Aggressive]",
+          "desc": "[WhenUse] 若目标带有的負面状态不少于2种，则使本技能的基础威力+2\n[DefeatDuel] 使自身失去1层[Aggressive]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标的混乱阈值前移10"
+                  "desc": "[OnSucceedAttack] 使目标的混乱閾値前移10"
                 },
                 {
                   "desc": "[OnSucceedAttack] 下回合对目标施加5层[Binding]"
@@ -1600,7 +1600,7 @@
         {
           "level": 1,
           "name": "痛苦蠕动",
-          "desc": "[WhenUse] 若目标带有负面状态，则使本技能的基础威力+3\n[WhenUse] 消耗12点体力；下回合使自身增加5级[Laceration]强度\n[DefeatDuel] 使本技能的基础威力-5\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[WhenUse] 若目标带有負面状态，则使本技能的基础威力+3\n[WhenUse] 消耗12点体力；下回合使自身增加5级[Laceration]强度\n[DefeatDuel] 使本技能的基础威力-5\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1642,7 +1642,7 @@
         {
           "level": 1,
           "name": "痛苦挣扎",
-          "desc": "[WhenUse] 若目标带有负面状态，则使本技能的基础威力+4\n[WhenUse] 消耗12点体力；下回合对自身施加3层[Laceration]",
+          "desc": "[WhenUse] 若目标带有負面状态，则使本技能的基础威力+4\n[WhenUse] 消耗12点体力；下回合对自身施加3层[Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1705,7 +1705,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "走开…走开…！",
+          "name": "走開…走開…！",
           "desc": "[WhenUse] 若目标的[Laceration]强度不低于4级，则使本技能的拼点威力+1\n[WhenUse] 目标每带有1层[Laceration]，使本技能造成的伤害+5%(最多+20%)",
           "coinlist": [
             {},
@@ -1800,7 +1800,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "离我远点…！",
+          "name": "離我遠点…！",
           "desc": "[WhenUseEvade] 目标每带有1层[Laceration]，使本技能的基础威力+1(最多+4)",
           "coinlist": [
             {}
@@ -1813,8 +1813,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "我就是…这场游行的…王子…！",
-          "desc": "[CantDuel]\n[WhenUse] 对自身施加4层[Paralysis]\n[WhenUse] 使<noparse>硬血长柄刀</noparse>恢复的体力变为2倍\n[WhenUse] 使自身的理智值变为0点\n[EndSkill] 使自身获得10层[KeptBlood]\n本回合自身不会陷入混乱，使用本技能后结束本回合。",
+          "name": "我就是…這场游行的…王子…！",
+          "desc": "[CantDuel]\n[WhenUse] 对自身施加4层[Paralysis]\n[WhenUse] 使<noparse>硬血长柄刀</noparse>恢复的体力变為2倍\n[WhenUse] 使自身的理智値变為0点\n[EndSkill] 使自身获得10层[KeptBlood]\n本回合自身不会陥入混乱，使用本技能後结束本回合。",
           "coinlist": [
             {
               "coindescs": [
@@ -1854,7 +1854,7 @@
         {
           "level": 1,
           "name": "绝对…不会回去…！",
-          "desc": "[WhenUse] 主要目标每带有5级[Laceration]强度，使本技能的拼点威力+1(最多+3)\n[WhenUse] 若主要目标的[Laceration]层数不低于4层，则使本技能的硬币威力+1\n[WhenUse] 主要目标每带有1层[Laceration]，使本技能造成的伤害+5%(最多+20%)\n[WinDuel] 使<noparse>硬血长柄刀</noparse>恢复的体力变为2倍\n[DefeatDuel] 使<noparse>硬血长柄刀</noparse>恢复体力的效果不会触发\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱\n[EndSkill] 使自身获得10层[KeptBlood]",
+          "desc": "[WhenUse] 主要目标每带有5级[Laceration]强度，使本技能的拼点威力+1(最多+3)\n[WhenUse] 若主要目标的[Laceration]层数不低于4层，则使本技能的硬币威力+1\n[WhenUse] 主要目标每带有1层[Laceration]，使本技能造成的伤害+5%(最多+20%)\n[WinDuel] 使<noparse>硬血长柄刀</noparse>恢复的体力变為2倍\n[DefeatDuel] 使<noparse>硬血长柄刀</noparse>恢复体力的效果不会触发\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱\n[EndSkill] 使自身获得10层[KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
@@ -1897,7 +1897,7 @@
         {
           "level": 1,
           "name": "义体启动",
-          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则额外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得9层[Charge]",
+          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则額外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得9层[Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1919,7 +1919,7 @@
         {
           "level": 1,
           "name": "硬血血液逆流",
-          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则额外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得9层[Charge]",
+          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则額外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得9层[Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1960,8 +1960,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "活体能量转换式充能",
-          "desc": "[WhenUse] 消耗自身体力上限10%的体力并使自身获得15层[Charge]\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "活体能量転换式充能",
+          "desc": "[WhenUse] 消耗自身体力上限10%的体力并使自身获得15层[Charge]\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -2014,8 +2014,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "硬血血液转移",
-          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则额外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得9层[Charge]",
+          "name": "硬血血液転移",
+          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则額外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得9层[Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -2043,8 +2043,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "活体能量转换式再充能",
-          "desc": "[WhenUse] 消耗自身体力上限10%的体力并使自身获得15层[Charge]\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "活体能量転换式再充能",
+          "desc": "[WhenUse] 消耗自身体力上限10%的体力并使自身获得15层[Charge]\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -2098,7 +2098,7 @@
         {
           "level": 1,
           "name": "悬挂的诱饵",
-          "desc": "[CantDuel] \n根据精灵存活的回合数，使本技能的攻击容量相应增加。\n优先指定被[FairyCharm]的人格。",
+          "desc": "[CantDuel] \n根据精灵存活的回合数，使本技能的攻击容量相応增加。\n优先指定被[FairyCharm]的人格。",
           "coinlist": [
             {
               "coindescs": [
@@ -2185,7 +2185,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "显露的深渊",
+          "name": "顕露的深渊",
           "desc": "若目标的[Burst]强度不低于5级，则使本技能造成的伤害+100%",
           "coinlist": [
             {}
@@ -2245,7 +2245,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "陷于血肉",
+          "name": "陥于血肉",
           "desc": "",
           "coinlist": [
             {
@@ -2275,7 +2275,7 @@
         {
           "level": 1,
           "name": "绿荫笼罩",
-          "desc": "[WhenUse] 下回合生成巨大的四叶草\n[DefeatDuel] 生成体力为原体力上限70%的巨大的四叶草",
+          "desc": "[WhenUse] 下回合生成巨大的四叶草\n[DefeatDuel] 生成体力為原体力上限70%的巨大的四叶草",
           "coinlist": [
             {
               "coindescs": [
@@ -2313,7 +2313,7 @@
         {
           "level": 1,
           "name": "想喝醉吗？",
-          "desc": "进行拼点时，使目标获得1层[Exalted]",
+          "desc": "進行拼点时，使目标获得1层[Exalted]",
           "coinlist": [
             {
               "coindescs": [
@@ -2332,7 +2332,7 @@
         {
           "level": 1,
           "name": "分着喝吧！",
-          "desc": "进行拼点时，使目标获得2层[Exalted]\n[WhenUse] 使自身恢复体力上限5%的体力",
+          "desc": "進行拼点时，使目标获得2层[Exalted]\n[WhenUse] 使自身恢复体力上限5%的体力",
           "coinlist": [
             {
               "coindescs": [
@@ -2350,14 +2350,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "只剩这些了！",
-          "desc": "进行拼点时，使目标获得2层[Exalted]\n优先指定带有[Vibration]的目标",
+          "name": "只剰這些了！",
+          "desc": "進行拼点时，使目标获得2层[Exalted]\n优先指定带有[Vibration]的目标",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 根据目标带有的[Vibration]层数，相应使其[VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] 根据目标带有的[Vibration]层数，相応使其[VibrationExplosion]"
                 }
               ]
             }
@@ -2370,7 +2370,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "这个我吃了！",
+          "name": "這个我吃了！",
           "desc": "[CantDuel]\n[CantChangeTarget]\n优先指定带有[Exalted]的目标\n若目标未带有[Tipsiness]，则使本技能的拼点威力+5",
           "coinlist": [
             {
@@ -2395,7 +2395,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "这个我吃了！",
+          "name": "這个我吃了！",
           "desc": "优先指定带有[Exalted]的目标\n若目标未带有[Tipsiness]，则使本技能的拼点威力+5",
           "coinlist": [
             {
@@ -2420,7 +2420,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "这次不行！",
+          "name": "這次不行！",
           "desc": "优先指定精灵酒",
           "coinlist": [
             {
@@ -2439,7 +2439,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "想要这杯精灵酒吗？",
+          "name": "想要這杯精灵酒吗？",
           "desc": "[WhenUse] 下回合对自身施加1层[Binding]",
           "coinlist": [
             {}
@@ -2516,7 +2516,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "挤压液嚢",
+          "name": "挤圧液嚢",
           "desc": "",
           "coinlist": [
             {
@@ -2535,13 +2535,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "血液轰击",
+          "name": "血液轟击",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "若目标带有负面状态，则使本硬币造成的伤害+50%"
+                  "desc": "若目标带有負面状态，则使本硬币造成的伤害+50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加20级[Laceration]强度"
@@ -2563,7 +2563,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "若目标带有负面状态，则使本硬币造成的伤害+100%"
+                  "desc": "若目标带有負面状态，则使本硬币造成的伤害+100%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加30级[Laceration]强度"
@@ -2655,13 +2655,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "挤压液嚢",
+          "name": "挤圧液嚢",
           "desc": "[WhenUse] 目标的[Laceration]强度，[Vibration]强度与[Sinking]强度之和每有5级，使本技能的基础威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 },
                 {
                   "desc": "[OnSucceedAttack] 下回合对目标施加3层[Binding]"
@@ -2677,19 +2677,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "血液轰击",
-          "desc": "[WhenUse] 若主要目标带有负面状态，则使本技能的拼点威力+5\n- 若主要目标未带有负面状态，则改为拼点威力-5",
+          "name": "血液轟击",
+          "desc": "[WhenUse] 若主要目标带有負面状态，则使本技能的拼点威力+5\n- 若主要目标未带有負面状态，则改為拼点威力-5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "若目标带有负面状态，则使本硬币造成的伤害+50%"
+                  "desc": "若目标带有負面状态，则使本硬币造成的伤害+50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加20级[Laceration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次并使其[Laceration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次并使其[Laceration]层数減少1层"
                 }
               ]
             }
@@ -2703,18 +2703,18 @@
         {
           "level": 1,
           "name": "血液凝结",
-          "desc": "[WhenUse] 若主要目标带有负面状态，则使本技能的拼点威力+5\n- 若主要目标未带有负面状态，则改为拼点威力-5",
+          "desc": "[WhenUse] 若主要目标带有負面状态，则使本技能的拼点威力+5\n- 若主要目标未带有負面状态，则改為拼点威力-5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "若目标带有负面状态，则使本硬币造成的伤害+100%"
+                  "desc": "若目标带有負面状态，则使本硬币造成的伤害+100%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加30级[Laceration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次并使其[Laceration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次并使其[Laceration]层数減少1层"
                 }
               ]
             }
@@ -2758,7 +2758,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Laceration]强度与5级[Vibration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[Switch_Vibration]为[VibrationBleeding]"
+                  "desc": "[OnSucceedAttack] 使目标[Switch_Vibration]為[VibrationBleeding]"
                 },
                 {
                   "desc": "[OnSucceedAttack] 下回合对目标施加3层[Reduction]"
@@ -2806,16 +2806,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "挤压液嚢",
+          "name": "挤圧液嚢",
           "desc": "[WhenUse] 目标的[Laceration]强度，[Vibration]强度与[Sinking]强度之和每有5级，使本技能的基础威力+2(最多+6)\n[WhenUse] 若目标带有[PlayingWithWaterTogetherMirror]，则使本技能的拼点威力-2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标[Switch_Vibration]为[VibrationBleeding]"
+                  "desc": "[OnSucceedAttack] 使目标[Switch_Vibration]為[VibrationBleeding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 },
                 {
                   "desc": "[OnSucceedAttack] 下回合对目标施加3层[Binding]"
@@ -2831,19 +2831,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "血液轰击",
-          "desc": "[WhenUse] 若主要目标带有负面状态，则使本技能的拼点威力+10\n- 若主要目标未带有负面状态，则改为拼点威力-10",
+          "name": "血液轟击",
+          "desc": "[WhenUse] 若主要目标带有負面状态，则使本技能的拼点威力+10\n- 若主要目标未带有負面状态，则改為拼点威力-10",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "若目标带有负面状态，则使本硬币造成的伤害+50%"
+                  "desc": "若目标带有負面状态，则使本硬币造成的伤害+50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加20级[Laceration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次并使其[Laceration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次并使其[Laceration]层数減少1层"
                 }
               ]
             }
@@ -2857,18 +2857,18 @@
         {
           "level": 1,
           "name": "血液凝结",
-          "desc": "[WhenUse] 若主要目标带有负面状态，则使本技能的拼点威力+10\n- 若主要目标未带有负面状态，则改为拼点威力-10",
+          "desc": "[WhenUse] 若主要目标带有負面状态，则使本技能的拼点威力+10\n- 若主要目标未带有負面状态，则改為拼点威力-10",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "若目标带有负面状态，则使本硬币造成的伤害+100%"
+                  "desc": "若目标带有負面状态，则使本硬币造成的伤害+100%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加30级[Laceration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]3次并使其[Laceration]层数减少3层"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]3次并使其[Laceration]层数減少3层"
                 }
               ]
             }

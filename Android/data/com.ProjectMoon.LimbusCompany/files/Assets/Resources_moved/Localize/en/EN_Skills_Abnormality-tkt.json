@@ -31,8 +31,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "杀死时间的惩罚",
-          "desc": "若自身带有[TimeAcceleration]，则使本技能的拼点威力+2\n[WhenUse] 若自身的[LimitedTime]层数不低于500层，则对目标施加1层[Laceration]\n[WhenUse] 若自身的[LimitedTime]层数不低于300层，则消耗25层[LimitedTime]并令本技能增加的[Laceration]强度与施加的[Laceration]层数额外+1",
+          "name": "杀死时間的惩罚",
+          "desc": "若自身带有[TimeAcceleration]，则使本技能的拼点威力+2\n[WhenUse] 若自身的[LimitedTime]层数不低于500层，则对目标施加1层[Laceration]\n[WhenUse] 若自身的[LimitedTime]层数不低于300层，则消耗25层[LimitedTime]并令本技能增加的[Laceration]强度与施加的[Laceration]层数額外+1",
           "coinlist": [
             {
               "coindescs": [
@@ -130,8 +130,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "救援时间",
-          "desc": "[CantDuel]\n对以自身为目标使用攻击技能的单位在下回合施加[TimeKillerWatch]\n[StartBattle] 消耗200层[LimitedTime]并在下回合使自身获得[TimeAcceleration]",
+          "name": "救援时間",
+          "desc": "[CantDuel]\n对以自身為目标使用攻击技能的単位在下回合施加[TimeKillerWatch]\n[StartBattle] 消耗200层[LimitedTime]并在下回合使自身获得[TimeAcceleration]",
           "coinlist": [
             {
               "coindescs": [
@@ -194,8 +194,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "杀死时间的惩罚",
-          "desc": "若自身带有[TimeAcceleration]，则使本技能的拼点威力+2\n[WhenUse] 若所有部位的[OwnTime]层数之和不低于500层，则对目标施加1层[Laceration]\n[WhenUse] 若所有部位的[OwnTime]层数之和不低于300层，则消耗25层[OwnTime]并令本技能增加的[Laceration]强度与施加的[Laceration]层数额外+1",
+          "name": "杀死时間的惩罚",
+          "desc": "若自身带有[TimeAcceleration]，则使本技能的拼点威力+2\n[WhenUse] 若所有部位的[OwnTime]层数之和不低于500层，则对目标施加1层[Laceration]\n[WhenUse] 若所有部位的[OwnTime]层数之和不低于300层，则消耗25层[OwnTime]并令本技能增加的[Laceration]强度与施加的[Laceration]层数額外+1",
           "coinlist": [
             {
               "coindescs": [
@@ -293,8 +293,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "救援时间",
-          "desc": "[CantDuel]\n对以自身为目标使用攻击技能的单位在下回合施加[TimeKillerWatch]\n[StartBattle] 消耗200层[OwnTime]并在下回合使自身获得[TimeAcceleration]",
+          "name": "救援时間",
+          "desc": "[CantDuel]\n对以自身為目标使用攻击技能的単位在下回合施加[TimeKillerWatch]\n[StartBattle] 消耗200层[OwnTime]并在下回合使自身获得[TimeAcceleration]",
           "coinlist": [
             {
               "coindescs": [
@@ -313,7 +313,7 @@
         {
           "level": 1,
           "name": "闪避",
-          "desc": "[WhenUse] 所有部位总计每带有100层[OwnTime]，使本技能的基础威力+1(最多+3)",
+          "desc": "[WhenUse] 所有部位总計每带有100层[OwnTime]，使本技能的基础威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -331,13 +331,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "时间杀人时间",
-          "desc": "[CantDuel]\n使自身的速度值固定为24点。\n本回合内无法陷入混乱。\n[WhenUse] 获得全员最后剩余的400层[OwnTime]后将其消耗。",
+          "name": "时間杀人时間",
+          "desc": "[CantDuel]\n使自身的速度値固定為24点。\n本回合内无法陥入混乱。\n[WhenUse] 获得全员最後剰余的400层[OwnTime]後将其消耗。",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 删除目标的时间。若目标的时间被删除，则使所有部位的[OwnTime]恢复至最大值，下回合使自身获得10层迅捷 与强壮 。"
+                  "desc": "[OnSucceedAttack] 删除目标的时間。若目标的时間被删除，则使所有部位的[OwnTime]恢复至最大値，下回合使自身获得10层迅捷 与强壮 。"
                 }
               ]
             }
@@ -476,7 +476,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "没时间了",
+          "name": "没时間了",
           "desc": "[DefeatDuel] 对自身施加1层[Vulnerable]",
           "coinlist": [
             {
@@ -516,7 +516,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "我们需要时间！",
+          "name": "我们需要时間！",
           "desc": "",
           "coinlist": [
             {}

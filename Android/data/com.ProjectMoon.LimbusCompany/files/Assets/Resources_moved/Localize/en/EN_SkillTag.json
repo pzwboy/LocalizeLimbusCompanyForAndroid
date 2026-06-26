@@ -22,19 +22,19 @@
     },
     {
       "id": "nxPostLine",
-      "name": "[队首{n}人]"
+      "name": "[隊首{n}人]"
     },
     {
       "id": "nxCenterLine",
-      "name": "[队中{n}人]"
+      "name": "[隊中{n}人]"
     },
     {
       "id": "nxBackLine",
-      "name": "[队尾{n}人]"
+      "name": "[隊尾{n}人]"
     },
     {
       "id": "CantIdentify",
-      "name": "[无差别攻击]"
+      "name": "[无差別攻击]"
     },
     {
       "id": "CRIMSON",
@@ -54,7 +54,7 @@
     },
     {
       "id": "AZURE",
-      "name": "忧郁"
+      "name": "忧鬱"
     },
     {
       "id": "INDIGO",
@@ -70,19 +70,19 @@
     },
     {
       "id": "BLACK",
-      "name": "哀叹"
+      "name": "哀嘆"
     },
     {
       "id": "EndSkill",
-      "name": "[攻击后]"
+      "name": "[攻击後]"
     },
     {
       "id": "StartBattle",
-      "name": "[战斗开始]"
+      "name": "[战斗開始]"
     },
     {
       "id": "DefeatDuel",
-      "name": "[拼点失败]"
+      "name": "[拼点失敗]"
     },
     {
       "id": "OnSucceedAttackHead",
@@ -126,7 +126,7 @@
     },
     {
       "id": "StartDuel",
-      "name": "[拼点开始时]"
+      "name": "[拼点開始时]"
     },
     {
       "id": "EndBattle",
@@ -134,15 +134,15 @@
     },
     {
       "id": "OnDefeatEvade",
-      "name": "[闪避失败时]"
+      "name": "[闪避失敗时]"
     },
     {
       "id": "EndSkillHead",
-      "name": "[正面攻击后]"
+      "name": "[正面攻击後]"
     },
     {
       "id": "EndSkillTail",
-      "name": "[反面攻击后]"
+      "name": "[反面攻击後]"
     },
     {
       "id": "WinDuelAttackHead",
@@ -158,7 +158,7 @@
     },
     {
       "id": "CriticalEndSkill",
-      "name": "[暴击攻击后]"
+      "name": "[暴击攻击後]"
     },
     {
       "id": "CantChangeTarget",
@@ -166,7 +166,7 @@
     },
     {
       "id": "TurnStartBattle",
-      "name": "[回合开始时]"
+      "name": "[回合開始时]"
     },
     {
       "id": "EndSkillAll",
@@ -178,7 +178,7 @@
     },
     {
       "id": "StartBattle_Force",
-      "name": "<color=#93f13e>[战斗开始]</color>"
+      "name": "<color=#93f13e>[战斗開始]</color>"
     },
     {
       "id": "TargetKill",
@@ -210,7 +210,7 @@
     },
     {
       "id": "EndCoin",
-      "name": "[当前硬币攻击后]"
+      "name": "[当前硬币攻击後]"
     },
     {
       "id": "CriticalEnemyTargetKillFail",
@@ -222,7 +222,7 @@
     },
     {
       "id": "DefeatDuelAttack",
-      "name": "[拼点失败 - 命中时]"
+      "name": "[拼点失敗 - 命中时]"
     },
     {
       "id": "TargetKillFail",
@@ -250,7 +250,7 @@
     },
     {
       "id": "OnDirectAttack",
-      "name": "[单方面攻击时]"
+      "name": "[単方面攻击时]"
     },
     {
       "id": "ReUseOnSucceedAttack",
@@ -262,11 +262,23 @@
     },
     {
       "id": "OnStartCoin",
-      "name": "[硬币开始时]"
+      "name": "[硬币開始时]"
     },
     {
       "id": "BeforeBehavior",
       "name": "[行动前]"
+    },
+    {
+      "id": "AlwaysUseEGOPassive2050911",
+      "name": "[剑契组 头領 默尔索专属 - 常驻效果]"
+    },
+    {
+      "id": "WhenUseEGOPassive",
+      "name": "[使用效果]"
+    },
+    {
+      "id": "WinDuelEndSkill",
+      "name": "[拼点胜利 - 攻击後]"
     }
   ]
 }

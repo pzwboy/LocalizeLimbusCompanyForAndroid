@@ -5,8 +5,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "铁马碎",
-          "desc": "[WhenUse] 若目标的[Burst]强度与[Vibration]强度之和不低于6级，则使本技能的基础威力+3\n[DefeatDuel] 使目标的[Vibration]强度减少2级",
+          "name": "鉄馬碎",
+          "desc": "[WhenUse] 若目标的[Burst]强度与[Vibration]强度之和不低于6级，则使本技能的基础威力+3\n[DefeatDuel] 使目标的[Vibration]强度減少2级",
           "coinlist": [
             {
               "coindescs": [
@@ -71,8 +71,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "马阵粉碎",
-          "desc": "[WhenUse] 若目标的[Burst]强度与[Vibration]强度之和不低于6级，则使本技能的基础威力+2\n[WhenUse] 若自身的理智值不高于-30点，则使自身所有硬币必定朝向反面\n[DefeatDuel] 使目标的[Vibration]强度减少2级",
+          "name": "馬陣粉碎",
+          "desc": "[WhenUse] 若目标的[Burst]强度与[Vibration]强度之和不低于6级，则使本技能的基础威力+2\n[WhenUse] 若自身的理智値不高于-30点，则使自身所有硬币必定朝向反面\n[DefeatDuel] 使目标的[Vibration]强度減少2级",
           "coinlist": [
             {
               "coindescs": [
@@ -91,7 +91,7 @@
         {
           "level": 1,
           "name": "击碎斩",
-          "desc": "[WhenUse] 目标的[Burst]强度与[Vibration]强度之和每有4级，使本技能的基础威力+2(最多+4)\n- 若目标的[Burst]强度与[Vibration]强度之和不低于15级，则使本技能的减算硬币威力+1",
+          "desc": "[WhenUse] 目标的[Burst]强度与[Vibration]强度之和每有4级，使本技能的基础威力+2(最多+4)\n- 若目标的[Burst]强度与[Vibration]强度之和不低于15级，则使本技能的減算硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -116,7 +116,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -129,8 +129,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "肮脏的蛇啊…我将击溃你们…",
-          "desc": "[WhenUse] 主要目标的[Burst]强度与[Vibration]强度之和每有4级，使本技能的基础威力+2(最多+4)\n[DefeatDuel] 使本技能的基础威力-8\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "肮臓的蛇啊…我将击溃你们…",
+          "desc": "[WhenUse] 主要目标的[Burst]强度与[Vibration]强度之和每有4级，使本技能的基础威力+2(最多+4)\n[DefeatDuel] 使本技能的基础威力-8\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -168,7 +168,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 },
                 {
                   "desc": "[OnSucceedAttack] 下回合对次要目标施加1层[SweptAwayWei]"
@@ -184,8 +184,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "奔马穿阵",
-          "desc": "[WhenUse] 主要目标的[Burst]强度与[Vibration]强度之和每有4级，使本技能的基础威力+2(最多+6)\n[DefeatDuel] 使本技能的基础威力-5\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "奔馬穿陣",
+          "desc": "[WhenUse] 主要目标的[Burst]强度与[Vibration]强度之和每有4级，使本技能的基础威力+2(最多+6)\n[DefeatDuel] 使本技能的基础威力-5\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -193,7 +193,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为主要目标，则使其增加5级[Vibration]强度"
+                  "desc": "[OnSucceedAttack] 若目标為主要目标，则使其增加5级[Vibration]强度"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 使1名次要目标增加3级[Vibration]强度"
@@ -206,7 +206,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 下回合对次要目标施加1层[SweptAwayWei]"
@@ -223,7 +223,7 @@
         {
           "level": 1,
           "name": "此路不通…！",
-          "desc": "指定[Vibration]强度最低的敌方单位\n[WhenUse] 若目标未带有[Vibration]，则使本技能的基础威力-5\n[BeforeAttack] 若目标未带有[Vibration]，则使本技能造成的伤害-90%\n[DefeatDuel] 使本技能的基础威力-4\n[DefeatDuel] 使本技能造成的伤害不会使目标陷入混乱",
+          "desc": "指定[Vibration]强度最低的敌方単位\n[WhenUse] 若目标未带有[Vibration]，则使本技能的基础威力-5\n[BeforeAttack] 若目标未带有[Vibration]，则使本技能造成的伤害-90%\n[DefeatDuel] 使本技能的基础威力-4\n[DefeatDuel] 使本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -231,7 +231,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -241,7 +241,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -251,7 +251,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -261,7 +261,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -274,8 +274,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "狂马裂空冲",
-          "desc": "自身每失去1%的体力，使自身造成的伤害+1%(最多+80%)\n[BeforeAttack] 若现存体力不高于50%，则使本技能的攻击容量+2\n[BeforeAttack] 若自身未带有[LegStrengthHorse]，则使本技能造成的伤害+120%，并在下回合对自身施加2层[Vulnerable]\n[DefeatDuel] 使本技能的基础威力-12\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "狂馬裂空沖",
+          "desc": "自身每失去1%的体力，使自身造成的伤害+1%(最多+80%)\n[BeforeAttack] 若现存体力不高于50%，则使本技能的攻击容量+2\n[BeforeAttack] 若自身未带有[LegStrengthHorse]，则使本技能造成的伤害+120%，并在下回合对自身施加2层[Vulnerable]\n[DefeatDuel] 使本技能的基础威力-12\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -309,7 +309,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -319,10 +319,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -436,7 +436,7 @@
         {
           "level": 1,
           "name": "取",
-          "desc": "[WhenUse] 目标每带有5级[Laceration]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 目标每带有1层[DrunkBlood]，使本技能的基础威力+1(最多+2)\n[WhenUse] 若自身的[SipOfAlcoholJin]层数不低于3层，则使本技能的所有硬币转化为[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[WhenUse] 目标每带有5级[Laceration]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 目标每带有1层[DrunkBlood]，使本技能的基础威力+1(最多+2)\n[WhenUse] 若自身的[SipOfAlcoholJin]层数不低于3层，则使本技能的所有硬币転化為[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -472,7 +472,7 @@
         {
           "level": 1,
           "name": "真镇终斩",
-          "desc": "[WhenUse] 目标每带有6级[Laceration]强度，使本技能的硬币威力+5(最多+10)\n[WhenUse] 若主要目标带有[DrunkBlood]，则使本技能的所有硬币转化为[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[WhenUse] 目标每带有6级[Laceration]强度，使本技能的硬币威力+5(最多+10)\n[WhenUse] 若主要目标带有[DrunkBlood]，则使本技能的所有硬币転化為[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -539,7 +539,7 @@
         {
           "level": 1,
           "name": "真-真镇终斩",
-          "desc": "指定贾惜春\n[CantChangeTarget]\n[WhenUse] 若自身的速度值高于目标，则使本技能的硬币威力+1\n[WhenUse] 自身每带有1层[SipOfAlcoholJin]，下回合使自身获得1层[AttackUp]与1层[Agility](最多3层)\n[WinDuel] 使本技能的攻击容量+7",
+          "desc": "指定賈惜春\n[CantChangeTarget]\n[WhenUse] 若自身的速度値高于目标，则使本技能的硬币威力+1\n[WhenUse] 自身每带有1层[SipOfAlcoholJin]，下回合使自身获得1层[AttackUp]与1层[Agility](最多3层)\n[WinDuel] 使本技能的攻击容量+7",
           "coinlist": [
             {
               "coindescs": [
@@ -570,7 +570,7 @@
         {
           "level": 1,
           "name": "落醉斩",
-          "desc": "[WhenUse] 自身每带有5级[Breath]强度，使本技能的基础威力+1(最多+2)\n[WhenUse] 若自身的速度值高于目标，则使本技能的硬币威力+1",
+          "desc": "[WhenUse] 自身每带有5级[Breath]强度，使本技能的基础威力+1(最多+2)\n[WhenUse] 若自身的速度値高于目标，则使本技能的硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -592,7 +592,7 @@
         {
           "level": 1,
           "name": "醉影步",
-          "desc": "[WhenUse] 每有2名友方单位存活，使本技能的基础威力+6(最多+12)\n[OnSucceedEvade] 使自身增加3级[Breath]强度\n[EndBattle] 使自身获得2层[Breath]",
+          "desc": "[WhenUse] 每有2名友方単位存活，使本技能的基础威力+6(最多+12)\n[OnSucceedEvade] 使自身增加3级[Breath]强度\n[EndBattle] 使自身获得2层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -611,7 +611,7 @@
         {
           "level": 1,
           "name": "真镇终斩",
-          "desc": "[StartBattle] 直到本技能结束，自身的体力不会降至1点以下。\n[WhenUse] 使自身获得10层[AttackUp]\n[WhenUse] 使自身获得5层[Enhancement]\n[WhenUse] 使自身获得10层[AttackDmgUp]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[StartBattle] 直到本技能结束，自身的体力不会降至1点以下。\n[WhenUse] 使自身获得10层[AttackUp]\n[WhenUse] 使自身获得5层[Enhancement]\n[WhenUse] 使自身获得10层[AttackDmgUp]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -654,7 +654,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "连续挥砸",
+          "name": "連続挥砸",
           "desc": "[WinDuel] 使本技能造成的伤害+30%",
           "coinlist": [
             {
@@ -740,7 +740,7 @@
         {
           "level": 1,
           "name": "成长",
-          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -802,7 +802,7 @@
         {
           "level": 1,
           "name": "符灵术-邪气暴走",
-          "desc": "[WhenUse] 目标每带有4级[Burst]强度，使本技能的最终威力+1(最多+4)\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[WhenUse] 目标每带有4级[Burst]强度，使本技能的最终威力+1(最多+4)\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -875,7 +875,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "这种过家家般的战斗…",
+          "name": "這种過家家般的战斗…",
           "desc": "",
           "coinlist": [
             {},
@@ -896,7 +896,7 @@
         {
           "level": 1,
           "name": "…",
-          "desc": "[WhenUse] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1\n[WhenUse] 目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[DefeatDuel] 对自身施加1层[Vulnerable]",
+          "desc": "[WhenUse] 若目标带有的負面状态不少于3种，则使本技能的基础威力+1\n[WhenUse] 目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[DefeatDuel] 对自身施加1层[Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
@@ -933,8 +933,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "在开玩笑吗？",
-          "desc": "[WhenUse] 使自身恢复15点理智值\n[WhenUse] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1",
+          "name": "在開玩笑吗？",
+          "desc": "[WhenUse] 使自身恢复15点理智値\n[WhenUse] 若目标带有的負面状态不少于3种，则使本技能的基础威力+1",
           "coinlist": [
             {
               "coindescs": [

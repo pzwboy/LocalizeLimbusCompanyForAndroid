@@ -60,7 +60,7 @@
         {
           "level": 1,
           "name": "充斧流-粉碎",
-          "desc": "[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度额外+1级\n[BeforeAttack] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]",
+          "desc": "[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度額外+1级\n[BeforeAttack] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -85,7 +85,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "充斧流-顺流而行",
+          "name": "充斧流-順流而行",
           "desc": "[WhenUse] 使自身获得5层[Charge]",
           "coinlist": [
             {
@@ -156,7 +156,7 @@
         {
           "level": 1,
           "name": "充斧流-爆碎",
-          "desc": "[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度额外+1级\n[BeforeAttack] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]",
+          "desc": "[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度額外+1级\n[BeforeAttack] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -181,7 +181,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "充斧流-顺流而行",
+          "name": "充斧流-順流而行",
           "desc": "[WhenUse] 使自身获得5层[Charge]",
           "coinlist": [
             {
@@ -222,7 +222,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "充斧流-卷碎",
+          "name": "充斧流-巻碎",
           "desc": "[WhenUse] 使自身获得5层[Charge]",
           "coinlist": [
             {
@@ -255,7 +255,7 @@
         {
           "level": 1,
           "name": "充斧流-破碎",
-          "desc": "[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度额外+2级\n[BeforeAttack] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]",
+          "desc": "[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度額外+2级\n[BeforeAttack] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -277,7 +277,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标造成相当于其[Burst]强度的暴食伤害，并使其[Burst]层数减少1层(最多30点)"
+                  "desc": "[OnSucceedAttack] 对目标造成相当于其[Burst]强度的暴食伤害，并使其[Burst]层数減少1层(最多30点)"
                 }
               ]
             }
@@ -316,7 +316,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "冲撞",
+          "name": "沖撞",
           "desc": "",
           "coinlist": [
             {
@@ -372,7 +372,7 @@
         {
           "level": 1,
           "name": "挣扎突刺",
-          "desc": "[StartBattle] 若现存体力不高于50%，则使本技能的第三枚硬币转化为[SuperCoin]\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的拼点威力+1(最多+2)",
+          "desc": "[StartBattle] 若现存体力不高于50%，则使本技能的第三枚硬币転化為[SuperCoin]\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的拼点威力+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
@@ -417,7 +417,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "冲撞",
+          "name": "沖撞",
           "desc": "",
           "coinlist": [
             {},
@@ -453,7 +453,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层[Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 使除自身以外现存体力比例最低的1名友方单位恢复自身体力上限5%的体力"
+                  "desc": "[OnSucceedAttackHead] 使除自身以外现存体力比例最低的1名友方単位恢复自身体力上限5%的体力"
                 }
               ]
             }
@@ -467,7 +467,7 @@
         {
           "level": 1,
           "name": "挣扎踹击",
-          "desc": "[StartBattle] 若现存体力不高于50%，则使本技能的第三枚硬币转化为[SuperCoin]\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的基础威力+1(最多+2)",
+          "desc": "[StartBattle] 若现存体力不高于50%，则使本技能的第三枚硬币転化為[SuperCoin]\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的基础威力+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
@@ -486,7 +486,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] 使包括自身在内现存体力比例最低的2名友方单位恢复自身体力上限10%的体力"
+                  "desc": "[WinDuelAttack] 使包括自身在内现存体力比例最低的2名友方単位恢复自身体力上限10%的体力"
                 }
               ]
             }
@@ -512,7 +512,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "冲撞",
+          "name": "沖撞",
           "desc": "",
           "coinlist": [
             {
@@ -553,7 +553,7 @@
         {
           "level": 1,
           "name": "挣扎横扫",
-          "desc": "[StartBattle] 若现存体力不高于50%，则使本技能的第三枚硬币转化为[SuperCoin]\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的硬币威力+1(最多+2)",
+          "desc": "[StartBattle] 若现存体力不高于50%，则使本技能的第三枚硬币転化為[SuperCoin]\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的硬币威力+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
@@ -681,7 +681,7 @@
         {
           "level": 1,
           "name": "符灵术-防御",
-          "desc": "[StartBattle] 使自身获得(20-自身的理智值)点护盾(最少0点，最多20点)",
+          "desc": "[StartBattle] 使自身获得(20-自身的理智値)点护盾(最少0点，最多20点)",
           "coinlist": [
             {}
           ]
@@ -745,7 +745,7 @@
         {
           "level": 1,
           "name": "符灵术-执行",
-          "desc": "[StartBattle] 若自身的理智值不高于-30点，则使本技能的最后一枚硬币转化为[SuperCoin]\n[DefeatDuel] 使本技能的基础威力减少75%(向下取整)\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的最终威力+1(最多+3)",
+          "desc": "[StartBattle] 若自身的理智値不高于-30点，则使本技能的最後一枚硬币転化為[SuperCoin]\n[DefeatDuel] 使本技能的基础威力減少75%(向下取整)\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的最终威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -784,7 +784,7 @@
         {
           "level": 1,
           "name": "符灵术-邪气爆发",
-          "desc": "[StartBattle] 自身每带有-10点理智值，使本技能的最终威力+1(最多+3)\n[DefeatDuel] 使本技能的基础威力减少75%(向下取整)，且本技能造成的伤害或效果不会使目标陷入混乱\n[EndSkill] 使自身的理智值恢复为0点",
+          "desc": "[StartBattle] 自身每带有-10点理智値，使本技能的最终威力+1(最多+3)\n[DefeatDuel] 使本技能的基础威力減少75%(向下取整)，且本技能造成的伤害或效果不会使目标陥入混乱\n[EndSkill] 使自身的理智値恢复為0点",
           "coinlist": [
             {
               "coindescs": [
@@ -819,7 +819,7 @@
         {
           "level": 1,
           "name": "符灵术-防御",
-          "desc": "[StartBattle] 使自身获得(20-自身的理智值)点护盾(最少0点，最多40点)",
+          "desc": "[StartBattle] 使自身获得(20-自身的理智値)点护盾(最少0点，最多40点)",
           "coinlist": [
             {}
           ]

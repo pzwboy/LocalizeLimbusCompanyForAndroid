@@ -10,14 +10,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成3点打击伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成3点打击伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成3点打击伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成3点打击伤害"
                 }
               ]
             },
@@ -42,14 +42,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成5点打击伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成5点打击伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成5点打击伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成5点打击伤害"
                 }
               ]
             },
@@ -69,13 +69,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "偿还",
+          "name": "偿還",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标失去5点理智值"
+                  "desc": "[OnSucceedAttack] 使目标失去5点理智値"
                 }
               ]
             }
@@ -88,13 +88,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "注意背后！",
-          "desc": "若目标的理智值低于0点，则使本技能的硬币威力+3",
+          "name": "注意背後！",
+          "desc": "若目标的理智値低于0点，则使本技能的硬币威力+3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复10点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复10点理智値"
                 },
                 {
                   "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]与2层[Reduction]"
@@ -104,7 +104,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标失去20点理智值"
+                  "desc": "[OnSucceedAttack] 使目标失去20点理智値"
                 }
               ]
             }
@@ -118,7 +118,7 @@
         {
           "level": 1,
           "name": "全员集合",
-          "desc": "[StartBattle] 下回合召唤2名友方单位",
+          "desc": "[StartBattle] 下回合召唤2名友方単位",
           "coinlist": [
             {}
           ]
@@ -144,18 +144,18 @@
         {
           "level": 1,
           "name": "我的理发啊啊啊券！！！",
-          "desc": "[DefeatDuel] 使本技能造成的最终伤害-30%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[DefeatDuel] 使本技能造成的最终伤害-30%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标的混乱阈值前移30"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标的混乱閾値前移30"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 下回合对目标施加1层[Paralysis]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标的[RicardoBookRaid]层数减少5层"
+                  "desc": "[OnSucceedAttack] 使目标的[RicardoBookRaid]层数減少5层"
                 }
               ]
             }
@@ -169,29 +169,29 @@
         {
           "level": 1,
           "name": "铭刻痛苦",
-          "desc": "优先指定[RicardoBookRaid]层数最高的目标\n[WhenUse] 若目标的<color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid]层数不低于3层，</u></b></mark></color>\n则使本技能的所有硬币转化为[SuperCoin]",
+          "desc": "优先指定[RicardoBookRaid]层数最高的目标\n[WhenUse] 若目标的<color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid]层数不低于3层，</u></b></mark></color>\n则使本技能的所有硬币転化為[SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 本回合与下回合中，对目标施加1层[Vulnerable]"
+                  "desc": "[OnSucceedAttack] 本回合与下回合对目标施加1层[Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 本回合与下回合中，对目标施加1层[Vulnerable]"
+                  "desc": "[OnSucceedAttack] 本回合与下回合对目标施加1层[Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成(其[RicardoBookRaid]层数×3)点打击伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成(其[RicardoBookRaid]层数×3)点打击伤害"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标的[RicardoBookRaid]层数减少3层"
+                  "desc": "[OnSucceedAttack] 使目标的[RicardoBookRaid]层数減少3层"
                 }
               ]
             }
@@ -204,8 +204,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "游戏到此为止",
-          "desc": "[StartBattle] 使自身恢复20点理智值\n[EndBattle] 下回合使自身获得5层[Enhancement]",
+          "name": "游戏到此為止",
+          "desc": "[StartBattle] 使自身恢复20点理智値\n[EndBattle] 下回合使自身获得5层[Enhancement]",
           "coinlist": [
             {}
           ]
@@ -218,7 +218,7 @@
         {
           "level": 1,
           "name": "全员，处刑！！！",
-          "desc": "[DefeatDuel] 使本技能造成的最终伤害-30%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[DefeatDuel] 使本技能造成的最终伤害-30%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -229,7 +229,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] 目标每带有1层[RicardoBookRaid]，对其造成其体力上限3%的伤害"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标的[RicardoBookRaid]层数减少10层"
+                  "desc": "[OnSucceedAttack] 使目标的[RicardoBookRaid]层数減少10层"
                 }
               ]
             }
@@ -243,7 +243,7 @@
         {
           "level": 1,
           "name": "原来是我们的家人啊",
-          "desc": "[StartBattle] 使全体属于中指的单位恢复10点理智值",
+          "desc": "[StartBattle] 使全体属于中指的単位恢复10点理智値",
           "coinlist": [
             {},
             {},
@@ -257,8 +257,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "你们骗了我吗！！！",
-          "desc": "[StartBattle] 使自身失去20点理智值\n[StartBattle] 使自身获得6层[AttackUp]\n[StartBattle] 对自身施加4层[Vulnerable]",
+          "name": "你们騙了我吗！！！",
+          "desc": "[StartBattle] 使自身失去20点理智値\n[StartBattle] 使自身获得6层[AttackUp]\n[StartBattle] 对自身施加4层[Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
@@ -276,8 +276,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "牢记仇怨",
-          "desc": "[EndBattle] 下回合使自身获得3层[AttackUp]\n- <color=#ff6000><mark=#ff000040><b><u>若有攻击技能的主要目标指定</u></b></mark></color>使用本技能的行动槽，\n则令该效果获得的[AttackUp]层数减少1层",
+          "name": "牢記仇怨",
+          "desc": "[EndBattle] 下回合使自身获得3层[AttackUp]\n- <color=#ff6000><mark=#ff000040><b><u>若有攻击技能的主要目标指定</u></b></mark></color>使用本技能的行动槽，\n则令該效果获得的[AttackUp]层数減少1层",
           "coinlist": [
             {}
           ]
@@ -321,8 +321,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "试炼结束了",
-          "desc": "[WhenUse] 下回合使自身获得3层[HitDamageUp]\n[WhenUse] 若主要目标的<color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid]层数不低于5层，</u></b></mark></color>\n则使本技能的所有硬币转化为[SuperCoin]",
+          "name": "試炼结束了",
+          "desc": "[WhenUse] 下回合使自身获得3层[HitDamageUp]\n[WhenUse] 若主要目标的<color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid]层数不低于5层，</u></b></mark></color>\n则使本技能的所有硬币転化為[SuperCoin]",
           "coinlist": [
             {},
             {}
@@ -344,10 +344,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>使目标的[RicardoBookRaid]层数减少10层</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>使目标的[RicardoBookRaid]层数減少10层</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>使目标陷入混乱</u></b></mark></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>使目标陥入混乱</u></b></mark></color>"
                 }
               ]
             }
@@ -360,7 +360,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "及锋而试",
+          "name": "及鋒而試",
           "desc": "[BeforeHit] 目标每带有1层[MiddleFingerBook]，使自身获得5点护盾(每回合最多1次，最多50点)\n[WhenUse] 若目标的[MiddleFingerBook]层数不低于5层，则使本技能的基础威力+3并对目标施加4层[DefenseDown]",
           "coinlist": [
             {}
@@ -373,8 +373,276 @@
       "levelList": [
         {
           "level": 1,
-          "name": "加倍奉还",
+          "name": "加倍奉還",
           "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "断熊脊",
+          "desc": "[WhenUse] 若自身的[Breath]强度不低于8级，则使本技能暴击时造成的伤害+40%\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>若自身的[ChoiSwordsmanship]层数不低于7层，则使本技能的所有硬币転化為[SuperCoin]，暴击时造成的伤害+100%</color></mark></b></u>\n[DefeatDuel]\n- 使本技能造成的伤害-80%\n- 使本技能不会触发暴击\n- 使本技能造成的伤害不会使目标陥入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 本回合与下回合对目标施加1层[SlashResistDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加5级[Laceration]强度并对其施加3层[Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "斩虎",
+          "desc": "[WhenUse] 若自身的[Breath]强度不低于8级，则使本技能暴击时造成的伤害+40%\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>若自身的[ChoiSwordsmanship]层数不高于3层，则使本技能的所有硬币転化為[SuperCoin]，暴击时造成的伤害+100%</color></mark></b></u>\n[DefeatDuel]\n- 使本技能造成的伤害-80%\n- 使本技能不会触发暴击\n- 使本技能造成的伤害不会使目标陥入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度并对其施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度并对其施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 本回合与下回合对目标施加1层[SlashResistDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501209,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "本国剑[肉]-重整态势",
+          "desc": "本技能不受[ChoiSwordsmanship]影響\n若目标的技能為[SupportProtect]专用技能，则使本技能転化為[SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>使自身失去3层[ChoiSwordsmanship]</color></mark></b></u>\n- 若目标的技能為[SupportProtect]专用技能，则該效果不会触发\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>単方面攻击或攻击命中使用了[SupportProtect]专用技能的目标时，使自身获得2层[ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "本国剑[肉]-磨剑",
+          "desc": "本技能不受[ChoiSwordsmanship]影響\n若目标的技能為[SupportProtect]专用技能，则使本技能転化為[SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>使自身获得3层[ChoiSwordsmanship]</color></mark></b></u>\n- 若目标的技能為[SupportProtect]专用技能，则該效果不会触发\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>単方面攻击或攻击命中使用了[SupportProtect]专用技能的目标时，使自身失去2层[ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "断熊脊",
+          "desc": "[WhenUse] 若自身的[Breath]强度不低于8级，则使本技能暴击时造成的伤害+40%\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] 若自身的[ChoiSwordsmanship]层数高于6层，则每超過1层，使本技能的最终威力+1(最多+3)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>若自身的[ChoiSwordsmanship]层数不低于7层，则使本技能的所有硬币転化為[SuperCoin]，暴击时造成的伤害+100%</color></mark></b></u>\n[DefeatDuel]\n- 使本技能造成的伤害-80%\n- 使本技能不会触发暴击\n- 使本技能造成的伤害不会使目标陥入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 本回合与下回合对目标施加1层[SlashResistDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加5级[Laceration]强度并对其施加3层[Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "山君亦将在此刀鋒之下一分為二",
+          "desc": "优先指定[Laceration]强度最高的敌方目标\n[WhenUse] 直到本技能结束时，自身不会因受到伤害而陥入混乱\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+3)\n[WhenUse] 若自身的[ChoiSwordsmanship]层数高于6层，则每超過1层，使本技能的最终威力+2(最多+6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>本技能不消耗[Breath]层数，硬币必定朝向正面，且必定暴击命中</color></mark></b></u>\n[BeforeAttack] 自身每带有2层[ChoiSwordsmanship]，使本技能暴击时造成的伤害+30%(最多+120%)\n[DefeatDuel]\n- 使本技能造成的伤害-80%\n- 使本技能不会触发暴击\n- 使本技能造成的伤害不会使目标陥入混乱 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标造成本硬币最终伤害量(自身的[Breath]强度×10)%的斩击伤害(最多100%)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标造成本硬币最终伤害量(目标的[Laceration]强度×10)%的色欲伤害(最多100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并使其[Laceration]层数減少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "斩虎",
+          "desc": "[WhenUse] 若自身的[Breath]强度不低于8级，则使本技能暴击时造成的伤害+40%\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>若自身的[ChoiSwordsmanship]层数不高于3层，则使本技能的所有硬币転化為[SuperCoin]，暴击时造成的伤害+100%</color></mark></b></u>\n[DefeatDuel]\n- 使本技能造成的伤害-80%\n- 使本技能不会触发暴击\n- 使本技能造成的伤害不会使目标陥入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度并对其施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度并对其施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 本回合与下回合对目标施加1层[SlashResistDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "斩落各方山虎之肉",
+          "desc": "优先指定[Laceration]强度最高的敌方目标\n<color=#ff6000><mark color=#ff000040><b><u>可无視速度値与本技能拼点</color></mark></b></u>\n[WhenUse] 直到本技能结束时，自身不会因受到伤害而陥入混乱\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>本技能不消耗[Breath]层数，硬币必定朝向正面，且必定暴击命中</color></mark></b></u>\n[BeforeAttack] 自身每带有2级[Breath]强度，使本技能暴击时造成的伤害+30%(最多+120%)\n[DefeatDuel]\n- 使本技能造成的伤害-80%\n- 使本技能不会触发暴击\n- 使本技能造成的伤害不会使目标陥入混乱 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并使其[Laceration]层数減少1层"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并使其[Laceration]层数減少1层"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并使其[Laceration]层数減少1层"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若主要目标的[Laceration]强度不低于10级，则对本硬币命中的目标施加8层[Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加8层[Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501309,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "本国剑[肉]-重整态势",
+          "desc": "本技能不受[ChoiSwordsmanship]影響\n若目标的技能為[SupportProtect]专用技能，则使本技能転化為[SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>使自身失去3层[ChoiSwordsmanship]</color></mark></b></u>\n- 若目标的技能為[SupportProtect]专用技能，则該效果不会触发\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>単方面攻击或攻击命中使用了[SupportProtect]专用技能的目标时，使自身获得2层[ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501310,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "本国剑[肉]-磨剑",
+          "desc": "本技能不受[ChoiSwordsmanship]影響\n若目标的技能為[SupportProtect]专用技能，则使本技能転化為[SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>使自身获得3层[ChoiSwordsmanship]</color></mark></b></u>\n- 若目标的技能為[SupportProtect]专用技能，则該效果不会触发\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>単方面攻击或攻击命中使用了[SupportProtect]专用技能的目标时，使自身失去2层[ChoiSwordsmanship]</color></mark></b></u>",
           "coinlist": [
             {}
           ]

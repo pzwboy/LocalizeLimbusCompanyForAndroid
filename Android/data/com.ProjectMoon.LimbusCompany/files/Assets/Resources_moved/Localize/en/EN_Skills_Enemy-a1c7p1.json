@@ -237,7 +237,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "我来为你打扮",
+          "name": "我来為你打扮",
           "desc": "[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能造成的伤害+20%",
           "coinlist": [
             {
@@ -259,8 +259,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "现在还能参加活动！",
-          "desc": "[WhenUse] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodScissor]\n[WhenUse] 若本技能未消耗[BloodDinner]，则使自身增加5级[Laceration]强度并使自身获得1层[HardenedBlood]\n[WhenUse] 若目标的[Laceration]强度不低于5级，则使本技能硬币威力+1",
+          "name": "现在還能参加活动！",
+          "desc": "[WhenUse] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodScissor]\n[WhenUse] 若本技能未消耗[BloodDinner]，则使自身增加5级[Laceration]强度并使自身获得1层[HardenedBlood]\n[WhenUse] 若目标的[Laceration]强度不低于5级，则使本技能硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -285,7 +285,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "别着急",
+          "name": "別着急",
           "desc": "[WhenUse] 若目标的[Laceration]强度不低于5级，则使本技能的硬币威力+1\n[WhenUse] 自身每带有1层[BloodScissor]，使本技能拼点威力+1(最多+3)\n自身每带有1层[HardenedBlood]，使本技能造成的伤害+7%(最多+35%)\n[EndSkill] 消耗所有[HardenedBlood]",
           "coinlist": [
             {
@@ -302,7 +302,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 消耗至多5层染血的剪刃 ，使本硬币造成的伤害+(20×消耗的染血的剪刃 层数)%(最多+100%)"
+                  "desc": "[OnSucceedAttack] 消耗最多5层染血的剪刃 ，使本硬币造成的伤害+(20×消耗的染血的剪刃 层数)%(最多+100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使自身恢复体力上限(目标的[Laceration]强度)%的体力(最多30%)"
@@ -337,7 +337,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "还要更多",
+          "name": "還要更多",
           "desc": "",
           "coinlist": [
             {
@@ -386,7 +386,7 @@
         {
           "level": 1,
           "name": "如此美味！",
-          "desc": "[WhenUse] 消耗至多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodScissor]\n[WhenUse] 若本技能未消耗[BloodDinner]，则使自身增加5级[Laceration]强度并使自身获得1层[HardenedBlood]\n[WhenUse] 若目标的[Laceration]强度不低于5级，则使本技能的硬币威力+1",
+          "desc": "[WhenUse] 消耗最多50层[BloodDinner]，每消耗10层[BloodDinner]，使自身获得1层[BloodScissor]\n[WhenUse] 若本技能未消耗[BloodDinner]，则使自身增加5级[Laceration]强度并使自身获得1层[HardenedBlood]\n[WhenUse] 若目标的[Laceration]强度不低于5级，则使本技能的硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -411,7 +411,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "你就像只过街老鼠！",
+          "name": "你就像只過街老鼠！",
           "desc": "[WhenUse] 若目标的[Laceration]强度不低于5级，则使本技能的硬币威力+1\n[WhenUse] 自身每带有1层[BloodScissor]，使本技能拼点威力+1(最多+3)\n自身每带有1层[HardenedBlood]，使本技能造成的伤害+7%(最多+35%)\n[EndSkill] 消耗所有[HardenedBlood]",
           "coinlist": [
             {
@@ -428,7 +428,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 消耗至多5层染血的剪刃 ，使本硬币造成的伤害+(20×消耗的染血的剪刃 层数)%(最多+100%)"
+                  "desc": "[OnSucceedAttack] 消耗最多5层染血的剪刃 ，使本硬币造成的伤害+(20×消耗的染血的剪刃 层数)%(最多+100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使自身恢复体力上限(目标的[Laceration]强度)%的体力(最多30%)"
@@ -514,7 +514,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "过激的下劈",
+          "name": "過激的下劈",
           "desc": "[WhenUse] 若目标的[Burst]强度不低于10级，则本技能命中时不消耗目标的[Burst]层数",
           "coinlist": [
             {
@@ -547,7 +547,7 @@
         {
           "level": 1,
           "name": "止血",
-          "desc": "[WhenUse] 若自身带有[Laceration]，则使自身的[Laceration]强度减少2级(不会降至1级以下)",
+          "desc": "[WhenUse] 若自身带有[Laceration]，则使自身的[Laceration]强度減少2级(不会降至1级以下)",
           "coinlist": [
             {
               "coindescs": [
@@ -616,7 +616,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "过激的下劈",
+          "name": "過激的下劈",
           "desc": "[WhenUse] 若目标的[Burst]强度不低于10级，则本技能命中时不消耗目标的[Burst]层数",
           "coinlist": [
             {
@@ -649,7 +649,7 @@
         {
           "level": 1,
           "name": "止血",
-          "desc": "[WhenUse] 若自身带有[Laceration]，则使自身的[Laceration]强度减少2级(不会降至1级以下)",
+          "desc": "[WhenUse] 若自身带有[Laceration]，则使自身的[Laceration]强度減少2级(不会降至1级以下)",
           "coinlist": [
             {
               "coindescs": [
@@ -667,7 +667,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "横行霸道",
+          "name": "横行覇道",
           "desc": "[WhenUse] 使自身增加2级[Breath]强度",
           "coinlist": [
             {
@@ -822,7 +822,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "喂，我还得继续下去吗？",
+          "name": "喂，我還得继続下去吗？",
           "desc": "[WhenUse] 下回合使自身获得1层[Enhancement]",
           "coinlist": [
             {

@@ -30,7 +30,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]\n若目标带有的负面状态不少于3种，则对其额外施加1层[Laceration]"
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]\n若目标带有的負面状态不少于3种，则对其額外施加1层[Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 下回合对目标施加2层[DefenseDown]"
@@ -40,7 +40,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]\n若目标带有的负面状态不少于3种，则对其额外施加1层[Laceration]"
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]\n若目标带有的負面状态不少于3种，则对其額外施加1层[Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 下回合对目标施加2层[DefenseDown]"
@@ -82,7 +82,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] 使自身失去本体体力30%的体力(不会因该效果而陷入混乱，向下取整)"
+                  "desc": "[OnStartCoin] 使自身失去本体体力30%的体力(不会因該效果而陥入混乱，向下取整)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使自身增加5级[Laceration]强度"
@@ -91,10 +91,10 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Laceration]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[Switch_Vibration]为[VibrationBleeding]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[Switch_Vibration]為[VibrationBleeding]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -108,12 +108,12 @@
         {
           "level": 1,
           "name": "肌肉收缩",
-          "desc": "[CanDuelGuard]\n[StartBattle] 下回合使自身获得1层[MuscleContraction]，受到攻击时额外获得1层[MuscleContraction](每回合最多1次)",
+          "desc": "[CanDuelGuard]\n[StartBattle] 下回合使自身获得1层[MuscleContraction]，受到攻击时額外获得1层[MuscleContraction](每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[SuperCoin]"
                 }
               ]
             }
@@ -146,7 +146,7 @@
         {
           "level": 1,
           "name": "撕裂血管",
-          "desc": "若目标的[Laceration]强度不低于5级，则使本技能的基础威力+1\n若目标带有的负面状态不少于3种，则使本技能造成的伤害+30%",
+          "desc": "若目标的[Laceration]强度不低于5级，则使本技能的基础威力+1\n若目标带有的負面状态不少于3种，则使本技能造成的伤害+30%",
           "coinlist": [
             {
               "coindescs": [
@@ -197,7 +197,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] 使自身失去本体体力30%的体力(不会因该效果而陷入混乱，向下取整)"
+                  "desc": "[OnStartCoin] 使自身失去本体体力30%的体力(不会因該效果而陥入混乱，向下取整)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使自身增加5级[Laceration]强度"
@@ -206,10 +206,10 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Laceration]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[Switch_Vibration]为[VibrationBleeding]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[Switch_Vibration]為[VibrationBleeding]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -223,12 +223,12 @@
         {
           "level": 1,
           "name": "肌肉收缩",
-          "desc": "[CanDuelGuard]\n[StartBattle] 下回合使自身获得1层[MuscleContraction]，受到攻击时额外获得1层[MuscleContraction](每回合最多1次)",
+          "desc": "[CanDuelGuard]\n[StartBattle] 下回合使自身获得1层[MuscleContraction]，受到攻击时額外获得1层[MuscleContraction](每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[SuperCoin]"
                 }
               ]
             }
@@ -269,7 +269,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]\n若目标带有的负面状态不少于3种，则对其额外施加1层[Laceration]"
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]\n若目标带有的負面状态不少于3种，则对其額外施加1层[Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 下回合对目标施加1层[Desire]"
@@ -279,7 +279,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]\n若目标带有的负面状态不少于3种，则对其额外施加1层[Laceration]"
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]\n若目标带有的負面状态不少于3种，则对其額外施加1层[Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 下回合对目标施加1层[Desire]"
@@ -295,7 +295,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "以欲望装饰的作品",
+          "name": "以欲望装飾的作品",
           "desc": "自身每失去20%本体体力，使本技能的基础威力+1(最多+4)\n目标每带有3级[Laceration]强度，使本技能的硬币威力+1(最多+2)\n[WinDuel] 对目标施加2层[Vibration]\n[DefeatDuel] 下回合对自身施加1层[Paralysis]",
           "coinlist": [
             {
@@ -321,7 +321,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] 使自身失去本体体力30%的体力(不会因该效果而陷入混乱，向下取整)"
+                  "desc": "[OnStartCoin] 使自身失去本体体力30%的体力(不会因該效果而陥入混乱，向下取整)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使自身增加5级[Laceration]强度"
@@ -330,10 +330,10 @@
                   "desc": "[OnSucceedAttack] 下回合对目标施加2层[Desire]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[Switch_Vibration]为[VibrationBleeding]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[Switch_Vibration]為[VibrationBleeding]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -346,13 +346,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "施压的丝带",
-          "desc": "[CanDuelGuard]\n受到攻击时，对攻击者施加1层[PinkRibbon_Ishmael](每个技能最多1次)\n[StartBattle] 下回合使自身获得1层[MuscleContraction]，受到攻击时额外获得1层[MuscleContraction](每回合最多1次)",
+          "name": "施圧的丝带",
+          "desc": "[CanDuelGuard]\n受到攻击时，对攻击者施加1层[PinkRibbon_Ishmael](每个技能最多1次)\n[StartBattle] 下回合使自身获得1层[MuscleContraction]，受到攻击时額外获得1层[MuscleContraction](每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[SuperCoin]"
                 }
               ]
             }

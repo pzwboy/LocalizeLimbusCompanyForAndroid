@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "斩破长空",
-          "desc": "[StartBattle] 若主要目标的[Laceration]强度不低于5级，则使本技能的攻击容量+1\n[StartBattle] 若本回合自身使用的攻击技能不低于4个，则使本技能的最终威力+5\n[WinDuel] 使全体友方单位恢复15点理智值\n若目标的[Laceration]强度不低于7级，则使本技能造成的伤害+30%",
+          "desc": "[StartBattle] 若主要目标的[Laceration]强度不低于5级，则使本技能的攻击容量+1\n[StartBattle] 若本回合自身使用的攻击技能不低于4个，则使本技能的最终威力+5\n[WinDuel] 使全体友方単位恢复15点理智値\n若目标的[Laceration]强度不低于7级，则使本技能造成的伤害+30%",
           "coinlist": [
             {
               "coindescs": [
@@ -41,8 +41,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "后巷规矩",
-          "desc": "[WhenUse] 除自身以外每有1名友方单位存活，额外使用本技能的第1枚硬币(最多3次)",
+          "name": "後巷規矩",
+          "desc": "[WhenUse] 除自身以外每有1名友方単位存活，額外使用本技能的第1枚硬币(最多3次)",
           "coinlist": [
             {
               "coindescs": [
@@ -50,7 +50,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度并对其施加2层[Laceration]"
                 },
                 {
-                  "desc": "[EnemyKill] 使全体友方单位恢复20点理智值"
+                  "desc": "[EnemyKill] 使全体友方単位恢复20点理智値"
                 }
               ]
             }

@@ -37,8 +37,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "…时间",
-          "desc": "[WhenUse] 若目标的理智值不高于10点，则对其施加2层[AttackDown]\n[WinDuel] 对目标施加1层[Vulnerable]",
+          "name": "…时間",
+          "desc": "[WhenUse] 若目标的理智値不高于10点，则对其施加2层[AttackDown]\n[WinDuel] 对目标施加1层[Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
@@ -67,7 +67,7 @@
         {
           "level": 1,
           "name": "之命…！",
-          "desc": "[WhenUse] 目标每带有3级[Sinking]强度，使本技能的基础威力+1(最多+3)\n[WinDuel] 使全体友方单位恢复5点理智值",
+          "desc": "[WhenUse] 目标每带有3级[Sinking]强度，使本技能的基础威力+1(最多+3)\n[WinDuel] 使全体友方単位恢复5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -114,21 +114,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 根据目标带有的[Sinking]强度，对其造成相应的忧郁伤害。使其[Sinking]层数减少1层"
+                  "desc": "[OnSucceedAttack] 根据目标带有的[Sinking]强度，对其造成相応的忧鬱伤害。使其[Sinking]层数減少1层"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 根据目标带有的[Sinking]强度，对其造成相应的忧郁伤害。使其[Sinking]层数减少1层"
+                  "desc": "[OnSucceedAttack] 根据目标带有的[Sinking]强度，对其造成相応的忧鬱伤害。使其[Sinking]层数減少1层"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 根据目标带有的[Sinking]强度，对其造成相应的忧郁伤害"
+                  "desc": "[OnSucceedAttack] 根据目标带有的[Sinking]强度，对其造成相応的忧鬱伤害"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度"
@@ -147,8 +147,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "…鼠辈",
-          "desc": "回合结束时若自身带有护盾，则使自身的混乱阈值后移50",
+          "name": "…鼠輩",
+          "desc": "回合结束时若自身带有护盾，则使自身的混乱閾値後移50",
           "coinlist": [
             {}
           ]
@@ -160,7 +160,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "该死的贱…",
+          "name": "該死的贱…",
           "desc": "",
           "coinlist": [
             {
@@ -213,27 +213,27 @@
         {
           "level": 1,
           "name": "…扣好…",
-          "desc": "[WinDuel] 若目标的[AttackDown]层数不低于2层，则使本技能的基础威力+1\n[WhenUse] 若目标带有[DefenseDown]，则对其额外造成本技能伤害量30%的打击伤害",
+          "desc": "[WinDuel] 若目标的[AttackDown]层数不低于2层，则使本技能的基础威力+1\n[WhenUse] 若目标带有[DefenseDown]，则对其額外造成本技能伤害量30%的打击伤害",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             }
@@ -247,7 +247,7 @@
         {
           "level": 1,
           "name": "…掉你",
-          "desc": "优先指定负面状态最多的目标\n[WinDuel] 目标每带有3层[DefenseDown]，使本技能的硬币威力+1(最多+3)",
+          "desc": "优先指定負面状态最多的目标\n[WinDuel] 目标每带有3层[DefenseDown]，使本技能的硬币威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -268,7 +268,7 @@
                   "desc": "[OnSucceedAttack] 目标每带有2层[AttackDown]，使本硬币造成的伤害+30%(最多+120%)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 若目标带有的负面状态不少于3种，则重复使用本硬币(1次)"
+                  "desc": "[OnSucceedAttackHead] 若目标带有的負面状态不少于3种，则重复使用本硬币(1次)"
                 }
               ]
             }
@@ -282,7 +282,7 @@
         {
           "level": 1,
           "name": "防御",
-          "desc": "[StartBattle] 每有1名友方单位存活，使自身额外获得20点护盾",
+          "desc": "[StartBattle] 每有1名友方単位存活，使自身額外获得20点护盾",
           "coinlist": [
             {
               "coindescs": [
@@ -320,7 +320,7 @@
         {
           "level": 1,
           "name": "…刺",
-          "desc": "[WhenUse] 若目标带有的负面状态不少于2种，则使本技能的基础威力+1",
+          "desc": "[WhenUse] 若目标带有的負面状态不少于2种，则使本技能的基础威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -339,7 +339,7 @@
         {
           "level": 1,
           "name": "双…刺",
-          "desc": "[WhenUse] 若目标带有的负面状态不少于4种，则使本技能的硬币威力+1",
+          "desc": "[WhenUse] 若目标带有的負面状态不少于4种，则使本技能的硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -368,7 +368,7 @@
         {
           "level": 1,
           "name": "正…刺",
-          "desc": "[WhenUse] 若目标带有的负面状态不少于5种，则使本技能的基础威力+2\n[WhenUse] 若目标带有的负面状态不少于5种，则使本技能造成的伤害+30%",
+          "desc": "[WhenUse] 若目标带有的負面状态不少于5种，则使本技能的基础威力+2\n[WhenUse] 若目标带有的負面状态不少于5种，则使本技能造成的伤害+30%",
           "coinlist": [
             {
               "coindescs": [
@@ -383,10 +383,10 @@
                   "desc": "[OnSucceedAttack] 下回合对目标施加2层[Vulnerable]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于5种，则重复使用本硬币(最多2次)"
+                  "desc": "[OnSucceedAttack] 若目标带有的負面状态不少于5种，则重复使用本硬币(最多2次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 随机解除目标带有的1种可解除的负面状态"
+                  "desc": "[OnSucceedAttack] 随机解除目标带有的1种可解除的負面状态"
                 }
               ]
             }
@@ -400,7 +400,7 @@
         {
           "level": 1,
           "name": "…",
-          "desc": "[OnSucceedEvade] 使自身恢复5点理智值(最多2次)",
+          "desc": "[OnSucceedEvade] 使自身恢复5点理智値(最多2次)",
           "coinlist": [
             {
               "coindescs": [

@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "后方射击",
+          "name": "後方射击",
           "desc": "使本技能暴击时造成的伤害+10%\n[WhenUse] 若自身的[Breath]强度不低于10级，则使本技能的基础威力+1\n[WhenUse] 使自身增加2级[Breath]强度",
           "coinlist": [
             {
@@ -49,7 +49,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "贯穿",
+          "name": "貫穿",
           "desc": "[WhenUse] 使自身增加2级[Breath]强度\n[WhenUse] 若自身的[Breath]强度不低于10级，则使本技能的基础威力+1\n[WhenUse] 自身每带有5层[Breath]，使本技能的硬币威力+1(最多+2)\n[WinDuel] 使本攻击技能暴击时造成的伤害+50%",
           "coinlist": [
             {
@@ -61,7 +61,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得2层[Breath]"
                 },
                 {
-                  "desc": "本硬币仅对主要目标造成伤害。"
+                  "desc": "本硬币僅对主要目标造成伤害。"
                 }
               ]
             },
@@ -71,7 +71,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "本硬币仅对次要目标造成伤害\n- 若本技能的第一枚硬币未击杀目标或使目标陷入混乱，则仅随机对1名次要目标造成伤害"
+                  "desc": "本硬币僅对次要目标造成伤害\n- 若本技能的第一枚硬币未击杀目标或使目标陥入混乱，则僅随机对1名次要目标造成伤害"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度"
@@ -110,7 +110,7 @@
         {
           "level": 1,
           "name": "掌握弱点",
-          "desc": "[DefeatDuel] 使自身的[Breath]强度减半\n- 本回合期间增加的[Breath]强度减半\n- 下回合对自身施加4层[Paralysis]",
+          "desc": "[DefeatDuel] 使自身的[Breath]强度減半\n- 本回合期間增加的[Breath]强度減半\n- 下回合对自身施加4层[Paralysis]",
           "coinlist": [
             {
               "coindescs": [
@@ -132,7 +132,7 @@
         {
           "level": 1,
           "name": "指定目标射击",
-          "desc": "指定带有[FellBulletMark]的目标\n自身每带有5级[Breath]强度，使本技能的硬币威力+1(最多+2)\n自身每带有3层[Breath]，使本技能的基础威力+1(最多+3)\n[WhenUse] 若主要目标未带有[FellBulletMark]，则对自身施加1层[Paralysis]与3层[Vulnerable]\n[EndSkill] 若击杀目标，则使自身增加10级[Breath]强度并使全体敌方单位失去15点理智值",
+          "desc": "指定带有[FellBulletMark]的目标\n自身每带有5级[Breath]强度，使本技能的硬币威力+1(最多+2)\n自身每带有3层[Breath]，使本技能的基础威力+1(最多+3)\n[WhenUse] 若主要目标未带有[FellBulletMark]，则对自身施加1层[Paralysis]与3层[Vulnerable]\n[EndSkill] 若击杀目标，则使自身增加10级[Breath]强度并使全体敌方単位失去15点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -140,7 +140,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "本硬币仅对主要目标造成伤害。"
+                  "desc": "本硬币僅对主要目标造成伤害。"
                 },
                 {
                   "desc": "若目标带有[FellBulletMark]，则使本硬币造成的伤害+100%"
@@ -156,7 +156,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "本硬币仅对次要目标造成伤害\n- 若本技能的第一枚硬币未击杀目标，则仅随机对2名次要目标造成伤害"
+                  "desc": "本硬币僅对次要目标造成伤害\n- 若本技能的第一枚硬币未击杀目标，则僅随机对2名次要目标造成伤害"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加5级[Sinking]强度与5级[Laceration]强度"
@@ -172,8 +172,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "调整目标射击",
-          "desc": "[CantIdentify]\n[CantChangeTarget]\n指定带有[FellBulletMark]的目标\n若自身未攻击标记的目标，则取消本技能\n自身每带有5级[Breath]强度，使本技能的硬币威力+1(最多+2)\n自身每带有3层[Breath]，使本技能的基础威力+1(最多+3)\n[EndSkill] 若击杀目标，则使自身增加10级[Breath]强度并使全体敌方单位失去15点理智值",
+          "name": "調整目标射击",
+          "desc": "[CantIdentify]\n[CantChangeTarget]\n指定带有[FellBulletMark]的目标\n若自身未攻击标記的目标，则取消本技能\n自身每带有5级[Breath]强度，使本技能的硬币威力+1(最多+2)\n自身每带有3层[Breath]，使本技能的基础威力+1(最多+3)\n[EndSkill] 若击杀目标，则使自身增加10级[Breath]强度并使全体敌方単位失去15点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -181,7 +181,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "本硬币仅对主要目标造成伤害"
+                  "desc": "本硬币僅对主要目标造成伤害"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 若目标带有[FellBulletMark]，则击杀目标"
@@ -197,7 +197,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "本硬币仅对次要目标造成伤害\n- 若本技能的第一枚硬币未击杀目标，则仅随机对1名次要目标造成伤害"
+                  "desc": "本硬币僅对次要目标造成伤害\n- 若本技能的第一枚硬币未击杀目标，则僅随机对1名次要目标造成伤害"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加5级[Sinking]强度与5级[Laceration]强度"
@@ -268,7 +268,7 @@
         {
           "level": 1,
           "name": "痛苦的呼吸声",
-          "desc": "[WhenUse] 自身每带有8级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 自身每带有8层[Breath]，使本技能的硬币威力+1(最多+5)\n[DefeatDuel] 使自身的[Breath]强度减半\n[EndSkill] 使自身的[Breath]强度与[Breath]层数减半",
+          "desc": "[WhenUse] 自身每带有8级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 自身每带有8层[Breath]，使本技能的硬币威力+1(最多+5)\n[DefeatDuel] 使自身的[Breath]强度減半\n[EndSkill] 使自身的[Breath]强度与[Breath]层数減半",
           "coinlist": [
             {},
             {},
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "蜷缩",
-          "desc": "[WhenUse] 自身每带有4级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 使自身增加4级[Breath]强度\n- 若现存体力不高于50%，则额外使自身获得4层[Breath]",
+          "desc": "[WhenUse] 自身每带有4级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 使自身增加4级[Breath]强度\n- 若现存体力不高于50%，则額外使自身获得4层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -336,7 +336,7 @@
         {
           "level": 1,
           "name": "分担痛苦",
-          "desc": "[WhenUse] 自身每带有8级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 自身每带有8层[Breath]，使本技能的硬币威力+1(最多+5)\n[DefeatDuel] 使本技能造成的伤害-75%，且本技能造成的伤害不会使目标陷入混乱\n[EndSkill] 使自身的[Breath]强度与[Breath]层数减半",
+          "desc": "[WhenUse] 自身每带有8级[Breath]强度，使本技能的最终威力+1(最多+5)\n[WhenUse] 自身每带有8层[Breath]，使本技能的硬币威力+1(最多+5)\n[DefeatDuel] 使本技能造成的伤害-75%，且本技能造成的伤害不会使目标陥入混乱\n[EndSkill] 使自身的[Breath]强度与[Breath]层数減半",
           "coinlist": [
             {
               "coindescs": [
@@ -397,7 +397,7 @@
         {
           "level": 1,
           "name": "执拗致伤",
-          "desc": "若目标的[Laceration]强度不低于6级，则令本技能增加的[Laceration]强度与施加的[Laceration]层数额外+1",
+          "desc": "若目标的[Laceration]强度不低于6级，则令本技能增加的[Laceration]强度与施加的[Laceration]层数額外+1",
           "coinlist": [
             {
               "coindescs": [
@@ -429,7 +429,7 @@
         {
           "level": 1,
           "name": "致伤",
-          "desc": "若目标的[Laceration]强度不低于6级，则令本技能增加的[Laceration]强度与施加的[Laceration]层数额外+1",
+          "desc": "若目标的[Laceration]强度不低于6级，则令本技能增加的[Laceration]强度与施加的[Laceration]层数額外+1",
           "coinlist": [
             {
               "coindescs": [
@@ -454,8 +454,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "紧缠的棘蔓",
-          "desc": "若目标的[Laceration]强度不低于6级，则令本技能增加的[Laceration]强度额外+1级",
+          "name": "緊缠的棘蔓",
+          "desc": "若目标的[Laceration]强度不低于6级，则令本技能增加的[Laceration]强度額外+1级",
           "coinlist": [
             {
               "coindescs": [
@@ -492,7 +492,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次(使目标的[Laceration]层数减少1层)"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次(使目标的[Laceration]层数減少1层)"
                 }
               ]
             }
@@ -518,7 +518,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 触发目标所有[Laceration](使其[Laceration]层数全部减少)"
+                  "desc": "[OnSucceedAttack] 触发目标所有[Laceration](使其[Laceration]层数全部減少)"
                 }
               ]
             }
@@ -531,13 +531,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "荆棘风暴",
+          "name": "荆棘風暴",
           "desc": "[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的最终威力+2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次(使目标的[Laceration]层数减少1层)"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次(使目标的[Laceration]层数減少1层)"
                 }
               ]
             }
@@ -602,7 +602,7 @@
         {
           "level": 1,
           "name": "止不住的血",
-          "desc": "[DuelCounter]\n[WhenUse] 与本技能拼点的目标在进行拼点时[Laceration]层数不会减少",
+          "desc": "[DuelCounter]\n[WhenUse] 与本技能拼点的目标在進行拼点时[Laceration]层数不会減少",
           "coinlist": [
             {
               "coindescs": [
@@ -610,7 +610,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并立即消耗该[Laceration]伤害生成的[BloodDinner]"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并立即消耗該[Laceration]伤害生成的[BloodDinner]"
                 }
               ]
             },
@@ -620,7 +620,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并立即消耗该[Laceration]伤害生成的[BloodDinner]"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并立即消耗該[Laceration]伤害生成的[BloodDinner]"
                 }
               ]
             },
@@ -630,7 +630,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并立即消耗该[Laceration]伤害生成的[BloodDinner]"
+                  "desc": "[OnSucceedAttack] 触发目标的[Laceration]1次，并立即消耗該[Laceration]伤害生成的[BloodDinner]"
                 }
               ]
             }
@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "沉溺于养分",
-          "desc": "[BloodDinner]层数不低于100层时使用\n[EndBattle] 消耗至多100层[BloodDinner]并触发以下效果\n- 使自身本体与躯干部位恢复相当于消耗的[BloodDinner]层数的体力\n- 每消耗20层[BloodDinner]，下回合使自身获得1层[AttackUp]",
+          "desc": "[BloodDinner]层数不低于100层时使用\n[EndBattle] 消耗最多100层[BloodDinner]并触发以下效果\n- 使自身本体与躯干部位恢复相当于消耗的[BloodDinner]层数的体力\n- 每消耗20层[BloodDinner]，下回合使自身获得1层[AttackUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -663,7 +663,7 @@
         {
           "level": 1,
           "name": "渴望的棘蔓",
-          "desc": "[WhenUse] 消耗至多100层[BloodDinner]并触发以下效果\n- 使自身本体与躯干部位恢复相当于消耗的[BloodDinner]层数的体力\n- 每消耗20层[BloodDinner]，使本技能的最终威力+1\n[DefeatDuel] 使本技能的最终威力-5\n[EndSkill] 若本技能消耗的[BloodDinner]层数低于30层，则下回合对自身施加2层[Vulnerable]",
+          "desc": "[WhenUse] 消耗最多100层[BloodDinner]并触发以下效果\n- 使自身本体与躯干部位恢复相当于消耗的[BloodDinner]层数的体力\n- 每消耗20层[BloodDinner]，使本技能的最终威力+1\n[DefeatDuel] 使本技能的最终威力-5\n[EndSkill] 若本技能消耗的[BloodDinner]层数低于30层，则下回合对自身施加2层[Vulnerable]",
           "coinlist": [
             {
               "coindescs": [

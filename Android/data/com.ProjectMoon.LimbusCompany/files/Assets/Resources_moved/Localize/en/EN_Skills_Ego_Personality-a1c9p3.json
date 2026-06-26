@@ -12,10 +12,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 本回合与下回合中，对目标施加2层[Reduction]"
+                  "desc": "[OnSucceedAttack] 本回合与下回合对目标施加2层[Reduction]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 下回合使全体友方单位获得3层[Agility]"
+                  "desc": "[OnSucceedAttack] 下回合使全体友方単位获得3层[Agility]"
                 },
                 {
                   "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]"
@@ -88,7 +88,7 @@
           "level": 4,
           "name": "太虚幻境",
           "abName": "鸿璐",
-          "desc": "[EndSkill] 使自身与全体友方单位恢复15点理智值\n[EndSkill] 解除自身与全体友方单位的烧伤 ",
+          "desc": "[EndSkill] 使自身与全体友方単位恢复15点理智値\n[EndSkill] 解除自身与全体友方単位的烧伤 ",
           "coinlist": [
             {
               "coindescs": [
@@ -106,7 +106,7 @@
       "levelList": [
         {
           "level": 4,
-          "name": "致智慧与苦难",
+          "name": "致智慧与苦難",
           "abName": "奥提斯",
           "desc": "若目标现存体力低于50%，则使本技能造成的伤害+30%",
           "coinlist": [
@@ -116,7 +116,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Burst]强度"
                 },
                 {
-                  "desc": "[EnemyKill] 随机使1名友方单位获得1层[AttackDmgUp]"
+                  "desc": "[EnemyKill] 随机使1名友方単位获得1层[AttackDmgUp]"
                 }
               ]
             }

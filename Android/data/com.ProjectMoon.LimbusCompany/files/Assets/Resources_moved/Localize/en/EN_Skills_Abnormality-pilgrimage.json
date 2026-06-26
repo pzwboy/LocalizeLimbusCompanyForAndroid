@@ -5,8 +5,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "贯穿大潮之枪",
-          "desc": "[WhenUse] 每有2名敌方单位带有[ColdAirDOQ]，使本技能的拼点威力+1(最多+2)\n[WhenUse] 目标每带有1层[ColdAirDOQ]，使本技能的最终威力+1(最多+2)",
+          "name": "貫穿大潮之枪",
+          "desc": "[WhenUse] 每有2名敌方単位带有[ColdAirDOQ]，使本技能的拼点威力+1(最多+2)\n[WhenUse] 目标每带有1层[ColdAirDOQ]，使本技能的最终威力+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "粉碎大潮之枪",
-          "desc": "[WhenUse] 每有2名敌方单位带有[ColdAirDOQ]，使本技能的基础威力+1(最多+2)\n[WhenUse] 若主要目标带有[ColdAirDOQ]，则使本技能的攻击容量+1\n[WhenUse] 主要目标每带有1层[ColdAirDOQ]，使本技能的最终威力+1(最多+2)\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[WhenUse] 每有2名敌方単位带有[ColdAirDOQ]，使本技能的基础威力+1(最多+2)\n[WhenUse] 若主要目标带有[ColdAirDOQ]，则使本技能的攻击容量+1\n[WhenUse] 主要目标每带有1层[ColdAirDOQ]，使本技能的最终威力+1(最多+2)\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -53,8 +53,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "猎潮",
-          "desc": "优先指定带有[FreezingDOQ]的目标\n可无视速度值与本技能拼点\n[WhenUse] 攻击带有[FreezingDOQ]的目标时，使本技能的攻击容量+2\n[WhenUse] 每有2名带有[ColdAirDOQ]的敌方单位，使本技能的硬币威力+1(最多+2)\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陷入混乱",
+          "name": "猟潮",
+          "desc": "优先指定带有[FreezingDOQ]的目标\n可无視速度値与本技能拼点\n[WhenUse] 攻击带有[FreezingDOQ]的目标时，使本技能的攻击容量+2\n[WhenUse] 每有2名带有[ColdAirDOQ]的敌方単位，使本技能的硬币威力+1(最多+2)\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -76,7 +76,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[EnemyKill] 若目标带有[FreezingDOQ]，则使自身恢复20点理智值"
+                  "desc": "[EnemyKill] 若目标带有[FreezingDOQ]，则使自身恢复20点理智値"
                 }
               ]
             }
@@ -90,7 +90,7 @@
         {
           "level": 1,
           "name": "杀死大海，杀死大海！！",
-          "desc": "[CantDuel]\n[WhenUse] 每有1名敌方单位带有[ColdAirDOQ]，使本技能造成的伤害+5%(最多+30%)",
+          "desc": "[CantDuel]\n[WhenUse] 每有1名敌方単位带有[ColdAirDOQ]，使本技能造成的伤害+5%(最多+30%)",
           "coinlist": [
             {
               "coindescs": [
@@ -112,10 +112,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标额外造成((1+目标的[ColdAirDOQ]层数)×10)点忧郁伤害"
+                  "desc": "[OnSucceedAttack] 对目标額外造成((1+目标的[ColdAirDOQ]层数)×10)点忧鬱伤害"
                 },
                 {
-                  "desc": "[EnemyKill] 若目标带有[FreezingDOQ]，则使自身恢复20点理智值"
+                  "desc": "[EnemyKill] 若目标带有[FreezingDOQ]，则使自身恢复20点理智値"
                 }
               ]
             }
@@ -129,7 +129,7 @@
         {
           "level": 1,
           "name": "杀死大海，杀死大海！！",
-          "desc": "优先指定带有[FreezingDOQ]的目标\n可无视速度值与本技能拼点\n[WhenUse] 每有1名带有[ColdAirDOQ]的敌方单位，使本技能造成的伤害+5%(最多+30%)\n[WhenUse] 每有2名带有[ColdAirDOQ]的敌方单位，使本技能的硬币威力+1(最多+3)\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "优先指定带有[FreezingDOQ]的目标\n可无視速度値与本技能拼点\n[WhenUse] 每有1名带有[ColdAirDOQ]的敌方単位，使本技能造成的伤害+5%(最多+30%)\n[WhenUse] 每有2名带有[ColdAirDOQ]的敌方単位，使本技能的硬币威力+1(最多+3)\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -160,10 +160,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标额外造成((1+目标的[ColdAirDOQ]层数)×10)点忧郁伤害"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标額外造成((1+目标的[ColdAirDOQ]层数)×10)点忧鬱伤害"
                 },
                 {
-                  "desc": "[EnemyKill] 若目标带有[FreezingDOQ]，则使自身恢复20点理智值"
+                  "desc": "[EnemyKill] 若目标带有[FreezingDOQ]，则使自身恢复20点理智値"
                 }
               ]
             }
@@ -176,8 +176,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "不屈的骑士",
-          "desc": "[CanDuelGuard]\n[WhenUse] 下回合使自身获得2层[Agility](每回合最多1次)\n[WinDuel] 使自身恢复15点理智值\n[DefeatDuel] 使自身失去10点理智值",
+          "name": "不屈的騎士",
+          "desc": "[CanDuelGuard]\n[WhenUse] 下回合使自身获得2层[Agility](每回合最多1次)\n[WinDuel] 使自身恢复15点理智値\n[DefeatDuel] 使自身失去10点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -220,7 +220,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "撕裂斩击",
+          "name": "斩裂",
           "desc": "目标每带有6级[Sinking]强度，使本技能的最终威力+1(最多+2)",
           "coinlist": [
             {
@@ -279,7 +279,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "连续突刺",
+          "name": "連続突刺",
           "desc": "目标每带有6级[Sinking]强度，使本技能的最终威力+1(最多+2)",
           "coinlist": [
             {
@@ -292,7 +292,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标造成等同于其[NervousImpairment]层数的忧郁伤害"
+                  "desc": "[OnSucceedAttack] 对目标造成等同于其[NervousImpairment]层数的忧鬱伤害"
                 }
               ]
             }
@@ -305,8 +305,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "合一的意志",
-          "desc": "目标每带有6级[Sinking]强度，使本技能的硬币威力+1(最多+2)\n[StartBattle] 使速度值最低的友方深海教徒在下回合获得2层[Agility]",
+          "name": "合一的意誌",
+          "desc": "目标每带有6级[Sinking]强度，使本技能的硬币威力+1(最多+2)\n[StartBattle] 使速度値最低的友方深海教徒在下回合获得2层[Agility]",
           "coinlist": [
             {
               "coindescs": [
@@ -334,8 +334,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "扩散的欢喜",
-          "desc": "目标每带有6级[Sinking]强度，使本技能的硬币威力+1(最多+2)\n[StartBattle] 使速度值最高的友方深海教徒在下回合获得2层[Enhancement]",
+          "name": "扩散的歓喜",
+          "desc": "目标每带有6级[Sinking]强度，使本技能的硬币威力+1(最多+2)\n[StartBattle] 使速度値最高的友方深海教徒在下回合获得2层[Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -360,7 +360,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "解放的意识",
+          "name": "解放的意識",
           "desc": "目标每带有6级[Sinking]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 若目标带有[Binding]，则使本技能的最终威力+2\n[WinDuel] 使目标增加6级[Sinking]强度",
           "coinlist": [
             {
@@ -398,7 +398,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "环境适应",
+          "name": "环境適応",
           "desc": "目标每带有6级[Sinking]强度，使本技能的最终威力+1(最多+2)\n[StartBattle] 使自身获得50点护盾\n[EndBattle] 若自身带有护盾，则下回合使自身获得2层[Enhancement]",
           "coinlist": [
             {
@@ -424,8 +424,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "为了陆上的同胞",
-          "desc": "[WhenUse] 若当前激活了[NetherseaBrandUnit]，则使本技能的最终威力+3\n- [NetherseaBrandUnit]每有1阶段，额外使本技能的最终威力+1\n\n[WhenUse] 主要目标每带有6级[Sinking]强度，使本技能的硬币威力+1(最多+2)\n若[NetherseaBrandUnit]阶段不低于2，则令本技能施加的[NervousImpairment]额外+1层",
+          "name": "為了陸上的同胞",
+          "desc": "[WhenUse] 若当前激活了[NetherseaBrandUnit]，则使本技能的最终威力+3\n- [NetherseaBrandUnit]每有1階段，額外使本技能的最终威力+1\n\n[WhenUse] 主要目标每带有6级[Sinking]强度，使本技能的硬币威力+1(最多+2)\n若[NetherseaBrandUnit]階段不低于2，则令本技能施加的[NervousImpairment]額外+1层",
           "coinlist": [
             {
               "coindescs": [
@@ -488,16 +488,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "安息的回响",
-          "desc": "[CantIdentify]\n优先指定友方单位，其中优先指定现存体力最低的友方单位为主要目标\n若指定友方单位，则使本技能造成的伤害固定为0点\n目标每带有3级[Sinking]强度，使本技能的拼点威力+1(最多+4)\n[StartBattle] 若指定友方单位，则使自身恢复目标体力上限20%的体力",
+          "name": "安息的回響",
+          "desc": "[CantIdentify]\n优先指定友方単位，其中优先指定现存体力最低的友方単位為主要目标\n若指定友方単位，则使本技能造成的伤害固定為0点\n目标每带有3级[Sinking]强度，使本技能的拼点威力+1(最多+4)\n[StartBattle] 若指定友方単位，则使自身恢复目标体力上限20%的体力",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则召唤目标时每消耗4层[AbyssalVitality]，本回合与下回合使其获得1层[DefenseUp](最多5层)"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则召唤目标时每消耗4层[AbyssalVitality]，本回合与下回合使其获得1层[DefenseUp](最多5层)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则使其增加3级[Sinking]强度并对其施加2层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则使其增加3级[Sinking]强度并对其施加2层[NervousImpairment]"
                 }
               ]
             }
@@ -510,16 +510,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "升天的回响",
-          "desc": "[CantIdentify]\n优先指定现存体力最高的友方单位\n若指定友方单位，则使本技能造成的伤害固定为0点\n目标每带有3级[Sinking]强度，使本技能的拼点威力+1(最多+4)",
+          "name": "升天的回響",
+          "desc": "[CantIdentify]\n优先指定现存体力最高的友方単位\n若指定友方単位，则使本技能造成的伤害固定為0点\n目标每带有3级[Sinking]强度，使本技能的拼点威力+1(最多+4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则召唤目标时每消耗4层[AbyssalVitality]，本回合与下回合使其获得1层[AttackUp](最多5层)"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则召唤目标时每消耗4层[AbyssalVitality]，本回合与下回合使其获得1层[AttackUp](最多5层)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则使其增加3级[Sinking]强度并对其施加2层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则使其增加3级[Sinking]强度并对其施加2层[NervousImpairment]"
                 }
               ]
             }
@@ -533,7 +533,7 @@
         {
           "level": 1,
           "name": "循环的生态系统",
-          "desc": "[CanDuelGuard]\n[EndBattle] 每有1名存活的友方单位，消耗1层[AbyssalVitality]，并使全体友方单位在下回合获得层数相当于其存活回合数的[AttackDmgUp](最多3层)\n[DefeatDuel] 下回合不会获得[AttackDmgUp]",
+          "desc": "[CanDuelGuard]\n[EndBattle] 每有1名存活的友方単位，消耗1层[AbyssalVitality]，并使全体友方単位在下回合获得层数相当于其存活回合数的[AttackDmgUp](最多3层)\n[DefeatDuel] 下回合不会获得[AttackDmgUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -552,7 +552,7 @@
         {
           "level": 1,
           "name": "以深蓝的温情。",
-          "desc": "[CantIdentify]\n主要目标每带有3层[NervousImpairment]，使本技能的基础威力+1(最多+9)\n若指定友方单位，则使本技能造成的伤害固定为0点\n可无视速度值与本技能拼点\n[DefeatDuel]\n- 对自身施加3层[ResultReduction]与3层[Paralysis]\n- 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱\n- 令本技能施加的[NervousImpairment]层数减半，且不会增加[Sinking]强度或施加[Sinking]层数\n- 使本技能获得的[AbyssalVitality]层数减半\n[EndSkill] 使自身获得100层[AbyssalVitality]\n[EndBattle] 下回合开始时在友方战场生成[NetherseaBrandUnit]",
+          "desc": "[CantIdentify]\n主要目标每带有3层[NervousImpairment]，使本技能的基础威力+1(最多+9)\n若指定友方単位，则使本技能造成的伤害固定為0点\n可无視速度値与本技能拼点\n[DefeatDuel]\n- 对自身施加3层[ResultReduction]与3层[Paralysis]\n- 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱\n- 令本技能施加的[NervousImpairment]层数減半，且不会增加[Sinking]强度或施加[Sinking]层数\n- 使本技能获得的[AbyssalVitality]层数減半\n[EndSkill] 使自身获得100层[AbyssalVitality]\n[EndBattle] 下回合開始时在友方战场生成[NetherseaBrandUnit]",
           "coinlist": [
             {
               "coindescs": [
@@ -560,10 +560,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则使自身恢复其体力上限10%的体力"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则使自身恢复其体力上限10%的体力"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则对其施加2层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则对其施加2层[NervousImpairment]"
                 }
               ]
             },
@@ -573,10 +573,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则使自身恢复其体力上限10%的体力"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则使自身恢复其体力上限10%的体力"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则对其施加2层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则对其施加2层[NervousImpairment]"
                 }
               ]
             },
@@ -586,10 +586,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则使自身恢复其体力上限10%的体力"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则使自身恢复其体力上限10%的体力"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则使其增加4级[Sinking]强度并对其施加4层[Sinking]与4层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则使其增加4级[Sinking]强度并对其施加4层[Sinking]与4层[NervousImpairment]"
                 }
               ]
             }
@@ -603,7 +603,7 @@
         {
           "level": 1,
           "name": "潮之轨迹",
-          "desc": "[WhenUse] 若自身的[AbyssalVitality]层数不低于50层，则消耗5层[AbyssalVitality]并令本技能施加的[NervousImpairment]层数额外+2层\n[WhenUse] 目标每带有5层[NervousImpairment]，消耗1层[AbyssalVitality]并使本技能的拼点威力+1(最多+5)\n",
+          "desc": "[WhenUse] 若自身的[AbyssalVitality]层数不低于50层，则消耗5层[AbyssalVitality]并令本技能施加的[NervousImpairment]层数額外+2层\n[WhenUse] 目标每带有5层[NervousImpairment]，消耗1层[AbyssalVitality]并使本技能的拼点威力+1(最多+5)\n",
           "coinlist": [
             {
               "coindescs": [
@@ -672,8 +672,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "摇曳的波涛",
-          "desc": "[WhenUse] 主要目标每带有3层[NervousImpairment]，使本技能的硬币威力+1(最多+9)\n[EndBattle] 消耗至多10层[AbyssalVitality]并在下回合使自身获得层数相当于消耗量一半的[AttackUp](最多5层，向上取整)\n- [DefeatDuel] 下回合不会获得[AttackUp]",
+          "name": "搖曳的波涛",
+          "desc": "[WhenUse] 主要目标每带有3层[NervousImpairment]，使本技能的硬币威力+1(最多+9)\n[EndBattle] 消耗最多10层[AbyssalVitality]并在下回合使自身获得层数相当于消耗量一半的[AttackUp](最多5层，向上取整)\n- [DefeatDuel] 下回合不会获得[AttackUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -697,8 +697,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "在他们所笃信的善意失去价值之前。",
-          "desc": "优先指定[NervousImpairment]层数最高的目标\n主要目标每带有3层[NervousImpairment]，使本技能的基础威力+1(最多+9)\n可无视速度值与本技能拼点\n[DefeatDuel]\n- 对自身施加3层[ResultReduction]与3层[Paralysis]\n- 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱\n- 令本技能施加的[NervousImpairment]层数减半，且不会增加[Sinking]强度或施加[Sinking]层数\n- 使本技能获得的[AbyssalVitality]层数与护盾减半\n[EndSkill]\n- 使自身获得100层[AbyssalVitality]\n- 使自身获得等同于自身体力上限20%的护盾\n- 结束本回合\n[EndBattle] 下回合开始时在全体战场生成[NetherseaBrandUnit]",
+          "name": "在他们所笃信的善意失去价値之前。",
+          "desc": "优先指定[NervousImpairment]层数最高的目标\n主要目标每带有3层[NervousImpairment]，使本技能的基础威力+1(最多+9)\n可无視速度値与本技能拼点\n[DefeatDuel]\n- 对自身施加3层[ResultReduction]与3层[Paralysis]\n- 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱\n- 令本技能施加的[NervousImpairment]层数減半，且不会增加[Sinking]强度或施加[Sinking]层数\n- 使本技能获得的[AbyssalVitality]层数与护盾減半\n[EndSkill]\n- 使自身获得100层[AbyssalVitality]\n- 使自身获得等同于自身体力上限20%的护盾\n- 结束本回合\n[EndBattle] 下回合開始时在全体战场生成[NetherseaBrandUnit]",
           "coinlist": [
             {
               "coindescs": [
@@ -761,16 +761,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "安息的回响",
-          "desc": "[CantIdentify]\n优先指定友方单位，其中优先指定现存体力最低的友方单位为主要目标\n若指定友方单位，则使本技能造成的伤害固定为0点\n目标每带有3级[Sinking]强度，使本技能的拼点威力+1(最多+4)\n[StartBattle] 若指定友方单位，则使自身恢复目标体力上限20%的体力",
+          "name": "安息的回響",
+          "desc": "[CantIdentify]\n优先指定友方単位，其中优先指定现存体力最低的友方単位為主要目标\n若指定友方単位，则使本技能造成的伤害固定為0点\n目标每带有3级[Sinking]强度，使本技能的拼点威力+1(最多+4)\n[StartBattle] 若指定友方単位，则使自身恢复目标体力上限20%的体力",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则召唤目标时每消耗4层[AbyssalVitality]，本回合与下回合使其获得1层[DefenseUp](最多5层)"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则召唤目标时每消耗4层[AbyssalVitality]，本回合与下回合使其获得1层[DefenseUp](最多5层)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则使其增加3级[Sinking]强度并对其施加2层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则使其增加3级[Sinking]强度并对其施加2层[NervousImpairment]"
                 }
               ]
             }
@@ -783,16 +783,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "升天的回响",
-          "desc": "[CantIdentify]\n优先指定现存体力最高的友方单位\n若指定友方单位，则使本技能造成的伤害固定为0点\n目标每带有3级[Sinking]强度，使本技能的拼点威力+1(最多+4)",
+          "name": "升天的回響",
+          "desc": "[CantIdentify]\n优先指定现存体力最高的友方単位\n若指定友方単位，则使本技能造成的伤害固定為0点\n目标每带有3级[Sinking]强度，使本技能的拼点威力+1(最多+4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则召唤目标时每消耗4层[AbyssalVitality]，本回合与下回合使其获得1层[AttackUp](最多5层)"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则召唤目标时每消耗4层[AbyssalVitality]，本回合与下回合使其获得1层[AttackUp](最多5层)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则使其增加3级[Sinking]强度并对其施加2层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则使其增加3级[Sinking]强度并对其施加2层[NervousImpairment]"
                 }
               ]
             }
@@ -806,7 +806,7 @@
         {
           "level": 1,
           "name": "循环的生态系统",
-          "desc": "[CanDuelGuard]\n[EndBattle] 每有1名存活的友方单位，消耗1层[AbyssalVitality]，并使全体友方单位在下回合获得层数相当于其存活回合数的[AttackDmgUp](最多3层)\n[DefeatDuel] 下回合不会获得[AttackDmgUp]",
+          "desc": "[CanDuelGuard]\n[EndBattle] 每有1名存活的友方単位，消耗1层[AbyssalVitality]，并使全体友方単位在下回合获得层数相当于其存活回合数的[AttackDmgUp](最多3层)\n[DefeatDuel] 下回合不会获得[AttackDmgUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -825,7 +825,7 @@
         {
           "level": 1,
           "name": "以深蓝的温情。",
-          "desc": "[CantIdentify]\n主要目标每带有3层[NervousImpairment]，使本技能的基础威力+1(最多+9)\n若指定友方单位，则使本技能造成的伤害固定为0点\n可无视速度值与本技能拼点\n[DefeatDuel]\n- 对自身施加3层[ResultReduction]与3层[Paralysis]\n- 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱\n- 令本技能施加的[NervousImpairment]层数减半，且不会增加[Sinking]强度或施加[Sinking]层数\n- 使本技能获得的[AbyssalVitality]层数减半\n[EndSkill] 使自身获得100层[AbyssalVitality]\n[EndBattle] 下回合开始时在友方战场生成[NetherseaBrandUnit]",
+          "desc": "[CantIdentify]\n主要目标每带有3层[NervousImpairment]，使本技能的基础威力+1(最多+9)\n若指定友方単位，则使本技能造成的伤害固定為0点\n可无視速度値与本技能拼点\n[DefeatDuel]\n- 对自身施加3层[ResultReduction]与3层[Paralysis]\n- 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱\n- 令本技能施加的[NervousImpairment]层数減半，且不会增加[Sinking]强度或施加[Sinking]层数\n- 使本技能获得的[AbyssalVitality]层数減半\n[EndSkill] 使自身获得100层[AbyssalVitality]\n[EndBattle] 下回合開始时在友方战场生成[NetherseaBrandUnit]",
           "coinlist": [
             {
               "coindescs": [
@@ -833,10 +833,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则使自身恢复其体力上限10%的体力"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则使自身恢复其体力上限10%的体力"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则对其施加2层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则对其施加2层[NervousImpairment]"
                 }
               ]
             },
@@ -846,10 +846,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则使自身恢复其体力上限10%的体力"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则使自身恢复其体力上限10%的体力"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则对其施加2层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则对其施加2层[NervousImpairment]"
                 }
               ]
             },
@@ -859,10 +859,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为友方单位，则使自身恢复其体力上限10%的体力"
+                  "desc": "[OnSucceedAttack] 若目标為友方単位，则使自身恢复其体力上限10%的体力"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则使其增加4级[Sinking]强度并对其施加4层[Sinking]与4层[NervousImpairment]"
+                  "desc": "[OnSucceedAttack] 若目标為敌方単位，则使其增加4级[Sinking]强度并对其施加4层[Sinking]与4层[NervousImpairment]"
                 }
               ]
             }
@@ -876,7 +876,7 @@
         {
           "level": 1,
           "name": "潮之轨迹",
-          "desc": "[WhenUse] 若自身的[AbyssalVitality]层数不低于50层，则消耗5层[AbyssalVitality]并令本技能施加的[NervousImpairment]层数额外+2层\n[WhenUse] 目标每带有10层[NervousImpairment]，消耗1层[AbyssalVitality]并使本技能的拼点威力+1(最多+2)\n",
+          "desc": "[WhenUse] 若自身的[AbyssalVitality]层数不低于50层，则消耗5层[AbyssalVitality]并令本技能施加的[NervousImpairment]层数額外+2层\n[WhenUse] 目标每带有10层[NervousImpairment]，消耗1层[AbyssalVitality]并使本技能的拼点威力+1(最多+2)\n",
           "coinlist": [
             {
               "coindescs": [
@@ -942,8 +942,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "摇曳的波涛",
-          "desc": "[WhenUse] 主要目标每带有5层[NervousImpairment]，使本技能的硬币威力+1(最多+5)\n[EndBattle] 消耗至多10层[AbyssalVitality]并在下回合使自身获得层数相当于消耗量一半的[AttackUp](最多5层，向上取整)\n- [DefeatDuel] 下回合不会获得[AttackUp]",
+          "name": "搖曳的波涛",
+          "desc": "[WhenUse] 主要目标每带有5层[NervousImpairment]，使本技能的硬币威力+1(最多+5)\n[EndBattle] 消耗最多10层[AbyssalVitality]并在下回合使自身获得层数相当于消耗量一半的[AttackUp](最多5层，向上取整)\n- [DefeatDuel] 下回合不会获得[AttackUp]",
           "coinlist": [
             {
               "coindescs": [

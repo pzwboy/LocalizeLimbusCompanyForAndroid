@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "开裂吧",
-          "desc": "优先指定带有标识 的单位",
+          "name": "開裂吧",
+          "desc": "优先指定带有标識 的単位",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 根据点燃的蜡烛数，对目标造成相应的理智伤害"
+                  "desc": "[OnSucceedAttack] 根据点燃的蝋烛数，对目标造成相応的理智伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 根据点燃的蜡烛数，对目标造成相应的理智伤害"
+                  "desc": "[OnSucceedAttack] 根据点燃的蝋烛数，对目标造成相応的理智伤害"
                 }
               ]
             }
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "渴求着…",
-          "desc": "优先指定带有标识 的单位",
+          "desc": "优先指定带有标識 的単位",
           "coinlist": [
             {
               "coindescs": [
@@ -64,12 +64,12 @@
         {
           "level": 1,
           "name": "9章2节",
-          "desc": "下回合熄灭所有蜡烛\n攻击命中带有[AaCePcBa]的目标时，使其体力上限额外减少5%\n[DefeatDuel] 使目标增加10级烧伤 强度，下回合对其施加标识 \n[EndBattle] 使所有蜡烛恢复全部体力",
+          "desc": "下回合熄灭所有蝋烛\n攻击命中带有[AaCePcBa]的目标时，使其体力上限額外減少5%\n[DefeatDuel] 使目标增加10级烧伤 强度，下回合对其施加标識 \n[EndBattle] 使所有蝋烛恢复全部体力",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标的体力上限减少10%"
+                  "desc": "[OnSucceedAttack] 使目标的体力上限減少10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加5级烧伤 强度并对其施加2层烧伤 "
@@ -79,7 +79,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标的体力上限减少10%"
+                  "desc": "[OnSucceedAttack] 使目标的体力上限減少10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加5级烧伤 强度并对其施加2层烧伤 "
@@ -96,12 +96,12 @@
         {
           "level": 1,
           "name": "6章5节",
-          "desc": "[CantDuel][CantChangeTarget]\n代替目标承受伤害，下回合使自身陷入混乱\n随机对未带有[AaCePcBa]的1名敌方单位施加标识 \n[EndBattle] 使所有蜡烛恢复全部体力",
+          "desc": "[CantDuel][CantChangeTarget]\n代替目标承受伤害，下回合使自身陥入混乱\n随机对未带有[AaCePcBa]的1名敌方単位施加标識 \n[EndBattle] 使所有蝋烛恢复全部体力",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身的体力上限减少10%"
+                  "desc": "[OnSucceedAttack] 使自身的体力上限減少10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使自身增加10级烧伤 强度"
@@ -111,7 +111,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身的体力上限减少10%"
+                  "desc": "[OnSucceedAttack] 使自身的体力上限減少10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使自身增加10级烧伤 强度"
@@ -185,7 +185,7 @@
         {
           "level": 1,
           "name": "不可消逝",
-          "desc": "[StartBattle] 使自身获得20点护盾\n护盾全部消耗后，下回合熄灭火焰",
+          "desc": "[StartBattle] 使自身获得20点护盾\n护盾全部消耗後，下回合熄灭火焰",
           "coinlist": [
             {
               "coindescs": [
@@ -334,7 +334,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加10层剧毒 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标失去7点理智值"
+                  "desc": "[OnSucceedAttack] 使目标失去7点理智値"
                 },
                 {
                   "desc": "[OnSucceedAttack] 对目标施加3层幼虫 "
@@ -410,7 +410,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "冲撞",
+          "name": "沖撞",
           "desc": "",
           "coinlist": [
             {
@@ -436,7 +436,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "压制",
+          "name": "圧制",
           "desc": "",
           "coinlist": [
             {
@@ -526,7 +526,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加3级沉沦 强度并对其施加2层沉沦 "
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 下回合使目标理智值减少效率 -2"
+                  "desc": "[OnSucceedAttackHead] 下回合使目标理智値減少效率 -2"
                 }
               ]
             },
@@ -636,7 +636,7 @@
         {
           "level": 1,
           "name": "撕裂伤口",
-          "desc": "[WinDuel] 使自身恢复5点理智值\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%",
+          "desc": "[WinDuel] 使自身恢复5点理智値\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%",
           "coinlist": [
             {
               "coindescs": [
@@ -677,7 +677,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得1层呼吸法 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             },
@@ -687,7 +687,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得1层呼吸法 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             },
@@ -697,7 +697,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得1层呼吸法 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             },
@@ -707,7 +707,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得1层呼吸法 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             }
@@ -761,7 +761,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "连续突刺",
+          "name": "連続突刺",
           "desc": "",
           "coinlist": [
             {
@@ -788,7 +788,7 @@
         {
           "level": 1,
           "name": "刻下伤口",
-          "desc": "[WinDuel] 使自身恢复5点理智值\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%",
+          "desc": "[WinDuel] 使自身恢复5点理智値\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%",
           "coinlist": [
             {
               "coindescs": [
@@ -836,7 +836,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得1层呼吸法 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             },
@@ -846,7 +846,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得1层呼吸法 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             },
@@ -856,7 +856,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得1层呼吸法 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             },
@@ -866,7 +866,7 @@
                   "desc": "[OnSucceedAttack] 使自身获得1层呼吸法 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢复4点理智值"
+                  "desc": "[OnSucceedAttack] 使自身恢复4点理智値"
                 }
               ]
             }
@@ -920,8 +920,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "狩猎开始",
-          "desc": "[StartBattle] 下回合召唤4名友方单位\n[WhenUse] 下回合对目标施加猎物标记 ",
+          "name": "狩猟開始",
+          "desc": "[StartBattle] 下回合召唤4名友方単位\n[WhenUse] 下回合对目标施加猟物标記 ",
           "coinlist": [
             {
               "coindescs": [
@@ -939,7 +939,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "鱼叉",
+          "name": "魚叉",
           "desc": "",
           "coinlist": [
             {
@@ -958,7 +958,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "穿刺鱼叉",
+          "name": "穿刺魚叉",
           "desc": "",
           "coinlist": [
             {},
@@ -989,7 +989,7 @@
         {
           "level": 1,
           "name": "深呼吸",
-          "desc": "[StartBattle] 使自身增加10级呼吸法 强度并使自身获得5层呼吸法 。\n本技能暴击时不消耗呼吸法 层数。\n回合结束时，除自身以外每有1名友方单位存活，下回合使自身获得1层[PlusCoinValueUp]。",
+          "desc": "[StartBattle] 使自身增加10级呼吸法 强度并使自身获得5层呼吸法 。\n本技能暴击时不消耗呼吸法 层数。\n回合结束时，除自身以外每有1名友方単位存活，下回合使自身获得1层[PlusCoinValueUp]。",
           "coinlist": [
             {
               "coindescs": [
@@ -1024,7 +1024,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "追踪猎物",
+          "name": "追踪猟物",
           "desc": "使本技能暴击时造成的伤害+30%",
           "coinlist": [
             {
@@ -1040,7 +1040,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级流血 强度"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标的第一混乱阈值前移本硬币伤害量的50%"
+                  "desc": "[CriticalOnSucceedAttack] 使目标的第一混乱閾値前移本硬币伤害量的50%"
                 }
               ]
             },
@@ -1061,7 +1061,7 @@
         {
           "level": 1,
           "name": "割喉",
-          "desc": "本技能暴击时不消耗呼吸法 层数。\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%\n[WhenUse] 若自身未带有呼吸法 ，则使自身在回合结束时陷入混乱",
+          "desc": "本技能暴击时不消耗呼吸法 层数。\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%\n[WhenUse] 若自身未带有呼吸法 ，则使自身在回合结束时陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1069,7 +1069,7 @@
                   "desc": "使本硬币暴击时造成的伤害+50%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 下回合使目标陷入混乱"
+                  "desc": "[OnSucceedAttack] 下回合使目标陥入混乱"
                 }
               ]
             }
@@ -1099,7 +1099,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "生存意志",
+          "name": "生存意誌",
           "desc": "使本技能暴击时造成的伤害+30%",
           "coinlist": [
             {
@@ -1132,8 +1132,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "必须…保卫",
-          "desc": "[TurnStartBattle] 使用本技能时，若自身的援护护盾 高于0点，则进行援护防御 \n[StartBattle] 使自身获得体力上限10%的援护护盾 ",
+          "name": "必須…保卫",
+          "desc": "[TurnStartBattle] 使用本技能时，若自身的援护护盾 高于0点，则進行援护防御 \n[StartBattle] 使自身获得体力上限10%的援护护盾 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1149,8 +1149,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "坚韧鱼叉",
-          "desc": "与斯达巴克攻击相同目标时，使本技能的最终威力+2",
+          "name": "堅韧魚叉",
+          "desc": "与斯達巴克攻击相同目标时，使本技能的最终威力+2",
           "coinlist": [
             {
               "coindescs": [
@@ -1178,7 +1178,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "必须…完成狩猎",
+          "name": "必須…完成狩猟",
           "desc": "本技能暴击时不消耗呼吸法 层数\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%",
           "coinlist": [
             {
@@ -1187,7 +1187,7 @@
                   "desc": "使本硬币暴击时造成的伤害+50%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 下回合使目标陷入混乱"
+                  "desc": "[OnSucceedAttack] 下回合使目标陥入混乱"
                 }
               ]
             }
@@ -1263,7 +1263,7 @@
         {
           "level": 1,
           "name": "听从命令…",
-          "desc": "[TurnStartBattle] 若魁魁格的援护护盾 高于0点，则进行援护攻击 ",
+          "desc": "[TurnStartBattle] 若魁魁格的援护护盾 高于0点，则進行援护攻击 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1290,7 +1290,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加3层流血 "
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标的第一混乱阈值前移本硬币伤害量的50%"
+                  "desc": "[CriticalOnSucceedAttack] 使目标的第一混乱閾値前移本硬币伤害量的50%"
                 }
               ]
             }
@@ -1303,7 +1303,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "恐惧的叹息",
+          "name": "恐惧的嘆息",
           "desc": "[WhenUse] 使自身获得6层呼吸法 ",
           "coinlist": [
             {
@@ -1336,7 +1336,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "决心鱼叉",
+          "name": "決心魚叉",
           "desc": "与魁魁格攻击相同目标时，使本技能的最终威力+2",
           "coinlist": [
             {
@@ -1368,7 +1368,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "为了离开…",
+          "name": "為了離開…",
           "desc": "使本技能暴击时造成的伤害+100%\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%",
           "coinlist": [
             {
@@ -1377,7 +1377,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加3层流血 "
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 使目标的第一混乱阈值前移本硬币伤害量的50%"
+                  "desc": "[CriticalOnSucceedAttack] 使目标的第一混乱閾値前移本硬币伤害量的50%"
                 }
               ]
             }
@@ -1391,7 +1391,7 @@
         {
           "level": 1,
           "name": "听我号令",
-          "desc": "[WhenUse] 使自身和除自身以外理智值最低的1名友方单位恢复10点理智值",
+          "desc": "[WhenUse] 使自身和除自身以外理智値最低的1名友方単位恢复10点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -1407,8 +1407,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "到我身边！",
-          "desc": "[StartBattle] 命令魁魁格下回合进行援护防御 。自身陷入混乱时取消命令。",
+          "name": "到我身辺！",
+          "desc": "[StartBattle] 命令魁魁格下回合進行援护防御 。自身陥入混乱时取消命令。",
           "coinlist": [
             {
               "coindescs": [
@@ -1425,7 +1425,7 @@
         {
           "level": 1,
           "name": "追踪到底！",
-          "desc": "[StartBattle] 命令斯达巴克下回合进行援护攻击 。自身陷入混乱时取消命令。\n[WhenUse] 下回合对目标施加1层猎物标记 ",
+          "desc": "[StartBattle] 命令斯達巴克下回合進行援护攻击 。自身陥入混乱时取消命令。\n[WhenUse] 下回合对目标施加1层猟物标記 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1441,7 +1441,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "老练的鱼叉手",
+          "name": "老练的魚叉手",
           "desc": "",
           "coinlist": [
             {
@@ -1467,8 +1467,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "鱼叉如火",
-          "desc": "主要目标每带有1种负面状态，使本技能的最终威力+1(最多+5)\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%",
+          "name": "魚叉如火",
+          "desc": "主要目标每带有1种負面状态，使本技能的最终威力+1(最多+5)\n目标每带有1级[Laceration]强度，使本技能造成的伤害+5%",
           "coinlist": [
             {
               "coindescs": [
@@ -1501,7 +1501,7 @@
         {
           "level": 1,
           "name": "愚蠢！",
-          "desc": "[WhenUse] 使自身恢复5点理智值\n[OnSucceedEvade] 使目标失去5点理智值",
+          "desc": "[WhenUse] 使自身恢复5点理智値\n[OnSucceedEvade] 使目标失去5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -1518,12 +1518,12 @@
         {
           "level": 1,
           "name": "呼气！",
-          "desc": "[WhenUse] 下回合对目标施加1层猎物标记 \n[WinDuel] 使自身增加4级呼吸法 强度",
+          "desc": "[WhenUse] 下回合对目标施加1层猟物标記 \n[WinDuel] 使自身增加4级呼吸法 强度",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使除自身以外的2名友方单位增加4级呼吸法 强度\n没有友方单位存活时，改为使自身获得2层呼吸法 "
+                  "desc": "[OnSucceedAttack] 使除自身以外的2名友方単位增加4级呼吸法 强度\n没有友方単位存活时，改為使自身获得2层呼吸法 "
                 }
               ]
             }
@@ -1536,8 +1536,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "越过最后的恐惧！",
-          "desc": "[WhenUse] 使自身恢复10点理智值。使除自身以外理智值最高的1名友方单位失去10点理智值",
+          "name": "越過最後的恐惧！",
+          "desc": "[WhenUse] 使自身恢复10点理智値。使除自身以外理智値最高的1名友方単位失去10点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -1545,7 +1545,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层烧伤 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 下回合对除自身以外的1名随机友方单位施加1层麻痹 "
+                  "desc": "[OnSucceedAttack] 下回合对除自身以外的1名随机友方単位施加1层麻痹 "
                 }
               ]
             },
@@ -1555,7 +1555,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层烧伤 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 下回合对除自身以外的1名随机友方单位施加1层麻痹 "
+                  "desc": "[OnSucceedAttack] 下回合对除自身以外的1名随机友方単位施加1层麻痹 "
                 }
               ]
             },
@@ -1565,7 +1565,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层烧伤 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 下回合对除自身以外的1名随机友方单位施加1层麻痹 "
+                  "desc": "[OnSucceedAttack] 下回合对除自身以外的1名随机友方単位施加1层麻痹 "
                 }
               ]
             }
@@ -1579,7 +1579,7 @@
         {
           "level": 1,
           "name": "死亡淬炼",
-          "desc": "[WhenUse] 对理智值最低的1名友方单位施加1层不可抗拒的命令 \n[DefeatDuel] 使理智值最低的1名友方单位的混乱阈值前移20",
+          "desc": "[WhenUse] 对理智値最低的1名友方単位施加1层不可抗拒的命令 \n[DefeatDuel] 使理智値最低的1名友方単位的混乱閾値前移20",
           "coinlist": [
             {
               "coindescs": [
@@ -1597,7 +1597,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "放马过来！",
+          "name": "放馬過来！",
           "desc": "",
           "coinlist": [
             {
@@ -1630,7 +1630,7 @@
         {
           "level": 1,
           "name": "刺杀",
-          "desc": "指定体力上限最低的单位",
+          "desc": "指定体力上限最低的単位",
           "coinlist": [
             {
               "coindescs": [
@@ -1656,7 +1656,7 @@
         {
           "level": 1,
           "name": "不灭之魂",
-          "desc": "闪避失败时重复使用(最多2次)\n[OnDefeatEvade] 消耗2层比普的自我 ",
+          "desc": "闪避失敗时重复使用(最多2次)\n[OnDefeatEvade] 消耗2层比普的自我 ",
           "coinlist": [
             {}
           ]
@@ -1669,7 +1669,7 @@
         {
           "level": 1,
           "name": "浑浊的纯洁",
-          "desc": "[DefeatDuel] 使自身获得2层破绽 并失去10点理智值",
+          "desc": "[DefeatDuel] 使自身获得2层破绽 并失去10点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -1700,8 +1700,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "负罪感的重量",
-          "desc": "指定体力上限最低的3名单位\n[StartBattle] 自身每带有5层比普的自我 ，使本技能的基础威力+2，攻击容量+1\n[WhenUse] 使自身失去3层比普的自我 ",
+          "name": "負罪感的重量",
+          "desc": "指定体力上限最低的3名単位\n[StartBattle] 自身每带有5层比普的自我 ，使本技能的基础威力+2，攻击容量+1\n[WhenUse] 使自身失去3层比普的自我 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1709,10 +1709,10 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层苍白的噪音 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标的混乱阈值前移30"
+                  "desc": "[OnSucceedAttack] 使目标的混乱閾値前移30"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 使目标失去10点理智值"
+                  "desc": "[OnSucceedAttackHead] 使目标失去10点理智値"
                 }
               ]
             }
@@ -1740,7 +1740,7 @@
         {
           "level": 1,
           "name": "掩盖恐惧",
-          "desc": "[WhenUse] 对目标施加1层猎物标记 ",
+          "desc": "[WhenUse] 对目标施加1层猟物标記 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1761,8 +1761,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "穿透软弱",
-          "desc": "[WhenUse] 下回合对目标施加1层猎物标记 ",
+          "name": "穿透軟弱",
+          "desc": "[WhenUse] 下回合对目标施加1层猟物标記 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1783,8 +1783,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "叹息回响",
-          "desc": "目标每带有1级流血 强度，使本技能造成的伤害+5%\n若目标未带有猎物标记 ，则使本技能的硬币威力+1\n[DefeatDuel] 使自身失去5点理智值",
+          "name": "嘆息回響",
+          "desc": "目标每带有1级流血 强度，使本技能造成的伤害+5%\n若目标未带有猟物标記 ，则使本技能的硬币威力+1\n[DefeatDuel] 使自身失去5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -1792,7 +1792,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级流血 强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 随机对3名敌方单位造成3点理智伤害"
+                  "desc": "[OnSucceedAttack] 随机对3名敌方単位造成3点理智伤害"
                 }
               ]
             },
@@ -1802,7 +1802,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级流血 强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 随机对3名敌方单位造成3点理智伤害"
+                  "desc": "[OnSucceedAttack] 随机对3名敌方単位造成3点理智伤害"
                 }
               ]
             },
@@ -1812,7 +1812,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级流血 强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 随机对3名敌方单位造成3点理智伤害"
+                  "desc": "[OnSucceedAttack] 随机对3名敌方単位造成3点理智伤害"
                 }
               ]
             },
@@ -1822,7 +1822,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级流血 强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 随机对3名敌方单位造成3点理智伤害"
+                  "desc": "[OnSucceedAttack] 随机对3名敌方単位造成3点理智伤害"
                 }
               ]
             },
@@ -1832,10 +1832,10 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级流血 强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 随机对3名敌方单位造成3点理智伤害"
+                  "desc": "[OnSucceedAttack] 随机对3名敌方単位造成3点理智伤害"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自身每带有10层斯达巴克的自我 ，重复使用最后一枚硬币1次"
+                  "desc": "[OnSucceedAttack] 自身每带有10层斯達巴克的自我 ，重复使用最後一枚硬币1次"
                 }
               ]
             }
@@ -1849,7 +1849,7 @@
         {
           "level": 1,
           "name": "浑浊轨迹",
-          "desc": "[WhenUse] 下回合对目标施加1层猎物标记 ",
+          "desc": "[WhenUse] 下回合对目标施加1层猟物标記 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1885,7 +1885,7 @@
         {
           "level": 1,
           "name": "褪色的忏悔",
-          "desc": "[WhenUse] 使自身失去5层魁魁格的自我 \n[WinDuel] 使自身获得6层防御等级提升 \n[DefeatDuel] 使自身失去5点理智值",
+          "desc": "[WhenUse] 使自身失去5层魁魁格的自我 \n[WinDuel] 使自身获得6层防御等级提升 \n[DefeatDuel] 使自身失去5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -1893,7 +1893,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加2层苍白的噪音 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标陷入混乱"
+                  "desc": "[OnSucceedAttack] 使目标陥入混乱"
                 }
               ]
             }
@@ -1907,7 +1907,7 @@
         {
           "level": 1,
           "name": "扩散白化",
-          "desc": "[StartBattle] 使自身获得体力上限10%的护盾。自身每带有1层魁魁格的自我 ，使自身额外获得体力上限0.5%的护盾。\n若自身带有护盾时受到攻击，则使攻击者失去5点理智值。\n受到攻击时，自身每带有10层魁魁格的自我 ，重复使用本技能1次",
+          "desc": "[StartBattle] 使自身获得体力上限10%的护盾。自身每带有1层魁魁格的自我 ，使自身額外获得体力上限0.5%的护盾。\n若自身带有护盾时受到攻击，则使攻击者失去5点理智値。\n受到攻击时，自身每带有10层魁魁格的自我 ，重复使用本技能1次",
           "coinlist": [
             {
               "coindescs": [
@@ -1932,7 +1932,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "不要轻视预言",
+          "name": "不要軽視予言",
           "desc": "",
           "coinlist": [
             {

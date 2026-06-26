@@ -31,7 +31,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "敛芒在鞘",
+          "name": "发劲",
           "desc": "若目标的[Laceration]强度不低于7级，则使本技能的硬币威力+1\n[WinDuel] 下回合使自身获得1层[SlashDamageUp]",
           "coinlist": [
             {
@@ -53,7 +53,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "黑云散乱",
+          "name": "黒雲散乱",
           "desc": "若目标的[Laceration]强度不低于5级，则使本技能的硬币威力+1\n[WinDuel] 下回合使自身获得1层[SlashResultUp]",
           "coinlist": [
             {
@@ -146,7 +146,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "锐利之舞",
+          "name": "鋭利之舞",
           "desc": "[WinDuel] 下回合使自身获得1层[SlashDamageUp]",
           "coinlist": [
             {
@@ -243,7 +243,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "敛芒在鞘",
+          "name": "发劲",
           "desc": "[WinDuel] 下回合使自身获得1层[Protection]",
           "coinlist": [
             {
@@ -321,7 +321,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "锐利一击",
+          "name": "鋭利一击",
           "desc": "若目标的[Laceration]强度不低于7级，则使本技能的硬币威力+1\n[WinDuel] 下回合使自身获得1层[Protection]",
           "coinlist": [
             {
@@ -343,7 +343,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "敛芒在鞘",
+          "name": "发劲",
           "desc": "若目标的[Laceration]强度不低于5级，则使本技能的硬币威力+1\n[StartBattle] 使自身获得1层[Protection]\n[WinDuel] 下回合使自身获得1层[Protection]",
           "coinlist": [
             {
@@ -388,7 +388,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "墨云",
+          "name": "墨雲",
           "desc": "[WhenUse] 若目标的[Laceration]强度不低于5级，则使本技能造成的伤害+10%",
           "coinlist": [
             {
@@ -446,7 +446,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "云涡撕裂",
+          "name": "雲涡撕裂",
           "desc": "若目标的[Laceration]强度不低于5级，则使本技能的硬币威力+1",
           "coinlist": [
             {
@@ -479,8 +479,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "锋芒毕现",
-          "desc": "[StartBattle] 使包括自身在内的全体友方单位获得2层[SlashDamageUp]\n[StartBattle] 使自身获得2层[SlashResultUp]",
+          "name": "鋒芒毕现",
+          "desc": "[StartBattle] 使包括自身在内的全体友方単位获得2层[SlashDamageUp]\n[StartBattle] 使自身获得2层[SlashResultUp]",
           "coinlist": [
             {},
             {
@@ -500,7 +500,7 @@
         {
           "level": 1,
           "name": "斩破长空",
-          "desc": "[StartBattle] 若主要目标的[Laceration]强度不低于10级，则使本技能的攻击容量+1\n[StartBattle] 若本回合自身使用的攻击技能不低于5个，则使本技能的最终威力+5\n[WinDuel] 使全体友方单位恢复10点理智值\n若目标的[Laceration]强度不低于7级，则使本技能造成的伤害+30%",
+          "desc": "[StartBattle] 若主要目标的[Laceration]强度不低于10级，则使本技能的攻击容量+1\n[StartBattle] 若本回合自身使用的攻击技能不低于5个，则使本技能的最终威力+5\n[WinDuel] 使全体友方単位恢复10点理智値\n若目标的[Laceration]强度不低于7级，则使本技能造成的伤害+30%",
           "coinlist": [
             {
               "coindescs": [
@@ -535,8 +535,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "后巷规矩",
-          "desc": "[WhenUse] 除自身以外每有1名友方单位存活，额外使用本技能的第1枚硬币(最多3次)",
+          "name": "後巷規矩",
+          "desc": "[WhenUse] 除自身以外每有1名友方単位存活，額外使用本技能的第1枚硬币(最多3次)",
           "coinlist": [
             {
               "coindescs": [
@@ -544,7 +544,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
                 },
                 {
-                  "desc": "[EnemyKill] 使全体友方单位恢复20点理智值"
+                  "desc": "[EnemyKill] 使全体友方単位恢复20点理智値"
                 }
               ]
             }

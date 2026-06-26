@@ -162,7 +162,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "破灭，哀嚎与悲叹",
+          "name": "破灭，哀嚎与悲嘆",
           "desc": "[CantDuel]",
           "coinlist": [
             {
@@ -191,7 +191,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "勿言人语",
+          "name": "勿言人語",
           "desc": "[WhenUse] 若目标的[Laceration]强度不低于8级，则使本技能的拼点威力+1",
           "coinlist": [
             {
@@ -204,7 +204,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于3种，则重复使用本硬币(最多1次)"
+                  "desc": "[OnSucceedAttack] 若目标带有的負面状态不少于3种，则重复使用本硬币(最多1次)"
                 }
               ]
             }
@@ -218,7 +218,7 @@
         {
           "level": 1,
           "name": "裹尸袋",
-          "desc": "[WhenUse] 目标每带有5级[Laceration]强度，使本技能的基础威力+1(最多+3)\n[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+1(最多+2)\n[DefeatDuel] 对自身施加20层[DefenseDown]\n[DefeatDuel] 对自身施加1层未能释怀的怅惘 ",
+          "desc": "[WhenUse] 目标每带有5级[Laceration]强度，使本技能的基础威力+1(最多+3)\n[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+1(最多+2)\n[DefeatDuel] 对自身施加20层[DefenseDown]\n[DefeatDuel] 对自身施加1层未能释怀的怅惘 ",
           "coinlist": [
             {
               "coindescs": [
@@ -226,7 +226,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层[DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 若目标的[Laceration]强度不低于8级，则使本技能最后一枚硬币造成的伤害+30%"
+                  "desc": "[OnSucceedAttackHead] 若目标的[Laceration]强度不低于8级，则使本技能最後一枚硬币造成的伤害+30%"
                 }
               ]
             },
@@ -236,7 +236,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层[DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 若目标的[Laceration]强度不低于8级，则使本技能最后一枚硬币造成的伤害+30%"
+                  "desc": "[OnSucceedAttackHead] 若目标的[Laceration]强度不低于8级，则使本技能最後一枚硬币造成的伤害+30%"
                 }
               ]
             },
@@ -246,7 +246,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层[DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 若目标的[Laceration]强度不低于8级，则使本技能最后一枚硬币造成的伤害+30%"
+                  "desc": "[OnSucceedAttackHead] 若目标的[Laceration]强度不低于8级，则使本技能最後一枚硬币造成的伤害+30%"
                 }
               ]
             },
@@ -267,7 +267,7 @@
         {
           "level": 1,
           "name": "狂乱之狼的狂气",
-          "desc": "[WhenUse] 目标每带有5级[Laceration]强度，使本技能的基础威力+1(最多+4)\n[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+1(最多+2)\n[DefeatDuel] 若目标带有[AaCfPcBg]，则下回合使自身的混乱阈值前移100。若自身未拥有混乱阈值，则在0点处生成1条混乱阈值。",
+          "desc": "[WhenUse] 目标每带有5级[Laceration]强度，使本技能的基础威力+1(最多+4)\n[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+1(最多+2)\n[DefeatDuel] 若目标带有[AaCfPcBg]，则下回合使自身的混乱閾値前移100。若自身未拥有混乱閾値，则在0点处生成1条混乱閾値。",
           "coinlist": [
             {
               "coindescs": [
@@ -332,8 +332,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "标记不速之客",
-          "desc": "[WhenUse] 对目标施加1层管家的标记 ",
+          "name": "标記不速之客",
+          "desc": "[WhenUse] 对目标施加1层管家的标記 ",
           "coinlist": [
             {
               "coindescs": [
@@ -361,7 +361,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "迎客之道1式 狩猎",
+          "name": "迎客之道1式 狩猟",
           "desc": "[WhenUse] 若目标带有[AaCfPcBb]，则使本技能的拼点威力+1\n[WinDuel] 下回合使自身获得1层[Agility]",
           "coinlist": [
             {
@@ -393,7 +393,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "反转迎客之道1式 狩猎",
+          "name": "反転迎客之道1式 狩猟",
           "desc": "[WhenUse] 若目标带有[AaCfPcBb]，则使本技能的拼点威力+1\n[WinDuel] 下回合使自身获得1层[Agility]",
           "coinlist": [
             {
@@ -426,7 +426,7 @@
         {
           "level": 1,
           "name": "威慑不速之客",
-          "desc": "[WhenUse] 若自身的速度值高于目标，则使本技能的拼点威力+2",
+          "desc": "[WhenUse] 若自身的速度値高于目标，则使本技能的拼点威力+2",
           "coinlist": [
             {
               "coindescs": [
@@ -448,7 +448,7 @@
                   "desc": "[OnSucceedAttack] 下回合对目标施加2层[DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于3种，则重复使用本硬币(最多1次)"
+                  "desc": "[OnSucceedAttack] 若目标带有的負面状态不少于3种，则重复使用本硬币(最多1次)"
                 }
               ]
             }
@@ -467,10 +467,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标未拥有混乱阈值，则对其造成200点体力伤害。"
+                  "desc": "[OnSucceedAttack] 若目标未拥有混乱閾値，则对其造成200点体力伤害。"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标的混乱阈值前移200"
+                  "desc": "[OnSucceedAttack] 使目标的混乱閾値前移200"
                 }
               ]
             }
@@ -484,7 +484,7 @@
         {
           "level": 1,
           "name": "迎客之道第7式 捕捉",
-          "desc": "[StartBattle] 根据带有[AaCfPcBb]的敌方单位数，使本技能的攻击容量相应增加\n[WhenUse] 若自身的速度值高于主要目标至少3点，则对其施加2层斩击抗性弱化 \n[WhenUse] 若目标带有[AaCfPcBb]，则使本技能的拼点威力+8\n[EndBattle] 解除所有[AaCfPcBb]",
+          "desc": "[StartBattle] 根据带有[AaCfPcBb]的敌方単位数，使本技能的攻击容量相応增加\n[WhenUse] 若自身的速度値高于主要目标至少3点，则对其施加2层斩击抗性弱化 \n[WhenUse] 若目标带有[AaCfPcBb]，则使本技能的拼点威力+8\n[EndBattle] 解除所有[AaCfPcBb]",
           "coinlist": [
             {
               "coindescs": [
@@ -516,7 +516,7 @@
                   "desc": "[OnSucceedAttack] 下回合使自身获得1层[Agility]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于4种，则对其额外造成本硬币伤害量30%的斩击伤害"
+                  "desc": "[OnSucceedAttack] 若目标带有的負面状态不少于4种，则对其額外造成本硬币伤害量30%的斩击伤害"
                 }
               ]
             }
@@ -541,7 +541,7 @@
                   "desc": "[OnSucceedAttack] 下回合对目标施加6层[DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若自身的速度值高于目标至少3点，则重复使用本硬币(最多1次)"
+                  "desc": "[OnSucceedAttack] 若自身的速度値高于目标至少3点，则重复使用本硬币(最多1次)"
                 }
               ]
             }
@@ -590,7 +590,7 @@
                   "desc": "[OnSucceedAttack] 下回合对目标施加3层[DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于3种，则重复使用本硬币(最多1次)"
+                  "desc": "[OnSucceedAttack] 若目标带有的負面状态不少于3种，则重复使用本硬币(最多1次)"
                 }
               ]
             }
@@ -604,7 +604,7 @@
         {
           "level": 1,
           "name": "闪避",
-          "desc": "[OnSucceedEvade] 使自身恢复5点理智值\n[OnSucceedEvade] 仅在下回合使自身增加1个行动槽(最多1次)",
+          "desc": "[OnSucceedEvade] 使自身恢复5点理智値\n[OnSucceedEvade] 僅在下回合使自身增加1个行动槽(最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -623,12 +623,12 @@
         {
           "level": 1,
           "name": "迎客之道第9式 瓦解",
-          "desc": "优先指定带有[AaCfPcBc]的目标\n若目标带有[AaCfPcBc]，则使本技能的拼点威力+10\n若目标未带有[AaCfPcBc]，则使本技能造成的伤害固定为0点。",
+          "desc": "优先指定带有[AaCfPcBc]的目标\n若目标带有[AaCfPcBc]，则使本技能的拼点威力+10\n若目标未带有[AaCfPcBc]，则使本技能造成的伤害固定為0点。",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标陷入混乱"
+                  "desc": "[OnSucceedAttack] 使目标陥入混乱"
                 }
               ]
             }
@@ -641,7 +641,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "破灭镜中世界的纠缠之剑",
+          "name": "破灭鏡中世界的纠缠之剑",
           "desc": "",
           "coinlist": [
             {
@@ -723,7 +723,7 @@
         {
           "level": 1,
           "name": "噩梦的复仇者归来",
-          "desc": "[CantChangeTarget]\n[WhenUse] 若目标未带有爆发的忧郁 ，则使本技能的拼点威力+10\n[DefeatDuel] 下回合对自身施加3层易损 ",
+          "desc": "[CantChangeTarget]\n[WhenUse] 若目标未带有爆发的忧鬱 ，则使本技能的拼点威力+10\n[DefeatDuel] 下回合对自身施加3层易损 ",
           "coinlist": [
             {
               "coindescs": [
@@ -771,8 +771,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "破灭的狂猎",
-          "desc": "[CantDuel]\n[WhenUse] 若目标带有[AaCfPbBc]，则使本技能造成的伤害-100%\n[WhenUse] 每有1名友方单位存活，使本技能造成的伤害+25%",
+          "name": "破灭的狂猟",
+          "desc": "[CantDuel]\n[WhenUse] 若目标带有[AaCfPbBc]，则使本技能造成的伤害-100%\n[WhenUse] 每有1名友方単位存活，使本技能造成的伤害+25%",
           "coinlist": [
             {}
           ]
@@ -871,8 +871,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "回应我的呼唤，呼啸山庄",
-          "desc": "[CantDuel]\n[WhenUse] 下回合生成1个狂猎单位",
+          "name": "回応我的呼唤，呼啸山庄",
+          "desc": "[CantDuel]\n[WhenUse] 下回合生成1个狂猟単位",
           "coinlist": [
             {
               "coindescs": [
@@ -890,8 +890,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "把你也装进这棺材",
-          "desc": "[CantDuel]\n[StartBattle] 本回合使[VibrationExplosion]与其他效果造成的混乱阈值前移量+100%\n[WhenUse] 下回合使包括自身在内的全体友方单位获得3层[Enhancement]与3层[AttackDmgUp]",
+          "name": "把你也装進這棺材",
+          "desc": "[CantDuel]\n[StartBattle] 本回合使[VibrationExplosion]与其他效果造成的混乱閾値前移量+100%\n[WhenUse] 下回合使包括自身在内的全体友方単位获得3层[Enhancement]与3层[AttackDmgUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -1037,7 +1037,7 @@
         {
           "level": 1,
           "name": "所有的希斯克利夫必定死亡…",
-          "desc": "[CantChangeTarget]\n[CantDuel]\n本回合自身不会陷入混乱",
+          "desc": "[CantChangeTarget]\n[CantDuel]\n本回合自身不会陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1055,7 +1055,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "徒劳",
+          "name": "徒労",
           "desc": "",
           "coinlist": [
             {
@@ -1074,8 +1074,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "为了一个他没有痛苦的世界",
-          "desc": "[CantDuel]\n[StartBattle] 对除自身以外的全体友方单位施加2层[Vulnerable]并使其获得2层[Enhancement]\n[StartBattle] 下回合对自身施加5层[Binding]并使自身获得5层[AttackDmgUp]",
+          "name": "為了一个他没有痛苦的世界",
+          "desc": "[CantDuel]\n[StartBattle] 对除自身以外的全体友方単位施加2层[Vulnerable]并使其获得2层[Enhancement]\n[StartBattle] 下回合对自身施加5层[Binding]并使自身获得5层[AttackDmgUp]",
           "coinlist": [
             {}
           ]
@@ -1088,7 +1088,7 @@
         {
           "level": 1,
           "name": "所有的凯瑟琳必定死亡",
-          "desc": "[CantDuel]\n若所有手的体力均为1，则造成0点伤害\n[StartBattle] 对除自身以外的全体友方单位施加2层[Vulnerable]并使其获得2层[Enhancement]\n[EndSkill] 对自身施加1层[AaCfPcBn]",
+          "desc": "[CantDuel]\n若所有手的体力均為1，则造成0点伤害\n[StartBattle] 对除自身以外的全体友方単位施加2层[Vulnerable]并使其获得2层[Enhancement]\n[EndSkill] 对自身施加1层[AaCfPcBn]",
           "coinlist": [
             {
               "coindescs": [
@@ -1286,7 +1286,7 @@
         {
           "level": 1,
           "name": "…混帐",
-          "desc": "若自身的速度值高于目标，则使本技能的拼点威力+2",
+          "desc": "若自身的速度値高于目标，则使本技能的拼点威力+2",
           "coinlist": [
             {
               "coindescs": [
@@ -1301,7 +1301,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Laceration]强度并对其施加2层[Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若自身的速度值高于目标至少3点，则重复使用本硬币(最多1次)"
+                  "desc": "[OnSucceedAttack] 若自身的速度値高于目标至少3点，则重复使用本硬币(最多1次)"
                 }
               ]
             }
@@ -1361,7 +1361,7 @@
         {
           "level": 1,
           "name": "抓…",
-          "desc": "优先指定希斯克利夫\n[WhenUse] 若目标为速度值最低的敌方单位，则使本技能的基础威力+3\n[WhenUse] 下回合对目标施加[AaCfPbBe]、2层[Vulnerable]、3层[Paralysis]与5层[Binding]",
+          "desc": "优先指定希斯克利夫\n[WhenUse] 若目标為速度値最低的敌方単位，则使本技能的基础威力+3\n[WhenUse] 下回合对目标施加[AaCfPbBe]、2层[Vulnerable]、3层[Paralysis]与5层[Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -1386,7 +1386,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "还给…！！",
+          "name": "還给…！！",
           "desc": "[CantDuel]",
           "coinlist": [
             {
@@ -1413,7 +1413,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其额外造成本硬币伤害量30%的打击伤害"
+                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其額外造成本硬币伤害量30%的打击伤害"
                 },
                 {
                   "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于5级，则使自身恢复本硬币伤害量50%的体力"
@@ -1430,7 +1430,7 @@
         {
           "level": 1,
           "name": "家伙…",
-          "desc": "优先指定带有[AaCfPbBe]的目标\n若自身的速度值高于目标至少3点，则重复使用本技能(最多1次)",
+          "desc": "优先指定带有[AaCfPbBe]的目标\n若自身的速度値高于目标至少3点，则重复使用本技能(最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -1493,34 +1493,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "这是…！",
-          "desc": "若自身的速度值高于目标，则使本技能的硬币威力+1",
+          "name": "這是…！",
+          "desc": "若自身的速度値高于目标，则使本技能的硬币威力+1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其额外造成本硬币伤害量30%的打击伤害"
+                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其額外造成本硬币伤害量30%的打击伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其额外造成本硬币伤害量30%的打击伤害"
+                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其額外造成本硬币伤害量30%的打击伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其额外造成本硬币伤害量30%的打击伤害"
+                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其額外造成本硬币伤害量30%的打击伤害"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其额外造成本硬币伤害量30%的打击伤害"
+                  "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则对其額外造成本硬币伤害量30%的打击伤害"
                 },
                 {
                   "desc": "[OnSucceedAttack] 若目标的[Laceration]强度不低于10级，则使自身恢复本硬币造成伤害70%的体力"

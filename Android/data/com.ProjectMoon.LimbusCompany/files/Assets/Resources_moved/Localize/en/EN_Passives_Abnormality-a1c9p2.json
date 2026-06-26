@@ -2,22 +2,22 @@
   "dataList": [
     {
       "id": 132203,
-      "name": "重叠的残像",
-      "desc": "关卡开始时，使自身获得[TimeEntangleFour]\n每个阶段的首个回合开始时，使自身获得(自身的[TimeEntangleDesc]阶段×400)层[TimeGapAb]\n(每个[TimeEntangleDesc]阶段最多1次)\n\n在第3与第4阶段[TimeEntangleDesc]，<color=#ff6000><mark=#ff000040><b><u>若自身失去所有[TimeGapAb]，则改变自身模式并在下回合使自身陷入混乱</u></b></mark></color>\n\n受到来自[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的体力伤害、理智伤害与混乱阈值前移量-30%",
+      "name": "重畳的残像",
+      "desc": "関卡開始时，使自身获得[TimeEntangleFour]\n每个階段的首个回合開始时，使自身获得(自身的[TimeEntangleDesc]階段×400)层[TimeGapAb]\n(每个[TimeEntangleDesc]階段最多1次)\n\n在第3与第4階段[TimeEntangleDesc]，<color=#ff6000><mark=#ff000040><b><u>若自身失去所有[TimeGapAb]，则改变自身模式并在下回合使自身陥入混乱</u></b></mark></color>\n\n受到来自[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的体力伤害、理智伤害与混乱閾値前移量-30%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132204,
-      "name": "残像回响",
-      "desc": "自身的硬币命中时，对目标造成(该硬币最终伤害量/10)点斩击伤害(该效果最多触发(自身的[TimeEntangleDesc]阶段)次。该效果造成的伤害不会使目标陷入混乱)",
-      "summary": "额外造成斩击伤害",
+      "name": "残像回響",
+      "desc": "自身的硬币命中时，对目标造成(該硬币最终伤害量/10)点斩击伤害(該效果最多触发(自身的[TimeEntangleDesc]階段)次。該效果造成的伤害不会使目标陥入混乱)",
+      "summary": "額外造成斩击伤害",
       "undefined": "-"
     },
     {
       "id": 132205,
-      "name": "从多重时间斩来的残像",
-      "desc": "攻击技能结束时，对全体目标造成(暴击命中的斩击硬币数×10)点斩击伤害(不会因该伤害而陷入混乱)\n\n攻击技能结束时，消耗自身超过20级的所有[Breath]强度并对目标施加层数相当于消耗量的[PhantomIncision]",
+      "name": "从多重时間斩来的残像",
+      "desc": "攻击技能结束时，对全体目标造成(暴击命中的斩击硬币数×10)点斩击伤害(不会因該伤害而陥入混乱)\n\n攻击技能结束时，消耗自身超過20级的所有[Breath]强度并对目标施加层数相当于消耗量的[PhantomIncision]",
       "summary": "",
       "undefined": "-"
     },
@@ -27,19 +27,19 @@
       "desc": "每4回合使用强力技能\n- 若自身的[PhantomIncisionTotal]层数不低于50层，则强化使用的技能",
       "summary": "",
       "undefined": "-",
-      "flavor": "“……令人厌恶，如同烙印一般的刀。”"
+      "flavor": "“……令人厌悪，如同烙印一般的刀。”"
     },
     {
       "id": 132216,
-      "name": "“适当应付一下吧”",
+      "name": "“適当応付一下吧”",
       "desc": "自身技能对使用守备技能的目标造成的最终伤害-50%\n\n每4回合的回合结束时，在本场战斗中对自身施加2层[Vulnerable]并使自身获得2层[AttackDmgUp](每场战斗最多2次)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132101,
-      "name": "鲜活的神经-抑制力部分解除",
-      "desc": "本单位垂死时，取消本回合的所有技能。\n触发以上效果时，使自身获得10层[SelfCharge]",
+      "name": "新鮮活的神经-抑制力部分解除",
+      "desc": "本単位垂死时，取消本回合的所有技能。\n触发以上效果时，使自身获得10层[SelfCharge]",
       "summary": "",
       "undefined": "-"
     },
@@ -53,42 +53,42 @@
     {
       "id": 132103,
       "name": "断绝的生命力",
-      "desc": "使用“盘绕”后，若自身消耗了所有护盾，则消耗所有[SelfCharge]\n下回合使所有部位陷入混乱",
+      "desc": "使用“盘绕”後，若自身消耗了所有护盾，则消耗所有[SelfCharge]\n下回合使所有部位陥入混乱",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132001,
-      "name": "最后的火种",
-      "desc": "若现存体力不高于30%，则令自身获得的[MRcAiBa]层数额外+1层",
+      "name": "最後的火种",
+      "desc": "若现存体力不高于30%，则令自身获得的[MRcAiBa]层数額外+1层",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132002,
       "name": "点燃火种",
-      "desc": "翅膀部位被破坏时，对最后的攻击者施加层数相当于自身[MRcAiBa]层数的[MRcAiBb]，解除自身的[MRcAiBa]\n\n使用“红艳煞”时，若自身的[MRcAiBa]层数为0层，则额外使用“点燃火种”",
+      "desc": "翅膀部位被破坏时，对最後的攻击者施加层数相当于自身[MRcAiBa]层数的[MRcAiBb]，解除自身的[MRcAiBa]\n\n使用“红艶煞”时，若自身的[MRcAiBa]层数為0层，则額外使用“点燃火种”",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132003,
       "name": "燃烧的火种",
-      "desc": "根据自身带有的[MRcAiBa]层数，将相应数量的非暴怒技能转化为暴怒技能",
+      "desc": "根据自身带有的[MRcAiBa]层数，将相応数量的非暴怒技能転化為暴怒技能",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132004,
       "name": "啮合的红焰",
-      "desc": "根据自身带有的[MRcAiBa]层数，将相应数量的非暴怒技能转化为暴怒技能\n\n技能命中时，使目标增加(红焰蛾本回合使用的暴怒技能数)级[Combustion]强度\n\n技能命中时，使自身恢复(红焰蛾本回合使用的暴怒技能数×2)点体力",
+      "desc": "根据自身带有的[MRcAiBa]层数，将相応数量的非暴怒技能転化為暴怒技能\n\n技能命中时，使目标增加(红焰蛾本回合使用的暴怒技能数)级[Combustion]强度\n\n技能命中时，使自身恢复(红焰蛾本回合使用的暴怒技能数×2)点体力",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132005,
-      "name": "支援补给",
-      "desc": "翅膀部位被破坏时，获得所有属性的E.G.O资源各2个，使全体罪人恢复15点理智值",
+      "name": "支援補给",
+      "desc": "翅膀部位被破坏时，获得所有属性的E.G.O資源各2个，使全体罪人恢复15点理智値",
       "summary": "",
       "undefined": "-"
     },
@@ -101,45 +101,45 @@
     },
     {
       "id": 132501,
-      "name": "由终端所传达的指令",
-      "desc": "关卡开始时，使自身获得体力上限20%的护盾(该护盾在本场战斗期间维持)\n\n回合开始时\n- 根据自身的[UnlockBuff_Base]阶段，使自身获得[IndexPrescript_Base_2nd]\n- <color=#ff6000><mark=#ff000040><b><u>随机对1名敌方单位施加[IndexPrescriptTargetToPersonality]并优先攻击该单位</u></b></mark></color>(不包括特定阶段)\n\n自身每带有1层[BlessingOfIndexPrescriptEnemy]，使自身对[IndexPrescriptTargetToPersonality]造成的伤害+2.5%(最多+20%)\n- 若自身的[BlessingOfIndexPrescriptEnemy]层数为9层，则改为对全体目标造成的伤害+30%",
+      "name": "由终端所伝達的指令",
+      "desc": "関卡開始时，使自身获得体力上限20%的护盾(該护盾在本场战斗期間维持)\n\n回合開始时\n- 根据自身的[UnlockBuff_Base]階段，使自身获得[IndexPrescript_Base_2nd]\n- <color=#ff6000><mark=#ff000040><b><u>随机对1名敌方単位施加[IndexPrescriptTargetToPersonality]并优先攻击該単位</u></b></mark></color>(不包括特定階段)\n\n自身每带有1层[BlessingOfIndexPrescriptEnemy]，使自身对[IndexPrescriptTargetToPersonality]造成的伤害+2.5%(最多+20%)\n- 若自身的[BlessingOfIndexPrescriptEnemy]层数為9层，则改為对全体目标造成的伤害+30%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132502,
       "name": "指令之意",
-      "desc": "若本回合<color=#ff6000><mark=#ff000040><b><u>自身执行了[IndexPrescript_Base_2nd]，</u></b></mark></color>\n则回合结束时使自身恢复15点理智值并获得(自身的[UnlockBuff_Base]阶段+1)层[BlessingOfIndexPrescriptEnemy](每回合最多1次)\n\n若本回合<color=#ff6000><mark=#ff000040><b><u>自身未执行[IndexPrescript_Base_2nd]，</u></b></mark></color>\n则回合结束时使自身获得1层[PressureOfPrescript]并对自身施加5层[KarmaOfIndexStudent]\n- 若自身未带有[UnlockBuff_Base]，则回合结束时使自身获得1层[BlessingOfIndexPrescriptEnemy]\n- 若自身的[BlessingOfIndexPrescriptEnemy]层数为9层，则不会施加[KarmaOfIndexStudent]\n- 若自身处于绽放[TabExplain]E.G.O::代行状态，则令施加的[KarmaOfIndexStudent]变为2倍",
+      "desc": "若本回合<color=#ff6000><mark=#ff000040><b><u>自身执行了[IndexPrescript_Base_2nd]，</u></b></mark></color>\n则回合结束时使自身恢复15点理智値并获得(自身的[UnlockBuff_Base]階段+1)层[BlessingOfIndexPrescriptEnemy](每回合最多1次)\n\n若本回合<color=#ff6000><mark=#ff000040><b><u>自身未执行[IndexPrescript_Base_2nd]，</u></b></mark></color>\n则回合结束时使自身获得1层[PressureOfPrescript]并对自身施加5层[KarmaOfIndexStudent]\n- 若自身未带有[UnlockBuff_Base]，则回合结束时使自身获得1层[BlessingOfIndexPrescriptEnemy]\n- 若自身的[BlessingOfIndexPrescriptEnemy]层数為9层，则不会施加[KarmaOfIndexStudent]\n- 若自身处于绽放[TabExplain]E.G.O::代行状态，则令施加的[KarmaOfIndexStudent]变為2倍",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132503,
       "name": "解放",
-      "desc": "回合结束时，若自身的[BlessingOfIndexPrescriptEnemy]层数为3层/6层/9层或现存体力不高于90%/75%/60%，\n- 使自身获得[UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- 使自身理智值恢复为45点\n- <color=#ff6000><mark=#ff000040><b><u>消耗所有[PressureOfPrescript]</u></b></mark></color>并解除自身的混乱\n- 首次获得[UnlockBuff_Base]的下回合，使自身获得[BlessingOfIndexPrescriptEnemy]\n\n通过体力条件获得[UnlockBuff_Base]时\n- 对自身施加(恢复的理智值/15)层[KarmaOfIndexStudent]\n- 若自身的[BlessingOfIndexPrescriptEnemy]层数低于3层/6层/9层，则使其层数变为3层/6层/9层，\n每获得1层[BlessingOfIndexPrescriptEnemy]，下回合开始时对自身施加1层[DefenseDown]与2层[KarmaOfIndexStudent] \n\n自身使用强力攻击的回合，使自身的最小与最大速度值+10",
+      "desc": "回合结束时，若自身的[BlessingOfIndexPrescriptEnemy]层数為3层/6层/9层或现存体力不高于90%/75%/60%，\n- 使自身获得[UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- 使自身理智値恢复為45点\n- <color=#ff6000><mark=#ff000040><b><u>消耗所有[PressureOfPrescript]</u></b></mark></color>并解除自身的混乱\n- 首次获得[UnlockBuff_Base]的下回合，使自身获得[BlessingOfIndexPrescriptEnemy]\n\n通過体力条件获得[UnlockBuff_Base]时\n- 对自身施加(恢复的理智値/15)层[KarmaOfIndexStudent]\n- 若自身的[BlessingOfIndexPrescriptEnemy]层数低于3层/6层/9层，则使其层数变為3层/6层/9层，\n每获得1层[BlessingOfIndexPrescriptEnemy]，下回合開始时对自身施加1层[DefenseDown]与2层[KarmaOfIndexStudent] \n\n自身使用强力攻击的回合，使自身的最小与最大速度値+10",
       "summary": "",
       "undefined": "-",
-      "flavor": "“据说指令授予的剑与布只有在执行指令时才会解放并显现其力量。”"
+      "flavor": "“据説指令授予的剑与布只有在执行指令时才会解放并顕现其力量。”"
     },
     {
       "id": 132504,
       "name": "绽放E.G.O::代行",
-      "desc": "回合开始时，若自身带有[UnlockBuff_Base]且理智值不低于25点，\n则消耗15点理智值并进入绽放[TabExplain]E.G.O::代行状态，解除自身的混乱\n- 处于该状态时，改变自身的抗性，使自身获得[Blandishment_Enemy]\n- 回合开始时，若自身理智值不高于0点，则解除绽放[TabExplain]E.G.O::代行状态",
+      "desc": "回合開始时，若自身带有[UnlockBuff_Base]且理智値不低于25点，\n则消耗15点理智値并進入绽放[TabExplain]E.G.O::代行状态，解除自身的混乱\n- 处于該状态时，改变自身的抗性，使自身获得[Blandishment_Enemy]\n- 回合開始时，若自身理智値不高于0点，则解除绽放[TabExplain]E.G.O::代行状态",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132505,
       "name": "抹杀姿态",
-      "desc": "韦斯帕登场时，\n- 若自身的[UnlockBuff_Base]阶段低于2，则使自身获得[UnlockBuff_3]，使自身理智值恢复至45点，并解除自身的混乱\n- 使自身获得1层[Blandishment_Shin_Enemy]与体力上限50%的护盾(该护盾在本场战斗期间维持)\n- 禁用被动“解放[TabExplain]”的[PressureOfPrescript]消耗效果\n- 使自身的[PressureOfPrescript]变为[PressureOfPrescript_2nd]并获得至最大值\n- 回合开始时，使自身获得1层[PressureOfPrescript_2nd]\n- 此后自身的理智值不会低于0点\n\n现存体力不高于20%时，使自身获得[PressureOfPrescript_2nd]至最大值",
+      "desc": "韦斯帕登场时，\n- 若自身的[UnlockBuff_Base]階段低于2，则使自身获得[UnlockBuff_3]，使自身理智値恢复至45点，并解除自身的混乱\n- 使自身获得1层[Blandishment_Shin_Enemy]与体力上限50%的护盾(該护盾在本场战斗期間维持)\n- 禁用被动“解放[TabExplain]”的[PressureOfPrescript]消耗效果\n- 使自身的[PressureOfPrescript]变為[PressureOfPrescript_2nd]并获得至最大値\n- 回合開始时，使自身获得1层[PressureOfPrescript_2nd]\n- 此後自身的理智値不会低于0点\n\n现存体力不高于20%时，使自身获得[PressureOfPrescript_2nd]至最大値",
       "summary": "",
       "undefined": "-",
-      "flavor": "“危、危险的人……指令或许没、没法执行。”"
+      "flavor": "“危、危険的人……指令或許没、没法执行。”"
     },
     {
       "id": 132230,
       "name": "恐慌恢复",
-      "desc": "回合结束时，若自身陷入恐慌，则使自身理智值恢复为30点",
+      "desc": "回合结束时，若自身陥入恐慌，则使自身理智値恢复為30点",
       "summary": "",
       "undefined": "-"
     }

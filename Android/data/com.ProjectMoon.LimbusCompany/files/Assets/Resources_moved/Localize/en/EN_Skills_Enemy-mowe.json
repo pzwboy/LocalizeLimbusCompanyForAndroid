@@ -70,7 +70,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 吸收目标至多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(本效果不会使目标的[Laceration]强度降至1级以下)",
+                  "desc": "[OnSucceedAttack] 吸收目标最多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(本效果不会使目标的[Laceration]强度降至1级以下)",
                   "summary": "[OnSucceedAttack] 吸收目标的[Laceration]强度并恢复体力"
                 }
               ]
@@ -168,7 +168,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 吸收目标至多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(本效果不会使目标的[Laceration]强度降至1级以下)",
+                  "desc": "[OnSucceedAttack] 吸收目标最多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(本效果不会使目标的[Laceration]强度降至1级以下)",
                   "summary": "[OnSucceedAttack] 吸收目标的[Laceration]强度并恢复体力"
                 }
               ]
@@ -265,7 +265,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 吸收目标至多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(本效果不会使目标的[Laceration]强度降至1级以下)",
+                  "desc": "[OnSucceedAttack] 吸收目标最多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(本效果不会使目标的[Laceration]强度降至1级以下)",
                   "summary": "[OnSucceedAttack] 吸收目标的[Laceration]强度并恢复体力"
                 }
               ]
@@ -368,7 +368,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加6层[DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 吸收目标至多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(该效果不会使目标的[Laceration]强度降至1级以下)",
+                  "desc": "[OnSucceedAttack] 吸收目标最多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(該效果不会使目标的[Laceration]强度降至1级以下)",
                   "summary": "[OnSucceedAttack] 吸收目标的[Laceration]强度并恢复体力"
                 }
               ]
@@ -471,7 +471,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 吸收目标至多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(该效果不会使目标的[Laceration]强度降至1级以下)",
+                  "desc": "[OnSucceedAttack] 吸收目标最多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(該效果不会使目标的[Laceration]强度降至1级以下)",
                   "summary": "[OnSucceedAttack] 吸收目标的[Laceration]强度并恢复体力"
                 }
               ]
@@ -529,7 +529,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "撕开伤口",
+          "name": "撕開伤口",
           "desc": "[WhenUse] 使自身获得5层[Charge]",
           "coinlist": [
             {
@@ -586,7 +586,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加3层[AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 吸收目标至多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(该效果不会使目标的[Laceration]强度降至1级以下)",
+                  "desc": "[OnSucceedAttack] 吸收目标最多10级[Laceration]强度并使自身恢复(吸收的[Laceration]强度×2)%体力(該效果不会使目标的[Laceration]强度降至1级以下)",
                   "summary": "[OnSucceedAttack] 吸收目标的[Laceration]强度并恢复体力"
                 }
               ]
@@ -638,7 +638,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "叉之印记",
+          "name": "叉之印記",
           "desc": "[StartBattle] 若自身的[Charge]层数低于5层，则使自身获得5层[Charge]并对自身施加3层[Laceration]与1层[Vulnerable]\n[WhenUse] 若自身的[Charge]层数不低于10层，则消耗5层[Charge]并使自身获得3层[AttackUp]",
           "coinlist": [
             {
@@ -719,7 +719,7 @@
         {
           "level": 1,
           "name": "义体启动",
-          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则额外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得5层[Charge]",
+          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则額外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得5层[Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -741,7 +741,7 @@
         {
           "level": 1,
           "name": "硬血血液逆流",
-          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则额外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得5层[Charge]",
+          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则額外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得5层[Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -782,7 +782,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "活体能量转换式充能",
+          "name": "活体能量転换式充能",
           "desc": "[WhenUse] 消耗自身体力上限10%的体力并使自身获得15层[Charge]",
           "coinlist": [
             {
@@ -836,8 +836,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "硬血血液转移",
-          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则额外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得5层[Charge]",
+          "name": "硬血血液転移",
+          "desc": "[WhenUse] 若自身的[Charge]层数不低于10层，则消耗3层[Charge]并使本技能的硬币威力+1\n[WhenUse] 若自身的[Charge]层数不低于15层，则額外消耗3层[Charge]并使本技能造成的伤害+20%\n[WhenUse] 若自身的[Charge]层数低于5层，则失去体力上限10%的体力并使自身获得5层[Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -865,7 +865,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "活体能量转换式再充能",
+          "name": "活体能量転换式再充能",
           "desc": "[WhenUse] 消耗自身体力上限10%的体力并使自身获得15层[Charge]",
           "coinlist": [
             {

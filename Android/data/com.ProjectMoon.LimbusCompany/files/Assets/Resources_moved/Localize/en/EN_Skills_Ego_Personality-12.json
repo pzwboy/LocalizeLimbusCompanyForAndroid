@@ -5,14 +5,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "荆棘花园",
+          "name": "荆棘花園",
           "abName": "玫瑰告示牌",
-          "desc": "[BeforeAttack] 若最大共鸣数不低于3，则使本技能的攻击容量+1\n[WhenUse] 使(1+最大共鸣数)名友方单位获得1层该罪孽属性的伤害强化与1层该罪孽属性的威力提升\n- 若该共鸣数不低于4，则使其额外获得1层该罪孽属性的伤害强化",
+          "desc": "[BeforeAttack] 若最大共鸣数不低于3，则使本技能的攻击容量+1\n[WhenUse] 使(1+最大共鸣数)名友方単位获得1层該罪孽属性的伤害强化与1层該罪孽属性的威力提升\n- 若該共鸣数不低于4，则使其額外获得1层該罪孽属性的伤害强化",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] 使现存体力比例最低的1名友方单位恢复其体力上限15%的体力\n- 额外使(最大共鸣数-2)名友方单位恢复体力(最多3名)"
+                  "desc": "[EndSkill] 使现存体力比例最低的1名友方単位恢复其体力上限15%的体力\n- 額外使(最大共鸣数-2)名友方単位恢复体力(最多3名)"
                 }
               ]
             }
@@ -20,14 +20,14 @@
         },
         {
           "level": 3,
-          "name": "荆棘花园",
+          "name": "荆棘花園",
           "abName": "玫瑰告示牌",
-          "desc": "[BeforeAttack] 使本技能的攻击容量+(最大共鸣数-2)(最多+2)\n[WhenUse] 使(2+最大共鸣数)名友方单位获得1层该罪孽属性的伤害强化与1层该罪孽属性的威力提升\n- 若该共鸣数不低于4，则使其额外获得1层该罪孽属性的伤害强化\n- 若该共鸣数不低于5，则使其额外获得1层该罪孽属性的威力提升",
+          "desc": "[BeforeAttack] 使本技能的攻击容量+(最大共鸣数-2)(最多+2)\n[WhenUse] 使(2+最大共鸣数)名友方単位获得1层該罪孽属性的伤害强化与1层該罪孽属性的威力提升\n- 若該共鸣数不低于4，则使其額外获得1层該罪孽属性的伤害强化\n- 若該共鸣数不低于5，则使其額外获得1层該罪孽属性的威力提升",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] 使现存体力比例最低的2名友方单位恢复其体力上限18%的体力\n- 额外使(最大共鸣数-2)名友方单位恢复体力(最多3名)"
+                  "desc": "[EndSkill] 使现存体力比例最低的2名友方単位恢复其体力上限18%的体力\n- 額外使(最大共鸣数-2)名友方単位恢复体力(最多3名)"
                 }
               ]
             }
@@ -35,14 +35,14 @@
         },
         {
           "level": 4,
-          "name": "荆棘花园",
+          "name": "荆棘花園",
           "abName": "玫瑰告示牌",
-          "desc": "[BeforeAttack] 使本技能的攻击容量+(最大共鸣数-2)(最多+3)\n[WhenUse] 使(4+最大共鸣数)名友方单位获得1层该罪孽属性的伤害强化与1层该罪孽属性的威力提升\n- 若该共鸣数不低于4，则使其额外获得1层该罪孽属性的伤害强化\n- 若该共鸣数不低于5，则使其额外获得1层该罪孽属性的威力提升\n- 若该完全共鸣数不低于6，则下回合使其再次获得以上状态",
+          "desc": "[BeforeAttack] 使本技能的攻击容量+(最大共鸣数-2)(最多+3)\n[WhenUse] 使(4+最大共鸣数)名友方単位获得1层該罪孽属性的伤害强化与1层該罪孽属性的威力提升\n- 若該共鸣数不低于4，则使其額外获得1层該罪孽属性的伤害强化\n- 若該共鸣数不低于5，则使其額外获得1层該罪孽属性的威力提升\n- 若該完全共鸣数不低于6，则下回合使其再次获得以上状态",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] 使现存体力比例最低的4名友方单位恢复其体力上限22%的体力\n- 额外使(最大共鸣数-2)名友方单位恢复体力(最多3名)"
+                  "desc": "[EndSkill] 使现存体力比例最低的4名友方単位恢复其体力上限22%的体力\n- 額外使(最大共鸣数-2)名友方単位恢复体力(最多3名)"
                 }
               ]
             }
@@ -55,7 +55,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "荆棘花园",
+          "name": "荆棘花園",
           "abName": "玫瑰告示牌",
           "desc": "[CantIdentify]\n随机指定目标\n[BeforeAttack] 若最大共鸣数不低于3，则使本技能的攻击容量+1",
           "coinlist": [
@@ -65,7 +65,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层[AttackDmgDown]，下回合对其施加2层[Binding]。"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加1层最大共鸣罪孽属性的易损与1层该罪孽属性的威力降低\n- 若该共鸣数不低于4，则对其额外施加1层该罪孽属性的易损"
+                  "desc": "[OnSucceedAttack] 对目标施加1层最大共鸣罪孽属性的易损与1层該罪孽属性的威力降低\n- 若該共鸣数不低于4，则对其額外施加1层該罪孽属性的易损"
                 }
               ]
             }
@@ -73,7 +73,7 @@
         },
         {
           "level": 3,
-          "name": "荆棘花园",
+          "name": "荆棘花園",
           "abName": "玫瑰告示牌",
           "desc": "[CantIdentify]\n随机指定目标\n[BeforeAttack] 使本技能的攻击容量+(最大共鸣数-2)(最多+2)",
           "coinlist": [
@@ -83,7 +83,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层[AttackDmgDown]，下回合对其施加2层[Binding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加1层最大共鸣罪孽属性的易损与1层该罪孽属性的威力降低\n- 若该共鸣数不低于4，则对其额外施加1层该罪孽属性的易损\n- 若该共鸣数不低于5，则对其额外施加1层该罪孽属性的威力降低"
+                  "desc": "[OnSucceedAttack] 对目标施加1层最大共鸣罪孽属性的易损与1层該罪孽属性的威力降低\n- 若該共鸣数不低于4，则对其額外施加1层該罪孽属性的易损\n- 若該共鸣数不低于5，则对其額外施加1层該罪孽属性的威力降低"
                 }
               ]
             }
@@ -91,7 +91,7 @@
         },
         {
           "level": 4,
-          "name": "荆棘花园",
+          "name": "荆棘花園",
           "abName": "玫瑰告示牌",
           "desc": "[CantIdentify]\n随机指定目标\n[BeforeAttack] 使本技能的攻击容量+(最大共鸣数-2)(最多+3)",
           "coinlist": [
@@ -101,7 +101,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加1层[AttackDmgDown]，下回合对其施加2层[Binding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加1层最大共鸣罪孽属性的易损与1层该罪孽属性的威力降低\n- 若该共鸣数不低于4，则对其额外施加1层该罪孽属性的易损\n- 若该共鸣数不低于5，则对其额外施加1层该罪孽属性的威力降低\n- 若该完全共鸣数不低于6，则下回合对其再次施加以上状态"
+                  "desc": "[OnSucceedAttack] 对目标施加1层最大共鸣罪孽属性的易损与1层該罪孽属性的威力降低\n- 若該共鸣数不低于4，则对其額外施加1层該罪孽属性的易损\n- 若該共鸣数不低于5，则对其額外施加1层該罪孽属性的威力降低\n- 若該完全共鸣数不低于6，则下回合对其再次施加以上状态"
                 }
               ]
             }
@@ -116,7 +116,7 @@
           "level": 1,
           "name": "往昔",
           "abName": "某日的肖像",
-          "desc": "[EndSkill] 使自身与除自身以外理智值最低的2名友方单位恢复10点理智值\n- 若目标受到攻击后存活，则消耗其5层[Sinking]并额外恢复相当于其[Sinking]强度点理智值(最大恢复量：20点)\n- 若击杀目标，则随机使2名敌方单位增加3级[Sinking]强度(若是集中遭遇战，则改为随机部位)",
+          "desc": "[EndSkill] 使自身与除自身以外理智値最低的2名友方単位恢复10点理智値\n- 若目标受到攻击後存活，则消耗其5层[Sinking]并額外恢复相当于其[Sinking]强度点理智値(最大恢复量：20点)\n- 若击杀目标，则随机使2名敌方単位增加3级[Sinking]强度(若是集中遭遇战，则改為随机部位)",
           "coinlist": [
             {
               "coindescs": [
@@ -129,7 +129,7 @@
           "level": 3,
           "name": "往昔",
           "abName": "某日的肖像",
-          "desc": "[EndSkill] 使自身与除自身以外理智值最低的2名友方单位恢复<style=\"highlight\">12</style>点理智值\n- 若目标受到攻击后存活，则消耗其5层[Sinking]并额外恢复相当于其[Sinking]强度点理智值(最大恢复量：20点)\n- 若击杀目标，则随机使2名敌方单位增加3级[Sinking]强度<style=\"highlight\">并对其施加1层[Curse]</style>(若是集中遭遇战，则改为随机部位)",
+          "desc": "[EndSkill] 使自身与除自身以外理智値最低的2名友方単位恢复<style=\"highlight\">12</style>点理智値\n- 若目标受到攻击後存活，则消耗其5层[Sinking]并額外恢复相当于其[Sinking]强度点理智値(最大恢复量：20点)\n- 若击杀目标，则随机使2名敌方単位增加3级[Sinking]强度<style=\"highlight\">并对其施加1层[Curse]</style>(若是集中遭遇战，则改為随机部位)",
           "coinlist": [
             {
               "coindescs": [
@@ -142,7 +142,7 @@
           "level": 4,
           "name": "往昔",
           "abName": "某日的肖像",
-          "desc": "[EndSkill] 使自身与除自身以外理智值最低的2名友方单位恢复<style=\"highlight\">15</style>点理智值\n- 若目标受到攻击后存活，则消耗其<style=\"highlight\">3</style>层[Sinking]并额外恢复相当于其[Sinking]强度点理智值(最大恢复量：20点)\n- 若击杀目标，则随机使3名敌方单位增加<style=\"highlight\">3</style>级[Sinking]强度并对其施加1层[Curse](若是集中遭遇战，则改为随机部位)",
+          "desc": "[EndSkill] 使自身与除自身以外理智値最低的2名友方単位恢复<style=\"highlight\">15</style>点理智値\n- 若目标受到攻击後存活，则消耗其<style=\"highlight\">3</style>层[Sinking]并額外恢复相当于其[Sinking]强度点理智値(最大恢复量：20点)\n- 若击杀目标，则随机使3名敌方単位增加<style=\"highlight\">3</style>级[Sinking]强度并对其施加1层[Curse](若是集中遭遇战，则改為随机部位)",
           "coinlist": [
             {
               "coindescs": [
@@ -165,7 +165,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加2层[AzureTakeDamageUp]。若忧郁共鸣数不低于3，则对其额外施加1层[AzureTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] 对目标施加2层[AzureTakeDamageUp]。若忧鬱共鸣数不低于3，则对其額外施加1层[AzureTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttack] 对目标施加3层[Sinking]"
@@ -186,7 +186,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加2层[AzureTakeDamageUp]。每有3点忧郁共鸣数，对其额外施加1层[AzureTakeDamageUp](最多2层)"
+                  "desc": "[OnSucceedAttack] 对目标施加2层[AzureTakeDamageUp]。每有3点忧鬱共鸣数，对其額外施加1层[AzureTakeDamageUp](最多2层)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 对目标施加3层[Sinking]"
@@ -207,7 +207,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加2层[AzureTakeDamageUp]。每有2点忧郁共鸣数，对其额外施加1层[AzureTakeDamageUp](最多2层)"
+                  "desc": "[OnSucceedAttack] 对目标施加2层[AzureTakeDamageUp]。每有2点忧鬱共鸣数，对其額外施加1层[AzureTakeDamageUp](最多2层)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 对目标施加3层[Sinking]"
@@ -226,9 +226,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "庄严哀悼",
+          "name": "庄厳哀悼",
           "abName": "亡蝶葬仪",
-          "desc": "本技能掷出硬币时，随机对其目标之一的1名敌方单位进行攻击\n- 第一枚硬币必定指定主要目标\n- 每枚硬币的所有“命中时”效果与所有造成的伤害仅对以上效果中选择的敌方单位生效\n通过本技能效果施加[SinkingWhite]时，以(硬币朝向正面的概率)施加亡蝶层数。若自身未施加亡蝶层数，则改为增加生蝶强度(每点[SinkingWhite]分别判定)",
+          "desc": "本技能掷出硬币时，随机对其目标之一的1名敌方単位進行攻击\n- 第一枚硬币必定指定主要目标\n- 每枚硬币的所有“命中时”效果与所有造成的伤害僅对以上效果中選择的敌方単位生效\n通過本技能效果施加[SinkingWhite]时，以(硬币朝向正面的概率)施加亡蝶层数。若自身未施加亡蝶层数，则改為增加生蝶强度(每点[SinkingWhite]分別判定)",
           "coinlist": [
             {
               "coindescs": [
@@ -250,10 +250,10 @@
                   "desc": "[OnSucceedAttack] 随机对目标施加1~2点[SinkingWhite]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身失去2~6点理智值"
+                  "desc": "[OnSucceedAttack] 使自身失去2~6点理智値"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若自身的理智值不低于0点，则重复使用本硬币(每个技能最多5次)"
+                  "desc": "[OnSucceedAttack] 若自身的理智値不低于0点，则重复使用本硬币(每个技能最多5次)"
                 }
               ]
             }
@@ -261,9 +261,9 @@
         },
         {
           "level": 3,
-          "name": "庄严哀悼",
+          "name": "庄厳哀悼",
           "abName": "亡蝶葬仪",
-          "desc": "本技能掷出硬币时，随机对其目标之一的1名敌方单位进行攻击\n- 第一枚硬币必定指定主要目标\n- 每枚硬币的所有“命中时”效果与所有造成的伤害仅对以上效果中选择的敌方单位生效\n通过本技能效果施加[SinkingWhite]时，以(硬币朝向正面的概率)施加亡蝶层数。若自身未施加亡蝶层数，则改为增加生蝶强度(每点[SinkingWhite]分别判定)\n<style=\"highlight\">[EndSkill] 使自身恢复(第3枚硬币命中次数×2)点理智值</style>",
+          "desc": "本技能掷出硬币时，随机对其目标之一的1名敌方単位進行攻击\n- 第一枚硬币必定指定主要目标\n- 每枚硬币的所有“命中时”效果与所有造成的伤害僅对以上效果中選择的敌方単位生效\n通過本技能效果施加[SinkingWhite]时，以(硬币朝向正面的概率)施加亡蝶层数。若自身未施加亡蝶层数，则改為增加生蝶强度(每点[SinkingWhite]分別判定)\n<style=\"highlight\">[EndSkill] 使自身恢复(第3枚硬币命中次数×2)点理智値</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -285,10 +285,10 @@
                   "desc": "[OnSucceedAttack] 随机对目标施加1~2点[SinkingWhite]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身失去2~6点理智值<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使自身失去2~6点理智値<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若自身的理智值不低于0点，则重复使用本硬币(每个技能最多5次)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 若自身的理智値不低于0点，则重复使用本硬币(每个技能最多5次)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -296,9 +296,9 @@
         },
         {
           "level": 4,
-          "name": "庄严哀悼",
+          "name": "庄厳哀悼",
           "abName": "亡蝶葬仪",
-          "desc": "本技能掷出硬币时，随机对其目标之一的1名敌方单位进行攻击\n- 第一枚硬币必定指定主要目标\n- 每枚硬币的所有“命中时”效果与所有造成的伤害仅对以上效果中选择的敌方单位生效\n通过本技能效果施加[SinkingWhite]时，以(硬币朝向正面的概率)施加亡蝶层数。若自身未施加亡蝶层数，则改为增加生蝶强度(每点[SinkingWhite]分别判定)\n[EndSkill] 使自身恢复<style=\"highlight\">(第3枚硬币命中次数×3)</style>点理智值",
+          "desc": "本技能掷出硬币时，随机对其目标之一的1名敌方単位進行攻击\n- 第一枚硬币必定指定主要目标\n- 每枚硬币的所有“命中时”效果与所有造成的伤害僅对以上效果中選择的敌方単位生效\n通過本技能效果施加[SinkingWhite]时，以(硬币朝向正面的概率)施加亡蝶层数。若自身未施加亡蝶层数，则改為增加生蝶强度(每点[SinkingWhite]分別判定)\n[EndSkill] 使自身恢复<style=\"highlight\">(第3枚硬币命中次数×3)</style>点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -320,10 +320,10 @@
                   "desc": "[OnSucceedAttack] 随机对目标施加1~2点[SinkingWhite]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身失去2~6点理智值<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使自身失去2~6点理智値<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若自身的理智值不低于0点，则重复使用本硬币(每个技能最多5次)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 若自身的理智値不低于0点，则重复使用本硬币(每个技能最多5次)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -336,9 +336,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "庄严哀悼",
+          "name": "庄厳哀悼",
           "abName": "亡蝶葬仪",
-          "desc": "[CantIdentify]\n随机指定目标\n若目标的理智值低于0点，则每低1点，使本技能造成的伤害+1%(最多+45%)\n若目标未带有理智值，则其每带有2级[Sinking]强度，使本技能造成的伤害+1%(最多+45%)",
+          "desc": "[CantIdentify]\n随机指定目标\n若目标的理智値低于0点，则每低1点，使本技能造成的伤害+1%(最多+45%)\n若目标未带有理智値，则其每带有2级[Sinking]强度，使本技能造成的伤害+1%(最多+45%)",
           "coinlist": [
             {
               "coindescs": [
@@ -354,9 +354,9 @@
         },
         {
           "level": 3,
-          "name": "庄严哀悼",
+          "name": "庄厳哀悼",
           "abName": "亡蝶葬仪",
-          "desc": "[CantIdentify]\n随机指定目标\n若目标的理智值低于0点，则每低1点，使本技能造成的伤害+1%(最多+45%)\n若目标未带有理智值，则其每带有2级[Sinking]强度，使本技能造成的伤害+1%(最多+45%)\n<style=\"highlight\">[EnemyKill] 使自身恢复5点理智值</style>",
+          "desc": "[CantIdentify]\n随机指定目标\n若目标的理智値低于0点，则每低1点，使本技能造成的伤害+1%(最多+45%)\n若目标未带有理智値，则其每带有2级[Sinking]强度，使本技能造成的伤害+1%(最多+45%)\n<style=\"highlight\">[EnemyKill] 使自身恢复5点理智値</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -375,9 +375,9 @@
         },
         {
           "level": 4,
-          "name": "庄严哀悼",
+          "name": "庄厳哀悼",
           "abName": "亡蝶葬仪",
-          "desc": "[CantIdentify]\n随机指定目标\n若目标的理智值低于0点，则每低1点，使本技能造成的伤害+1%(最多+45%)\n若目标未带有理智值，则其每带有2级[Sinking]强度，使本技能造成的伤害+1%(最多+45%)\n[EnemyKill] 使自身恢复5点理智值<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\n随机指定目标\n若目标的理智値低于0点，则每低1点，使本技能造成的伤害+1%(最多+45%)\n若目标未带有理智値，则其每带有2级[Sinking]强度，使本技能造成的伤害+1%(最多+45%)\n[EnemyKill] 使自身恢复5点理智値<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -391,7 +391,7 @@
                   "desc": "[OnSucceedAttack] 对目标施加3层[Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 若目标现存体力不高于50%，则对目标造成相当于其所有[SinkingWhite]点数的忧郁伤害\n- 以生蝶与亡蝶之和计算</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 若目标现存体力不高于50%，则对目标造成相当于其所有[SinkingWhite]点数的忧鬱伤害\n- 以生蝶与亡蝶之和計算</style>"
                 }
               ]
             }
@@ -405,8 +405,8 @@
         {
           "level": 1,
           "name": "圣诞梦魇",
-          "abName": "舒适卧床",
-          "desc": "[EndSkill] 若自身体力为最大值，则在回合结束时使自身恢复10点理智值并在下回合使自身获得1层[Enhancement]",
+          "abName": "舒適卧床",
+          "desc": "[EndSkill] 若自身体力為最大値，则在回合结束时使自身恢复10点理智値并在下回合使自身获得1层[Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -414,7 +414,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -424,7 +424,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标陷入混乱、士气低落或陷入恐慌，则下回合对其施加1层[Reduction]"
+                  "desc": "[OnSucceedAttack] 若目标陥入混乱、士气低落或陥入恐慌，则下回合对其施加1层[Reduction]"
                 }
               ]
             }
@@ -433,8 +433,8 @@
         {
           "level": 3,
           "name": "圣诞梦魇",
-          "abName": "舒适卧床",
-          "desc": "<style=\"highlight\">若目标的理智值低于0点，则每相差1点，使本技能造成的伤害+1%(最多+45%)</style>\n[EndSkill] 若自身体力为最大值，则在回合结束时使自身恢复10点理智值并在下回合使自身获得1层[Enhancement]",
+          "abName": "舒適卧床",
+          "desc": "<style=\"highlight\">若目标的理智値低于0点，则每相差1点，使本技能造成的伤害+1%(最多+45%)</style>\n[EndSkill] 若自身体力為最大値，则在回合结束时使自身恢复10点理智値并在下回合使自身获得1层[Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -442,7 +442,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -455,7 +455,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标陷入混乱、士气低落或陷入恐慌，则下回合对其施加1层[Reduction]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 若目标陥入混乱、士气低落或陥入恐慌，则下回合对其施加1层[Reduction]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -464,8 +464,8 @@
         {
           "level": 4,
           "name": "圣诞梦魇",
-          "abName": "舒适卧床",
-          "desc": "若目标的理智值低于0点，则每相差1点，使本技能造成的伤害+1%(最多+45%)\n[EndSkill] 若自身体力为最大值，则在回合结束时使自身恢复<style=\"highlight\">15</style>点理智值并在下回合使自身获得1层[Enhancement]<style=\"highlight\"></style>",
+          "abName": "舒適卧床",
+          "desc": "若目标的理智値低于0点，则每相差1点，使本技能造成的伤害+1%(最多+45%)\n[EndSkill] 若自身体力為最大値，则在回合结束时使自身恢复<style=\"highlight\">15</style>点理智値并在下回合使自身获得1层[Enhancement]<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -473,7 +473,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -486,7 +486,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标陷入混乱、士气低落或陷入恐慌，则下回合对其施加1层[Reduction]<style=\"highlight\">与1层最大共鸣数罪孽属性的易损。</style>"
+                  "desc": "[OnSucceedAttack] 若目标陥入混乱、士气低落或陥入恐慌，则下回合对其施加1层[Reduction]<style=\"highlight\">与1层最大共鸣数罪孽属性的易损。</style>"
                 }
               ]
             }
@@ -500,8 +500,8 @@
         {
           "level": 1,
           "name": "圣诞梦魇",
-          "abName": "舒适卧床",
-          "desc": "[CantIdentify]\n随机指定目标\n[BeforeAttack] 使自身恢复10点体力\n[EndSkill] 若自身体力为最大值，则在回合结束时使自身恢复10点理智值并在下回合使自身获得1层[Enhancement]",
+          "abName": "舒適卧床",
+          "desc": "[CantIdentify]\n随机指定目标\n[BeforeAttack] 使自身恢复10点体力\n[EndSkill] 若自身体力為最大値，则在回合结束时使自身恢复10点理智値并在下回合使自身获得1层[Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -509,7 +509,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -519,7 +519,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标陷入混乱、士气低落或陷入恐慌，则下回合对其施加1层[Reduction]"
+                  "desc": "[OnSucceedAttack] 若目标陥入混乱、士气低落或陥入恐慌，则下回合对其施加1层[Reduction]"
                 }
               ]
             }
@@ -528,8 +528,8 @@
         {
           "level": 3,
           "name": "圣诞梦魇",
-          "abName": "舒适卧床",
-          "desc": "[CantIdentify]\n随机指定目标\n<style=\"highlight\">若目标的理智值低于0点，则每相差1点，使本技能造成的伤害+1%(最多+45%)</style>\n[BeforeAttack] 使自身恢复10点体力\n[EndSkill] 若自身体力为最大值，则在回合结束时使自身恢复<style=\"highlight\">15</style>点理智值并在下回合使自身获得1层[Enhancement]",
+          "abName": "舒適卧床",
+          "desc": "[CantIdentify]\n随机指定目标\n<style=\"highlight\">若目标的理智値低于0点，则每相差1点，使本技能造成的伤害+1%(最多+45%)</style>\n[BeforeAttack] 使自身恢复10点体力\n[EndSkill] 若自身体力為最大値，则在回合结束时使自身恢复<style=\"highlight\">15</style>点理智値并在下回合使自身获得1层[Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -537,7 +537,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -550,7 +550,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标陷入混乱、士气低落或陷入恐慌，则下回合对其施加1层[Reduction]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 若目标陥入混乱、士气低落或陥入恐慌，则下回合对其施加1层[Reduction]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -559,8 +559,8 @@
         {
           "level": 4,
           "name": "圣诞梦魇",
-          "abName": "舒适卧床",
-          "desc": "[CantIdentify]\n随机指定目标\n若目标的理智值低于0点，则每相差1点，使本技能造成的伤害+1%(最多+45%)\n[BeforeAttack] 使自身恢复10点体力\n[EndSkill] 若自身体力为最大值，则在回合结束时使自身恢复<style=\"highlight\">20</style>点理智值并在下回合使自身获得1层[Enhancement]",
+          "abName": "舒適卧床",
+          "desc": "[CantIdentify]\n随机指定目标\n若目标的理智値低于0点，则每相差1点，使本技能造成的伤害+1%(最多+45%)\n[BeforeAttack] 使自身恢复10点体力\n[EndSkill] 若自身体力為最大値，则在回合结束时使自身恢复<style=\"highlight\">20</style>点理智値并在下回合使自身获得1层[Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -568,7 +568,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             },
@@ -581,7 +581,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加4级[Sinking]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 若目标陷入混乱、士气低落或陷入恐慌，则下回合对其施加1层[Reduction]<style=\"highlight\">与2层最大共鸣数罪孽属性的易损。</style>"
+                  "desc": "[OnSucceedAttack] 若目标陥入混乱、士气低落或陥入恐慌，则下回合对其施加1层[Reduction]<style=\"highlight\">与2层最大共鸣数罪孽属性的易损。</style>"
                 }
               ]
             }
@@ -594,9 +594,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "未照耀的荣光-流水",
+          "name": "未照耀的栄光-流水",
           "abName": "玛恩纳",
-          "desc": "[CantDuel]\n本场战斗中首次使用时，消耗的E.G.O资源减少1个暴怒、2个怠惰与1个傲慢\n若自身的[MlynarWaiting]层数不低于1层，则改为使用未照耀的荣光-光辉\n本技能不会命中敌方单位，不会触发守备技能，且不会因外部效果而重复使用\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndSkill] 使自身恢复25点理智值\n[EndSkill] 下回合使自身获得1层[AttackUp]",
+          "desc": "[CantDuel]\n本场战斗中首次使用时，消耗的E.G.O資源減少1个暴怒、2个怠惰与1个傲慢\n若自身的[MlynarWaiting]层数不低于1层，则改為使用未照耀的栄光-光輝\n本技能不会命中敌方単位，不会触发守备技能，且不会因外部效果而重复使用\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndSkill] 使自身恢复25点理智値\n[EndSkill] 下回合使自身获得1层[AttackUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -609,9 +609,9 @@
         },
         {
           "level": 3,
-          "name": "未照耀的荣光-流水",
+          "name": "未照耀的栄光-流水",
           "abName": "玛恩纳",
-          "desc": "[CantDuel]\n本场战斗中首次使用时，消耗的E.G.O资源减少1个暴怒、2个怠惰与1个傲慢\n若自身的[MlynarWaiting]层数不低于1层，则改为使用未照耀的荣光-光辉\n本技能不会命中敌方单位，不会触发守备技能，且不会因外部效果而重复使用\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndSkill] 使自身恢复25点理智值\n[EndSkill] 下回合使自身获得<style=\"highlight\">2</style>层[AttackUp]",
+          "desc": "[CantDuel]\n本场战斗中首次使用时，消耗的E.G.O資源減少1个暴怒、2个怠惰与1个傲慢\n若自身的[MlynarWaiting]层数不低于1层，则改為使用未照耀的栄光-光輝\n本技能不会命中敌方単位，不会触发守备技能，且不会因外部效果而重复使用\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndSkill] 使自身恢复25点理智値\n[EndSkill] 下回合使自身获得<style=\"highlight\">2</style>层[AttackUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -624,9 +624,9 @@
         },
         {
           "level": 4,
-          "name": "未照耀的荣光-流水",
+          "name": "未照耀的栄光-流水",
           "abName": "玛恩纳",
-          "desc": "[CantDuel]\n本场战斗中首次使用时，消耗的E.G.O资源减少1个暴怒、2个怠惰与1个傲慢\n若自身的[MlynarWaiting]层数不低于1层，则改为使用未照耀的荣光-光辉\n本技能不会命中敌方单位，不会触发守备技能，且不会因外部效果而重复使用\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndSkill] 使自身恢复25点理智值\n[EndSkill] 下回合使自身获得2层[AttackUp]<style=\"highlight\">与1层[AttackDmgUp]</style>",
+          "desc": "[CantDuel]\n本场战斗中首次使用时，消耗的E.G.O資源減少1个暴怒、2个怠惰与1个傲慢\n若自身的[MlynarWaiting]层数不低于1层，则改為使用未照耀的栄光-光輝\n本技能不会命中敌方単位，不会触发守备技能，且不会因外部效果而重复使用\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndSkill] 使自身恢复25点理智値\n[EndSkill] 下回合使自身获得2层[AttackUp]<style=\"highlight\">与1层[AttackDmgUp]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -644,9 +644,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "未照耀的荣光-光辉",
+          "name": "未照耀的栄光-光輝",
           "abName": "玛恩纳",
-          "desc": "[CantDuel]\n本技能不会因外部效果而重复使用\n若自身的[MlynarWaiting]层数为40层，则使本技能变为可拼点\n[WhenUse] 若自身的[MlynarWaiting]层数为40层，则直到本技能结束，自身不会因受到伤害而陷入混乱，使本技能的拼点威力+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗20层，返还1个E.G.O资源(按傲慢、暴怒的顺序返还)\n- 每消耗10层，使本技能的攻击容量+1(最多+4)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使第4枚硬币造成的伤害+50%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有8级，使本技能造成的伤害+5%(最多+25%)\n[EndSkill] 每有1个目标因本技能伤害而陷入混乱或阵亡，使自身恢复5点理智值(最多25点)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能未消耗40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+4(每回合最多1次)",
+          "desc": "[CantDuel]\n本技能不会因外部效果而重复使用\n若自身的[MlynarWaiting]层数為40层，则使本技能变為可拼点\n[WhenUse] 若自身的[MlynarWaiting]层数為40层，则直到本技能结束，自身不会因受到伤害而陥入混乱，使本技能的拼点威力+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗20层，返還1个E.G.O資源(按傲慢、暴怒的順序返還)\n- 每消耗10层，使本技能的攻击容量+1(最多+4)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使第4枚硬币造成的伤害+50%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有8级，使本技能造成的伤害+5%(最多+25%)\n[EndSkill] 每有1个目标因本技能伤害而陥入混乱或陣亡，使自身恢复5点理智値(最多25点)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能未消耗40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+4(每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -663,7 +663,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级[Vibration]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币为最后一枚硬币，且目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币為最後一枚硬币，且目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币使用了4次，则对目标造成相当于其[Vibration]强度的怠惰伤害(最多5点)"
@@ -674,9 +674,9 @@
         },
         {
           "level": 3,
-          "name": "未照耀的荣光-光辉",
+          "name": "未照耀的栄光-光輝",
           "abName": "玛恩纳",
-          "desc": "[CantDuel]\n本技能不会因外部效果而重复使用\n若自身的[MlynarWaiting]层数为40层，则使本技能变为可拼点\n[WhenUse] 若自身的[MlynarWaiting]层数为40层，则直到本技能结束，自身不会因受到伤害而陷入混乱，使本技能的拼点威力+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗20层，返还1个E.G.O资源(按傲慢、暴怒的顺序返还)\n- 每消耗10层，使本技能的攻击容量+1(最多+4)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使第4枚硬币造成的伤害+<style=\"highlight\">80</style>%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有8级，使本技能造成的伤害+5%(最多+25%)\n[EndSkill] 每有1个目标因本技能伤害而陷入混乱或阵亡，使自身恢复5点理智值(最多25点)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能未消耗40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+4(每回合最多1次)",
+          "desc": "[CantDuel]\n本技能不会因外部效果而重复使用\n若自身的[MlynarWaiting]层数為40层，则使本技能变為可拼点\n[WhenUse] 若自身的[MlynarWaiting]层数為40层，则直到本技能结束，自身不会因受到伤害而陥入混乱，使本技能的拼点威力+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗20层，返還1个E.G.O資源(按傲慢、暴怒的順序返還)\n- 每消耗10层，使本技能的攻击容量+1(最多+4)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使第4枚硬币造成的伤害+<style=\"highlight\">80</style>%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有8级，使本技能造成的伤害+5%(最多+25%)\n[EndSkill] 每有1个目标因本技能伤害而陥入混乱或陣亡，使自身恢复5点理智値(最多25点)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能未消耗40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+4(每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -687,7 +687,7 @@
                   "desc": "重复使用本硬币((消耗的[MlynarWaiting]层数/10)-1)次(最多3次)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnStartCoin] 若本硬币未摧毁，且指定不低于3名目标，则使最后一枚硬币造成的伤害+10%(若是集中遭遇战，则每个部位视作1名目标)</style>"
+                  "desc": "<style=\"highlight\">[OnStartCoin] 若本硬币未摧毁，且指定不低于3名目标，则使最後一枚硬币造成的伤害+10%(若是集中遭遇战，则每个部位視作1名目标)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加1级[Combustion]强度<style=\"highlight\"></style>"
@@ -696,7 +696,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级[Vibration]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币为最后一枚硬币，且目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数减少1层<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币為最後一枚硬币，且目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数減少1层<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币使用了4次，则对目标造成相当于其[Vibration]强度的怠惰伤害(最多5点)<style=\"highlight\"></style>"
@@ -707,9 +707,9 @@
         },
         {
           "level": 4,
-          "name": "未照耀的荣光-光辉",
+          "name": "未照耀的栄光-光輝",
           "abName": "玛恩纳",
-          "desc": "[CantDuel]\n本技能不会因外部效果而重复使用\n若自身的[MlynarWaiting]层数为40层，则使本技能变为可拼点\n[WhenUse] 若自身的[MlynarWaiting]层数为40层，则直到本技能结束，自身不会因受到伤害而陷入混乱，使本技能的拼点威力+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗20层，返还1个E.G.O资源(按傲慢、暴怒的顺序返还)\n- 每消耗10层，使本技能的攻击容量+1(最多+4)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使第4枚硬币造成的伤害+<style=\"highlight\">100</style>%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有8级，使本技能造成的伤害+5%(最多+25%)\n[EndSkill] 每有1个目标因本技能伤害而陷入混乱或阵亡，使自身恢复5点理智值(最多25点)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能未消耗40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+4(每回合最多1次)",
+          "desc": "[CantDuel]\n本技能不会因外部效果而重复使用\n若自身的[MlynarWaiting]层数為40层，则使本技能变為可拼点\n[WhenUse] 若自身的[MlynarWaiting]层数為40层，则直到本技能结束，自身不会因受到伤害而陥入混乱，使本技能的拼点威力+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗20层，返還1个E.G.O資源(按傲慢、暴怒的順序返還)\n- 每消耗10层，使本技能的攻击容量+1(最多+4)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使第4枚硬币造成的伤害+<style=\"highlight\">100</style>%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有8级，使本技能造成的伤害+5%(最多+25%)\n[EndSkill] 每有1个目标因本技能伤害而陥入混乱或陣亡，使自身恢复5点理智値(最多25点)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能未消耗40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+4(每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -720,7 +720,7 @@
                   "desc": "重复使用本硬币((消耗的[MlynarWaiting]层数/10)-1)次(最多3次)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] 若本硬币未摧毁，且指定不低于3名目标，则使最后一枚硬币造成的伤害+<style=\"highlight\">20</style>%(若是集中遭遇战，则每个部位视作1名目标)"
+                  "desc": "[OnStartCoin] 若本硬币未摧毁，且指定不低于3名目标，则使最後一枚硬币造成的伤害+<style=\"highlight\">20</style>%(若是集中遭遇战，则每个部位視作1名目标)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加1级[Combustion]强度<style=\"highlight\"></style>"
@@ -729,7 +729,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加1级[Vibration]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币为最后一枚硬币，且目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数减少1层<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币為最後一枚硬币，且目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数減少1层<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬币使用了4次，则对目标造成相当于其[Vibration]强度的怠惰伤害(最多<style=\"highlight\">10</style>点)"
@@ -745,9 +745,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "未照耀的荣光-流水",
+          "name": "未照耀的栄光-流水",
           "abName": "玛恩纳",
-          "desc": "[CantIdentify]\n随机指定目标\n[WhenUse] 若自身的[MlynarWaiting]层数为40层，则使本技能的基础威力+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使最后一枚硬币造成的伤害+110%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有6级，则使本技能造成的伤害+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-4(最多-16)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能消耗了40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+8(每回合最多1次)",
+          "desc": "[CantIdentify]\n随机指定目标\n[WhenUse] 若自身的[MlynarWaiting]层数為40层，则使本技能的基础威力+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使最後一枚硬币造成的伤害+110%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有6级，则使本技能造成的伤害+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-4(最多-16)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能消耗了40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+8(每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -782,7 +782,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 若目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -790,9 +790,9 @@
         },
         {
           "level": 3,
-          "name": "未照耀的荣光-流水",
+          "name": "未照耀的栄光-流水",
           "abName": "玛恩纳",
-          "desc": "[CantIdentify]\n随机指定目标\n<style=\"highlight\">指定不低于3名目标时，若第1~3枚硬币未摧毁并命中，则使最后一枚硬币造成的伤害+25%(每枚硬币最多1次，若是集中遭遇战，则每个部位视作1名目标)</style>\n[WhenUse] 若自身的[MlynarWaiting]层数为40层，则使本技能的基础威力+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使最后一枚硬币造成的伤害+<style=\"highlight\">130</style>%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有6级，则使本技能造成的伤害+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-4(最多-16)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能消耗了40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+8(每回合最多1次)",
+          "desc": "[CantIdentify]\n随机指定目标\n<style=\"highlight\">指定不低于3名目标时，若第1~3枚硬币未摧毁并命中，则使最後一枚硬币造成的伤害+25%(每枚硬币最多1次，若是集中遭遇战，则每个部位視作1名目标)</style>\n[WhenUse] 若自身的[MlynarWaiting]层数為40层，则使本技能的基础威力+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使最後一枚硬币造成的伤害+<style=\"highlight\">130</style>%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有6级，则使本技能造成的伤害+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-4(最多-16)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能消耗了40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+8(每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -827,7 +827,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 若目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -835,9 +835,9 @@
         },
         {
           "level": 4,
-          "name": "未照耀的荣光-流水",
+          "name": "未照耀的栄光-流水",
           "abName": "玛恩纳",
-          "desc": "[CantIdentify]\n随机指定目标\n指定不低于3名目标时，若第1~3枚硬币未摧毁并命中，则使最后一枚硬币造成的伤害+<style=\"highlight\">30</style>%(每枚硬币最多1次，若是集中遭遇战，则每个部位视作1名目标)\n[WhenUse] 若自身的[MlynarWaiting]层数为40层，则使本技能的基础威力+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使最后一枚硬币造成的伤害+<style=\"highlight\">160</style>%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有6级，则使本技能造成的伤害+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-4(最多-16)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能消耗了40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+8(每回合最多1次)",
+          "desc": "[CantIdentify]\n随机指定目标\n指定不低于3名目标时，若第1~3枚硬币未摧毁并命中，则使最後一枚硬币造成的伤害+<style=\"highlight\">30</style>%(每枚硬币最多1次，若是集中遭遇战，则每个部位視作1名目标)\n[WhenUse] 若自身的[MlynarWaiting]层数為40层，则使本技能的基础威力+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并获得以下效果(所有效果均向下取整)\n- 每消耗10层，使自身获得1层[DefenseUp](每回合最多1次)\n- 若消耗了40层，则使最後一枚硬币造成的伤害+<style=\"highlight\">160</style>%，并使自身获得2层[Protection](每回合最多1次)\n\n[BeforeAttack] 主要目标的[Combustion]强度与[Vibration]强度之和每有6级，则使本技能造成的伤害+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-4(最多-16)\n[EndSkill] 使自身获得1层[MlynarWaiting]\n[EndBattle] 若本技能消耗了40层[MlynarWaiting]，则下回合使仪表盘上自身位于最左侧的行动槽的[Aggro]+8(每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -872,7 +872,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加5级[Vibration]强度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 若目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若目标的[Vibration]强度不低于15级，则使其[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }

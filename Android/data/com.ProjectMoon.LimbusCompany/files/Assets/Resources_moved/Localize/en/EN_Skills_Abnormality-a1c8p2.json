@@ -43,7 +43,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加2级[Burst]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 重复使用本硬币(自身的速度值/3)次(最多2次)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 重复使用本硬币(自身的速度値/3)次(最多2次)"
                 }
               ]
             }
@@ -57,7 +57,7 @@
         {
           "level": 1,
           "name": "迅击",
-          "desc": "若自身的速度值高于主要目标，则每相差2点，使本技能的硬币威力+1(最多+3)\n[WhenUse] 若目标的[Burst]强度不低于4级，则使本技能的硬币威力+1\n[WinDuel] 对目标施加3层[Burst]",
+          "desc": "若自身的速度値高于主要目标，则每相差2点，使本技能的硬币威力+1(最多+3)\n[WhenUse] 若目标的[Burst]强度不低于4级，则使本技能的硬币威力+1\n[WinDuel] 对目标施加3层[Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -139,7 +139,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "压制",
+          "name": "圧制",
           "desc": "[WhenUse] 若目标的[Burst]强度不低于4级，则使本技能的基础威力+1",
           "coinlist": [
             {
@@ -158,7 +158,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加2级[Burst]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 重复使用本硬币(自身的速度值/3)次(最多2次)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 重复使用本硬币(自身的速度値/3)次(最多2次)"
                 }
               ]
             }
@@ -172,7 +172,7 @@
         {
           "level": 1,
           "name": "暗袭",
-          "desc": "若自身的速度值高于主要目标，则每相差2点，使本技能的硬币威力+1(最多+3)\n[WhenUse] 若目标的[Burst]强度不低于4级，则使本技能的硬币威力+1\n[WinDuel] 对目标施加3层[Burst]",
+          "desc": "若自身的速度値高于主要目标，则每相差2点，使本技能的硬币威力+1(最多+3)\n[WhenUse] 若目标的[Burst]强度不低于4级，则使本技能的硬币威力+1\n[WinDuel] 对目标施加3层[Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -235,7 +235,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "问",
+          "name": "問",
           "desc": "[WhenUse] 若目标的[Burst]强度不低于5级，则使本技能的硬币威力+1",
           "coinlist": [
             {
@@ -350,7 +350,7 @@
         {
           "level": 1,
           "name": "斩吧。卯",
-          "desc": "[WhenUse] 使自身恢复10点理智值\n[WhenUse] 若目标的[Burst]强度不低于5级，则使本技能的硬币威力+1\n[WinDuel] 使目标增加2级[Burst]强度",
+          "desc": "[WhenUse] 使自身恢复10点理智値\n[WhenUse] 若目标的[Burst]强度不低于5级，则使本技能的硬币威力+1\n[WinDuel] 使目标增加2级[Burst]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -381,7 +381,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "还需更进一步",
+          "name": "還需更進一步",
           "desc": "[WhenUse] 目标每带有4级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 目标每带有2层[Burst]，使本技能的拼点威力+1(最多+3)\n[WinDuel] 使目标增加2级[Burst]强度并对其施加2层[Burst]",
           "coinlist": [
             {
@@ -530,7 +530,7 @@
         {
           "level": 1,
           "name": "刻咒杀剑-瞬步",
-          "desc": "优先指定带有[BurstAgility]的目标\n[StartBattle] 使自身获得1层[SupportProtect]\n自身与目标的速度值每相差2点，使本技能造成的伤害+15%(最多+60%)\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 目标每带有2层[Burst]，使本技能的基础威力+1(最多+3)\n[WinDuel] 对目标施加2层[Burst]",
+          "desc": "优先指定带有[BurstAgility]的目标\n[StartBattle] 使自身获得1层[SupportProtect]\n自身与目标的速度値每相差2点，使本技能造成的伤害+15%(最多+60%)\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 目标每带有2层[Burst]，使本技能的基础威力+1(最多+3)\n[WinDuel] 对目标施加2层[Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -578,7 +578,7 @@
         {
           "level": 1,
           "name": "刻咒",
-          "desc": "[WhenUse] 若自身的速度值高于目标至少3点，则使本技能的拼点威力+1\n[WhenUse] 若目标带有[BurstAgility]，则令本技能施加的[Burst]层数额外+1层",
+          "desc": "[WhenUse] 若自身的速度値高于目标至少3点，则使本技能的拼点威力+1\n[WhenUse] 若目标带有[BurstAgility]，则令本技能施加的[Burst]层数額外+1层",
           "coinlist": [
             {
               "coindescs": [
@@ -611,7 +611,7 @@
         {
           "level": 1,
           "name": "禁制部分解放:<天究星刀>",
-          "desc": "自身的速度值与目标每相差2点，使本技能造成的伤害+20%(最多+60%)\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+3)\n[WhenUse] 目标每带有2层[Burst]，使本技能的拼点威力+1(最多+3)",
+          "desc": "自身的速度値与目标每相差2点，使本技能造成的伤害+20%(最多+60%)\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+3)\n[WhenUse] 目标每带有2层[Burst]，使本技能的拼点威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -652,7 +652,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "再问你一次",
+          "name": "再問你一次",
           "desc": "[WhenUse] 若目标的[Burst]强度不低于5级，则使本技能的拼点威力+1\n[WinDuel] 对目标施加2层[Burst]",
           "coinlist": [
             {
@@ -733,7 +733,7 @@
         {
           "level": 1,
           "name": "雷霆万钧-波",
-          "desc": "优先指定带有的咒杀种类最多的目标\n[WhenUse] 主要目标每带有2级[Burst]强度，使本技能的硬币威力+1(最多+4)",
+          "desc": "优先指定带有的咒杀种類最多的目标\n[WhenUse] 主要目标每带有2级[Burst]强度，使本技能的硬币威力+1(最多+4)",
           "coinlist": [
             {
               "coindescs": [
@@ -754,8 +754,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "黑兽 - 卯 联合-乱击",
-          "desc": "[WhenUse] 使自身恢复10点理智值\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WinDuel] 使目标增加2级[Burst]强度",
+          "name": "黒獣 - 卯 联合-乱击",
+          "desc": "[WhenUse] 使自身恢复10点理智値\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WinDuel] 使目标增加2级[Burst]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -807,7 +807,7 @@
         {
           "level": 1,
           "name": "子路啊",
-          "desc": "[WhenUse] 使自身恢复10点理智值\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WinDuel] 使目标增加2级[Burst]强度",
+          "desc": "[WhenUse] 使自身恢复10点理智値\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WinDuel] 使目标增加2级[Burst]强度",
           "coinlist": [
             {
               "coindescs": [
@@ -859,7 +859,7 @@
         {
           "level": 1,
           "name": "咒杀泛滥",
-          "desc": "[CantChangeTarget]\n优先指定带有的咒杀种类最多的目标\n[WhenUse] 目标每带有1种咒杀，使本技能的硬币威力+1(最多+3)",
+          "desc": "[CantChangeTarget]\n优先指定带有的咒杀种類最多的目标\n[WhenUse] 目标每带有1种咒杀，使本技能的硬币威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -867,7 +867,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "目标的[Burst]强度，[Burst]层数与咒杀种类之和每有1点，使本硬币造成的伤害+5%(最多+200%)\n[OnSucceedAttack] 使目标的所有咒杀降至0层"
+                  "desc": "目标的[Burst]强度，[Burst]层数与咒杀种類之和每有1点，使本硬币造成的伤害+5%(最多+200%)\n[OnSucceedAttack] 使目标的所有咒杀降至0层"
                 }
               ]
             }
@@ -880,8 +880,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "回答我，贾宝玉",
-          "desc": "[CantChangeTarget]\n优先指定鸿璐\n[WinDuel] 对目标施加4层[Burst]\n[DefeatDuel] 若目标为鸿璐，则使其获得1层[Teaching]",
+          "name": "回答我，賈宝玉",
+          "desc": "[CantChangeTarget]\n优先指定鸿璐\n[WinDuel] 对目标施加4层[Burst]\n[DefeatDuel] 若目标為鸿璐，则使其获得1层[Teaching]",
           "coinlist": [
             {
               "coindescs": [
@@ -933,7 +933,7 @@
         {
           "level": 1,
           "name": "天罡星-格",
-          "desc": "优先指定鸿璐\n目标每带有1层[Teaching]，使本技能的硬币威力-2\n[DefeatDuel] 本技能攻击不会使目标陷入混乱。本场战斗期间对自身施加24层[DefenseDown]\n[DefeatDuel] 使本技能造成的伤害-50%",
+          "desc": "优先指定鸿璐\n目标每带有1层[Teaching]，使本技能的硬币威力-2\n[DefeatDuel] 本技能攻击不会使目标陥入混乱。本场战斗期間对自身施加24层[DefenseDown]\n[DefeatDuel] 使本技能造成的伤害-50%",
           "coinlist": [
             {
               "coindescs": [
@@ -985,7 +985,7 @@
         {
           "level": 1,
           "name": "懦弱之人…",
-          "desc": "[StartBattle] 使速度值最高的1名友方单位获得2层[AttackDmgUp]",
+          "desc": "[StartBattle] 使速度値最高的1名友方単位获得2层[AttackDmgUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -1011,7 +1011,7 @@
         {
           "level": 1,
           "name": "愚钝之人…",
-          "desc": "[StartBattle] 使速度值最低的1名友方单位在下回合获得2层[Agility]",
+          "desc": "[StartBattle] 使速度値最低的1名友方単位在下回合获得2层[Agility]",
           "coinlist": [
             {
               "coindescs": [
@@ -1037,7 +1037,7 @@
         {
           "level": 1,
           "name": "我要杀了你！",
-          "desc": "[WhenUse] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1\n[WhenUse] 目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[DefeatDuel] 对自身施加1层[Vulnerable]",
+          "desc": "[WhenUse] 若目标带有的負面状态不少于3种，则使本技能的基础威力+1\n[WhenUse] 目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[DefeatDuel] 对自身施加1层[Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
@@ -1074,8 +1074,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "飞扑吧！！",
-          "desc": "[WhenUse] 使自身恢复15点理智值\n[WhenUse] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1\n[EndSkill] 使现存体力最低的1口瓮对目标使用技能“飞扑而来的破瓮”",
+          "name": "飛扑吧！！",
+          "desc": "[WhenUse] 使自身恢复15点理智値\n[WhenUse] 若目标带有的負面状态不少于3种，则使本技能的基础威力+1\n[EndSkill] 使现存体力最低的1口瓮对目标使用技能“飛扑而来的破瓮”",
           "coinlist": [
             {
               "coindescs": [
@@ -1099,8 +1099,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "来好好欣赏这出好戏吧？",
-          "desc": "[StartBattle] 下回合召唤2口瓮\n[WhenUse] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1",
+          "name": "来好好欣賞這出好戏吧？",
+          "desc": "[StartBattle] 下回合召唤2口瓮\n[WhenUse] 若目标带有的負面状态不少于3种，则使本技能的基础威力+1",
           "coinlist": [
             {
               "coindescs": [
@@ -1201,7 +1201,7 @@
         {
           "level": 1,
           "name": "符灵术-邪气暴走",
-          "desc": "[StartBattle] 自身每失去20%的体力，使本技能的攻击容量+1(最多+4)\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的最终威力+1(最多+4)\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害或效果不会使目标陷入混乱\n[EndSkill] 若本技能击杀了敌方单位，则下回合使包括自身在内的全体友方单位获得2层[ResultEnhancement]与2层[AttackDmgUp](每回合最多1次)",
+          "desc": "[StartBattle] 自身每失去20%的体力，使本技能的攻击容量+1(最多+4)\n[WhenUse] 目标每带有4级[Burst]强度，使本技能的最终威力+1(最多+4)\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能造成的伤害或效果不会使目标陥入混乱\n[EndSkill] 若本技能击杀了敌方単位，则下回合使包括自身在内的全体友方単位获得2层[ResultEnhancement]与2层[AttackDmgUp](每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -1249,7 +1249,7 @@
         {
           "level": 1,
           "name": "接着！",
-          "desc": "[WhenUse] 目标每带有2种负面状态，使本技能的硬币威力+1(最多+2)",
+          "desc": "[WhenUse] 目标每带有2种負面状态，使本技能的硬币威力+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1281,7 +1281,7 @@
         {
           "level": 1,
           "name": "跪下！",
-          "desc": "[CantIdentify]\n[WhenUse] 目标每带有2种负面状态，使本技能的硬币威力+1(最多+2)",
+          "desc": "[CantIdentify]\n[WhenUse] 目标每带有2种負面状态，使本技能的硬币威力+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1319,7 +1319,7 @@
         {
           "level": 1,
           "name": "瞧你那蠢样！",
-          "desc": "[WhenUse] 目标每带有2种负面状态，使本技能的硬币威力+1(最多+2)",
+          "desc": "[WhenUse] 目标每带有2种負面状态，使本技能的硬币威力+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1334,10 +1334,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Burst]1次。使目标的[Burst]层数减少1层"
+                  "desc": "[OnSucceedAttack] 触发目标的[Burst]1次。使目标的[Burst]层数減少1层"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 根据目标的[MadFeather]层数，使其增加相应的[Laceration]强度与[Burst]强度"
+                  "desc": "[OnSucceedAttack] 根据目标的[MadFeather]层数，使其增加相応的[Laceration]强度与[Burst]强度"
                 }
               ]
             }
@@ -1351,7 +1351,7 @@
         {
           "level": 1,
           "name": "给余行礼！",
-          "desc": "[WideAreaRampage]\n[WhenUse] 消耗自身体力上限3%的体力(不会因该伤害而阵亡)",
+          "desc": "[WideAreaRampage]\n[WhenUse] 消耗自身体力上限3%的体力(不会因該伤害而陣亡)",
           "coinlist": [
             {
               "coindescs": [
@@ -1411,7 +1411,7 @@
         {
           "level": 1,
           "name": "叩首！",
-          "desc": "[CantIdentify]\n[WhenUse] 消耗自身体力上限5%的体力(不会因该伤害而阵亡)",
+          "desc": "[CantIdentify]\n[WhenUse] 消耗自身体力上限5%的体力(不会因該伤害而陣亡)",
           "coinlist": [
             {
               "coindescs": [
@@ -1426,7 +1426,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 触发目标的[Burst]2次。使目标的[Burst]层数减少2层"
+                  "desc": "[OnSucceedAttack] 触发目标的[Burst]2次。使目标的[Burst]层数減少2层"
                 }
               ]
             }
@@ -1523,7 +1523,7 @@
         {
           "level": 1,
           "name": "充刀流-碎斩",
-          "desc": "[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+2)\n[WhenUse] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度额外+2\n[WhenUse] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]\n[WhenUse] 若自身的[Charge]层数在5~9层之间，则使自身增加2×(13-现存[Charge]层数)级[Burst]强度并使自身获得至10层[Charge]\n[DefeatDuel] 使本技能造成的伤害-75%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+2)\n[WhenUse] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度額外+2\n[WhenUse] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]\n[WhenUse] 若自身的[Charge]层数在5~9层之間，则使自身增加2×(13-现存[Charge]层数)级[Burst]强度并使自身获得至10层[Charge]\n[DefeatDuel] 使本技能造成的伤害-75%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1557,7 +1557,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 对目标造成相当于其[Burst]强度的暴食伤害，并使其[Burst]层数减少1层(最多30点)"
+                  "desc": "[OnSucceedAttack] 对目标造成相当于其[Burst]强度的暴食伤害，并使其[Burst]层数減少1层(最多30点)"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使用本技能时每消耗了5层[Charge]，对目标施加2层[Burst](最多4层)"
@@ -1622,7 +1622,7 @@
         {
           "level": 1,
           "name": "充拳流-挥击",
-          "desc": "[WhenUse] 目标每带有5级[Burst]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] 消耗自身的5层[Charge]并使本技能的最终威力+1\n[WhenUse] 若自身的[Charge]层数在5~9层之间，则使自身增加2×(13-现存[Charge]层数)级[Burst]强度并使自身获得至10层[Charge](每回合最多1次)\n[WhenUse] 使自身获得5层[Charge]",
+          "desc": "[WhenUse] 目标每带有5级[Burst]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] 消耗自身的5层[Charge]并使本技能的最终威力+1\n[WhenUse] 若自身的[Charge]层数在5~9层之間，则使自身增加2×(13-现存[Charge]层数)级[Burst]强度并使自身获得至10层[Charge](每回合最多1次)\n[WhenUse] 使自身获得5层[Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1651,7 +1651,7 @@
         {
           "level": 1,
           "name": "充拳流-摧毁",
-          "desc": "[WhenUse] 目标每带有6级[Burst]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+3)\n[WhenUse] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度额外+2级\n[WhenUse] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱 ",
+          "desc": "[WhenUse] 目标每带有6级[Burst]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] 消耗5层[Charge]并使本技能的硬币威力+1(最多+3)\n[WhenUse] 若本技能消耗的[Charge]层数不低于5层，则使本技能增加的[Burst]强度額外+2级\n[WhenUse] 若本技能消耗了10层[Charge]，则对目标施加3层[Burst]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1728,7 +1728,7 @@
         {
           "level": 1,
           "name": "超速侍卫",
-          "desc": "[CanDuelGuard]\n[BeforeUse] 若自身的[SupportProtect]层数不低于2层，则改为使用“黑兽 - 卯 奥义-云解显现”\n[WhenUse] 本场战斗自身每累计失去体力上限5%的体力，使本技能的防御等级+1(最多+10)\n[WhenUse] 直到本技能结束，自身不会陷入混乱",
+          "desc": "[CanDuelGuard]\n[BeforeUse] 若自身的[SupportProtect]层数不低于2层，则改為使用“黒獣 - 卯 奥义-雲解顕现”\n[WhenUse] 本场战斗自身每累計失去体力上限5%的体力，使本技能的防御等级+1(最多+10)\n[WhenUse] 直到本技能结束，自身不会陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -1746,8 +1746,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "黑兽 - 卯 奥义-云解显现",
-          "desc": "自身的速度值与目标每相差2点，使本技能造成的伤害+20%(最多+60%)\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+3)\n[WhenUse] 目标每带有2层[Burst]，使本技能的拼点威力+1(最多+3)",
+          "name": "黒獣 - 卯 奥义-雲解顕现",
+          "desc": "自身的速度値与目标每相差2点，使本技能造成的伤害+20%(最多+60%)\n[WhenUse] 目标每带有5级[Burst]强度，使本技能的硬币威力+1(最多+3)\n[WhenUse] 目标每带有2层[Burst]，使本技能的拼点威力+1(最多+3)",
           "coinlist": [
             {
               "coindescs": [
@@ -1788,8 +1788,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "风卷残云",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n本技能攻击鸿璐以外的目标\n下回合使用黑兽 - 卯使除鸿璐以外的全体人格陷入混乱，并解除自身的混乱\n[EndSkill] 结束本回合",
+          "name": "風巻残雲",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n本技能攻击鸿璐以外的目标\n下回合使用黒獣 - 卯使除鸿璐以外的全体人格陥入混乱，并解除自身的混乱\n[EndSkill] 结束本回合",
           "coinlist": [
             {
               "coindescs": [

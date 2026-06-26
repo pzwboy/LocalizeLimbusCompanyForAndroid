@@ -52,7 +52,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 }
               ]
             }
@@ -78,7 +78,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "镇压",
+          "name": "镇圧",
           "desc": "[WhenUse] 若目标的[Vibration]强度不低于4级，则使本技能的基础威力+2",
           "coinlist": [
             {
@@ -111,7 +111,7 @@
         {
           "level": 1,
           "name": "防护",
-          "desc": "[WinDuel] 下回合随机使2名友方单位获得1层[ResultEnhancement]",
+          "desc": "[WinDuel] 下回合随机使2名友方単位获得1层[ResultEnhancement]",
           "coinlist": [
             {}
           ]
@@ -124,7 +124,7 @@
         {
           "level": 1,
           "name": "掩护",
-          "desc": "[WhenUse] 下回合随机使除自身以外的2名友方单位获得2层[Protection]",
+          "desc": "[WhenUse] 下回合随机使除自身以外的2名友方単位获得2层[Protection]",
           "coinlist": [
             {
               "coindescs": [
@@ -161,7 +161,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "镇压",
+          "name": "镇圧",
           "desc": "[WhenUse] 目标每带有3级[Burst]强度，使本技能的硬币威力+1(最多+2)",
           "coinlist": [
             {
@@ -271,7 +271,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "若第1枚硬币的朝向为正面，则使本硬币造成的伤害+10%"
+                  "desc": "若第1枚硬币的朝向為正面，则使本硬币造成的伤害+10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加2级[Burst]强度"
@@ -281,7 +281,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "若第2枚硬币的朝向为正面，则使本硬币造成的伤害+10%"
+                  "desc": "若第2枚硬币的朝向為正面，则使本硬币造成的伤害+10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加2级[Burst]强度"
@@ -291,7 +291,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "若第2和第3枚硬币的朝向为正面，则使本硬币造成的伤害+30%"
+                  "desc": "若第2和第3枚硬币的朝向為正面，则使本硬币造成的伤害+30%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 对目标造成(其[Burst]强度×其[Burst]层数)点体力伤害，并消耗其所有[Burst]"
@@ -308,7 +308,7 @@
         {
           "level": 1,
           "name": "叽",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -327,7 +327,7 @@
         {
           "level": 1,
           "name": "叽伊",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -366,7 +366,7 @@
         {
           "level": 1,
           "name": "叽伊",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -385,7 +385,7 @@
         {
           "level": 1,
           "name": "叽伊伊伊",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -424,7 +424,7 @@
         {
           "level": 1,
           "name": "叽叽！",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -443,7 +443,7 @@
         {
           "level": 1,
           "name": "叽伊！",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -482,7 +482,7 @@
         {
           "level": 1,
           "name": "叽叽叽叽",
-          "desc": "若目标在上回合未受到伤害，则使本技能的硬币威力+1\n[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "若目标在上回合未受到伤害，则使本技能的硬币威力+1\n[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -504,7 +504,7 @@
         {
           "level": 1,
           "name": "叽叽叽叽",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -526,15 +526,15 @@
         {
           "level": 1,
           "name": "叽伊叽叽",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)\n[WhenUse] 使自身获得2层[Protection]\n[WinDuel] 使目标增加5级[Vibration]强度",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)\n[WhenUse] 使自身获得2层[Protection]\n[WinDuel] 使目标增加5级[Vibration]强度",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数減少1层"
                 },
                 {
-                  "desc": "- 触发[VibrationExplosion]时，随机使目标增加10级某一种随机效果的强度，该效果可能为[Laceration]、[Vibration]或[Burst]"
+                  "desc": "- 触发[VibrationExplosion]时，随机使目标增加10级某一种随机效果的强度，該效果可能為[Laceration]、[Vibration]或[Burst]"
                 }
               ]
             }
@@ -561,7 +561,7 @@
         {
           "level": 1,
           "name": "突击",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -594,7 +594,7 @@
         {
           "level": 1,
           "name": "目标失能",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -640,7 +640,7 @@
         {
           "level": 1,
           "name": "防护",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)\n[WhenUse] 下回合随机使2名友方单位获得2层[Protection]",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)\n[WhenUse] 下回合随机使2名友方単位获得2层[Protection]",
           "coinlist": [
             {
               "coindescs": [
@@ -659,7 +659,7 @@
         {
           "level": 1,
           "name": "阻截",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -685,7 +685,7 @@
         {
           "level": 1,
           "name": "掩护",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)\n[WinDuel] 随机使除自身以外的1名友方单位在下回合获得1层[AmberDamageUp]与1层[ShamrockDamageUp]",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)\n[WinDuel] 随机使除自身以外的1名友方単位在下回合获得1层[AmberDamageUp]与1层[ShamrockDamageUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -704,7 +704,7 @@
         {
           "level": 1,
           "name": "禁止入内",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -722,8 +722,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "镇压",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "name": "镇圧",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -749,7 +749,7 @@
         {
           "level": 1,
           "name": "禁止通行",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)\n[DefeatDuel] 使自身恢复已失去体力5%的体力(最多100点；每回合最多1次)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)\n[DefeatDuel] 使自身恢复已失去体力5%的体力(最多100点；每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -761,7 +761,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标造成相当于其[Sinking]强度的忧郁伤害并使其[Sinking]层数减少1层"
+                  "desc": "[OnSucceedAttack] 对目标造成相当于其[Sinking]强度的忧鬱伤害并使其[Sinking]层数減少1层"
                 }
               ]
             }
@@ -775,7 +775,7 @@
         {
           "level": 1,
           "name": "发现可疑目标",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -794,7 +794,7 @@
         {
           "level": 1,
           "name": "制服",
-          "desc": "[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)",
+          "desc": "[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)",
           "coinlist": [
             {
               "coindescs": [
@@ -820,7 +820,7 @@
         {
           "level": 1,
           "name": "拦截可疑目标",
-          "desc": "优先指定[Sinking]强度最高的目标\n[WhenUse] 若目标带有[Sinking]，则使本技能的基础威力+2\n[WhenUse] 目标每带有1种负面状态，使本技能的拼点威力+2(最多+6)\n[DefeatDuel] 使自身恢复已失去体力5%的体力(最多100点；每回合最多1次)",
+          "desc": "优先指定[Sinking]强度最高的目标\n[WhenUse] 若目标带有[Sinking]，则使本技能的基础威力+2\n[WhenUse] 目标每带有1种負面状态，使本技能的拼点威力+2(最多+6)\n[DefeatDuel] 使自身恢复已失去体力5%的体力(最多100点；每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -832,7 +832,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "若第1枚硬币的朝向为正面，则使本硬币造成的伤害+10%"
+                  "desc": "若第1枚硬币的朝向為正面，则使本硬币造成的伤害+10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加5级[Sinking]强度"
@@ -842,7 +842,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "若第2枚硬币的朝向为正面，则使本硬币造成的伤害+10%"
+                  "desc": "若第2枚硬币的朝向為正面，则使本硬币造成的伤害+10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标增加5级[Sinking]强度"
@@ -852,10 +852,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "若第2和第3枚硬币的朝向为正面，则使本硬币造成的伤害+30%"
+                  "desc": "若第2和第3枚硬币的朝向為正面，则使本硬币造成的伤害+30%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 对目标造成(其[Sinking]强度×其[Sinking]层数)点忧郁伤害并使其[Sinking]层数减少1层"
+                  "desc": "[OnSucceedAttack] 对目标造成(其[Sinking]强度×其[Sinking]层数)点忧鬱伤害并使其[Sinking]层数減少1层"
                 }
               ]
             }

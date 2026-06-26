@@ -44,7 +44,7 @@
         {
           "level": 1,
           "name": "点燃",
-          "desc": "[WhenUse] 对目标施加2层[Combustion]\n[WinDuel] 使目标增加相当于其[Combustion]强度的[Combustion]强度\n[DefeatDuel] 触发以下效果\n- 使本技能造成的伤害不会使目标陷入混乱\n- 若本技能为暴怒技能，则解除目标的[Combustion]\n- 令本技能增加的[Combustion]强度与施加的[Combustion]层数减半",
+          "desc": "[WhenUse] 对目标施加2层[Combustion]\n[WinDuel] 使目标增加相当于其[Combustion]强度的[Combustion]强度\n[DefeatDuel] 触发以下效果\n- 使本技能造成的伤害不会使目标陥入混乱\n- 若本技能為暴怒技能，则解除目标的[Combustion]\n- 令本技能增加的[Combustion]强度与施加的[Combustion]层数減半",
           "coinlist": [
             {
               "coindescs": [
@@ -84,20 +84,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，对目标施加相应层数的[Combustion]"
+                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，对目标施加相応层数的[Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 根据红焰蛾本回合使用的暴怒技能数，对速度值最低的1名敌方单位施加相应层数的[Combustion]"
+                  "desc": "[OnSucceedAttackHead] 根据红焰蛾本回合使用的暴怒技能数，对速度値最低的1名敌方単位施加相応层数的[Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相应的[Combustion]强度"
+                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相応的[Combustion]强度"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 根据红焰蛾本回合使用的暴怒技能数，使速度值最低的1名敌方单位增加相应的[Combustion]强度"
+                  "desc": "[OnSucceedAttackHead] 根据红焰蛾本回合使用的暴怒技能数，使速度値最低的1名敌方単位增加相応的[Combustion]强度"
                 }
               ]
             }
@@ -110,8 +110,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "红艳煞",
-          "desc": "使本技能的拼点威力+(红焰蛾本回合使用的暴怒技能数×2)\n[WhenUse] 使全体敌方单位增加(红焰蛾本回合使用的暴怒技能数×2)级[Combustion]强度\n[DefeatDuel] 触发以下效果\n- 使本攻击技能造成的伤害变为0点\n- 解除全体目标的[Combustion]\n- 令本技能增加的[Combustion]强度与施加的[Combustion]层数减半",
+          "name": "红艶煞",
+          "desc": "使本技能的拼点威力+(红焰蛾本回合使用的暴怒技能数×2)\n[WhenUse] 使全体敌方単位增加(红焰蛾本回合使用的暴怒技能数×2)级[Combustion]强度\n[DefeatDuel] 触发以下效果\n- 使本攻击技能造成的伤害变為0点\n- 解除全体目标的[Combustion]\n- 令本技能增加的[Combustion]强度与施加的[Combustion]层数減半",
           "coinlist": [
             {
               "coindescs": [
@@ -119,10 +119,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相应的[Combustion]强度"
+                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相応的[Combustion]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使速度值最低的1名敌方单位增加相应的[Combustion]强度并对该敌方单位施加相应层数的[Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使速度値最低的1名敌方単位增加相応的[Combustion]强度并对該敌方単位施加相応层数的[Combustion]"
                 }
               ]
             },
@@ -132,10 +132,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相应的[Combustion]强度"
+                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相応的[Combustion]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使速度值最低的1名敌方单位增加相应的[Combustion]强度并对该敌方单位施加相应层数的[Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使速度値最低的1名敌方単位增加相応的[Combustion]强度并对該敌方単位施加相応层数的[Combustion]"
                 }
               ]
             },
@@ -145,10 +145,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标的混乱阈值前移本硬币伤害量的70%"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标的混乱閾値前移本硬币伤害量的70%"
                 },
                 {
-                  "desc": "- 使因该效果而陷入混乱的敌方单位增加10级[Combustion]强度"
+                  "desc": "- 使因該效果而陥入混乱的敌方単位增加10级[Combustion]强度"
                 }
               ]
             }
@@ -175,7 +175,7 @@
         {
           "level": 1,
           "name": "点燃火种",
-          "desc": "[CantDuel] [CantChangeTarget]\n本攻击技能造成的伤害为0点",
+          "desc": "[CantDuel] [CantChangeTarget]\n本攻击技能造成的伤害為0点",
           "coinlist": [
             {},
             {},
@@ -240,7 +240,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "紧紧蜷缩",
+          "name": "緊緊蜷缩",
           "desc": "[StartBattle] 使自身获得3层[SelfCharge]\n[WhenUse] 若自身的[SelfCharge]层数不低于5层，则使本技能的基础威力+2\n[DefeatDuel] 消耗1层[SelfCharge]",
           "coinlist": [
             {
@@ -265,7 +265,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "电流注入",
+          "name": "電流注入",
           "desc": "[StartBattle] 使自身获得1层[SelfCharge]\n[WhenUse] 若自身的[SelfCharge]层数不低于5层，则使本技能的硬币威力+1\n若目标带有[Paralysis]，则使本技能造成的伤害+30%\n[DefeatDuel] 消耗2层[SelfCharge]",
           "coinlist": [
             {
@@ -291,7 +291,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "电力释出",
+          "name": "電力释出",
           "desc": "[StartBattle] 使自身获得1层[SelfCharge]\n[WhenUse] 若自身的[SelfCharge]层数不低于5层，则使本技能的硬币威力+1\n若目标带有[Paralysis]，则使本技能造成的伤害+30%\n[DefeatDuel] 消耗3层[SelfCharge]",
           "coinlist": [
             {
@@ -324,7 +324,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "电力释放",
+          "name": "電力释放",
           "desc": "[StartBattle] 使自身获得1层[SelfCharge]\n若目标带有[Paralysis]，则使本技能造成的伤害+30%",
           "coinlist": [
             {
@@ -350,8 +350,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "超高压电力释放",
-          "desc": "若自身的[SelfCharge]层数高于7层，则每超过1层，使本技能造成的伤害+10%(最多+120%)\n[WhenUse] 消耗自身所有[SelfCharge]，若消耗的[SelfCharge]层数不低于10层，则使本技能的拼点威力+5\n[DefeatDuel] 使本攻击技能造成的伤害变为0点",
+          "name": "超高圧電力释放",
+          "desc": "若自身的[SelfCharge]层数高于7层，则每超過1层，使本技能造成的伤害+10%(最多+120%)\n[WhenUse] 消耗自身所有[SelfCharge]，若消耗的[SelfCharge]层数不低于10层，则使本技能的拼点威力+5\n[DefeatDuel] 使本攻击技能造成的伤害变為0点",
           "coinlist": [
             {
               "coindescs": [
@@ -402,7 +402,7 @@
         {
           "level": 1,
           "name": "蠕动的头",
-          "desc": "优先指定体力最低的敌方单位\n若目标带有[Paralysis]，使本技能造成的伤害+50%\n<color=#ff6000><mark color=#ff000040><b><u>若目标使用了守备技能，使本技能造成的伤害-100%</u></b></mark></color>\n自身每带有1层[SelfCharge]，使本技能的基础威力+1\n[WhenUse] 消耗1层[SelfCharge]\n[EndSkill] 若本技能进行单方面攻击，则消耗1层[SelfCharge]\n- 若攻击目标使用了守备技能，则额外消耗1层[SelfCharge]",
+          "desc": "优先指定体力最低的敌方単位\n若目标带有[Paralysis]，使本技能造成的伤害+50%\n<color=#ff6000><mark color=#ff000040><b><u>若目标使用了守备技能，则使本技能造成的伤害-100%</u></b></mark></color>\n自身每带有1层[SelfCharge]，使本技能的基础威力+1\n[WhenUse] 消耗1层[SelfCharge]\n[EndSkill] 若本技能進行単方面攻击，则消耗1层[SelfCharge]\n- 若攻击目标使用了守备技能，则額外消耗1层[SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -428,7 +428,7 @@
         {
           "level": 1,
           "name": "蠕动的尾",
-          "desc": "优先指定体力最低的敌方单位\n若目标带有[Paralysis]，使本技能造成的伤害+50%\n<color=#ff6000><mark color=#ff000040><b><u>若目标使用了守备技能，使本技能造成的伤害-100%</u></b></mark></color>\n自身每带有1层[SelfCharge]，使本技能的基础威力+1\n[WhenUse] 消耗1层[SelfCharge]\n[EndSkill] 若本技能进行单方面攻击，则消耗1层[SelfCharge]\n- 若攻击目标使用了守备技能，则额外消耗1层[SelfCharge]",
+          "desc": "优先指定体力最低的敌方単位\n若目标带有[Paralysis]，使本技能造成的伤害+50%\n<color=#ff6000><mark color=#ff000040><b><u>若目标使用了守备技能，则使本技能造成的伤害-100%</u></b></mark></color>\n自身每带有1层[SelfCharge]，使本技能的基础威力+1\n[WhenUse] 消耗1层[SelfCharge]\n[EndSkill] 若本技能進行単方面攻击，则消耗1层[SelfCharge]\n- 若攻击目标使用了守备技能，则額外消耗1层[SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -460,7 +460,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "二连",
+          "name": "二連",
           "desc": "[WhenUse] 使自身获得2层[Breath]",
           "coinlist": [
             {
@@ -486,7 +486,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "三连",
+          "name": "三連",
           "desc": "[WhenUse] 使自身获得3层[Breath]",
           "coinlist": [
             {
@@ -551,7 +551,7 @@
         {
           "level": 1,
           "name": "无形斩",
-          "desc": "[WideAreaRampage]\n可无视速度值与本技能拼点，直到本技能结束时，自身不会陷入混乱\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "desc": "[WideAreaRampage]\n可无視速度値与本技能拼点，直到本技能结束时，自身不会陥入混乱\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱",
           "coinlist": [
             {
               "coindescs": [
@@ -581,8 +581,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "空间斩",
-          "desc": "可无视速度值与本技能拼点，直到本技能结束时，自身不会陷入混乱\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱\n[EndSkill] 结束本回合",
+          "name": "空間斩",
+          "desc": "可无視速度値与本技能拼点，直到本技能结束时，自身不会陥入混乱\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱\n[EndSkill] 结束本回合",
           "coinlist": [
             {
               "coindescs": [
@@ -607,7 +607,7 @@
         {
           "level": 1,
           "name": "残像步",
-          "desc": "[DefeatDuel]<color=#ff6000><mark=#ff000040><b><u>使目标的[PhantomIncision]层数减半</u></b></mark></color>(向下取整)",
+          "desc": "[DefeatDuel]<color=#ff6000><mark=#ff000040><b><u>使目标的[PhantomIncision]层数減半</u></b></mark></color>(向下取整)",
           "coinlist": [
             {
               "coindescs": [
@@ -625,8 +625,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "观望",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] 对自身施加2层[Reduction]</u></b></mark></color>\n[DefeatDuel] 使目标恢复5点理智值",
+          "name": "観望",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] 对自身施加2层[Reduction]</u></b></mark></color>\n[DefeatDuel] 使目标恢复5点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -670,9 +670,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "空间斩-缘",
-          "desc": "[WhenUse] 若自身的理智值不低于10点，则生成1层望并使本技能的最终威力+5\n可无视速度值与本技能拼点，直到本技能使用时，自身不会陷入混乱\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱\n[EndSkill] 若本技能生成了望，则使自身失去10点理智值\n[EndSkill] 结束本回合",
-          "flavor": "斩断空间的技艺。空间斩。斩断空间是剑士们长久的夙愿，他们通过各种方式到达了那个境界。",
+          "name": "空間斩-缘",
+          "desc": "[WhenUse] 若自身的理智値不低于10点，则生成1层望并使本技能的最终威力+5\n可无視速度値与本技能拼点，直到本技能使用时，自身不会陥入混乱\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陥入混乱\n[EndSkill] 若本技能生成了望，则使自身失去10点理智値\n[EndSkill] 结束本回合",
+          "flavor": "斩断空間的技芸。空間斩。斩断空間是剑士们长久的夙願，他们通過各种方式到達了那个境界。",
           "coinlist": [
             {
               "coindescs": [
@@ -725,8 +725,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "啊，请保持安静",
-          "desc": "自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的最终威力+1(最多+2)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u> 若自身带有[PressureOfPrescript]，或目标带有[IndexPrescriptTargetToPersonality]</u></b></mark></color>，则使本技能的最后一枚硬币转化为[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能命中时不会使目标陷入混乱或触发目标的[Sinking]\n[WhenUse] 使自身获得2层[Breath]",
+          "name": "啊，請保持安静",
+          "desc": "自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的最终威力+1(最多+2)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u> 若自身带有[PressureOfPrescript]，或目标带有[IndexPrescriptTargetToPersonality]</u></b></mark></color>，则使本技能的最後一枚硬币転化為[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能命中时不会使目标陥入混乱或触发目标的[Sinking]\n[WhenUse] 使自身获得2层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -759,7 +759,7 @@
         {
           "level": 1,
           "name": "立、立刻执行指令…",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>若自身的[PressureOfPrescript]层数不低于2层，则使本技能无法改变目标</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>本技能不会触发目标的守备技能</u></b></mark></color>\n自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的最终威力+1(最多+3)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u> 若自身带有[PressureOfPrescript]，或目标带有[IndexPrescriptTargetToPersonality]</u></b></mark></color>，则使本技能的所有硬币转化为[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能命中时不会使目标陷入混乱或触发目标的[Sinking]\n[WhenUse] 使自身增加2级[Breath]强度并使自身获得2层[Breath]",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>若自身的[PressureOfPrescript]层数不低于2层，则使本技能无法改变目标</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>本技能不会触发目标的守备技能</u></b></mark></color>\n自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的最终威力+1(最多+3)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u> 若自身带有[PressureOfPrescript]，或目标带有[IndexPrescriptTargetToPersonality]</u></b></mark></color>，则使本技能的所有硬币転化為[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能命中时不会使目标陥入混乱或触发目标的[Sinking]\n[WhenUse] 使自身增加2级[Breath]强度并使自身获得2层[Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -790,8 +790,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "请老老实实地被粉碎吧",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>可无视速度值与本技能拼点</u></b></mark></color>\n[DefeatDuel] 对自身施加3层[ResultReduction]与4层[Paralysis]\n[DefeatDuel] 使本技能造成的伤害-90%，且本技能命中时不会使目标陷入混乱或触发目标的[Sinking]\n[EndSkill] 消耗所有[PressureOfPrescript]",
+          "name": "請老老实实地被粉碎吧",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>可无視速度値与本技能拼点</u></b></mark></color>\n[DefeatDuel] 对自身施加3层[ResultReduction]与4层[Paralysis]\n[DefeatDuel] 使本技能造成的伤害-90%，且本技能命中时不会使目标陥入混乱或触发目标的[Sinking]\n[EndSkill] 消耗所有[PressureOfPrescript]",
           "coinlist": [
             {
               "coindescs": [
@@ -842,8 +842,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "用这双手代替…",
-          "desc": "自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的最终威力+1(最多+2)\n[WhenUse] 使自身获得2层[Breath]\n[EndSkill] 使自身失去3点理智值",
+          "name": "用這双手代替…",
+          "desc": "自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的最终威力+1(最多+2)\n[WhenUse] 使自身获得2层[Breath]\n[EndSkill] 使自身失去3点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -868,8 +868,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "挖开、挖开吧",
-          "desc": "自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的最终威力+1(最多+2)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u> 若自身带有[PressureOfPrescript]，或目标带有[IndexPrescriptTargetToPersonality]</u></b></mark></color>，则使本技能的最后一枚硬币转化为[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能命中时不会使目标陷入混乱或触发目标的[Sinking]\n[WhenUse] 使自身获得2层[Breath]\n[EndSkill] 使自身失去3点理智值",
+          "name": "挖開、挖開吧",
+          "desc": "自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的最终威力+1(最多+2)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u> 若自身带有[PressureOfPrescript]，或目标带有[IndexPrescriptTargetToPersonality]</u></b></mark></color>，则使本技能的最後一枚硬币転化為[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害-50%，且本技能命中时不会使目标陥入混乱或触发目标的[Sinking]\n[WhenUse] 使自身获得2层[Breath]\n[EndSkill] 使自身失去3点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -902,7 +902,7 @@
         {
           "level": 1,
           "name": "代行：铭刻",
-          "desc": "自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的硬币威力+1(最多+2)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u> 若自身带有[PressureOfPrescript]，或目标带有[IndexPrescriptTargetToPersonality]</u></b></mark></color>，则使本技能的所有硬币转化为[SuperCoin]\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u> 若目标带有[IndexPrescriptTargetToPersonality]，则使本技能造成的伤害+50%</u></b></mark></color>\n[WhenUse] 使自身增加3级[Breath]强度并使自身获得3层[Breath]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能命中时不会使目标陷入混乱或触发目标的[Sinking]\n[EndSkill] 使自身失去6点理智值",
+          "desc": "自身的[Breath]强度与目标的[Sinking]强度之和每有6级，使本技能的硬币威力+1(最多+2)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u> 若自身带有[PressureOfPrescript]，或目标带有[IndexPrescriptTargetToPersonality]</u></b></mark></color>，则使本技能的所有硬币転化為[SuperCoin]\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u> 若目标带有[IndexPrescriptTargetToPersonality]，则使本技能造成的伤害+50%</u></b></mark></color>\n[WhenUse] 使自身增加3级[Breath]强度并使自身获得3层[Breath]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能命中时不会使目标陥入混乱或触发目标的[Sinking]\n[EndSkill] 使自身失去6点理智値",
           "coinlist": [
             {
               "coindescs": [
@@ -928,7 +928,7 @@
         {
           "level": 1,
           "name": "代行：抹杀",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>可无视速度值与本技能拼点</u></b></mark></color>\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u> 若目标带有[IndexPrescriptTargetToPersonality]，则使本技能造成的伤害+100%</u></b></mark></color>\n[DefeatDuel] 对自身施加3层[ResultReduction]与4层[Paralysis]\n[DefeatDuel] 使本技能造成的伤害-90%，且本技能命中时不会使目标陷入混乱或触发目标的[Sinking]\n[EndSkill] 使自身失去15点理智值\n[EndSkill] 消耗所有[PressureOfPrescript]",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>可无視速度値与本技能拼点</u></b></mark></color>\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u> 若目标带有[IndexPrescriptTargetToPersonality]，则使本技能造成的伤害+100%</u></b></mark></color>\n[DefeatDuel] 对自身施加3层[ResultReduction]与4层[Paralysis]\n[DefeatDuel] 使本技能造成的伤害-90%，且本技能命中时不会使目标陥入混乱或触发目标的[Sinking]\n[EndSkill] 使自身失去15点理智値\n[EndSkill] 消耗所有[PressureOfPrescript]",
           "coinlist": [
             {
               "coindescs": [
@@ -980,7 +980,7 @@
         {
           "level": 1,
           "name": "代行：抹杀-本望",
-          "desc": "[WhenUse]<color=#ff6000><mark=#ff000040><b><u> 若自身的理智值不低于0点，则生成1层望</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>使本技能造成的伤害+20%，最终威力与硬币威力+2</u></b></mark></color>\n[EndSkill] 使自身失去15点理智值\n[EndSkill] 若本技能生成了望，则使自身失去20点理智值\n[EndSkill] 消耗所有[PressureOfPrescript]并结束本回合",
+          "desc": "[WhenUse]<color=#ff6000><mark=#ff000040><b><u> 若自身的理智値不低于0点，则生成1层望</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>使本技能造成的伤害+20%，最终威力与硬币威力+2</u></b></mark></color>\n[EndSkill] 使自身失去15点理智値\n[EndSkill] 若本技能生成了望，则使自身失去20点理智値\n[EndSkill] 消耗所有[PressureOfPrescript]并结束本回合",
           "coinlist": [
             {
               "coindescs": [
@@ -1060,8 +1060,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "红艳煞",
-          "desc": "使本技能的拼点威力+(红焰蛾本回合使用的暴怒技能数×2)\n[WhenUse] 使全体敌方单位增加(红焰蛾本回合使用的暴怒技能数×2)级[Combustion]强度\n[DefeatDuel] 触发以下效果\n- 使本攻击技能造成的伤害变为0点\n- 解除全体目标的[Combustion]\n- 令本技能增加的[Combustion]强度与施加的[Combustion]层数减半",
+          "name": "红艶煞",
+          "desc": "使本技能的拼点威力+(红焰蛾本回合使用的暴怒技能数×2)\n[WhenUse] 使全体敌方単位增加(红焰蛾本回合使用的暴怒技能数×2)级[Combustion]强度\n[DefeatDuel] 触发以下效果\n- 使本攻击技能造成的伤害变為0点\n- 解除全体目标的[Combustion]\n- 令本技能增加的[Combustion]强度与施加的[Combustion]层数減半",
           "coinlist": [
             {
               "coindescs": [
@@ -1069,10 +1069,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相应的[Combustion]强度"
+                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相応的[Combustion]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使速度值最低的1名敌方单位增加相应的[Combustion]强度并对该敌方单位施加相应层数的[Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使速度値最低的1名敌方単位增加相応的[Combustion]强度并对該敌方単位施加相応层数的[Combustion]"
                 }
               ]
             },
@@ -1082,10 +1082,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相应的[Combustion]强度"
+                  "desc": "[OnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使目标增加相応的[Combustion]强度"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使速度值最低的1名敌方单位增加相应的[Combustion]强度并对该敌方单位施加相应层数的[Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 根据红焰蛾本回合使用的暴怒技能数，使速度値最低的1名敌方単位增加相応的[Combustion]强度并对該敌方単位施加相応层数的[Combustion]"
                 }
               ]
             },
@@ -1095,10 +1095,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标的混乱阈值前移本硬币伤害量的70%"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标的混乱閾値前移本硬币伤害量的70%"
                 },
                 {
-                  "desc": "- 使因该效果而陷入混乱的敌方单位增加10级[Combustion]强度"
+                  "desc": "- 使因該效果而陥入混乱的敌方単位增加10级[Combustion]强度"
                 }
               ]
             }
