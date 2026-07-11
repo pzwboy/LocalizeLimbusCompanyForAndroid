@@ -1,0 +1,153 @@
+{
+    "dataList": [
+        {
+            "id": "TipsinessRail",
+            "name": "醉意",
+            "desc": "<color=#ffffff>拼点威力</color>減少等同于本效果層数的数値(最多5層)",
+            "summary": "<color=#ffffff>拼点威力</color>減少等同于本效果層数的数値"
+        },
+        {
+            "id": "PassedPortal_Red",
+            "name": "血流成河的次元",
+            "desc": "造成的<color=#ffffff>傷害</color>+10%",
+            "summary": "造成的<color=#ffffff>傷害</color>+10%"
+        },
+        {
+            "id": "PassedPortal_Green",
+            "name": "劇毒沸騰的次元",
+            "desc": "<color=#61DA61>体力</color>上限提升20%",
+            "summary": "<color=#61DA61>体力</color>上限提升20%"
+        },
+        {
+            "id": "PassedPortal_Yellow",
+            "name": "震顫不止的次元",
+            "desc": "<color=#7C5737>速度値</color>+1",
+            "summary": "<color=#7C5737>速度値</color>+1"
+        },
+        {
+            "id": "PassedPortal_Blue",
+            "name": "電流涌動的次元",
+            "desc": "<color=#ffffff>硬幣威力</color>+1",
+            "summary": "<color=#ffffff>硬幣威力</color>+1"
+        },
+        {
+            "id": "FairyCharm",
+            "name": "魅惑",
+            "desc": "- 対精霊造成的<color=#ffffff>傷害</color>固定為0。\n- 精霊陣亡時解除該状態。",
+            "summary": "造成<color=#ffffff>傷害</color>為0"
+        },
+        {
+            "id": "DecoyRegenerated",
+            "name": "再生",
+            "desc": "每当<color=#ffffff>部位</color>被恢復時，層数+1。",
+            "summary": ""
+        },
+        {
+            "id": "WaveFoxUmbrella",
+            "name": "保護傘",
+            "desc": "使所有<color=#ffffff>部位</color>獲得与本效果層数相同的守護 \n使用“等待”技能時，召喚与本效果層数相同数量的旧傘\n每当傘被破坏時消耗1層。"
+        },
+        {
+            "id": "InterlockingTime_Re",
+            "name": "噛合的時間",
+            "desc": "減少并儲存最終<color=#ffffff>傷害</color>的30%。当層数為3時，対<color=#ffffff>自身</color>造成儲存的<color=#ffffff>傷害</color>量2倍的固定<color=#ffffff>傷害</color>。<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加3層束縛 。",
+            "summary": "減少并儲存最終<color=#ffffff>傷害</color>的30%。当層数為3時，対<color=#ffffff>自身</color>造成儲存的<color=#ffffff>傷害</color>量2倍的固定<color=#ffffff>傷害</color>。<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加3層束縛 。"
+        },
+        {
+            "id": "TimeRental_Re",
+            "name": "時間租賃",
+            "desc": "<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得3層迅捷 ，2層傷害強化 与2層攻撃等級提升 。<color=#7C5738>回合結束</color>時，若本效果層数為1層，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加3層束縛 ，1層虚弱 与2層<color=#ffffff>易損</color> ",
+            "summary": "<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得3層迅捷 ，2層傷害強化 与2層攻撃等級提升 。<color=#7C5738>回合結束</color>時，若本效果層数為1層，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加3層束縛 ，1層虚弱 与2層<color=#ffffff>易損</color> "
+        },
+        {
+            "id": "ReattachedCurseTag_Re",
+            "name": "復貼的咒符",
+            "desc": "若層数高于9層，則在<color=#7C5738>回合開始</color>時対<color=#ffffff>自身</color>施加5層束縛 。\n若層数高于12層，則在<color=#7C5738>回合開始</color>時対<color=#ffffff>自身</color>施加5層虚弱 。(最多12層)",
+            "summary": "若層数高于9層，則在<color=#7C5738>回合開始</color>時対<color=#ffffff>自身</color>施加5層束縛 。\n若層数高于12層，則在<color=#7C5738>回合開始</color>時対<color=#ffffff>自身</color>施加5層虚弱 。"
+        },
+        {
+            "id": "WrappedCurseTagRe",
+            "name": "糾纏的咒符",
+            "desc": "每層使造成的<color=#ffffff>傷害</color>+1%\n若層数不低于9層，則在<color=#7C5738>回合開始</color>時対<color=#ffffff>自身</color>施加2層虚弱 (最多9層)",
+            "summary": "每層使造成的<color=#ffffff>傷害</color>+1%，若層数不低于9層，則在<color=#7C5738>回合開始</color>時対<color=#ffffff>自身</color>施加2層虚弱 "
+        },
+        {
+            "id": "AccumulatedPast",
+            "name": "累積的過去",
+            "desc": "<color=#7C5738>回合結束</color>時，層数+11。\n躯干<color=#ffffff>部位</color>被破坏時，消耗所有層数。",
+            "summary": ""
+        },
+        {
+            "id": "PrepareSinRose",
+            "name": "冠冕",
+            "desc": "生成被施加本效果的<color=#ffffff>目標</color>擁有的最多的技能対應罪孼属性的玫瑰単位",
+            "summary": ""
+        },
+        {
+            "id": "BloomingRose",
+            "name": "綻放的罪孼",
+            "desc": "<color=#7C5738>回合結束</color>時\n- 層数+ 1。\n- 被連接的人格失去<color=#61DA61>体力</color>上限25%的<color=#61DA61>体力</color>。\n- 失去10%与玫瑰属性相対應的E.G.O資源。\n- 玫瑰告示牌恢復<color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>。\n\n層数達到4層時，\n- 被連接的人格会陣亡。\n- 失去所有与玫瑰属性相対應的E.G.O資源。",
+            "summary": ""
+        },
+        {
+            "id": "EatingSin",
+            "name": "罪孼纏身",
+            "desc": "<color=#61DA61>体力</color>上限増加(被減少的E.G.O資源数量)%。\n\n陣亡時\n-帰還被減少的E.G.O資源。\n-被連接的人格恢復(該人格25%<color=#61DA61>体力</color>上限*綻放的罪孼 層数)点<color=#61DA61>体力</color>。",
+            "summary": ""
+        },
+        {
+            "id": "EnhanceRose",
+            "name": "強化状態",
+            "desc": "将会発動強化状態的被動效果",
+            "summary": ""
+        },
+        {
+            "id": "FullBloomRose_Crimson",
+            "name": "綻放的玫瑰",
+            "desc": "人格以<color=#FE0100>暴怒</color>属性技能造成/受到的<color=#ffffff>傷害</color>増加",
+            "summary": ""
+        },
+        {
+            "id": "FullBloomRose_Scarlet",
+            "name": "綻放的玫瑰",
+            "desc": "人格以<color=#FE6E00>色欲</color>属性技能造成/受到的<color=#ffffff>傷害</color>増加",
+            "summary": ""
+        },
+        {
+            "id": "FullBloomRose_Amber",
+            "name": "綻放的玫瑰",
+            "desc": "人格以<color=#FED233>怠惰</color>属性技能造成/受到的<color=#ffffff>傷害</color>増加",
+            "summary": ""
+        },
+        {
+            "id": "FullBloomRose_Shamrock",
+            "name": "綻放的玫瑰",
+            "desc": "人格以<color=#A6FE00>暴食</color>属性技能造成/受到的<color=#ffffff>傷害</color>増加",
+            "summary": ""
+        },
+        {
+            "id": "FullBloomRose_Azure",
+            "name": "綻放的玫瑰",
+            "desc": "人格以<color=#1BC7F0>憂郁</color>属性技能造成/受到的<color=#ffffff>傷害</color>増加",
+            "summary": ""
+        },
+        {
+            "id": "FullBloomRose_Indigo",
+            "name": "綻放的玫瑰",
+            "desc": "人格以<color=#044ED6>傲慢</color>属性技能造成/受到的<color=#ffffff>傷害</color>増加",
+            "summary": ""
+        },
+        {
+            "id": "FullBloomRose_Violet",
+            "name": "綻放的玫瑰",
+            "desc": "人格以<color=#9702DE>嫉炉</color>属性技能造成/受到的<color=#ffffff>傷害</color>増加",
+            "summary": ""
+        },
+        {
+            "id": "KalpaVine",
+            "name": "永恒荊棘",
+            "desc": "所有角色造成的<color=#ffffff>傷害</color>減少\n所有角色受到的<color=#ffffff>傷害</color>減少",
+            "summary": ""
+        }
+    ]
+}

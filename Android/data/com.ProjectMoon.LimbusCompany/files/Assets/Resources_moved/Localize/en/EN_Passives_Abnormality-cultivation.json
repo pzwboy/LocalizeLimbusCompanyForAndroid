@@ -1,0 +1,89 @@
+{
+    "dataList": [
+        {
+            "id": 124701,
+            "name": "原黑獣 - 午 魁首",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>減少至-15点，使<color=#ffffff>自身</color>獲得3層[LegStrengthHorse]并対<color=#ffffff>自身</color>施加1層[CrazyWei]\n受到的[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]<color=#ffffff>傷害</color>-50%(向下取整)\n\n<color=#ffffff>自身</color>被摧毀的[SuperCoin]命中時，不会触発<color=#ffffff>目標</color>的[Burst]效果(也不会消耗<color=#ffffff>目標</color>的[Burst]層数)\n\n対陷入混乱的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+50%"
+        },
+        {
+            "id": 124702,
+            "name": "践踏…直至将袮們踏作齏粉",
+            "desc": "<color=#ffffff>自身</color>帯有[LegStrengthHorse]時，<color=#ffffff>自身</color>命中并造成[VibrationExplosion]時，若<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>，則対<color=#ffffff>目標</color>施加1層[ConcussionWei]"
+        },
+        {
+            "id": 124703,
+            "name": "魂飛中天",
+            "desc": "若<color=#ffffff>自身</color>帯有[LegStrengthHorse]，則硬幣対未帯有[Vibration]的<color=#ffffff>目標</color>造成[VibrationExplosion]時，対<color=#ffffff>自身</color>施加1層[ReboundWei](若<color=#ffffff>自身</color>的[ReboundWei]層数為最大値，則不会施加)\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[ReboundWei]層数為最大値，則消耗所有[ReboundWei]并在<color=#7C5738>下回合</color>失去1層[LegStrengthHorse]"
+        },
+        {
+            "id": 124704,
+            "name": "将骯臓的鱗片踏至一片不留…",
+            "desc": "<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每有2点<color=#7C5737>速度値</color>，使<color=#ffffff>自身</color>獲得1層[AttackUp](最多2点)\n若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>不低于5，則額外使<color=#ffffff>自身</color>獲得1層[SlashDamageUp]与1層[HitDamageUp]"
+        },
+        {
+            "id": 124705,
+            "name": "竟敢前来此処，袮們当這里是什么地方…！",
+            "desc": "拼点失敗時，若与<color=#ffffff>自身</color>進行拼点的<color=#ffffff>目標</color>的硬幣為加算硬幣，則使<color=#ffffff>目標</color>恢復5点<color=#81BBE8>理智値</color>;若<color=#ffffff>目標</color>的硬幣為減算硬幣，則使<color=#ffffff>目標</color>失去5点<color=#81BBE8>理智値</color>(若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于-40点，則不会触発)。獲得<color=#ffffff>目標</color>使用技能対應属性的2个E.G.O資源(<color=#7C5738>每回合</color>最多3次)\n- 若該技能為<color=#FE0100>暴怒</color>或<color=#A6FE00>暴食</color>技能，則額外獲得持有量最少的2个E.G.O資源"
+        },
+        {
+            "id": 127201,
+            "name": "受撃之時",
+            "desc": "戦斗中<color=#ffffff>自身</color>受到<color=#ffffff>傷害</color>時，<color=#7C5738>本回合</color>使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+20%\n戦斗中<color=#ffffff>自身</color>拼点失敗時，使<color=#ffffff>自身</color>受到該技能的<color=#ffffff>傷害</color>+15%"
+        },
+        {
+            "id": 127202,
+            "name": "爛醉修行",
+            "desc": "<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+2%(最多+100%)"
+        },
+        {
+            "id": 127203,
+            "name": "与酒偕行，心无所畏",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[SipOfAlcoholJin]層数為最大値，則消耗2層[SipOfAlcoholJin]并使<color=#ffffff>自身</color>獲得[DrunkAwakening]"
+        },
+        {
+            "id": 127204,
+            "name": "醉手夜客",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復至10点\n受到的[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]<color=#ffffff>傷害</color>-50%(向下取整)\n\n受到来自罪人的<color=#ffffff>傷害</color>-30%\n\n若上回合<color=#ffffff>自身</color>獲得的[SipOfAlcoholJin]層数不低于2層，則<color=#7C5738>回合開始</color>時<color=#ffffff>自身</color>每失去10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(最多40点)\n\n改変模式時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
+        },
+        {
+            "id": 127205,
+            "name": "血滴成河",
+            "desc": "<color=#7C5738>回合結束</color>時，若有<color=#ffffff>敵方単位</color>的[Laceration]強度不低于10級，則触発該效果\n帯有[Laceration]的<color=#ffffff>敵方単位</color>每帯有5級[Laceration]強度，対其施加1層[DrunkBlood](每名<color=#ffffff>敵方単位</color>最多3次)"
+        },
+        {
+            "id": 124801,
+            "name": "切磋結束",
+            "desc": "<color=#ffffff>自身</color><color=#61DA61>体力</color>低于20%時結束戦斗"
+        },
+        {
+            "id": 124901,
+            "name": "電路反轉",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[Charge]層数低于10層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得5層[Charge]\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則消耗5層[Charge]并使<color=#ffffff>自身</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 125001,
+            "name": "負荷稍降",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于20点，則使<color=#ffffff>自身</color>獲得1層[Enhancement]"
+        },
+        {
+            "id": 125002,
+            "name": "責任之重",
+            "desc": "本場戦斗中，若<color=#ffffff>自身</color><color=#61DA61>体力</color>不高于<color=#61DA61>体力</color>上限的50%，則从<color=#7C5738>下回合</color>起，<color=#7C5738>每回合</color>使<color=#ffffff>自身</color>獲得2層[AttackDmgUp]"
+        },
+        {
+            "id": 125101,
+            "name": "恐怖統治",
+            "desc": "若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点，則每低1点，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+3%"
+        },
+        {
+            "id": 125102,
+            "name": "不覚得很有趣麼？",
+            "desc": "<color=#ffffff>目標</color>被施加負面状態時，使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[DefenseUp]"
+        },
+        {
+            "id": 125103,
+            "name": "紐曲的意志",
+            "desc": "拼点勝利時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n拼点失敗時，使<color=#ffffff>自身</color>獲得1層[Enhancement]"
+        }
+    ]
+}

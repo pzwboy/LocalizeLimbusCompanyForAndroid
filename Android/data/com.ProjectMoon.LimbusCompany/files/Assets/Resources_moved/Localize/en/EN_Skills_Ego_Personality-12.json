@@ -1,0 +1,884 @@
+{
+    "dataList": [
+        {
+            "id": 2120511,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "荊棘花园",
+                    "abName": "玫瑰告示牌",
+                    "desc": "[BeforeAttack] 若最大<color=#7C5738>共鳴</color>数不低于3，則使本技能的<color=#ffffff>攻撃容量</color>+1\n[WhenUse] 使(1+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>獲得1層該罪孼属性的傷害強化与1層該罪孼属性的威力提升\n- 若該<color=#7C5738>共鳴</color>数不低于4，則使其額外獲得1層該罪孼属性的傷害強化",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的1名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限15%的<color=#61DA61>体力</color>\n- 額外使(最大<color=#7C5738>共鳴</color>数-2)名<color=#ffffff>友方単位</color>恢復<color=#61DA61>体力</color>(最多3名)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "荊棘花园",
+                    "abName": "玫瑰告示牌",
+                    "desc": "[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数-2)(最多+2)\n[WhenUse] 使(2+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>獲得1層該罪孼属性的傷害強化与1層該罪孼属性的威力提升\n- 若該<color=#7C5738>共鳴</color>数不低于4，則使其額外獲得1層該罪孼属性的傷害強化\n- 若該<color=#7C5738>共鳴</color>数不低于5，則使其額外獲得1層該罪孼属性的威力提升",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限18%的<color=#61DA61>体力</color>\n- 額外使(最大<color=#7C5738>共鳴</color>数-2)名<color=#ffffff>友方単位</color>恢復<color=#61DA61>体力</color>(最多3名)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "荊棘花园",
+                    "abName": "玫瑰告示牌",
+                    "desc": "[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数-2)(最多+3)\n[WhenUse] 使(4+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>獲得1層該罪孼属性的傷害強化与1層該罪孼属性的威力提升\n- 若該<color=#7C5738>共鳴</color>数不低于4，則使其額外獲得1層該罪孼属性的傷害強化\n- 若該<color=#7C5738>共鳴</color>数不低于5，則使其額外獲得1層該罪孼属性的威力提升\n- 若該<color=#7C5738>完全</color><color=#7C5738>共鳴</color>数不低于6，則<color=#7C5738>下回合</color>使其再次獲得以上状態",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的4名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限22%的<color=#61DA61>体力</color>\n- 額外使(最大<color=#7C5738>共鳴</color>数-2)名<color=#ffffff>友方単位</color>恢復<color=#61DA61>体力</color>(最多3名)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120521,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "荊棘花园",
+                    "abName": "玫瑰告示牌",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 若最大<color=#7C5738>共鳴</color>数不低于3，則使本技能的<color=#ffffff>攻撃容量</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[AttackDmgDown]，<color=#7C5738>下回合</color>対其施加2層[Binding]。"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層最大<color=#7C5738>共鳴</color>罪孼属性的<color=#ffffff>易損</color>与1層該罪孼属性的威力降低\n- 若該<color=#7C5738>共鳴</color>数不低于4，則対其額外施加1層該罪孼属性的<color=#ffffff>易損</color>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "荊棘花园",
+                    "abName": "玫瑰告示牌",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数-2)(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[AttackDmgDown]，<color=#7C5738>下回合</color>対其施加2層[Binding]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層最大<color=#7C5738>共鳴</color>罪孼属性的<color=#ffffff>易損</color>与1層該罪孼属性的威力降低\n- 若該<color=#7C5738>共鳴</color>数不低于4，則対其額外施加1層該罪孼属性的<color=#ffffff>易損</color>\n- 若該<color=#7C5738>共鳴</color>数不低于5，則対其額外施加1層該罪孼属性的威力降低"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "荊棘花园",
+                    "abName": "玫瑰告示牌",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数-2)(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[AttackDmgDown]，<color=#7C5738>下回合</color>対其施加2層[Binding]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層最大<color=#7C5738>共鳴</color>罪孼属性的<color=#ffffff>易損</color>与1層該罪孼属性的威力降低\n- 若該<color=#7C5738>共鳴</color>数不低于4，則対其額外施加1層該罪孼属性的<color=#ffffff>易損</color>\n- 若該<color=#7C5738>共鳴</color>数不低于5，則対其額外施加1層該罪孼属性的威力降低\n- 若該<color=#7C5738>完全</color><color=#7C5738>共鳴</color>数不低于6，則<color=#7C5738>下回合</color>対其再次施加以上状態"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120611,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "往昔",
+                    "abName": "某日的肖像",
+                    "desc": "[EndSkill] 使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外<color=#81BBE8>理智値</color>最低的2名<color=#ffffff>友方単位</color>恢復10点<color=#81BBE8>理智値</color>\n- 若<color=#ffffff>目標</color>受到攻撃后存活，則消耗其5層[Sinking]并額外恢復相当于其[Sinking]強度点<color=#81BBE8>理智値</color>(最大恢復量：20点)\n- 若<color=#7C5738>撃殺</color><color=#ffffff>目標</color>，則随机使2名<color=#ffffff>敵方単位</color>増加3級[Sinking]強度(若是<color=#ffffff>集中遭遇戦</color>，則改為随机<color=#ffffff>部位</color>)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "往昔",
+                    "abName": "某日的肖像",
+                    "desc": "[EndSkill] 使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外<color=#81BBE8>理智値</color>最低的2名<color=#ffffff>友方単位</color>恢復<style=\"highlight\">12</style>点<color=#81BBE8>理智値</color>\n- 若<color=#ffffff>目標</color>受到攻撃后存活，則消耗其5層[Sinking]并額外恢復相当于其[Sinking]強度点<color=#81BBE8>理智値</color>(最大恢復量：20点)\n- 若<color=#7C5738>撃殺</color><color=#ffffff>目標</color>，則随机使2名<color=#ffffff>敵方単位</color>増加3級[Sinking]強度<style=\"highlight\">并対其施加1層[Curse]</style>(若是<color=#ffffff>集中遭遇戦</color>，則改為随机<color=#ffffff>部位</color>)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "往昔",
+                    "abName": "某日的肖像",
+                    "desc": "[EndSkill] 使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外<color=#81BBE8>理智値</color>最低的2名<color=#ffffff>友方単位</color>恢復<style=\"highlight\">15</style>点<color=#81BBE8>理智値</color>\n- 若<color=#ffffff>目標</color>受到攻撃后存活，則消耗其<style=\"highlight\">3</style>層[Sinking]并額外恢復相当于其[Sinking]強度点<color=#81BBE8>理智値</color>(最大恢復量：20点)\n- 若<color=#7C5738>撃殺</color><color=#ffffff>目標</color>，則随机使3名<color=#ffffff>敵方単位</color>増加<style=\"highlight\">3</style>級[Sinking]強度并対其施加1層[Curse](若是<color=#ffffff>集中遭遇戦</color>，則改為随机<color=#ffffff>部位</color>)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120621,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "往昔",
+                    "abName": "某日的肖像",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AzureTakeDamageUp]。若<color=#1BC7F0>憂郁</color><color=#7C5738>共鳴</color>数不低于3，則対其額外施加1層[AzureTakeDamageUp]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Curse]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "往昔",
+                    "abName": "某日的肖像",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AzureTakeDamageUp]。每有3点<color=#1BC7F0>憂郁</color><color=#7C5738>共鳴</color>数，対其額外施加1層[AzureTakeDamageUp](最多2層)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Curse]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "往昔",
+                    "abName": "某日的肖像",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n若<color=#ffffff>目標</color>帯有[Curse]，則使本技能造成的<color=#ffffff>傷害</color>+50%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AzureTakeDamageUp]。每有2点<color=#1BC7F0>憂郁</color><color=#7C5738>共鳴</color>数，対其額外施加1層[AzureTakeDamageUp](最多2層)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Curse]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120711,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "庄厳哀悼",
+                    "abName": "亡蝶葬儀",
+                    "desc": "本技能擲出硬幣時，随机対其<color=#ffffff>目標</color>之一的1名<color=#ffffff>敵方単位</color>進行攻撃\n- 第一枚硬幣必定指定主要<color=#ffffff>目標</color>\n- 每枚硬幣的所有“命中時”效果与所有造成的<color=#ffffff>傷害</color>僅対以上效果中選擇的<color=#ffffff>敵方単位</color>生效\n通過本技能效果施加[SinkingWhite]時，以(硬幣朝向正面的概率)施加亡蝶層数。若<color=#ffffff>自身</color>未施加亡蝶層数，則改為増加生蝶強度(每点[SinkingWhite]分別判定)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1点[SinkingWhite]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1点[SinkingWhite]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1~2点[SinkingWhite]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>失去2~6点<color=#81BBE8>理智値</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于0点，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多5次)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "庄厳哀悼",
+                    "abName": "亡蝶葬儀",
+                    "desc": "本技能擲出硬幣時，随机対其<color=#ffffff>目標</color>之一的1名<color=#ffffff>敵方単位</color>進行攻撃\n- 第一枚硬幣必定指定主要<color=#ffffff>目標</color>\n- 每枚硬幣的所有“命中時”效果与所有造成的<color=#ffffff>傷害</color>僅対以上效果中選擇的<color=#ffffff>敵方単位</color>生效\n通過本技能效果施加[SinkingWhite]時，以(硬幣朝向正面的概率)施加亡蝶層数。若<color=#ffffff>自身</color>未施加亡蝶層数，則改為増加生蝶強度(每点[SinkingWhite]分別判定)\n<style=\"highlight\">[EndSkill] 使<color=#ffffff>自身</color>恢復(第3枚硬幣命中次数×2)点<color=#81BBE8>理智値</color></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1点[SinkingWhite]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1点[SinkingWhite]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1~2点[SinkingWhite]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>失去2~6点<color=#81BBE8>理智値</color><style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于0点，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多5次)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "庄厳哀悼",
+                    "abName": "亡蝶葬儀",
+                    "desc": "本技能擲出硬幣時，随机対其<color=#ffffff>目標</color>之一的1名<color=#ffffff>敵方単位</color>進行攻撃\n- 第一枚硬幣必定指定主要<color=#ffffff>目標</color>\n- 每枚硬幣的所有“命中時”效果与所有造成的<color=#ffffff>傷害</color>僅対以上效果中選擇的<color=#ffffff>敵方単位</color>生效\n通過本技能效果施加[SinkingWhite]時，以(硬幣朝向正面的概率)施加亡蝶層数。若<color=#ffffff>自身</color>未施加亡蝶層数，則改為増加生蝶強度(每点[SinkingWhite]分別判定)\n[EndSkill] 使<color=#ffffff>自身</color>恢復<style=\"highlight\">(第3枚硬幣命中次数×3)</style>点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1点[SinkingWhite]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1点[SinkingWhite]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 随机対<color=#ffffff>目標</color>施加1~2点[SinkingWhite]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>失去2~6点<color=#81BBE8>理智値</color><style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于0点，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多5次)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120721,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "庄厳哀悼",
+                    "abName": "亡蝶葬儀",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点，則每低1点，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)\n若<color=#ffffff>目標</color>未帯有<color=#81BBE8>理智値</color>，則其每帯有2級[Sinking]強度，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[SinkingWhite]強度(生蝶)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加4層[SinkingWhite](亡蝶)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "庄厳哀悼",
+                    "abName": "亡蝶葬儀",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点，則每低1点，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)\n若<color=#ffffff>目標</color>未帯有<color=#81BBE8>理智値</color>，則其每帯有2級[Sinking]強度，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)\n<style=\"highlight\">[EnemyKill] 使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[SinkingWhite]強度(生蝶)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加4層[SinkingWhite](亡蝶)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]</style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "庄厳哀悼",
+                    "abName": "亡蝶葬儀",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点，則每低1点，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)\n若<color=#ffffff>目標</color>未帯有<color=#81BBE8>理智値</color>，則其每帯有2級[Sinking]強度，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)\n[EnemyKill] 使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color><style=\"highlight\"></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[SinkingWhite]強度(生蝶)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加5層[SinkingWhite](亡蝶)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 若<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>不高于50%，則対<color=#ffffff>目標</color>造成相当于其所有[SinkingWhite]点数的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>\n- 以生蝶与亡蝶之和計算</style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120811,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "圣誕梦魘",
+                    "abName": "舒适臥床",
+                    "desc": "[EndSkill] 若<color=#ffffff>自身</color><color=#61DA61>体力</color>為最大値，則在<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>陷入混乱、士气低落或陷入恐慌，則<color=#7C5738>下回合</color>対其施加1層[Reduction]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "圣誕梦魘",
+                    "abName": "舒适臥床",
+                    "desc": "<style=\"highlight\">若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点，則每<color=#7C5738>相差</color>1点，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)</style>\n[EndSkill] 若<color=#ffffff>自身</color><color=#61DA61>体力</color>為最大値，則在<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#ffffff>自身</color>已失去<color=#61DA61>体力</color>(2+最大<color=#7C5738>共鳴</color>数)%的<color=#61DA61>体力</color>(每个技能最多30%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Sinking]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>陷入混乱、士气低落或陷入恐慌，則<color=#7C5738>下回合</color>対其施加1層[Reduction]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "圣誕梦魘",
+                    "abName": "舒适臥床",
+                    "desc": "若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点，則每<color=#7C5738>相差</color>1点，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)\n[EndSkill] 若<color=#ffffff>自身</color><color=#61DA61>体力</color>為最大値，則在<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>恢復<style=\"highlight\">15</style>点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]<style=\"highlight\"></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#ffffff>自身</color>已失去<color=#61DA61>体力</color>(<style=\"highlight\">3</style>+最大<color=#7C5738>共鳴</color>数)%的<color=#61DA61>体力</color>(每个技能最多30%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Sinking]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>陷入混乱、士气低落或陷入恐慌，則<color=#7C5738>下回合</color>対其施加1層[Reduction]<style=\"highlight\">与1層最大<color=#7C5738>共鳴</color>数罪孼属性的<color=#ffffff>易損</color>。</style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120821,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "圣誕梦魘",
+                    "abName": "舒适臥床",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#61DA61>体力</color>\n[EndSkill] 若<color=#ffffff>自身</color><color=#61DA61>体力</color>為最大値，則在<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>陷入混乱、士气低落或陷入恐慌，則<color=#7C5738>下回合</color>対其施加1層[Reduction]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "圣誕梦魘",
+                    "abName": "舒适臥床",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n<style=\"highlight\">若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点，則每<color=#7C5738>相差</color>1点，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)</style>\n[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#61DA61>体力</color>\n[EndSkill] 若<color=#ffffff>自身</color><color=#61DA61>体力</color>為最大値，則在<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>恢復<style=\"highlight\">15</style>点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#ffffff>自身</color>已失去<color=#61DA61>体力</color>(2+最大<color=#7C5738>共鳴</color>数)%的<color=#61DA61>体力</color>(每个技能最多30%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Sinking]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>陷入混乱、士气低落或陷入恐慌，則<color=#7C5738>下回合</color>対其施加1層[Reduction]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "圣誕梦魘",
+                    "abName": "舒适臥床",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点，則每<color=#7C5738>相差</color>1点，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+45%)\n[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#61DA61>体力</color>\n[EndSkill] 若<color=#ffffff>自身</color><color=#61DA61>体力</color>為最大値，則在<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>恢復<style=\"highlight\">20</style>点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#ffffff>自身</color>已失去<color=#61DA61>体力</color>(<style=\"highlight\">3</style>+最大<color=#7C5738>共鳴</color>数)%的<color=#61DA61>体力</color>(每个技能最多30%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Sinking]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>陷入混乱、士气低落或陷入恐慌，則<color=#7C5738>下回合</color>対其施加1層[Reduction]<style=\"highlight\">与2層最大<color=#7C5738>共鳴</color>数罪孼属性的<color=#ffffff>易損</color>。</style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120911,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "未照耀的栄光-流水",
+                    "abName": "瑪恩納",
+                    "desc": "[CantDuel]\n本場戦斗中首次使用時，消耗的E.G.O資源減少1个<color=#FE0100>暴怒</color>、2个<color=#FED233>怠惰</color>与1个<color=#044ED6>傲慢</color>\n若<color=#ffffff>自身</color>的[MlynarWaiting]層数不低于1層，則改為使用未照耀的栄光-光輝\n本技能不会命中<color=#ffffff>敵方単位</color>，不会触発守備技能，且不会因外部效果而<color=#ffffff>重復使用</color>\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndSkill] 使<color=#ffffff>自身</color>恢復25点<color=#81BBE8>理智値</color>\n[EndSkill] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "未照耀的栄光-流水",
+                    "abName": "瑪恩納",
+                    "desc": "[CantDuel]\n本場戦斗中首次使用時，消耗的E.G.O資源減少1个<color=#FE0100>暴怒</color>、2个<color=#FED233>怠惰</color>与1个<color=#044ED6>傲慢</color>\n若<color=#ffffff>自身</color>的[MlynarWaiting]層数不低于1層，則改為使用未照耀的栄光-光輝\n本技能不会命中<color=#ffffff>敵方単位</color>，不会触発守備技能，且不会因外部效果而<color=#ffffff>重復使用</color>\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndSkill] 使<color=#ffffff>自身</color>恢復25点<color=#81BBE8>理智値</color>\n[EndSkill] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得<style=\"highlight\">2</style>層[AttackUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "未照耀的栄光-流水",
+                    "abName": "瑪恩納",
+                    "desc": "[CantDuel]\n本場戦斗中首次使用時，消耗的E.G.O資源減少1个<color=#FE0100>暴怒</color>、2个<color=#FED233>怠惰</color>与1个<color=#044ED6>傲慢</color>\n若<color=#ffffff>自身</color>的[MlynarWaiting]層数不低于1層，則改為使用未照耀的栄光-光輝\n本技能不会命中<color=#ffffff>敵方単位</color>，不会触発守備技能，且不会因外部效果而<color=#ffffff>重復使用</color>\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndSkill] 使<color=#ffffff>自身</color>恢復25点<color=#81BBE8>理智値</color>\n[EndSkill] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[AttackUp]<style=\"highlight\">与1層[AttackDmgUp]</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120912,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "未照耀的栄光-光輝",
+                    "abName": "瑪恩納",
+                    "desc": "[CantDuel]\n本技能不会因外部效果而<color=#ffffff>重復使用</color>\n若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則使本技能変為可拼点\n[WhenUse] 若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則直到本技能結束，<color=#ffffff>自身</color>不会因受到<color=#ffffff>傷害</color>而陷入混乱，使本技能的<color=#ffffff>拼点威力</color>+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并獲得以下效果(所有效果均向下取整)\n- 每消耗20層，返還1个E.G.O資源(按<color=#044ED6>傲慢</color>、<color=#FE0100>暴怒</color>的順序返還)\n- 每消耗10層，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+4)\n- 每消耗10層，使<color=#ffffff>自身</color>獲得1層[DefenseUp](<color=#7C5738>每回合</color>最多1次)\n- 若消耗了40層，則使第4枚硬幣造成的<color=#ffffff>傷害</color>+50%，并使<color=#ffffff>自身</color>獲得2層[Protection](<color=#7C5738>每回合</color>最多1次)\n\n[BeforeAttack] 主要<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有8級，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+25%)\n[EndSkill] 每有1个<color=#ffffff>目標</color>因本技能<color=#ffffff>傷害</color>而陷入混乱或陣亡，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(最多25点)\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndBattle] 若本技能未消耗40層[MlynarWaiting]，則<color=#7C5738>下回合</color>使儀表盤上<color=#ffffff>自身</color>位于最左側的<color=#ffffff>行動槽</color>的[Aggro]+4(<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "<color=#ffffff>重復使用</color>本硬幣((消耗的[MlynarWaiting]層数/10)-1)次(最多3次)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬幣為最后一枚硬幣，且<color=#ffffff>目標</color>的[Vibration]強度不低于15級，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬幣使用了4次，則対<color=#ffffff>目標</color>造成相当于其[Vibration]強度的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(最多5点)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "未照耀的栄光-光輝",
+                    "abName": "瑪恩納",
+                    "desc": "[CantDuel]\n本技能不会因外部效果而<color=#ffffff>重復使用</color>\n若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則使本技能変為可拼点\n[WhenUse] 若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則直到本技能結束，<color=#ffffff>自身</color>不会因受到<color=#ffffff>傷害</color>而陷入混乱，使本技能的<color=#ffffff>拼点威力</color>+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并獲得以下效果(所有效果均向下取整)\n- 每消耗20層，返還1个E.G.O資源(按<color=#044ED6>傲慢</color>、<color=#FE0100>暴怒</color>的順序返還)\n- 每消耗10層，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+4)\n- 每消耗10層，使<color=#ffffff>自身</color>獲得1層[DefenseUp](<color=#7C5738>每回合</color>最多1次)\n- 若消耗了40層，則使第4枚硬幣造成的<color=#ffffff>傷害</color>+<style=\"highlight\">80</style>%，并使<color=#ffffff>自身</color>獲得2層[Protection](<color=#7C5738>每回合</color>最多1次)\n\n[BeforeAttack] 主要<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有8級，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+25%)\n[EndSkill] 每有1个<color=#ffffff>目標</color>因本技能<color=#ffffff>傷害</color>而陷入混乱或陣亡，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(最多25点)\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndBattle] 若本技能未消耗40層[MlynarWaiting]，則<color=#7C5738>下回合</color>使儀表盤上<color=#ffffff>自身</color>位于最左側的<color=#ffffff>行動槽</color>的[Aggro]+4(<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "<color=#ffffff>重復使用</color>本硬幣((消耗的[MlynarWaiting]層数/10)-1)次(最多3次)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnStartCoin] 若本硬幣未摧毀，且指定不低于3名<color=#ffffff>目標</color>，則使最后一枚硬幣造成的<color=#ffffff>傷害</color>+10%(若是<color=#ffffff>集中遭遇戦</color>，則每个<color=#ffffff>部位</color>視作1名<color=#ffffff>目標</color>)</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Combustion]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬幣為最后一枚硬幣，且<color=#ffffff>目標</color>的[Vibration]強度不低于15級，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬幣使用了4次，則対<color=#ffffff>目標</color>造成相当于其[Vibration]強度的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(最多5点)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "未照耀的栄光-光輝",
+                    "abName": "瑪恩納",
+                    "desc": "[CantDuel]\n本技能不会因外部效果而<color=#ffffff>重復使用</color>\n若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則使本技能変為可拼点\n[WhenUse] 若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則直到本技能結束，<color=#ffffff>自身</color>不会因受到<color=#ffffff>傷害</color>而陷入混乱，使本技能的<color=#ffffff>拼点威力</color>+20\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并獲得以下效果(所有效果均向下取整)\n- 每消耗20層，返還1个E.G.O資源(按<color=#044ED6>傲慢</color>、<color=#FE0100>暴怒</color>的順序返還)\n- 每消耗10層，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+4)\n- 每消耗10層，使<color=#ffffff>自身</color>獲得1層[DefenseUp](<color=#7C5738>每回合</color>最多1次)\n- 若消耗了40層，則使第4枚硬幣造成的<color=#ffffff>傷害</color>+<style=\"highlight\">100</style>%，并使<color=#ffffff>自身</color>獲得2層[Protection](<color=#7C5738>每回合</color>最多1次)\n\n[BeforeAttack] 主要<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有8級，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+25%)\n[EndSkill] 每有1个<color=#ffffff>目標</color>因本技能<color=#ffffff>傷害</color>而陷入混乱或陣亡，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(最多25点)\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndBattle] 若本技能未消耗40層[MlynarWaiting]，則<color=#7C5738>下回合</color>使儀表盤上<color=#ffffff>自身</color>位于最左側的<color=#ffffff>行動槽</color>的[Aggro]+4(<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "<color=#ffffff>重復使用</color>本硬幣((消耗的[MlynarWaiting]層数/10)-1)次(最多3次)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] 若本硬幣未摧毀，且指定不低于3名<color=#ffffff>目標</color>，則使最后一枚硬幣造成的<color=#ffffff>傷害</color>+<style=\"highlight\">20</style>%(若是<color=#ffffff>集中遭遇戦</color>，則每个<color=#ffffff>部位</color>視作1名<color=#ffffff>目標</color>)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Combustion]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬幣為最后一枚硬幣，且<color=#ffffff>目標</color>的[Vibration]強度不低于15級，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若本硬幣使用了4次，則対<color=#ffffff>目標</color>造成相当于其[Vibration]強度的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(最多<style=\"highlight\">10</style>点)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2120921,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "未照耀的栄光-流水",
+                    "abName": "瑪恩納",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[WhenUse] 若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則使本技能的<color=#ffffff>基礎威力</color>+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并獲得以下效果(所有效果均向下取整)\n- 每消耗10層，使<color=#ffffff>自身</color>獲得1層[DefenseUp](<color=#7C5738>每回合</color>最多1次)\n- 若消耗了40層，則使最后一枚硬幣造成的<color=#ffffff>傷害</color>+110%，并使<color=#ffffff>自身</color>獲得2層[Protection](<color=#7C5738>每回合</color>最多1次)\n\n[BeforeAttack] 主要<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有6級，則使本技能造成的<color=#ffffff>傷害</color>+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-4(最多-16)\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndBattle] 若本技能消耗了40層[MlynarWaiting]，則<color=#7C5738>下回合</color>使儀表盤上<color=#ffffff>自身</color>位于最左側的<color=#ffffff>行動槽</color>的[Aggro]+8(<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若<color=#ffffff>目標</color>的[Vibration]強度不低于15級，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "未照耀的栄光-流水",
+                    "abName": "瑪恩納",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n<style=\"highlight\">指定不低于3名<color=#ffffff>目標</color>時，若第1~3枚硬幣未摧毀并命中，則使最后一枚硬幣造成的<color=#ffffff>傷害</color>+25%(每枚硬幣最多1次，若是<color=#ffffff>集中遭遇戦</color>，則每个<color=#ffffff>部位</color>視作1名<color=#ffffff>目標</color>)</style>\n[WhenUse] 若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則使本技能的<color=#ffffff>基礎威力</color>+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并獲得以下效果(所有效果均向下取整)\n- 每消耗10層，使<color=#ffffff>自身</color>獲得1層[DefenseUp](<color=#7C5738>每回合</color>最多1次)\n- 若消耗了40層，則使最后一枚硬幣造成的<color=#ffffff>傷害</color>+<style=\"highlight\">130</style>%，并使<color=#ffffff>自身</color>獲得2層[Protection](<color=#7C5738>每回合</color>最多1次)\n\n[BeforeAttack] 主要<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有6級，則使本技能造成的<color=#ffffff>傷害</color>+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-4(最多-16)\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndBattle] 若本技能消耗了40層[MlynarWaiting]，則<color=#7C5738>下回合</color>使儀表盤上<color=#ffffff>自身</color>位于最左側的<color=#ffffff>行動槽</color>的[Aggro]+8(<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若<color=#ffffff>目標</color>的[Vibration]強度不低于15級，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "未照耀的栄光-流水",
+                    "abName": "瑪恩納",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n指定不低于3名<color=#ffffff>目標</color>時，若第1~3枚硬幣未摧毀并命中，則使最后一枚硬幣造成的<color=#ffffff>傷害</color>+<style=\"highlight\">30</style>%(每枚硬幣最多1次，若是<color=#ffffff>集中遭遇戦</color>，則每个<color=#ffffff>部位</color>視作1名<color=#ffffff>目標</color>)\n[WhenUse] 若<color=#ffffff>自身</color>的[MlynarWaiting]層数為40層，則使本技能的<color=#ffffff>基礎威力</color>+1\n\n[BeforeAttack] 消耗所有[MlynarWaiting]并獲得以下效果(所有效果均向下取整)\n- 每消耗10層，使<color=#ffffff>自身</color>獲得1層[DefenseUp](<color=#7C5738>每回合</color>最多1次)\n- 若消耗了40層，則使最后一枚硬幣造成的<color=#ffffff>傷害</color>+<style=\"highlight\">160</style>%，并使<color=#ffffff>自身</color>獲得2層[Protection](<color=#7C5738>每回合</color>最多1次)\n\n[BeforeAttack] 主要<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有6級，則使本技能造成的<color=#ffffff>傷害</color>+3%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-4(最多-16)\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[MlynarWaiting]\n[EndBattle] 若本技能消耗了40層[MlynarWaiting]，則<color=#7C5738>下回合</color>使儀表盤上<color=#ffffff>自身</color>位于最左側的<color=#ffffff>行動槽</color>的[Aggro]+8(<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若<color=#ffffff>目標</color>的[Vibration]強度不低于15級，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

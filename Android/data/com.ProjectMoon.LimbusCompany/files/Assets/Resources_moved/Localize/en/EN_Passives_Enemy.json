@@ -1,0 +1,244 @@
+{
+    "dataList": [
+        {
+            "id": 90001,
+            "name": "虫的肉体",
+            "desc": "<color=#7C5738>回合結束</color>時，恢復5点<color=#61DA61>体力</color>。"
+        },
+        {
+            "id": 90002,
+            "name": "補充養分",
+            "desc": "<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，恢復20点<color=#61DA61>体力</color>，且<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得5層忍耐 。"
+        },
+        {
+            "id": 90003,
+            "name": "利刃",
+            "desc": "攻撃命中時，使<color=#ffffff>目標</color>増加1~2級流血 強度。\n<color=#7C5738>回合開始</color>時，優先攻撃帯有標記 的角色。"
+        },
+        {
+            "id": 90004,
+            "name": "士气低落",
+            "desc": "每当<color=#ffffff>友方単位</color>陣亡時，対<color=#ffffff>自身</color>永久施加1層<color=#ffffff>易損</color> 。"
+        },
+        {
+            "id": 90005,
+            "name": "懲戒",
+            "desc": "<color=#61DA61>体力</color>不高于50%時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得5層強壮 。"
+        },
+        {
+            "id": 90006,
+            "name": "精神波動",
+            "desc": "攻撃命中時，使<color=#ffffff>目標</color>失去10点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 9000101,
+            "name": "負傷的強化肉体",
+            "desc": "<color=#7C5738>回合開始</color>時，若現存<color=#61DA61>体力</color>低于50%，則使<color=#ffffff>自身</color>恢復1点<color=#61DA61>体力</color>。"
+        },
+        {
+            "id": 9000102,
+            "name": "強化肉体",
+            "desc": "<color=#7C5738>回合開始</color>時，若現存<color=#61DA61>体力</color>低于50%，則使<color=#ffffff>自身</color>恢復2点<color=#61DA61>体力</color>。"
+        },
+        {
+            "id": 9000103,
+            "name": "被侵蝕的強化肉体",
+            "desc": "<color=#7C5738>回合開始</color>時，若現存<color=#61DA61>体力</color>低于50%，則使<color=#ffffff>自身</color>恢復4点<color=#61DA61>体力</color>。"
+        },
+        {
+            "id": 9100301,
+            "name": "老大哥",
+            "desc": "本単位陣亡時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>失去45点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 9100302,
+            "name": "小宰子們！",
+            "desc": "每当<color=#ffffff>友方単位</color>陣亡時，本角色失去15点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 9100401,
+            "name": "派対時間",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復10点<color=#81BBE8>理智値</color>。\n若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于20点，則獲得1層強壮 和1層忍耐 。"
+        },
+        {
+            "id": 9100402,
+            "name": "派対結束",
+            "desc": "本単位陣亡時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>失去45点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 9002801,
+            "name": "HP彈",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>恢復15点<color=#61DA61>体力</color>。\n若現存<color=#61DA61>体力</color>低于50%，則使<color=#ffffff>自身</color>額外恢復15点<color=#61DA61>体力</color>。"
+        },
+        {
+            "id": 9003201,
+            "name": "高貴的犠牲在此",
+            "desc": "<color=#ffffff>友方単位</color>陣亡時，<color=#7C5738>下回合</color>開始時使<color=#ffffff>自身</color>獲得1層強壮 。"
+        },
+        {
+            "id": 9003801,
+            "name": "処刑的歓喜",
+            "desc": "<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>后，<color=#7C5738>下回合</color>開始時使<color=#ffffff>自身</color>獲得2層傷害強化 。"
+        },
+        {
+            "id": 9100501,
+            "name": "執柄者之錘",
+            "desc": "<color=#7C5738>回合開始</color>時，若本単位存活，則使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復10点<color=#81BBE8>理智値</color>。\n当本単位陣亡時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>失去45点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 9100601,
+            "name": "執念",
+            "desc": "若<color=#61DA61>体力</color>降至50%以下，則<color=#7C5738>下回合</color>開始時解除<color=#ffffff>自身</color>的所有負面状態，并在<color=#7C5738>每回合</color>獲得4層狂信 ，1層強壮 与1層忍耐 。"
+        },
+        {
+            "id": 9100502,
+            "name": "汝当錘",
+            "desc": "<color=#ffffff>自身</color>帯有狂信 時，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+50%。"
+        },
+        {
+            "id": 9004601,
+            "name": "机械精神",
+            "desc": "<color=#81BBE8>理智値</color>固定為0。"
+        },
+        {
+            "id": 9004602,
+            "name": "堅固外殻",
+            "desc": "受到的<sprite name=\"Laceration\"><color=#f8c200><u><link=\"Laceration\">流血</color></link></u>及<sprite name=\"Combustion\"><color=#f8c200><u><link=\"Combustion\">焼傷</color></link></u>傷害減半。"
+        },
+        {
+            "id": 9004603,
+            "name": "注意揺晃",
+            "desc": "震顫引爆 対<color=#ffffff>自身</color>造成的<color=#ffffff>混乱閾値</color>前移量 +50%"
+        },
+        {
+            "id": 9004604,
+            "name": "注意損傷",
+            "desc": "破裂 效果対<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+30%(向下取整)"
+        },
+        {
+            "id": 9004901,
+            "name": "破裂功能受損",
+            "desc": "陷入混乱后，此后施加的破裂 強度，破裂 層数減少1"
+        },
+        {
+            "id": 9005001,
+            "name": "震顫功能受損",
+            "desc": "陷入混乱后，此后施加的震顫 強度，震顫 層数減少1"
+        },
+        {
+            "id": 9100701,
+            "name": "攻撃功能過熱",
+            "desc": "<color=#ffffff>自身</color>的攻撃使<color=#ffffff>目標</color>陷入混乱時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層傷害強化 "
+        },
+        {
+            "id": 9100702,
+            "name": "破裂功能完全受損",
+            "desc": "陷入混乱后，此后施加的破裂 強度，破裂 層数減少3"
+        },
+        {
+            "id": 9100703,
+            "name": "震顫功能完全受損",
+            "desc": "陷入混乱后，此后施加的震顫 強度，震顫 層数減少3"
+        },
+        {
+            "id": 9100801,
+            "name": "板手啓動",
+            "desc": "<color=#7C5738>本回合</color>中，根据正面命中的硬幣数，獲得相應層数的共振 。(最多10層)"
+        },
+        {
+            "id": 9100802,
+            "name": "玫瑰板手工坊代表",
+            "desc": "在本波次中，根据陣亡的<color=#ffffff>友方単位</color>数量使<color=#ffffff>目標</color>額外増加相應震顫 強度"
+        },
+        {
+            "id": 9100803,
+            "name": "就剩我了麼",
+            "desc": "単独在場時，<color=#7C5738>每回合</color>獲得1層共振 和1層震顫同步 。"
+        },
+        {
+            "id": 9100804,
+            "name": "那就没辦法了",
+            "desc": "単独在場時，将最后攻撃<color=#ffffff>自身</color>的<color=#ffffff>目標</color>指定為<color=#7C5738>下回合</color>的攻撃<color=#ffffff>目標</color>。"
+        },
+        {
+            "id": 9100901,
+            "name": "絞纏的咒符",
+            "desc": "根据<color=#7C5738>本回合</color>内拼点次数，獲得相應層数的糾纏的咒符 。"
+        },
+        {
+            "id": 9100902,
+            "name": "梱縛的咒符",
+            "desc": "若帯有10層糾纏的咒符 ，則消耗所有層数并使<color=#ffffff>自身</color><color=#ffffff>混乱閾値</color>前移10。"
+        },
+        {
+            "id": 9100903,
+            "name": "増殖的咒符",
+            "desc": "<color=#61DA61>体力</color>不高于30%時，令<color=#ffffff>自身</color>施加的復貼的咒符 層数額外+1層"
+        },
+        {
+            "id": 9100904,
+            "name": "侵蝕的咒符",
+            "desc": "<color=#61DA61>体力</color>不高于30%時，<color=#ffffff>自身</color>攻撃結束后，若<color=#ffffff>目標</color>的復貼的咒符 層数不低于5層，則<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層麻痹 "
+        },
+        {
+            "id": 9006201,
+            "name": "流淌的憂郁",
+            "desc": "反面命中時，使<color=#ffffff>目標</color>増加2級沈淪 強度"
+        },
+        {
+            "id": 9006202,
+            "name": "満溢而出的哀傷",
+            "desc": "<color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>失去5点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 9006101,
+            "name": "醉意",
+            "desc": "当帯有5層昂揚 時，使<color=#ffffff>自身</color>獲得5層醉意 。"
+        },
+        {
+            "id": 9006102,
+            "name": "醒酒",
+            "desc": "帯有5層醉意 時，使用守備技能。"
+        },
+        {
+            "id": 9006801,
+            "name": "注射恢復安瓶",
+            "desc": "<color=#7C5738>回合開始</color>時，恢復20点<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 9006802,
+            "name": "緊急注射安瓶",
+            "desc": "<color=#61DA61>体力</color>低于25%時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至<color=#61DA61>体力</color>上限的40%(最多1次)"
+        },
+        {
+            "id": 9007001,
+            "name": "黄金時間",
+            "desc": "<color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>為12%~24%，則立即使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限65%的<color=#61DA61>体力</color>。解除<color=#ffffff>自身</color>的混乱。(最多1次)"
+        },
+        {
+            "id": 9007002,
+            "name": "時間逆向回溯",
+            "desc": "触発黄金時間后，<color=#7C5738>回合結束</color>時対<color=#ffffff>自身</color>施加3層<color=#ffffff>易損</color> "
+        },
+        {
+            "id": 9005401,
+            "name": "恐怖装置",
+            "desc": "<color=#ffffff>友方単位</color>攻撃<color=#ffffff>友方単位</color>時，造成3点理智<color=#ffffff>傷害</color>。"
+        },
+        {
+            "id": 9006901,
+            "name": "注射恢復安瓶",
+            "desc": "<color=#7C5738>回合開始</color>時，恢復20点<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 9006902,
+            "name": "緊急注射安瓶",
+            "desc": "<color=#61DA61>体力</color>低于25%時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至<color=#61DA61>体力</color>上限的40%(最多1次)"
+        },
+        {
+            "id": 9006803,
+            "name": "緊急安瓶過量",
+            "desc": "<color=#ffffff>自身</color>的<color=#61DA61>体力</color>不会低于1点。\n<color=#7C5738>回合開始</color>時，若現存<color=#61DA61>体力</color>不高于60点，則進入強化状態。"
+        }
+    ]
+}

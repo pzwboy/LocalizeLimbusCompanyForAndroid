@@ -1,0 +1,134 @@
+{
+    "dataList": [
+        {
+            "id": 139001,
+            "name": "血祭開幕",
+            "desc": "終末土偶被全部<color=#7C5738>撃殺</color>后，進入下一階段"
+        },
+        {
+            "id": 139003,
+            "name": "火祭開幕",
+            "desc": "手臂被全部破坏，或本体<color=#61DA61>体力</color>不高于70%時，進入下一階段"
+        },
+        {
+            "id": 139004,
+            "name": "熱气",
+            "desc": "第3階段期間，<color=#7C5738>每回合</color>使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加7級[Combustion]強度"
+        },
+        {
+            "id": 139006,
+            "name": "星祭開幕",
+            "desc": "本体<color=#61DA61>体力</color>不高于25%時，進入下一階段"
+        },
+        {
+            "id": 139101,
+            "name": "偶像崇拜",
+            "desc": "<color=#61DA61>体力</color>帰零時不会陣亡，并成為无法行動且不可選取的状態\n終末日暦被鎮圧時将被一并鎮圧"
+        },
+        {
+            "id": 139301,
+            "name": "回現的過去",
+            "desc": "若<color=#ffffff>自身</color>的[AccumulatedPast]層数不低于50層，且本体<color=#61DA61>体力</color>不高于80%，則在<color=#7C5738>回合結束</color>時消耗50層[AccumulatedPast]，并使本体恢復200点<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 139302,
+            "name": "消逝的過去",
+            "desc": "躯干<color=#ffffff>部位</color>被破坏后，消耗所有[AccumulatedPast]\n躯干<color=#ffffff>部位</color>被破坏后，<color=#7C5738>下回合</color>起使躯干<color=#ffffff>部位</color>的所有罪孼抗性与物理抗性在本場戦斗中全部変為“抵抗”(0.5)"
+        },
+        {
+            "id": 139303,
+            "name": "被破坏的排气口",
+            "desc": "蒸汽槍<color=#ffffff>部位</color>被破坏時，消耗所有<color=#ffffff>部位</color>的[Breath]強度\n蒸汽槍<color=#ffffff>部位</color>被破坏后，每当使<color=#ffffff>自身</color>増加[Breath]強度時，都会対<color=#ffffff>自身</color>施加層数相当于[Breath]強度的[Vulnerable]\n蒸汽槍<color=#ffffff>部位</color>被破坏后，每次使用攻撃技能都会使<color=#ffffff>自身</color>失去1級[Breath]強度"
+        },
+        {
+            "id": 139304,
+            "name": "蒸汽泄漏",
+            "desc": "蒸汽槍<color=#ffffff>部位</color>受到攻撃時，使<color=#ffffff>自身</color>失去1級[Breath]強度与1層[Breath]"
+        },
+        {
+            "id": 139305,
+            "name": "節拍器",
+            "desc": "[AccumulatedPast]層数為奇数時，対<color=#ffffff>自身</color>施加3層[Vulnerable]并使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]\n層数為偶数時，使<color=#ffffff>自身</color>獲得3層[Protection]并対<color=#ffffff>自身</color>施加3層[AttackDmgDown]"
+        },
+        {
+            "id": 139401,
+            "name": "幸福的鶏",
+            "desc": "<color=#7C5738>回合結束</color>時，根据参戦的生鶏数量，使<color=#ffffff>自身</color>恢復(生鶏数量×5)的<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 139402,
+            "name": "憂郁的鶏",
+            "desc": "<color=#7C5738>回合結束</color>時，根据参戦的生鶏数量，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>失去(生鶏数量×5)点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 139403,
+            "name": "衰弱的鶏",
+            "desc": "<color=#ffffff>部位</color>被破坏時，根据直到<color=#ffffff>部位</color>被破坏為止陣亡的生鶏数量，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加相應層数的[Vulnerable]"
+        },
+        {
+            "id": 139404,
+            "name": "変強的鶏",
+            "desc": "未進入<color=#ffffff>部位</color>破坏状態時，<color=#7C5738>每回合</color>根据存活的生鶏数量獲得相應層数的[AttackDmgUp]"
+        },
+        {
+            "id": 139501,
+            "name": "小鳳小鳳到処走動",
+            "desc": "<color=#7C5738>回合結束</color>時，随机使1名<color=#ffffff>敵方単位</color>失去3点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 139701,
+            "name": "小鳳小鳳力量爆棚",
+            "desc": "<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層[AttackDmgUp]与2層[Protection]"
+        },
+        {
+            "id": 141001,
+            "name": "血嚢",
+            "desc": "若<color=#ffffff>自身</color>帯有[BloodPocket]，則使躯干的<color=#FE0100>暴怒</color>抗性-50%，<color=#1BC7F0>憂郁</color>抗性+50%"
+        },
+        {
+            "id": 141002,
+            "name": "液嚢",
+            "desc": "若<color=#ffffff>自身</color>帯有[WaterPocket]，則使本体恢復(該效果層数×20)点<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 141003,
+            "name": "撕裂的血嚢",
+            "desc": "躯干<color=#ffffff>部位</color>被破坏后，拼点勝利時，触発<color=#ffffff>敵方単位</color>的[Laceration]1次，并使其[Laceration]層数減少1層 "
+        },
+        {
+            "id": 141004,
+            "name": "乱拍",
+            "desc": "若<color=#ffffff>目標</color>使用与<color=#ffffff>自身</color>相同物理属性的技能拼点，則使<color=#ffffff>目標</color>獲得1層[PlayingWithWaterTogetherMirror](每个技能最多1次，<color=#7C5738>每回合</color>最多3次)\n- 若該技能為<color=#ffffff>打撃</color>技能，則改為獲得2層[PlayingWithWaterTogetherMirror]"
+        },
+        {
+            "id": 141101,
+            "name": "液嚢",
+            "desc": "若<color=#ffffff>自身</color>帯有[WaterPocket]，則使本体恢復(該效果層数×30)点<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 141102,
+            "name": "撕裂的血嚢",
+            "desc": "躯干<color=#ffffff>部位</color>被破坏后，拼点勝利時，触発<color=#ffffff>敵方単位</color>的[Laceration]2次，并使其[Laceration]層数減少2層"
+        },
+        {
+            "id": 141201,
+            "name": "血嚢",
+            "desc": "若<color=#ffffff>自身</color>帯有[BloodPocket]，則使躯干的<color=#FE0100>暴怒</color>抗性-35%，<color=#1BC7F0>憂郁</color>抗性+35%"
+        },
+        {
+            "id": 141202,
+            "name": "液嚢",
+            "desc": "若<color=#ffffff>自身</color>帯有[WaterPocket]，則使本体恢復(該效果層数×35)点<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 141203,
+            "name": "撕裂的血嚢",
+            "desc": "躯干<color=#ffffff>部位</color>被破坏后，拼点勝利時，触発<color=#ffffff>敵方単位</color>的[Laceration]3次，并使其[Laceration]層数減少3層 "
+        },
+        {
+            "id": 141204,
+            "name": "拍拍拍",
+            "desc": "若<color=#ffffff>目標</color>未帯有[PlayingWithWaterTogetherMirror]，獲得以下效果：\n- 造成的<color=#ffffff>傷害</color>+80%\n- <color=#ffffff>自身</color>技能的最后一枚硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層\n\n若<color=#ffffff>目標</color>帯有[PlayingWithWaterTogetherMirror]，獲得以下效果：\n- 造成的<color=#ffffff>傷害</color>-50%\n- <color=#ffffff>目標</color>每帯有1層[PlayingWithWaterTogetherMirror]，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+10%(最多+100%)\n\n若没有単位帯有[PlayingWithWaterTogetherMirror]，獲得以下效果：\n- <color=#ffffff>自身</color>的技能命中時，使<color=#ffffff>目標</color>増加5級[Laceration]強度\n- <color=#ffffff>自身</color>技能的最后一枚硬幣命中時，触発<color=#ffffff>目標</color>的[Laceration]1次，并使<color=#ffffff>目標</color>的[Laceration]層数減少1層"
+        }
+    ]
+}

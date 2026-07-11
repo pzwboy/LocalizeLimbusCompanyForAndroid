@@ -1,0 +1,368 @@
+{
+    "dataList": [
+        {
+            "id": "loginui_sign_in_with_google",
+            "content": "Google登録"
+        },
+        {
+            "id": "loginui_sign_in_with_apple",
+            "content": "Apple登録"
+        },
+        {
+            "id": "loginui_sign_in_with_steam",
+            "content": "Steam登録"
+        },
+        {
+            "id": "loginui_sign_in_with_guest",
+            "content": "游客登録"
+        },
+        {
+            "id": "loginui_sign_out_current_account",
+            "content": "登出"
+        },
+        {
+            "id": "loginui_sign_out_current_account_desc",
+            "content": "登出現有的帳戸麼？\n如果正以游客身分登録，帳戸数据可能会棄失。"
+        },
+        {
+            "id": "loginui_sign_out_switch_account_desc",
+            "content": "登出現有的帳戸\n并登録選擇的帳戸麼？\n如果正以游客身分登録，帳戸数据可能会棄失。"
+        },
+        {
+            "id": "switch_account",
+            "content": "切換帳号"
+        },
+        {
+            "id": "user_agreements",
+            "content": "服務条款"
+        },
+        {
+            "id": "title_game_data_download",
+            "content": "下載游戯数据"
+        },
+        {
+            "id": "content_game_data_download",
+            "content": "需要下載{0}的数据。"
+        },
+        {
+            "id": "content_game_data_download_description",
+            "content": "当設備空間不足時，将会返回標題界面。"
+        },
+        {
+            "id": "content_game_data_download_recommend",
+            "content": "推荐在Wi-Fi環境下進行下載。"
+        },
+        {
+            "id": "switch_allcacheclear",
+            "content": "清除所有緩存"
+        },
+        {
+            "id": "switch_oldcacheclear",
+            "content": "清除旧緩存"
+        },
+        {
+            "id": "networkingerror_content",
+            "content": "网絡連接不穏定。\n請檢査网絡状態。"
+        },
+        {
+            "id": "networkingerror_close",
+            "content": "関閉"
+        },
+        {
+            "id": "networkingerror_retry",
+            "content": "重試"
+        },
+        {
+            "id": "loginui_ok",
+            "content": "確認"
+        },
+        {
+            "id": "login_cancel",
+            "content": "取消"
+        },
+        {
+            "id": "loginui_loading_battlehint",
+            "content": "戦斗小貼士"
+        },
+        {
+            "id": "servererror_content",
+            "content": "服務器発生錯誤。\n請稍后再試。"
+        },
+        {
+            "id": "forcequit_content",
+            "content": "游戯无法運行。\n即将関閉游戯。"
+        },
+        {
+            "id": "serverstate_openpreparation",
+            "content": "正在准備中。"
+        },
+        {
+            "id": "serverstate_regularcheck",
+            "content": "服務器正在例行維護。"
+        },
+        {
+            "id": "serverstate_temporary_check",
+            "content": "服務器正在臨時維護。"
+        },
+        {
+            "id": "serverstate_verify_invaliduser",
+            "content": "帳戸不存在或已被停用。"
+        },
+        {
+            "id": "serverstate_verify_ban",
+            "content": "帳戸被封禁。"
+        },
+        {
+            "id": "serverstate_verify_invalidauth",
+            "content": "発生錯誤。\n請重新登録。"
+        },
+        {
+            "id": "guestlogin_failed_try_newguest",
+            "content": "游客帳号登録失敗。\n該帳号已被関聯，或該帳号不存在。\n\n要創建新帳号麼？"
+        },
+        {
+            "id": "secession_remain_days",
+            "content": "該帳号将在倒計時結束后停用。\n剩余時間：{0}天{1}小時{2}分\n\n可以通過進行登録来恢復帳号。\n要恢復帳号麼？"
+        },
+        {
+            "id": "secession_canceled",
+            "content": "帳号恢復成功。"
+        },
+        {
+            "id": "serverstate_verify_invalidclientversion",
+            "content": "当前游戯客戸端不是最新版本。\n請更新客戸端。"
+        },
+        {
+            "id": "create_guest",
+            "content": "創建游客帳戸"
+        },
+        {
+            "id": "ask_to_remove_all_cache",
+            "content": "要清除所有緩存麼？"
+        },
+        {
+            "id": "networkingerror_update",
+            "content": "跳轉至商店"
+        },
+        {
+            "id": "speed_hack_warning",
+            "content": "発現使用未經授権的第三方程序。"
+        },
+        {
+            "id": "serverstate_verify_ban_startdate",
+            "content": "日期"
+        },
+        {
+            "id": "serverstate_verify_ban_reason",
+            "content": "理由"
+        },
+        {
+            "id": "serverstate_verify_ban_reason_refund",
+            "content": "濫用公開市場退款制度"
+        },
+        {
+            "id": "serverstate_verify_ban_reason_cheat",
+            "content": "不正当游戯使用記録"
+        },
+        {
+            "id": "serverstate_blocking_endpoint",
+            "content": "該功能正在維護。"
+        },
+        {
+            "id": "serverstate_verify_invaliduuid",
+            "content": "該請求已被処理。\n請重啓游戯，以便進行同步。"
+        },
+        {
+            "id": "login_scene_mini_story_warning_spoiler_format",
+            "content": "本劇情包含主綫第{0}章以后的内容。請問是否継續？"
+        },
+        {
+            "id": "login_scene_mini_story_unlock_code_105",
+            "content": "5"
+        },
+        {
+            "id": "login_scene_mini_story_unlock_code_9105",
+            "content": "5.5"
+        },
+        {
+            "id": "switch_clearcatalog",
+            "content": "清除目録"
+        },
+        {
+            "id": "panel_clearcatalog",
+            "content": "要清除目録麼？"
+        },
+        {
+            "id": "serverstate_error_thirdparty_api",
+            "content": "外部服務器通訊連接錯誤。請稍后重試。"
+        },
+        {
+            "id": "servererror_invalid_purchasing_package",
+            "content": "商品交易失敗。"
+        },
+        {
+            "id": "forcequit_cache_initialize_fail",
+            "content": "游戯客戸端无法正常啓動。\n請確認网絡状態并重試。\n咨詢：limbussupport+bug@projmoon.com"
+        },
+        {
+            "id": "push_notification_message_full_stamina_default_title",
+            "content": "辺獄公司"
+        },
+        {
+            "id": "push_notification_message_full_stamina_default_text",
+            "content": "脳啡汰補充完畢。"
+        },
+        {
+            "id": "push_notification_message_full_stamina_1_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_1_text",
+            "content": "不必覚得異常。我只是前来通知脳啡汰已經補充完畢……以上。"
+        },
+        {
+            "id": "push_notification_message_full_stamina_2_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_2_text",
+            "content": "脳啡汰已充満，執行經理。為了更有效率地使用，推荐宁将其轉換為模塊。"
+        },
+        {
+            "id": "push_notification_message_full_stamina_3_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_3_text",
+            "content": "燃料箱几乎要爆炸了，經理老爺啊啊！！！汝在這理應冒険之時砲去何処了！！！"
+        },
+        {
+            "id": "push_notification_message_full_stamina_4_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_4_text",
+            "content": "脳·汰·充·畢。（脳啡汰補充完畢。）"
+        },
+        {
+            "id": "push_notification_message_full_stamina_5_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_5_text",
+            "content": "脳啡汰已補充完畢，經理。"
+        },
+        {
+            "id": "push_notification_message_full_stamina_6_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_6_text",
+            "content": "哇~脳啡汰已經補充好了捏~要去確認一下麼？"
+        },
+        {
+            "id": "push_notification_message_full_stamina_7_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_7_text",
+            "content": "那什么。脳飛……？總之就那个緑色的燃料，那玩意補充好了。快看看去。"
+        },
+        {
+            "id": "push_notification_message_full_stamina_8_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_8_text",
+            "content": "脳啡汰補充完畢……唔，看様子巴士又能啓程了。快出発叭。"
+        },
+        {
+            "id": "push_notification_message_full_stamina_9_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_9_text",
+            "content": "但丁~脳啡汰已經補充満拉。不快点轉換成模塊可就没法再讃了~"
+        },
+        {
+            "id": "push_notification_message_full_stamina_11_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_11_text",
+            "content": "經理……宁在忙麼？不、不是什么大事……只是脳啡汰好像快溢出了……"
+        },
+        {
+            "id": "push_notification_message_full_stamina_12_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_12_text",
+            "content": "向宁匯报，執行經理。脳啡汰已補充完畢。推荐宁進行消耗或屯積。"
+        },
+        {
+            "id": "push_notification_message_full_stamina_13_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_13_text",
+            "content": "挨，經理兄！那什么，巴士的燃料都装満了……要不要去確認下？"
+        },
+        {
+            "id": "push_notification_message_full_stamina_14_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_14_text",
+            "content": "休息時間已經結束了，執行經理但丁。不要譲巴士原地停留太久。"
+        },
+        {
+            "id": "push_notification_message_full_stamina_15_title",
+            "content": "脳啡汰已補充"
+        },
+        {
+            "id": "push_notification_message_full_stamina_15_text",
+            "content": "梅菲吃飽了。峠戎，可以布隆布隆了。"
+        },
+        {
+            "id": "custom_localize_button",
+            "content": "選擇自定義語言"
+        },
+        {
+            "id": "custom_localize_title",
+            "content": "選擇自定義語言"
+        },
+        {
+            "id": "custom_localize_desc",
+            "content": "※ 更改語言需要重啓游戯来使改変生效。"
+        },
+        {
+            "id": "steam_overlay_cannot_activate_title",
+            "content": "Steam交易錯誤"
+        },
+        {
+            "id": "steam_overlay_cannot_activate_text",
+            "content": "請在 Steam設置 - 游戯 中\n勾選 [在游戯中啓用Steam畳加頁面] 選項，\n然后重啓游戯。"
+        },
+        {
+            "id": "servererror_remain_restore_purchasing",
+            "content": "仍有正在処理的交易。\n請点撃 [恢復購買] 按鈕并重試。"
+        },
+        {
+            "id": "invalid_login_no_guest_uid",
+            "content": "游客帳号不存在，\n或已注銷。"
+        },
+        {
+            "id": "invalid_login_is_not_guest",
+            "content": "該游客帳号已有関聯的平台。\n請点撃 [切換帳号] 按鈕，从已関聯的平台登録。"
+        },
+        {
+            "id": "try_new_guest",
+            "content": "要創建一个新游客帳号麼？"
+        },
+        {
+            "id": "need_verify_integrity_steam",
+            "content": "檢測到部分資源缺失。\n請運行Steam的“驗証游戯文件完整性”功能。"
+        }
+    ]
+}

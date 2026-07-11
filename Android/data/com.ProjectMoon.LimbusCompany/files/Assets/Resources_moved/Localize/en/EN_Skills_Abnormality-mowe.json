@@ -1,0 +1,227 @@
+{
+    "dataList": [
+        {
+            "id": 835001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "臣服于我",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 835002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "微不足道",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 835003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "走開…走開…！",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] <color=#ffffff>目標</color>每帯有1層[Laceration]，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+20%)",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加8級[Laceration]強度并対其施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 835004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "游行的王子",
+                    "desc": "[StartBattle] 每有1名帯有[Laceration]的<color=#ffffff>目標</color>，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+5)\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[DefeatDuel] 使<color=#ffffff>自身</color>失去1層[KeptBlood]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 835005,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "血…血…血…！",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于8級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[DefeatDuel] 使<color=#ffffff>自身</color>失去1層[KeptBlood]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度并対其施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于10級，則使本技能下一枚硬幣造成的<color=#ffffff>傷害</color>+20%"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[KeptBlood]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Binding]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 835006,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "离我遠点…！",
+                    "desc": "[WhenUseEvade] <color=#ffffff>目標</color>每帯有1層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+4)",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 835007,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "我就是…這場游行的…王子…！",
+                    "desc": "[CantDuel]\n[WhenUse] 使硬血[TabExplain]長柄刀恢復的<color=#61DA61>体力</color>変為2倍\n[WhenUse] 使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為0点\n[EndSkill] 使<color=#ffffff>自身</color>獲得10層[KeptBlood]\n<color=#7C5738>本回合</color><color=#ffffff>自身</color>不会陷入混乱，使用本技能后結束<color=#7C5738>本回合</color>。",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 835008,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "絶対…不会回去…！",
+                    "desc": "[WhenUse] 主要<color=#ffffff>目標</color>每帯有5級[Laceration]強度，使本技能的<color=#ffffff>拼点威力</color>+1(最多+3)\n[WhenUse] 若主要<color=#ffffff>目標</color>的[Laceration]層数不低于4層，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 主要<color=#ffffff>目標</color>每帯有1層[Laceration]，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+20%)\n[WhenUse] 使硬血[TabExplain]長柄刀恢復的<color=#61DA61>体力</color>変為2倍\n[EndSkill] 使<color=#ffffff>自身</color>獲得10層[KeptBlood]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
