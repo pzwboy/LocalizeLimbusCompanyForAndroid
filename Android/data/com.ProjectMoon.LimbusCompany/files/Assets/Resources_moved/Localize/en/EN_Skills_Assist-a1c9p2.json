@@ -1,0 +1,170 @@
+{
+    "dataList": [
+        {
+            "id": 40000601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "牽制",
+                    "desc": "<color=#ffffff>目標</color>每帯有1種負面状態，使本技能造成的<color=#ffffff>傷害</color>+50%(最多+100%)\n[WhenUse] <color=#ffffff>目標</color>的[Laceration]強度与[Vibration]強度之和每有2級，使本技能的<color=#ffffff>基礎威力</color>+1(最多+5)\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "二連切",
+                    "desc": "<color=#ffffff>目標</color>每帯有1種負面状態，使本技能造成的<color=#ffffff>傷害</color>+50%(最多+100%)\n[WhenUse] <color=#ffffff>目標</color>的[Laceration]強度与[Vibration]強度之和每有2級，使本技能的<color=#ffffff>基礎威力</color>+1(最多+5)\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "標槍投擲",
+                    "desc": "<color=#ffffff>目標</color>每帯有1種負面状態，使本技能造成的<color=#ffffff>傷害</color>+50%(最多+200%)\n[WhenUse] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[CriticalDmgUpVespa]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加[BeeSting]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>的<color=#ffffff>混乱閾値</color>前移本硬幣<color=#ffffff>傷害</color>量的80%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "標槍深埋-就在那里叭。",
+                    "desc": "[CantChangeTarget]\n<color=#ffffff>目標</color>每帯有1種負面状態，使本技能造成的<color=#ffffff>傷害</color>+50%(最多+300%)\n[WhenUse] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得5層[CriticalDmgUpVespa]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加[ArtifactBeeSting]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>陷入混乱"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "標槍回收",
+                    "desc": "[CantDuel]\n<color=#ffffff>目標</color>每帯有1種負面状態，使本技能造成的<color=#ffffff>傷害</color>+50%(最多+200%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 解除<color=#ffffff>目標</color>的穿刺標槍 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000606,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "該反撃了。",
+                    "desc": "[DuelCounter]\n目標每帯有1種負面状態，使本技能造成的傷害+50%(最多+100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>使自身獲得1層[SupportProtect]</u></b></mark></color>\n[WhenUse] 下回合使自身獲得2層[ResultEnhancement]与2層[AttackDmgUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000607,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "我来援護。",
+                    "desc": "[CanDuelGuard]\n[SupportProtect]専用技能",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

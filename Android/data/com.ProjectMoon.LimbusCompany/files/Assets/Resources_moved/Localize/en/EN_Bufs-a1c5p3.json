@@ -1,0 +1,132 @@
+{
+    "dataList": [
+        {
+            "id": "AaCePcBa",
+            "name": "標識",
+            "desc": "優先成為攻撃指定<color=#ffffff>目標</color>。\n受到攻撃時，使<color=#ffffff>自身</color>獲得的焼傷 強度与対<color=#ffffff>自身</color>施加的焼傷 層数変為2倍",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBb",
+            "name": "熒光灯碎片",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>増加3級呼吸法 強度并使<color=#ffffff>自身</color>獲得2層呼吸法 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBc",
+            "name": "盲目",
+            "desc": "層数不低于3層時陷入混乱。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBg",
+            "name": "幼虫",
+            "desc": "<color=#7C5738>回合結束</color>時，将幼虫 轉移給現存<color=#61DA61>体力</color>最高的1名<color=#ffffff>友方単位</color>。\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>失去等同于層数的<color=#81BBE8>理智値</color>。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBh",
+            "name": "緑色黏液",
+            "desc": "每当本效果的層数減少時，<color=#7C5738>下回合</color>生成緑色黏液 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBi",
+            "name": "粗重喘息",
+            "desc": "<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>失去5層呼吸法 \n造成与受到的<color=#ffffff>傷害</color>+50%",
+            "summary": "造成与受到的<color=#ffffff>傷害</color>+50%",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBj",
+            "name": "猟物標記",
+            "desc": "成為<color=#ffffff>全体</color>裴廓德号船員的攻撃<color=#ffffff>目標</color>\n受到来自裴廓德号船員的<color=#ffffff>傷害</color>+50%",
+            "summary": "受到来自裴廓德号船員的<color=#ffffff>傷害</color>+50%",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBk",
+            "name": "梱縛",
+            "desc": "若施加給帯有捕獲 的<color=#ffffff>目標</color>，則使<color=#ffffff>目標</color>陷入混乱",
+            "summary": "条件満足時使<color=#ffffff>目標</color>陷入混乱",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBl",
+            "name": "捕獲",
+            "desc": "若施加給帯有梱縛 的<color=#ffffff>目標</color>，則使<color=#ffffff>目標</color>陷入混乱",
+            "summary": "条件満足時使<color=#ffffff>目標</color>陷入混乱",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBn",
+            "name": "不可抗拒的命令",
+            "desc": "使用技能時，失去現存<color=#61DA61>体力</color>10%的<color=#61DA61>体力</color>。技能<color=#ffffff>最終威力</color>+1\n命中時，使亞哈恢復8点<color=#81BBE8>理智値</color>，并使<color=#ffffff>自身</color>与亞哈各増加2級呼吸法 強度",
+            "summary": "使用技能時失去<color=#61DA61>体力</color>，技能<color=#ffffff>最終威力</color>+1",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBo",
+            "name": "比普的自我",
+            "desc": "<color=#7C5738>回合開始</color>時，每帯有1層本效果，使<color=#ffffff>自身</color>恢復3点<color=#81BBE8>理智値</color>。\n閃避失敗時或使用技能“負罪感的重量”時減少本效果層数。\n<color=#7C5738>回合結束</color>時，若本效果層数為0，則使<color=#ffffff>自身</color>陷入混乱。",
+            "summary": "根据本效果的層数按比例恢復<color=#81BBE8>理智値</color>。閃避失敗時或使用特定技能時減少層数。",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBp",
+            "name": "斯達巴克的自我",
+            "desc": "<color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>獲得1層守護 。\n与帯有猟物標記 的<color=#ffffff>目標</color>拼点失敗摧毀硬幣時減少本效果層数。\n<color=#7C5738>回合結束</color>時，若本效果層数為0，則使<color=#ffffff>自身</color>陷入混乱。",
+            "summary": "根据本效果的層数按比例獲得守護 。与特定<color=#ffffff>目標</color>拼点失敗時減少層数。",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBq",
+            "name": "魁魁格的自我",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，増加本效果層数\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>未帯有<color=#81BBE8>護盾</color>或使用技能：褪色的懺悔時，減少本效果層数。\n<color=#7C5738>回合結束</color>時，若本效果層数為0，則使<color=#ffffff>自身</color>陷入混乱。",
+            "summary": "<color=#7C5738>回合結束</color>時，根据是否帯有<color=#81BBE8>護盾</color>，使本效果層数増加或減少。",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBe",
+            "iconID": "AaCePbBb",
+            "name": "蒼白恐慌",
+            "desc": "<color=#81BBE8>理智値</color>減少效率 +2",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBf",
+            "name": "蒼白恐慌",
+            "iconID": "AaCePbBb",
+            "desc": "<color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加2層束縛 。\n<color=#ffffff>自身</color>所有硬幣的朝向都必定是反面。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBr",
+            "name": "援護護盾",
+            "desc": "受到<color=#ffffff>傷害</color>時，根据<color=#ffffff>傷害</color>量相應減少本效果層数。\n<color=#7C5738>回合結束</color>時本效果不会解除。\n若亞哈処于1階段，<color=#7C5738>回合結束</color>時，若本效果層数為0，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>陷入混乱。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBs",
+            "name": "援護防御",
+            "desc": "将以亞哈為攻撃<color=#ffffff>目標</color>的技能，<color=#ffffff>目標</color>轉移為<color=#ffffff>自身</color>的<color=#ffffff>行動槽</color>。\n帯有本效果的角色<color=#ffffff>自身</color><color=#ffffff>行動槽</color>的<color=#ffffff>行動槽</color>容量為无限。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AaCePcBt",
+            "name": "援護攻撃",
+            "desc": "亞哈的攻撃技能結束時，対亞哈攻撃的<color=#ffffff>目標</color>進行一次単方面攻撃。\n此時使用的攻撃技能与“听从命令…”具有相同的攻撃等級，<color=#ffffff>硬幣效果</color>，変動値。",
+            "summary": "",
+            "undefined": "-"
+        }
+    ]
+}

@@ -1,0 +1,604 @@
+{
+    "dataList": [
+        {
+            "id": 860501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "請离開這里",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Sinking]強度不低于4級，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "別露出那種表情",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Sinking]層数不低于3層，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "袮是何人？",
+                    "desc": "優先指定帯有[UninvitedGuest]的<color=#ffffff>目標</color>\n若<color=#ffffff>目標</color>帯有[UninvitedGuest]，則使本技能増加的[Sinking]強度与施加的[Sinking]層数額外+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[UninvitedGuest]，則<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "袮是不速之客？",
+                    "desc": "優先指定帯有[UninvitedGuest]的<color=#ffffff>目標</color>\n若<color=#ffffff>目標</color>帯有[UninvitedGuest]，則使本技能増加的[Sinking]強度与施加的[Sinking]層数額外+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[UninvitedGuest]，則<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860505,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "不速之客請离開",
+                    "desc": "優先指定帯有[UninvitedGuest]的<color=#ffffff>目標</color>\n根据帯有[UninvitedGuest]的<color=#ffffff>敵方単位</color>数，使本技能的<color=#ffffff>攻撃容量</color>相應増加\n[WhenUse] 根据帯有[UninvitedGuest]的<color=#ffffff>敵方単位</color>数，使本技能的<color=#ffffff>拼点威力</color>相應増加",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[SinkingSurge]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860506,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "我的主人",
+                    "desc": "[DefeatDuel] 揭示相連的肖像",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860507,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "悲傷的主人",
+                    "desc": "[DefeatDuel] 揭示相連的肖像",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "主人…？",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "棘角冲撞",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得1層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "羊角冲撞",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得1層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[AttackDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[AttackDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "羊号",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "操縦雷電",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[AttackDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860805,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "電子哀鳴",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有4層[Charge]，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+5)\n[WhenUse] <color=#ffffff>自身</color>每帯有5層[Charge]，使本技能的<color=#ffffff>拼点威力</color>+3(最多+4)\n[WhenUse] <color=#ffffff>自身</color>每帯有6層[Charge]，使<color=#ffffff>自身</color>獲得1層[VioletDamageUp](最多3層)\n[EndBattle] 消耗<color=#ffffff>自身</color>所有[Charge]層数并解除[ConnectedPlug]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加4層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加4層[AttackDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860806,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "電子哀鳴",
+                    "desc": "[CantDuel]\n[WhenUse] 使<color=#ffffff>自身</color>獲得10層[Protection]\n[WhenUse] <color=#ffffff>自身</color>每帯有4層[Charge]，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+5)\n[WhenUse] <color=#ffffff>自身</color>每帯有5層[Charge]，使本技能的<color=#ffffff>拼点威力</color>+3(最多+4)\n[WhenUse] <color=#ffffff>自身</color>每帯有6層[Charge]，使<color=#ffffff>自身</color>獲得1層[VioletDamageUp](最多3層)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860807,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "拒絶接地",
+                    "desc": "優先指定帯有[AntiSheepGround]的人格\n<color=#ffffff>自身</color>每帯有1層[ConnectedPlug]，使本技能的<color=#ffffff>拼点威力</color>+1\n[StartBattle] 使<color=#ffffff>自身</color>獲得2×(3-<color=#ffffff>自身</color>的[ConnectedPlug]層数)層[Protection]\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[Charge]\n[DefeatDuel] 若<color=#ffffff>目標</color>帯有[AntiSheepGround]，則対<color=#ffffff>自身</color>施加1層[ConnectedPlug]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Paralysis]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 862801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "釋放過度充能",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 862901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "纏繞的断念",
+                    "desc": "若<color=#ffffff>目標</color>的[Sinking]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WinDuel] 対<color=#ffffff>目標</color>施加3層[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 862902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "緊縛的絶望",
+                    "desc": "<color=#ffffff>目標</color>每帯有6級[Sinking]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WinDuel] 対<color=#ffffff>目標</color>施加3層[Sinking]\n[DefeatDuel] 使<color=#ffffff>目標</color>的[Sinking]層数減少1層",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 862903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "断開枷鎖",
+                    "desc": "若<color=#ffffff>目標</color>帯有[Binding]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WinDuel] 対<color=#ffffff>目標</color>施加4層[Sinking]\n[DefeatDuel] 使<color=#ffffff>目標</color>的[Sinking]強度減少2級",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 862904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "束縛枷鎖",
+                    "desc": "<color=#ffffff>目標</color>每帯有6級[Sinking]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[DefeatDuel] 使<color=#ffffff>目標</color>的[Sinking]層数減少2層\n[DefeatDuel] 使<color=#ffffff>目標</color>獲得[BandageOfTheBoundKing]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[Binding]\n[OnSucceedAttack] 根据<color=#ffffff>目標</color>帯有的[Sinking]強度，使其増加相應的[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 862905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "就此沈溺",
+                    "desc": "若<color=#ffffff>目標</color>帯有[Binding]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WinDuel] 対<color=#ffffff>目標</color>施加2層[Sinking]\n[DefeatDuel] 使<color=#ffffff>目標</color>的[Sinking]強度減少4級",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[SinkingSurge]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 862906,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "呈于御前",
+                    "desc": "[CantDuel]\n[StartBattle] <color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加5層[Binding]并使<color=#ffffff>自身</color>獲得1層[ComeForwardToTheKing]与2層[Enhancement]\n[WhenUse] 使帯有[BandageOfTheBoundKing]的<color=#ffffff>目標</color>獲得300点<color=#81BBE8>護盾</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>対<color=#ffffff>目標</color>造成<color=#ffffff>傷害</color>，則根据<color=#ffffff>目標</color>帯有的[Sinking]強度，使其増加相應的[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 860602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "主人的肖像",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

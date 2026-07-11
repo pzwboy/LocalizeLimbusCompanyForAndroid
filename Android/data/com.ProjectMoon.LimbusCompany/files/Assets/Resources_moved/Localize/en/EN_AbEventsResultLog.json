@@ -1,0 +1,524 @@
+{
+    "dataList": [
+        {
+            "id": "800101_whitesnow_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>已失效</color>"
+        },
+        {
+            "id": "800101_whitesnow_failure_1_1",
+            "content": "<color=#ebcaa2>什么都没有発生。</color>"
+        },
+        {
+            "id": "800105_whitesnow_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#f8c200>已被破坏！</color>"
+        },
+        {
+            "id": "800105_whitesnow_success_1_2",
+            "content": "<color=#ebcaa2>[{0}]陷入了混乱</color>"
+        },
+        {
+            "id": "800105_whitesnow_failure_1_1",
+            "content": "<color=#ebcaa2>什么都没有発生。</color>"
+        },
+        {
+            "id": "800801_muckwormedapple_success_1_1",
+            "content": "<color=#ebcaa2>金苹果生成了新的躯干！</color>"
+        },
+        {
+            "id": "800801_muckwormedapple_failure_1_1",
+            "content": "[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800801_muckwormedapple_failure_1_2",
+            "content": "[{0}]的所有部位</color>獲得%持續{1}回合的{3}{2}/%。</color>"
+        },
+        {
+            "id": "800801_muckwormedapple_failure_1_3",
+            "content": "<color=#ebcaa2>金苹果生成了新的躯干！</color>"
+        },
+        {
+            "id": "800201_aztec_circle_1_1",
+            "content": "<color=#ebcaa2>対[{0}]的所有部位施加</color>%{2}[{1}]/%<color=#ebcaa2>。</color>"
+        },
+        {
+            "id": "800202_aztec_circle_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800202_aztec_circle_success_1_2",
+            "content": "<color=#ebcaa2>対[{0}]的所有部位施加</color>%{2}[{1}]/%<color=#ebcaa2>。</color>"
+        },
+        {
+            "id": "800202_aztec_circle_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800202_aztec_circle_failure_1_2",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#fe4b48>失去了{1}点理智値</color>"
+        },
+        {
+            "id": "800202_aztec_circle_failure_1_3",
+            "content": "<color=#ebcaa2>対[{0}]的所有部位施加</color>%{2}[{1}]，{4}[{3}]/%<color=#ebcaa2>。</color>"
+        },
+        {
+            "id": "800203_aztec_circle_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800203_aztec_circle_1_2",
+            "content": "<color=#ebcaa2>[{0}]的[{1}]</color><color=#e30000>已失效</color>"
+        },
+        {
+            "id": "800204_aztec_circle_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800204_aztec_circle_success_1_2",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800204_aztec_circle_success_1_3",
+            "content": "<color=#ebcaa2>[{0}]的[{1}]</color><color=#e30000>已失效</color>"
+        },
+        {
+            "id": "800204_aztec_circle_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800204_aztec_circle_failure_1_2",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#fe4b48>失去了{1}点理智値</color>"
+        },
+        {
+            "id": "800204_aztec_circle_failure_1_3",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800204_aztec_circle_failure_1_4",
+            "content": "<color=#ebcaa2>対</color><color=#ebcaa2>全体罪人施加</color>%{1}[{0}] /%"
+        },
+        {
+            "id": "800206_aztec_circle_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800206_aztec_circle_success_1_2",
+            "content": "<color=#ebcaa2>全体罪人</color><color=#fe4b48>失去{0}点理智値</color>"
+        },
+        {
+            "id": "800206_aztec_circle_success_1_3",
+            "content": "<color=#ebcaa2>異想体鎮圧完成</color>"
+        },
+        {
+            "id": "800206_aztec_circle_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "800206_aztec_circle_failure_1_2",
+            "content": "<color=#ebcaa2>全体罪人</color><color=#fe4b48>失去{0}点理智値</color>"
+        },
+        {
+            "id": "800206_aztec_circle_failure_1_3",
+            "content": "<color=#ebcaa2>対[{0}]的所有部位施加</color>%{2}[{1}]，{4}[{3}]/%<color=#ebcaa2>。</color>"
+        },
+        {
+            "id": "801201_reinforcedHuman_1_1",
+            "content": "<color=#ebcaa2>我們决定調査工厂。</color>"
+        },
+        {
+            "id": "801201_reinforcedHuman_1_2",
+            "content": "<color=#ebcaa2>我們决定不調査工厂。</color>"
+        },
+        {
+            "id": "801202_reinforcedHuman_1_1",
+            "content": "<color=#ebcaa2>按下了“是”的按鈕。</color>"
+        },
+        {
+            "id": "801202_reinforcedHuman_2_1",
+            "content": "<color=#ebcaa2>按下了“不是”的按鈕。</color>"
+        },
+        {
+            "id": "801202_reinforcedHuman_1_2_1",
+            "content": "<color=#ebcaa2>全体人格</color><color=#e30000>失去{0}点体力</color>"
+        },
+        {
+            "id": "801202_reinforcedHuman_1_2_2",
+            "content": "<color=#ebcaa2>全体敵方単位的被動技能[強化工厂啓動]</color><color=#e30000>失效</color>"
+        },
+        {
+            "id": "801202_reinforcedHuman_2_2",
+            "content": "<color=#ebcaa2>全体敵方単位的被動技能[強化工厂啓動]</color><color=#e30000>失效</color>"
+        },
+        {
+            "id": "801502_pinkshoe_success_1_1",
+            "content": "<color=#ebcaa2>在剩余的回合内，<color=#ebcaa2>対</color>全体敵方単位施加</color>%{1}[{0}]，{3}[{2}] /%"
+        },
+        {
+            "id": "801502_pinkshoe_success_1_2",
+            "content": "<color=#ebcaa2>全体敵方単位无法再進入[{0}]状態</color>"
+        },
+        {
+            "id": "801502_pinkshoe_failure_1_1",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#e30000>失去{0}点体力</color>"
+        },
+        {
+            "id": "801502_pinkshoe_failure_1_2",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#ebcaa2>獲得</color>%{1}[{0}] /%"
+        },
+        {
+            "id": "801502_pinkshoe_failure_1_3",
+            "content": "<color=#ebcaa2>全体敵方単位進入%[{0}]/%状態</color>"
+        },
+        {
+            "id": "102001_action_4_1",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#e30000>失去{0}点体力</color>"
+        },
+        {
+            "id": "102001_action_4_2",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#fe4b48>失去{0}点理智値</color>"
+        },
+        {
+            "id": "102002_action_1_1",
+            "content": "<color=#ebcaa2>[羅佳]</color><color=#80c9ff>恢復了{0}点理智値</color>"
+        },
+        {
+            "id": "102002_action_1_2",
+            "content": "<color=#ebcaa2>[羅佳]</color><color=#fe4b48>失去了{0}点理智値</color>"
+        },
+        {
+            "id": "102002_action_2_2",
+            "content": "<color=#ff8000>触発遭遇戦！</color>"
+        },
+        {
+            "id": "1020201_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#80c9ff>恢復了{1}点理智値</color>"
+        },
+        {
+            "id": "1020201_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "1020203_success_1_1",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#80c9ff>恢復{0}点理智値</color>"
+        },
+        {
+            "id": "1020203_success_1_2",
+            "content": "<color=#ebcaa2>[羅佳]</color><color=#80c9ff>恢復了{0}点理智値</color>"
+        },
+        {
+            "id": "1020203_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "acquire_ego_gift",
+            "content": "<color=#ebcaa2>獲得E.G.O飾品！</color>"
+        },
+        {
+            "id": "disappear_ego_gift",
+            "content": "<color=#e30000>失去</color><color=#ebcaa2>E.G.O飾品{0}</color>"
+        },
+        {
+            "id": "acquire_ego_gift_if_win",
+            "content": "<color=#ebcaa2>戦斗勝利后，獲得E.G.O飾品！</color>"
+        },
+        {
+            "id": "chracter_mp_decrease",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#fe4b48>失去了{1}点理智値</color>"
+        },
+        {
+            "id": "chracter_mp_increase",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#80c9ff>恢復了{1}点理智値</color>"
+        },
+        {
+            "id": "chracter_hp_increase",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#00ff9c>恢復了{1}点体力</color>"
+        },
+        {
+            "id": "chracter_hp_decrease",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "chracter_hp_mp_decrease",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去了{1}点体力</color><color=#ebcaa2>和</color><color=#fe4b48>理智値</color>"
+        },
+        {
+            "id": "all_ally_hp_decrease",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#e30000>失去{0}点体力</color>"
+        },
+        {
+            "id": "all_ally_hp_increase",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#e30000>恢復{0}点体力</color>"
+        },
+        {
+            "id": "all_ally_mp_decrease",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#fe4b48>失去{0}点理智値</color>"
+        },
+        {
+            "id": "all_ally_hp_mp_decrease",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#e30000>失去{0}点体力</color><color=#ebcaa2>和</color><color=#fe4b48>理智値</color>"
+        },
+        {
+            "id": "all_ally_add_buff",
+            "content": "<color=#ebcaa2>全体友方単位獲得</color>%{1} {0}/%<color=#ebcaa2>！</color>"
+        },
+        {
+            "id": "all_ally_add_buff_during_next_n_battle",
+            "content": "<color=#ebcaa2>全体友方単位在下{0}場戦斗中獲得</color>%{2} {1}/%"
+        },
+        {
+            "id": "all_enemy_apply_buff",
+            "content": "<color=#ebcaa2>全体敵方単位獲得</color>%{1} {0}/%<color=#ebcaa2>！</color>"
+        },
+        {
+            "id": "character_apply_buff_during_next_n_battle",
+            "content": "<color=#ebcaa2>[{0}]在下{1}場戦斗中獲得</color>%{3} {2}/%"
+        },
+        {
+            "id": "battle_occurrence",
+            "content": "<color=#ebcaa2>触発遭遇戦！</color>"
+        },
+        {
+            "id": "nothing_happend",
+            "content": "<color=#ebcaa2>什么都没有発生。</color>"
+        },
+        {
+            "id": "unlock_hidden_node",
+            "content": "<color=#ebcaa2>地圖中追加了新的道路！</color>"
+        },
+        {
+            "id": "enemy_wave_decrease",
+            "content": "<color=#ebcaa2>敵人的波次減少{0}波！</color>"
+        },
+        {
+            "id": "803001_cromer_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]陷入了混乱</color>"
+        },
+        {
+            "id": "803001_cromer_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#fe4b48>失去了{1}点理智値</color>"
+        },
+        {
+            "id": "all_ally_mp_increase",
+            "content": "<color=#ebcaa2>全体友方単位</color><color=#80c9ff>恢復{0}点理智値</color>"
+        },
+        {
+            "id": "ally_own_skill_attribute_hp_increase",
+            "content": "<color=#ebcaa2>攻撃技能帯有</color>%{0}属性罪孼/%<color=#ebcaa2>的人格</color><color=#00ff9c>恢復{1}点体力</color>"
+        },
+        {
+            "id": "ally_not_own_skill_attribute_hp_increase",
+            "content": "<color=#ebcaa2>攻撃技能不帯有</color>%{0}属性罪孼/%<color=#ebcaa2>的人格</color><color=#00ff9c>恢復{1}点体力</color>"
+        },
+        {
+            "id": "ally_own_skill_attribute_hp_decrease",
+            "content": "<color=#ebcaa2>攻撃技能帯有</color>%{0}属性罪孼/%<color=#ebcaa2>的人格</color><color=#e30000>失去{1}点体力</color>"
+        },
+        {
+            "id": "ally_not_own_skill_attribute_hp_decrease",
+            "content": "<color=#ebcaa2>攻撃技能不帯有</color>%{0}属性罪孼/%<color=#ebcaa2>的人格</color><color=#e30000>失去{1}点体力</color>"
+        },
+        {
+            "id": "ally_own_skill_attribute_mp_increase",
+            "content": "<color=#ebcaa2>攻撃技能帯有</color>%{0}属性罪孼/%<color=#ebcaa2>的人格</color><color=#80c9ff>恢復{1}点理智値</color>"
+        },
+        {
+            "id": "ally_not_own_skill_attribute_mp_increase",
+            "content": "<color=#ebcaa2>攻撃技能不帯有</color>%{0}属性罪孼/%<color=#ebcaa2>的人格</color><color=#80c9ff>恢復{1}点理智値</color>"
+        },
+        {
+            "id": "ally_own_skill_attribute_mp_decrease",
+            "content": "<color=#ebcaa2>攻撃技能帯有</color>%{0}属性罪孼/%<color=#ebcaa2>的人格</color><color=#fe4b48>失去{1}点理智値</color>"
+        },
+        {
+            "id": "ally_not_own_skill_attribute_mp_decrease",
+            "content": "<color=#ebcaa2>攻撃技能不帯有</color>%{0}属性罪孼/%<color=#ebcaa2>的人格</color><color=#fe4b48>失去{1}点理智値</color>"
+        },
+        {
+            "id": "852701_statue_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]陷入了混乱</color>"
+        },
+        {
+            "id": "852701_statue_failure_1_1",
+            "content": "<color=#ebcaa2>解除[{0}]的業报</color>"
+        },
+        {
+            "id": "852701_statue_failure_1_2",
+            "content": "対全体人格随机施加業报。"
+        },
+        {
+            "id": "852701_statue_failure_1_3",
+            "content": "<color=#ebcaa2>[{0}]陷入了混乱</color>"
+        },
+        {
+            "id": "851901_kqe_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#ebcaa2>消耗了所有</color>[{1}]"
+        },
+        {
+            "id": "851901_kqe_success_1_2",
+            "content": "<color=#ebcaa2>[{0}]陷入了混乱</color>"
+        },
+        {
+            "id": "851901_kqe_success_1_3",
+            "content": "<color=#ebcaa2>[{0}]獲得了</color>%{2} [{1}]/%"
+        },
+        {
+            "id": "851901_kqe_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}</color><color=#ebcaa2>獲得了</color>%{2} [{1}]，{4} [{3}]/%"
+        },
+        {
+            "id": "851901_kqe_failure_1_2",
+            "content": "<color=#ebcaa2>対[{0}]施加</color>%{2} [{1}]/%"
+        },
+        {
+            "id": "851001_cryingtoad_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]陷入了混乱</color>"
+        },
+        {
+            "id": "851001_cryingtoad_success_1_2",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#80c9ff>恢復了{1}点理智値</color>"
+        },
+        {
+            "id": "851001_cryingtoad_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#fe4b48>失去了{1}点理智値</color>"
+        },
+        {
+            "id": "803101_waterFish_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]的躯干</color><color=#e30000>失去了{1}点体力</color>"
+        },
+        {
+            "id": "803101_waterFish_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]使用了技能</color><color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "803201_lightningBeast_success_1_1",
+            "content": "<color=#ebcaa2>対[{0}]施加</color>{2}<color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "803201_lightningBeast_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]使用了技能</color><color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "804501_electriccentipede_success_1_1",
+            "content": "<color=#ebcaa2>[{0}] 減少%{2} [{1}] /%</color>"
+        },
+        {
+            "id": "804501_electriccentipede_success_1_2",
+            "content": "<color=#ebcaa2>対[{0}]的所有部位</color> <color=#ebcaa2>施加</color>%{2}[{1}]/%"
+        },
+        {
+            "id": "804501_electriccentipede_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}] 増加%{2} [{1}] /%</color>"
+        },
+        {
+            "id": "804501_electriccentipede_failure_1_2",
+            "content": "<color=#ebcaa2>[{0}]獲得了</color>%{2} [{1}]/%"
+        },
+        {
+            "id": "804801_gentlefairy_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#00ff9c>恢復了{1}点体力</color>"
+        },
+        {
+            "id": "804801_gentlefairy_success_1_2",
+            "content": "<color=#ebcaa2>[{0}]</color> <color=#ebcaa2>獲得</color> %{2} [{1}], {4} [{3}],  {6} [{5}]/%"
+        },
+        {
+            "id": "804801_gentlefairy_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#00ff9c>恢復了{1}点体力</color>"
+        },
+        {
+            "id": "804801_gentlefairy_failure_1_2",
+            "content": "<color=#ebcaa2>[{0}]</color> <color=#ebcaa2>獲得</color> %{2} [{1}], {4} [{3}],  {6} [{5}]/%"
+        },
+        {
+            "id": "804601_umbrellafox_success_1_1",
+            "content": "<color=#ebcaa2>全体[{0}]</color> <color=#00ff9c>失去体力上限的{1}</color>"
+        },
+        {
+            "id": "804601_umbrellafox_success_1_2",
+            "content": "<color=#ebcaa2>[{0}]</color> <color=#00ff9c>失去{1}点理智値</color>"
+        },
+        {
+            "id": "804601_umbrellafox_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color> <color=#00ff9c>失去{1}点理智値</color>"
+        },
+        {
+            "id": "804701_nobodygonnacry_success_1_1",
+            "content": "<color=#ebcaa2>因而无人哭泣獲得</color>5層復貼的咒符 "
+        },
+        {
+            "id": "804701_nobodygonnacry_success_1_2",
+            "content": "下回合対罪人[{0}]施加<color=#00ff9c>{2} {1}</color>"
+        },
+        {
+            "id": "804701_nobodygonnacry_failure_1_1",
+            "content": "<color=#ebcaa2>消耗罪人[{0}]</color>所帯有的<color=#ebcaa2>全部{1} </color>"
+        },
+        {
+            "id": "805002_egoawakendongrang_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]獲得</color> {2}<color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "805002_egoawakendongrang_success_1_2",
+            "content": "<color=#ebcaa2>[{0}]獲得</color> {2}<color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "805002_egoawakendongrang_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]失去</color> <color=#e30000>{1}点体力</color>和<color=#fe4b48>{2}点理智値</color>"
+        },
+        {
+            "id": "805002_egoawakendongrang_failure_1_2",
+            "content": "<color=#ebcaa2>全体友方単位獲得</color> {1}<color=#e30000>[{0}]</color>"
+        },
+        {
+            "id": "805004_egoawakendongrang_success_2_1",
+            "content": "<color=#ebcaa2>[{0}]獲得</color> {2}<color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "805004_egoawakendongrang_success_2_2",
+            "content": "<color=#ebcaa2>全体友方単位獲得</color> {1}<color=#e30000>[{0}]</color>"
+        },
+        {
+            "id": "805004_egoawakendongrang_success_2_3",
+            "content": "<color=#ebcaa2>[{0}]獲得</color> {2}<color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "805004_egoawakendongrang_failure_2_1",
+            "content": "<color=#ebcaa2>[{0}]失去</color> <color=#e30000>{1}点体力</color>和<color=#fe4b48>{2}点理智値</color>"
+        },
+        {
+            "id": "805004_egoawakendongrang_failure_2_2",
+            "content": "<color=#ebcaa2>[{0}]獲得</color> {2}<color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "805006_egoawakendongrang_success_3_1",
+            "content": "東朗被阻攔了"
+        },
+        {
+            "id": "805006_egoawakendongrang_failure_3_1",
+            "content": "東朗被阻攔了"
+        },
+        {
+            "id": "805801_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color> <color=#e30000>失去 {1} 体力</color>"
+        },
+        {
+            "id": "805801_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]獲得</color> {2} <color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "805801_failure_1_2",
+            "content": "<color=#ebcaa2>[{0}]獲得</color> {2} <color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "805901_success_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去{1}点体力</color>"
+        },
+        {
+            "id": "805901_success_1_2",
+            "content": "<color=#ebcaa2>[{0}]獲得</color>{2}<color=#e30000>[{1}]</color>"
+        },
+        {
+            "id": "805901_failure_1_1",
+            "content": "<color=#ebcaa2>[{0}]</color><color=#e30000>失去{1}点体力</color>"
+        }
+    ]
+}

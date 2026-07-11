@@ -1,0 +1,267 @@
+{
+    "dataList": [
+        {
+            "id": 9427,
+            "name": "守鎮魚叉",
+            "desc": "[第6順位人格専属]\n<color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的30%，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9427,
+                    "simpleDesc": "<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層強壮 "
+                }
+            ]
+        },
+        {
+            "id": 19427,
+            "name": "守鎮魚叉+",
+            "desc": "[第6順位人格専属]\n<color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的40%，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]\n\n<color=#7C5738>回合結束</color>時，若有<color=#ffffff>友方単位</color>陷入混乱，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的[Aggro]+6，并使<color=#ffffff>自身</color>獲得4層[DefenseUp]",
+            "simpleDesc": [
+                {
+                    "abilityID": 19427,
+                    "simpleDesc": "<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層強壮 "
+                },
+                {
+                    "abilityID": 194271,
+                    "simpleDesc": "<color=#7C5738>下回合</color>挑釁値 +6，獲得4層防御等級提升 "
+                }
+            ]
+        },
+        {
+            "id": 29427,
+            "name": "守鎮魚叉++",
+            "desc": "[第6順位人格専属]\n<color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的50%，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]\n\n<color=#7C5738>回合結束</color>時，若有<color=#ffffff>友方単位</color>陷入混乱，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的[Aggro]+6，并使<color=#ffffff>自身</color>獲得4層[DefenseUp]",
+            "simpleDesc": [
+                {
+                    "abilityID": 29427,
+                    "simpleDesc": "<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層強壮 "
+                },
+                {
+                    "abilityID": 294271,
+                    "simpleDesc": "<color=#7C5738>下回合</color>挑釁値 +6，獲得4層防御等級提升 "
+                }
+            ]
+        },
+        {
+            "id": 9428,
+            "name": "鯨心",
+            "desc": "使用攻撃技能命中帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>増加1級[Breath]強度。(<color=#7C5738>每回合</color>每名人格最多3次)\n\n<color=#ffffff>暴撃</color>命中時，以50%的概率在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp](<color=#7C5738>每回合</color>每名人格最多2次，包括E.G.O技能与反撃技能)\n\n基礎技能正面命中并<color=#ffffff>暴撃</color>時，令該硬幣対<color=#ffffff>目標</color>施加的負面状態額外+1。(<color=#7C5738>每回合</color>每名人格最多1次，不包括E.G.O技能，包括反撃技能)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9428,
+                    "simpleDesc": "増加1級呼吸法 強度"
+                },
+                {
+                    "abilityID": 94281,
+                    "simpleDesc": "有概率在<color=#7C5738>下回合</color>獲得[PenetrateResultUp]"
+                },
+                {
+                    "abilityID": 94282,
+                    "simpleDesc": "施加的負面状態額外+1"
+                }
+            ]
+        },
+        {
+            "id": 9431,
+            "name": "損坏的小提琴",
+            "desc": "[第5、第6順位人格専属]\n\n若現存<color=#61DA61>体力</color>不高于45%，則拼点勝利時使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease](<color=#7C5738>每回合</color>每名単位最多2次)\n\n若現存<color=#61DA61>体力</color>不高于20%，則改為使用技能時使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease](<color=#7C5738>每回合</color>每名単位最多2次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9431,
+                    "simpleDesc": "獲得1層攻撃等級提升 与1層<color=#61DA61>体力</color>恢復提升 "
+                },
+                {
+                    "abilityID": 94311,
+                    "simpleDesc": "獲得1層攻撃等級提升 与1層<color=#61DA61>体力</color>恢復提升 "
+                }
+            ]
+        },
+        {
+            "id": 19431,
+            "name": "損坏的小提琴+",
+            "desc": "[第5、第6順位人格専属]\n\n若現存<color=#61DA61>体力</color>不高于<style=\"upgradeHighlight\">65%</style>，則拼点勝利時使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease](<color=#7C5738>每回合</color>每名単位最多2次)\n\n若現存<color=#61DA61>体力</color>不高于<style=\"upgradeHighlight\">40%</style>，則改為使用技能時使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease](<color=#7C5738>每回合</color>每名単位最多2次)\n\n<style=\"upgradeHighlight\">拼点勝利且拼点次数不低于5次時，使拼点勝利的技能造成的<color=#ffffff>傷害</color>+(拼点次数×2)%(最多+20%)</style>",
+            "simpleDesc": [
+                {
+                    "abilityID": 19431,
+                    "simpleDesc": "獲得1層攻撃等級提升 与1層<color=#61DA61>体力</color>恢復提升 "
+                },
+                {
+                    "abilityID": 194311,
+                    "simpleDesc": "獲得1層攻撃等級提升 与1層<color=#61DA61>体力</color>恢復提升 "
+                },
+                {
+                    "abilityID": 194312,
+                    "simpleDesc": "根据拼点次数増加造成的<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 29431,
+            "name": "損坏的小提琴++",
+            "desc": "[第5、第6順位人格専属]\n\n若現存<color=#61DA61>体力</color>不高于65%，則拼点勝利時使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease](<color=#7C5738>每回合</color>每名単位最多2次)\n\n若現存<color=#61DA61>体力</color>不高于40%，則改為使用技能時使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease](<color=#7C5738>每回合</color>每名単位最多2次)\n\n拼点勝利且拼点次数不低于5次時，使拼点勝利的技能造成的<color=#ffffff>傷害</color><style=\"upgradeHighlight\">+(拼点次数×3)%(最多+30%)</style>",
+            "simpleDesc": [
+                {
+                    "abilityID": 29431,
+                    "simpleDesc": "獲得1層攻撃等級提升 与1層<color=#61DA61>体力</color>恢復提升 "
+                },
+                {
+                    "abilityID": 294311,
+                    "simpleDesc": "獲得1層攻撃等級提升 与1層<color=#61DA61>体力</color>恢復提升 "
+                },
+                {
+                    "abilityID": 294312,
+                    "simpleDesc": "根据拼点次数増加造成的<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9432,
+            "name": "宅邸模型八音盒",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱，<color=#7C5738>下回合</color>開始時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級[Sinking]強度并対其施加4層[Sinking](每場戦斗最多1次;不包括強制混乱;若是<color=#ffffff>集中遭遇戦</color>，則改為所有<color=#ffffff>部位</color>)\n\n<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，対[Sinking]層数最低的1名<color=#ffffff>敵方単位</color>施加2層[Sinking](<color=#7C5738>每回合</color>最多3次;若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9432,
+                    "simpleDesc": "<color=#7C5738>下回合</color>使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級沈淪 強度并施加4層沈淪 "
+                },
+                {
+                    "abilityID": 94321,
+                    "simpleDesc": "対帯有的沈淪 層数最低的1名<color=#ffffff>敵方単位</color>施加2層沈淪 "
+                }
+            ]
+        },
+        {
+            "id": 9435,
+            "name": "管家式束縛法",
+            "desc": "<color=#7C5738>回合開始</color>時，対上回合解除混乱的<color=#ffffff>敵方単位</color>施加1層[Binding]\n\n現存<color=#61DA61>体力</color>比例最高的<color=#ffffff>友方単位</color>攻撃命中時，若<color=#ffffff>目標</color>陷入混乱，則每層混乱階段使造成的<color=#ffffff>傷害</color>+7.5%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9435,
+                    "simpleDesc": "対解除混乱的<color=#ffffff>敵方単位</color>施加1層束縛 "
+                },
+                {
+                    "abilityID": 94351,
+                    "simpleDesc": "根据<color=#ffffff>目標</color>的混乱階段増加造成的<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 19435,
+            "name": "管家式束縛法+",
+            "desc": "<color=#7C5738>回合開始</color>時，対上回合解除混乱的<color=#ffffff>敵方単位</color>施加<style=\"upgradeHighlight\">2</style>層[Binding]\n\n現存<color=#61DA61>体力</color>比例最高的<color=#ffffff>友方単位</color>攻撃命中時，若<color=#ffffff>目標</color>陷入混乱，則每層混乱階段使造成的<color=#ffffff>傷害</color>+<style=\"upgradeHighlight\">10%</style>",
+            "simpleDesc": [
+                {
+                    "abilityID": 19435,
+                    "simpleDesc": "対解除混乱的<color=#ffffff>敵方単位</color>施加2層束縛 "
+                },
+                {
+                    "abilityID": 194351,
+                    "simpleDesc": "根据<color=#ffffff>目標</color>的混乱階段増加造成的<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 29435,
+            "name": "管家式束縛法++",
+            "desc": "<color=#7C5738>回合開始</color>時，対上回合解除混乱的<color=#ffffff>敵方単位</color>施加<style=\"upgradeHighlight\">3</style>層[Binding]\n\n現存<color=#61DA61>体力</color>比例最高的<color=#ffffff>友方単位</color>攻撃命中時，若<color=#ffffff>目標</color>陷入混乱，則每層混乱階段使造成的<color=#ffffff>傷害</color>+<style=\"upgradeHighlight\">12.5%</style>",
+            "simpleDesc": [
+                {
+                    "abilityID": 29435,
+                    "simpleDesc": "対解除混乱的<color=#ffffff>敵方単位</color>施加3層束縛 "
+                },
+                {
+                    "abilityID": 294351,
+                    "simpleDesc": "根据<color=#ffffff>目標</color>的混乱階段増加造成的<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9436,
+            "name": "折射玻璃管",
+            "desc": "常規遭遇戦中，命中[Sinking]強度与[Sinking]層数之和不低于10点的<color=#ffffff>敵方単位</color>時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為-45点，\n則対其造成(其[Sinking]強度/2)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n\n<color=#ffffff>集中遭遇戦</color>中，命中[Sinking]強度与[Sinking]層数之和不低于10点的<color=#ffffff>敵方単位</color>時，\n対<color=#ffffff>目標</color>造成(其[Sinking]強度/2)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n\n若命中<color=#ffffff>敵方単位</color>的技能為施加[Sinking](包括施加[Sinking]層数与特殊<noparse>沈淪</noparse>)的技能，則改為其造成(其[Sinking]強度)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>，而非([Sinking]強度/2)点\n(适用于<color=#7C5738>每回合</color>首个攻撃命中的施加[Sinking]的技能)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9436,
+                    "simpleDesc": "根据<color=#ffffff>目標</color>帯有的沈淪 強度造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>"
+                },
+                {
+                    "abilityID": 94361,
+                    "simpleDesc": "根据<color=#ffffff>目標</color>帯有的沈淪 強度造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9437,
+            "name": "拉·曼却領自由通行券",
+            "desc": "攻撃命中[Laceration]強度、<color=#E40302>特殊流血</color>与[Burst]強度之和不低于10点的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>増加1級[Breath]強度并使<color=#ffffff>自身</color>獲得1層[Breath](每个技能最多2次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9437,
+                    "simpleDesc": "増加1級呼吸法 強度并獲得1層呼吸法 "
+                }
+            ]
+        },
+        {
+            "id": 9438,
+            "name": "勝利之証",
+            "desc": "<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，使<color=#81BBE8>理智値</color>最低的1名<color=#ffffff>友方単位</color>恢復3点<color=#81BBE8>理智値</color>。\n\n攻撃結束后，若有[Laceration]強度、<color=#E40302>特殊流血</color>与[Burst]強度之和不低于10点的<color=#ffffff>敵方単位</color>陣亡，則<color=#7C5738>下回合</color>使1名<color=#ffffff>友方単位</color>獲得2層[AttackUp](優先指定<color=#7C5738>撃殺</color>該<color=#ffffff>敵方単位</color>的<color=#ffffff>友方単位</color>)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9438,
+                    "simpleDesc": "恢復3点<color=#81BBE8>理智値</color>"
+                },
+                {
+                    "abilityID": 9438,
+                    "simpleDesc": "<color=#7C5738>下回合</color>随机使1名<color=#ffffff>友方単位</color>獲得2層攻撃等級提升 "
+                }
+            ]
+        },
+        {
+            "id": 9439,
+            "name": "呑噬一切的魔方",
+            "desc": "<color=#ffffff>友方単位</color>陣亡時，獲得其1、2技能対應的E.G.O資源各1个。\n\n攻撃結束后，若<color=#ffffff>敵方単位</color>陣亡，則随机獲得1个E.G.O資源(每个技能最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9439,
+                    "simpleDesc": "随机獲得1个E.G.O資源"
+                }
+            ]
+        },
+        {
+            "id": 9440,
+            "name": "游行的面具",
+            "desc": "属于血魔的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>基礎技能的<color=#ffffff>硬幣威力</color>+1\n\n遭遇戦中新的<color=#ffffff>敵方単位</color>増援時，<color=#ffffff>戦斗開始</color>時使其増加3級[Laceration]強度并対其施加3層[Laceration]。\n\n若<color=#ffffff>友方単位</color>中存在<血魔>，則新的<color=#ffffff>敵方単位</color>増援時触発<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的[Laceration]1次，并使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的[Laceration]層数減少1層",
+            "simpleDesc": [
+                {
+                    "abilityID": 94402,
+                    "simpleDesc": "基礎技能的<color=#ffffff>硬幣威力</color>+1 "
+                },
+                {
+                    "abilityID": 9440,
+                    "simpleDesc": "使増援的<color=#ffffff>敵方単位</color>増加3級流血 強度并施加3層流血 "
+                },
+                {
+                    "abilityID": 94401,
+                    "simpleDesc": "触発<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的流血 1次(流血 層数減少1層)"
+                }
+            ]
+        },
+        {
+            "id": 19440,
+            "name": "游行的面具+",
+            "desc": "属于血魔的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>基礎技能的<color=#ffffff>硬幣威力</color>+1\n\n遭遇戦中新的<color=#ffffff>敵方単位</color>増援時，<color=#ffffff>戦斗開始</color>時使其増加<style=\"upgradeHighlight\">5</style>級[Laceration]強度并対其施加3層[Laceration]。\n\n若<color=#ffffff>友方単位</color>中存在<血魔>，則新的<color=#ffffff>敵方単位</color>増援時触発<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的[Laceration]1次，并使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的[Laceration]層数減少1層",
+            "simpleDesc": [
+                {
+                    "abilityID": 94402,
+                    "simpleDesc": "基礎技能的<color=#ffffff>硬幣威力</color>+1 "
+                },
+                {
+                    "abilityID": 194405,
+                    "simpleDesc": "使増援的<color=#ffffff>敵方単位</color>増加5級流血 強度并施加3層流血 "
+                },
+                {
+                    "abilityID": 1944051,
+                    "simpleDesc": "触発<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的流血 1次(流血 層数減少1層)"
+                }
+            ]
+        }
+    ]
+}

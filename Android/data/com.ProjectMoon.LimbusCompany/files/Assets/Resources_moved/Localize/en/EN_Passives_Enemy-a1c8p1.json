@@ -1,0 +1,109 @@
+{
+    "dataList": [
+        {
+            "id": 9020301,
+            "name": "輕松的任務",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>的攻撃命中，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]\n若<color=#ffffff>目標</color>為鴻璐，則<color=#7C5738>下回合</color>額外使<color=#ffffff>自身</color>獲得1層[ParryingResultUp]与1層[AttackDmgUp]"
+        },
+        {
+            "id": 9020302,
+            "name": "本不該如此",
+            "desc": "拼点失敗時，使<color=#ffffff>自身</color>失去5点<color=#81BBE8>理智値</color>。\n陷入混乱時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層[Vulnerable](<color=#7C5738>每回合</color>最多1次)"
+        },
+        {
+            "id": 9020101,
+            "name": "訓練用木人粧",
+            "desc": "只能受到不低于10点的<color=#ffffff>傷害</color>。\n低于10点的<color=#ffffff>傷害</color>変為0点。"
+        },
+        {
+            "id": 9020102,
+            "name": "升級的訓練用木人粧",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>技能未成功命中，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得相当于未成功命中回合数的[ParryingResultUp]\n技能命中<color=#ffffff>敵方単位</color>時，重置該效果層数"
+        },
+        {
+            "id": 9020103,
+            "name": "鞏固基本功",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>受到不低于4个攻撃技能攻撃，則<color=#7C5738>下回合</color>使攻撃<color=#ffffff>自身</color>的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>獲得層数相当于<color=#ffffff>自身</color>被攻撃回合数的[AttackDmgUp]\n受到不高于3个攻撃技能攻撃時，重置該效果層数"
+        },
+        {
+            "id": 9019501,
+            "name": "偏离的詛咒",
+            "desc": "<color=#ffffff>自身</color>陷入混乱時，使<color=#ffffff>自身</color>最后攻撃的<color=#ffffff>目標</color>的[Burst]強度与[Burst]層数減半"
+        },
+        {
+            "id": 9019502,
+            "name": "宿于瓮中的詛咒",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>的技能命中，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]\n若<color=#ffffff>自身</color>自毀，則<color=#7C5738>下回合</color>使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得1層[Enhancement]"
+        },
+        {
+            "id": 9019601,
+            "name": "宿于瓮中的詛咒",
+            "desc": "技能命中時，若<color=#ffffff>目標</color>剩余的[Burst]層数為1層，則対其施加1層[Burst](<color=#7C5738>每回合</color>最多2次)\n攻撃命中時，若<color=#ffffff>目標</color>剩余的[Burst]強度為1級，則使其増加2級[Burst]強度(<color=#7C5738>每回合</color>最多2次)\n若<color=#ffffff>自身</color>自毀，則使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加2級[Burst]強度并対其施加1層[Burst]"
+        },
+        {
+            "id": 9019701,
+            "name": "宿于瓮中的詛咒",
+            "desc": "技能命中時，若<color=#ffffff>目標</color>的[Burst]強度不低于4級，則<color=#7C5738>下回合</color>対其施加1層[DefenseDown](<color=#7C5738>每回合</color>最多3次)\n若<color=#ffffff>自身</color>自毀，則<color=#7C5738>下回合</color>対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加3層[DefenseDown]"
+        },
+        {
+            "id": 9102201,
+            "name": "偏离的詛咒",
+            "desc": "<color=#ffffff>自身</color>陷入混乱時，解除<color=#ffffff>自身</color>最后攻撃的<color=#ffffff>目標</color>的[Burst]強度与[Burst]層数"
+        },
+        {
+            "id": 9102202,
+            "name": "咒鬼之瓮",
+            "desc": "命中時，若<color=#ffffff>目標</color>的[Burst]強度与[Burst]層数之和不低于5点，則対其施加1層[DefenseDown](<color=#7C5738>每回合</color>最多5次)"
+        },
+        {
+            "id": 9102203,
+            "name": "宿于瓮中的詛咒",
+            "desc": "<color=#7C5738>回合結束</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加相当于<color=#ffffff>自身</color>登場后進行的回合数的[Poison](最多5層)\n若<color=#ffffff>自身</color>自毀，則対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加(進行的回合数×5)層[Poison](最多25層)与2層[Burst]"
+        },
+        {
+            "id": 9019801,
+            "name": "受撃之時",
+            "desc": "戦斗中受到攻撃時，<color=#7C5738>本回合</color>使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%\n戦斗中受到攻撃時，拼点勝利時使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+20%"
+        },
+        {
+            "id": 9019802,
+            "name": "目標-賈宝玉",
+            "desc": "優先指定鴻璐"
+        },
+        {
+            "id": 9019803,
+            "name": "逐漸明確的目標",
+            "desc": "<color=#ffffff>自身</color><color=#61DA61>体力</color>不低于70%時，<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>技能未命中鴻璐，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層[Reduction]\n<color=#ffffff>自身</color><color=#61DA61>体力</color>低于70%時，<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>技能未命中鴻璐，則<color=#7C5738>下回合</color>令<color=#ffffff>自身</color>増加的[Laceration]強度与施加的[Laceration]層数額外+1"
+        },
+        {
+            "id": 9020001,
+            "name": "執行任務",
+            "desc": "<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+0.5%(最多+50%)"
+        },
+        {
+            "id": 9020002,
+            "name": "逐漸明確的目標",
+            "desc": "<color=#ffffff>自身</color><color=#61DA61>体力</color>不低于70%時，<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>技能未命中鴻璐，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層[Reduction]\n<color=#ffffff>自身</color><color=#61DA61>体力</color>低于70%時，<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>技能未命中鴻璐，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]\n- <color=#7C5738>下回合</color>令<color=#ffffff>自身</color>増加的[Laceration]強度与施加的[Laceration]層数額外+1"
+        },
+        {
+            "id": 9102101,
+            "name": "受撃之時",
+            "desc": "戦斗中<color=#ffffff>自身</color>受到攻撃時，<color=#7C5738>本回合</color>使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+20%\n戦斗中<color=#ffffff>自身</color>拼点失敗時，使<color=#ffffff>自身</color>受到該技能的<color=#ffffff>傷害</color>+15%"
+        },
+        {
+            "id": 9102102,
+            "name": "酩酊修行",
+            "desc": "<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+2%(最多+100%)"
+        },
+        {
+            "id": 9102103,
+            "name": "呵呀，呵呀…隔，這可不行",
+            "desc": "現存<color=#61DA61>体力</color>為50%時，解除<color=#ffffff>自身</color>的混乱并結束<color=#7C5738>本回合</color>\n<color=#7C5738>下回合</color><color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為10"
+        },
+        {
+            "id": 9102104,
+            "name": "明確的目標",
+            "desc": "<color=#ffffff>自身</color><color=#61DA61>体力</color>不低于70%時，<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>技能未命中鴻璐，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加3層[AttackDown]\n<color=#ffffff>自身</color><color=#61DA61>体力</color>低于70%時，<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>技能未命中鴻璐，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得6層[AttackUp]"
+        }
+    ]
+}
