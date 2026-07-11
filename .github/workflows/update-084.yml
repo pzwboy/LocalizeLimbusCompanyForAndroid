@@ -112,17 +112,15 @@ jobs:
         # 推送到main分支
         git push origin main
         
-    - name: Create release
-      if: steps.get_release.outputs.new_version == 'true'
-      run: |
-        VERSION="${{ steps.get_release.outputs.version }}"
-        RELEASE_NAME="Localization Update $VERSION"
-        
-        # 创建release
-        gh release create "$VERSION" \
-          --title "$RELEASE_NAME" \
-          --notes "$(cat <<'EOF'
-    # 《边狱公司》（Limbus Company）安卓端 文本汉化 $VERSION
+- name: Create release
+  if: steps.get_release.outputs.new_version == 'true'
+  run: |
+    VERSION="${{ steps.get_release.outputs.version }}"
+    RELEASE_NAME="$VERSION"
+    
+    # 创建 release notes 文件
+    cat > release_notes.md << 'EOF'
+    # 《边狱公司》（Limbus Company）安卓端 文本汉化 $VERSION版资源更新
     文本来自[ghcruise/LimbusCompany-IOS-Localization](https://github.com/ghcruise/LimbusCompany-IOS-Localization)项目
     
     原翻译来自都市零协会的[LocalizeLimbusCompany](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany)项目
@@ -139,7 +137,11 @@ jobs:
     ## 字体是怎么回事？
     因字库问题，文本替换了所有汉字至日语字形，至少能看懂了不是吗……
     EOF
-    )" \
+    
+    # 使用文件创建 release
+    gh release create "$VERSION" \
+      --title "$RELEASE_NAME" \
+      --notes-file release_notes.md \
       --target main
     
     echo "Release $VERSION created"
