@@ -1,0 +1,169 @@
+{
+    "dataList": [
+        {
+            "id": "ColdBlackTear",
+            "name": "漆黑冰冷之泪",
+            "desc": "- 最大値：5\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層<color=#ffffff>拼点威力</color>降低 \n- 若<color=#ffffff>自身</color>帯有本效果時被命中，則使<color=#ffffff>自身</color>失去(本效果層数×2)点<color=#81BBE8>理智値</color>(<color=#7C5738>每回合</color>最多1次，被被摧毀的硬幣命中時不会生效)\n- 若憎惡皇后使本效果層数減少，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n- 本效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>降至-40点以下",
+            "summary": ""
+        },
+        {
+            "id": "HelplessTear",
+            "name": "无能為力之泪",
+            "desc": "- 最大値：1\n- 使<color=#ffffff>自身</color>増加3級攻撃等級\n- 使<color=#ffffff>自身</color>減少6級防御等級\n- 使<color=#ffffff>自身</color>所有技能的<color=#ffffff>攻撃容量</color>+1\n- 使<color=#ffffff>自身</color>所有技能轉化為不可摧毀的硬幣\n- 令<color=#ffffff>自身</color>増加的沈淪 強度与施加的沈淪 層数額外+1",
+            "summary": ""
+        },
+        {
+            "id": "WornOutKnight",
+            "name": "飽經風霜的騎士",
+            "desc": "<color=#7C5738>本回合</color>使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+100%",
+            "summary": "",
+            "flavor": "<color=#2e72b9>那位希望通過拯救他人来救贖自己的騎士，現在被称作“絶望騎士”，早已被那些他曾守護過的人們忘却了，就和他們一様。</color>"
+        },
+        {
+            "id": "SignOfDespair",
+            "name": "絶望的加護",
+            "desc": "攻撃結束后，若有<color=#ffffff>目標</color>未帯有漆黑冰冷之泪，則<color=#7C5738>下回合</color>解除本效果\n\n使<color=#ffffff>自身</color>獲得1層<color=#ffffff>拼点威力</color>提升与1層傷害強化\n令<color=#ffffff>自身</color>施加的漆黑冰冷之泪層数額外+1層",
+            "summary": ""
+        },
+        {
+            "id": "CollapsedPride",
+            "name": "崩潰的自尊",
+            "desc": "被“飽經風霜的騎士”被動技能使用",
+            "summary": "",
+            "flavor": "<color=#2e72b9>如今，這位飽經風霜的騎士只剩下空洞的自尊。</color>"
+        },
+        {
+            "id": "FailedToAssistQueen",
+            "name": "我…已无用処了…麼？",
+            "desc": "- 最大値：1\n- 使<color=#ffffff>自身</color>減少3級攻撃等級\n- 使<color=#ffffff>自身</color>減少3級防御等級",
+            "summary": ""
+        },
+        {
+            "id": "UsedTooMuchPower",
+            "name": "好像用力過猛了",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>脱离戦斗",
+            "summary": "",
+            "flavor": "<color=#ff3d8f>精疲力尽无法動彈</color>"
+        },
+        {
+            "id": "ChasingArcana",
+            "name": "咏唱-阿峠納光破斬",
+            "desc": "- 最大値：3\n- <color=#7C5738>回合開始</color>時，使本效果的層数増加1層\n- 若本效果層数為3層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>+20并使用阿峠納光破斬",
+            "summary": ""
+        },
+        {
+            "id": "PowerOfLoveAndJustice",
+            "name": "愛/正義",
+            "desc": "- 每帯有1級本效果強度，令<color=#ffffff>自身</color>増加的破裂 強度額外+1級",
+            "summary": ""
+        },
+        {
+            "id": "CentralCommandTeamCaptain",
+            "name": "中央本部隊長",
+            "desc": "- 該人格的<color=#ffffff>行動槽</color>+1，将該人格的一个1技能替換為3技能\n- <color=#ffffff>自身</color>技能増加的焼傷 、流血 、破裂 、沈淪 与震顫 強度額外+1級(特殊異常状態同様适用)\n- <color=#ffffff>自身</color>技能増加的呼吸法 強度与獲得的充能 層数(包括<color=#FCC700>特殊充能</color>)額外+1\n- 不会陷入恐慌或侵蝕，而改為<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点(每場戦斗最多1次)\n- <color=#ffffff>攻撃容量</color>不低于2点的基礎技能造成的<color=#ffffff>傷害</color>+30%\n- <color=#7C5738>撃殺</color>敵方時，獲得2个対應属性的E.G.O資源，并獲得所有属性的E.G.O資源各1个",
+            "summary": ""
+        },
+        {
+            "id": "BestWelfareTeamMember",
+            "name": "福利部優秀員工",
+            "desc": "- <color=#ffffff>自身</color>技能増加的焼傷 、流血 、破裂 、沈淪 与震顫 強度額外+1級(特殊異常状態同様适用)\n- 不会陷入恐慌或侵蝕，而改為<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点(每場戦斗最多1次)\n- 若脳叶公司E.G.O::泪鋒之剣 羅佳獲得本效果，則<color=#7C5738>每回合</color>開始時使其獲得1層<color=#ffffff>突刺</color>傷害強化 ",
+            "summary": ""
+        },
+        {
+            "id": "ChasingArcanahard",
+            "name": "咏唱-阿峠納光破斬",
+            "desc": "- 最大値：3\n- <color=#7C5738>回合開始</color>時，使本效果的層数増加1層\n- 若本效果層数為3層，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加20層束縛 并使用阿峠納光破斬",
+            "summary": ""
+        },
+        {
+            "id": "HystericGauge",
+            "name": "歇斯底里",
+            "desc": "- 基礎値：0\n- 最大値：3\n- <color=#7C5738>回合結束</color>時\n· 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于0点，則使本效果的層数減少1層\n· 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于0点，則使本效果的層数増加1層",
+            "summary": ""
+        },
+        {
+            "id": "MagicalGirlAppear",
+            "name": "魔法少女登場！",
+            "desc": "- <color=#7C5738>本回合</color><color=#ffffff>自身</color>使用加算硬幣技能作為基礎攻撃技能\n\n- <color=#ffffff>自身</color>每帯有1級愛/憎 強度，使<color=#ffffff>自身</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+3%(最多+15%)",
+            "summary": ""
+        },
+        {
+            "id": "NoVillain",
+            "name": "反轉-逆位",
+            "desc": "- <color=#7C5738>本回合</color><color=#ffffff>自身</color>使用減算硬幣技能作為基礎攻撃技能",
+            "summary": ""
+        },
+        {
+            "id": "VillainMark",
+            "name": "惡人標記",
+            "desc": "- 受到来自堂吉訶德攻撃的<color=#ffffff>傷害</color>+10%\n\n- 僅施加給<color=#7C5738>每回合</color>首个施加的<color=#ffffff>目標</color>",
+            "summary": ""
+        },
+        {
+            "id": "ArcanaQueenOfHate",
+            "name": "魔法阿峠納",
+            "desc": "- 最大値：3\n- <color=#ffffff>自身</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+(本效果層数×5)%\n - <color=#7C5738>回合結束</color>時，若本效果層数為3層且<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于-25点，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為-25点",
+            "summary": ""
+        },
+        {
+            "id": "ThePowerOfLoveAndHate",
+            "name": "愛/憎",
+            "desc": "- 最大層数：20\n- <color=#FCC700>特殊充能</color>\n- 特定技能発動附加效果所需的資源。最多畳加至20層。<color=#7C5738>回合結束</color>時，本效果的層数減少1層。\n（本效果強度与層数的増減同様受普通充能 影響）",
+            "summary": ""
+        },
+        {
+            "id": "MagicalGirlResponse",
+            "name": "魔法少女的咏唱",
+            "desc": "- 最大値：2\n- <color=#ffffff>自身</color>獲得本效果時，使<color=#ffffff>自身</color>獲得1層強壮 与1層傷害強化 \n- <color=#ffffff>自身</color>獲得或消耗充能 層数的攻撃技能的<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+            "summary": ""
+        },
+        {
+            "id": "BlessingAlly",
+            "name": "加護",
+            "desc": "- <color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有8点<color=#81BBE8>理智値</color>，使<color=#ffffff>自身</color>獲得1層守護之剣(最多5層)\n- 拼点結束時，使<color=#ffffff>目標</color>増加2級沈淪 強度(<color=#7C5738>每回合</color>最多1次)\n- 受到攻撃時，使攻撃者増加2級沈淪 強度(<color=#7C5738>每回合</color>最多1次)\n- <color=#ffffff>自身</color>每帯有20点<color=#81BBE8>理智値</color>，令以上效果増加的沈淪 強度額外+1級(最多+2)\n- <color=#ffffff>自身</color>使用加算硬幣技能作為基礎技能",
+            "summary": ""
+        },
+        {
+            "id": "ProtectiveSword",
+            "name": "守護之剣",
+            "desc": "- <color=#7C5738>回合開始</color>時，每帯有1層本效果，使<color=#ffffff>自身</color>獲得1層防御等級提升 (最多5層)\n- <color=#7C5738>回合開始</color>時，使儀表盤上<color=#ffffff>自身</color>位于最左側的<color=#ffffff>行動槽</color>的挑釁値 +(本效果層数×3)(最多+15)\n- 最大値：5\n- <color=#7C5738>回合結束</color>時，解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "DespairAlly",
+            "name": "絶望",
+            "desc": "- <color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有-8点<color=#81BBE8>理智値</color>，使<color=#ffffff>自身</color>獲得1層穿刺之剣(最多5層)\n- 拼点結束時，対<color=#ffffff>目標</color>施加1層沈淪 (<color=#7C5738>每回合</color>最多1次)\n- <color=#ffffff>自身</color>基礎攻撃技能的首枚硬幣命中時，対<color=#ffffff>目標</color>施加1層沈淪 (<color=#7C5738>每回合</color>最多1次)\n- <color=#ffffff>自身</color>每帯有-20点<color=#81BBE8>理智値</color>，令以上效果施加的沈淪 層数額外+1層(最多+2)\n- <color=#ffffff>自身</color>使用減算硬幣技能作為基礎技能",
+            "summary": ""
+        },
+        {
+            "id": "PenetratingSword",
+            "name": "穿刺之剣",
+            "desc": "- <color=#7C5738>回合開始</color>時，每帯有1層本效果，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 (最多5層)\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>的挑釁値 -(本效果層数×0.15)(最多-0.75)\n- 最大値：5\n- <color=#7C5738>回合結束</color>時，解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "SwordCutwithTear",
+            "name": "泪鋒",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得5層深泪\n· 若本效果層数為3層，則額外獲得5層深泪 \n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>失去(本效果層数×15)点<color=#81BBE8>理智値</color>\n- 使<color=#ffffff>自身</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+(本效果層数×10)%(最多+30%)\n- 若<color=#ffffff>自身</color>帯有加護 ，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得層数相当于本效果層数的<color=#ffffff>拼点威力</color>提升 \n- 若<color=#ffffff>自身</color>帯有絶望 ，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得層数相当于本效果層数的<color=#ffffff>突刺</color>威力提升 \n- 最大値：3",
+            "summary": ""
+        },
+        {
+            "id": "BlackTearsAlly",
+            "name": "深泪",
+            "desc": "- <color=#FCC700>特殊充能</color>(固定強度)\n- 特定技能発動附加效果所需的資源\n- 最大値：20",
+            "summary": ""
+        },
+        {
+            "id": "KnightBless",
+            "name": "加護",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層守護 \n- 使<color=#ffffff>自身</color>高于1的物理抗性変為1(不包括陷入混乱)",
+            "summary": ""
+        },
+        {
+            "id": "TraumaShield",
+            "name": "精神屏蔽力場",
+            "desc": "- 受到来自<color=#ffffff>敵方単位</color>的理智<color=#ffffff>傷害</color>-80%\n- 受到的沈淪 <color=#ffffff>傷害</color>-80%\n- <color=#7C5738>回合結束</color>時，使本效果的層数減少1層",
+            "summary": ""
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "dataList": [
+        {
+            "id": 9015206,
+            "name": "飢餓与衰老",
+            "desc": "<color=#ffffff>戦斗開始</color>時，対<color=#ffffff>自身</color>施加[StarvingBarberOne]"
+        },
+        {
+            "id": 9015202,
+            "name": "衰老",
+            "desc": "<color=#7C5738>回合開始</color>時，若没有単位帯有[Laceration]，則使<color=#ffffff>自身</color>的最大<color=#7C5737>速度値</color>-2(友方与<color=#ffffff>敵方単位</color>均包括在内)"
+        },
+        {
+            "id": 9015203,
+            "name": "吸血",
+            "desc": "攻撃命中時，若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復<color=#ffffff>傷害</color>量15%的<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 9015204,
+            "name": "血液硬化",
+            "desc": "攻撃后，若<color=#ffffff>目標</color>的[Laceration]強度不低于8級，則使<color=#ffffff>自身</color>獲得1層[HardenedBlood]"
+        },
+        {
+            "id": 9015205,
+            "name": "染血的剪刃",
+            "desc": "若<color=#ffffff>自身</color>的[BloodScissor]層数不低于1層，則強化剪刃。"
+        },
+        {
+            "id": 9015207,
+            "name": "血袋",
+            "desc": "受到攻撃時，対<color=#ffffff>自身</color>施加1層[Laceration]。\n每当<color=#ffffff>自身</color>失去<color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>時，使<color=#ffffff>自身</color>獲得1層[HardenedBlood]。\n<color=#ffffff>友方単位</color>或<color=#ffffff>敵方単位</color>中存在血魔時，陣亡時獲得30層[BloodDinner]"
+        },
+        {
+            "id": 9015401,
+            "name": "吸血",
+            "desc": "攻撃命中時，若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復造成<color=#ffffff>傷害</color>量20%的<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 9015402,
+            "name": "血液硬化",
+            "desc": "攻撃后，若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使<color=#ffffff>自身</color>獲得1層[HardenedBlood]"
+        },
+        {
+            "id": 9015403,
+            "name": "血之渴求",
+            "desc": "- 優先指定帯有[Laceration]的<color=#ffffff>目標</color>。\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>在<color=#7C5738>本回合</color>未造成<color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> 并使<color=#ffffff>自身</color>獲得2層攻撃等級提升 。\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>在<color=#7C5738>本回合</color>造成了<color=#ffffff>傷害</color>，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 9015404,
+            "name": "血宴",
+            "desc": "若<color=#ffffff>自身</color>在戦斗中登場，或即将登場的<color=#ffffff>敵方単位</color>包括<color=#ffffff>自身</color>，則从第1回合起，根据<color=#ffffff>全体</color>単位受到的[Laceration]<color=#ffffff>傷害</color>，相應獲得[BloodDinner]。\n<color=#ffffff>自身</color>在戦斗中登場時，展現洒落在戦場上的潜伏之血。"
+        },
+        {
+            "id": 9015405,
+            "name": "染血的剪刃",
+            "desc": "若<color=#ffffff>自身</color>的[BloodScissor]層数不低于2層，則強化剪刃。"
+        },
+        {
+            "id": 9015601,
+            "name": "血魔猟人",
+            "desc": "若<color=#ffffff>目標</color>属于<血魔>或<血袋>，則使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%"
+        },
+        {
+            "id": 9015602,
+            "name": "激進的狩猟技巧",
+            "desc": "攻撃技能命中<color=#ffffff>敵方単位</color>時，以10%的概率対<color=#ffffff>目標</color>施加2層[Burst]"
+        },
+        {
+            "id": 9015603,
+            "name": "対血魔専用錘",
+            "desc": "使用技能時，若<color=#ffffff>目標</color>的[Burst]強度不低于10級，則技能施加[Burst]的效果改為造成的<color=#ffffff>傷害</color>+30%"
+        },
+        {
+            "id": 9015604,
+            "name": "止血剤",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>帯有[Laceration]，則使<color=#ffffff>自身</color>的[Laceration]層数減少1層"
+        },
+        {
+            "id": 9016001,
+            "name": "弱者印記",
+            "desc": "拼点勝利時，対<color=#ffffff>目標</color>施加[TrulyWeak]"
+        },
+        {
+            "id": 9016002,
+            "name": "惡党",
+            "desc": "愛好欺凌弱小"
+        },
+        {
+            "id": 9016003,
+            "name": "卑鄙",
+            "desc": "攻撃帯有[TrulyWeak]的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1"
+        },
+        {
+            "id": 9016101,
+            "name": "不会无聊的戦斗",
+            "desc": "造成的<color=#ffffff>傷害</color>+15%"
+        },
+        {
+            "id": 9016102,
+            "name": "連人都吃的熊",
+            "desc": "対現存<color=#61DA61>体力</color>不高于<color=#61DA61>体力</color>上限的50%的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+25%"
+        },
+        {
+            "id": 9016103,
+            "name": "可怕",
+            "desc": "進行拼点時，可能使<color=#ffffff>目標</color>失去1点<color=#81BBE8>理智値</color>"
+        }
+    ]
+}

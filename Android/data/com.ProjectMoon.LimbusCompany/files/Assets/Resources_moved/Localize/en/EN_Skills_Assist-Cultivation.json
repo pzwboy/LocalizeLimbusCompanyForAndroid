@@ -1,0 +1,67 @@
+{
+    "dataList": [
+        {
+            "id": 40000501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "赤斬",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有3層[Burst]，使本技能的<color=#ffffff>基礎威力</color>+1(最多2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[DefenseDown]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Breath]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[DefenseDown]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Breath]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "醉睡浪浪",
+                    "desc": "可无視<color=#7C5737>速度値</color>使攻撃<color=#ffffff>目標</color>改為<color=#ffffff>自身</color>\n[WhenUse] <color=#ffffff>自身</color>每帯有3級[Breath]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+3)\n[WhenUse] <color=#ffffff>目標</color>每帯有1種負面状態，使本技能的<color=#ffffff>基礎威力</color>+3(最多+9)\n[WhenUse] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得5層[Agility](<color=#7C5738>每回合</color>最多1次)\n[WhenUse] 使<color=#ffffff>自身</color>増加10級[Breath]強度并使<color=#ffffff>自身</color>獲得2層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加7級[Laceration]強度并対其施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[Paralysis]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使本硬幣造成的<color=#ffffff>傷害</color>+300%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

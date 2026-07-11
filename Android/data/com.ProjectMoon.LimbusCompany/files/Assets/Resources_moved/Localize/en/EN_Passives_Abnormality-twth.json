@@ -1,0 +1,135 @@
+{
+    "dataList": [
+        {
+            "id": 142201,
+            "name": "環指 野獣派講解員",
+            "desc": "回合開始時，每有1名属于環指 野獣派 学徒的友方単位，<color=#ff6000><mark=#ff000040><b><u>使自身獲得2層[Protection]</u></b></mark></color>\n- 若本場戦斗中自身使用了“批評”，則从下回合起改為獲得2層[Protection]并恢復5点理智値\n(若自身理智値低于-15点，則使恢復的理智値変為2倍)\n- 若没有属于環指 野獣派 学徒的友方単位，則改為対自身施加2層[Vulnerable]并使自身的理智値変為0点\n\n受到攻撃容量為1的技能攻撃前，若有其他属于学徒的友方単位，\n則令其<color=#ff6000><mark=#ff000040><b><u>代替自身受到攻撃(每回合最多2次，不包括援助単位)</u></b></mark></color>\n\n自身使用“批評”的回合結束時，若本場戦斗中有属于環指 野獣派 学徒的友方単位陣亡，則在対應位置<color=#ff6000><mark=#ff000040><b><u>以相同的学徒単位填補空缺</u></b></mark></color>\n- 每回合開始時対以該效果登場的属于学徒的単位施加層数相当于本場戦斗中陣亡的友方単位数的[Vulnerable]与[AttackDown](分別最多10層)",
+            "summary": "受到攻撃前，令其他属于学徒的<color=#ffffff>友方単位</color>代替受到攻撃",
+            "flavor": ""
+        },
+        {
+            "id": 142202,
+            "name": "指導与鞭策",
+            "desc": "回合開始時，使属于環指 野獣派 学徒的友方単位\n随机獲得層数共計相当于其存活回合数(包括本回合)\n的[AttackUp]或[DefenseUp](最多5層)\n\n若有属于学徒的友方単位陷入混乱，則<color=#ff6000><mark=#ff000040><b><u>回合結束時解除其混乱</u></b></mark></color>\n- 下回合使因該效果而解除混乱的属于学徒的単位所有物理属性与罪孼属性的抗性変為“致命”\n\n若有属于学徒的単位陷入恐慌，則回合結束時使其理智値恢復至45点",
+            "summary": "",
+            "flavor": ""
+        },
+        {
+            "id": 142203,
+            "name": "野獣派-野性色彩",
+            "desc": "戦斗結束時，対同時帯有[BearClawWound]，[EagleClawWound]与[BoldBrushstrokes]\n的罪人<color=#ff6000><mark=#ff000040><b><u>在下回合施加1層[IntenseColors]</u></b></mark></color>\n- 若目標帯有的[BearClawWound]与[EagleClawWound]\n各不低于3/6/9層，則改為施加2/3/4層[IntenseColors](以層数更低的效果為基准)",
+            "summary": "施加強烈色彩 ",
+            "flavor": "“動物的外表各有各的目的。其中，喚醒并表露出我們称之為野獣的東西所具有的野性的，便是野獣派。”"
+        },
+        {
+            "id": 142204,
+            "name": "寄宿着人生的獣面",
+            "desc": "适用于[PanicChangeLock]效果，\n回合結束時，若自身陷入恐慌，則使自身的理智値変為20点\n\n<color=#ff6000><mark=#ff000040><b><u>若現存体力不高于70%，則改変自身模式</u></b></mark></color>\n- 解除除自身固有状態以外的所有状態\n- 該回合開始時，使自身獲得[FaubismWolfMask]并使自身的理智値恢復至45点",
+            "summary": "",
+            "flavor": ""
+        },
+        {
+            "id": 142301,
+            "name": "環指 野獣派講解員 盧佛",
+            "desc": "使用強力攻撃的回合使<color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+15\n\n受到単方面攻撃的<color=#ffffff>傷害</color>-30%\n単方面攻撃造成的<color=#ffffff>傷害</color>+30%\n- 若攻撃的<color=#ffffff>行動槽</color>的[Aggro]不低于2，則每帯有1点[Aggro]，使増加的<color=#ffffff>傷害</color>減少5%(最低0%)\n\n拼点失敗時，使<color=#ffffff>自身</color>獲得1層[AttackDmgUp](<color=#7C5738>每回合</color>最多5次)\n- <color=#7C5738>回合結束</color>時或使用技能攻撃罪人時，在該技能攻撃后解除該效果獲得的[AttackDmgUp]",
+            "summary": "受到単方面攻撃的<color=#ffffff>傷害</color>減少，単方面攻撃造成的<color=#ffffff>傷害</color>増加\n拼点失敗時獲得傷害強化 ",
+            "flavor": ""
+        },
+        {
+            "id": 142302,
+            "name": "野獣派-狼面：覚醒的野性",
+            "desc": "回合開始時，<color=#ff6000><mark=#ff000040><b><u>使自身獲得8層[Protection]</u></b></mark></color>\n- 每帯有<color=#ff6000><mark=#ff000040><b><u>1種負面状態</u></b></mark></color>，回合開始時使自身獲得的[Protection]層数減少2層\n- “令袮皮膚下搏動着的那赤紅色彩更加狂野。”<color=#ff6000><mark=#ff000040><b><u>拼点失敗時，</u></b></mark></color>該效果在下回合<color=#ff6000><mark=#ff000040><b><u>改為施加2層[Vulnerable]</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>每次受到技能硬幣攻撃時，使自身増加1級防御等級</u></b></mark></color>(每回合最多20級)\n- 回合結束時，解除該效果増加的防御等級\n- “令袮皮膚下搏動着的那赤紅色彩更加狂野。”<color=#ff6000><mark=#ff000040><b><u>拼点失敗時，</u></b></mark></color>該效果在下回合改為每次受到技能硬幣攻撃時，<color=#ff6000><mark=#ff000040><b><u>使自身減少1級防御等級</u></b></mark></color>(最多20級，回合結束時解除)",
+            "summary": "受到攻撃時，増加防御等級\n上回合特定技能拼点失敗時，改為減少防御等級",
+            "flavor": ""
+        },
+        {
+            "id": 142303,
+            "name": "野獣派-野性色彩",
+            "desc": "戦斗結束時，対同時帯有[BearClawWound]，[EagleClawWound]与[BoldBrushstrokes]\n的罪人<color=#ff6000><mark=#ff000040><b><u>在下回合施加1層[IntenseColors]</u></b></mark></color>\n- 若目標帯有的[BearClawWound]与[EagleClawWound]\n各不低于3/6/9層，則改為施加2/3/4層[IntenseColors](以層数更低的效果為基准)",
+            "summary": "施加強烈色彩 ",
+            "flavor": "“動物的外表各有各的目的。其中，喚醒并表露出我們称之為野獣的東西所具有的野性的，便是野獣派。”"
+        },
+        {
+            "id": 142304,
+            "name": "野獣派-顔料注入極限値",
+            "desc": "适用于[PanicChangeLock]效果，\n回合結束時，若自身陷入恐慌，則使自身的理智値変為30点\n\n<color=#ff6000><mark=#ff000040><b><u>若現存体力不高于35%，則使自身的[FaubismWolfMask]轉化為[FaubismWolfMaskBlooded]并使自身的理智値恢復至45点</u></b></mark></color>",
+            "summary": "",
+            "flavor": ""
+        },
+        {
+            "id": 142401,
+            "name": "藝術的痕迹",
+            "desc": "陣亡時，獲得2个持有量最少的E.G.O資源",
+            "summary": "陣亡時，獲得E.G.O資源",
+            "flavor": ""
+        },
+        {
+            "id": 500601,
+            "name": "映射戦斗",
+            "desc": "若与同一<color=#ffffff>目標</color>拼点不低于10次，則随机使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>増加或減少(拼点次数/10)(向下取整)\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]強度最多累計到30級，層数最多累計到10層",
+            "flavor": ""
+        },
+        {
+            "id": 500602,
+            "name": "環指 野獣派講解員",
+            "desc": "回合開始時，每有1名属于環指 野獣派 学徒的友方単位，<color=#ff6000><mark=#ff000040><b><u>使自身獲得2層[Protection]</u></b></mark></color>\n- 若本場戦斗中自身使用了“批評”，則从下回合起改為獲得2層[Protection]并恢復5点理智値\n(若自身理智値低于-15点，則使恢復的理智値変為2倍)\n- 若没有属于環指 野獣派 学徒的友方単位，則改為対自身施加2層[Vulnerable]并使自身的理智値変為0点\n\n受到攻撃容量為1的技能攻撃前，若有其他属于学徒的友方単位，\n則<color=#ff6000><mark=#ff000040><b><u>使其獲得2層[Protection]并令其代替自身受到攻撃(每回合最多2次)</u></b></mark></color>\n\n自身使用“批評”的回合結束時，若本場戦斗中有属于環指 野獣派 学徒的友方単位陣亡，則在対應位置<color=#ff6000><mark=#ff000040><b><u>以相同的学徒単位填補空缺</u></b></mark></color>\n- 每回合開始時対以該效果登場的属于学徒的単位施加層数相当于本場戦斗中陣亡的友方単位数的[Vulnerable]与[AttackDown](分別最多10層)",
+            "summary": "受到攻撃前，令其他属于学徒的<color=#ffffff>友方単位</color>代替受到攻撃",
+            "flavor": ""
+        },
+        {
+            "id": 500603,
+            "name": "指導与鞭策",
+            "desc": "回合開始時，使属于環指 野獣派 学徒的友方単位\n随机獲得層数共計相当于其存活回合数(包括本回合)\n的[AttackUp]或[DefenseUp](最多5層)\n\n若有属于学徒的友方単位陷入混乱，則<color=#ff6000><mark=#ff000040><b><u>回合結束時解除其混乱</u></b></mark></color>\n- 下回合使因該效果而解除混乱的属于学徒的単位所有物理属性与罪孼属性的抗性変為“致命”\n\n若有属于学徒的単位陷入恐慌，則回合結束時使其理智値恢復至45点",
+            "summary": "",
+            "flavor": ""
+        },
+        {
+            "id": 500604,
+            "name": "野獣派-野性色彩",
+            "desc": "戦斗結束時，対同時帯有[BearClawWound]，[EagleClawWound]与[BoldBrushstrokes]\n的罪人<color=#ff6000><mark=#ff000040><b><u>在下回合施加1層[IntenseColors]</u></b></mark></color>\n- 若目標帯有的[BearClawWound]与[EagleClawWound]\n各不低于3/6/9層，則改為施加2/3/4層[IntenseColors](以層数更低的效果為基准)",
+            "summary": "施加強烈色彩 ",
+            "flavor": "“動物的外表各有各的目的。其中，喚醒并表露出我們称之為野獣的東西所具有的野性的，便是野獣派。”"
+        },
+        {
+            "id": 500605,
+            "name": "寄宿着人生的獣面",
+            "desc": "适用于[PanicChangeLock]效果，\n回合結束時，若自身陷入恐慌，則使自身的理智値変為45点\n\n<color=#ff6000><mark=#ff000040><b><u>若現存体力不高于70%，則改変自身模式</u></b></mark></color>\n- 解除除自身固有状態以外的所有状態\n- 使場上的全体罪人<color=#ff6000><mark=#ff000040><b><u>増加8級[Laceration]強度与8級[Sinking]強度并対其施加8層[Laceration]与8層[Sinking]</u></b></mark></color>\n- 該回合開始時，使自身獲得[FaubismWolfMask]并使自身的理智値恢復至45点",
+            "summary": "",
+            "flavor": ""
+        },
+        {
+            "id": 500701,
+            "name": "映射戦斗",
+            "desc": "若与同一<color=#ffffff>目標</color>拼点不低于10次，則随机使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>増加或減少(拼点次数/10)(向下取整)\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]強度最多累計到30級，層数最多累計到10層",
+            "flavor": ""
+        },
+        {
+            "id": 500702,
+            "name": "環指 野獣派講解員 盧佛",
+            "desc": "使用強力攻撃的回合使<color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+15\n\n受到単方面攻撃的<color=#ffffff>傷害</color>-50%\n単方面攻撃造成的<color=#ffffff>傷害</color>+50%\n- 若攻撃的<color=#ffffff>行動槽</color>的[Aggro]不低于2，則每帯有1点[Aggro]，使増加的<color=#ffffff>傷害</color>減少5%(最低0%)\n\n拼点失敗時，使<color=#ffffff>自身</color>獲得1層[AttackDmgUp](<color=#7C5738>每回合</color>最多5次)\n- <color=#7C5738>回合結束</color>時或使用技能攻撃罪人時，在該技能攻撃后解除該效果獲得的[AttackDmgUp]",
+            "summary": "受到単方面攻撃的<color=#ffffff>傷害</color>減少，単方面攻撃造成的<color=#ffffff>傷害</color>増加\n拼点失敗時獲得傷害強化 ",
+            "flavor": ""
+        },
+        {
+            "id": 500703,
+            "name": "野獣派-狼面：覚醒的野性",
+            "desc": "回合開始時，<color=#ff6000><mark=#ff000040><b><u>使自身獲得10層[Protection]</u></b></mark></color>\n- 每帯有<color=#ff6000><mark=#ff000040><b><u>1種負面状態</u></b></mark></color>，回合開始時使自身獲得的[Protection]層数減少1層\n- “令袮皮膚下搏動着的那赤紅色彩更加狂野。”<color=#ff6000><mark=#ff000040><b><u>拼点失敗時，</u></b></mark></color>該效果在下回合<color=#ff6000><mark=#ff000040><b><u>改為施加2層[Vulnerable]</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>每次受到技能硬幣攻撃時，使自身増加1級防御等級</u></b></mark></color>(每回合最多20級)\n- 回合結束時，解除該效果増加的防御等級\n- “令袮皮膚下搏動着的那赤紅色彩更加狂野。”<color=#ff6000><mark=#ff000040><b><u>拼点失敗時，</u></b></mark></color>該效果在下回合改為每次受到技能硬幣攻撃時，<color=#ff6000><mark=#ff000040><b><u>使自身減少1級防御等級</u></b></mark></color>(最多20級，回合結束時解除)",
+            "summary": "受到攻撃時，増加防御等級\n上回合特定技能拼点失敗時，改為減少防御等級",
+            "flavor": ""
+        },
+        {
+            "id": 500704,
+            "name": "野獣派-野性色彩",
+            "desc": "戦斗結束時，対同時帯有[BearClawWound]，[EagleClawWound]与[BoldBrushstrokes]\n的罪人<color=#ff6000><mark=#ff000040><b><u>在下回合施加1層[IntenseColors]</u></b></mark></color>\n- 若目標帯有的[BearClawWound]与[EagleClawWound]\n各不低于3/6/9層，則改為施加2/3/4層[IntenseColors](以層数更低的效果為基准)",
+            "summary": "施加強烈色彩 ",
+            "flavor": "“動物的外表各有各的目的。其中，喚醒并表露出我們称之為野獣的東西所具有的野性的，便是野獣派。”"
+        },
+        {
+            "id": 500705,
+            "name": "野獣派-顔料注入極限値",
+            "desc": "适用于[PanicChangeLock]效果，\n回合結束時，若自身陷入恐慌，則使自身的理智値変為45点\n\n<color=#ff6000><mark=#ff000040><b><u>若現存体力不高于35%，則使自身的[FaubismWolfMask]轉化為[FaubismWolfMaskBlooded]并使自身的理智値恢復至45点</u></b></mark></color>",
+            "summary": "",
+            "flavor": ""
+        }
+    ]
+}
