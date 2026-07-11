@@ -119,17 +119,18 @@ jobs:
     - name: Create release package
       if: steps.get_release.outputs.new_version == 'true'
       run: |
-        # 进入目标目录的父目录
-        cd Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/
-        
-        # 压缩en文件夹
-        zip -r localize.zip en/
-        
-        # 移动到工作区根目录
-        mv localize.zip ${{ github.workspace }}/
-        
+        # 进入工作区根目录
+        cd ${{ github.workspace }}
+    
+        # 压缩完整的文件夹路径
+        zip -r localize.zip Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en/
+    
         echo "Package created: localize.zip"
         echo "Package size: $(ls -lh localize.zip | awk '{print $5}')"
+    
+        # 查看压缩包内容（调试用）
+        echo "Contents of localize.zip:"
+        unzip -l localize.zip | head -20
         
     - name: Create release
       if: steps.get_release.outputs.new_version == 'true'
