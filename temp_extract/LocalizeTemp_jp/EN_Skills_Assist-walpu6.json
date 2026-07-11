@@ -1,0 +1,183 @@
+{
+    "dataList": [
+        {
+            "id": 40000301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "要用愛！",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>的[Burst]強度与[Sinking]強度之和每有5級，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>獲得10層[PowerOfLoveAndJustice]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "以正義之名！",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>的[Burst]強度与[Sinking]強度之和每有7級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>獲得10層[PowerOfLoveAndJustice]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Burst]強度与[Sinking]強度之和不低于10級，則<color=#7C5738>下回合</color>対其施加1層[Binding]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "阿峠納律動",
+                    "desc": "主要<color=#ffffff>目標</color>指定絶望騎士\n次要<color=#ffffff>目標</color>指定[ColdBlackTear]層数最高的<color=#ffffff>友方単位</color>\n- 没有帯有[ColdBlackTear]的<color=#ffffff>友方単位</color>時，次要<color=#ffffff>目標</color>指定<color=#61DA61>体力</color>最低的<color=#ffffff>友方単位</color>\n対<color=#ffffff>友方単位</color>造成的<color=#ffffff>傷害</color>変為0点，且不会触発其[Sinking]或[ColdBlackTear]效果\n\n[WinDuel] 解除1層為次要<color=#ffffff>目標</color>的<color=#ffffff>友方単位</color>的[ColdBlackTear]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若指定<color=#ffffff>敵方単位</color>，則使其増加1級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若指定<color=#ffffff>友方単位</color>，則使其恢復5点<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若指定<color=#ffffff>敵方単位</color>，則使其増加1級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若指定<color=#ffffff>友方単位</color>，則使其恢復5点<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若指定<color=#ffffff>敵方単位</color>，則使其増加1級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若指定<color=#ffffff>友方単位</color>，則使其恢復5点<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "只能用那招了！",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得1層[ChasingArcana]\n[StartBattle] 使<color=#ffffff>自身</color>獲得50点<color=#81BBE8>護盾</color>\n[StartBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的[Aggro]+20",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000305,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "咏唱-阿峠納光破斬",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得50点<color=#81BBE8>護盾</color>\n[StartBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的[Aggro]+20\n[EndBattle] 若<color=#ffffff>自身</color>的<color=#81BBE8>護盾</color>為0点，則使<color=#ffffff>自身</color>撤退",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000306,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "阿峠納光破斬",
+                    "desc": "[CantDuel]\n不会対遺忘騎士之剣造成<color=#ffffff>傷害</color>\n命中帯有[WornOutKnight]的<color=#ffffff>敵方単位</color>時，結束<color=#7C5738>本回合</color>\n[EndBattle] 対<color=#ffffff>自身</color>施加[UsedTooMuchPower]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>的<color=#61DA61>体力</color>降至其現存<color=#61DA61>体力</color>的(100-(其[CollapsedPride]層数×33))%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000307,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "阿峠納光破斬",
+                    "desc": "[CantDuel]\n僅通過<color=#ffffff>硬幣效果</color>造成<color=#ffffff>傷害</color>\n不会対毀心之剣、裂心之剣与穿心之剣造成<color=#ffffff>傷害</color>\n命中帯有[WornOutKnight]且<color=#61DA61>体力</color>不高于600点的<color=#ffffff>敵方単位</color>時，結束<color=#7C5738>本回合</color>\n[EndBattle] 対<color=#ffffff>自身</color>施加[UsedTooMuchPower]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 造成(<color=#ffffff>目標</color>的[CollapsedPride]層数×200)点固定<color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40000308,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "只能用那招了！",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得1層[ChasingArcanahard]\n[StartBattle] 使<color=#ffffff>自身</color>獲得50点<color=#81BBE8>護盾</color>\n[StartBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的[Aggro]+20",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

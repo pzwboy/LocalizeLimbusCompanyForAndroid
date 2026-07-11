@@ -1,0 +1,151 @@
+{
+    "dataList": [
+        {
+            "id": 9831,
+            "name": "恐魚研究記録",
+            "desc": "対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%\n- 本場戦斗期間每有1名<color=#ffffff>敵方単位</color>陣亡或每有1个<color=#ffffff>部位</color>被破坏，額外使造成的<color=#ffffff>傷害</color>+1%(最多額外+20%)\n- 重復破坏相同<color=#ffffff>部位</color>時也会生效\n- 若登場的<color=#ffffff>敵方単位</color>包括恐魚，則以上效果无条件生效",
+            "simpleDesc": [
+                {
+                    "abilityID": 9831,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9832,
+            "name": "黄金羅盤",
+            "desc": "使用加算硬幣技能時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>;使用減算硬幣技能時，使<color=#ffffff>自身</color>失去5点<color=#81BBE8>理智値</color>(不会因本效果而使<color=#81BBE8>理智値</color>低于-40点，<color=#7C5738>每回合</color>每名人格最多1次)\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color><color=#81BBE8>理智値</color>為最大値或不高于-30点，則使<color=#ffffff>自身</color>獲得1層[ResultEnhancement]与2層[Protection]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9832,
+                    "simpleDesc": "使用技能時，根据硬幣類型决定恢復或失去<color=#81BBE8>理智値</color>"
+                },
+                {
+                    "abilityID": 98321,
+                    "simpleDesc": "<color=#81BBE8>理智値</color>為最大値或不高于-30点時，獲得威力提升与守護"
+                }
+            ]
+        },
+        {
+            "id": 9833,
+            "name": "銀色的鑰匙串",
+            "desc": "頭目遭遇戦中，<color=#7C5738>回合開始</color>時獲得持有量最少的3種E.G.O資源各1个\n\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color>使用了E.G.O技能，則獲得3个持有量最少的E.G.O資源(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9833,
+                    "simpleDesc": "獲得持有量最少的3種E.G.O資源各1个"
+                },
+                {
+                    "abilityID": 98331,
+                    "simpleDesc": "獲得3个持有量最少的E.G.O資源"
+                }
+            ]
+        },
+        {
+            "id": 9834,
+            "name": "恐魚干",
+            "desc": "<color=#7C5738>回合開始</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)施加3層[DefenseDown]\n- 若登場的<color=#ffffff>敵方単位</color>包括恐魚，則改為施加7層[DefenseDown]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9834,
+                    "simpleDesc": "施加防御等級降低"
+                }
+            ]
+        },
+        {
+            "id": 9835,
+            "name": "閃耀的提灯",
+            "desc": "[最先編入的人格専属]\n\n<color=#7C5738>每回合</color>首个使用的攻撃技能的<color=#ffffff>最終威力</color>+3\n若該攻撃技能為E.G.O技能，則改為<color=#ffffff>最終威力</color>+4，造成的<color=#ffffff>傷害</color>+25%\n\n<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>帯有[NervousImpairment]，則消耗最多4層[NervousImpairment]并使<color=#ffffff>自身</color>増加(消耗的[NervousImpairment]層数×2)級[Combustion]強度",
+            "simpleDesc": [
+                {
+                    "abilityID": 9835,
+                    "simpleDesc": "<color=#7C5738>每回合</color>首个使用的攻撃技能的<color=#ffffff>最終威力</color>増加"
+                },
+                {
+                    "abilityID": 98351,
+                    "simpleDesc": "<color=#7C5738>每回合</color>首个使用的攻撃技能<color=#ffffff>最終威力</color>与造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 98352,
+                    "simpleDesc": "若<color=#ffffff>自身</color>帯有神經損傷 ，則消耗神經損傷 層数并相應増加焼傷 強度"
+                }
+            ]
+        },
+        {
+            "id": 9836,
+            "name": "古旧樂譜残章",
+            "desc": "包括E.G.O技能在内的攻撃技能僅攻撃命中1个<color=#ffffff>敵方単位</color>時(若是異想体，則改為以<color=#ffffff>部位</color>判定)，使該技能造成的<color=#ffffff>傷害</color>+10%\n若該技能為増加[Sinking]強度，施加[Sinking]層数或施加<color=#E40302>特殊沈淪</color>的技能，則改為造成的<color=#ffffff>傷害</color>+25%\n\n[涌潮悲歌 以實瑪利 E.G.O専属]\n若該E.G.O技能僅命中1个<color=#ffffff>敵方単位</color>，則使該技能最后一枚硬幣的威力+4，造成的<color=#ffffff>傷害</color>+20%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9836,
+                    "simpleDesc": "<color=#ffffff>攻撃容量</color>為1的技能攻撃命中時造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 98361,
+                    "simpleDesc": "<color=#ffffff>攻撃容量</color>為1且施加沈淪的技能攻撃命中時造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 98362,
+                    "simpleDesc": "涌潮悲歌 以實瑪利 E.G.O獲得強化"
+                }
+            ]
+        },
+        {
+            "id": 9837,
+            "name": "金属構造体",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層[TakeHpHealIncrease]\n擁有増加[Burst]強度或施加[Burst]層数的攻撃技能的人格改為獲得4層[TakeHpHealIncrease]\n\n[指令：熔毀 浮士德 E.G.O専属]\n該E.G.O技能效果与被動恢復的溢出<color=#61DA61>体力</color>会轉化為<color=#81BBE8>護盾</color>",
+            "simpleDesc": [
+                {
+                    "abilityID": 9837,
+                    "simpleDesc": "獲得<color=#61DA61>体力</color>恢復提升"
+                },
+                {
+                    "abilityID": 98371,
+                    "simpleDesc": "獲得<color=#61DA61>体力</color>恢復提升"
+                },
+                {
+                    "abilityID": 98372,
+                    "simpleDesc": "指令：熔毀 浮士德 E.G.O獲得強化"
+                }
+            ]
+        },
+        {
+            "id": 9838,
+            "name": "宿月酒盞",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復5点<color=#81BBE8>理智値</color>。若<color=#81BBE8>理智値</color>為最大値，則改為増加相当于溢出恢復量的[Breath]強度(最多5級)\n使用使<color=#ffffff>自身</color>或其他単位増加[Breath]強度或獲得[Breath]層数的攻撃技能時，使<color=#ffffff>自身</color>獲得2層[Breath](<color=#7C5738>每回合</color>每名人格最多1次)\n\n[宁作吾 鴻璐 E.G.O専属]\n- 覚醒：使用該E.G.O技能時改為恢復<color=#81BBE8>理智値</color>，而非消耗<color=#81BBE8>理智値</color>\n- 侵蝕：使用該E.G.O技能時消耗的<color=#81BBE8>理智値</color>-50%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9838,
+                    "simpleDesc": "恢復<color=#81BBE8>理智値</color>。若<color=#81BBE8>理智値</color>為最大値，則改為増加呼吸法 強度"
+                },
+                {
+                    "abilityID": 98381,
+                    "simpleDesc": "使用使<color=#ffffff>自身</color>或其他単位増加呼吸法 強度或獲得呼吸法 層数的攻撃技能時獲得呼吸法 層数"
+                },
+                {
+                    "abilityID": 98382,
+                    "simpleDesc": "宁作吾 鴻璐 E.G.O獲得強化"
+                }
+            ]
+        },
+        {
+            "id": 9839,
+            "name": "造型古典的拆信刀",
+            "desc": "<color=#ffffff>攻撃容量</color>不低于2的技能造成的<color=#ffffff>傷害</color>+15%\n増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的技能改為造成的<color=#ffffff>傷害</color>+(15+<color=#ffffff>攻撃容量</color>×5)%(最多+50%)\n\n[未照耀的栄光 格里高尓 E.G.O専属]\n- 覚醒：每<color=#ffffff>重復使用</color>1次該E.G.O技能的硬幣，使其造成的<color=#ffffff>傷害</color>+20%(最多+60%)\n- 侵蝕：攻撃前每消耗10層[MlynarWaiting]，使<color=#ffffff>自身</color>獲得1層[AttackDmgUp](最多4層)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9839,
+                    "simpleDesc": "使用<color=#ffffff>攻撃容量</color>不低于2的技能時造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 98391,
+                    "simpleDesc": "使用<color=#ffffff>攻撃容量</color>不低于2且施加震顫的技能時造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 98392,
+                    "simpleDesc": "未照耀的栄光 格里高尓 E.G.O獲得強化"
+                }
+            ]
+        }
+    ]
+}

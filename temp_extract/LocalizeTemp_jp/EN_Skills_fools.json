@@ -1,0 +1,130 @@
+{
+    "dataList": [
+        {
+            "id": 899901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "給我糖果。",
+                    "desc": "優先指定帯有[CandyForCharon]的<color=#ffffff>目標</color>\n[EndSkill] 若<color=#ffffff>目標</color>未帯有[CandyForCharon]，則対其施加[CandyForCharon]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[CandyForCharon]，則<color=#7C5738>下回合</color>使其陷入混乱。"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 899902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "没有，糖果。",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 899903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "袮們…",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 899904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "…可米，生气了。",
+                    "desc": "[BeforeAttack] 根据帯有[CandyForCharon]的人格数，使本技能的<color=#ffffff>攻撃容量</color>相應増加\n[WhenUse] 根据帯有[CandyForCharon]的人格数，使本技能的<color=#ffffff>拼点威力</color>相應増加",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 899905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "布隆布隆",
+                    "desc": "[WhenUse] 根据帯有[CandyForCharon]的人格数，使本技能的<color=#ffffff>拼点威力</color>相應増加\n每有1名帯有[CandyForCharon]的人格，使本技能造成的<color=#ffffff>傷害</color>+10%(最多+100%)",
+                    "coinlist": [
+                        {},
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 899906,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "袮打了，可米。",
+                    "desc": "[WhenUse] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[ParryingResultUp]与2層[Agility]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

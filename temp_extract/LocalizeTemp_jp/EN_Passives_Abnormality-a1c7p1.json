@@ -1,0 +1,75 @@
+{
+    "dataList": [
+        {
+            "id": 837101,
+            "name": "从容的机会",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>敵方単位</color>，則使<color=#ffffff>自身</color>獲得1層[PenetrateDamageUp]"
+        },
+        {
+            "id": 837102,
+            "name": "輕松地調整呼吸",
+            "desc": "<color=#7C5738>回合結束</color>時，恢復7点<color=#81BBE8>理智値</color>\n<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的[Breath]強度/4)層[Agility](最多3層)"
+        },
+        {
+            "id": 837103,
+            "name": "単挑决斗",
+            "desc": "<color=#ffffff>目標</color>陷入混乱時，使用“向宁致敬”"
+        },
+        {
+            "id": 837104,
+            "name": "集中攻撃",
+            "desc": "対上回合成功攻撃的<color=#ffffff>行動槽</color>使用技能時，根据累計成功攻撃的回合数，獲得対應效果。\n若上回合未成功攻撃則重置效果。\n- 累計攻撃成功1回合：<color=#ffffff>拼点威力</color>+1\n- 累計攻撃成功2回合：<color=#ffffff>基礎威力</color>+1\n- 累計攻撃成功3回合：<color=#ffffff>基礎威力</color>+1，<color=#ffffff>硬幣威力</color>+1"
+        },
+        {
+            "id": 837201,
+            "name": "从袮開始切叭！",
+            "desc": "優先指定帯有[LineCutting]的単位。"
+        },
+        {
+            "id": 837202,
+            "name": "硬血剪刀",
+            "desc": "拼点勝利時，若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color><color=#ffffff>部位</color>与本体恢復造成<color=#61DA61>体力</color><color=#ffffff>傷害</color>量40%的<color=#61DA61>体力</color>\n攻撃后，若<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>不低于100点，則使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>\n不可摧毀的硬幣拼点失敗后命中不会触発該效果。",
+            "summary": "攻撃帯有流血 的敵人時使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>，累計恢復100点<color=#61DA61>体力</color>時使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 837203,
+            "name": "我不需要不美麗之物！！",
+            "desc": "若存在<color=#61DA61>体力</color>比例不高于30%的<color=#ffffff>敵方単位</color>，則使用“我不需要不美麗之物！！”技能。"
+        },
+        {
+            "id": 837204,
+            "name": "還没結束",
+            "desc": "現存<color=#61DA61>体力</color>不高于40%時，改変攻撃模式\n攻撃模式改変時，<color=#7C5738>每回合</color>使<color=#ffffff>自身</color>増加10級[Laceration]強度，使<color=#ffffff>自身</color>獲得2層[BloodScissor]。"
+        },
+        {
+            "id": 837205,
+            "name": "血宴",
+            "desc": "若<color=#ffffff>自身</color>在戦斗中登場，或即将登場的<color=#ffffff>敵方単位</color>包括<color=#ffffff>自身</color>，則从第1回合起，根据<color=#ffffff>全体</color>単位受到的[Laceration]<color=#ffffff>傷害</color>，相應獲得[BloodDinner]。\n<color=#ffffff>自身</color>在戦斗中登場時，進一步展現洒落在戦場上的潜伏之血。"
+        },
+        {
+            "id": 837206,
+            "name": "帯血的剪刀",
+            "desc": "<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>自身</color>獲得10層[BloodScissor]\n- [BloodScissor]不会低于1\n- [BloodScissor]不低于10層時，轉換為[BloodScissorTwo]\n- [BloodScissor]不低于20層時，轉換為[BloodScissorThree]\n若[BloodScissor]被消耗至閾値以下，則轉換至前一階段"
+        },
+        {
+            "id": 837207,
+            "name": "飢餓与衰老",
+            "desc": "<color=#ffffff>戦斗開始</color>時，対<color=#ffffff>自身</color>施加[StarvingBarberTwo]"
+        },
+        {
+            "id": 837208,
+            "name": "血…血…血…！",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則<color=#7C5738>下回合</color>開始時解除<color=#ffffff>自身</color>的恐慌并使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点。\n解除恐慌時，\n- 消耗30層[BloodDinner]并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Enhancement]与1層[BloodScissor]，使<color=#ffffff>自身</color>恢復20点<color=#81BBE8>理智値</color>。\n- 若未消耗[BloodDinner]，則使<color=#ffffff>自身</color>増加30級[Laceration]強度，立即触発<color=#ffffff>自身</color>的[Laceration]，使<color=#ffffff>自身</color>的[Laceration]層数減少3層。<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Enhancement]与2層[AttackDmgUp]，使<color=#ffffff>自身</color>恢復20点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 9999997,
+            "name": "恐慌恢復",
+            "desc": "<color=#7C5738>回合結束</color>時，若陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点。"
+        },
+        {
+            "id": 9999996,
+            "name": "固定恐慌",
+            "desc": "被施加改変恐慌類型的状態時，<color=#ffffff>自身</color>的恐慌類型不会改変。效果改為対未帯有<color=#81BBE8>理智値</color>的単位施加的效果。"
+        }
+    ]
+}

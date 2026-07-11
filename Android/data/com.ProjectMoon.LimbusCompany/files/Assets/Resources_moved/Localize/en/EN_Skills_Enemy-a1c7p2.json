@@ -1,0 +1,1186 @@
+{
+    "dataList": [
+        {
+            "id": 9015801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血猛匝",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>帯有硬化血液 且本技能的硬幣帯有施加[Burst]的效果，則額外対<color=#ffffff>目標</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "失去目的的暴怒",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的硬化血液 層数不低于3層且本技能的硬幣帯有施加[Burst]的效果，則額外使<color=#ffffff>目標</color>増加2級[Laceration]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>獲得1層硬化血液 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "无節制下劈",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于10級，則使本硬幣造成的<color=#ffffff>傷害</color>+20%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>獲得1層硬化血液 ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血猛匝",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>帯有硬化血液 且本技能的硬幣帯有施加[Burst]的效果，則額外対<color=#ffffff>目標</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "失去目的的暴怒",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的硬化血液 層数不低于3層且本技能的硬幣帯有施加[Burst]的效果，則額外対<color=#ffffff>目標</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>獲得1層硬化血液 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "无節制下劈",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于10級，則使本硬幣造成的<color=#ffffff>傷害</color>+20%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>獲得1層硬化血液 ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血鞭笞",
+                    "desc": "[DefeatDuel] 使<color=#ffffff>自身</color>増加10級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加10級[Laceration]強度并使<color=#ffffff>自身</color>獲得1層染血之手 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血揮撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于8級，則使本技能造成的<color=#ffffff>傷害</color>+20%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使<color=#ffffff>自身</color>獲得1層硬化血液 "
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加20級[Laceration]強度并使<color=#ffffff>自身</color>獲得2層染血之手 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血強化打撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，根据<color=#ffffff>自身</color>帯有的硬化血液 層数，額外使<color=#ffffff>目標</color>増加[Burst]強度\n[EndSkill] 消耗所有硬化血液 与染血之手 ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>目標</color>的[Laceration]強度)%的<color=#61DA61>体力</color>(最多20%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有1層硬化血液 ，使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血鞭笞",
+                    "desc": "[DefeatDuel] 使<color=#ffffff>自身</color>増加10級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加10級[Laceration]強度并使<color=#ffffff>自身</color>獲得1層染血之手 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血揮撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能造成的<color=#ffffff>傷害</color>+10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使<color=#ffffff>自身</color>獲得1層硬化血液 "
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加20級[Laceration]強度并使<color=#ffffff>自身</color>獲得2層染血之手 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血強化打撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，根据<color=#ffffff>自身</color>帯有的硬化血液 層数，額外使<color=#ffffff>目標</color>増加[Burst]強度\n[EndSkill] 消耗所有硬化血液 与染血之手 ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>目標</color>的[Laceration]強度)%的<color=#61DA61>体力</color>(最多20%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有1層硬化血液 ，使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "請回答問題。",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加5級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "別打断我！",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加5級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使<color=#ffffff>自身</color>獲得1層[BloodyHand]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "褪色的忍耐",
+                    "desc": "[WhenUse] 消耗最多50層[BloodDinner]，每消耗10層[BloodDinner]，使<color=#ffffff>自身</color>獲得1層[BloodyHand]\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[EndSkill] 若本技能未消耗[BloodDinner]，則使<color=#ffffff>自身</color>増加10級[Laceration]強度并使<color=#ffffff>自身</color>獲得1層[BloodyHand]。"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "无尽的告解",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] <color=#ffffff>自身</color>每帯有1層[HardenedBlood]，使本技能的<color=#ffffff>拼点威力</color>+1\n[DefeatDuel] 使<color=#ffffff>自身</color>失去2層[BloodyHand]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 消耗所有[BloodyHand]并対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 消耗<color=#ffffff>自身</color>所有[HardenedBlood]并獲得(消耗的[HardenedBlood]層数×3)層[BloodDinner]，使<color=#ffffff>自身</color>増加5級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復(<color=#ffffff>目標</color>的[Laceration]強度)%<color=#61DA61>体力</color>(最多30%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017105,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的染血之手 層数不低于1層，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的硬化血液 層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017201,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "請回答問題。",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加5級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017202,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "別打断我！",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加5級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使<color=#ffffff>自身</color>獲得1層[BloodyHand]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017203,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "褪色的忍耐",
+                    "desc": "[WhenUse] 消耗最多50層[BloodDinner]，每消耗10層[BloodDinner]，使<color=#ffffff>自身</color>獲得1層[BloodyHand]\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[EndSkill] 若本技能未消耗[BloodDinner]，則使<color=#ffffff>自身</color>増加10級[Laceration]強度并使<color=#ffffff>自身</color>獲得1層[BloodyHand]。"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017204,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "无尽的告解",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] <color=#ffffff>自身</color>每帯有1層[HardenedBlood]，使本技能的<color=#ffffff>拼点威力</color>+1\n[DefeatDuel] 使<color=#ffffff>自身</color>失去2層[BloodyHand]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 消耗所有[BloodyHand]并対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 消耗<color=#ffffff>自身</color>所有[HardenedBlood]并獲得(消耗的[HardenedBlood]層数×3)層[BloodDinner]，使<color=#ffffff>自身</color>増加5級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復(<color=#ffffff>目標</color>的[Laceration]強度)%<color=#61DA61>体力</color>(最多30%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017205,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的染血之手 層数不低于1層，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的硬化血液 層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血縦斬",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血削切",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有5層慶典的熱潮 或<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并立即触発<color=#ffffff>自身</color>的[Laceration]1次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少1層",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使<color=#ffffff>自身</color>獲得1層硬化血液 "
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[BloomingThorns]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血強化展開",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndBattle] 消耗所有硬化血液 与慶典的熱潮 ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>帯有的硬化血液 層数，額外使<color=#ffffff>目標</color>増加[Laceration]強度与[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的慶典的熱潮 層数×2.5)%的<color=#61DA61>体力</color>(最多20%)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[FestivalFever]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+1\n[StartBattle] 使<color=#ffffff>自身</color>獲得2層慶典的熱潮 \n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去2層慶典的熱潮 ",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017401,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血揮撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017402,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血乱刺",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有5層慶典的熱潮 或<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并立即触発<color=#ffffff>自身</color>的[Laceration]1次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少1層",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使<color=#ffffff>自身</color>獲得1層硬化血液 "
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[BloomingThorns]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017403,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血強化展開",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndBattle] 消耗所有硬化血液 与慶典的熱潮 ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>帯有的硬化血液 層数，額外使<color=#ffffff>目標</color>増加[Laceration]強度与[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的慶典的熱潮 層数×2.5)%的<color=#61DA61>体力</color>(最多20%)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[FestivalFever]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017404,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+1\n[StartBattle] 使<color=#ffffff>自身</color>獲得2層慶典的熱潮 \n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去2層慶典的熱潮 ",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "歓迎来到梦幻的慶典！",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[FestivalFever]層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "加入這歓樂的游行！",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有5層[FestivalFever]或<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 若[BloodDinner]低于20層，則使<color=#ffffff>自身</color>増加20級[Laceration]強度并立即触発<color=#ffffff>自身</color>的[Laceration]1次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少1層\n[EndSkill] 消耗20層[BloodDinner]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#ffffff>目標</color>每帯有6級[Laceration]強度，使<color=#ffffff>自身</color>獲得1層[HardenedBlood](最多2層)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[WinDuelAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度并対其施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2~3層[BloomingThorns]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "譲幸福笑容如花般綻放叭！",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[FestivalFever]層数不低于5層，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        },
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[WinDuelAttack] 使<color=#ffffff>自身</color>獲得2層[FestivalFever]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "永遠的幸福王国拉·曼却領！",
+                    "desc": "[WhenUse] 若[BloodDinner]低于40層，則使<color=#ffffff>自身</color>増加20級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndSkill] 消耗40層[BloodDinner]\n[EndBattle] 消耗所有[HardenedBlood]和[FestivalFever]\n\n",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>帯有的[HardenedBlood]層数，使<color=#ffffff>目標</color>増加相應的[Laceration]強度与[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[FestivalFever]層数×4)%的<color=#61DA61>体力</color>(最多40%)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得5層[BloomingThorns]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017505,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+2\n[StartBattle] 使<color=#ffffff>自身</color>獲得3層慶典的熱潮 \n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去3層慶典的熱潮 ",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "歓迎来到梦幻的慶典！",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[FestivalFever]層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "大家一斉来跳舞叭！",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有5層[FestivalFever]或<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 若[BloodDinner]低于20層，則使<color=#ffffff>自身</color>増加20級[Laceration]強度并立即触発<color=#ffffff>自身</color>的[Laceration]1次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少1層\n[EndSkill] 消耗20層[BloodDinner]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#ffffff>目標</color>每帯有6級[Laceration]強度，使<color=#ffffff>自身</color>獲得1層[HardenedBlood](最多2層)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[WinDuelAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度并対其施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2~3層[BloomingThorns]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "一起快樂地唱起歌叭！",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[FestivalFever]層数不低于5層，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        },
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[WinDuelAttack] 使<color=#ffffff>自身</color>獲得2層[FestivalFever]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "永遠的幸福王国拉·曼却領！",
+                    "desc": "[WhenUse] 若[BloodDinner]低于40層，則使<color=#ffffff>自身</color>増加20級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndSkill] 消耗40層[BloodDinner]\n[EndBattle] 消耗所有[HardenedBlood]和[FestivalFever]\n\n",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>帯有的[HardenedBlood]層数，使<color=#ffffff>目標</color>増加相應的[Laceration]強度与[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[FestivalFever]層数×4)%的<color=#61DA61>体力</color>(最多40%)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得5層[BloomingThorns]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9017605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+2\n[StartBattle] 使<color=#ffffff>自身</color>獲得3層慶典的熱潮 \n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去3層慶典的熱潮 ",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,170 @@
+{
+    "dataList": [
+        {
+            "id": 9799,
+            "name": "某種哲学",
+            "desc": "飾品合成概率固定為100%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9799,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9800,
+            "name": "富",
+            "desc": "所有飾品的購買与強化費用固定為1。\n\n每擁有500点經費，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得1層[AttackUp](最多20層)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9800,
+                    "simpleDesc": ""
+                },
+                {
+                    "abilityID": 980001,
+                    "simpleDesc": "獲得攻撃等級提升 "
+                }
+            ]
+        },
+        {
+            "id": 9801,
+            "name": "強靭丸",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#61DA61>体力</color>上限最高的1名<color=#ffffff>友方単位</color>獲得(本場戦斗其受到来自<color=#ffffff>敵方単位</color>技能攻撃的<color=#ffffff>傷害</color>次数)層[DefenseUp](最多6層)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9801,
+                    "simpleDesc": "獲得防御等級提升 "
+                }
+            ]
+        },
+        {
+            "id": 9802,
+            "name": "電撃斧",
+            "desc": "消耗[Charge]層数的技能攻撃命中時，使<color=#ffffff>目標</color>増加1級[Burst]強度(每个技能最多3次;包括<color=#FCC700>特殊充能</color>)\n\n根据編入的擁有施加[Burst]或獲得[Charge]的攻撃技能的人格数，相應強化本飾品效果(不包括E.G.O技能，包括編隊中<color=#ffffff>全体</color>単位)。\n\n- 不低于6名\n対<color=#ffffff>敵方単位</color>造成[Burst]<color=#ffffff>傷害</color>時，使<color=#ffffff>自身</color>獲得1層[Charge](每个技能最多3次)\n\n- 不低于8名\n消耗[Charge]層数的技能攻撃命中時，対<color=#ffffff>目標</color>施加1層[Burst](每个技能最多3次;包括<color=#FCC700>特殊充能</color>)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9802,
+                    "simpleDesc": "増加1級破裂 強度"
+                },
+                {
+                    "abilityID": 980201,
+                    "simpleDesc": ""
+                },
+                {
+                    "abilityID": 980202,
+                    "simpleDesc": "獲得1層充能 "
+                },
+                {
+                    "abilityID": 980203,
+                    "simpleDesc": "施加1層破裂"
+                }
+            ]
+        },
+        {
+            "id": 9803,
+            "name": "鏡中花",
+            "desc": "<color=#7C5738>每回合</color>開始時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加3級[Burst]強度并対其施加1層[Burst](若是<color=#ffffff>集中遭遇戦</color>，則改為所有<color=#ffffff>部位</color>)\n\n根据編入的擁有施加[Burst]或獲得[Breath]的攻撃技能的人格数，相應強化本飾品效果(不包括E.G.O技能，包括編隊中<color=#ffffff>全体</color>単位)。\n\n- 不低于6名\n技能命中并触発[Burst]<color=#ffffff>傷害</color>時，使<color=#ffffff>自身</color>獲得1層[Breath](每个技能最多3次)\n\n- 不低于10名\n技能命中并<color=#ffffff>暴撃</color>時，対<color=#ffffff>目標</color>施加1層[Burst](每个技能最多3次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9803,
+                    "simpleDesc": "増加3級破裂 強度并施加1層破裂 "
+                },
+                {
+                    "abilityID": 980301,
+                    "simpleDesc": ""
+                },
+                {
+                    "abilityID": 980302,
+                    "simpleDesc": "獲得1層呼吸法 "
+                },
+                {
+                    "abilityID": 980303,
+                    "simpleDesc": "施加1層破裂"
+                }
+            ]
+        },
+        {
+            "id": 9804,
+            "name": "水中月",
+            "desc": "攻撃命中帯有的[Burst]強度不低于5級的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>増加1級[Breath]強度并使<color=#ffffff>自身</color>獲得1層[Breath](每个技能最多3次)。\n\n根据編入的擁有施加[Burst]或獲得[Breath]的攻撃技能的人格数，相應強化本飾品效果(不包括E.G.O技能，包括編隊中<color=#ffffff>全体</color>単位)。\n\n技能攻撃命中時，若<color=#ffffff>目標</color>的[Burst]強度不低于20級，則使該技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+10%(每有1名編入且符合以上条件的人格，使該技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>額外+3%)\n\n- 不低于12名\n技能命中并<color=#ffffff>暴撃</color>時，随机解除<color=#ffffff>自身</color>1種可解除的負面状態(<color=#7C5738>每回合</color>每名人格最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9804,
+                    "simpleDesc": "増加呼吸法 強度并獲得呼吸法 層数"
+                },
+                {
+                    "abilityID": 980401,
+                    "simpleDesc": ""
+                },
+                {
+                    "abilityID": 980402,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 980403,
+                    "simpleDesc": "随机解除1種負面状態"
+                }
+            ]
+        },
+        {
+            "id": 9795,
+            "name": "落墜的一滴",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有消耗[BloodDinner]的技能的人格不低于3名，則在本場戦斗期間触発該效果。(不包括E.G.O技能，不包括待命人員)\n\n<color=#ffffff>戦斗開始</color>時，若消耗[BloodDinner]的人格攻撃<color=#ffffff>目標</color>的[Laceration]強度不低于30級，則使其[Laceration]強度減少至15級，并獲得層数相当于減少的[Laceration]強度的[BloodDinner]。(<color=#7C5738>每回合</color><color=#ffffff>全体</color><color=#ffffff>敵方単位</color>共計最多1次，群体技能僅対主要<color=#ffffff>目標</color>生效)\n\n該效果每獲得10層[BloodDinner]，<color=#7C5738>下回合</color>使擁有消耗[BloodDinner]的技能的人格獲得1層威力提升 与1層傷害強化 。(最多4層)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9795,
+                    "simpleDesc": "流血 強度減少，獲得血宴 "
+                },
+                {
+                    "abilityID": 979501,
+                    "simpleDesc": "獲得威力提升 与傷害強化 "
+                }
+            ]
+        },
+        {
+            "id": 9796,
+            "name": "悲悶的吐息",
+            "desc": "若第5順位<color=#ffffff>友方単位</color>的[Breath]強度与[Breath]層数之和不低于50級，則其技能拼点勝利或単方面攻撃時，該技能的所有硬幣必定朝向正面(若是減算硬幣，則改為反面)，并使該技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+80%(每場戦斗最多1次，不包括E.G.O技能)\n\n若編入的擁有増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格不低于5名，則使第5順位<color=#ffffff>友方単位</color><color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+60%(每額外編入1名符合以上条件的<color=#ffffff>友方単位</color>，使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>額外+20%，包括編隊中<color=#ffffff>全体</color>単位)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9796,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 979601,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9797,
+            "name": "注定破碎的火炮",
+            "desc": "<color=#7C5738>回合開始</color>時，<color=#7C5738>每回合</color>使<color=#ffffff>自身</color>獲得2層[GiftCannon]并対<color=#ffffff>自身</color>施加2層[GiftGlass]\n从第2回合起，<color=#7C5738>每回合</color>額外獲得1層[GiftCannon]并額外施加1層[GiftGlass](最多額外8層)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9797,
+                    "simpleDesc": "獲得火力 并施加易碎 "
+                },
+                {
+                    "abilityID": 979701,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9798,
+            "name": "貪欲之棘",
+            "desc": "<color=#7C5737>関峠開始</color>時，獲得100層[BloodDinner]\n<color=#7C5738>回合開始</color>時，対<color=#ffffff>全体</color>帯有[Laceration]的<color=#ffffff>敵方単位</color>(或<color=#ffffff>部位</color>)施加2層[RoseThorn]。\n若<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有<color=#ffffff>部位</color>)均帯有[Laceration]，則対其施加4層[RoseThorn]。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9798,
+                    "simpleDesc": "施加貪食棘"
+                },
+                {
+                    "abilityID": 979801,
+                    "simpleDesc": "施加貪食棘"
+                }
+            ]
+        }
+    ]
+}

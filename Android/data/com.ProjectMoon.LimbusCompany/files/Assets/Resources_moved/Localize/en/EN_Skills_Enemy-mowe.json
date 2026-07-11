@@ -1,0 +1,909 @@
+{
+    "dataList": [
+        {
+            "id": 9014501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬化手臂",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血強化突刺",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "收集血液",
+                    "desc": "若<color=#ffffff>目標</color>的[Laceration]強度不低于10級，則使本技能造成的<color=#ffffff>傷害</color>+20%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>最多10級[Laceration]強度并使<color=#ffffff>自身</color>恢復(吸收的[Laceration]強度×2)%<color=#61DA61>体力</color>(本效果不会使<color=#ffffff>目標</color>的[Laceration]強度降至1級以下)",
+                                    "summary": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>的[Laceration]強度并恢復<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬化手臂",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血強化坎撃",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "收集血液",
+                    "desc": "若<color=#ffffff>目標</color>的[Laceration]強度不低于10級，則使本技能造成的<color=#ffffff>傷害</color>+20%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>最多10級[Laceration]強度并使<color=#ffffff>自身</color>恢復(吸收的[Laceration]強度×2)%<color=#61DA61>体力</color>(本效果不会使<color=#ffffff>目標</color>的[Laceration]強度降至1級以下)",
+                                    "summary": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>的[Laceration]強度并恢復<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬化手臂",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血強化打撃",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "收集血液",
+                    "desc": "若<color=#ffffff>目標</color>的[Laceration]強度不低于10級，則使本技能造成的<color=#ffffff>傷害</color>+20%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>最多10級[Laceration]強度并使<color=#ffffff>自身</color>恢復(吸收的[Laceration]強度×2)%<color=#61DA61>体力</color>(本效果不会使<color=#ffffff>目標</color>的[Laceration]強度降至1級以下)",
+                                    "summary": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>的[Laceration]強度并恢復<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "撕裂",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "刺倒",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血武器強化",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color>所有[Charge]層数与<color=#61DA61>体力</color>上限2×(15-消耗的[Charge]層数)%的<color=#61DA61>体力</color>并使本技能的<color=#ffffff>硬幣威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加6層[DefenseDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>最多10級[Laceration]強度并使<color=#ffffff>自身</color>恢復(吸收的[Laceration]強度×2)%<color=#61DA61>体力</color>(該效果不会使<color=#ffffff>目標</color>的[Laceration]強度降至1級以下)",
+                                    "summary": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>的[Laceration]強度并恢復<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "刺",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "劈裂",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血武器強化",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color>所有[Charge]層数与<color=#61DA61>体力</color>上限2×(15-消耗的[Charge]層数)%的<color=#61DA61>体力</color>并使本技能的<color=#ffffff>硬幣威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vulnerable]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>最多10級[Laceration]強度并使<color=#ffffff>自身</color>恢復(吸收的[Laceration]強度×2)%<color=#61DA61>体力</color>(該效果不会使<color=#ffffff>目標</color>的[Laceration]強度降至1級以下)",
+                                    "summary": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>的[Laceration]強度并恢復<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9014904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "揮舞長槍",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "撕開傷口",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血武器強化",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color>所有[Charge]層数与<color=#61DA61>体力</color>上限2×(15-消耗的[Charge]層数)%的<color=#61DA61>体力</color>并使本技能的<color=#ffffff>硬幣威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[AttackDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>最多10級[Laceration]強度并使<color=#ffffff>自身</color>恢復(吸收的[Laceration]強度×2)%<color=#61DA61>体力</color>(該效果不会使<color=#ffffff>目標</color>的[Laceration]強度降至1級以下)",
+                                    "summary": "[OnSucceedAttack] 吸收<color=#ffffff>目標</color>的[Laceration]強度并恢復<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "義体啓動",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則消耗5層[Charge]并使<color=#ffffff>自身</color>獲得3層[AttackUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "叉之印記",
+                    "desc": "[StartBattle] 若<color=#ffffff>自身</color>的[Charge]層数低于5層，則使<color=#ffffff>自身</color>獲得5層[Charge]并対<color=#ffffff>自身</color>施加3層[Laceration]与1層[Vulnerable]\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則消耗5層[Charge]并使<color=#ffffff>自身</color>獲得3層[AttackUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Binding]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血強化叉",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得10層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]。"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "義体啓動",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則消耗3層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則額外消耗3層[Charge]并使本技能造成的<color=#ffffff>傷害</color>+20%\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数低于5層，則失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Binding]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血血液逆流",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則消耗3層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則額外消耗3層[Charge]并使本技能造成的<color=#ffffff>傷害</color>+20%\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数低于5層，則失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "活体能量轉換式充能",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得15層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AttackDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101805,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血血液轉移",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則消耗3層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則額外消耗3層[Charge]并使本技能造成的<color=#ffffff>傷害</color>+20%\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数低于5層，則失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101806,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "活体能量轉換式再充能",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得15層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AttackDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,219 @@
+{
+    "dataList": [
+        {
+            "id": 114501,
+            "name": "拇指干部 指揮官IIII",
+            "desc": "受到的[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]<color=#ffffff>傷害</color>-30%\n\n擲出消耗[BulletPropellant]的硬幣時，即使<color=#ffffff>自身</color>消耗了所有[BulletPropellant]，攻撃也不会取消，但該硬幣的増加[Combustion]強度与施加[Combustion]層数的效果不会生效\n\n進行拼点時，対<color=#ffffff>目標</color>施加(1+進行拼点次数/3)層[Vibration]\n(最多3層，<color=#7C5738>每回合</color>每个<color=#ffffff>目標</color>最多3次)"
+        },
+        {
+            "id": 114502,
+            "name": "東部十剣",
+            "desc": "<color=#7C5737>関峠開始</color>時与改変模式的<color=#7C5738>回合開始</color>時\n- 対<color=#ffffff>自身</color>施加1層[Bothersome]\n- <color=#ffffff>自身</color>每失去10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(最多40点)"
+        },
+        {
+            "id": 114503,
+            "name": "選定猟物",
+            "desc": "<color=#7C5738>回合開始</color>時，対在上回合対<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>最高的<color=#ffffff>目標</color>施加1層[Prey]\n\n雷横攻撃帯有[Prey]的<color=#ffffff>目標</color>后，若<color=#ffffff>目標</color>\n- 陷入混乱，則使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>失去10点<color=#81BBE8>理智値</color>并在<color=#7C5738>本回合</color>与<color=#7C5738>下回合</color>対其施加1層[ParryingResultDown](<color=#7C5738>每回合</color>最多1次)\n- 陣亡，則以上效果額外触発1次"
+        },
+        {
+            "id": 114504,
+            "name": "天退星刀",
+            "desc": "単方面攻撃命中時，造成的<color=#ffffff>傷害</color>+30%并在<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Vulnerable]\n\n技能消耗[BulletPropellant]的硬幣命中時，造成的<color=#ffffff>傷害</color>+20%并在<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[DefenseDown]\n\n若<color=#ffffff>目標</color>装備了守備技能，則以上效果不会生效"
+        },
+        {
+            "id": 114505,
+            "name": "虎標彈装填",
+            "desc": "<color=#7C5738>回合結束</color>時現存<color=#61DA61>体力</color>不高于90%或第2<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>装填[BulletPropellant]并在<color=#7C5738>下回合</color>改変<color=#ffffff>自身</color>模式\n- 若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
+        },
+        {
+            "id": 114506,
+            "name": "雷横",
+            "desc": "<color=#7C5738>回合結束</color>時現存<color=#61DA61>体力</color>不高于80%或第4<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>改変<color=#ffffff>自身</color>模式\n- 使用強力攻撃(“快刀乱麻”)，每3回合重復該效果。使用該技能的回合使<color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+10\n- 該<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得25層[BattleSense]\n- 若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
+        },
+        {
+            "id": 114507,
+            "name": "天退星",
+            "desc": "若<color=#7C5738>回合結束</color>時現存<color=#61DA61>体力</color>不高于60%或<color=#7C5738>下回合</color>将使用本場戦斗的第2次強力攻撃(“快刀乱麻”)，則<color=#7C5738>下回合</color>改変<color=#ffffff>自身</color>模式\n- 該<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[Irritation]\n- 該<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得18発[BulletPropellantSpecial]并立刻装填\n· 若<color=#ffffff>自身</color>消耗了所有[BulletPropellantSpecial]，則使其轉化為[BulletPropellant]并在<color=#7C5738>下回合</color>召喚2名厳格的拇指士兵為<color=#ffffff>自身</color>補給[BulletPropellantSpecial]\n- 若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
+        },
+        {
+            "id": 114508,
+            "name": "小指 天退星雷横",
+            "desc": "若<color=#7C5738>回合結束</color>時現存<color=#61DA61>体力</color>不高于40%或<color=#7C5738>下回合</color>将使用本場戦斗的第3次強力攻撃(“快刀乱麻”)，則<color=#7C5738>下回合</color>改変<color=#ffffff>自身</color>模式\n- 強力攻撃“快刀乱麻”改為“超絶猛虎殺撃乱斬”。使用該技能的回合使<color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+15\n- 使<color=#ffffff>自身</color>的[BattleSense]轉化為[RestoredBattleSense]\n- 使<color=#ffffff>自身</color>的[Irritation]轉化為[HugeIrritation]\n- 若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
+        },
+        {
+            "id": 114510,
+            "name": "插翅虎",
+            "desc": "<color=#ffffff>戦斗開始</color>時，根据<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>\n- 使<color=#ffffff>自身</color>恢復相当于<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>的<color=#81BBE8>理智値</color>。若<color=#ffffff>自身</color><color=#81BBE8>理智値</color>低于0点，則使恢復的<color=#81BBE8>理智値</color>変為2倍\n- 使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>/3)層[SlashDamageUp](最多5層)\n\n<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>的[Binding]層数不低于3層，則以上效果不会触発并対<color=#ffffff>自身</color>施加層数相当于<color=#ffffff>自身</color>[Binding]層数的[DefenseDown](最多9層)"
+        },
+        {
+            "id": 114512,
+            "name": "天退星刀 過熱",
+            "desc": "若使用了強力攻撃(“快刀乱麻”，“超絶猛虎殺撃乱斬”)，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加層数相当于本場戦斗期間<color=#ffffff>自身</color>使用該技能次数的[Complacency](最多5層)"
+        },
+        {
+            "id": 117101,
+            "name": "猛虎標彈支援",
+            "desc": "<color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加5層[Vulnerable]\n<color=#7C5738>回合結束</color>時，為雷横補給[BulletPropellantSpecial]\n\n<color=#ffffff>自身</color>陣亡時无法為雷横補給[BulletPropellantSpecial]，<color=#7C5738>下回合</color>対雷横施加1層[Vulnerable]与1層[ParryingResultDown]"
+        },
+        {
+            "id": 113501,
+            "name": "未能握住的弟弟之手",
+            "desc": "<color=#ffffff>自身</color>的攻撃命中<color=#ffffff>敵方単位</color>時，対該<color=#ffffff>敵方単位</color>施加1層[GazeReplica](<color=#7C5738>每回合</color>每名人格最多1次)\n受到<color=#ffffff>敵方単位</color>的攻撃時，対攻撃者施加1層[GazeReplica](<color=#7C5738>每回合</color>每名人格最多1次)\n<color=#7C5738>回合開始</color>時，若鴻璐在場，則対其施加1層[GazeReplica]"
+        },
+        {
+            "id": 113502,
+            "name": "掌",
+            "desc": "優先指定帯有[GraspReplica]的<color=#ffffff>目標</color>\n有<color=#ffffff>目標</color>帯有[GraspReplica]時改変<color=#ffffff>自身</color>模式，使<color=#ffffff>自身</color>的所有抗性+0.1"
+        },
+        {
+            "id": 113503,
+            "name": "E.G.O侵蝕-N公司",
+            "desc": "<color=#ffffff>自身</color>登場后每經過1回合，<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>獲得1層[EgoErodeReplica]\n- <color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的50%，或<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不高于-20点，則額外獲得1層[EgoErodeReplica]"
+        },
+        {
+            "id": 113504,
+            "name": "E.G.O瞬間感應度 最大化",
+            "desc": "若帯有不低于4層[GazeReplica]的罪人不低于4名，則使用“敬畏[TabExplain]，輕蔑[TabExplain]【潜能解放】”技能"
+        },
+        {
+            "id": 113505,
+            "name": "可不能只訂上我啊",
+            "desc": "其他<color=#ffffff>友方単位</color>存活時，若<color=#ffffff>自身</color>成為不低于5名<color=#ffffff>敵方単位</color>的主要<color=#ffffff>目標</color>，則使該<color=#ffffff>敵方単位</color>失去10点<color=#61DA61>体力</color>与<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 113601,
+            "name": "凶彈的代价",
+            "desc": "攻撃命中時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n拼点失敗時，使<color=#ffffff>自身</color>失去5点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 113602,
+            "name": "躍進",
+            "desc": "<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>獲得3層[Breath]"
+        },
+        {
+            "id": 113603,
+            "name": "友人啊，新時代即将到来。",
+            "desc": "若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-20点，則使用特殊模式"
+        },
+        {
+            "id": 113604,
+            "name": "請為嶄新的理想献身叭。",
+            "desc": "若有除賈環以外的N公司員工<color=#61DA61>体力</color>低于50%，則使用特殊模式"
+        },
+        {
+            "id": 114601,
+            "name": "-",
+            "desc": "<color=#61DA61>体力</color>不会降至<color=#61DA61>体力</color>上限的50%以下"
+        },
+        {
+            "id": 114602,
+            "name": "宝玉啊，世代家主不可断絶于此…",
+            "desc": "鴻璐陣亡時戦斗失敗。所有技能優先指定鴻璐"
+        },
+        {
+            "id": 114603,
+            "name": "誰来服侍長輩們，誰能将仙皇虫大人的意志傳達于鴻园!!!",
+            "desc": "与鴻璐拼点勝利后命中時，対其施加1層[PileObedient](每个技能最多1次)"
+        },
+        {
+            "id": 114604,
+            "name": "金枝同化-未感應",
+            "desc": "<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>自身</color>獲得[GoldenBoughSync]"
+        },
+        {
+            "id": 114605,
+            "name": "鴻园禁薬-全黑仙丸",
+            "desc": "<color=#ffffff>自身</color>使用不同種類的技能時，使<color=#ffffff>自身</color>獲得1層[AttackUp]并対<color=#ffffff>自身</color>施加1層[DefenseDown](<color=#7C5738>每回合</color>最多3次)"
+        },
+        {
+            "id": 114606,
+            "name": "鴻园自古便是由仙人之意志所引導",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則<color=#7C5738>下回合</color>解除<color=#ffffff>自身</color>的恐慌并使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点\n\n解除恐慌時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Enhancement]与2層[Endurance]，若鴻璐帯有[Obedient]，則使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 115201,
+            "name": "請注視吾叭…！",
+            "desc": "鴻璐陣亡時戦斗失敗。<color=#7C5738>回合開始</color>時，若有<color=#ffffff>自身</color>召喚的単位在場，則使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 115202,
+            "name": "金枝同化-紐曲",
+            "desc": "第2階段開始時，使<color=#ffffff>自身</color>獲得[GoldenBoughSyncDistorted]"
+        },
+        {
+            "id": 115203,
+            "name": "每一位家主皆献身于仙皇虫大人，継承着大人的意志",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則<color=#7C5738>下回合</color>解除<color=#ffffff>自身</color>的恐慌并使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点\n\n解除恐慌時\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Enhancement]，2層[Endurance]与1層[Agility]\n- 若有<color=#ffffff>自身</color>召喚的単位在場，則使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>\n- 若鴻璐帯有[Obedient]，則使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 115204,
+            "name": "-",
+            "desc": "<color=#61DA61>体力</color>不会降至<color=#61DA61>体力</color>上限的85%以下"
+        },
+        {
+            "id": 115205,
+            "name": "-",
+            "desc": "<color=#61DA61>体力</color>不会降至<color=#61DA61>体力</color>上限的65%以下"
+        },
+        {
+            "id": 115206,
+            "name": "-",
+            "desc": "<color=#61DA61>体力</color>不会降至<color=#61DA61>体力</color>上限的50%以下"
+        },
+        {
+            "id": 115207,
+            "name": "金玉其外 敗絮其中",
+            "desc": "若<color=#ffffff>自身</color>的[Burst]強度不低于10級，則使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+10%\n若<color=#ffffff>自身</color>帯有的負面状態不少于5種，則使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+10%"
+        },
+        {
+            "id": 115208,
+            "name": "若无仙皇虫寄宿，怎会有心系鴻园之家主",
+            "desc": "<color=#61DA61>体力</color>為0点時，<color=#7C5738>下回合</color>使躯干<color=#ffffff>部位</color>陷入混乱\n之后本<color=#ffffff>部位</color>進入已截除状態，并対躯干<color=#ffffff>部位</color>施加2層[Vulnerable]"
+        },
+        {
+            "id": 115209,
+            "name": "-",
+            "desc": "<color=#61DA61>体力</color>不会降至<color=#61DA61>体力</color>上限的20%以下"
+        },
+        {
+            "id": 115301,
+            "name": "仙人啊，請看叭！",
+            "desc": "<color=#ffffff>自身</color>在場時，<color=#7C5738>回合開始</color>時使賈母的本体与所有<color=#ffffff>部位</color>獲得200点<color=#81BBE8>護盾</color>"
+        },
+        {
+            "id": 115302,
+            "name": "宝玉的本分",
+            "desc": "<color=#ffffff>自身</color>在場時，被関住的単位獲得以下效果\n- 処于无法行動状態\n- <color=#ffffff>自身</color>的状態效果、<color=#61DA61>体力</color>与<color=#81BBE8>理智値</color>不会改変"
+        },
+        {
+            "id": 115303,
+            "name": "离家",
+            "desc": "<color=#ffffff>自身</color>陣亡后，<color=#7C5738>下回合</color>使被関住的単位重返戦斗"
+        },
+        {
+            "id": 115304,
+            "name": "破邪顕正",
+            "desc": "若<color=#ffffff>自身</color>被罪人<color=#7C5738>撃殺</color>，則触発以下效果\n- 使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復10点<color=#81BBE8>理智値</color>，<color=#7C5738>下回合</color>使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層[AttackDmgUp]\n- 下2回合対賈母施加5層[Binding]，3層[AttackDown]与5層[Vulnerable]\n- 使本単位関住的単位的<color=#81BBE8>理智値</color>恢復至45点。重返戦斗時使其獲得2層[Enhancement]\n- 獲得所有属性的E.G.O資源各3个"
+        },
+        {
+            "id": 115401,
+            "name": "至高无上的不死仙人",
+            "desc": "帯有[SupremeEternalLife]状態"
+        },
+        {
+            "id": 115402,
+            "name": "永生永世的不老不死",
+            "desc": "<color=#61DA61>体力</color>不会降至1点以下\n<color=#61DA61>体力</color>為1点時，使[SupremeEternalLife]轉化為[ImperfectEternalLife]"
+        },
+        {
+            "id": 115403,
+            "name": "不老不死的知識",
+            "desc": "受到攻撃時，若<color=#ffffff>自身</color><color=#61DA61>体力</color>降至1点，則使攻撃<color=#ffffff>自身</color>的罪人恢復10点<color=#81BBE8>理智値</color>，随机獲得3个持有量最少的E.G.O資源(<color=#ffffff>自身</color>存活時可触発1次)"
+        },
+        {
+            "id": 114513,
+            "name": "恐慌恢復",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点\n\n解除恐慌后，<color=#7C5738>下回合</color>開始時，根据<color=#ffffff>自身</color>已失去<color=#61DA61>体力</color>比例相應使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>(最多30点)"
+        }
+    ]
+}

@@ -1,0 +1,313 @@
+{
+    "dataList": [
+        {
+            "id": 136601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "飛撲",
+                    "desc": "優先指定現存<color=#61DA61>体力</color>比例最高的<color=#ffffff>敵方単位</color>\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "肯食",
+                    "desc": "優先指定現存<color=#61DA61>体力</color>比例最高的<color=#ffffff>敵方単位</color>\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>対其施加2層[PenetrateResistDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "橙子味气泡補充",
+                    "desc": "優先指定現存<color=#61DA61>体力</color>比例最高的<color=#ffffff>敵方単位</color>\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "添加气泡風味",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>対其施加2層[PenetrateResistDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "群体移動",
+                    "desc": "[OnSucceedEvade] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Binding]\n[EndBattle] 解除<color=#ffffff>自身</color>的[RunHallway]并使<color=#ffffff>自身</color>[NextHallway]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "嚼食",
+                    "desc": "優先指定<color=#7C5737>速度値</color>最低的<color=#ffffff>目標</color>\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加3層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "填充中型橙子气泡",
+                    "desc": "優先指定<color=#7C5737>速度値</color>最低的<color=#ffffff>目標</color>\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Vulnerable]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "更濃，更多",
+                    "desc": "優先指定<color=#7C5737>速度値</color>最低的<color=#ffffff>目標</color>\n[WhenUse] <color=#ffffff>目標</color>每帯有3級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加4層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[PenetrateResistDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "璞紐紐為繁殖而進行的飼料捕食",
+                    "desc": "優先指定<color=#7C5737>速度値</color>最低的<color=#ffffff>目標</color>\n[WhenUse] <color=#ffffff>目標</color>每帯有3級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 136905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "群体移動",
+                    "desc": "[CanDuelGuard]\n[EndBattle] 解除<color=#ffffff>自身</color>的[RunHallway]并使“<color=#ffffff>自身</color>”与“<color=#ffffff>自身</color>召喚的完美的食物”[NextHallway]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

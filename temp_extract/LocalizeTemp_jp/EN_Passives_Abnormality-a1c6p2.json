@@ -1,0 +1,75 @@
+{
+    "dataList": [
+        {
+            "id": 815901,
+            "name": "罪孼抗性",
+            "desc": "除非<color=#ffffff>自身</color>陷入混乱或<color=#ffffff>部位</color>被破坏，否則攻撃技能命中時使<color=#ffffff>自身</color>的<color=#ffffff>混乱閾値</color>后移5"
+        },
+        {
+            "id": 816001,
+            "name": "罪孼抗性",
+            "desc": "除非<color=#ffffff>自身</color>陷入混乱或<color=#ffffff>部位</color>被破坏，否則<color=#ffffff>自身</color>受到的破裂 <color=#ffffff>傷害</color>-50%"
+        },
+        {
+            "id": 816501,
+            "name": "无尽的自卑感",
+            "desc": "若現存<color=#61DA61>体力</color>不高于65%，則拼点勝利時使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease]\n若現存<color=#61DA61>体力</color>不高于40%，則使用時使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease]\n満足条件后，対應效果将持續生效。",
+            "summary": "根据条件獲得増益<color=#ffffff>自身</color>的正面状態效果。"
+        },
+        {
+            "id": 816502,
+            "name": "被指引的暴怒",
+            "desc": "从首次解除混乱起，使<color=#ffffff>自身</color>攻撃技能拼点勝利后命中時対<color=#ffffff>目標</color>額外造成<color=#ffffff>傷害</color>量10%的<color=#FE0100>暴怒</color><color=#ffffff>傷害</color>。"
+        },
+        {
+            "id": 816503,
+            "name": "捕食",
+            "desc": "<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>本体与<color=#ffffff>部位</color>恢復200点<color=#61DA61>体力</color>。\n<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]、3層[DefenseUp]与2層[AttackUp]。"
+        },
+        {
+            "id": 816504,
+            "name": "標記",
+            "desc": "優先指定帯有[AaCfPbBe]的<color=#ffffff>目標</color>"
+        },
+        {
+            "id": 816401,
+            "name": "自我厭惡",
+            "desc": "所有技能指定希斯克利夫。\n希斯克利夫陣亡時贏得戦斗。"
+        },
+        {
+            "id": 816402,
+            "name": "爆発的情感",
+            "desc": "帯有爆発的情感類状態時，対應属性的罪孼抗性得到弱化，其他属性的罪孼抗性得到強化，且受到攻撃時獲得特殊效果。"
+        },
+        {
+            "id": 816403,
+            "name": "深切的喪失感",
+            "desc": "从獲得爆発的情感類状態的<color=#7C5738>回合開始</color>，若在2回合内解除本效果，則下2回合使<color=#ffffff>自身</color>獲得[AaCfPbBd]且改変技能模式。\n若未在此時間段内解除，則<color=#7C5738>下回合</color>解除本效果并使<color=#ffffff>自身</color>獲得6層[AttackUp]与3層[Agility]。"
+        },
+        {
+            "id": 816404,
+            "name": "不該出現的文本",
+            "desc": "不該出現的文本"
+        },
+        {
+            "id": 816405,
+            "name": "意气用事",
+            "desc": "技能結束時，若<color=#ffffff>自身</color>未命中希斯克利夫，則使<color=#ffffff>自身</color>失去1層爆発的情感 \n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則使<color=#ffffff>自身</color>失去3層爆発的情感 \n<color=#7C5738>每回合</color>最多失去3層爆発的情感 ，<color=#7C5738>回合結束</color>時若爆発的情感 層数為1層，則解除該效果"
+        },
+        {
+            "id": 816406,
+            "name": "復仇心",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不為-45点，則使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>。\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則<color=#7C5738>下回合</color>開始時解除恐慌并使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点。\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>解除恐慌，則<color=#7C5738>下回合</color>開始時使<color=#ffffff>自身</color>獲得2層[Enhancement]"
+        },
+        {
+            "id": 816505,
+            "name": "我的地盤",
+            "desc": "1回合内<color=#61DA61>体力</color>不会降至40%以下。\n改変<color=#ffffff>自身</color>模式"
+        },
+        {
+            "id": 816407,
+            "name": "莫名的暴怒",
+            "desc": "技能結束時，若<color=#ffffff>自身</color>未命中，則使<color=#ffffff>自身</color>失去1層爆発的情感 \n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則使<color=#ffffff>自身</color>失去3層爆発的情感 \n<color=#7C5738>每回合</color>最多失去3層爆発的情感 ，<color=#7C5738>回合結束</color>時若爆発的情感 層数為1層，則解除該效果"
+        }
+    ]
+}
