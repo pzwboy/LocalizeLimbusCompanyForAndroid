@@ -1,0 +1,146 @@
+name: Sync Latest Release and Update Files
+
+on:
+  schedule:
+    # 每天UTC时间0点执行（北京时间8点）
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # 获取完整历史
+        
+    - name: Get latest release info
+      id: get_release
+      run: |
+        # 获取最新release信息
+        RELEASE_INFO=$(curl -s https://api.github.com/repos/ghcruise/LimbusCompany-IOS-Localization/releases/latest)
+        LATEST_VERSION=$(echo "$RELEASE_INFO" | jq -r '.tag_name')
+        CURRENT_VERSION=$(cat .version || echo "none")
+        
+        echo "Latest version: $LATEST_VERSION"
+        echo "Current version: $CURRENT_VERSION"
+        
+        if [ "$LATEST_VERSION" != "$CURRENT_VERSION" ]; then
+          echo "New version detected!"
+          echo "new_version=true" >> $GITHUB_OUTPUT
+          echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
+          
+          # 获取localize_jp.zip的下载URL
+          DOWNLOAD_URL=$(echo "$RELEASE_INFO" | jq -r '.assets[] | select(.name=="localize_jp.zip") | .browser_download_url')
+          echo "download_url=$DOWNLOAD_URL" >> $GITHUB_OUTPUT
+        else
+          echo "No new version"
+          echo "new_version=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Download and process files
+      if: steps.get_release.outputs.new_version == 'true'
+      run: |
+        # 创建临时目录
+        mkdir -p temp_download
+        mkdir -p temp_extract
+        
+        # 下载压缩包
+        cd temp_download
+        wget -O localize_jp.zip "${{ steps.get_release.outputs.download_url }}"
+        
+        # 解压文件
+        unzip localize_jp.zip -d ../temp_extract/
+        cd ..
+        
+        # 处理文件：重命名JP_前缀为EN_
+        cd temp_extract
+        
+        # 如果存在LocalizeTemp_jp文件夹
+        if [ -d "LocalizeTemp_jp" ]; then
+          cd LocalizeTemp_jp
+        fi
+        
+        # 递归重命名所有以JP_开头的文件
+        find . -type f -name "JP_*" | while read file; do
+          dir=$(dirname "$file")
+          basename=$(basename "$file")
+          newname="${basename/#JP_/EN_}"
+          mv "$file" "$dir/$newname"
+          echo "Renamed: $basename -> $newname"
+        done
+        
+        cd ../..
+        
+        # 准备目标目录
+        TARGET_DIR="Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en"
+        mkdir -p "$TARGET_DIR"
+        
+        # 复制所有文件到目标目录（保持目录结构）
+        if [ -d "temp_extract/LocalizeTemp_jp" ]; then
+          cp -r temp_extract/LocalizeTemp_jp/* "$TARGET_DIR/"
+        else
+          cp -r temp_extract/* "$TARGET_DIR/"
+        fi
+        
+        # 保存新版本号
+        echo "${{ steps.get_release.outputs.version }}" > .version
+        
+        echo "Files processed and copied to target directory"
+        
+    - name: Commit and push changes
+      if: steps.get_release.outputs.new_version == 'true'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # 添加所有变更
+        git add .
+        
+        # 检查是否有变更需要提交
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        
+        # 提交变更
+        git commit -m "Update localization files to version ${{ steps.get_release.outputs.version }}"
+        
+        # 推送到main分支
+        git push origin main
+        
+    - name: Create release
+      if: steps.get_release.outputs.new_version == 'true'
+      run: |
+        VERSION="${{ steps.get_release.outputs.version }}"
+        RELEASE_NAME="Localization Update $VERSION"
+        
+        # 创建release
+        gh release create "$VERSION" \
+          --title "$RELEASE_NAME" \
+          --notes "
+# 《边狱公司》（Limbus Company）安卓端 文本汉化 $VERSION
+文本来自[ghcruise/LimbusCompany-IOS-Localization](https://github.com/ghcruise/LimbusCompany-IOS-Localization)项目
+
+原翻译来自都市零协会的[LocalizeLimbusCompany](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany)项目
+
+非常感谢`ghcruise`对于文本中的中文字符进行了替换工作
+
+## 怎么汉化？
+很简单：
+
+先将游戏语言切换至英语`English`
+
+在`约20MB`的资源下载完成后将边狱公司退至后台（**不是小窗化**），通过文件管理器替换同名文件即可（一般就是直接复制到根目录）
+
+## 字体是怎么回事？
+因字库问题，文本替换了所有汉字至日语字形，至少能看懂了不是吗……
+" \
+          --target main
+        
+        echo "Release $VERSION created"
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
