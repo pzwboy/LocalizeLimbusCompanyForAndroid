@@ -91,14 +91,18 @@ jobs:
         
         echo "Files processed and copied to target directory"
         
+        # 清理临时文件（可选）
+        rm -rf temp_download temp_extract
+        
     - name: Commit and push changes
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         
-        # 添加所有变更
-        git add .
+        # 只添加目标目录和版本文件
+        git add Android/
+        git add .version
         
         # 检查是否有变更需要提交
         if git diff --staged --quiet; then
@@ -112,38 +116,34 @@ jobs:
         # 推送到main分支
         git push origin main
         
+    - name: Create release package
+      if: steps.get_release.outputs.new_version == 'true'
+      run: |
+        # 进入目标目录的父目录
+        cd Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/
+        
+        # 压缩en文件夹
+        zip -r localize.zip en/
+        
+        # 移动到工作区根目录
+        mv localize.zip ${{ github.workspace }}/
+        
+        echo "Package created: localize.zip"
+        echo "Package size: $(ls -lh localize.zip | awk '{print $5}')"
+        
     - name: Create release
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         VERSION="${{ steps.get_release.outputs.version }}"
         RELEASE_NAME="$VERSION"
         
-        # 创建 release notes 文件
-        cat > release_notes.md << 'EOF'
-        # 《边狱公司》（Limbus Company）安卓端 文本汉化 $VERSION版资源更新
-        文本来自[ghcruise/LimbusCompany-IOS-Localization](https://github.com/ghcruise/LimbusCompany-IOS-Localization)项目
-
-        原翻译来自都市零协会的[LocalizeLimbusCompany](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany)项目
-
-        非常感谢`ghcruise`对于文本中的中文字符进行了替换工作
-    
-        ## 怎么汉化？
-        很简单：
-        
-        先将游戏语言切换至英语`English`
-
-        在`约20MB`的资源下载完成后将边狱公司退至后台（**不是小窗化**），通过文件管理器替换同名文件即可（一般就是直接复制到根目录）
-    
-        ## 字体是怎么回事？
-        因字库问题，文本替换了所有汉字至日语字形，至少能看懂了不是吗……
-        EOF
-        
-        # 使用文件创建 release
+        # 创建release并上传压缩包
         gh release create "$VERSION" \
           --title "$RELEASE_NAME" \
-          --notes-file release_notes.md \
-          --target main
+          --notes "更新到版本 $VERSION" \
+          --target main \
+          localize.zip
         
-        echo "Release $VERSION created"
+        echo "Release $VERSION created with localize.zip"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

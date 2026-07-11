@@ -1,12 +1,16 @@
 # 《边狱公司》（Limbus Company）安卓端 文本汉化
-基于都市零协会汉化组的[PC端汉化包](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany)2026062601版制作
+文本来自[ghcruise/LimbusCompany-IOS-Localization](https://github.com/ghcruise/LimbusCompany-IOS-Localization)项目
+
+原翻译来自都市零协会的[LocalizeLimbusCompany](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany)项目
+
+非常感谢`ghcruise`对于文本中的中文字符进行了替换工作
 
 ## 怎么汉化？
 很简单：
 
 先将游戏语言切换至英语`English`
 
-在`约20MB`的资源下载完成后将边狱公司退至后台（**不是小窗化**），通过文件管理器替换同名文件即可（一般就是直接复制到根目录）
+在`约20MB`的资源下载完成后将边狱公司退至后台（**不是小窗化**），下载本项目[Release](https://github.com/pzwboy/LocalizeLimbusCompanyForAndroid/releases/latest)并解压，通过文件管理器替换同名文件即可（一般就是直接复制到根目录）
 
 ## 字体是怎么回事？
-受到[ghcruise/LimbusCompany-IOS-Localization](https://github.com/ghcruise/LimbusCompany-IOS-Localization)项目的启发，我尽可能地替换了所有汉字至日语字形，至少能看懂了不是吗……
+因字库问题，文本替换了所有汉字至日语字形，至少能看懂了不是吗……
