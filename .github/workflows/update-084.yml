@@ -2,9 +2,8 @@ name: 同步本地化文本更新
 
 on:
   schedule:
-    # 每天UTC时间0点执行（北京时间8点）
     - cron: '0 0 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   sync-release:
@@ -15,15 +14,51 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0  # 获取完整历史
+        fetch-depth: 0
         
     - name: Get latest release info
       id: get_release
       run: |
-        # 获取最新release信息
-        RELEASE_INFO=$(curl -s https://api.github.com/repos/ghcruise/LimbusCompany-IOS-Localization/releases/latest)
-        LATEST_VERSION=$(echo "$RELEASE_INFO" | jq -r '.tag_name')
-        CURRENT_VERSION=$(cat .version || echo "none")
+        # 使用认证请求
+        RESPONSE=$(curl -s \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/ghcruise/LimbusCompany-IOS-Localization/releases/latest)
+        
+        # 调试：打印响应（可选）
+        echo "API Response:"
+        echo "$RESPONSE" | jq '.' 2>/dev/null || echo "Failed to parse JSON"
+        
+        # 检查是否为空或错误
+        if [ -z "$RESPONSE" ] || [ "$RESPONSE" == "null" ]; then
+          echo "No response or null response"
+          echo "new_version=false" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+        
+        # 检查是否有错误信息
+        ERROR_MSG=$(echo "$RESPONSE" | jq -r '.message' 2>/dev/null)
+        if [ "$ERROR_MSG" != "null" ] && [ -n "$ERROR_MSG" ]; then
+          echo "API Error: $ERROR_MSG"
+          echo "new_version=false" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+        
+        # 获取版本号
+        LATEST_VERSION=$(echo "$RESPONSE" | jq -r '.tag_name' 2>/dev/null)
+        
+        if [ -z "$LATEST_VERSION" ] || [ "$LATEST_VERSION" == "null" ]; then
+          echo "No version found in response"
+          echo "new_version=false" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+        
+        # 读取当前版本
+        if [ -f ".version" ]; then
+          CURRENT_VERSION=$(cat .version)
+        else
+          CURRENT_VERSION="none"
+        fi
         
         echo "Latest version: $LATEST_VERSION"
         echo "Current version: $CURRENT_VERSION"
@@ -33,17 +68,28 @@ jobs:
           echo "new_version=true" >> $GITHUB_OUTPUT
           echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
           
-          # 获取localize_jp.zip的下载URL
-          DOWNLOAD_URL=$(echo "$RELEASE_INFO" | jq -r '.assets[] | select(.name=="localize_jp.zip") | .browser_download_url')
+          # 获取下载URL
+          DOWNLOAD_URL=$(echo "$RESPONSE" | jq -r '.assets[] | select(.name=="localize_jp.zip") | .browser_download_url')
+          
+          if [ -z "$DOWNLOAD_URL" ] || [ "$DOWNLOAD_URL" == "null" ]; then
+            echo "Warning: localize_jp.zip not found"
+            echo "new_version=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
           echo "download_url=$DOWNLOAD_URL" >> $GITHUB_OUTPUT
         else
           echo "No new version"
           echo "new_version=false" >> $GITHUB_OUTPUT
         fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Download and process files
       if: steps.get_release.outputs.new_version == 'true'
       run: |
+        echo "Downloading from: ${{ steps.get_release.outputs.download_url }}"
+        
         # 创建临时目录
         mkdir -p temp_download
         mkdir -p temp_extract
@@ -52,6 +98,12 @@ jobs:
         cd temp_download
         wget -O localize_jp.zip "${{ steps.get_release.outputs.download_url }}"
         
+        # 检查下载是否成功
+        if [ ! -f "localize_jp.zip" ] || [ ! -s "localize_jp.zip" ]; then
+          echo "Download failed or file empty"
+          exit 1
+        fi
+        
         # 解压文件
         unzip localize_jp.zip -d ../temp_extract/
         cd ..
@@ -59,7 +111,6 @@ jobs:
         # 处理文件：重命名JP_前缀为EN_
         cd temp_extract
         
-        # 如果存在LocalizeTemp_jp文件夹
         if [ -d "LocalizeTemp_jp" ]; then
           cd LocalizeTemp_jp
         fi
@@ -77,9 +128,12 @@ jobs:
         
         # 准备目标目录
         TARGET_DIR="Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en"
+        
+        # 清空并创建目标目录（完全同步）
+        rm -rf "$TARGET_DIR"
         mkdir -p "$TARGET_DIR"
         
-        # 复制所有文件到目标目录（保持目录结构）
+        # 复制所有文件
         if [ -d "temp_extract/LocalizeTemp_jp" ]; then
           cp -r temp_extract/LocalizeTemp_jp/* "$TARGET_DIR/"
         else
@@ -89,10 +143,10 @@ jobs:
         # 保存新版本号
         echo "${{ steps.get_release.outputs.version }}" > .version
         
-        echo "Files processed and copied to target directory"
-        
-        # 清理临时文件（可选）
+        # 清理临时文件
         rm -rf temp_download temp_extract
+        
+        echo "Files processed and copied to target directory"
         
     - name: Commit and push changes
       if: steps.get_release.outputs.new_version == 'true'
@@ -104,47 +158,29 @@ jobs:
         git add Android/
         git add .version
         
-        # 检查是否有变更需要提交
         if git diff --staged --quiet; then
           echo "No changes to commit"
           exit 0
         fi
         
-        # 提交变更
         git commit -m "同步更新版本 ${{ steps.get_release.outputs.version }}"
-        
-        # 推送到main分支
         git push origin main
         
     - name: Create release package
       if: steps.get_release.outputs.new_version == 'true'
       run: |
-        # 进入工作区根目录
         cd ${{ github.workspace }}
-    
-        # 压缩完整的文件夹路径
-        zip -r localize.zip Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en/
-    
-        echo "Package created: localize.zip"
-        echo "Package size: $(ls -lh localize.zip | awk '{print $5}')"
-    
-        # 查看压缩包内容（调试用）
-        echo "Contents of localize.zip:"
-        unzip -l localize.zip | head -20
+        zip -r en.zip Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en/
+        echo "Package created: en.zip"
         
     - name: Create release
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         VERSION="${{ steps.get_release.outputs.version }}"
-        RELEASE_NAME="$VERSION"
-        
-        # 创建release并上传压缩包
         gh release create "$VERSION" \
-          --title "$RELEASE_NAME" \
+          --title "$VERSION" \
           --notes "更新到版本 $VERSION" \
           --target main \
-          localize.zip
-        
-        echo "Release $VERSION created with localize.zip"
+          en.zip
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
