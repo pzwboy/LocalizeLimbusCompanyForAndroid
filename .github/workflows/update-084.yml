@@ -170,8 +170,8 @@ jobs:
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         cd ${{ github.workspace }}
-        zip -r en.zip Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en/
-        echo "Package created: en.zip"
+        zip -r localize.zip Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en/
+        echo "Package created: localize.zip"
         
     - name: Create release
       if: steps.get_release.outputs.new_version == 'true'
@@ -181,6 +181,6 @@ jobs:
           --title "$VERSION" \
           --notes "更新到版本 $VERSION" \
           --target main \
-          en.zip
+          localize.zip
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
