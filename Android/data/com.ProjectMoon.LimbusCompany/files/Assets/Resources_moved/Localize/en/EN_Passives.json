@@ -1313,7 +1313,7 @@
         },
         {
             "id": 999901,
-            "name": "猩紅凝視",
+            "name": "猩紅視綫",
             "desc": "<color=#7C5738>回合結束</color>時，対現存<color=#61DA61>体力</color>不低于50%的<color=#ffffff>敵方単位</color>在<color=#7C5738>下回合</color>施加3層[Binding]。\n若意圖対<color=#ffffff>自身</color>使用技能的<color=#ffffff>敵方単位</color><color=#61DA61>体力</color>未満，則該<color=#ffffff>敵方単位</color>每剩余<color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>，対其施加1層[Reduction]。",
             "summary": ""
         },
@@ -1338,12 +1338,12 @@
         {
             "id": 999905,
             "name": "■■■■的朋友之眼",
-            "desc": "可以使用“猩紅凝視”",
+            "desc": "可以使用“猩紅視綫”",
             "summary": ""
         },
         {
             "id": 999906,
-            "name": "心-猩紅凝視",
+            "name": "心-猩紅視綫",
             "desc": "根据<color=#81BBE8>理智値</color>生成望",
             "summary": ""
         },
@@ -1602,7 +1602,7 @@
         {
             "id": 1071012,
             "name": "魔王的呼喚",
-            "desc": "- <color=#ffffff>目標</color>每帯有1級[Sinking]強度，造成的<color=#ffffff>傷害</color>+1%(最多+15%)\n\n- 戦斗中<color=#ffffff>友方単位</color>受到致死<color=#ffffff>傷害</color>時，消耗2層棺 并使其獲得[WildHunt](回合最多<style=\"highlight\">2</style>次)\n\n- <color=#7C5738>下回合</color>使獲得[WildHunt]的人格獲得2層[AttackDmgUp]\n- 若該人格属于呼嘯山庄或埃德加家族，則<color=#7C5738>下回合</color>額外使其獲得1層[Enhancement]",
+            "desc": "- <color=#ffffff>目標</color>每帯有1級[Sinking]強度，造成的<color=#ffffff>傷害</color>+1%(最多+15%)\n\n- 戦斗中<color=#ffffff>友方単位</color>受到致死<color=#ffffff>傷害</color>時，消耗2層棺 并使其獲得[WildHunt](<color=#7C5738>每回合</color>最多<style=\"highlight\">2</style>次)\n\n- <color=#7C5738>下回合</color>使獲得[WildHunt]的人格獲得2層[AttackDmgUp]\n- 若該人格属于呼嘯山庄或埃德加家族，則<color=#7C5738>下回合</color>額外使其獲得1層[Enhancement]",
             "summary": "根据<color=#ffffff>目標</color>帯有的[Sinking]強度相應使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>増加"
         },
         {
@@ -2962,7 +2962,7 @@
         {
             "id": 1041502,
             "name": "再会",
-            "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得0層[SojiRyoshuEchoPast]与0層[SojiRyoshuEntangle]\n\n戦斗中首次登場時，每編入3名属于蜘蛛巢的友方人格(包括<color=#ffffff>自身</color>)，使<color=#ffffff>自身</color>[SojiRyoshuEchoPast]的最小与最大値+1(最多+3)\n\n若有属于蜘蛛巢的人格在場，則<color=#ffffff>自身</color>受到<color=#61DA61>体力</color><color=#ffffff>傷害</color>時，将受到的<color=#61DA61>体力</color><color=#ffffff>傷害</color>轉移至属于蜘蛛巢的友方人格中現存<color=#61DA61>体力</color>比例最低的友方人格\n\n<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，<color=#7C5738>本回合</color><color=#ffffff>自身</color>的<color=#61DA61>体力</color>不会低于1点(每場戦斗最多1次)\n\n属于蜘蛛巢的友方人格陣亡時，触発以下效果\n- 使<color=#ffffff>自身</color>獲得1層[SojiRyoshuEchoPast]\n- 根据陣亡的人格，本場戦斗中使<color=#ffffff>自身</color>獲得以下相應的額外效果\n · 蜘蛛巢 食指 父輩 李箱：使用基礎攻撃技能時，使最后一枚硬幣轉化為[SuperCoin]。基礎攻撃技能的[SuperCoin]造成的<color=#ffffff>傷害</color>+10%\n · 食指 代行者 - 綻放[TabExplain]E.G.O::代行 堂吉訶德：使用基礎攻撃技能時，使<color=#ffffff>自身</color>増加2級[Breath]強度。基礎攻撃技能<color=#ffffff>暴撃</color>時，使<color=#ffffff>目標</color>増加1級[Sinking]強度\n · 蜘蛛巢 中指 子輩 以實瑪利：防御等級+2，基礎攻撃技能増加的[Combustion]強度額外+1級\n · 蜘蛛巢 環指 父輩 鴻璐：使<color=#ffffff>自身</color>獲得[MelodyBodyArt]\n · 蜘蛛巢 環指 子輩 浮士德：<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限10%的<color=#81BBE8>護盾</color>\n · 蜘蛛巢 小指 子輩 辛克莱：<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[Breath]与1層[CriticalDamageUp]\n\n若没有解除待命或重返戦斗的人格，則每有3名属于蜘蛛巢的友方人格陣亡，使蜘蛛巢之刃 良秀的<color=#ffffff>行動槽</color>+1(最多+3)\n- 該效果不能将<color=#ffffff>行動槽</color>増加至本場戦斗最大<color=#ffffff>行動槽</color>数量以上\n- 対于部分游戯内容，該效果可无視関于<color=#ffffff>行動槽</color>増加的限制生效\n\n<color=#ffffff>自身</color>僅視作施加[Combustion]，施加[Laceration]与獲得[Breath]的人格\n\n満足特定条件時，本場戦斗中改変戦斗BGM(不包括特定戦斗)",
+            "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得0層[SojiRyoshuEchoPast]与0層[SojiRyoshuEntangle]\n\n戦斗中首次登場時，每編入3名属于蜘蛛巢的友方人格(包括<color=#ffffff>自身</color>)，使<color=#ffffff>自身</color>[SojiRyoshuEchoPast]的最小与最大値+1(最多+3)\n\n若有属于蜘蛛巢的人格在場，則<color=#ffffff>自身</color>受到<color=#61DA61>体力</color><color=#ffffff>傷害</color>時，将受到的<color=#61DA61>体力</color><color=#ffffff>傷害</color>轉移至属于蜘蛛巢的友方人格中現存<color=#61DA61>体力</color>比例最低的友方人格\n\n<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，<color=#7C5738>本回合</color><color=#ffffff>自身</color>的<color=#61DA61>体力</color>不会低于1点(每場戦斗最多1次)\n\n属于蜘蛛巢的友方人格陣亡時，触発以下效果\n- 使<color=#ffffff>自身</color>獲得1層[SojiRyoshuEchoPast]\n- 根据陣亡的人格，本場戦斗中使<color=#ffffff>自身</color>獲得以下相應的額外效果\n · 蜘蛛巢 食指 父輩 李箱：使用基礎攻撃技能時，使最后一枚硬幣轉化為[SuperCoin]。基礎攻撃技能的[SuperCoin]造成的<color=#ffffff>傷害</color>+10%\n · 食指 代行者 - 綻放[TabExplain]E.G.O::代行 堂吉訶德：使用基礎攻撃技能時，使<color=#ffffff>自身</color>増加2級[Breath]強度。基礎攻撃技能<color=#ffffff>暴撃</color>時，使<color=#ffffff>目標</color>増加1級[Sinking]強度\n · 蜘蛛巢 中指 子輩 以實瑪利：防御等級+2，基礎攻撃技能増加的[Combustion]強度額外+1級\n · 蜘蛛巢 環指 父輩 鴻璐：使<color=#ffffff>自身</color>獲得[MelodyBodyArt]\n · 蜘蛛巢 環指 子輩 浮士德：<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限10%的<color=#81BBE8>護盾</color>\n · 蜘蛛巢 小指 子輩 辛克莱：<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[Breath]与1層[CriticalDamageUp]\n\n若没有解除待命或重返戦斗的人格，則每有3名属于蜘蛛巢的友方人格処于陣亡状態，使蜘蛛巢之刃 良秀的<color=#ffffff>行動槽</color>+1(最多+3)\n- 該效果不能将<color=#ffffff>行動槽</color>増加至本場戦斗最大<color=#ffffff>行動槽</color>数量以上\n- 対于部分游戯内容，該效果可无視関于<color=#ffffff>行動槽</color>増加的限制生效\n\n<color=#ffffff>自身</color>僅視作施加[Combustion]，施加[Laceration]与獲得[Breath]的人格\n\n満足特定条件時，本場戦斗中改変戦斗BGM(不包括特定戦斗)",
             "summary": "受到的<color=#ffffff>傷害</color>轉移至属于蜘蛛巢的人格",
             "flavor": "“不想再次相会之物總是会再次相会，渴望再次相会之物却无法再次相会。”\n“因此于再会的那个瞬間，我必須狠下心来。”"
         },
@@ -3022,7 +3022,7 @@
         {
             "id": 1111505,
             "name": "再会-中指",
-            "desc": "若<color=#ffffff>自身</color>在<color=#7C5737>関峠開始</color>時陣亡或在戦斗中陣亡，則使蜘蛛巢之刃 良秀獲得以下效果\n- 獲得1層[SojiRyoshuEchoPast]\n- 受到的<color=#ffffff>傷害</color>-20%\n- 受到攻撃時，使<color=#ffffff>自身</color>獲得1層[AttackUp](<color=#7C5738>每回合</color>最多2次)"
+            "desc": "若<color=#ffffff>自身</color>在<color=#7C5737>関峠開始</color>時処于陣亡状態或在戦斗中陣亡，則使蜘蛛巢之刃 良秀獲得以下效果\n- 獲得1層[SojiRyoshuEchoPast]\n- 受到的<color=#ffffff>傷害</color>-20%\n- 受到攻撃時，使<color=#ffffff>自身</color>獲得1層[AttackUp](<color=#7C5738>每回合</color>最多2次)"
         },
         {
             "id": 1111506,
@@ -3101,7 +3101,7 @@
         {
             "id": 1071604,
             "name": "再会-拇指",
-            "desc": "若<color=#ffffff>自身</color>在<color=#7C5737>関峠開始</color>時陣亡或在戦斗中陣亡，則使蜘蛛巢之刃 良秀獲得以下效果\n- 獲得1層[SojiRyoshuEchoPast]\n- 基礎技能拼点勝利時，使<color=#ffffff>目標</color>増加2級[Vibration]強度，使其[VibrationExplosion]，并使其[Vibration]層数減少1層(<color=#7C5738>每回合</color>最多2次)",
+            "desc": "若<color=#ffffff>自身</color>在<color=#7C5737>関峠開始</color>時処于陣亡状態或在戦斗中陣亡，\n則使蜘蛛巢之刃 良秀獲得以下效果\n- 獲得1層[SojiRyoshuEchoPast]\n- 基礎技能拼点勝利時，使<color=#ffffff>目標</color>増加2級[Vibration]強度，使其[VibrationExplosion]，并使其[Vibration]層数減少1層(<color=#7C5738>每回合</color>最多2次)",
             "summary": "",
             "flavor": ""
         },
@@ -3127,12 +3127,12 @@
         {
             "id": 1091602,
             "name": "預知眼",
-            "desc": "<color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得30層[FutureEyeOnRodion]\n若<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数為0層，則使[FutureEyeOnRodion]轉化為[FutureEyeOffRodion]\n\n<color=#ffffff>自身</color>帯有[FutureEyeOnRodion]時，触発以下效果\n- 進行拼点時，每次拼点使<color=#ffffff>自身</color>獲得1層[LookingFutureRodion](每个技能最多5次)\n- 受到単方面攻撃，[SuperCoin]攻撃或与攻撃技能拼点失敗時，使用技能“預知”(<color=#7C5738>每回合</color>最多1次)\n\n満足以下条件時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少\n- 每次拼点使<color=#ffffff>自身</color>的[FutureEyeOnRodion]減少1層\n- <color=#ffffff>自身</color>因受到単方面攻撃或[SuperCoin]攻撃而通過被動效果使用技能“預知”時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少3層\n- <color=#ffffff>自身</color>因拼点失敗而通過被動效果使用技能“預知”時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少5層\n\n戦斗中，若<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数降至0層，<color=#ffffff>自身</color>陷入混乱，或蜘蛛巢 拇指 子輩 希斯克利夫陣亡，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得[ObsessionAndGreedRodion]\n(若<color=#ffffff>自身</color>解除待命時蜘蛛巢 拇指 子輩 希斯克利夫已陣亡，則在<color=#7C5738>回合開始</color>時獲得[ObsessionAndGreedRodion])\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>在本場戦斗中首次陷入混乱，則解除<color=#ffffff>自身</color>的混乱(不包括強制混乱)"
+            "desc": "<color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得30層[FutureEyeOnRodion]\n若<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数為0層，則使[FutureEyeOnRodion]轉化為[FutureEyeOffRodion]\n\n<color=#ffffff>自身</color>帯有[FutureEyeOnRodion]時，触発以下效果\n- 進行拼点時，每次拼点使<color=#ffffff>自身</color>獲得1層[LookingFutureRodion](每个技能最多5次)\n- 受到単方面攻撃，[SuperCoin]攻撃或与攻撃技能拼点失敗時，使用技能“預知”(<color=#7C5738>每回合</color>最多1次)\n\n満足以下条件時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少\n- 每次拼点使<color=#ffffff>自身</color>的[FutureEyeOnRodion]減少1層\n- <color=#ffffff>自身</color>因受到単方面攻撃或[SuperCoin]攻撃而通過被動效果使用技能“預知”時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少3層\n- <color=#ffffff>自身</color>因拼点失敗而通過被動效果使用技能“預知”時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少5層\n\n戦斗中，若<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数降至0層，<color=#ffffff>自身</color>陷入混乱，或蜘蛛巢 拇指 子輩 希斯克利夫陣亡，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得[ObsessionAndGreedRodion]\n(若<color=#ffffff>自身</color>解除待命時蜘蛛巢 拇指 子輩 希斯克利夫処于陣亡状態，則在<color=#7C5738>回合開始</color>時獲得[ObsessionAndGreedRodion])\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>在本場戦斗中首次陷入混乱，則解除<color=#ffffff>自身</color>的混乱(不包括強制混乱)"
         },
         {
             "id": 1091612,
             "name": "預知眼",
-            "desc": "<color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得30層[FutureEyeOnRodion]\n若<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数為0層，則使[FutureEyeOnRodion]轉化為[FutureEyeOffRodion]\n\n<color=#ffffff>自身</color>帯有[FutureEyeOnRodion]時，触発以下效果\n- 進行拼点時，每次拼点使<color=#ffffff>自身</color>獲得1層[LookingFutureRodion](每个技能最多5次)\n- 受到単方面攻撃，[SuperCoin]攻撃或与攻撃技能拼点失敗時，使用技能“預知”(<color=#7C5738>每回合</color>最多1次)\n\n満足以下条件時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少\n- 每次拼点使<color=#ffffff>自身</color>的[FutureEyeOnRodion]減少1層\n- <color=#ffffff>自身</color>因受到単方面攻撃或[SuperCoin]攻撃而通過被動效果使用技能“預知”時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少3層\n- <color=#ffffff>自身</color>因拼点失敗而通過被動效果使用技能“預知”時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少5層\n\n<style=\"highlight\"><color=#ffffff>自身</color>的[FutureEyeOnRodion]轉化為[FutureEyeOffRodion]的<color=#7C5738>回合結束</color>時，触発以下效果\n- [FullReload](每場戦斗最多1次)\n- <color=#7C5738>下回合</color>開始時，若<color=#ffffff>自身</color>的儀表盤上没有“処置”，則使<color=#ffffff>自身</color>的1个基礎技能轉化為“処置”(優先轉化位于儀表盤最左側<color=#ffffff>行動槽</color>上方一行的技能)</style>\n\n戦斗中，若<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数降至0層，<color=#ffffff>自身</color>陷入混乱，或蜘蛛巢 拇指 子輩 希斯克利夫陣亡，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得[ObsessionAndGreedRodion]\n(若<color=#ffffff>自身</color>解除待命時蜘蛛巢 拇指 子輩 希斯克利夫已陣亡，則在<color=#7C5738>回合開始</color>時獲得[ObsessionAndGreedRodion])\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>在本場戦斗中首次陷入混乱，則解除<color=#ffffff>自身</color>的混乱(不包括強制混乱)"
+            "desc": "<color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得30層[FutureEyeOnRodion]\n若<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数為0層，則使[FutureEyeOnRodion]轉化為[FutureEyeOffRodion]\n\n<color=#ffffff>自身</color>帯有[FutureEyeOnRodion]時，触発以下效果\n- 進行拼点時，每次拼点使<color=#ffffff>自身</color>獲得1層[LookingFutureRodion](每个技能最多5次)\n- 受到単方面攻撃，[SuperCoin]攻撃或与攻撃技能拼点失敗時，使用技能“預知”(<color=#7C5738>每回合</color>最多1次)\n\n満足以下条件時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少\n- 每次拼点使<color=#ffffff>自身</color>的[FutureEyeOnRodion]減少1層\n- <color=#ffffff>自身</color>因受到単方面攻撃或[SuperCoin]攻撃而通過被動效果使用技能“預知”時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少3層\n- <color=#ffffff>自身</color>因拼点失敗而通過被動效果使用技能“預知”時，使<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数減少5層\n\n<style=\"highlight\"><color=#ffffff>自身</color>的[FutureEyeOnRodion]轉化為[FutureEyeOffRodion]的<color=#7C5738>回合結束</color>時，触発以下效果\n- [FullReload](每場戦斗最多1次)\n- <color=#7C5738>下回合</color>開始時，若<color=#ffffff>自身</color>的儀表盤上没有“処置”，則使<color=#ffffff>自身</color>的1个基礎技能轉化為“処置”(優先轉化位于儀表盤最左側<color=#ffffff>行動槽</color>上方一行的技能)</style>\n\n戦斗中，若<color=#ffffff>自身</color>的[FutureEyeOnRodion]層数降至0層，<color=#ffffff>自身</color>陷入混乱，或蜘蛛巢 拇指 子輩 希斯克利夫陣亡，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得[ObsessionAndGreedRodion]\n(若<color=#ffffff>自身</color>解除待命時蜘蛛巢 拇指 子輩 希斯克利夫処于陣亡状態，則在<color=#7C5738>回合開始</color>時獲得[ObsessionAndGreedRodion])\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>在本場戦斗中首次陷入混乱，則解除<color=#ffffff>自身</color>的混乱(不包括強制混乱)"
         },
         {
             "id": 1091603,
@@ -3142,7 +3142,7 @@
         {
             "id": 1091604,
             "name": "再会-拇指",
-            "desc": "若<color=#ffffff>自身</color>在<color=#7C5737>関峠開始</color>時陣亡或在戦斗中陣亡，則使蜘蛛巢之刃 良秀獲得以下效果\n- 獲得1層[SojiRyoshuEchoPast]\n- 守備技能的<color=#ffffff>硬幣威力</color>+1，使<color=#ffffff>自身</color>基礎攻撃技能対帯有<color=#81BBE8>護盾</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+10%"
+            "desc": "若<color=#ffffff>自身</color>在<color=#7C5737>関峠開始</color>時処于陣亡状態或在戦斗中陣亡，則使蜘蛛巢之刃 良秀獲得以下效果\n- 獲得1層[SojiRyoshuEchoPast]\n- 守備技能的<color=#ffffff>硬幣威力</color>+1，使<color=#ffffff>自身</color>基礎攻撃技能対帯有<color=#81BBE8>護盾</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+10%"
         },
         {
             "id": 1091621,
@@ -3171,7 +3171,7 @@
         {
             "id": 1121603,
             "name": "黎明事務所",
-            "desc": "戦斗中首次登場時，若場上包括<color=#ffffff>自身</color>在内属于黎明事務所[TabExplain]的友方人格不低于2名，則使<color=#ffffff>全体</color>属于黎明事務所[TabExplain]的人格獲得層数相当于場上属于黎明事務所[TabExplain]的人格数的[DawnTeam]\n\n若黎明事務所[TabExplain] 收尾人 辛克莱在場，則触発以下效果\n- 使黎明事務所[TabExplain] 收尾人 辛克莱獲得[DawnGregor]\n- <color=#7C5738>回合開始</color>時，若黎明事務所[TabExplain] 代表 格里高尓陣亡，則使黎明事務所[TabExplain] 收尾人 辛克莱的[DawnGregor]轉化為[DawnGregorDying]\n- <color=#7C5738>回合開始</color>時，若黎明事務所[TabExplain] 收尾人 辛克莱的<color=#61DA61>体力</color>低于50%，則使其獲得[RunSinclair](每場戦斗最多1次)"
+            "desc": "戦斗中首次登場時，若場上包括<color=#ffffff>自身</color>在内属于黎明事務所[TabExplain]的友方人格不低于2名，則使<color=#ffffff>全体</color>属于黎明事務所[TabExplain]的人格獲得層数相当于場上属于黎明事務所[TabExplain]的人格数的[DawnTeam]\n\n若黎明事務所[TabExplain] 收尾人 辛克莱在場，則触発以下效果\n- 使黎明事務所[TabExplain] 收尾人 辛克莱獲得[DawnGregor]\n- <color=#7C5738>回合開始</color>時，若黎明事務所[TabExplain] 代表 格里高尓処于陣亡状態，則使黎明事務所[TabExplain] 收尾人 辛克莱的[DawnGregor]轉化為[DawnGregorDying]\n- <color=#7C5738>回合開始</color>時，若黎明事務所[TabExplain] 收尾人 辛克莱的<color=#61DA61>体力</color>低于50%，則使其獲得[RunSinclair](每場戦斗最多1次)"
         },
         {
             "id": 1121621,
@@ -3189,7 +3189,7 @@
         {
             "id": 1021603,
             "name": "前輩",
-            "desc": "若黎明事務所[TabExplain] 收尾人 辛克莱在場，則触発以下效果\n- 使黎明事務所[TabExplain] 收尾人 辛克莱獲得[DawnFaust]\n- <color=#7C5738>回合開始</color>時，若黎明事務所[TabExplain] 收尾人 浮士德陣亡，則使黎明事務所[TabExplain] 收尾人 辛克莱的[DawnFaust]轉化為[DawnFaustDying]",
+            "desc": "若黎明事務所[TabExplain] 收尾人 辛克莱在場，則触発以下效果\n- 使黎明事務所[TabExplain] 收尾人 辛克莱獲得[DawnFaust]\n- <color=#7C5738>回合開始</color>時，若黎明事務所[TabExplain] 收尾人 浮士德処于陣亡状態，則使黎明事務所[TabExplain] 收尾人 辛克莱的[DawnFaust]轉化為[DawnFaustDying]",
             "summary": "",
             "flavor": ""
         },

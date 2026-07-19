@@ -47,12 +47,12 @@
         },
         {
             "id": 2040211,
-            "name": "終末火柴之光",
+            "name": "第四根火柴之焰",
             "desc": "<color=#ffffff>自身</color>每使用4个技能，使第4个技能的<color=#ffffff>最終威力</color>+4，且每次命中時使<color=#ffffff>目標</color>増加4級焼傷 強度。"
         },
         {
             "id": 2040212,
-            "name": "終末火柴之光",
+            "name": "第四根火柴之焰",
             "desc": "<color=#ffffff>自身</color>每使用4个技能，使第4个技能的<color=#ffffff>最終威力</color>+4，且每次命中時使<color=#ffffff>目標</color>増加4級[Combustion]強度。\n- 若該技能為<color=#FE0100>暴怒</color>技能，則使該技能造成的<color=#ffffff>傷害</color>+(<color=#ffffff>全体</color>攻撃<color=#ffffff>目標</color>的焼傷 強度之和/2)%(最多+20%)\n- 若該技能為E.G.O技能，則該技能的首枚硬幣開始時\n· 若該硬幣為加算硬幣，則使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>\n· 若該硬幣為減算硬幣，則使<color=#ffffff>自身</color>失去15点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点)",
             "summary": "每使用4个技能，第4个技能獲得強化"
         },
@@ -464,7 +464,7 @@
         {
             "id": 2020811,
             "name": "息",
-            "desc": "使用本E.G.O技能的<color=#7C5738>下回合</color>開始時，使<color=#ffffff>自身</color>獲得1層[NebulizerExhale]\n- 該層数将在本場戦斗期間累計\n\n<color=#ffffff>戦斗開始</color>時，每当<color=#ffffff>自身</color>通過[NebulizerExhale]效果使<color=#ffffff>友方単位</color>累計獲得10層[Breath]時，使<color=#ffffff>自身</color>獲得1層[NebulizerExhale]\n\n<color=#7C5738>回合結束</color>時，按現存<color=#61DA61>体力</color>比例由低到高使(最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NebulizerExhale]層数)%的<color=#61DA61>体力</color>(最多6名)\n- 若受到恢復的<color=#ffffff>友方単位</color>的[Breath]強度不低于20級，則使其額外恢復1次<color=#61DA61>体力</color>"
+            "desc": "使用本E.G.O技能的<color=#7C5738>下回合</color>開始時，使<color=#ffffff>自身</color>獲得1層[NebulizerExhale](<color=#7C5738>每回合</color>最多1次)\n- 該層数将在本場戦斗期間累計\n\n<color=#ffffff>戦斗開始</color>時，每当<color=#ffffff>自身</color>通過[NebulizerExhale]效果使<color=#ffffff>友方単位</color>累計獲得10層[Breath]時，使<color=#ffffff>自身</color>獲得1層[NebulizerExhale]\n\n<color=#7C5738>回合結束</color>時，按現存<color=#61DA61>体力</color>比例由低到高使(最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NebulizerExhale]層数)%的<color=#61DA61>体力</color>(最多6名)\n- 若受到恢復的<color=#ffffff>友方単位</color>的[Breath]強度不低于20級，則使其額外恢復1次<color=#61DA61>体力</color>"
         },
         {
             "id": 2090811,
