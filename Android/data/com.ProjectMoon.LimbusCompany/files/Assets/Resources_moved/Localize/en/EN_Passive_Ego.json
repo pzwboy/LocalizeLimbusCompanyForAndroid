@@ -117,6 +117,12 @@
             "desc": "<color=#7C5738>撃殺</color>帯有[Combustion]的<color=#ffffff>敵方単位</color>后，使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#FE0100>暴怒</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>数)%的<color=#61DA61>体力</color>。"
         },
         {
+            "id": 2090212,
+            "name": "火種",
+            "desc": "<style=\"highlight\">戦闘開始時、憤怒完全共鳴が発動したならマッチ勝利時にメインターゲットへ[CrimsonTakeDamageUp]1を付与 (1ターンにつき1回)</style>\n\n[Combustion]が付与された敵を討伐時、体力を最大値の<style=\"highlight\">(憤怒完全共鳴数)</style>%だけ回復 <style=\"highlight\">(最大12%)</style>",
+            "summary": "[CrimsonTakeDamageUp]を付与\n条件を満たすと体力を一定値回復"
+        },
+        {
             "id": 2090311,
             "name": "寒气",
             "desc": "<color=#ffffff>自身</color>的攻撃命中時，若<color=#ffffff>目標</color>的[Sinking]強度不低于5級，則<color=#7C5738>下回合</color>対其施加1層束縛 和1層虚弱 \n(每个<color=#ffffff>目標</color>最多3次)"

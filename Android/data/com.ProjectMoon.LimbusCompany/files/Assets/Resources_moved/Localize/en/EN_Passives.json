@@ -1948,7 +1948,7 @@
         },
         {
             "id": 1071202,
-            "name": "未雨綢繆",
+            "name": "臨戦准備",
             "desc": "若属于黑云会的<color=#ffffff>友方単位</color>陣亡，則使<color=#ffffff>自身</color>在本場戦斗期間獲得1層[SlashResultUp]\n\n若不低于3名属于黑云会的<color=#ffffff>友方単位</color>陣亡，則使<color=#ffffff>自身</color>在本場戦斗期間獲得[EngageToBattle]"
         },
         {
@@ -1959,7 +1959,7 @@
         },
         {
             "id": 1071221,
-            "name": "刀光血影",
+            "name": "貫穿",
             "desc": "使<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color>対<color=#7C5738>本回合</color>使用了守備技能或攻撃前<color=#61DA61>体力</color>為最大値的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%"
         },
         {
@@ -1970,7 +1970,7 @@
         },
         {
             "id": 1081102,
-            "name": "未雨綢繆",
+            "name": "臨戦准備",
             "desc": "若属于黑云会的<color=#ffffff>友方単位</color>陣亡，則使<color=#ffffff>自身</color>在本場戦斗期間獲得1層[SlashResultUp]\n\n若不低于3名属于黑云会的<color=#ffffff>友方単位</color>陣亡，則使<color=#ffffff>自身</color>在本場戦斗期間獲得[EngageToBattle]"
         },
         {
@@ -3212,6 +3212,27 @@
             "name": "孤独的收尾人",
             "desc": "<color=#ffffff>戦斗開始</color>時，若包括待命人員在内僅有1名人格存活，則使其獲得3層[AttackUp]与3層[DefenseUp]",
             "summary": "獲得3層攻撃等級提升 与3層防御等級提升 ",
+            "flavor": ""
+        },
+        {
+            "id": 1011601,
+            "name": "速度ト座標ト速度",
+            "desc": "自分の速度が対象より高いなら、(対象との速度差 × 自分の[Charge]威力)%だけダメージ量が増加(最大20%)\n\nターン終了時、(自分の[Charge]威力÷2)だけ次のターンに[Agility]を得る (最大2、小数点切り捨て)",
+            "summary": "",
+            "flavor": ""
+        },
+        {
+            "id": 1011602,
+            "name": "貫かれし路地",
+            "desc": "戦闘中、累計で自分の[Charge]回数を10消耗する度に[Charge]威力1を得る\n\n自分を除く味方のスキルが敵に的中すると、当該攻撃終了時に[DriftingDimensionYisang]を1消耗して対象に「次元斬り」を発動してから[FourDimensionYisang]1を得る",
+            "summary": "",
+            "flavor": ""
+        },
+        {
+            "id": 1011621,
+            "name": "人ハ光ヨリモ迅ク逃ゲヨ",
+            "desc": "速度が最も高い味方1名が[Charge]回数を得るか消耗するスキルを使用時、次のターンに[Agility]1を得る(1ターンにつき1回)",
+            "summary": "",
             "flavor": ""
         }
     ]
