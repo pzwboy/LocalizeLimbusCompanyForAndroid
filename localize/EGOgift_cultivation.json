@@ -1,0 +1,222 @@
+{
+    "dataList": [
+        {
+            "id": 9819,
+            "name": "血炎刀",
+            "desc": "戦斗的首个<color=#7C5738>回合開始</color>時，使擁有使<color=#ffffff>自身</color>増加[Combustion]強度的基礎攻撃技能的人格増加5級[Combustion]強度并使其恢復8点<color=#81BBE8>理智値</color>\n\n属于黑獣 - 酉的人格恢復<color=#61DA61>体力</color>最多恢復至<color=#61DA61>体力</color>上限的49%，但受到的<color=#ffffff>傷害</color>与使<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>-50%(不包括E.G.O飾品恢復的<color=#61DA61>体力</color>)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9819,
+                    "simpleDesc": "増加[Combustion]強度与攻撃等級，并恢復<color=#81BBE8>理智値</color>"
+                },
+                {
+                    "abilityID": 98191,
+                    "simpleDesc": "<color=#61DA61>体力</color>最大値固定，但受到的<color=#ffffff>傷害</color>与使<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>減少"
+                }
+            ]
+        },
+        {
+            "id": 9820,
+            "name": "黑鉄馬胄",
+            "desc": "<color=#7C5738>回合開始</color>時，使防御等級最高的1名<color=#ffffff>友方単位</color>獲得(其防御等級/3)点<color=#81BBE8>護盾</color>(優先使属于黑獣 - 午的人格獲得，最多15点<color=#81BBE8>護盾</color>)\n\n帯有<color=#81BBE8>護盾</color>的<color=#ffffff>友方単位</color>拼点勝利時，使<color=#ffffff>敵方単位</color>増加(<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>/2)級[Vibration]強度，并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility]与2層[DefenseUp](<color=#7C5738>每回合</color>每名人格最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9820,
+                    "simpleDesc": "使1名<color=#ffffff>友方単位</color>獲得<color=#81BBE8>護盾</color>与[Agility]"
+                },
+                {
+                    "abilityID": 98201,
+                    "simpleDesc": "根据<color=#7C5737>速度値</color>，相應増加震顫 強度，<color=#7C5738>下回合</color>増加防御等級"
+                }
+            ]
+        },
+        {
+            "id": 9821,
+            "name": "蒙蔽心扉的紅布",
+            "desc": "[第1順位人格専属]\n\n其他<color=#ffffff>友方単位</color>単方面攻撃命中<color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp](<color=#7C5738>每回合</color>每名人格最多1次，<color=#7C5738>每回合</color>最多6次)\n\n其他<color=#ffffff>友方単位</color>進行[RetreatForCommon]時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[SlashResultUp]与1層[SlashDamageUp](<color=#7C5738>每回合</color>最多1次)\n\n符合所有条件時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement](<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9821,
+                    "simpleDesc": "<color=#7C5738>下回合</color>増加攻撃等級"
+                },
+                {
+                    "abilityID": 98211,
+                    "simpleDesc": "<color=#7C5738>下回合</color>獲得<color=#ffffff>斬撃</color>威力提升 与<color=#ffffff>斬撃</color>傷害強化 "
+                },
+                {
+                    "abilityID": 98212,
+                    "simpleDesc": "<color=#7C5738>下回合</color>獲得威力提升 "
+                }
+            ]
+        },
+        {
+            "id": 9822,
+            "name": "品德 - 智",
+            "desc": "[第6順位人格専属]\n\n使用増加[Burst]強度或施加[Burst]層数的攻撃技能(包括E.G.O技能)拼点勝利時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[DefenseUp](<color=#7C5738>每回合</color>最多1次)\n- 属于家主候選人的単位<color=#7C5738>下回合</color>額外獲得1層[Agility]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9822,
+                    "simpleDesc": "獲得防御等級提升，属于家主候選人的単位<color=#7C5738>下回合</color>額外獲得[Agility]"
+                }
+            ]
+        },
+        {
+            "id": 9823,
+            "name": "品德 - 勇",
+            "desc": "[第6順位人格専属]\n\n使用増加[Burst]強度或施加[Burst]層数的攻撃技能(包括E.G.O技能)拼点勝利時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[AttackUp](<color=#7C5738>每回合</color>最多1次)\n- 属于家主候選人的単位<color=#7C5738>下回合</color>額外獲得3層[AttackUp]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9823,
+                    "simpleDesc": "獲得攻撃等級提升，属于家主候選人的単位<color=#7C5738>下回合</color>額外獲得[AttackUp]"
+                }
+            ]
+        },
+        {
+            "id": 9824,
+            "name": "品德 - 仁",
+            "desc": "[第6順位人格専属]\n\n使用増加[Burst]強度或施加[Burst]層数的攻撃技能(包括E.G.O技能)拼点勝利時，使<color=#ffffff>自身</color>恢復15点<color=#61DA61>体力</color>(<color=#7C5738>每回合</color>最多1次)\n- 属于家主候選人的単位<color=#7C5738>下回合</color>額外獲得1層[Protection]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9824,
+                    "simpleDesc": "恢復<color=#61DA61>体力</color>，属于家主候選人的単位<color=#7C5738>下回合</color>額外獲得[Protection]"
+                }
+            ]
+        },
+        {
+            "id": 9825,
+            "name": "切磋琢磨",
+            "desc": "[第6順位人格専属]\n\n使用増加[Burst]強度或施加[Burst]層数的攻撃技能(包括E.G.O技能)拼点勝利時，使<color=#ffffff>自身</color>恢復20点<color=#61DA61>体力</color>并在<color=#7C5738>下回合</color>獲得3層[AttackUp]与3層[DefenseUp](<color=#7C5738>每回合</color>最多1次)\n- 若<color=#ffffff>自身</color>属于家主候選人，則<color=#7C5738>下回合</color>額外使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得1層[Agility]，1層[Protection]与3層[AttackUp]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9825,
+                    "simpleDesc": "獲得攻撃等級提升与防御等級提升并恢復<color=#61DA61>体力</color>，若<color=#ffffff>自身</color>属于家主候選人，則<color=#7C5738>下回合</color>額外使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得迅捷 ，守護 与攻撃等級提升 "
+                }
+            ]
+        },
+        {
+            "id": 9826,
+            "name": "紹興酒",
+            "desc": "[第2順位人格専属]\n\n<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>基礎技能造成的<color=#ffffff>傷害</color>+1%(最多+10%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9826,
+                    "simpleDesc": "根据已失去<color=#61DA61>体力</color>使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 19826,
+            "name": "紹興酒+",
+            "desc": "[第2、<style=\"upgradeHighlight\">第4</style>順位人格専属]\n\n<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>基礎技能造成的<color=#ffffff>傷害</color>+1%(最多+10%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 19826,
+                    "simpleDesc": "根据已失去<color=#61DA61>体力</color>使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 29826,
+            "name": "紹興酒++",
+            "desc": "[第2、第4、<style=\"upgradeHighlight\">第6</style>順位人格専属]\n\n<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>基礎技能造成的<color=#ffffff>傷害</color>+1%(最多+10%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 29826,
+                    "simpleDesc": "根据已失去<color=#61DA61>体力</color>使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9827,
+            "name": "家人的怨恨",
+            "desc": "関峠内生成的血宴 変為2倍\n増加[Laceration]強度，施加[Laceration]層数与施加<color=#E40302>特殊流血</color>的技能攻撃后，使<color=#ffffff>自身</color>恢復造成<color=#ffffff>傷害</color>量30%的<color=#61DA61>体力</color>(最多20点)\n- 通過以上效果恢復<color=#61DA61>体力</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement](最多2層)\n\n[BloodDinner_Common_Accumulation]層数每有50層，<color=#7C5738>下回合</color>開始時使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得1層[AttackUp](最多5層)\n属于拉·曼却領的<color=#ffffff>友方単位</color>每帯有30層[BloodDinner_Accumulation]，<color=#7C5738>下回合</color>開始時使其獲得1層[AttackUp](最多3層)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9827,
+                    "simpleDesc": "生成的血宴 増加"
+                },
+                {
+                    "abilityID": 98271,
+                    "simpleDesc": "恢復<color=#61DA61>体力</color>"
+                },
+                {
+                    "abilityID": 98272,
+                    "simpleDesc": "獲得攻撃等級提升 "
+                },
+                {
+                    "abilityID": 98272,
+                    "simpleDesc": "獲得攻撃等級提升 "
+                }
+            ]
+        },
+        {
+            "id": 9828,
+            "name": "為了指揮官",
+            "desc": "[第1順位人格専属]\n使用消耗[Bullet]的技能時，触発以下效果\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[Agility](<color=#7C5738>每回合</color>最多1次)\n- 命中時使<color=#ffffff>目標</color>[VibrationExplosion]，消耗其1層[Vibration](<color=#7C5738>每回合</color>最多2次)\n- 拼点勝利后命中時，若<color=#ffffff>目標</color>帯有[Combustion]与[Vibration](包括<color=#E40302>特殊震顫</color>与<color=#E40302>特殊焼傷</color>)，則対其造成相当于其[Combustion]強度与[Vibration]強度之和的<color=#FE0100>暴怒</color><color=#ffffff>傷害</color>(<color=#7C5738>每回合</color>最多2次)\n\n<color=#FE0100>暴怒</color><color=#7C5738>共鳴</color>数不低于4時，触発以下效果\n- 使用<color=#FE0100>暴怒</color>技能時，使其<color=#ffffff>硬幣威力</color>+2\n- 命中時，若消耗了[Bullet]，則使造成的<color=#ffffff>傷害</color>+30%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9828,
+                    "simpleDesc": "獲得迅捷 "
+                },
+                {
+                    "abilityID": 98281,
+                    "simpleDesc": "造成震顫引爆 "
+                },
+                {
+                    "abilityID": 98282,
+                    "simpleDesc": "造成<color=#FE0100>暴怒</color><color=#ffffff>傷害</color>"
+                },
+                {
+                    "abilityID": 98283,
+                    "simpleDesc": "<color=#ffffff>硬幣威力</color>増加"
+                },
+                {
+                    "abilityID": 98284,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9829,
+            "name": "中指規矩",
+            "desc": "<color=#ffffff>打撃</color>基礎技能的<color=#ffffff>硬幣威力</color>+1，属于中指的人格改為<color=#ffffff>硬幣威力</color>+2\n<color=#ffffff>友方単位</color>受到攻撃時，<color=#7C5738>下回合</color>使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層[AttackUp](<color=#7C5738>每回合</color>最多3次)\n\n戦斗中属于中指的人格不低于3名時，触発以下效果\n<color=#ffffff>戦斗開始</color>時，每有1点<color=#9702DE>嫉炉</color><color=#7C5738>共鳴</color>数，獲得1層[Enhancement]与1層[Protection](最多3層)\n属于中指的人格使用<color=#9702DE>嫉炉</color>基礎技能時，使該技能的所有硬幣轉化為[SuperCoin]，該人格受到的<color=#ffffff>傷害</color>-50%，\n并在<color=#7C5738>本回合</color>与<color=#7C5738>下回合</color>獲得2層[HitDamageUp]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9829,
+                    "simpleDesc": "<color=#ffffff>硬幣威力</color>増加"
+                },
+                {
+                    "abilityID": 98291,
+                    "simpleDesc": "<color=#ffffff>硬幣威力</color>増加"
+                },
+                {
+                    "abilityID": 98292,
+                    "simpleDesc": "増加攻撃等級"
+                },
+                {
+                    "abilityID": 98293,
+                    "simpleDesc": "獲得強壮 与守護 "
+                },
+                {
+                    "abilityID": 98294,
+                    "simpleDesc": "轉化為不可摧毀的硬幣，受到的<color=#ffffff>傷害</color>減少，造成的<color=#ffffff>打撃</color><color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9830,
+            "name": "可米的小小礼物",
+            "desc": "使関峠的首个<color=#7C5738>回合開始</color>時与解除待命的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得3層[VerEmergencyCandy]\n若<color=#ffffff>友方単位</color>上回合未消耗[VerEmergencyCandy]，則<color=#7C5738>回合開始</color>時使其獲得1層[VerHunger]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9830,
+                    "simpleDesc": "獲得備用糖果 "
+                },
+                {
+                    "abilityID": 98301,
+                    "simpleDesc": "獲得飢餓 "
+                }
+            ]
+        }
+    ]
+}

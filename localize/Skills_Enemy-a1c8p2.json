@@ -1,0 +1,830 @@
+{
+    "dataList": [
+        {
+            "id": 9021001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-猛撃",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-横掃",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-粉碎",
+                    "desc": "[WhenUse] 消耗5層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]層数不低于5層，則使本技能増加的[Burst]強度額外+1級\n[BeforeAttack] 若本技能消耗了10層[Charge]，則対<color=#ffffff>目標</color>施加3層[Burst]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使用本技能時每消耗了5層[Charge]，使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-順流而行",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-劈坎",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-盤繞",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-爆碎",
+                    "desc": "[WhenUse] 消耗5層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]層数不低于5層，則使本技能増加的[Burst]強度額外+1級\n[BeforeAttack] 若本技能消耗了10層[Charge]，則対<color=#ffffff>目標</color>施加3層[Burst]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使用本技能時每消耗了5層[Charge]，使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-順流而行",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021201,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-劈碎",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021202,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-卷碎",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021203,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-破碎",
+                    "desc": "[WhenUse] 消耗5層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[BeforeAttack] 若本技能消耗的[Charge]層数不低于5層，則使本技能増加的[Burst]強度額外+2級\n[BeforeAttack] 若本技能消耗了10層[Charge]，則対<color=#ffffff>目標</color>施加3層[Burst]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成相当于其[Burst]強度的<color=#A6FE00>暴食</color><color=#ffffff>傷害</color>，并使其[Burst]層数減少1層(最多30点)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9021204,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "充斧流-匯流而聚",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得5層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "冲撞",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "引発騒乱",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Burst]強度不低于4級，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[DefenseUp]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "爭扎突刺",
+                    "desc": "[StartBattle] 若現存<color=#61DA61>体力</color>不高于50%，則使本技能的第三枚硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>拼点威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度并対其施加3層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[WinDuelAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限的(<color=#ffffff>自身</color>的[DefenseUp]層数)%的<color=#61DA61>体力</color>(最多10%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "蜷縮",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得相当于<color=#61DA61>体力</color>上限10%的<color=#81BBE8>護盾</color>",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "冲撞",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "引発騒乱",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Burst]強度不低于4級，則使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的1名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "爭扎踏撃",
+                    "desc": "[StartBattle] 若現存<color=#61DA61>体力</color>不高于50%，則使本技能的第三枚硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度并対其施加2層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[WinDuelAttack] 使包括<color=#ffffff>自身</color>在内現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "蜷縮",
+                    "desc": "[OnSucceedEvade] 対<color=#ffffff>目標</color>施加2層[Burst](<color=#7C5738>每回合</color>最多2次)",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "冲撞",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "引発騒乱",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Burst]強度不低于4級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度并対其施加2層[Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "爭扎横掃",
+                    "desc": "[StartBattle] 若現存<color=#61DA61>体力</color>不高于50%，則使本技能的第三枚硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "使本硬幣造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>已失去<color=#61DA61>体力</color>比例)%(最多+50%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#ffffff>重復使用</color>本技能(最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "蜷縮",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Burst]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-符撃",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加10層[OminousTalisman]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-效力発動",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加10層[OminousTalisman]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 消耗<color=#ffffff>目標</color>的2層[OminousTalisman]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-咒殺人偶",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度并対其施加2層[Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 消耗<color=#ffffff>目標</color>5層[OminousTalisman]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-防御",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得(20-<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>)点<color=#81BBE8>護盾</color>(最少0点，最多20点)",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-符撃",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加10層[OminousTalisman]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-效力発動",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加10層[OminousTalisman]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 消耗<color=#ffffff>目標</color>的3層[OminousTalisman]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-執行",
+                    "desc": "[StartBattle] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不高于-30点，則使本技能的最后一枚硬幣轉化為[SuperCoin]\n[DefeatDuel] 使本技能的<color=#ffffff>基礎威力</color>減少75%(向下取整)\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加10層[OminousTalisman]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] 対<color=#ffffff>目標</color>施加10層[OminousTalisman]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 消耗<color=#ffffff>目標</color>的5層[OminousTalisman]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-邪气爆発",
+                    "desc": "[StartBattle] <color=#ffffff>自身</color>每帯有-10点<color=#81BBE8>理智値</color>，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[DefeatDuel] 使本技能的<color=#ffffff>基礎威力</color>減少75%(向下取整)，且本技能造成的<color=#ffffff>傷害</color>或效果不会使<color=#ffffff>目標</color>陷入混乱\n[EndSkill] 使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度并対其施加3層[Burst]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加10層[OminousTalisman]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 消耗<color=#ffffff>目標</color>所有[OminousTalisman]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9020905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "符霊術-防御",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得(20-<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>)点<color=#81BBE8>護盾</color>(最少0点，最多40点)",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}

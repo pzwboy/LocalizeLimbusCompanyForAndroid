@@ -1,0 +1,474 @@
+{
+    "dataList": [
+        {
+            "id": 40003801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "洗法",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Laceration]之和每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[Agility]層数不低于3層，則使本技能的<color=#ffffff>基礎威力</color>+2\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40003802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "刺法",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Laceration]之和每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[Agility]層数不低于3層，則使本技能的<color=#ffffff>基礎威力</color>+2\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Breath]\n[WinDuel] 使<color=#ffffff>自身</color>獲得2層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40003803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "清燐火",
+                    "desc": "<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使本技能造成的<color=#ffffff>傷害</color>+0.5%(最多+25%)\n<color=#ffffff>自身</color>每帯有1層[Agility]，使本技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+25%(最多+150%)\n[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Laceration]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[WindBlade]層数不低于5層，則使本技能的所有硬幣轉化為[SuperCoin]\n[WinDuel] 使<color=#ffffff>自身</color>増加5級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[Breath]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[WindBlade]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[WindBlade]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[WindBlade]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40003804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "相戦清燐火",
+                    "desc": "[CantDuel]\n本技能不会触発守備技能\n<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使本技能造成的<color=#ffffff>傷害</color>+0.5%(最多+25%)\n<color=#ffffff>自身</color>每帯有1層[Agility]，使本技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+20%(最多+100%)\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[WindBlade]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加5級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 若<color=#ffffff>自身</color>的[Agility]層数不低于5層，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40003805,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "骨断",
+                    "desc": "[CantDuel]\n本技能不会触発守備技能\n<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使本技能造成的<color=#ffffff>傷害</color>+0.5%(最多+25%)\n<color=#ffffff>自身</color>每帯有1層[Agility]，使本技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+10%(最多+50%)\n[WhenUse] <color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Laceration]強度之和每有4級，使本技能的<color=#ffffff>基礎威力</color>+1(最多+4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40003806,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "照亮前路",
+                    "desc": "[CanDuelGuard]\n[StartBattle] 使<color=#ffffff>自身</color>獲得1層[SupportProtect]\n[WhenUse] 使<color=#ffffff>自身</color>増加5級[Breath]強度\n[WinDuel] 使<color=#ffffff>自身</color>獲得2層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40003807,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "形勢判断",
+                    "desc": "[CanDuelGuard]\n[SupportProtect]専用技能 \n[WhenUse] 使<color=#ffffff>自身</color>増加5級[Breath]強度\n[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于25級，則消耗5級[Breath]強度并使<color=#ffffff>自身</color>獲得3層[WindBlade]\n[WinDuel] 使<color=#ffffff>自身</color>獲得2層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40004001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "拔剣",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Breath]\n[WinDuel] 使<color=#ffffff>自身</color>増加3級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40004002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "刺法",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于7級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]\n[WinDuel] 使<color=#ffffff>自身</color>増加2級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+20%"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+40%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40004003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "弑主",
+                    "desc": "[DuelCounter]\n[StartBattle] <color=#7C5738>本回合</color>与<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[SlashDamageUp]\n[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于8級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]\n[WinDuel] 使<color=#ffffff>自身</color>増加4級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加5級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Breath]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+80%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加8級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40004004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "肉斬",
+                    "desc": "優先指定最大威力最高的<color=#ffffff>行動槽</color>\n[WhenUse] 直到本技能結束\n- <color=#ffffff>自身</color>每帯有1級[Breath]強度，使<color=#ffffff>自身</color>受到的攻撃<color=#ffffff>傷害</color>-2%(最少-80%)\n- <color=#ffffff>自身</color>每帯有1級[Breath]強度，使本技能的<color=#ffffff>拼点威力</color>-1(最少-30)\n- <color=#ffffff>自身</color>不会因受到<color=#ffffff>傷害</color>而陷入混乱\n[WinDuel] 使<color=#ffffff>自身</color>増加5級[Breath]強度\n[DefeatDuel] 受到攻撃后使用“骨断”\n[EndBattle] 直到<color=#7C5738>下回合</color>无法使用“肉斬”",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+150%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[SlashResistDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加4層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40004005,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "骨断",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于10級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 本技能的<color=#ffffff>攻撃容量</color>高于攻撃<color=#ffffff>目標</color>数時，每高于1点，使本技能造成的<color=#ffffff>傷害</color>+40%(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n[WhenUse] 使<color=#ffffff>自身</color>獲得4層[Breath]\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使本技能最后一枚硬幣的威力+2(每个硬幣最多1次)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使本技能最后一枚硬幣的威力+2(每个硬幣最多1次)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使本技能最后一枚硬幣的威力+2(每个硬幣最多1次)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加10級[Laceration]強度并対其施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40003901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "尤里亞工坊-總攻撃模式，Mark 17！",
+                    "desc": "<color=#ffffff>目標</color>每帯有1種負面状態，使本技能造成的<color=#ffffff>傷害</color>+50%(最多+100%)\n[WhenUse] 若<color=#ffffff>目標</color>的[Vibration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+3",
+                    "flavor": "手工特制的金毛尋回犬専用斧。",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 触発<color=#ffffff>目標</color>的[Laceration]1次，并使其[Laceration]層数減少1層"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40003902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "我来掩護袮！往后撤！",
+                    "desc": "[CanDuelGuard]\n[SupportProtect]専用技能\n[WinDuel] 使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復4点<color=#81BBE8>理智値</color>(包括<color=#ffffff>自身</color>)\n- 若其属于LCD，則改為恢復8点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "dataList": [
+        {
+            "id": 130501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "義体啓動",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則消耗3層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則額外消耗3層[Charge]并使本技能造成的<color=#ffffff>傷害</color>+20%\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数低于5層，則失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得9層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Binding]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 130502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血血液逆流",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則消耗3層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則額外消耗3層[Charge]并使本技能造成的<color=#ffffff>傷害</color>+20%\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数低于5層，則失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得9層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 130503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "活体能量轉換式充能",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得15層[Charge]\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-50%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AttackDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 130504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3層[Laceration]，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 130505,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "硬血血液轉移",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則消耗3層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則額外消耗3層[Charge]并使本技能造成的<color=#ffffff>傷害</color>+20%\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]層数低于5層，則失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得9層[Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 130506,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "活体能量轉換式再充能",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得15層[Charge]\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-50%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AttackDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 123804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "游行的王子",
+                    "desc": "[StartBattle] 每有1名帯有[Laceration]的<color=#ffffff>目標</color>，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+5)\n[WhenUse] 若主要<color=#ffffff>目標</color>的[Laceration]強度不低于4級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若主要<color=#ffffff>目標</color>的[Laceration]層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[DefeatDuel] 使<color=#ffffff>自身</color>失去1層[KeptBlood]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[KeptBlood]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 123807,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "我就是…這場游行的…王子…！",
+                    "desc": "[CantDuel]\n[WhenUse] 対<color=#ffffff>自身</color>施加4層[Paralysis]\n[WhenUse] 使<noparse>硬血長柄刀</noparse>恢復的<color=#61DA61>体力</color>変為2倍\n[WhenUse] 使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為0点\n[EndSkill] 使<color=#ffffff>自身</color>獲得10層[KeptBlood]\n<color=#7C5738>本回合</color><color=#ffffff>自身</color>不会陷入混乱，使用本技能后結束<color=#7C5738>本回合</color>。",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 123808,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "絶対…不会回去…！",
+                    "desc": "[WhenUse] 主要<color=#ffffff>目標</color>每帯有5級[Laceration]強度，使本技能的<color=#ffffff>拼点威力</color>+1(最多+3)\n[WhenUse] 若主要<color=#ffffff>目標</color>的[Laceration]層数不低于4層，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 主要<color=#ffffff>目標</color>每帯有1層[Laceration]，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+20%)\n[WinDuel] 使<noparse>硬血長柄刀</noparse>恢復的<color=#61DA61>体力</color>変為2倍\n[DefeatDuel] 使<noparse>硬血長柄刀</noparse>恢復<color=#61DA61>体力</color>的效果不会触発\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-80%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[EndSkill] 使<color=#ffffff>自身</color>獲得10層[KeptBlood]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度并対其施加1層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "dataList": [
+        {
+            "id": 838101,
+            "name": "梦幻的慶典",
+            "desc": "<color=#ffffff>自身</color>通過技能效果使其他<color=#ffffff>友方単位</color>獲得正面状態時，使<color=#ffffff>自身</color>獲得1層[FestivalFever](每種状態最多1次)\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得層数相当于除<color=#ffffff>自身</color>外的<color=#ffffff>友方単位</color>存活数的[FestivalFever](最多3層)\n<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>恢復相当于<color=#ffffff>自身</color>的[FestivalFever]層数的<color=#81BBE8>理智値</color>(<color=#81BBE8>理智値</color>為-45点時不生效)\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[FestivalFever]層数不低于10層，則<color=#7C5738>下回合</color>使用強力技能(“游行会永遠重復下去”激活時不生效)"
+        },
+        {
+            "id": 838102,
+            "name": "游行的主角",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得8層[Protection]\n- 每有1名<color=#ffffff>友方単位</color>陣亡，<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得的[Protection]層数減少1層\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color>内<color=#ffffff>自身</color>未受到<color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility]"
+        },
+        {
+            "id": 838103,
+            "name": "游行会永遠重復下去",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[IncompleteParade]層数不低于5層，則<color=#7C5738>下回合</color>使用強力技能"
+        },
+        {
+            "id": 838104,
+            "name": "幸福的游行",
+            "desc": "<color=#ffffff>自身</color><color=#61DA61>体力</color>首次降至66%以下時，強化<color=#ffffff>自身</color>模式\n\n模式改変時\n- <color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+1\n- 使<color=#ffffff>自身</color>的[BloomingThorns]轉換為[BloomingThorns_2nd]\n- <color=#7C5738>每回合</color>使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得3層[FestivalFever]与3層[BloomingThorns]"
+        },
+        {
+            "id": 838105,
+            "name": "永遠的幸福游行",
+            "desc": "<color=#ffffff>自身</color><color=#61DA61>体力</color>首次降至33%以下時，強化<color=#ffffff>自身</color>模式\n\n模式改変時\n- <color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+2\n- 使用強力技能，随后使<color=#ffffff>自身</color>的<color=#ffffff>斬撃</color>、<color=#ffffff>突刺</color>与<color=#ffffff>打撃</color>抗性弱化(+0.5)\n- 使<color=#ffffff>自身</color>的[BloomingThorns]与[BloomingThorns_2nd]轉換為[BloomingThorns_3rd]\n- <color=#7C5738>每回合</color>使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得5層[FestivalFever]与5層[BloomingThorns]"
+        },
+        {
+            "id": 838106,
+            "name": "不能就這様結束",
+            "desc": "<color=#7C5738>回合結束</color>時若没有<color=#ffffff>友方単位</color>存活或即将登場，則<color=#7C5738>下回合</color>消耗所有[FestivalFever]与[IncompleteParade]并陷入混乱(若<color=#7C5738>回合開始</color>時没有<color=#ffffff>友方単位</color>存活，則立刻生效)\n\n陷入混乱的<color=#7C5738>下回合</color>召喚2名血魔眷属"
+        },
+        {
+            "id": 838107,
+            "name": "血宴",
+            "desc": "若<color=#ffffff>自身</color>在戦斗中登場，或即将登場的<color=#ffffff>敵方単位</color>包括<color=#ffffff>自身</color>，則从第1回合起，根据<color=#ffffff>全体</color>単位受到的[Laceration]<color=#ffffff>傷害</color>，相應獲得[BloodDinner]。<color=#ffffff>自身</color>在戦斗中登場時，更進一步展現洒落在戦場上的潜伏之血。"
+        },
+        {
+            "id": 838108,
+            "name": "飢餓与衰老",
+            "desc": "<color=#ffffff>戦斗開始</color>時，対<color=#ffffff>自身</color>施加[StarvingDolcineaOne]"
+        },
+        {
+            "id": 838901,
+            "name": "白月騎士",
+            "desc": "受到的<color=#ffffff>傷害</color>-20%\n拼点失敗時，使<color=#ffffff>自身</color>獲得3層[Enhancement]"
+        },
+        {
+            "id": 838902,
+            "name": "驚険的比試",
+            "desc": "若与同一<color=#ffffff>目標</color>拼点不低于10次，則拼点判定時随机使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>増加或減少(拼点次数/10)。(向下取整)"
+        }
+    ]
+}

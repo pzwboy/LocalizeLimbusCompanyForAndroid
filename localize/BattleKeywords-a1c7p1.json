@@ -1,0 +1,186 @@
+{
+    "dataList": [
+        {
+            "id": "BloodScissor",
+            "name": "染血的剪刃",
+            "desc": "- 最大値：10\n- 染血的剪刃 1階段\n- 用于特殊技能",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodScissorTwo",
+            "name": "染血的剪刃II",
+            "desc": "- 最大値：20\n- 染血的剪刃 2階段\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 并対<color=#ffffff>自身</color>施加1層防御等級降低 \n- 用于特殊技能",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodScissorThree",
+            "name": "染血的剪刃III",
+            "desc": "- 最大値：30\n- 染血的剪刃 3階段\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>獲得2層攻撃等級提升 并対<color=#ffffff>自身</color>施加1層防御等級降低 \n- 用于特殊技能",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodDinner",
+            "name": "血宴",
+            "desc": "- 最大値：999\n- 儲存在該戦斗場所造成的流血 <color=#ffffff>傷害</color>\n- 改変戦斗場所時重置本效果\n- 本效果層数<color=#ffffff>全体</color>単位共同計算\n- 同一回合内若<color=#ffffff>友方単位</color>有消耗血宴 的上位眷属，則在該<color=#ffffff>友方単位</color>消耗血宴 之前，<color=#ffffff>自身</color>不能消耗血宴 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodDinner_Accumulation",
+            "name": "消耗血宴總数",
+            "desc": "- 最大値：999\n- 顕示本場戦斗中累計消耗的血宴 層数",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FamineBlood_LowMorale",
+            "name": "飢餓",
+            "desc": "- 士气低落\n<color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層束縛 并使<color=#ffffff>自身</color>獲得2層強壮 。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FamineBlood_Panic",
+            "name": "飢餓",
+            "desc": "- 陷入恐慌\n<color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加2層束縛 并使<color=#ffffff>自身</color>獲得4層強壮 。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DuelDeclaration_Camille",
+            "name": "决斗宣告-峠米尓",
+            "desc": "施加决斗宣告 的単位与帯有該状態的単位拼点時，使施加該状態的単位<color=#ffffff>拼点威力</color>+1\n攻撃命中時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層迅捷 。(<color=#7C5738>每回合</color>最多4次)\n当該単位対其他単位施加决斗宣告 時，此效果轉移到新的<color=#ffffff>目標</color>上。\n被其他単位施加决斗宣告 時，本效果被替換。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RecklessDuel",
+            "name": "魯莽的决斗",
+            "desc": "<color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>每失去10%的<color=#61DA61>体力</color>，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層<color=#ffffff>拼点威力</color>提升 (最多5層)\n<color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>每失去10%的<color=#61DA61>体力</color>，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層束縛 (最多5層)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ConcentratedAttack",
+            "name": "集中攻撃",
+            "desc": "対上回合成功攻撃的<color=#ffffff>行動槽</color>使用技能時，根据累計成功攻撃的回合数，獲得対應效果。\n- 累計攻撃成功1次：<color=#ffffff>拼点威力</color>+1\n- 累計攻撃成功2次：<color=#ffffff>基礎威力</color>+1\n- 累計攻撃成功3次：<color=#ffffff>基礎威力</color>+1，<color=#ffffff>硬幣威力</color>+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TrulyWeak",
+            "name": "弱者",
+            "desc": "- 造成的<color=#ffffff>傷害</color>-10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RealPaperBear",
+            "name": "真正的熊",
+            "desc": "- 這頭可怕的熊連人都吃",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodScissorScars",
+            "name": "深度裂傷",
+            "desc": "- 対<color=#ffffff>自身</color>施加3層流血 并触発流血 ，随后使流血 層数減少1層\n- <color=#7C5738>回合結束</color>時解除本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LineCutting",
+            "name": "縫紉対象",
+            "desc": "- 優先成為？？？的攻撃指定<color=#ffffff>目標</color>\n- <color=#7C5738>回合結束</color>時解除本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "StarvingBarberOne",
+            "name": "衰老",
+            "desc": "- 很久未曾飲用血液了。\n- 基礎攻撃等級-15\n- 基礎防御等級-15",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "StarvingBarberTwo",
+            "name": "衰老",
+            "desc": "- 很久未曾飲用血液了。\n- 基礎攻撃等級-25\n- 基礎防御等級-25",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodShooting",
+            "name": "血猟！！",
+            "desc": "陣亡時\n- 獲得30層血宴\n- 獲得持有量最少的2个E.G.O資源\n- <color=#7C5738>下回合</color>使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的所有物理抗性増加0.1。可畳加。(最多5)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RighteousFeeling",
+            "name": "正義至極！！",
+            "desc": "- <color=#7C5738>每回合</color>結束時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層迅捷 ，3層攻撃等級提升 与3層防御等級降低 \n- 每満3回合后，使<color=#ffffff>自身</color>額外獲得2層攻撃等級提升 (最多6層)\n- 拼点勝利時，恢復3点<color=#81BBE8>理智値</color>\n- <color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層<color=#ffffff>拼点威力</color>提升 (<color=#7C5738>每回合</color>最多1次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DuelDeclarationMeursault",
+            "name": "决斗宣告-默尓索",
+            "desc": "施加决斗宣告 的単位与帯有該状態的単位拼点時，使施加該状態的単位<color=#ffffff>拼点威力</color>+1\n攻撃命中時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層迅捷 。(<color=#7C5738>每回合</color>最多4次)\n当該単位対其他単位施加决斗宣告 時，此效果轉移到新的<color=#ffffff>目標</color>上。\n被其他単位施加决斗宣告 時，本效果被替換。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ConcentratedAttackMeursault",
+            "name": "集中攻撃-默尓索",
+            "desc": "<<color=#ffffff>集中遭遇戦</color>専属>\n施加本集中攻撃的単位根据<color=#ffffff>目標</color><color=#ffffff>行動槽</color>的集中攻撃層数獲得相應效果，\n1層：<color=#ffffff>拼点威力</color>+1\n2層：<color=#ffffff>基礎威力</color>+1\n3層：<color=#ffffff>基礎威力</color>+1，<color=#ffffff>硬幣威力</color>+1\n- 若施加本集中攻撃的単位一回合内未能命中其施加集中攻撃的<color=#ffffff>行動槽</color>，則解除本效果\n- 若施加本集中攻撃的単位対其他<color=#ffffff>行動槽</color>施加集中攻撃，則解除本效果\n- 若其他単位対帯有集中攻撃的<color=#ffffff>行動槽</color>施加集中攻撃，則替代本效果\n- <color=#7C5738>下回合</color>開始時，若帯有集中攻撃的<color=#ffffff>行動槽</color>被移除，則根据編隊順序対該<color=#ffffff>部位</color>的<color=#ffffff>行動槽</color>再次施加所有集中攻撃",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Duello_LowMorale",
+            "name": "决斗担当",
+            "desc": "- 士气低落\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層攻撃等級提升 。拼点失敗時，対<color=#ffffff>自身</color>施加1層防御等級降低 (<color=#7C5738>每回合</color>最多3層)。最小<color=#7C5737>速度値</color>-1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Duello_Panic",
+            "name": "决斗担当",
+            "desc": "- 陷入恐慌\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得4層攻撃等級提升 。拼点失敗時，対<color=#ffffff>自身</color>施加2層防御等級降低 (<color=#7C5738>每回合</color>最多6層)。最小<color=#7C5737>速度値</color>-1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RighteousFeelingSancho",
+            "name": "含着血泪，我会承担起責任。",
+            "desc": "- 使<color=#ffffff>自身</color>獲得硬血 時，額外獲得1層硬血 。(<color=#7C5738>每回合</color>最多5次)\n- <color=#7C5738>每回合</color>結束時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層迅捷 与3層攻撃等級提升 \n- 每満3回合后，使<color=#ffffff>自身</color>額外獲得2層攻撃等級提升 (最多6層)\n- 拼点勝利時，恢復3点<color=#81BBE8>理智値</color>\n- <color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層<color=#ffffff>拼点威力</color>提升 (<color=#7C5738>每回合</color>最多1次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "UnfinishedDreamSancho",
+            "name": "関于无法自濃于水之血中解放，",
+            "desc": "- 使<color=#ffffff>自身</color>獲得硬血 時，額外獲得2層硬血 。(<color=#7C5738>每回合</color>最多5次)\n- <color=#7C5738>每回合</color>結束時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層迅捷 与3層攻撃等級提升 \n- 每満3回合后，使<color=#ffffff>自身</color>額外獲得2層攻撃等級提升 (最多6層)\n- 拼点勝利時，恢復3点<color=#81BBE8>理智値</color>\n- <color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層<color=#ffffff>拼点威力</color>提升 (<color=#7C5738>每回合</color>最多1次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FragmentOfHopeSancho",
+            "name": "為了飽受痛苦的家人們設下血之晚宴，",
+            "desc": "根据本效果的層数獲得相應層数的<color=#ffffff>拼点威力</color>提升 \n造成的<color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FragmentOfHopeTwoSancho",
+            "name": "処决了背弃孩子的父親，背負起所有罪惡感的那位血魔的故事",
+            "desc": "- 每層本效果使<color=#ffffff>自身</color><color=#ffffff>拼点威力</color>+4\n- <color=#ffffff>戦斗開始</color>時，使<color=#ffffff>自身</color>与所有<color=#ffffff>友方単位</color>獲得<color=#81BBE8>護盾</color>\n- 造成的<color=#ffffff>傷害</color>+20%\n- 命中時，造成1点固定<color=#ffffff>傷害</color>",
+            "summary": "",
+            "undefined": "-"
+        }
+    ]
+}

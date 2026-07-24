@@ -1,0 +1,652 @@
+{
+    "dataList": [
+        {
+            "id": 9209,
+            "name": "献給熱愛都市的袮",
+            "desc": "若<color=#ffffff>友方単位</color>受到攻撃時現存<color=#61DA61>体力</color>低于30%，則<color=#7C5738>下回合</color>使其恢復80%的<color=#61DA61>体力</color>并使其他<color=#ffffff>友方単位</color>恢復40%的<color=#61DA61>体力</color>(每場戦斗最多1次)\n- 超過<color=#61DA61>体力</color>上限的溢出恢復量改為獲得相應的<color=#81BBE8>護盾</color>\n- 若通過該效果恢復了不低于50点<color=#61DA61>体力</color>，則使該<color=#ffffff>友方単位</color>獲得3層[AttackUp]并対其施加3層[DefenseDown]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9209,
+                    "simpleDesc": "恢復<color=#61DA61>体力</color>"
+                }
+            ]
+        },
+        {
+            "id": 9210,
+            "name": "松肉錘",
+            "desc": "[第4順位人格専属]\n\n若<color=#ffffff>自身</color>擁有不低于2个<color=#ffffff>打撃</color>攻撃技能，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得1層[ParryingResultUp]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9210,
+                    "simpleDesc": "獲得[ParryingResultUp]"
+                }
+            ]
+        },
+        {
+            "id": 19210,
+            "name": "松肉錘+",
+            "desc": "[第4順位人格専属]\n\n若<color=#ffffff>自身</color>擁有不低于2个<color=#ffffff>打撃</color>攻撃技能，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得<style=\"upgradeHighlight\">2</style>層[ParryingResultUp]",
+            "simpleDesc": [
+                {
+                    "abilityID": 19210,
+                    "simpleDesc": "獲得[ParryingResultUp]"
+                }
+            ]
+        },
+        {
+            "id": 29210,
+            "name": "松肉錘++",
+            "desc": "[第4、<style=\"upgradeHighlight\">第5</style>順位人格専属]\n\n若<color=#ffffff>自身</color>擁有不低于2个<color=#ffffff>打撃</color>攻撃技能，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得2層[ParryingResultUp]",
+            "simpleDesc": [
+                {
+                    "abilityID": 29210,
+                    "simpleDesc": "獲得[ParryingResultUp]"
+                }
+            ]
+        },
+        {
+            "id": 9207,
+            "name": "概率与選擇",
+            "desc": "随机使最左側<color=#ffffff>行動槽</color>装備的E.G.O技能造成的<color=#ffffff>傷害</color>-50%或+150%(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9207,
+                    "simpleDesc": "E.G.O技能造成的<color=#ffffff>傷害</color>増加或減少"
+                }
+            ]
+        },
+        {
+            "id": 9208,
+            "name": "糾纏的縁分",
+            "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#7C5738>完全</color><color=#7C5738>共鳴</color>数不低于7，則<color=#7C5738>本回合</color>使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的<color=#ffffff>最終威力</color>+5(每場戦斗最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9208,
+                    "simpleDesc": "<color=#ffffff>最終威力</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9211,
+            "name": "烏云",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的[Sinking]強度与[Sinking]層数之和不低于30点，則触発以下效果\n\n- 増加[Sinking]強度或施加[Sinking]層数的技能的<color=#ffffff>最終威力</color>+1(包括<color=#E40302>特殊沈淪</color>，不包括E.G.O技能)\n\n- 若擁有増加[Sinking]強度，施加[Sinking]層数或施加<color=#E40302>特殊沈淪</color>的攻撃技能的人格不低于6名，則額外使増加[Sinking]強度或施加[Sinking]層数的技能造成的<color=#ffffff>傷害</color>+20%(包括<color=#E40302>特殊沈淪</color>与待命人員，不包括E.G.O技能)\n· 若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為-45点，則使造成的<color=#ffffff>傷害</color>額外+10%\n\n- 若擁有増加[Sinking]強度，施加[Sinking]層数或施加<color=#E40302>特殊沈淪</color>的攻撃技能的人格不低于10名，則額外使増加[Sinking]強度或施加[Sinking]層数的加算硬幣技能的<color=#ffffff>硬幣威力</color>+1(包括<color=#E40302>特殊沈淪</color>与待命人員，不包括E.G.O技能)\n· 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(4/硬幣数)，而非<color=#ffffff>硬幣威力</color>(最少+1，向下取整)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9211,
+                    "simpleDesc": "沈淪 技能的<color=#ffffff>最終威力</color>増加"
+                },
+                {
+                    "abilityID": 92111,
+                    "simpleDesc": "沈淪 技能造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 92112,
+                    "simpleDesc": "沈淪 技能的硬幣/<color=#ffffff>基礎威力</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9212,
+            "name": "万惡之終結",
+            "desc": "若属于裴廓德号的人格不低于3名，則触発該效果(包括待命人員)\n\n攻撃技能命中帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>増加3級[Breath]強度或獲得2層[Breath](<color=#7C5738>每回合</color>每名人格最多3次)\n\n技能命中并触発<color=#ffffff>暴撃</color>時，以80%的概率在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp](<color=#7C5738>每回合</color>每名人格最多2次，包括E.G.O技能与反撃技能)\n- 若該人格属于裴廓德号，則<color=#7C5738>下回合</color>使其額外獲得1層[PlusCoinValueUp](<color=#7C5738>每回合</color>每名人格最多1次)\n\n基礎技能<color=#ffffff>暴撃</color>正面命中時，令該硬幣施加的負面状態額外+1(<color=#7C5738>每回合</color>每名人格最多1次，包括反撃技能，不包括E.G.O技能)\n\n<color=#ffffff>敵方単位</color>或<color=#ffffff>友方単位</color>陣亡時，本場戦斗中使属于裴廓德号的人格獲得1層[PenetrateResultUp]、1層[Protection]与1層[CriticalDamageUp](每場戦斗最多3次)\n\n若属于裴廓德号的<color=#ffffff>友方単位</color>攻撃命中了<color=#ffffff>敵方単位</color>，則使最先編入的属于裴廓德号的人格恢復7点<color=#81BBE8>理智値</color>(每个技能最多1次)\n\n<color=#ffffff>友方単位</color><color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，若最先編入的属于裴廓德号的人格失去了<color=#81BBE8>理智値</color>，則使該属于裴廓德号的人格恢復15点<color=#81BBE8>理智値</color>",
+            "simpleDesc": [
+                {
+                    "abilityID": 9212,
+                    "simpleDesc": "獲得呼吸法 "
+                },
+                {
+                    "abilityID": 92121,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>命中時，有概率在<color=#7C5738>下回合</color>獲得[PenetrateResultUp]。符合条件時<color=#7C5738>下回合</color>獲得[PlusCoinValueUp]且施加的負面状態増加"
+                },
+                {
+                    "abilityID": 92122,
+                    "simpleDesc": "獲得[PenetrateResultUp]、[Protection]与[CriticalDamageUp]"
+                },
+                {
+                    "abilityID": 92123,
+                    "simpleDesc": "恢復<color=#81BBE8>理智値</color>"
+                }
+            ]
+        },
+        {
+            "id": 9213,
+            "name": "微型摩天輪",
+            "desc": "使<color=#ffffff>全体</color>属于血魔的<color=#ffffff>友方単位</color>基礎技能的<color=#ffffff>硬幣威力</color>+1，<color=#ffffff>自身</color>技能造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[BloodDinner_Accumulation]/10)%\n\n<color=#7C5738>回合結束</color>時，使帯有[Laceration]的<color=#ffffff>友方単位</color>中現存<color=#61DA61>体力</color>最低的2名人格恢復其<color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>并在<color=#7C5738>下回合</color>使其獲得10層[SwirlingBloodPersonality]\n\n<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，獲得(其本体<color=#61DA61>体力</color>上限/10)層[BloodDinner](最多50層)\n\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color>有<color=#ffffff>友方単位</color>陣亡，則<color=#7C5738>下回合</color>使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層[Enhancement]\n\n遭遇戦中新的<color=#ffffff>敵方単位</color>増援時，<color=#ffffff>戦斗開始</color>時使其増加5級[Laceration]強度并対其施加3層[Laceration]。\n若<color=#ffffff>友方単位</color>中存在<血魔>，則新的<color=#ffffff>敵方単位</color>増援時触発<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的[Laceration]2次，并使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的[Laceration]層数減少2層",
+            "simpleDesc": [
+                {
+                    "abilityID": 9213,
+                    "simpleDesc": "基礎技能的<color=#ffffff>硬幣威力</color>増加"
+                },
+                {
+                    "abilityID": 92131,
+                    "simpleDesc": "恢復<color=#61DA61>体力</color>，獲得[SwirlingBloodPersonality]"
+                },
+                {
+                    "abilityID": 92132,
+                    "simpleDesc": "獲得強壮 "
+                },
+                {
+                    "abilityID": 92133,
+                    "simpleDesc": "増加流血 強度并施加流血 層数"
+                }
+            ]
+        },
+        {
+            "id": 9214,
+            "name": "灼熱之錘",
+            "desc": "若<color=#ffffff>敵方単位</color>帯有[VibrationIgnition]，則触発以下效果\n- 基礎技能命中時，使其増加1級[Combustion]強度(每个技能最多3次)\n- 基礎技能命中時，若其[VibrationIgnition]強度不低于15級，則対其施加1層[Combustion](每个技能最多2次)\n- 其每帯有3級[Combustion]，使其受到[VibrationExplosion]時造成的<color=#ffffff>混乱閾値</color>前移量+1%(最多+15%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9214,
+                    "simpleDesc": "施加焼傷 "
+                },
+                {
+                    "abilityID": 92141,
+                    "simpleDesc": "震顫引爆 <color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9215,
+            "name": "紅領帯",
+            "desc": "使増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的3技能<color=#ffffff>拼点威力</color>+2，造成的<color=#ffffff>傷害</color>+30%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9215,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>与造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9216,
+            "name": "制式服装-六協会",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果(不包括E.G.O技能，不包括待命人員)\n\n属于六協会的人格基礎攻撃技能的加算<color=#ffffff>硬幣威力</color>+2(減算硬幣技能改為<color=#ffffff>基礎威力</color>+(8/硬幣数)(最少+1，向下取整))\n\n増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的3技能以外的技能造成的<color=#ffffff>傷害</color>+20%(包括E.G.O技能)\n\n増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的3技能的加算<color=#ffffff>硬幣威力</color>+1(減算硬幣技能改為<color=#ffffff>基礎威力</color>+(4/硬幣数)(最少+1，向下取整))，造成的<color=#ffffff>傷害</color>+30%\n- 編隊中每有1名人格与<color=#ffffff>自身</color>属于同一陣営，使造成的<color=#ffffff>傷害</color>+5%(最多+20%，包括待命人員)\n\n<color=#7C5738>回合結束</color>時，使<color=#81BBE8>理智値</color>最低的2名<color=#ffffff>友方単位</color>恢復8点<color=#81BBE8>理智値</color>\n- 若其<color=#81BBE8>理智値</color>不高于0点，則使其額外恢復5点<color=#81BBE8>理智値</color>",
+            "simpleDesc": [
+                {
+                    "abilityID": 9216,
+                    "simpleDesc": "技能威力与造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9217,
+            "name": "某人的終端",
+            "desc": "攻撃后，若[IndexPrescriptTargetToEnemy]陣亡，則使<color=#7C5738>撃殺</color>[IndexPrescriptTargetToEnemy]的<color=#ffffff>友方単位</color>在<color=#7C5738>下回合</color>獲得1層[AzureResultUp];随机対1名存活的<color=#ffffff>敵方単位</color>施加3層[Sinking](<color=#7C5738>每回合</color>最多1次)\n- 若<color=#7C5738>撃殺</color>[IndexPrescriptTargetToEnemy]的人格属于食指，則改為<color=#7C5738>下回合</color>獲得1層[Enhancement]，而非[AzureResultUp](<color=#7C5738>每回合</color>最多1次)\n\n<color=#7C5738>回合結束</color>時，対属于食指的<color=#ffffff>友方単位</color>造成其<color=#61DA61>体力</color>上限(其[KarmaOfIndexAlly]層数)%的<color=#ffffff>傷害</color>\n(不会因該效果而陷入混乱，且不会使<color=#ffffff>友方単位</color>的<color=#61DA61>体力</color>降至<color=#61DA61>体力</color>上限的20%以下)\n<color=#7C5738>下回合</color>使受到以上<color=#ffffff>傷害</color>的人格獲得(其[KarmaOfIndexAlly]層数/5)層[ResultEnhancement](最多2層)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9217,
+                    "simpleDesc": "獲得<color=#1BC7F0>憂郁</color>威力提升 。属于食指的<color=#ffffff>友方単位</color>改為獲得強壮 "
+                },
+                {
+                    "abilityID": 92171,
+                    "simpleDesc": "属于食指的<color=#ffffff>友方単位</color>受到<color=#ffffff>傷害</color>并在<color=#7C5738>下回合</color>獲得威力提升 "
+                }
+            ]
+        },
+        {
+            "id": 9218,
+            "name": "指令的庇護",
+            "desc": "上回合若通過技能效果増加了[Sinking]強度，施加了[Sinking]層数或施加了<color=#E40302>特殊沈淪</color>，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>増加3級[Breath]強度或獲得2層[Breath](<color=#7C5738>每回合</color>每名人格最多1次)\n\n本場戦斗中，若有罪人通過該效果獲得了3次[Breath]，則从<color=#7C5738>下回合</color>起，使其<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+30%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9218,
+                    "simpleDesc": "増加呼吸法 強度并獲得呼吸法 層数"
+                },
+                {
+                    "abilityID": 92181,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9219,
+            "name": "万能工具",
+            "desc": "相同攻撃類型的技能命中<color=#ffffff>敵方単位</color>12次時，使其対應類型的物理抗性+0.1(若是異想体，則改為所有<color=#ffffff>部位</color>，每場戦斗每个<color=#ffffff>敵方単位</color>最多3次，該效果不会使<color=#ffffff>敵方単位</color>的抗性高于2.0)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9219,
+                    "simpleDesc": "物理抗性弱化"
+                }
+            ]
+        },
+        {
+            "id": 19219,
+            "name": "万能工具+",
+            "desc": "相同攻撃類型的技能命中<color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">9次</style>時，使其対應類型的物理抗性+0.1(若是異想体，則改為所有<color=#ffffff>部位</color>，每場戦斗每个<color=#ffffff>敵方単位</color>最多3次，該效果不会使<color=#ffffff>敵方単位</color>的抗性高于2.0)",
+            "simpleDesc": [
+                {
+                    "abilityID": 19219,
+                    "simpleDesc": "物理抗性弱化"
+                }
+            ]
+        },
+        {
+            "id": 29219,
+            "name": "万能工具++",
+            "desc": "相同攻撃類型的技能命中<color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">6次</style>時，使其対應類型的物理抗性+0.1(若是異想体，則改為所有<color=#ffffff>部位</color>，每場戦斗每个<color=#ffffff>敵方単位</color>最多3次，該效果不会使<color=#ffffff>敵方単位</color>的抗性高于2.0)",
+            "simpleDesc": [
+                {
+                    "abilityID": 29219,
+                    "simpleDesc": "物理抗性弱化"
+                }
+            ]
+        },
+        {
+            "id": 9220,
+            "name": "被盗的收尾人雑志",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[HitResultUp]\n\n若激活<color=#9702DE>嫉炉</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>，則<color=#ffffff>戦斗開始</color>時使<color=#ffffff>自身</color>獲得1層[HitDamageUp]\n\n若属于中指的人格不低于4名，則<color=#7C5737>関峠開始</color>時随机対1名<color=#ffffff>敵方単位</color>施加[RetaliationBook]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9220,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9221,
+            "name": "熱絲武器",
+            "desc": "<color=#9702DE>嫉炉</color>技能或反撃技能命中時，対<color=#ffffff>目標</color>施加1層[Laceration]或1層[Combustion](<color=#7C5738>每回合</color>最多3次)\n\n戦斗中，<color=#ffffff>敵方単位</color>的[Laceration]層数降至1層以下時，若其[Combustion]層数不低于2層，則改為減少[Combustion]層数而非[Laceration]層数(<color=#7C5738>每回合</color>最多3次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9221,
+                    "simpleDesc": "施加流血 層数与焼傷 層数"
+                },
+                {
+                    "abilityID": 92211,
+                    "simpleDesc": "焼傷 層数減少"
+                }
+            ]
+        },
+        {
+            "id": 9222,
+            "name": "空白画布",
+            "desc": "加算硬幣攻撃技能命中[Laceration]強度不低于15級的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>恢復3点<color=#81BBE8>理智値</color>(<color=#7C5738>每回合</color>每名人格最多1次)\n- 若<color=#ffffff>自身</color>或該<color=#ffffff>敵方単位</color>帯有的負面状態不少于3種，則改為恢復6点<color=#81BBE8>理智値</color>",
+            "simpleDesc": [
+                {
+                    "abilityID": 9222,
+                    "simpleDesc": "恢復<color=#81BBE8>理智値</color>"
+                }
+            ]
+        },
+        {
+            "id": 9223,
+            "name": "凡作",
+            "desc": "使属于環指的人格獲得[Inspire]\n\n帯有[Inspire]且属于環指的人格的<color=#FE6E00>色欲</color>或<color=#ffffff>斬撃</color>技能命中<color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>対該<color=#ffffff>敵方単位</color>施加[ObjectOfExploration]\n- 若<color=#ffffff>敵方単位</color>帯有[ObjectOfExploration]，則使其[ObjectOfExploration]轉化為[PaintingMaterial]\n\n帯有[Inspire]且属于環指的人格<color=#7C5738>撃殺</color>帯有[PaintingMaterial]的<color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>使該<color=#ffffff>友方単位</color>獲得1層[PlusCoinValueUp](<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9223,
+                    "simpleDesc": "施加[ObjectOfExploration]"
+                },
+                {
+                    "abilityID": 92231,
+                    "simpleDesc": "獲得[PlusCoinValueUp]"
+                }
+            ]
+        },
+        {
+            "id": 9224,
+            "name": "杰作",
+            "desc": "使属于環指的人格獲得[Inspire]\n\n帯有[Inspire]且属于環指的人格的攻撃技能命中<color=#ffffff>敵方単位</color>時，対該<color=#ffffff>敵方単位</color>施加[ObjectOfExploration]\n- 若<color=#ffffff>敵方単位</color>帯有[ObjectOfExploration]，則使其[ObjectOfExploration]轉化為[PaintingMaterial]\n\n帯有[Inspire]且属于環指的人格<color=#7C5738>撃殺</color>帯有[PaintingMaterial]的<color=#ffffff>敵方単位</color>時，\n使該人格失去[Inspire]并獲得[GreatAesthetics]\n\n加算硬幣攻撃技能命中[Laceration]強度不低于15級的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>恢復3点<color=#81BBE8>理智値</color>(<color=#7C5738>每回合</color>每名人格最多1次)\n- 若<color=#ffffff>自身</color>或該<color=#ffffff>敵方単位</color>帯有的負面状態不少于3種，則改為恢復6点<color=#81BBE8>理智値</color>",
+            "simpleDesc": [
+                {
+                    "abilityID": 9224,
+                    "simpleDesc": "獲得[Inspire]"
+                },
+                {
+                    "abilityID": 92241,
+                    "simpleDesc": "施加[ObjectOfExploration]"
+                },
+                {
+                    "abilityID": 92242,
+                    "simpleDesc": "獲得[GreatAesthetics]"
+                }
+            ]
+        },
+        {
+            "id": 9225,
+            "name": "蜘蛛网",
+            "desc": "使用守備技能時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>3技能造成的<color=#ffffff>傷害</color>+10%(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9225,
+                    "simpleDesc": "3技能造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 19225,
+            "name": "蜘蛛网+",
+            "desc": "使用守備技能時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>3技能造成的<color=#ffffff>傷害</color><style=\"upgradeHighlight\">+15%</style>(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 19225,
+                    "simpleDesc": "3技能造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 29225,
+            "name": "蜘蛛网++",
+            "desc": "使用守備技能時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>3技能造成的<color=#ffffff>傷害</color><style=\"upgradeHighlight\">+20%</style>(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 29225,
+                    "simpleDesc": "3技能造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9226,
+            "name": "某人的青刀",
+            "desc": "<color=#ffffff>戦斗開始</color>時，使帯有<color=#81BBE8>護盾</color>的<color=#ffffff>友方単位</color>獲得1層[CriticalDamageUp]\n<color=#ffffff>友方単位</color>的技能<color=#ffffff>暴撃</color>命中時，<color=#7C5738>下回合</color>使該<color=#ffffff>友方単位</color>獲得(<color=#ffffff>自身</color>的[Breath]強度/5)点<color=#81BBE8>護盾</color>(最多15点)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9226,
+                    "simpleDesc": "獲得[CriticalDamageUp]"
+                },
+                {
+                    "abilityID": 92261,
+                    "simpleDesc": "獲得<color=#81BBE8>護盾</color>"
+                }
+            ]
+        },
+        {
+            "id": 9227,
+            "name": "寄宿鬼气的環刀",
+            "desc": "本E.G.O飾品在6場戦斗勝利后轉化\n{0}\n\n<color=#ffffff>全体</color><color=#ffffff>友方単位</color>受到的<color=#ffffff>傷害</color>+20%，<color=#ffffff>拼点威力</color>-1",
+            "simpleDesc": [
+                {
+                    "abilityID": 9227,
+                    "simpleDesc": "受到的<color=#ffffff>傷害</color>増加，<color=#ffffff>拼点威力</color>減少"
+                }
+            ]
+        },
+        {
+            "id": 9228,
+            "name": "人剣合一",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>傷害</color>+25%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9228,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9229,
+            "name": "褪色的護手",
+            "desc": "本E.G.O飾品在6場戦斗勝利后轉化\n{0}\n\n<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的最小与最大<color=#7C5737>速度値</color>-5(該效果不会使<color=#7C5737>速度値</color>低于1)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9229,
+                    "simpleDesc": "<color=#7C5737>速度値</color>減少"
+                }
+            ]
+        },
+        {
+            "id": 9230,
+            "name": "黄金時間",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的最小与最大<color=#7C5737>速度値</color>+3\n若<color=#ffffff>目標</color>的<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>至少4点，則使<color=#ffffff>自身</color>技能的<color=#ffffff>最終威力</color>+2\n攻撃命中<color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>対其施加1層束縛 (<color=#7C5738>每回合</color>最多4次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9230,
+                    "simpleDesc": "<color=#7C5737>速度値</color>与<color=#ffffff>最終威力</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9231,
+            "name": "那一日的記録",
+            "desc": "本E.G.O飾品在6場戦斗勝利后轉化\n{0}\n\n<color=#7C5738>回合開始</color>時，随机使1名未陷入混乱的<color=#ffffff>友方単位</color>陷入強制混乱",
+            "simpleDesc": [
+                {
+                    "abilityID": 9231,
+                    "simpleDesc": "陷入混乱"
+                }
+            ]
+        },
+        {
+            "id": 9232,
+            "name": "可能性",
+            "desc": "因受到<color=#ffffff>傷害</color>而陷入混乱時，解除<color=#ffffff>自身</color>的混乱。使<color=#ffffff>自身</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限50%的<color=#81BBE8>護盾</color>，随机解除<color=#ffffff>自身</color>帯有的1種可解除的負面状態\n(不包括強制混乱，每場戦斗最多2次)\n触発以上效果后，<color=#7C5738>下回合</color>開始時使<color=#ffffff>自身</color>増加20級呼吸法 強度(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9232,
+                    "simpleDesc": "解除混乱，解除負面状態"
+                }
+            ]
+        },
+        {
+            "id": 9242,
+            "name": "小鳳玩偶",
+            "desc": "通過階層時使擁有的經費変為1.5倍\n\n- 每擁有1个飾品，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+0.5%(当前+{0}%，最多+100%)\n- 每擁有20个飾品，<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得1層[Enhancement](当前獲得{1}層，最多10層)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9242,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 92421,
+                    "simpleDesc": "獲得[Enhancement]"
+                }
+            ]
+        },
+        {
+            "id": 9256,
+            "name": "不完善的預知眼",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的加算硬幣技能的<color=#ffffff>硬幣威力</color>+(8/硬幣数)，減算硬幣技能的<color=#ffffff>最終威力</color>+(8/硬幣数)(最少+1，包括E.G.O技能，向下取整)\n\n[第1順位人格専属]\n- 進行拼点時，每次拼点使<color=#ffffff>自身</color>獲得1層[LookingFutureMirror]，使<color=#ffffff>目標</color>増加2級[Vibration]強度与[Combustion]強度(每个技能最多10次)\n- 拼点勝利時，使主要<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]，使其[VibrationExplosion]并使其[Vibration]層数減少1層\n- 技能命中時，若<color=#ffffff>目標</color>陷入混乱，則使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+30%\n- <color=#ffffff>暴撃</color>命中時，使<color=#ffffff>目標</color>[VibrationExplosion]并使其[Vibration]層数減少1層(每个技能最多2次)",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9257,
+            "name": "遺落的神諭",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的加算硬幣技能的<color=#ffffff>硬幣威力</color>+(8/硬幣数)，減算硬幣技能的<color=#ffffff>最終威力</color>+(8/硬幣数)(最少+1，包括E.G.O技能，向下取整)\n\n進行拼点時，<color=#ffffff>目標</color>的[Sinking]強度与<color=#ffffff>自身</color>的[Breath]強度之和每有30級，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1(最多+5)\n\n[SuperCoin]造成的<color=#ffffff>傷害</color>+25%\n受到[SuperCoin]的<color=#ffffff>傷害</color>-25%\n\n[属于食指的人格専属]\n- 戦斗中首次登場時，使<color=#ffffff>自身</color>獲得6層[BlessingOfIndexPrescriptAlly]\n· 若該人格可獲得[UnlockBuff_Base]，則使其額外獲得[UnlockBuffAlly_2]\n- 対帯有[IndexPrescriptTargetToEnemy]的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+50%",
+            "simpleDesc": [
+                {
+                    "abilityID": 98270,
+                    "simpleDesc": "<color=#ffffff>友方単位</color>的<color=#ffffff>硬幣威力</color>或<color=#ffffff>最終威力</color>大幅増加"
+                },
+                {
+                    "abilityID": 9257,
+                    "simpleDesc": "根据<color=#ffffff>目標</color>的沈淪 強度与<color=#ffffff>自身</color>的呼吸法 強度之和相應増加<color=#ffffff>拼点威力</color>"
+                },
+                {
+                    "abilityID": 92571,
+                    "simpleDesc": "不可摧毀的硬幣 造成的<color=#ffffff>傷害</color>+25%"
+                },
+                {
+                    "abilityID": 92572,
+                    "simpleDesc": "- 使<color=#ffffff>自身</color>対指令対象 造成的<color=#ffffff>傷害</color>+50%"
+                }
+            ]
+        },
+        {
+            "id": 9258,
+            "name": "復仇帳簿：附録",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的加算硬幣技能的<color=#ffffff>硬幣威力</color>+(8/硬幣数)，減算硬幣技能的<color=#ffffff>最終威力</color>+(8/硬幣数)(最少+1，包括E.G.O技能，向下取整)\n\n<color=#7C5737>関峠開始</color>時，每有1名属于中指的<color=#ffffff>友方単位</color>，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得50点<color=#81BBE8>護盾</color>(不包括待命人員，通過該效果獲得的<color=#81BBE8>護盾</color>不会在<color=#7C5738>回合結束</color>時解除)\n\n属于中指的<color=#ffffff>友方単位</color>的<color=#9702DE>嫉炉</color>或<color=#ffffff>打撃</color>基礎技能攻撃后，使其恢復造成<color=#61DA61>体力</color><color=#ffffff>傷害</color>量10%的<color=#61DA61>体力</color>\n- 若該技能為反撃技能，則改為恢復造成<color=#61DA61>体力</color><color=#ffffff>傷害</color>量20%的<color=#61DA61>体力</color>\n- 超過<color=#61DA61>体力</color>上限的溢出恢復量改為獲得相應的<color=#81BBE8>護盾</color>(通過該效果獲得的<color=#81BBE8>護盾</color>不会在<color=#7C5738>回合結束</color>時解除)\n\n<color=#ffffff>戦斗開始</color>時，根据装備的守備技能数，使属于中指的<color=#ffffff>友方単位</color>増加相應的攻撃等級(最多増加12級)\n- 若装備的守備技能数不低于6，則使<color=#9702DE>嫉炉</color>基礎技能造成的<color=#ffffff>傷害</color>+30%，每額外装備1个守備技能，使其造成的<color=#ffffff>傷害</color>額外+10%(最多額外+60%)",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9259,
+            "name": "化為作品的大師指環",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的加算硬幣技能的<color=#ffffff>硬幣威力</color>+(8/硬幣数)，減算硬幣技能的<color=#ffffff>最終威力</color>+(8/硬幣数)(最少+1，包括E.G.O技能，向下取整)\n\n属于環指的人格使用基礎攻撃技能時，根据<color=#ffffff>目標</color>帯有的負面状態数獲得以下效果\n- 不少于2種：<color=#ffffff>拼点威力</color>+2\n- 不少于4種：造成的<color=#ffffff>傷害</color>+15%\n- 不少于6種：<color=#ffffff>硬幣效果</color>増加的負面状態強度与施加的負面状態層数額外+1\n- 不少于7種：<color=#ffffff>基礎威力</color>+2\n- 不少于8種：造成的<color=#ffffff>傷害</color>+35%",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9250,
+            "name": "量産型K公司安瓶",
+            "desc": "[第1順位人格専属]\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得1層[KAmpouleMirror]",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9251,
+            "name": "燃焼的命運",
+            "desc": "最大[Combustion]強度+30\n\n与帯有[Combustion]的<color=#ffffff>目標</color>拼点勝利時，触発其[Combustion]1次，并使其[Combustion]層数減少1層(每名人格最多1次)\n\n対帯有[Combustion]的<color=#ffffff>敵方単位</color>使用技能時，使該技能増加(主要<color=#ffffff>目標</color>的[Combustion]強度/10)級攻撃等級(最多8級)",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9252,
+            "name": "釘与錘",
+            "desc": "属于N公司狂信徒的<color=#ffffff>友方単位</color><color=#ffffff>基礎威力</color>+3\n\n属于N公司狂信徒的人格獲得[AssemblePersonality]時，使<color=#ffffff>全体</color>属于N公司狂信徒的人格獲得相應層数的[AssemblePersonality](<color=#7C5738>每回合</color>最多1次;包括<color=#ffffff>自身</color>)\n- 激活<color=#FE6E00>色欲</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>時，令獲得的[AssemblePersonality]層数変為3倍\n\n<color=#7C5737>関峠開始</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加2層[NailPersonality]\n\n属于N公司狂信徒的人格的基礎技能与帯有[NailPersonality]的<color=#ffffff>目標</color>進行拼点時，使該<color=#ffffff>目標</color>増加3級[Laceration]強度(每个技能最多1次)\n\n属于N公司狂信徒的人格的基礎技能対帯有[NailPersonality]的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+100%",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9253,
+            "name": "旋轉木馬模型",
+            "desc": "首个<color=#7C5738>回合開始</color>時，獲得300層[BloodDinner]\n令[Laceration]效果生成的[BloodDinner]変為2倍\n使用消耗[BloodDinner]的技能時，在該技能攻撃后額外消耗相應層数的[BloodDinner]\n\n[属于拉·曼却領的人格専属]\n属于拉·曼却領的人格参戦時，根据人格触発以下效果\n- 拉·曼却領 總督 堂吉訶德：獲得15層[BloodArmorPersonalityFirst]\n- 拉·曼却領 公主 羅佳：獲得15層[BloomingThornsRodionFirst]\n- 拉·曼却領 神父 格里高尓：獲得15層[BloodyHandGregFirst]\n- 拉·曼却領 理発師 奥提斯：獲得15層[BloodScissorPersonalityFirst]\n- 拉·曼却領 王子 默尓索：獲得3層[BloodArmorMeursault]\n\n[拉·曼却領 總督 堂吉訶德専属]\n- 除<color=#ffffff>自身</color>以外每有1名属于拉·曼却領的人格，使拉·曼却領 總督 堂吉訶德的基礎技能的<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+30%(最多+4;最多+120%;包括待命人員，包括陣亡的単位，不包括未編入的単位)",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9254,
+            "name": "再来一杯！",
+            "desc": "消耗[Vibration]層数或[Charge]層数的基礎技能造成的<color=#ffffff>傷害</color>+20%(包括特殊<noparse>充能</noparse>，不包括固定強度的特殊<noparse>充能</noparse>)\n\n通過基礎技能消耗[Vibration]層数或[Charge]層数時，該技能結束時対<color=#ffffff>自身</color>重新施加相当于消耗層数一半的[Vibration]層数或[Charge]層数(最少1層，向下取整;包括特殊<noparse>充能</noparse>，不包括固定強度的特殊<noparse>充能</noparse>)",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9255,
+            "name": "拍手帕帕！",
+            "desc": "使<color=#ffffff>敵方単位</color>増加[Vibration]強度，対<color=#ffffff>敵方単位</color>施加[Vibration]層数或対<color=#ffffff>敵方単位</color>施加特殊<noparse>震顫</noparse>的基礎技能拼点勝利時，随机使<color=#ffffff>目標</color>以以下的特殊<noparse>震顫</noparse>[FusionVibration](<color=#7C5738>每回合</color>最多1次)\n- [VibrationIgnition]\n- [VibrationBleeding]\n- [VibrationEcho]\n- [VibrationCollapse]\n- [VibrationChainPersonality]",
+            "simpleDesc": [
+                {}
+            ]
+        },
+        {
+            "id": 9273,
+            "name": "赤紅糾纏的蜘蛛巢",
+            "desc": "每有1名友方人格陣亡，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>増加1級攻撃等級与1級防御等級(最多10級)\n\n編入蜘蛛巢之刃 良秀時，除蜘蛛巢之刃 良秀以外的人格陣亡時不会在通過関峠后復活(頭目与隠藏節点)\n\n[第1順位人格専属]\n\n<color=#7C5738>回合開始</color>時，若除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>均陣亡，則使<color=#ffffff>自身</color>獲得[RedButterfly]\n\n[蜘蛛巢之刃 良秀専属]\n\n<color=#ffffff>自身</color>在戦斗中首次登場時，每有1名属于蜘蛛巢的友方人格陣亡，使<color=#ffffff>自身</color>獲得5層[PhantomIncisionTotalID]\n每有2名属于蜘蛛巢的友方人格陣亡，使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>+1，<color=#ffffff>硬幣威力</color>+1，造成的<color=#ffffff>傷害</color>+10%(分別最多+3与+30%)\n除蜘蛛巢之刃 良秀以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>均陣亡時，所有選項変動値+12",
+            "simpleDesc": [
+                {
+                    "abilityID": 9273,
+                    "simpleDesc": "増加攻撃等級与防御等級"
+                },
+                {
+                    "abilityID": 92731,
+                    "simpleDesc": "獲得[RedButterfly]"
+                },
+                {
+                    "abilityID": 92732,
+                    "simpleDesc": "獲得[PhantomIncisionTotalID]"
+                },
+                {
+                    "abilityID": 92733,
+                    "simpleDesc": "<color=#ffffff>最終威力</color>，<color=#ffffff>硬幣威力</color>与造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9274,
+            "name": "捕縄",
+            "desc": "<color=#ffffff>暴撃</color>命中<color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>対其施加1層[Binding](<color=#7C5738>每回合</color>最多2次)\n技能命中帯有[Binding]的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>増加1級[Breath]強度(<color=#7C5738>每回合</color>每名人格最多2次)\n\n<color=#7C5738>回合開始</color>時，対帯有[Laceration]的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加層数相当于其[Binding]層数的[AttackDown](最多5層)\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)均帯有[Binding]，則使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>増加3級[Breath]強度",
+            "simpleDesc": [
+                {
+                    "abilityID": 9274,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9275,
+            "name": "N公司定格小隊的包",
+            "desc": "増加[Laceration]強度，施加[Laceration]層数或施加<color=#E40302>特殊流血</color>的技能命中<color=#ffffff>敵方単位</color>時，対其施加1層[NailPersonality](每个技能最多1次)\n対帯有[NailPersonality]的<color=#ffffff>敵方単位</color>触発[VibrationExplosion]時，<color=#7C5738>下回合</color>対其施加2層[Binding](<color=#7C5738>每回合</color>最多3次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9275,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9276,
+            "name": "白瓷硯滴",
+            "desc": "友方人格獲得[SupportProtect]時，使其獲得2層[AttackDmgUp]与2層[Protection]\n\n[第1順位<color=#ffffff>友方単位</color>専属]\n<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility]\n若人格的<color=#7C5737>速度値</color>高于<color=#ffffff>敵方単位</color>，則<color=#7C5737>速度値</color>每<color=#7C5738>相差</color>1点，使該人格造成的<color=#ffffff>傷害</color>+3%(最多+30%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9276,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9277,
+            "name": "菖蒲剣",
+            "desc": "若<color=#ffffff>友方単位</color>在<color=#7C5738>本回合</color>未受到<color=#ffffff>敵方単位</color>攻撃，則<color=#7C5738>下回合</color>使該<color=#ffffff>友方単位</color>獲得1層[SlashDamageUp]\n<color=#ffffff>友方単位</color>受到<color=#ffffff>敵方単位</color>攻撃時，使該<color=#ffffff>友方単位</color>増加4級[Breath]強度并在<color=#7C5738>本回合</color>与<color=#7C5738>下回合</color>使該<color=#ffffff>友方単位</color>獲得1層[CriticalDamageUp](<color=#7C5738>每回合</color>每名人格最多1次)\n- 対于属于剣契組的人格，本飾品的效果変為2倍",
+            "simpleDesc": [
+                {
+                    "abilityID": 9277,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9278,
+            "name": "粉碎的木制刑具",
+            "desc": "使用<color=#ffffff>斬撃</color>技能命中<color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>対其施加1層[DefenseDown](每个技能最多2次)\n<color=#ffffff>友方単位</color>攻撃<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>時，<color=#7C5737>速度値</color>每<color=#7C5738>相差</color>1点，使該<color=#ffffff>友方単位</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+3%(最多+12%)\n- 若<color=#ffffff>敵方単位</color>帯有[Binding]，則使増加的<color=#ffffff>傷害</color>与其最大値変為2倍",
+            "simpleDesc": [
+                {
+                    "abilityID": 9278,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9279,
+            "name": "无紋的刀鐔",
+            "desc": "<color=#ffffff>自身</color>每帯有1級[Breath]強度，使<color=#ffffff>自身</color><color=#ffffff>斬撃</color>技能造成的<color=#ffffff>傷害</color>+1%(最多+15%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9279,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9280,
+            "name": "本国剣譜",
+            "desc": "若<color=#ffffff>敵方単位</color>的<color=#ffffff>斬撃</color>抗性不高于1.5，則使其<color=#ffffff>斬撃</color>抗性+0.3\n<color=#ffffff>斬撃</color>技能的攻撃等級+2\n攻撃<color=#ffffff>斬撃</color>抗性為脆弱(抗性超過1.0;不包括陷入混乱)的<color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+(5+<color=#ffffff>目標</color>的<color=#ffffff>斬撃</color>抗性×10)%(最多+25%)\n\n<color=#ffffff>自身</color>每帯有1級[Breath]強度，使<color=#ffffff>自身</color><color=#ffffff>斬撃</color>技能造成的<color=#ffffff>傷害</color>+1.5%(最多+30%)\n\n使不属于剣契組且属于S公司的人格中最先編入的1名人格視作属于剣契組的人格并使其在<color=#7C5738>每回合</color>獲得[BongukGiftEnhance]\n\n<color=#7C5738>回合開始</color>時，若属于剣契組的人格不低于3名，則触発該效果(以参戦人員為基准)\n- <color=#ffffff>戦斗開始</color>時使装備了<color=#FE0100>暴怒</color>或<color=#044ED6>傲慢</color>技能且属于剣契組的人格獲得1層[BongukGiftEnhance]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9280,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9282,
+            "name": "翼形蝋蝕",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于<noparse>黎明事務所</noparse>的人格不低于3名，則触発該效果(以編隊人員為基准)\n首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層[DawnLight]\n<color=#ffffff>戦斗開始</color>時，使<noparse>黎明事務所</noparse> 收尾人 辛克莱恢復10点<color=#81BBE8>理智値</color>，該人格通過被動“不穏定的自我外殻”進入不穏定E.G.O::蝋翼状態的<color=#81BBE8>理智値</color>条件改為不低于25点\n\n[属于<noparse>黎明事務所</noparse>的人格専属]\n基礎技能攻撃命中時，使<color=#ffffff>目標</color>増加2級[Combustion]強度与2級[Vibration]強度(每个技能最多1次)\n属于<noparse>黎明事務所</noparse>的人格視作施加[Combustion]与[Vibration]的人格\n- 属于<noparse>黎明事務所</noparse>的人格的基礎技能視作施加[Combustion]与[Vibration]的技能\n<color=#7C5737>関峠開始</color>時，若<noparse>黎明事務所</noparse> 收尾人 浮士德在場，則使其獲得1層[Firstlight]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9281,
+                    "simpleDesc": ""
+                }
+            ]
+        },
+        {
+            "id": 9283,
+            "name": "奉納的雪茄",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于拇指的人格不低于3名，則触発該效果(以参戦人員為基准)\n<color=#7C5738>回合開始</color>時，使属于拇指的人格獲得1層[PlusCoinValueUp]与2層[AttackDmgUp]\n每有1名属于拇指的人格，使<color=#ffffff>全体</color>属于拇指的人格獲得1層[AttackUp](最多4層)\n<color=#ffffff>目標</color>每帯有1級[VibrationIgnition]強度，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+1%(最多+20%)\n- 消耗[Bullet]的技能造成的<color=#ffffff>傷害</color>額外+1%(最多+20%)\n- 属于拇指的人格造成的<color=#ffffff>傷害</color>額外+1%(最多+20%)\n\n<color=#ffffff>自身</color>的技能触発[VibrationExplosion]時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[AttackUp](<color=#7C5738>每回合</color>最多3次)\n\n蜘蛛巢 拇指 父輩 羅佳3技能攻撃后，使蜘蛛巢 拇指 子輩 希斯克利夫獲得1層[EvolvingManual]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9282,
+                    "simpleDesc": ""
+                }
+            ]
+        }
+    ]
+}
