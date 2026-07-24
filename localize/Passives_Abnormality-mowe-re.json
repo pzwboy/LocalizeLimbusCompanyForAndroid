@@ -1,0 +1,24 @@
+{
+    "dataList": [
+        {
+            "id": 123806,
+            "name": "拉·曼却領的惡梦",
+            "desc": "若<color=#ffffff>敵方単位</color>中存在属于拉·曼却領的血魔，則触発以下效果\n- 与属于拉·曼却領的血魔進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>-4\n- 攻撃属于拉·曼却領的血魔時，使<color=#ffffff>自身</color>失去5点<color=#81BBE8>理智値</color>(每个技能最多1次，<color=#7C5738>每回合</color>最多2次)\n- <color=#ffffff>自身</color>技能対属于拉·曼却領的血魔造成的<color=#ffffff>傷害</color>-20%"
+        },
+        {
+            "id": 123801,
+            "name": "寄宿之血",
+            "desc": "<color=#7C5738>回合結束</color>時，根据<color=#ffffff>自身</color>帯有的[KeptBlood]層数\n- 每帯有1層，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加2級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration]\n- 若不高于5層，則每<color=#7C5738>相差</color>1層，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層[Binding]，1層[Vulnerable]与1層[AttackDown]并使<color=#ffffff>自身</color>失去5点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color><color=#81BBE8>理智値</color>低于-20点)\n- 若高于5層，則每<color=#7C5738>相差</color>1層，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[DefenseUp]并使<color=#ffffff>自身</color>恢復8点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color><color=#81BBE8>理智値</color>高于30点)"
+        },
+        {
+            "id": 123805,
+            "name": "血食-硬化",
+            "desc": "登場時，使<color=#ffffff>自身</color>恢復30点<color=#81BBE8>理智値</color>\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>帯有[Laceration]，則\n- 每帯有5級[Laceration]強度，使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[DefenseUp](最多5層)\n- 每帯有10級[Laceration]強度，使<color=#ffffff>自身</color>獲得1層[ParryingResultUp](最多2層)\n- 受到的[Laceration]<color=#ffffff>傷害</color>-50%(向下取整)"
+        },
+        {
+            "id": 130502,
+            "name": "義体型号- L37",
+            "desc": "登場時，使<color=#ffffff>自身</color>恢復20点<color=#81BBE8>理智値</color>\n<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有1層[Charge]，使<color=#ffffff>自身</color>恢復1点<color=#81BBE8>理智値</color>(最多15点)\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[Charge]層数低于5層，則対<color=#ffffff>自身</color>施加1層[Reduction]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[Charge]層数不低于5層，則使<color=#ffffff>自身</color>獲得2層[ParryingResultUp]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[Charge]層数不低于10層，則使<color=#ffffff>自身</color>獲得1層[PlusCoinValueUp]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則使<color=#ffffff>自身</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Charge]層数×2)%"
+        }
+    ]
+}

@@ -1,0 +1,1196 @@
+{
+    "dataList": [
+        {
+            "id": 9012801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "阻止違規者",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9012802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "規則執行",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9012803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "執行違規者",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加1層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加1層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9012804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[AttackDmgUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9012901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "処理違規者",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9012902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "規則履行",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]層数不低于4層，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9012903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "懲罰違規者",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]層数不低于4層，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加1層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]層数不低于4層，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加1層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9012904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[AttackDmgUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "執行処决",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則<color=#ffffff>重復使用</color>本技能(最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度并対其施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "処决違規者",
+                    "desc": "若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能造成的<color=#ffffff>傷害</color>+30%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>対其施加2層[AttackDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于其([Laceration]強度/2)的[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復7点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "違反事項",
+                    "desc": "<color=#ffffff>目標</color>每帯有3級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+3)\n[WinDuel] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能造成的<color=#ffffff>傷害</color>+40%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加8級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于其[Laceration]強度的[Burst]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則<color=#ffffff>重復使用</color>本技能(最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[OnSucceedEvade] 使<color=#ffffff>自身</color>獲得1層[Enhancement](最多1層)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "速写",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "筆触",
+                    "desc": "若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>基礎威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于其[Laceration]強度的[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "血描画",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加1層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加1層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則<color=#ffffff>重復使用</color>本硬幣(最多1次)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013201,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "綫稿",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013202,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "劃綫",
+                    "desc": "若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>基礎威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于其[Laceration]強度的[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013203,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "血点画",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]層数不低于4層，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加1層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]層数不低于4層，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加1層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]層数不低于4層，則<color=#ffffff>重復使用</color>本硬幣(最多1次)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013204,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "<color=#7C5738>回合結束</color>時若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "着色",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則在攻撃結束后随机対1名<color=#ffffff>敵方単位</color><color=#ffffff>重復使用</color>本技能(最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加4層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "血点描画",
+                    "desc": "若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能造成的<color=#ffffff>傷害</color>+30%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>対其施加2層[AttackDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[AttackDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于其[Laceration]強度的[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "描画",
+                    "desc": "<color=#ffffff>目標</color>每帯有3級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+4)\n[WinDuel] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能造成的<color=#ffffff>傷害</color>+40%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加10級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加層数相当于其[Laceration]層数的[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于其[Laceration]強度的[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "血滴花",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>帯有[Laceration]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]\n[WinDuel] 若<color=#ffffff>目標</color>的[Laceration]強度不低于10級，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則<color=#ffffff>重復使用</color>本硬幣(最多3次)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>的[Laceration]層数減少1層"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013305,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[OnSucceedEvade] 使<color=#ffffff>自身</color>獲得1層[Enhancement](最多2層)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "基本攻撃1",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[AttackDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[AttackDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "基本攻撃2",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>帯有[AttackDown]，則使本技能造成的<color=#ffffff>傷害</color>+20%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[HitResistDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[HitResistDown]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[HitResistDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "基本攻撃3",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[AttackDown]層数不低于2層，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Binding]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "基本攻撃4",
+                    "desc": "優先指定負面状態最多的<color=#ffffff>目標</color>\n[WhenUse] <color=#ffffff>目標</color>每帯有3層[DefenseDown]，使本技能的<color=#ffffff>拼点威力</color>+1(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#ffffff>目標</color>每帯有2層[AttackDown]，使本硬幣造成的<color=#ffffff>傷害</color>+20%(最多+100%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 若<color=#ffffff>目標</color>帯有的負面状態不少于3種，則<color=#ffffff>重復使用</color>本硬幣(最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9013505,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "若<color=#ffffff>目標</color>帯有[Vulnerable]，則使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "該死的賎民！",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "除掉袮",
+                    "desc": "[WinDuel] 使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[AttackDown]，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>打撃</color><color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>帯有[AttackDown]，則対其額外造成本硬幣<color=#ffffff>傷害</color>量20%的<color=#ffffff>打撃</color><color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "重新扣好紐扣",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>的[AttackDown]層数不低于2層，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>帯有[AttackDown]，則使本技能造成的<color=#ffffff>傷害</color>+30%",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "碾碎",
+                    "desc": "優先指定負面状態最多的<color=#ffffff>目標</color>\n[WinDuel] <color=#ffffff>目標</color>每帯有3層[AttackDown]，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Vulnerable]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#ffffff>目標</color>每帯有2層[AttackDown]，使本硬幣造成的<color=#ffffff>傷害</color>+30%(最多+120%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 若<color=#ffffff>目標</color>帯有的負面状態不少于3種，則<color=#ffffff>重復使用</color>本硬幣(最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101505,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "[StartBattle] 除<color=#ffffff>自身</color>以外每有1名<color=#ffffff>友方単位</color>存活，使<color=#ffffff>自身</color>額外獲得20点<color=#81BBE8>護盾</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "球棍痛殴",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "下匝",
+                    "desc": "[WinDuel] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]与1層傷害強化 ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Burst]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>目標</color>帯有的[Burst]強度，使其増加相應的[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "泄憤",
+                    "desc": "若<color=#ffffff>目標</color>的[Burst]強度不低于5級，則使本技能的<color=#ffffff>拼点威力</color>+1\n若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WinDuel] 対<color=#ffffff>目標</color>施加3層[Burst]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使本技能下一枚硬幣的威力+1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使本技能下一枚硬幣的威力+2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[Paralysis]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>額外造成相当于其([Laceration]強度×[Laceration]層数)点<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "防御",
+                    "desc": "[WhenUse] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9101605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

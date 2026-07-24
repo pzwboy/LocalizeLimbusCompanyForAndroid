@@ -1,0 +1,263 @@
+{
+    "dataList": [
+        {
+            "id": "BloodyHand_2nd",
+            "name": "染血之手II",
+            "desc": "- 任何使<color=#ffffff>自身</color>獲得染血之手 的效果改為獲得本效果\n- 最大値：20\n- 基礎値：10\n- 每帯有6層本效果，使<color=#ffffff>自身</color>的攻撃等級+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodyHand_3rd",
+            "name": "染血之手III",
+            "desc": "- 任何使<color=#ffffff>自身</color>獲得染血之手 的效果改為獲得本效果\n- 最大値：30\n- 基礎値：20\n- 攻撃威力+1\n- 本效果層数為30層時，<color=#ffffff>自身</color>的技能命中時，額外使<color=#ffffff>目標</color>増加2級破裂 強度并施加1層破裂 \n- 本效果層数為30層時，<color=#ffffff>自身</color>的技能命中時，使<color=#ffffff>自身</color>与<color=#ffffff>目標</color>増加3級流血 強度",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "WornHeart",
+            "name": "磨滅的心",
+            "desc": "- 最大値：10\n- <color=#7C5737>関峠開始</color>時<color=#ffffff>自身</color>帯有3層本效果\n- <color=#7C5738>回合開始</color>時，每帯有1層本效果，使<color=#ffffff>自身</color>獲得1層防御等級降低 \n- <color=#7C5738>回合開始</color>時，每帯有2層本效果，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 \n- <color=#7C5738>回合開始</color>時，若帯有10層本效果，則対<color=#ffffff>自身</color>施加3層<color=#ffffff>易損</color> 并使<color=#ffffff>自身</color>失去5点<color=#81BBE8>理智値</color>\n- 若帯有10層本效果，則命中時使<color=#ffffff>部位</color>与本体恢復本攻撃技能<color=#ffffff>傷害</color>量40%的<color=#61DA61>体力</color>并獲得2層染血之手 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "StarvingPriestTwo",
+            "name": "衰老",
+            "desc": "- 很久未曾飲用血液了。\n- 基礎攻撃等級-25\n- 基礎防御等級-25",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Guilt_LowMorale",
+            "name": "負罪感",
+            "desc": "<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> 与1層<color=#81BBE8>理智値</color>恢復效率減少 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Guilt_Panic",
+            "name": "負罪感",
+            "desc": "<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> 与2層<color=#81BBE8>理智値</color>恢復效率減少 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MentalIncreaseDown",
+            "name": "理智値恢復效率減少",
+            "desc": "根据本效果的層数相應減少<color=#81BBE8>理智値</color>恢復效率",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AffectionTeddy",
+            "name": "依恋",
+            "desc": "- 最大値：9\n- 攻撃者攻撃帯有本效果的<color=#ffffff>目標</color>時，根据本效果的層数使攻撃者獲得相應層数的<color=#ffffff>拼点威力</color>提升 \n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FaintMemory",
+            "name": "模糊的記憶",
+            "desc": "- 基礎値：10\n- <color=#7C5738>回合開始</color>時，根据本效果的層数使<color=#ffffff>自身</color>獲得相應層数的防御等級提升 \n- 拼点失敗時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "CursePackage",
+            "name": "詛咒包裹",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加1層虚弱 ，1層破綻 ，2層攻撃等級降低 与2層防御等級降低 ，随后使本效果的層数減少1層。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TinyCarmilla",
+            "name": "小峠蜜拉",
+            "desc": "- 最大値：3\n- 每次獲得本效果時使<color=#ffffff>自身</color>増加2級流血 強度\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加2層流血 \n- <color=#7C5738>回合結束</color>時，若本效果的層数為3，則受到<color=#ffffff>自身</color><color=#61DA61>体力</color>上限15%的固定<color=#ffffff>傷害</color>，并恢復<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>，然后解除本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "OneDropNutrition",
+            "name": "一滴養分",
+            "desc": "- 最大値：10\n- 每通過攻撃恢復<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>獲得1層本效果\n- 顕示已恢復<color=#61DA61>体力</color>的百分比",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ThornNoose",
+            "name": "荊棘套索",
+            "desc": "- 最大値：3\n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>増加2級破裂 強度并対<color=#ffffff>自身</color>施加2層破裂 \n- <color=#7C5738>回合結束</color>時，若本效果的層数不低于1，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為1。\n- <color=#7C5738>回合結束</color>時，若本效果的層数為2，則受到20点<color=#A6FE00>暴食</color><color=#ffffff>傷害</color>。\n- <color=#7C5738>回合結束</color>時，若本效果的層数為3，則<color=#7C5738>下回合</color>強制使<color=#ffffff>自身</color>陷入混乱。解除本效果并移除相連的荊棘套索。\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SwirlingBlood",
+            "name": "揺曳【血魔】",
+            "desc": "- 本效果生效時，<color=#ffffff>自身</color>受到<color=#ffffff>傷害</color>時，攻撃后使攻撃者増加5級流血 強度。\n- 本效果生效時，<color=#7C5738>回合結束</color>時<color=#81BBE8>護盾</color><color=#61DA61>体力</color>不会消失\n- 満足条件時，在本效果消失并改変<color=#ffffff>自身</color>模式前対<color=#ffffff>自身</color>施加3層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodArmor",
+            "name": "硬血",
+            "desc": "- 最大値：10\n- 硬血 1階段\n- 用于特殊技能",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodArmor_2nd",
+            "name": "硬血II",
+            "desc": "- 最大値：20\n- 硬血 2階段\n- <color=#7C5738>回合開始</color>時：每帯有6層該效果，攻撃等級+1，防御等級+1\n- 最小与最大<color=#7C5737>速度値</color>+1\n- 用于特殊技能",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodArmor_3rd",
+            "name": "硬血III",
+            "desc": "- 最大値：30\n- 硬血 3階段\n- <color=#7C5738>回合開始</color>時：每帯有6層該效果，攻撃等級+2，防御等級+2\n- 最小与最大<color=#7C5737>速度値</color>+2\n- 用于特殊技能",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Dreamy",
+            "name": "如在梦中的犹豫",
+            "desc": "- 基礎攻撃等級-35\n- 基礎防御等級-35",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodDinner_Common_Accumulation",
+            "name": "共用消耗血宴總数",
+            "desc": "本場戦斗中累計消耗的血宴 層数",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ThirstyRose",
+            "name": "飢渴的玫瑰",
+            "desc": "- 最大値：5\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>帯有的流血 強度不低于10級，則受到<color=#ffffff>自身</color><color=#61DA61>体力</color>上限1%的<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>。(最多30)\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RoseWedge",
+            "name": "玫瑰之楔",
+            "desc": "- 強度最大値：10\n- 層数最大値：4\n- <color=#ffffff>自身</color>每受到10点流血 <color=#ffffff>傷害</color>，則使<color=#ffffff>自身</color>増加1級本效果強度。\n- 每次因技能效果在受到攻撃時獲得流血 或<color=#E40302>特殊流血</color>時，使<color=#ffffff>自身</color>増加2級流血 強度并使攻撃者増加1級流血 強度。(<color=#7C5738>每回合</color>最多5次)\n· 本效果的強度為10級時，触発此效果時額外施加1層流血 。\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層。\n- <color=#7C5738>戦斗結束</color>時，若本效果的強度為10級或層数為1，則移除本效果，并受到(強度×10)点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>。\n- 若帯有本效果的単位陣亡或本效果被移除，則獲得(強度×10)層血宴 ，并対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成(強度×2)点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>(最少1点)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FerrisWheel",
+            "name": "不停旋轉的摩天輪",
+            "desc": "每有1个座艙被<color=#7C5738>撃殺</color>，使本效果的層数減少1層。\n若本效果的層数為0，且<color=#7C5738>下回合</color>没有単位生成，則進入下一階段。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "StarvingDonqui",
+            "name": "飢餓与衰老",
+            "desc": "- 基礎攻撃等級-10\n- 基礎防御等級-10",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RegainedStrength",
+            "name": "復還的血之冲動",
+            "desc": "- 最大値：10\n- 復還的血之冲動 1階段",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RegainedStrength_2nd",
+            "name": "復還的血之冲動II",
+            "desc": "- 最大値：20\n- 復還的血之冲動 2階段\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>獲得1層攻撃等級提升与1層防御等級提升 \n- 消耗復還的血之冲動 的技能<color=#ffffff>拼点威力</color>+1，令其使<color=#ffffff>目標</color>増加的流血 与破裂 強度与対<color=#ffffff>目標</color>施加的流血 与破裂 層数額外+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RegainedStrength_3rd",
+            "name": "復還的血之冲動III",
+            "desc": "- 最大値：30\n- 復還的血之冲動 3階段\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>獲得2層攻撃等級提升与1層防御等級提升 \n- 消耗復還的血之冲動 的技能<color=#ffffff>硬幣威力</color>+1，令其使<color=#ffffff>目標</color>増加的流血 与破裂 強度与対<color=#ffffff>目標</color>施加的流血 与破裂 層数額外+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "WeightOfResponsibility_LowMorale",
+            "name": "是時候放弃我的梦了…",
+            "desc": "- 士气低落\n- 使<color=#ffffff>自身</color>獲得2層強壮 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ，<color=#ffffff>自身</color>的最大<color=#7C5737>速度値</color>+2\n- 恢復的<color=#61DA61>体力</color>+30%\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的復還的血之冲動 層数低于<color=#7C5738>回合開始</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層攻撃等級提升 并対<color=#ffffff>自身</color>施加2層防御等級降低 。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "WeightOfResponsibility_Panic",
+            "name": "作為父親，為了家人…",
+            "desc": "- 陷入恐慌\n- 使<color=#ffffff>自身</color>獲得2層強壮 与2層迅捷 ，并対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> \n- 恢復的<color=#61DA61>体力</color>+50%\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的復還的血之冲動 層数低于<color=#7C5738>回合開始</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層攻撃等級提升 并対<color=#ffffff>自身</color>施加5層防御等級降低 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Precarious",
+            "name": "不負責任的梦",
+            "desc": "被堂吉訶德命中時陣亡。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Penetration",
+            "name": "正在凝固的血",
+            "desc": "2回合内无法行動，生成<color=#ffffff>友方単位</color>貫穿之槍",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DecreamentalDefense",
+            "name": "厳重的負傷",
+            "desc": "- 在之前戦斗中的負傷還未恢復。\n- <color=#61DA61>体力</color>上限大幅減少\n- <color=#7C5738>回合開始</color>時，根据累計回合数使<color=#ffffff>自身</color>獲得相應層数的防御等級降低 (最多15層)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "UnfinishedDream",
+            "name": "関于自濃于水之血中解放出来，",
+            "desc": "- <color=#7C5738>每回合</color>結束時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層迅捷 与3層攻撃等級提升 \n- 每満3回合后，使<color=#ffffff>自身</color>額外獲得2層攻撃等級提升 (最多6層)\n- 拼点勝利時，恢復3点<color=#81BBE8>理智値</color>\n- <color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層<color=#ffffff>拼点威力</color>提升 (<color=#7C5738>每回合</color>最多1次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SanchoMind_LowMorale",
+            "name": "覚醒殺戮的昂揚感",
+            "desc": "- 士气低落\n<color=#7C5738>每回合</color>開始時，使<color=#ffffff>自身</color>獲得2層攻撃等級提升 。<color=#81BBE8>理智値</color>恢復效率+2",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SanchoMind_Panic",
+            "name": "覚醒殺戮的昂揚感",
+            "desc": "- 陷入恐慌\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得6層防御等級提升 。<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層攻撃等級提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FragmentOfHope",
+            "name": "与同伴們在巴士上一同經暦了諸多冒険，",
+            "desc": "根据本效果的層数獲得相應層数的<color=#ffffff>拼点威力</color>提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FragmentOfHopeTwo",
+            "name": "梦永不迎来終焉的桑丘，也是我們的堂吉訶德的故事",
+            "desc": "每層本效果使<color=#ffffff>自身</color><color=#ffffff>拼点威力</color>+4\n<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>自身</color>与所有<color=#ffffff>友方単位</color>獲得<color=#81BBE8>護盾</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ConfinementOfGoldenBranch",
+            "name": "金枝的強制調律",
+            "desc": "- 基礎攻撃等級-30\n- 基礎防御等級-30",
+            "summary": "",
+            "undefined": "-"
+        }
+    ]
+}

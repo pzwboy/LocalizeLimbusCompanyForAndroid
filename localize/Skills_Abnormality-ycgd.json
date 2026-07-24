@@ -1,0 +1,477 @@
+{
+    "dataList": [
+        {
+            "id": 815101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "刺入",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度并対其施加2層[Combustion]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "尾鰭抽打",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>帯有[Combustion]，則使本技能的<color=#ffffff>基礎威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度并対其施加2層[Combustion]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "吐气",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Combustion]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[CrimsonTakeDamageUp]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加8級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[CrimsonTakeDamageUp]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Combustion]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackDmgUp_Weak]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815201,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "躍入",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度并対其施加2層[Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度并対其施加2層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815202,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "迸射",
+                    "desc": "[WinDuel] 若<color=#ffffff>目標</color>帯有[Sinking]，則使本技能的<color=#ffffff>基礎威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度并対其施加3層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815203,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "水炸彈",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Sinking]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加8級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[AzureTakeDamageUp]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815204,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[OnSucceedEvade] 使<color=#ffffff>目標</color>増加2級[Sinking]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "拔剣",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加2級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "止動",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加2級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackDmgUp]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Paralysis]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "処斬",
+                    "desc": "[WinDuel] 使<color=#ffffff>自身</color>獲得1層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加1級[Breath]強度并使<color=#ffffff>自身</color>獲得1層[Breath]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[SlashDamageUp]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[SlashResistDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "弑主",
+                    "desc": "[WinDuel] 使<color=#ffffff>自身</color>獲得3層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度并使<color=#ffffff>自身</color>獲得1層[Breath]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[SlashDamageUp]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[SlashResistDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[Paralysis]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815305,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "骨断",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得50点<color=#81BBE8>護盾</color>\n[WhenUse] 若<color=#81BBE8>護盾</color>未被全部消耗，則使本技能的<color=#ffffff>拼点威力</color>+5",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[SlashResistDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+100%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加10級[Laceration]強度并対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#81BBE8>護盾</color>未被全部消耗，則対<color=#ffffff>目標</color>造成(<color=#ffffff>自身</color>的[Grudge]層数/本技能的<color=#ffffff>攻撃容量</color>)点固定<color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815306,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[OnSucceedEvade] 使<color=#ffffff>自身</color>増加4級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815307,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "肉斬",
+                    "desc": "<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(激活本反撃技能的技能所造成的<color=#ffffff>傷害</color>)層[Grudge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815405,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "骨断",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得200点<color=#81BBE8>護盾</color>\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]\n[WhenUse] 若<color=#81BBE8>護盾</color>未被全部消耗，則使本技能的<color=#ffffff>拼点威力</color>+10",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[SlashResistDown]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+100%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加5層[Paralysis]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加10級[Laceration]強度并対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#81BBE8>護盾</color>未被全部消耗，則対<color=#ffffff>目標</color>造成(<color=#ffffff>自身</color>的[Grudge]層数/本技能的<color=#ffffff>攻撃容量</color>)点固定<color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815408,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "剣舞",
+                    "desc": "[EnemyKill] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[AttackUp]和3層[DefenseUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815409,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "骨断",
+                    "desc": "[CantChangeTarget]\n優先指定<color=#61DA61>体力</color>最低的<color=#ffffff>目標</color>\n[EnemyKill] 使<color=#ffffff>自身</color>的[Grudge]層数変為2倍\n[EnemyKill] 使<color=#ffffff>自身</color>恢復(<color=#ffffff>自身</color>的[Grudge]層数)点<color=#61DA61>体力</color>",
+                    "coinlist": [
+                        {},
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成(<color=#ffffff>自身</color>的[Grudge]層数)点固定<color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

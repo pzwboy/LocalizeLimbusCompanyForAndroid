@@ -1,0 +1,1014 @@
+{
+    "dataList": [
+        {
+            "id": "MosesWhiteBreathMental",
+            "name": "白色吐息-精神守護",
+            "desc": "- 単位的基礎<color=#81BBE8>理智値</color>増加条件下的<color=#81BBE8>理智値</color>恢復量増加5\n- 単位的基礎<color=#81BBE8>理智値</color>減少条件下的<color=#81BBE8>理智値</color>減少量減少5\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MosesRedBreathBody",
+            "name": "紅色吐息-身体強化",
+            "desc": "- 攻撃等級与防御等級+(<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>/10)(向下取整)\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MosesRedBreathShield",
+            "name": "紅色吐息-守護",
+            "desc": "- <color=#7C5738>回合開始</color>時，<color=#7C5738>本回合</color>内使<color=#ffffff>自身</color>獲得30点<color=#81BBE8>護盾</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MosesPurpleBreathBind",
+            "name": "紫色吐息-歇斯底里",
+            "desc": "- 最大値：4\n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>的<color=#61DA61>体力</color>与<color=#81BBE8>理智値</color>減少等同于本效果層数的数値\n- <color=#7C5738>回合結束</color>時，使摩西的<color=#61DA61>体力</color>与<color=#81BBE8>理智値</color>減少等同于本效果層数的数値\n- <color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> ，3層束縛 与3層加算硬幣弱化 \n- 触発效果時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MosesRedBreathCharge",
+            "name": "深長吐息-紅色",
+            "desc": "- 最大値：3\n- <color=#ff6000><mark color=#ff000040><b><u>回合結束時，若本效果的層数為最大値，則使用強力技能</color></mark></b></u>\n- 特定技能使用時消耗\n- 帯有本效果時，自身不会陷入恐慌\n- 受到的傷害+(本效果層数×20)%，防御等級減少等同于本效果層数的数値\n- 回合結束時，受到10点体力傷害与20点理智傷害",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "深深沈浸其中，譲每一次呼吸都在脳海里浮現出紅色意象的同時吸入烟气。"
+        },
+        {
+            "id": "MosesRedBreathAttack",
+            "name": "紅色吐息-疾馳的身体",
+            "desc": "- 攻撃等級増加5\n- 基礎技能的<color=#ffffff>拼点威力</color>+5",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MosesSin",
+            "name": "心-摩西",
+            "desc": "- 防御等級+3，守備威力+2\n- 若通過技能效果使<color=#ffffff>自身</color>減少了<color=#81BBE8>理智値</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(<color=#81BBE8>理智値</color>減少量/5)層守護 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MosesWarPTSD",
+            "name": "那一日的記憶",
+            "desc": "- 基礎攻撃等級-？？\n- 基礎防御等級-？？\n- <color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得5層迅捷 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MosesMiddle_LowMorale",
+            "name": "破損至无可挽回的身体",
+            "desc": "- 士气低落\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ，并使以斯拉与韋斯帕獲得2層忍耐 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MosesMiddle_Panic",
+            "name": "破損至无可挽回的身体",
+            "desc": "- 陷入恐慌\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ，并使用“調整呼吸”",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "EzraMiddle_LowMorale",
+            "name": "自我防御-面具",
+            "desc": "- 士气低落\n- 対<color=#ffffff>自身</color>施加1層虚弱 \n- 使<color=#ffffff>自身</color>獲得2層防御等級提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "EzraMiddle_Panic",
+            "name": "自我防御-面具",
+            "desc": "- 陷入恐慌\n- 対<color=#ffffff>自身</color>施加1層虚弱 \n- 使<color=#ffffff>自身</color>獲得3層防御等級提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DimensionalBagEzraA",
+            "name": "次元包-阿拉斯工坊",
+            "desc": "从次元包里取出下一件工坊武器\n- 当前工坊武器：阿拉斯工坊手套\n- 下件工坊武器：涅斯托尓工坊錘子",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“這里的制品个个都能‘邦！’地一下爆発出強勁的加速度，真的超爽哦！”"
+        },
+        {
+            "id": "DimensionalBagEzraB",
+            "name": "次元包-涅斯托尓工坊",
+            "desc": "从次元包里取出下一件工坊武器\n- 当前工坊武器：涅斯托尓工坊錘子\n- 下件工坊武器：螺絲工作室鑽錘",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“這个呀……如果在<color=#ffffff>打撃</color>瞬間的絶妙時机按下按鈕，武器的振動与冲撃面積会達到最大。适應之后会很有趣哦！”"
+        },
+        {
+            "id": "DimensionalBagEzraC",
+            "name": "次元包-螺絲工作室",
+            "desc": "从次元包里取出下一件工坊武器\n- 当前工坊武器：螺絲工作室鑽錘\n- 下件工坊武器：納米尓工坊手鎧",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“這里的東西使用起来要小心哦。不注意的話，揮舞的人可能会電到自己！”"
+        },
+        {
+            "id": "DimensionalBagEzraD",
+            "name": "次元包-納米尓工坊",
+            "desc": "从次元包里取出下一件工坊武器\n- 当前工坊武器：納米尓工坊手鎧\n- 下件工坊武器：阿拉斯工坊手套",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“這是放入了G公司奇点球体的制品，要想好好使用的話，需要在空中按下開関使其啓動，然后利用重量匝下去。如果用得好，会非常疼哦！”"
+        },
+        {
+            "id": "DimensionalBagEzraE",
+            "name": "次元包-尤里亞工坊",
+            "desc": "- 当前工坊武器：尤里亞工坊手工特制金毛尋回犬専用斧",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“尤里亞？他現在独立出去經営工坊了。听説比以前更紅火了。”\n“从玩偶変回人身的那次事件，可真是相当夸張啊。”"
+        },
+        {
+            "id": "MiddleFingerEzraSin",
+            "name": "心-以斯拉",
+            "desc": "- 基礎防御等級+2\n- 基礎攻撃威力+1，守備威力+2\n- 摩西每帯有1層“深長吐息-紅色”，使以斯拉与韋斯帕使用的援護防御為以斯拉恢復的<color=#81BBE8>理智値</color>+4(最多+12)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "VengeanceBookSpider",
+            "name": "復仇帳簿",
+            "desc": "中指 父輩 - 馬蒂亞斯或中指 子輩 - 綺羅的技能命中帯有本效果的<color=#ffffff>目標</color>時，使攻撃者恢復7点<color=#81BBE8>理智値</color>(每个技能最多1次)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“袮們這帮混帳……即刻処刑。”"
+        },
+        {
+            "id": "ResentmentSpider",
+            "name": "中指-仇怨",
+            "desc": "- 最大値：10\n- 特定技能使用時消耗\n- 本效果層数每有1層，攻撃等級+1，防御等級-2，反撃技能造成的<color=#ffffff>傷害</color>+5%\n- 若本效果層数為最大値，則使受到的<color=#ffffff>傷害</color>+20%",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "中指永不遺忘。"
+        },
+        {
+            "id": "ResentmentSpiderDaughter",
+            "name": "中指-仇怨",
+            "desc": "- 最大値：10\n- 特定技能使用時消耗\n- 本效果層数每有1層，攻撃等級+1，防御等級-2，反撃技能造成的<color=#ffffff>傷害</color>+5%\n- 若本效果層数為最大値，則使受到的<color=#ffffff>傷害</color>+20%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "GotACompliment",
+            "name": "受到表揚拉！",
+            "desc": "- 最大値：10\n- 每受到2次技能攻撃，使本效果的層数減少1層\n- 本效果的層数每有2層，使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+1\n- 本效果的層数每有1層，使<color=#ffffff>斬撃</color>与<color=#ffffff>打撃</color>技能造成的<color=#ffffff>傷害</color>+8%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DaughterEducationSpider",
+            "name": "仔細看好，閨女！",
+            "desc": "- 最大値：10\n- 每受到2次技能攻撃，使本效果的層数減少1層\n- 本效果的層数每有2層，使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+1\n- 本效果的層数每有1層，使<color=#ffffff>斬撃</color>与<color=#ffffff>打撃</color>技能造成的<color=#ffffff>傷害</color>+5%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ReinforcedTattooSpider",
+            "name": "中指-仇怨紋身[<s>長兄</s>]",
+            "desc": "- 最大値：2\n- <color=#7C5738>回合結束</color>時解除\n- 造成的<color=#ffffff>打撃</color>与<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "比任何人都更守護忠義的長兄，却成了為一把剣而舍弃忠義的家夥。"
+        },
+        {
+            "id": "ReinforcedTattooSpiderDaughter",
+            "name": "中指式強化紋身",
+            "desc": "- 最大値：3\n- <color=#7C5738>回合結束</color>時解除\n- 造成的<color=#ffffff>打撃</color>与<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "HeatingWireOnSpider",
+            "name": "熱絲 ON",
+            "desc": "熱絲技能的硬幣命中時，額外増加相当于増加的流血 強度的焼傷 強度，施加層数相当于施加的流血 層数的焼傷 ",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "雖然比不上老爸，但是咋的剣可以辺融化辺切割哦！不過没法像老爸的那様一直開着……"
+        },
+        {
+            "id": "HeatingWireOffSpider",
+            "name": "熱絲 OFF",
+            "desc": "熱絲技能的附加效果不会生效",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "剣的熱絲停止工作了"
+        },
+        {
+            "id": "MiddleFatherGuts",
+            "name": "過人的毅力",
+            "desc": "- 受到的<color=#ffffff>傷害</color>固定為1点(包括関鍵詞<color=#ffffff>傷害</color>)\n- 拼点勝利時，額外恢復(拼点次数×5)点<color=#81BBE8>理智値</color>(最多15点)\n- <color=#7C5738>回合結束</color>時，若通過<color=#ffffff>自身</color>的技能效果使<color=#ffffff>自身</color>減少了<color=#81BBE8>理智値</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層傷害強化 ",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“心不心的都用不上。只要咬緊牙関把至今刻下的所有紋身的力量都激発出来，就算没有心那様的技巧我也足劬強大。”"
+        },
+        {
+            "id": "MiddleFingerDaddy_LowMorale",
+            "name": "狂怒",
+            "desc": "- 士气低落\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層強壮 并対<color=#ffffff>自身</color>施加4層防御等級降低 ;\n上回合每受到30点<color=#61DA61>体力</color><color=#ffffff>傷害</color>，使<color=#ffffff>自身</color>獲得1層傷害強化 (最多5層)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MiddleFingerDaddy_Panic",
+            "name": "狂怒",
+            "desc": "- 陷入恐慌\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得3層強壮 并対<color=#ffffff>自身</color>施加5層防御等級降低 ;\n上回合每受到25点<color=#61DA61>体力</color><color=#ffffff>傷害</color>，使<color=#ffffff>自身</color>獲得1層傷害強化 (最多5層)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MiddleFingerDaughter_LowMorale",
+            "name": "狂熱",
+            "desc": "- 士气低落\n<color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加2層防御等級降低 ;\n上回合每受到30点<color=#61DA61>体力</color><color=#ffffff>傷害</color>，使<color=#ffffff>自身</color>獲得1層傷害強化 (最多5層)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MiddleFingerDaughter_Panic",
+            "name": "狂熱",
+            "desc": "- 陷入恐慌\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層強壮 并対<color=#ffffff>自身</color>施加3層防御等級降低 ;\n上回合每受到25点<color=#61DA61>体力</color><color=#ffffff>傷害</color>，使<color=#ffffff>自身</color>獲得1層傷害強化 (最多5層)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "HumanBoneTheRings",
+            "name": "活体材料(骨)",
+            "desc": "- 最大値：206\n- <color=#FCC700>特殊充能</color>(固定強度)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "HumanBloodTheRings",
+            "name": "活体材料(血)",
+            "desc": "- 最大値：5\n- <color=#FCC700>特殊充能</color>(固定強度)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LivingSpecimenTheRings",
+            "name": "人体観劇",
+            "desc": "- 処于无法行動状態，<color=#ffffff>自身</color>的状態效果、<color=#61DA61>体力</color>与<color=#81BBE8>理智値</color>不会改変，生成与<color=#ffffff>自身</color>相連的人体観劇",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MineTheRings",
+            "name": "作品名：提比亞",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得4層威力提升 与2層<color=#ffffff>斬撃</color>威力提升 \n- 攻撃技能対<color=#ffffff>目標</color>施加流血 時，額外使<color=#ffffff>目標</color>増加2級流血 強度",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ObservationTheRings",
+            "name": "眺望",
+            "desc": "- 基礎攻撃等級-20\n- 基礎防御等級-20\n- 罪人与援助単位的撤退机制不会生效\n- 若環指 子輩処于可戦斗状態，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得7層守護 ",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“在画廊中賞覧作品時要悠閑、从容才行。不慌不忙是最重要的。”"
+        },
+        {
+            "id": "RedemptionTheRings",
+            "name": "材料脱落的傷口",
+            "desc": "使用技能時，対<color=#ffffff>自身</color>施加2層攻撃等級降低 (<color=#7C5738>每回合</color>最多3次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SpecimenTheRings",
+            "name": "展覧完成",
+            "desc": "<color=#ffffff>全体</color>罪人与援助単位都処于人体観劇状態時，戦斗失敗",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "所有肉与肌肉所本應存在的那个位置。"
+        },
+        {
+            "id": "KAmpouleA1C94TH",
+            "name": "緊急用K公司安瓶",
+            "desc": "有除<color=#ffffff>自身</color>以外的<color=#ffffff>友方単位</color>存活時，若受到将<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>，則触発以下效果：\n- 若陷入混乱，則解除<color=#ffffff>自身</color>的混乱\n- 恢復所有<color=#61DA61>体力</color>\n- 使所有<color=#ffffff>友方単位</color>的緊急用K公司安瓶 層数減少1層\n- 該效果生效于人格与E.G.O被動的“<color=#61DA61>体力</color>不会低于1点”效果之前",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LanternHohenheimBigBird",
+            "name": "目灯",
+            "desc": "- 最大値：20\n- 本效果層数每有2層，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層束縛 (最多10層)\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>每个<color=#ffffff>行動槽</color>的挑釁値+(本效果層数/<color=#ffffff>自身</color>的<color=#ffffff>行動槽</color>数)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DelusionHohenheimBigBird",
+            "name": "眩惑",
+            "desc": "- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>未陷入混乱，則<color=#ffffff>自身</color>最后一个<color=#ffffff>行動槽</color>装備的攻撃技能優先攻撃霍恩海姆，且无法改変<color=#ffffff>目標</color>\n- 触発本效果的<color=#7C5738>回合結束</color>時，解除本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LvUpHohenheimBigBird",
+            "name": "E.G.O感應度 増加",
+            "desc": "- 基礎攻撃等級+15\n- 基礎防御等級+15",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LvUpHohenheimBigBird_Over",
+            "name": "E.G.O感應度 過載",
+            "desc": "- 基礎攻撃等級+15\n- 基礎防御等級+15\n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得至20層目灯 ，每獲得1層目灯 ，使<color=#ffffff>自身</color>失去2点<color=#61DA61>体力</color>与1点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color>的<color=#61DA61>体力</color>低于1点)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "正在過度運用被提取出的E.G.O的力量。"
+        },
+        {
+            "id": "HohenheimBigBird_LowMorale",
+            "name": "襲来的睡意",
+            "desc": "- 士气低落\n- 通過技能使<color=#ffffff>自身</color>獲得的目灯 層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "HohenheimBigBird_Panic",
+            "name": "襲来的睡意",
+            "desc": "- 陷入恐慌\n- 一回合内无法行動。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LvUpFireFly",
+            "name": "E.G.O感應度 増加",
+            "desc": "- 基礎攻撃等級+10\n- 基礎防御等級+10",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LvUpFireFly_Over",
+            "name": "E.G.O感應度 過載",
+            "desc": "- 基礎攻撃等級+10\n- 基礎防御等級+10\n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>増加4級焼傷 強度并失去5点<color=#81BBE8>理智値</color>",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "正在過度運用被提取出的E.G.O的力量。"
+        },
+        {
+            "id": "LCEFireFly_LowMorale",
+            "name": "劣化侵蝕",
+            "desc": "- 士气低落\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LCEFireFly_Panic",
+            "name": "劣化侵蝕",
+            "desc": "- 陷入恐慌\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color>并使<color=#ffffff>自身</color>増加5級焼傷 強度",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Cubism_LowMorale",
+            "name": "過時的藝術",
+            "desc": "- 士气低落\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Cubism_Panic",
+            "name": "過時的藝術",
+            "desc": "- 陷入恐慌\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層攻撃等級提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FutureEyeOn",
+            "name": "預知眼",
+            "desc": "- 最大値：30\n- <color=#ffffff>拼点威力</color>+2\n- <color=#7C5738>回合開始</color>時，獲得10層本效果\n- <color=#7C5738>回合開始</color>時，恢復(本效果層数/4)点<color=#81BBE8>理智値</color>",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“并非像魔法那様預測未来。這只眼睛更接近于通過分析進入視野的一切，預測即将到来的瞬間的計算机。”"
+        },
+        {
+            "id": "FutureEyeOff",
+            "name": "預知眼 過熱",
+            "desc": "- 最大値：30\n- 攻撃技能造成的<color=#ffffff>傷害</color>-20%\n- 消耗加速彈的技能的所有硬幣轉化為不可摧毀的硬幣\n- <color=#7C5738>回合開始</color>時，獲得10層本效果\n- 本效果的層数為30層時，轉化為“預知眼”",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LookingFuture",
+            "name": "加速的未来",
+            "desc": "- 最大値：10\n- 本效果的層数每有1層，<color=#ffffff>拼点威力</color>+1\n- 本效果的層数每有5層，<color=#ffffff>硬幣威力</color>+1\n- 技能結束時，解除本效果",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "刀刃越長，触撞的次数越多，巴勒莫就越会加速。"
+        },
+        {
+            "id": "ObsessionAndGreed",
+            "name": "心-瓦倫希娜",
+            "desc": "- 上回合<color=#ffffff>自身</color>每拼点失敗1次，使<color=#ffffff>自身</color>防御等級+3(最多+6)\n<color=#ffffff>自身</color>的呼吸法 強度每有1級，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+3%(最多+15%)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AccelBullet",
+            "name": "加速彈",
+            "desc": "- 最大値：10\n- 特殊彈薬\n- 特定技能使用時消耗",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TeachersPrey",
+            "name": "狩猟目標",
+            "desc": "<color=#7C5737>速度値</color>固定為1，成為“拇指 父輩 - 瓦倫希娜”的所有攻撃技能指定的<color=#ffffff>目標</color>",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "如果成為伯納特利家族的<color=#ffffff>目標</color>，将不可避免地被狩猟。"
+        },
+        {
+            "id": "AaCfPcBiv2",
+            "iconId": "AaCfPcBi",
+            "name": "高温装置",
+            "desc": "<color=#7C5738>回合結束</color>時，受到<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(本效果層数×0.5)%的固定<color=#ffffff>傷害</color>并解除本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "VergiliusSin",
+            "name": "心-猩紅視綫",
+            "desc": "造成的<color=#FE0100>暴怒</color><color=#ffffff>傷害</color>+50%",
+            "summary": "造成的<color=#ffffff>傷害</color>増加",
+            "undefined": "-"
+        },
+        {
+            "id": "BloodBranch",
+            "name": "盲血",
+            "desc": "本效果層数每有1層，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層束縛 \n<color=#7C5738>回合結束</color>時，受到(<color=#ffffff>自身</color>的流血 強度×本效果層数)点<color=#61DA61>体力</color><color=#ffffff>傷害</color>\n<color=#ffffff>戦斗開始</color>時，本效果層数每有1層，使<color=#ffffff>自身</color>増加3級流血 強度，并解除本效果",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“若能将血寄宿于視綫之中，那么其也可被集中、凝縮并用于穿透。当然，也可以用于令人眩目。”"
+        },
+        {
+            "id": "Gebura_Reinforcement",
+            "name": "Gebura之刃",
+            "desc": "- 技能的所有硬幣轉化為不可摧毀的硬幣\n- 造成的<color=#ffffff>傷害</color>+100%\n- 加算硬幣技能的<color=#ffffff>硬幣威力</color>+1;減算硬幣技能的<color=#ffffff>最終威力</color>+1\n- <color=#7C5738>本回合</color><color=#ffffff>自身</color>不会因受到任何類型的<color=#ffffff>傷害</color>而陷入混乱\n- 若<color=#ffffff>自身</color>的<color=#61DA61>体力</color>不高于10点，則恢復至10点\n- <color=#7C5738>本回合</color>内，<color=#ffffff>自身</color>的<color=#61DA61>体力</color>不会低于10点\n- <color=#7C5738>本回合</color>内，基礎攻撃技能与反撃技能的硬幣命中時，恢復造成<color=#ffffff>傷害</color>量10%的<color=#61DA61>体力</color>(每个技能的最大恢復量：100点)\n- <color=#7C5738>回合結束</color>時解除",
+            "summary": "Gebura之刃 激活",
+            "undefined": "-"
+        },
+        {
+            "id": "ThreeMirrorpartYiSang",
+            "name": "破碎的世界",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合結束</color>時解除\n- 受到的焼傷 <color=#ffffff>傷害</color>変為1.2倍(向下取整，不包括<color=#E40302>特殊焼傷</color>)\n- 受到来自李箱的<color=#FE0100>暴怒</color>与<color=#1BC7F0>憂郁</color>基礎攻撃技能的<color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RyoshuEGOPF",
+            "name": "羅生",
+            "desc": "最大値：999\n- 良秀的技能每造成1点<color=#ffffff>傷害</color>，獲得1層本效果\n- 本效果層数每有33層，使<color=#ffffff>自身</color>基礎技能造成的<color=#ffffff>傷害</color>+1%(最多+10%)",
+            "summary": " ",
+            "undefined": "-",
+            "flavor": "“紐曲、糾纏、交織而成的繭。絲。人生。世界。”"
+        },
+        {
+            "id": "OffenseBug",
+            "name": "攻撃害虫[蜚蠊]",
+            "desc": "- 最大値：50\n- 本效果層数每有1層，<color=#61DA61>体力</color>上限減少1%\n- <color=#ffffff>戦斗開始</color>時，受到(本效果層数×12)点固定<color=#ffffff>傷害</color>\n- 本效果的層数減少時，根据減少的層数随机獲得相應的E.G.O資源(最多15个)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“在衆多被斥為害虫之物中，其当位列榜首。”"
+        },
+        {
+            "id": "DefenseBug",
+            "name": "防御害虫[蜚蠊]",
+            "desc": "- 最大値：50\n- <color=#ffffff>自身</color>被増加(焼傷、流血、震顫、破裂、沈淪)強度或被施加該效果層数時，改為使本效果減少相当于施加量的層数，而不会被施加相應效果\n- <color=#7C5738>回合結束</color>時解除",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“每一个个体都有害、惡心而頑強。”"
+        },
+        {
+            "id": "LvDownLittleFingerBossTwo",
+            "name": "天殺星傷",
+            "desc": "- 基礎攻撃等級-15\n- 基礎防御等級-15",
+            "summary": "基礎攻撃等級与基礎防御等級減少",
+            "undefined": "-",
+            "flavor": "天殺星刀-阿頼耶識所留下的，燃焼的刀痕。无論用什么辦法，都无法将其消去。\n因其以揮刀者的存在為代价，将対方的存在一并斬去。"
+        },
+        {
+            "id": "SojiAbiAgePast",
+            "name": "逆行-憎惡",
+            "desc": "- 最大値：20\n- 本效果層数每有1層，使<color=#ffffff>自身</color>造成与受到的<color=#ffffff>傷害</color>+2%",
+            "summary": "造成与受到的<color=#ffffff>傷害</color>増加",
+            "undefined": "-",
+            "flavor": "“那段将我忘却的記憶，如同縄結般无法斬断。”"
+        },
+        {
+            "id": "SojiAbiAgeFuture",
+            "name": "順行-怜憫",
+            "desc": "- 最大値：20\n- 本效果層数每有1層，使<color=#ffffff>自身</color>造成与受到的<color=#ffffff>傷害</color>-2%",
+            "summary": "造成与受到的<color=#ffffff>傷害</color>減少",
+            "undefined": "-",
+            "flavor": "“也許是因為時間流逝、年歳漸長，我才産生了理解并擁抱袮的想法。”"
+        },
+        {
+            "id": "TimeEntangleUnstable",
+            "name": "暴走-残像糾纏",
+            "desc": "- 最大値：10\n- <color=#ffffff>自身</color>的攻撃命中時，根据本效果層数触発以下效果：\n · 造成(該硬幣最終<color=#ffffff>傷害</color>量/10)点<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(可触発相当于本效果層数次)\n · 不低于2層：使<color=#ffffff>目標</color>増加1級焼傷 強度\n · 不低于3層：使<color=#ffffff>目標</color>増加1級流血 強度\n · 不低于4層：<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層束縛 \n · 不低于5層：対<color=#ffffff>目標</color>施加1層劇毒 ",
+            "summary": "<color=#ffffff>自身</color>攻撃時根据本效果層数触発附加效果",
+            "undefined": "-"
+        },
+        {
+            "id": "WillAwakenSinclair",
+            "name": "心-某个辛克莱",
+            "desc": "- 最小与最大<color=#7C5737>速度値</color>+3\n- 単方面攻撃造成的<color=#ffffff>傷害</color>+20%\n- <color=#ffffff>自身</color>的技能使<color=#ffffff>自身</color>増加的呼吸法 強度額外+2級，使<color=#ffffff>自身</color>獲得的呼吸法 層数額外+1層\n- 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于20点，則使<color=#ffffff>自身</color>的加算硬幣朝向正面的概率+10%\n- <color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>每有10点，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層迅捷 (最多4層)\n- <color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>每有20点，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層威力提升 (最多2層)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SignAwakenSinclair",
+            "name": "印記-未来顕現",
+            "desc": "- 与等級高于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+2\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則<color=#7C5738>下回合</color>解除<color=#ffffff>自身</color>的混乱",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "阿布拉克薩斯"
+        },
+        {
+            "id": "LimitedAwakenSinclair",
+            "name": "本影 禁制解除",
+            "desc": "- 基礎攻撃技能造成的<color=#ffffff>傷害</color>+10%\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層加算硬幣強化 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Veteran_LowMorale",
+            "name": "第二次烟霾戦争的",
+            "desc": "- 士气低落\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n- <color=#81BBE8>理智値</color>恢復效率 +2",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Veteran_Panic",
+            "name": "第二次烟霾戦争的",
+            "desc": "- 陷入恐慌\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> 并使<color=#ffffff>自身</color>獲得2層<color=#ffffff>拼点威力</color>提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MiddleFatherSwordOne",
+            "name": "封印之剣",
+            "desc": "根据剣的状態可以使用特定技能。",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "関系親密的兄妹三人，一同深入廃墟深処。"
+        },
+        {
+            "id": "MiddleFatherSwordTwo",
+            "name": "1階段 封印解除",
+            "desc": "根据剣的状態可以使用特定技能。",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "他們抵達的地方是一処洞窟，建筑物漂浮在熾烈燃焼的熔岩之上。\n在那熱浪的源頭，静置着一把剣……不，那是一塊甚至不能称之為剣的，熾熱的金属。"
+        },
+        {
+            "id": "MiddleFatherSwordThree",
+            "name": "2階段 封印解除",
+            "desc": "根据剣的状態可以使用特定技能。",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“這把剣，就由我這个最大的大哥笑納了。”\n听到這句話，弟弟再也圧抑不住心中燃焼的欲望与<color=#9702DE>嫉炉</color>。\n\n我殺了大哥大姐，奪走了那把剣。應該没有留下任何痕迹。\n但我還是遭到懐疑，毫无抵抗地墜入了奈落。\n尽管如此，我仍然没有失去笑容。\n因為這把傳説之剣正握在我手中。"
+        },
+        {
+            "id": "MiddleFatherSwordFour",
+            "name": "莱瓦汀",
+            "desc": "根据剣的状態可以使用特定技能。\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color>単位増加5級焼傷 強度并対其施加2層焼傷 ",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "可惜的是，馬蒂亞斯没能很好地駕馭這把剣。\n当然，這是一个普通人甚至无法握在手中的棘手遺物。\n単純握在手中揮舞尚且足劬，但若想<color=#7C5738>完全</color>掌控，他終究還是資質不足。\n不過，這対他而言并不重要。\n因為从小就梦寐以求的傳説之剣，能由自己持有并揮舞，才是最重要的。"
+        },
+        {
+            "id": "SojiAbiBuffOne",
+            "name": "鶏鳴",
+            "desc": "可与<color=#ffffff>敵方単位</color>的特定<color=#ffffff>行動槽</color>進行拼点",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SojiAbiBuffTwo",
+            "name": "日入",
+            "desc": "可与<color=#ffffff>敵方単位</color>的特定<color=#ffffff>行動槽</color>進行拼点",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SojiAbiBuffThree",
+            "name": "黄昏",
+            "desc": "可与<color=#ffffff>敵方単位</color>的特定<color=#ffffff>行動槽</color>進行拼点",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RyoshuParrySojiTwo",
+            "name": "未曾割舍的記憶",
+            "desc": "- 対小指父輩造成的<color=#ffffff>傷害</color>与受到来自小指父輩的<color=#ffffff>傷害</color>+20%，拼点勝利時，使小指父輩失去5点<color=#81BBE8>理智値</color>\n- 受到使<color=#ffffff>自身</color>陷入混乱的<color=#ffffff>傷害</color>時，不会陷入混乱，而改為移除相應的<color=#ffffff>混乱閾値</color>。<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層強壮 (<color=#7C5738>每回合</color>最多1次)\n- 无法撤退",
+            "summary": "良秀特殊效果",
+            "undefined": "-"
+        },
+        {
+            "id": "RyoshuParrySojiThree",
+            "name": "未曾割舍的時間",
+            "desc": "- 対小指父輩造成的<color=#ffffff>傷害</color>与受到来自小指父輩的<color=#ffffff>傷害</color>+20%，拼点勝利時，使小指父輩失去5点<color=#81BBE8>理智値</color>\n- 受到使<color=#ffffff>自身</color>陷入混乱的<color=#ffffff>傷害</color>時，不会陷入混乱，而改為移除相應的<color=#ffffff>混乱閾値</color>。<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層強壮 \n- 本場戦斗中<color=#ffffff>自身</color>使用技能時，獲得対應属性的1个E.G.O資源与持有量最少的1个E.G.O資源(<color=#7C5738>每回合</color>最多2次)\n- 无法撤退(包括<color=#ffffff>友方単位</color>)",
+            "summary": "良秀特殊效果",
+            "undefined": "-"
+        },
+        {
+            "id": "HeavenlyKillerStar",
+            "name": "天殺星刀-阿頼耶識",
+            "desc": "- 最小与最大<color=#7C5737>速度値</color>+6\n- 攻撃等級+6\n- 技能増加的流血 強度額外+3級\n- <color=#7C5738>回合開始</color>時，本場戦斗中每<color=#7C5738>撃殺</color>1名<color=#ffffff>敵方単位</color>，使<color=#ffffff>自身</color>獲得3層攻撃等級提升 (最多6層)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“将天也斬殺。天、地、人，然后是我。此星，是為那个将一切存在与時間視為一体，并将其斬断之人升起之星。”"
+        },
+        {
+            "id": "CutoffRyoshu",
+            "name": "切絲",
+            "desc": "- <color=#7C5738>回合開始</color>時，\n· 使<color=#ffffff>自身</color>増加3級流血 強度并対<color=#ffffff>自身</color>施加3層流血 \n· 受到(本效果層数/3)点<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- 受到攻撃時，受到(本效果層数/5)点<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- 本效果的層数越高…\n- 最大値：100",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“将一切都切断。袮、我，以及此前和今后的一切。”\n\n“然后把阿頼耶帯回来。”"
+        },
+        {
+            "id": "CutbondRyoshu",
+            "name": "无我",
+            "desc": "- <color=#7C5738>回合開始</color>時，本效果層数每有10層，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 与1層防御等級提升 \n- 本效果的層数越高…\n- 最大値：100",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“因此要愛惜刀刃。准備完畢之后，我会再度回到蜘蛛巢。”"
+        },
+        {
+            "id": "EsteemNeeds",
+            "name": "認可欲",
+            "desc": "- 本效果層数每有1層，使<color=#ffffff>自身</color>対良秀造成的<color=#ffffff>傷害</color>与受到来自良秀的<color=#ffffff>傷害</color>+5% (最多+100%)\n- 本效果層数每有5層，使<color=#ffffff>自身</color>以良秀為主要<color=#ffffff>目標</color>的攻撃的<color=#ffffff>最終威力</color>+1(最多+4)\n- 若本效果層数不低于10層，則拼点失敗時使<color=#ffffff>自身</color>失去5点<color=#81BBE8>理智値</color>\n- 最大値：20",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“回去之后，里、里恩先生会称賛我叭……”"
+        },
+        {
+            "id": "Fugacious",
+            "name": "剣道",
+            "desc": "- <color=#7C5738>回合開始</color>時，\n· 本效果層数每有5層，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 并対<color=#ffffff>自身</color>施加1層防御等級降低 \n· 本效果層数每有10層，使<color=#ffffff>自身</color>獲得1層傷害強化 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n- 最大値：50",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "縦然是轉瞬即逝之梦也无妨。\n即使今生无法得承星名，只要行于剣道之上，剣便会愈発鋭利，剣術亦会得到錘錬。"
+        },
+        {
+            "id": "ObsessedTeacher_LowMorale",
+            "name": "家族之耻",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層<color=#ffffff>斬撃</color>傷害強化 与1層<color=#ffffff>拼点威力</color>提升 ，并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n- 使用技能時无法獲得望",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ObsessedTeacher_Panic",
+            "name": "家族之耻",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層<color=#ffffff>斬撃</color>傷害強化 与2層<color=#ffffff>拼点威力</color>提升 ，并対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> \n- 使用技能時无法獲得望",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AgainstMyWill_LowMorale",
+            "name": "“殺、殺…殺了我…”",
+            "desc": "<color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加8層<color=#ffffff>拼点威力</color>降低 与5層威力降低 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AgainstMyWill_Panic",
+            "name": "“殺、殺…殺了我…”",
+            "desc": "<color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加10層<color=#ffffff>拼点威力</color>降低 与5層威力降低 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "IndexPrescriptRien_0",
+            "name": "指令[終端]I",
+            "desc": "攻撃并命中指令対象。期限為首个<color=#7C5738>回合結束</color>之前。\n\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>未帯有解放，則獲得該效果\n- 該指令最多可獲得3層指令加護 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "IndexPrescriptRien_1",
+            "name": "指令[終端]II",
+            "desc": "攻撃并命中指令対象;或在<color=#7C5738>本回合</color>内攻撃并命中不低于4次。期限為第四<color=#7C5738>回合結束</color>之前。\n\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>帯有解放 - I ，則獲得該效果\n- 該指令最多可獲得6層指令加護 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "IndexPrescriptRien_2",
+            "name": "指令[終端]III",
+            "desc": "使用運用九種武器的強力技能。\n\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>帯有解放 - II ，則獲得該效果\n- 該指令最多可獲得9層指令加護 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "IndexPrescriptRien_3",
+            "name": "指令[終端]IV",
+            "desc": "清除一切障碍。期限為下一条指令到来之前。\n\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>帯有解放 - III，則獲得該效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "IndexPrescript_RienSecondPhase",
+            "name": "指令[終端]-警告",
+            "desc": "優先<color=#7C5738>撃殺</color>指令対象。\n\n- 第2階段開始時，獲得該效果",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“每当指令无法執行時，終端発出的滴滴声便会不断加快。”\n\n“在那急迫的声音之中，我的心率似乎也在不断上升。”"
+        },
+        {
+            "id": "UnlockBuff_Rien1",
+            "name": "解放 - I",
+            "desc": "- 攻撃等級+1，防御等級+1\n- <color=#7C5738>戦斗結束</color>時，使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "UnlockBuff_Rien2",
+            "name": "解放 - II",
+            "desc": "- 攻撃等級+2，防御等級+2\n- <color=#7C5738>戦斗結束</color>時，使<color=#ffffff>自身</color>恢復20点<color=#81BBE8>理智値</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "UnlockBuff_Rien3",
+            "name": "解放 - III",
+            "desc": "- 攻撃等級+3，防御等級+3\n- <color=#7C5738>戦斗結束</color>時，使<color=#ffffff>自身</color>恢復30点<color=#81BBE8>理智値</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "KarmaOfIndexRien",
+            "name": "業",
+            "desc": "- <color=#7C5738>回合開始</color>時\n· 每帯有10層本效果，対<color=#ffffff>自身</color>施加1層防御等級降低 \n· 每帯有20層本效果，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n· 每帯有40層本效果，対<color=#ffffff>自身</color>施加1層<color=#ffffff>拼点威力</color>降低 \n- 最大値：100",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "KarmaOfIndexRien_2Phase",
+            "name": "業[福尓圖娜]",
+            "desc": "- <color=#7C5738>回合開始</color>時\n· 每帯有10層本效果，対<color=#ffffff>自身</color>施加1層防御等級降低 \n· 每帯有20層本效果，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n· 每帯有40層本效果，対<color=#ffffff>自身</color>施加1層<color=#ffffff>拼点威力</color>降低 \n- 最大値：200",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "O Fortúna velut luna statu variabilis\n（哦，命運，像月亮般変化无常）"
+        },
+        {
+            "id": "BurningWoundRien_Mask",
+            "name": "里恩的假面",
+            "desc": "- 攻撃等級-5，防御等級-5\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到施加焼傷 或流血 (包括強度、層数与特殊関鍵詞)的技能的<color=#ffffff>傷害</color>+5%\n· 若為同時施加焼傷 与流血 的技能，則改為+7.5%\n- 最大値：1",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“即便是看到也会感到疼痛，因而将其遮起。”"
+        },
+        {
+            "id": "BurningWoundRien",
+            "name": "灼焼着的傷口",
+            "desc": "- 攻撃等級-5，防御等級-5\n- <color=#7C5738>回合開始</color>時，每帯有1層本效果，対<color=#ffffff>自身</color>施加1層焼傷 与1層流血 \n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到施加焼傷 或流血 (包括強度、層数与特殊関鍵詞)的技能的<color=#ffffff>傷害</color>+10%\n· 若為同時施加焼傷 与流血 的技能，則改為+15%\n- 最大値：5",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "那把刀接近時，傷口便无法愈合，曾被刀气的熱度焼焦的肉将再度被焼熟。"
+        },
+        {
+            "id": "Shin_Rien",
+            "name": "心-里恩",
+            "desc": "- <color=#7C5738>回合開始</color>時，根据<color=#ffffff>自身</color>已失去<color=#61DA61>体力</color>，相應獲得以下效果\n· 每失去<color=#61DA61>体力</color>上限15%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>獲得1層傷害強化 (最多5層)\n· 每失去<color=#61DA61>体力</color>上限40%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>獲得1層強壮 (最多2層)\n- 通過<color=#ffffff>自身</color>的技能増加的呼吸法 強度与獲得的呼吸法 層数額外+1\n- 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>高于<color=#ffffff>目標</color>，則<color=#81BBE8>理智値</color>每<color=#7C5738>相差</color>2点，対<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+1%(最多+30%)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "StackRienSpecialSkill",
+            "name": "代行[赫尓墨斯]",
+            "desc": "- 使用攻撃技能時，獲得1層本效果(每个技能僅可獲得1次，相同技能不能獲得2次)\n- <color=#7C5738>回合開始</color>時，若本效果層数為9層，則使用強力技能\n- 使用特定技能時消耗",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“遵从神之旨意。”"
+        },
+        {
+            "id": "RienWeapon01Hatchet",
+            "name": "用手斧将肋骨坎下時…",
+            "desc": "- 造成<color=#ffffff>打撃</color><color=#ffffff>傷害</color>\n- 未摧毀并命中時，使<color=#ffffff>自身</color>増加2級呼吸法 強度",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon01Hatchet2phase",
+            "name": "用手斧将肋骨坎下時…",
+            "desc": "- 造成<color=#ffffff>打撃</color><color=#ffffff>傷害</color>\n- 未摧毀并命中時，使<color=#ffffff>自身</color>増加2級呼吸法 強度并使<color=#ffffff>自身</color>獲得2層呼吸法 ",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“基本上没什么用，但比叉子好得多。”"
+        },
+        {
+            "id": "RienWeapon02Stiletto",
+            "name": "用錐将肺貫穿時…",
+            "desc": "- 造成<color=#ffffff>突刺</color><color=#ffffff>傷害</color>\n- 未摧毀并命中時，使<color=#ffffff>目標</color>増加2級沈淪 強度",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon02Stiletto2phase",
+            "name": "用錐将肺貫穿時…",
+            "desc": "- 造成<color=#ffffff>突刺</color><color=#ffffff>傷害</color>\n- 未摧毀并命中時，使<color=#ffffff>目標</color>増加2級沈淪 強度并対其施加2層沈淪 ",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“若是在需要横向揮斬的時候拿到這个，我就会冷汗直流。這跟我<color=#7C5738>完全</color>合不来。”"
+        },
+        {
+            "id": "RienWeapon03Greatsword",
+            "name": "用手半剣将肩膀撃碎時…",
+            "desc": "- 造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+5%\n- 未摧毀并命中時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層攻撃等級提升 (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon03Greatsword2phase",
+            "name": "用手半剣将肩膀撃碎時…",
+            "desc": "- 造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+7.5%\n- 未摧毀并命中時，直到<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層攻撃等級提升 (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“這把剣雖然没什么問題，但也有因為太過于没什么問題而有所不足的時候。不過只要有基礎，就<color=#7C5738>完全</color>可以使用它了。”"
+        },
+        {
+            "id": "RienWeapon04Rapier",
+            "name": "應該用刺剣在身体上開超過十个洞時…",
+            "desc": "- 造成<color=#ffffff>突刺</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+5%\n- 未摧毀并命中時，<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層防御等級降低 (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon04Rapier2phase",
+            "name": "應該用刺剣在身体上開超過十个洞時…",
+            "desc": "- 造成<color=#ffffff>突刺</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+7.5%\n- 未摧毀并命中時，直到<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層防御等級降低 (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“比錐更鋒鋭也更長的武器。我喜歓技巧，因此也喜歓刺剣。”"
+        },
+        {
+            "id": "RienWeapon05Sledgehammer",
+            "name": "應該用錘子将后脳敲碎時…",
+            "desc": "- 造成<color=#ffffff>打撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+5%\n- 未摧毀并命中時，使<color=#ffffff>目標</color>的<color=#ffffff>混乱閾値</color>前移3",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon05Sledgehammer2phase",
+            "name": "應該用錘子将后脳敲碎時…",
+            "desc": "- 造成<color=#ffffff>打撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+7.5%\n- 未摧毀并命中時，使<color=#ffffff>目標</color>的<color=#ffffff>混乱閾値</color>前移5",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“雖然単純，但是切實。不像手斧那様不上不下。可以切實地用于撃碎。”"
+        },
+        {
+            "id": "RienWeapon06Ultragreatsword",
+            "name": "應該用大剣将躯干劈開時…",
+            "desc": "- 造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+10%\n- 未摧毀并命中時，対<color=#ffffff>目標</color>施加1層<color=#ffffff>斬撃</color><color=#ffffff>易損</color> (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon06Ultragreatsword2phase",
+            "name": "應該用大剣将躯干劈開時…",
+            "desc": "- 造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+15%\n- 未摧毀并命中時，直到<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層<color=#ffffff>斬撃</color><color=#ffffff>易損</color> (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“這様又大又重的剣，其重心是最為重要的。”\n“适当利用它的重量為佳。”\n“我還記得从五層楼上跳下来，用它去暗殺1階收尾人的時候。”"
+        },
+        {
+            "id": "RienWeapon07Lance",
+            "name": "應該用長槍刺穿一个20英寸的洞時…",
+            "desc": "- 造成<color=#ffffff>突刺</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+10%\n- 未摧毀并命中時，対<color=#ffffff>目標</color>施加1層<color=#ffffff>突刺</color><color=#ffffff>易損</color> (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon07Lance2phase",
+            "name": "應該用長槍刺穿一个20英寸的洞時…",
+            "desc": "- 造成<color=#ffffff>突刺</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+15%\n- 未摧毀并命中時，直到<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層<color=#ffffff>突刺</color><color=#ffffff>易損</color> (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“是中奨般的武器。這把長槍還有自我加速功能，可以从遠処将牆和阻當者全部貫穿，并将<color=#ffffff>目標</color>穿透。”"
+        },
+        {
+            "id": "RienWeapon08Chain",
+            "name": "應該用鞭子抽落上万塊肉時…",
+            "desc": "- 造成<color=#ffffff>打撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+10%\n- 未摧毀并命中時，対<color=#ffffff>目標</color>施加1層<color=#ffffff>打撃</color><color=#ffffff>易損</color> (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon08Chain2phase",
+            "name": "應該用鞭子抽落上万塊肉時…",
+            "desc": "- 造成<color=#ffffff>打撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+15%\n- 未摧毀并命中時，直到<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層<color=#ffffff>打撃</color><color=#ffffff>易損</color> (<color=#7C5738>每回合</color>最多2次)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“対某些人来説或許没什么用……但我很中意它。”\n“被這根鞭子打中的人，肉会被削下并開始流血。然后便会爭扎于痛苦和脱力之中。”\n“我喜歓看他們一点点変弱的様子。在緊急時刻，它也可以被用于絞殺。”"
+        },
+        {
+            "id": "RienWeapon09Scythe",
+            "name": "應該用鎌刀…像某人一般沿着空間斬裂時…",
+            "desc": "- 造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+20%\n- 未摧毀并命中時，必定<color=#ffffff>暴撃</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RienWeapon09Scythe2phase",
+            "name": "應該用鎌刀…像某人一般沿着空間斬裂時…",
+            "desc": "- 造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- 此硬幣造成的<color=#ffffff>傷害</color>+30%\n- 未摧毀并命中時，必定<color=#ffffff>暴撃</color>",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“鎌刀……雖然難以理解，但見過蒼藍残響戦斗的身姿之后，我就有感覚了。”\n“在那之后的很長一段時間内，指令都只允許我使用鎌刀，因此与任何武器相比，我都更擅長、更喜好使用鎌刀。”\n“它也是最擅長切割的。雖然切割空間的技術有好几種……唔，這个還是以后再講給袮听比較好。”"
+        },
+        {
+            "id": "Ryoshu_RienBattle_1Phase",
+            "name": "血縁[けつえん]",
+            "desc": "- 本場戦斗中，不低于1名其他<color=#ffffff>友方単位</color>存活時，良秀的<color=#61DA61>体力</color>不会降至1点以下\n- <color=#ffffff>拼点威力</color>+1，攻撃命中時造成的<color=#ffffff>傷害</color>+10%\n- 拼点勝利時，獲得3種持有量最少的E.G.O資源各1个\n- 受到使<color=#ffffff>自身</color>陷入混乱的<color=#ffffff>傷害</color>時，不会陷入混乱，而改為移除相應的<color=#ffffff>混乱閾値</color>。<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層強壮 (次数不限)\n- 无法撤退",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "為掌控天殺星刀-阿頼耶識而制作的，良秀独一无二的刀鞘。于不滅的烈火之中所鍛造的，阿頼耶的E.G.O。"
+        },
+        {
+            "id": "Ryoshu_RienBattle_2Phase",
+            "name": "連血縁[れんけつえん]",
+            "desc": "- 本場戦斗中，不低于1名其他<color=#ffffff>友方単位</color>存活時，良秀的<color=#61DA61>体力</color>不会降至1点以下\n- <color=#ffffff>拼点威力</color>+2，攻撃命中時造成的<color=#ffffff>傷害</color>+25%\n- <color=#ffffff>目標</color>每帯有1層灼焼着的傷口 \n· 使<color=#ffffff>自身</color>的攻撃等級+1，防御等級+1\n· 使<color=#ffffff>自身</color>攻撃命中時造成的<color=#ffffff>傷害</color>+5%(最多+25%)，使用基礎E.G.O技能時改為+50%(最多+250%)\n- 拼点勝利時，獲得3種持有量最少的E.G.O資源各1个\n- 受到使<color=#ffffff>自身</color>陷入混乱的<color=#ffffff>傷害</color>時，不会陷入混乱，而改為移除相應的<color=#ffffff>混乱閾値</color>。<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層強壮 (次数不限)\n- 无法撤退",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "只残余模糊自我的，悖論的E.G.O。\n即便看上去只是為了対方，也并非絶対的利他性。\n若要把他人的人生所具有的意義置于自己的人生之上，需要的是絶対的利己心。\n\n“希望媽媽不要就這様忘記我，但我更不想就這様失去媽媽。”\n“所以請先忘掉我，更珍惜袮自己叭。”"
+        },
+        {
+            "id": "PainfulScar_Panic",
+            "name": "倣造的父輩",
+            "desc": "- 陷入恐慌\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>増加5級焼傷 強度与5級流血 強度并対<color=#ffffff>自身</color>施加3層焼傷 与3層流血 \n- 受到来自罪人良秀的<color=#ffffff>傷害</color>+20%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "PainfulScar_LowMorale",
+            "name": "倣造的父輩",
+            "desc": "- 士气低落\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>増加5級焼傷 強度与5級流血 強度\n- 受到来自罪人良秀的<color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BlackNightmare",
+            "name": "指令成隱",
+            "desc": "- 増加的沈淪 強度与施加的沈淪 層数額外+2\n- <color=#7C5738>回合結束</color>時解除本效果，并対<color=#ffffff>自身</color>施加(<color=#7C5738>本回合</color>拼点失敗的技能数×5)層業",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "表面上心甘情愿地執行指令，在那之内却也能窺見対指令的怨恨。\n然而，正因所有的苦痛与快樂都能劬戴着“指令”這張假面進行，那分本望最終被帰結為対指令的感激。"
+        },
+        {
+            "id": "RyoshuParrySojiWe",
+            "name": "赤絲",
+            "desc": "- <color=#ffffff>行動槽</color>+3\n対小指 父輩造成的<color=#ffffff>傷害</color>+50%\n- 本場戦斗中<color=#ffffff>自身</color>使用技能時，獲得対應属性的1个E.G.O資源与持有量最少的1个E.G.O資源(<color=#7C5738>每回合</color>最多2次)\n- 无法撤退",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“若只有這繊細的、僅此一根的絲綫将袮我相連，我将拼尽全力，絶不将手松開。”"
+        },
+        {
+            "id": "RyoshuParrySojiThey",
+            "name": "赤絲",
+            "desc": "- 所有硬幣轉化為不可摧毀的硬幣\n- <color=#ffffff>最終威力</color>+4",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“袮我終究会因為這根綫而相遇。縦然想要逃离，也注定反復相逢。這根絲綫，无論如何都不会被斬断。”"
+        },
+        {
+            "id": "CriticalDamageUp",
+            "name": "暴撃傷害強化",
+            "desc": "每帯有1層本效果，<color=#7C5738>本回合</color>使<color=#ffffff>自身</color><color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "KAA1C9ActivateEffect",
+            "name": "使用K公司安瓶",
+            "desc": "已使用的K公司的安瓶",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RyoshuParryIndexFingerWe",
+            "name": "赤絲",
+            "desc": "",
+            "summary": "",
+            "undefined": "-",
+            "flavor": ""
+        },
+        {
+            "id": "RyoshuParryIndexFingerThey",
+            "name": "赤絲",
+            "desc": "",
+            "summary": "",
+            "undefined": "-",
+            "flavor": ""
+        }
+    ]
+}

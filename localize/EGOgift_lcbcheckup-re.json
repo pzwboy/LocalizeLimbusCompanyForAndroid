@@ -1,0 +1,106 @@
+{
+    "dataList": [
+        {
+            "id": 9243,
+            "name": "試驗提取：紅艶刹",
+            "desc": "増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的攻撃技能造成的<color=#ffffff>傷害</color>+10%\n- 若該技能対<color=#ffffff>自身</color>施加[Combustion]層数，則額外使該技能的<color=#ffffff>拼点威力</color>+1\n- <color=#ffffff>自身</color>每失去2%的<color=#61DA61>体力</color>，使造成的<color=#ffffff>傷害</color>額外+1%(最多+15%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9243,
+                    "simpleDesc": "符合条件時攻撃技能造成的<color=#ffffff>傷害</color>与<color=#ffffff>拼点威力</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9244,
+            "name": "試驗提取：提灯",
+            "desc": "増加[Burst]強度或施加[Burst]層数的攻撃技能造成的<color=#ffffff>傷害</color>+10%\n- 若<color=#ffffff>自身</color>已失去<color=#61DA61>体力</color>不低于<color=#61DA61>体力</color>上限的20%，則額外使該技能的<color=#ffffff>拼点威力</color>+1\n- <color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>的[Aggro]之和每有1点，使攻撃技能造成的<color=#ffffff>傷害</color>+1%(最多+15%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9244,
+                    "simpleDesc": "符合条件時攻撃技能造成的<color=#ffffff>傷害</color>与<color=#ffffff>拼点威力</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9245,
+            "name": "変形提取：AEDD",
+            "desc": "若<color=#ffffff>自身</color><color=#7C5738>本回合</color>獲得[Charge]層数或<color=#FCC700>特殊充能</color>超出上限，則每溢出2層，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp](<color=#7C5738>每回合</color>每名人格最多2層)\n- 擁有獲得或消耗[Charge]層数或<color=#FCC700>特殊充能</color>的基礎技能的人格改為<color=#7C5738>每回合</color>每名人格最多6層\n- 若<color=#ffffff>自身</color>帯有[HighVoltageExoshell]，則額外使<color=#ffffff>自身</color>増加1級[Charge]強度(每場戦斗最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9245,
+                    "simpleDesc": "基于溢出的[Charge]層数使<color=#ffffff>自身</color>獲得[AttackUp]，符合条件時使<color=#ffffff>自身</color>増加[Charge]強度"
+                }
+            ]
+        },
+        {
+            "id": 9246,
+            "name": "某人遺落的員工証",
+            "desc": "属于辺獄公司的人格獲得以下效果\n- <color=#7C5738>回合開始</color>時獲得(参戦且属于辺獄公司的人格数/3)層[ParryingResultUp](最多2層;向下取整)\n\n属于LCE的人格獲得以下效果\n- 使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+(参戦且身着E.G.O装備的人格数×10)%(最多+30%)\n- 与<color=#ffffff>自身</color>属于同一陣営的<color=#ffffff>友方単位</color>陣亡時，獲得所有属性的E.G.O資源各1个;本場戦斗中，<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得1層[PlusCoinValueUp]并対<color=#ffffff>自身</color>施加1層[MinusCoinValueUp](每場戦斗每名人格最多2次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9246,
+                    "simpleDesc": "基于参戦且属于辺獄公司的人格数使<color=#ffffff>自身</color>獲得[ParryingResultUp]"
+                },
+                {
+                    "abilityID": 92461,
+                    "simpleDesc": "根据参戦且身着E.G.O装備的人格数使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 92462,
+                    "simpleDesc": "与<color=#ffffff>自身</color>属于同一陣営的<color=#ffffff>友方単位</color>陣亡時，獲得E.G.O資源;本場戦斗中，从<color=#7C5738>下回合</color>起，<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得[PlusCoinValueUp]并対<color=#ffffff>自身</color>施加[MinusCoinValueUp]"
+                }
+            ]
+        },
+        {
+            "id": 9248,
+            "name": "山茶花、眼鏡和送達的信",
+            "desc": "[第1、第2、第3順位人格専属]\n\n増加[Burst]強度或施加[Burst]層数的攻撃技能拼点勝利時，使<color=#ffffff>目標</color>増加5級[Burst]強度并対其施加3層[Burst](<color=#7C5738>每回合</color>每名人格最多1次)\n\n与<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+25%。\n\n与帯有[AttackUp]的<color=#ffffff>敵方単位</color>拼点勝利時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[AttackUp]并対拼点失敗的<color=#ffffff>敵方単位</color>施加3層[AttackDown](<color=#7C5738>每回合</color>每名人格最多3次)\n\n使用1技能，2技能或3技能時，触発以下效果(每種技能最多1次)\n- 使用以上技能的人格本場戦斗中，<color=#7C5738>回合開始</color>時獲得1層[Agility]与1層[SkillPowerUp](最多畳加3次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9248,
+                    "simpleDesc": "拼点勝利時，対<color=#ffffff>目標</color>施加[Burst]"
+                },
+                {
+                    "abilityID": 92481,
+                    "simpleDesc": "与<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>拼点時，使<color=#ffffff>自身</color><color=#ffffff>最終威力</color>与造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 92482,
+                    "simpleDesc": "符合条件時使<color=#ffffff>自身</color>獲得[AttackUp]，対<color=#ffffff>敵方単位</color>施加[AttackDown]"
+                },
+                {
+                    "abilityID": 92483,
+                    "simpleDesc": "符合条件時，<color=#7C5738>回合開始</color>時獲得[Agility]与[SkillPowerUp]"
+                }
+            ]
+        },
+        {
+            "id": 9249,
+            "name": "小巧而精致的小提琴",
+            "desc": "[第5、第6順位人格専属]\n\n使<color=#ffffff>自身</color>恢復技能造成<color=#61DA61>体力</color><color=#ffffff>傷害</color>量10%的<color=#61DA61>体力</color>(每个技能最多20点)\n\n拼点勝利時，使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease](<color=#7C5738>每回合</color>每名人格最多2次)\n\n使用技能時，使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[TakeHpHealIncrease](<color=#7C5738>每回合</color>每名人格最多2次)\n\n<color=#ffffff>打撃</color>技能造成的<color=#ffffff>傷害</color>+10%\n\n拼点勝利的技能造成的<color=#ffffff>傷害</color>+(拼点次数×6)%(最多+30%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9249,
+                    "simpleDesc": "基于技能造成的<color=#61DA61>体力</color><color=#ffffff>傷害</color>量恢復<color=#61DA61>体力</color>"
+                },
+                {
+                    "abilityID": 92491,
+                    "simpleDesc": "拼点勝利時獲得[AttackUp]与[TakeHpHealIncrease]"
+                },
+                {
+                    "abilityID": 92492,
+                    "simpleDesc": "使用技能時獲得[AttackUp]与[TakeHpHealIncrease]"
+                },
+                {
+                    "abilityID": 92493,
+                    "simpleDesc": "<color=#ffffff>打撃</color>技能造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 92494,
+                    "simpleDesc": "拼点勝利的技能造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        }
+    ]
+}

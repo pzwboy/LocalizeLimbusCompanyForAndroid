@@ -1,0 +1,95 @@
+{
+    "dataList": [
+        {
+            "id": "BurstAgility",
+            "name": "咒殺【迅捷】",
+            "desc": "基礎値：3\n因受到<color=#7C5737>速度値</color>不低于10的<color=#ffffff>目標</color>的攻撃技能攻撃而触発<color=#ffffff>自身</color>的破裂 時，使本效果的層数減少1層并対<color=#ffffff>自身</color>施加1層破裂 \n若本效果層数為0層，則受到相当于<color=#ffffff>自身</color>破裂強度的<color=#A6FE00>暴食</color><color=#ffffff>傷害</color>，并解除本效果\n※帯有本效果時，本效果層数不会額外獲得",
+            "summary": "若符合条件，造成額外<color=#A6FE00>暴食</color><color=#ffffff>傷害</color>",
+            "undefined": "-"
+        },
+        {
+            "id": "LegStrength",
+            "name": "脚力【卯】",
+            "desc": "最大値：3\n<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得5層迅捷 \n<color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "summary": "若符合条件，造成額外<color=#A6FE00>暴食</color><color=#ffffff>傷害</color>",
+            "undefined": "-"
+        },
+        {
+            "id": "DarkBeast_LowMorale",
+            "name": "暗算",
+            "desc": "- 士气低落\n- <color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>或進行単方面攻撃時，対<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DarkBeast_Panic",
+            "name": "暗算",
+            "desc": "- 陷入恐慌\n- <color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>或進行単方面攻撃時，対<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+20%;<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>時，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>-20%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RepressedMurderousIntend",
+            "name": "圧抑的殺气",
+            "desc": "基礎攻撃等級-10，基礎防御等級-10",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "WeighedMurderousIntend",
+            "name": "深深圧抑的殺气",
+            "desc": "基礎攻撃等級-25，基礎防御等級-25",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MiddleFingerBook",
+            "name": "中指的復仇対象",
+            "desc": "最大値：10\n受到中指攻撃時，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+3%(最多+30%)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Persistent",
+            "name": "堅靭",
+            "desc": "最大値：4\n受到使<color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，以80%的概率不会受到<color=#ffffff>傷害</color>并使<color=#ffffff>自身</color>恢復60点<color=#61DA61>体力</color>，解除<color=#ffffff>自身</color>的混乱，解除本效果\n\n以下情况不会触発避免陣亡与<color=#61DA61>体力</color>恢復效果\n- 受到攻撃時硬幣造成的<color=#ffffff>傷害</color>高于<color=#ffffff>自身</color><color=#61DA61>体力</color>上限\n- <color=#ffffff>自身</color>帯有<color=#61DA61>体力</color>恢復降低 效果\n<color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BackstreetsNight_LowMorale",
+            "name": "后巷深宵",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層強壮 与1層<color=#61DA61>体力</color>恢復提升 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BackstreetsNight_Panic",
+            "name": "后巷深宵",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層強壮 ，2層<color=#61DA61>体力</color>恢復提升 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SweeperA",
+            "name": "第一波",
+            "desc": "第一波在{0}回合后結束",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SweeperB",
+            "name": "第二波",
+            "desc": "第二波在{0}回合后結束",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "SweeperC",
+            "name": "第三波",
+            "desc": "第三波在{0}回合后結束",
+            "summary": "",
+            "undefined": "-"
+        }
+    ]
+}

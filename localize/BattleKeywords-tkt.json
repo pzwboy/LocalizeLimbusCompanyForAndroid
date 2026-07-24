@@ -1,0 +1,129 @@
+{
+    "dataList": [
+        {
+            "id": "FusionVibration",
+            "name": "振幅糾纏",
+            "desc": "- 使糾纏的震顫效果与<color=#ffffff>目標</color>帯有的震顫種類結合為震顫-畳加 。\n- 糾纏時，現有震顫 的強度与層数保持不変。\n- 使震顫-畳加 振幅轉換 時，改為造成振幅糾纏 。\n- <color=#7C5738>回合結束</color>時，轉換為震顫 。",
+            "summary": ""
+        },
+        {
+            "id": "VibrationNesting",
+            "name": "震顫-畳加",
+            "desc": "- 通過振幅糾纏 獲得。\n- 振幅轉換 時，使震顫-畳加 増加該<color=#E40302>特殊震顫</color> 的效果。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "VibrationDistribution",
+            "name": "震顫-分配",
+            "desc": "- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(<color=#ffffff>全体</color><color=#ffffff>友方単位</color>震顫 層数之和/<color=#ffffff>友方単位</color>存活数)層攻撃等級提升 (最多5層)\n- 受到造成震顫引爆 的攻撃時，<color=#ffffff>混乱閾値</color>前移等同于本效果強度的数値\n- <color=#7C5738>回合結束</color>后，本效果的層数減少1層\n(本效果強度与層数的増減同様受普通震顫影響)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TcorpSpecialInvestigator",
+            "name": "T公司特別搜査官徽章",
+            "desc": "- 受到<color=#61DA61>体力</color>減少至0点的<color=#ffffff>傷害</color>時，<color=#61DA61>体力</color>不会低于1点，立即恢復<color=#61DA61>体力</color>上限80%的<color=#61DA61>体力</color> 并且解除<color=#ffffff>自身</color>的混乱(每場戦斗最多1次)\n- 本效果触発時，<color=#7C5738>下回合</color>起5回合内，<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得2層強壮 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "VibrationChain",
+            "name": "震顫-鎖鏈",
+            "desc": "- 每帯有10級震顫 強度，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>-1(最多-3)\n- 受到造成震顫引爆 的攻撃時，<color=#ffffff>混乱閾値</color>前移等同于本效果強度的数値\n- <color=#7C5738>回合結束</color>后，本效果的層数減少1層\n(本效果強度与層数的増減同様受普通震顫 影響)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TimeRentalTwo",
+            "name": "T公司的時間租賃",
+            "desc": "<color=#7C5738>回合結束</color>時：\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(時間租賃 層数-1)層迅捷 、<color=#ffffff>拼点威力</color>提升 与<color=#ffffff>易損</color> 。\n- 若層数為1，效果替換為<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加((時間租賃 強度-1)×2)層束縛 \n- 強度増加1級，層数減少1層\n- 若<color=#ffffff>自身</color>的束縛 層数高于迅捷 層数，解除時間租賃 并陷入混乱。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TimeAccumulation",
+            "name": "時間泄露",
+            "desc": "帯有本效果時，受到的<color=#ffffff>傷害</color>将被暫存。\n<color=#7C5738>回合結束</color>時，本效果的層数減少1層。\n<color=#7C5738>回合結束</color>時，若本效果僅剩1層，則受到(2×暫存的<color=#ffffff>傷害</color>)点<color=#FED233>怠惰</color><color=#ffffff>傷害</color>并解除本效果\n帯有本效果時，无法獲得或刷新本效果的層数。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ParryingResultDown",
+            "name": "拼点威力降低",
+            "desc": "拼点時，<color=#ffffff>拼点威力</color>減少等同于本效果層数的数値",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ParryingResultUp",
+            "name": "拼点威力提升",
+            "desc": "拼点時，<color=#ffffff>拼点威力</color>増加等同于本效果層数的数値",
+            "summary": "拼点時，<color=#ffffff>拼点威力</color>増加等同于本效果層数的数値",
+            "undefined": "-"
+        },
+        {
+            "id": "LimitedTime",
+            "name": "搶来的時間",
+            "desc": "- <color=#7C5738>回合開始</color>時，若層数不低于200層，則使<color=#ffffff>自身</color>獲得(層数-200)/50層攻撃等級提升 与防御等級提升 。\n- <color=#7C5738>回合開始</color>時，若層数低于200層，則使<color=#ffffff>自身</color>獲得(200-層数)/50層攻撃等級降低 与防御等級降低 。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "OwnTime",
+            "name": "共享的時間",
+            "desc": "- <color=#7C5738>回合開始</color>時，若層数不低于40層，則使<color=#ffffff>自身</color>獲得(層数-40)/10層攻撃等級提升 与防御等級提升 。\n- <color=#7C5738>回合開始</color>時，若層数低于40層，則使<color=#ffffff>自身</color>獲得(40-層数)/10層攻撃等級降低 与防御等級降低 。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "EquitableDistribution",
+            "name": "共同分担時間支出",
+            "desc": "消耗共享的時間 時，所有的脳消耗相等的時間。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "UnfairDistribution",
+            "name": "内部分裂",
+            "desc": "消耗共享的時間 時，所有的脳不再消耗相等的時間。\n<color=#7C5738>回合開始</color>時：使所有<color=#ffffff>部位</color>獲得与其剩余時間不同的<color=#ffffff>部位</color>数量的<color=#ffffff>易損</color> 。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TimeAcceleration",
+            "name": "時間加速",
+            "desc": "- 使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>増加5\n- <color=#ffffff>自身</color>技能獲得強化\n- 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ，因震顫引爆 ，技能，<color=#ffffff>硬幣效果</color>造成的<color=#ffffff>混乱閾値</color>前移量増加50%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Yurodivy_LowMorale",
+            "name": "瓦解的同盟",
+            "desc": "- 士气低落\n対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> 。受到攻撃時対<color=#ffffff>自身</color>施加1層震顫 。(最多3次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Yurodivy_Panic",
+            "name": "瓦解的同盟",
+            "desc": "- 陷入恐慌\n対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> 。受到攻撃時対<color=#ffffff>自身</color>施加2層震顫 。(最多3次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TimeKillerWatch",
+            "name": "時間救援目標",
+            "desc": "時間加速 持續期間，被時間殺人魔指定為攻撃<color=#ffffff>目標</color>。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "UltraPrecisionTimeAcceleration",
+            "name": "超精密時間加速",
+            "desc": "<color=#ffffff>自身</color>的基礎最小与最大<color=#7C5737>速度値</color>増加相当于本效果層数的数値\n増加震顫 強度，施加震顫 層数或造成震顫引爆 的技能<color=#ffffff>基礎威力</color>+(本效果層数)，対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+(本效果層数×10)%，震顫引爆 対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+(本效果層数×10)%(包括E.G.O技能)\n<color=#7C5738>回合結束</color>時，本效果層数減少1層\n本效果層数為1層時，本效果層数不会降至0層，且本效果在本場戦斗期間維持",
+            "summary": "",
+            "undefined": "-"
+        }
+    ]
+}

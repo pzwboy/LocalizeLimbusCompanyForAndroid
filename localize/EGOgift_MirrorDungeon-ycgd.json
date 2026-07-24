@@ -1,0 +1,143 @@
+{
+    "dataList": [
+        {
+            "id": 2027,
+            "name": "黑色帳簿",
+            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，根据<color=#ffffff>敵方単位</color>数，随机獲得相應个数的E.G.O資源。\n\n若参与本場戦斗的属于剣契組或黑云会的人格不低于4名(以参戦人員為基准)，則改為獲得持有量最少的E.G.O資源。",
+            "simpleDesc": [
+                {
+                    "abilityID": 2027,
+                    "simpleDesc": "随机獲得E.G.O資源"
+                },
+                {
+                    "abilityID": 20271,
+                    "simpleDesc": "獲得持有量最少的E.G.O資源"
+                }
+            ]
+        },
+        {
+            "id": 2028,
+            "name": "鏽蝕的刀柄",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得1層<color=#ffffff>斬撃</color>威力提升 。\n\n属于剣契組或黑云会的<color=#ffffff>友方単位</color>改為獲得2層<color=#ffffff>斬撃</color>威力提升 。",
+            "simpleDesc": [
+                {
+                    "abilityID": 2028,
+                    "simpleDesc": "獲得1層<color=#ffffff>斬撃</color>威力提升 "
+                },
+                {
+                    "abilityID": 20281,
+                    "simpleDesc": "獲得2層<color=#ffffff>斬撃</color>威力提升 "
+                }
+            ]
+        },
+        {
+            "id": 2029,
+            "name": "破碎的刀刃",
+            "desc": "本場戦斗中，首次通過攻撃技能效果使<color=#ffffff>敵方単位</color>増加[Laceration]強度或施加<color=#E40302>特殊流血</color>時，額外対其施加2層[Laceration]。（每場戦斗最多1次）\n\n若為属于黑云会的<color=#ffffff>友方単位</color>，則改為首次対<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>時，額外使其増加4級[Laceration]強度并対其施加4層[Laceration]。",
+            "simpleDesc": [
+                {
+                    "abilityID": 2029,
+                    "simpleDesc": "額外施加2層[Laceration]"
+                },
+                {
+                    "abilityID": 20291,
+                    "simpleDesc": "額外増加4級[Laceration]強度并施加4層[Laceration]"
+                }
+            ]
+        },
+        {
+            "id": 2030,
+            "name": "損坏的刀刃",
+            "desc": "<color=#ffffff>友方単位</color>対<color=#ffffff>敵方単位</color>造成<color=#ffffff>暴撃</color>時，対<color=#ffffff>目標</color>額外造成（<color=#ffffff>自身</color>的[Breath]強度/3）点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>。\n\n若該<color=#ffffff>友方単位</color>属于剣契組，則改為<color=#ffffff>暴撃</color>時対<color=#ffffff>目標</color>額外造成（<color=#ffffff>自身</color>的[Breath]強度/2）点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>。",
+            "simpleDesc": [
+                {
+                    "abilityID": 2030,
+                    "simpleDesc": "額外造成（<color=#ffffff>自身</color>的[Breath]強度/3）点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>"
+                },
+                {
+                    "abilityID": 20301,
+                    "simpleDesc": "額外造成（<color=#ffffff>自身</color>的[Breath]強度/2）点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 2031,
+            "name": "紅色流蘇",
+            "desc": "若<color=#ffffff>敵方単位</color>的<color=#ffffff>斬撃</color>抗性不高于1.5，則使其<color=#ffffff>斬撃</color>抗性+0.3",
+            "simpleDesc": [
+                {
+                    "abilityID": 2031,
+                    "simpleDesc": "<color=#ffffff>斬撃</color>抗性+0.3"
+                }
+            ]
+        },
+        {
+            "id": 2032,
+            "name": "壮観",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于黑云会的人格不低于3名，則触発該效果。(以参戦人員為基准)\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層<color=#ffffff>斬撃</color>威力提升 并使其造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+35%。\n\n<color=#7C5738>回合開始</color>時，属于黑云会的人格首次造成<color=#ffffff>傷害</color>時，額外使<color=#ffffff>目標</color>増加4級[Laceration]強度并対其施加4層[Laceration]。(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 2032,
+                    "simpleDesc": "獲得2層<color=#ffffff>斬撃</color>威力提升 ，造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+35%"
+                },
+                {
+                    "abilityID": 20321,
+                    "simpleDesc": "額外増加4級流血 強度并施加4層流血 "
+                }
+            ]
+        },
+        {
+            "id": 2033,
+            "name": "不動",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于剣契組的人格不低于3名，則触発該效果。(以参戦人員為基准)\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層<color=#ffffff>斬撃</color>威力提升 并使其造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+35%。\n\n属于剣契組的人格造成<color=#ffffff>暴撃</color>時，対<color=#ffffff>目標</color>額外造成(<color=#ffffff>自身</color>的[Breath]強度)点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>。",
+            "simpleDesc": [
+                {
+                    "abilityID": 2033,
+                    "simpleDesc": "獲得2層<color=#ffffff>斬撃</color>威力提升 ，造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+35%"
+                },
+                {
+                    "abilityID": 20331,
+                    "simpleDesc": "額外造成(<color=#ffffff>自身</color>的呼吸法 強度)点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 2034,
+            "name": "破損的斗笠",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于剣契組的人格不低于3名，則触発該效果。(以参戦人員為基准)\n\n<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+50%。\n\n属于剣契組，且帯有[Breath]的<color=#ffffff>友方単位</color><color=#ffffff>暴撃</color>率固定為100%。\n\n属于剣契組的<color=#ffffff>友方単位</color><color=#ffffff>暴撃</color>倍率増加至1.5倍",
+            "simpleDesc": [
+                {
+                    "abilityID": 2034,
+                    "simpleDesc": "造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+50%"
+                },
+                {
+                    "abilityID": 20341,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>率固定為100%"
+                },
+                {
+                    "abilityID": 20342,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>倍率増加至1.5倍"
+                }
+            ]
+        },
+        {
+            "id": 2035,
+            "name": "陳旧的長袍",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于剣契組的人格不低于3名，則触発該效果。(以参戦人員為基准)\n\n<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+50%。\n\n属于剣契組的<color=#ffffff>友方単位</color>1技能的<color=#ffffff>硬幣威力</color>+1，若該技能為単硬幣技能，則改為<color=#ffffff>硬幣威力</color>+3。\n\n[剣契組 頭領 默尓索専属] 技能“肉斬”的拼点<color=#ffffff>最終威力</color>-12，技能“骨断”造成的<color=#ffffff>傷害</color>+50%。",
+            "simpleDesc": [
+                {
+                    "abilityID": 2035,
+                    "simpleDesc": "造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+50%"
+                },
+                {
+                    "abilityID": 20351,
+                    "simpleDesc": "1技能的<color=#ffffff>硬幣威力</color>増加"
+                },
+                {
+                    "abilityID": 20352,
+                    "simpleDesc": "技能“肉斬”的拼点<color=#ffffff>最終威力</color>-12，技能“骨断”造成的<color=#ffffff>傷害</color>+50%"
+                }
+            ]
+        }
+    ]
+}
