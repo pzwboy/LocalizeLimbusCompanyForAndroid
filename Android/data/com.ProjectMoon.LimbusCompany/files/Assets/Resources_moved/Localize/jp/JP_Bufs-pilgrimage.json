@@ -1,0 +1,148 @@
+{
+    "dataList": [
+        {
+            "id": "NetherseaBrand",
+            "name": "溟痕",
+            "desc": "每經過1回合，溟痕的影響范圍会向罪人陣営拡散\n- 1階段：恐魚陣営\n- 2階段：最靠前的2名罪人\n- 3階段：最靠前的5名罪人\n- 4階段：<color=#ffffff>全体</color>罪人",
+            "summary": "每經過1回合，溟痕就会拡散"
+        },
+        {
+            "id": "NetherseaBrandUnit",
+            "name": "溟痕",
+            "desc": "- 位于溟痕上的罪人在<color=#7C5738>回合結束</color>時受到<color=#61DA61>体力</color>上限5%的固定<color=#ffffff>傷害</color>并対其施加3層神經損傷\n- 位于溟痕上的恐魚対罪人施加的神經損傷層数大幅増加\n- 每經過1回合，溟痕的影響范圍会向罪人陣営拡散\n· 1階段：恐魚陣営\n· 2階段：最靠前的2名罪人\n· 3階段：最靠前的5名罪人\n· 4階段：<color=#ffffff>全体</color>罪人",
+            "summary": "位于溟痕上的<color=#ffffff>友方単位</color>受到固定<color=#ffffff>傷害</color>并対其施加神經損傷\n位于溟痕上的<color=#ffffff>敵方単位</color>対<color=#ffffff>友方単位</color>施加的神經損傷層数大幅増加"
+        },
+        {
+            "id": "SeaTerrorCell",
+            "name": "恐魚同化",
+            "desc": "- 最大値：5\n- <color=#7C5738>回合開始</color>時，本效果層数増加1層\n- 每帯有1層本效果，対<color=#ffffff>自身</color>施加1層攻撃等級降低 与1層防御等級降低 \n- <color=#7C5738>回合結束</color>時，若友方罪人帯有5層本效果，則使其脱离戦場\n- 帯有本效果的友方罪人若在<color=#ffffff>戦斗開始</color>時装備了守備技能，則<color=#7C5738>回合結束</color>時使其脱离戦場",
+            "summary": "根据本效果層数，対<color=#ffffff>自身</color>施加相應層数的攻撃等級降低 与防御等級降低 "
+        },
+        {
+            "id": "NervousImpairment",
+            "name": "神經損傷",
+            "desc": "- 最大値：30\n- 若本效果層数為30層，則使<color=#ffffff>自身</color>陷入混乱并受到<color=#61DA61>体力</color>上限25%的固定<color=#ffffff>傷害</color>，并解除本效果",
+            "summary": "陷入混乱并受到大量<color=#61DA61>体力</color><color=#ffffff>傷害</color>"
+        },
+        {
+            "id": "WaitingforCommandMod",
+            "name": "待命状態",
+            "desc": "- 処于待命状態時，直到受到<color=#ffffff>傷害</color>前不会使用攻撃技能",
+            "summary": "処于待命状態時，直到受到<color=#ffffff>傷害</color>前不会使用攻撃技能"
+        },
+        {
+            "id": "ParticipationMod",
+            "name": "臨戦状態",
+            "desc": "- 受到<color=#ffffff>傷害</color>時，進入使用攻撃技能的状態\n- <color=#7C5738>回合開始</color>時若処于臨戦状態，則\n· 対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加3層神經損傷 \n· 最小与最大<color=#7C5737>速度値</color>+3\n· 每失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 (最多8層)\n- <color=#7C5738>回合結束</color>時若処于臨戦状態，則受到<color=#61DA61>体力</color>上限10%的固定<color=#ffffff>傷害</color>",
+            "summary": "受到<color=#ffffff>傷害</color>時，進入使用攻撃技能的状態"
+        },
+        {
+            "id": "AbyssalVitality",
+            "name": "深海的生命力",
+            "desc": "- 最大値：100\n- 特定技能使用時消耗\n- 消耗本效果時，使<color=#ffffff>自身</color>恢復相当于消耗量的<color=#81BBE8>理智値</color>",
+            "summary": "特定技能使用時消耗\n- 消耗本效果時，使<color=#ffffff>自身</color>恢復相当于消耗量的<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": "IndelibleGoodwill",
+            "name": "无法抹去的善意",
+            "desc": "- <color=#7C5738>回合結束</color>時<color=#ffffff>自身</color>不会失去<color=#81BBE8>護盾</color>(不包括因受到<color=#ffffff>傷害</color>或特定效果而失去<color=#81BBE8>護盾</color>)\n- <color=#81BBE8>護盾</color>受到攻撃并被破坏時，使<color=#ffffff>自身</color>陷入混乱，直到<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加5層<color=#ffffff>易損</color> \n- 因<color=#ffffff>混乱閾値</color>前移而陷入混乱時，直到<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加5層<color=#ffffff>易損</color> \n- 本效果施加的<color=#ffffff>易損</color> 不会畳加\n- <color=#ffffff>自身</color>獲得的<color=#81BBE8>護盾</color>可畳加，帯有本效果時，<color=#ffffff>自身</color>帯有的<color=#81BBE8>護盾</color>不能超過<color=#61DA61>体力</color>上限的50%\n- 本效果視作“<color=#81BBE8>護盾</color>管理”效果(獲得不同的<color=#81BBE8>護盾</color>管理效果時会被替換)",
+            "summary": "<color=#7C5738>回合結束</color>時不会失去<color=#81BBE8>護盾</color>\n<color=#81BBE8>護盾</color>被破坏時被大幅削弱"
+        },
+        {
+            "id": "ColdAirDOQ",
+            "name": "寒冷",
+            "desc": "- 最大値：3\n- 每帯有1層寒冷 ，使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>-1\n- 技能結束時，若本效果層数為3層，則受到20点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>与20点理智<color=#ffffff>傷害</color>，<color=#7C5738>本回合</color>与<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層凍結 。所有效果触発后解除<color=#ffffff>自身</color>的寒冷 \n- <color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>未攻撃最后的騎士，則解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "FreezingDOQ",
+            "name": "凍結",
+            "desc": "- 特殊寒冷\n- <color=#7C5738>本回合</color>无法行動\n- <color=#61DA61>体力</color>為1点時，特定技能无法生效",
+            "summary": ""
+        },
+        {
+            "id": "BloodborneDOQ",
+            "name": "騎士骨血",
+            "desc": "受到的<color=#ffffff>傷害</color>+80%",
+            "summary": ""
+        },
+        {
+            "id": "WeakenDOQ",
+            "name": "苦厄灾難",
+            "desc": "- 攻撃等級-？？\n- 防御等級-？？",
+            "summary": ""
+        },
+        {
+            "id": "DOQ_LowMorale",
+            "name": "蜂巢意識",
+            "desc": "所有抗性変為一般",
+            "summary": "所有抗性変為一般"
+        },
+        {
+            "id": "DOQ_Panic",
+            "name": "蜂巢意識",
+            "desc": "所有抗性変為一般\n技能使<color=#ffffff>自身</color>増加的焼傷 、流血 、震顫 与破裂 強度変為2倍",
+            "summary": "所有抗性変為一般\n技能使<color=#ffffff>自身</color>増加的焼傷 、流血 、震顫 与破裂 強度変為2倍"
+        },
+        {
+            "id": "CallOfSea_LowMorale",
+            "name": "同族的呼喚",
+            "desc": "<color=#7C5738>回合結束</color>時，消耗<color=#ffffff>自身</color>3%的<color=#61DA61>体力</color>，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得1層強壮 并対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "消耗<color=#61DA61>体力</color>并使<color=#ffffff>友方単位</color>獲得強壮 与<color=#ffffff>易損</color> "
+        },
+        {
+            "id": "CallOfSea_Panic",
+            "name": "同族的呼喚",
+            "desc": "<color=#7C5738>回合結束</color>時，消耗<color=#ffffff>自身</color>5%的<color=#61DA61>体力</color>并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得1層強壮 并対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "消耗<color=#61DA61>体力</color>并使<color=#ffffff>友方単位</color>獲得強壮 与<color=#ffffff>易損</color> "
+        },
+        {
+            "id": "BitOfEmotion",
+            "name": "情感共享",
+            "desc": "- 攻撃命中<color=#ffffff>敵方単位</color>時，以(50/硬幣数)%的概率獲得使用的技能対應属性的1个E.G.O資源\n- <color=#ffffff>友方単位</color>的攻撃技能結束后，若<color=#ffffff>敵方単位</color>陣亡，則随机獲得持有量最少的2个E.G.O資源\n- 本場戦斗中，使用以下E.G.O技能時，獲得消耗的E.G.O資源各1个(使用超頻技能改為獲得各2个)\n· 宁作吾 鴻璐\n· 指令：熔毀 浮士德\n· 未照耀的栄光 格里高尓\n· 涌潮悲歌 以實瑪利",
+            "summary": "攻撃命中或<color=#ffffff>敵方単位</color>陣亡時，獲得E.G.O資源\n使用特定的E.G.O技能時，獲得E.G.O資源"
+        },
+        {
+            "id": "WildernessSurvivalModule",
+            "name": "小帮手-野外維生単元",
+            "desc": "- <color=#61DA61>体力</color>上限+20%，通過技能、被動与状態效果恢復的<color=#61DA61>体力</color>+40%",
+            "summary": "<color=#61DA61>体力</color>上限与恢復的<color=#61DA61>体力</color>増加"
+        },
+        {
+            "id": "HousekeepingAssistantModule",
+            "name": "小帮手-家政輔助模塊",
+            "desc": "- 触発圣徒之手時，<color=#7C5738>下回合</color>額外触発1次\n- <color=#7C5738>回合開始</color>時，獲得層数相当于本場戦斗中圣徒之手清洗溟痕 次数的攻撃等級提升 与防御等級提升 (分別最多4層)",
+            "summary": "触発圣徒之手時，<color=#7C5738>下回合</color>額外触発1次\n獲得層数相当于清洗溟痕 次数的攻撃等級提升 与防御等級提升 "
+        },
+        {
+            "id": "IncrementalMotionFirmware",
+            "name": "小帮手-運動増量固件",
+            "desc": "- 移除<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的最靠前的1条<color=#ffffff>混乱閾値</color>\n- 最多1次，陷入混乱時，<color=#7C5738>下回合</color>開始時解除<color=#ffffff>自身</color>的混乱",
+            "summary": "移除<color=#ffffff>混乱閾値</color>\n陷入混乱時，<color=#7C5738>下回合</color>解除<color=#ffffff>自身</color>的混乱"
+        },
+        {
+            "id": "MiniDecontaminationKit",
+            "name": "小帮手-迷袮去汚套組",
+            "desc": "- 溟痕 不再対<color=#ffffff>友方単位</color>造成<color=#ffffff>傷害</color>或施加神經損傷 ",
+            "summary": "溟痕 不再対<color=#ffffff>友方単位</color>造成<color=#ffffff>傷害</color>或施加神經損傷 "
+        },
+        {
+            "id": "ExternalUpgradeModule",
+            "name": "小帮手-外置強力升級",
+            "desc": "- 獲得本效果的3回合内，<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得2層威力提升 与2層傷害強化 (解除待命的人格从解除待命的回合起生效)",
+            "summary": "獲得本效果的3回合内獲得威力提升 与傷害強化 "
+        },
+        {
+            "id": "DesireToSave_LowMorale",
+            "name": "善意之心",
+            "desc": "- 造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的神經損傷 層数/2)%(最多+15%)\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層傷害強化 并対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> ",
+            "summary": "根据<color=#ffffff>目標</color>的神經損傷層数相應増加造成的<color=#ffffff>傷害</color>"
+        },
+        {
+            "id": "DesireToSave_Panic",
+            "name": "善意之心",
+            "desc": "- 造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的神經損傷層数)%(最多+30%)\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層傷害強化 并対<color=#ffffff>自身</color>施加3層<color=#ffffff>易損</color> ",
+            "summary": "根据<color=#ffffff>目標</color>的神經損傷層数相應増加造成的<color=#ffffff>傷害</color>"
+        }
+    ]
+}

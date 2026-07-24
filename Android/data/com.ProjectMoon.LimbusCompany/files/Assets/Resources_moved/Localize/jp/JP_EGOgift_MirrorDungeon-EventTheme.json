@@ -1,0 +1,469 @@
+{
+    "dataList": [
+        {
+            "id": 9701,
+            "name": "火熱多汁琵琶腿",
+            "desc": "通過技能效果対<color=#ffffff>敵方単位</color>施加[Combustion]時，額外施加3層[Combustion](<color=#7C5738>每回合</color>最多3次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9701,
+                    "simpleDesc": "通過技能效果施加[Combustion]時，額外施加3層[Combustion]"
+                }
+            ]
+        },
+        {
+            "id": 9702,
+            "name": "干巴柴澀鶏胸肉",
+            "desc": "通過技能效果対<color=#ffffff>敵方単位</color>施加[Burst]時，額外施加3層[Burst](<color=#7C5738>每回合</color>最多3次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9702,
+                    "simpleDesc": "通過技能效果施加[Burst]時，額外施加3層[Burst]"
+                }
+            ]
+        },
+        {
+            "id": 9703,
+            "name": "探戈鶏醤料",
+            "desc": "若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則使<color=#ffffff>拼点威力</color>+(<color=#7C5737>速度値</color>/3) (最多+3)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9703,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>+(<color=#7C5737>速度値</color>/3)"
+                }
+            ]
+        },
+        {
+            "id": 9704,
+            "name": "臓汚的針与綫",
+            "desc": "以下效果僅対<color=#7C5738>每回合</color>中首个対<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>的技能生效。\n\n使<color=#ffffff>目標</color>増加(<color=#ffffff>傷害</color>量/3)級[Laceration]強度。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9704,
+                    "simpleDesc": "使<color=#ffffff>目標</color>増加(<color=#ffffff>傷害</color>量/3)級[Laceration]強度"
+                }
+            ]
+        },
+        {
+            "id": 9705,
+            "name": "鋭利的針与綫",
+            "desc": "<color=#7C5738>每回合</color>中首次使用技能対<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>后，対其額外造成(<color=#ffffff>傷害</color>量/2)点固定<color=#ffffff>傷害</color>。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9705,
+                    "simpleDesc": "額外造成(<color=#ffffff>傷害</color>量/2)的固定<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9706,
+            "name": "沾染油汚的板手",
+            "desc": "<color=#ffffff>打撃</color>技能造成的<color=#ffffff>傷害</color>+10%\n\n<color=#ffffff>打撃</color>技能最后一枚硬幣命中時，使<color=#ffffff>目標</color>増加2級[Vibration]強度。(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9706,
+                    "simpleDesc": "<color=#ffffff>打撃</color>技能造成的<color=#ffffff>傷害</color>+10%"
+                },
+                {
+                    "abilityID": 97061,
+                    "simpleDesc": "使<color=#ffffff>目標</color>増加2級[Vibration]強度。"
+                }
+            ]
+        },
+        {
+            "id": 9707,
+            "name": "閃光廃料",
+            "desc": "若<color=#ffffff>友方単位</color>帯有<color=#81BBE8>護盾</color>時受到<color=#ffffff>敵方単位</color>攻撃，則反彈3点固定<color=#ffffff>傷害</color>。(<color=#81BBE8>護盾</color>没有受到<color=#ffffff>傷害</color>時不反彈<color=#ffffff>傷害</color>)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9707,
+                    "simpleDesc": "反彈3点固定<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9708,
+            "name": "廃料蟹脳髓泡酒",
+            "desc": "<color=#ffffff>友方単位</color>増加[Burst]強度或施加[Burst]層数的技能攻撃帯有[Burst]的<color=#ffffff>敵方単位</color>時，造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的[Burst]層数×1.25)%(最多+50%)。\n\n<color=#ffffff>友方単位</color>解除混乱時，使其恢復其<color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>(每場戦斗最多2次)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9708,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的[Burst]層数×1.25)%(最多+50%)"
+                },
+                {
+                    "abilityID": 97081,
+                    "simpleDesc": "恢復其<color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>"
+                }
+            ]
+        },
+        {
+            "id": 9709,
+            "name": "毛球帽",
+            "desc": "<color=#7C5738>回合結束</color>時，<color=#ffffff>友方単位</color>每有1个攻撃技能造成了<color=#ffffff>傷害</color>，<color=#7C5738>下回合</color>使其増加1級[Breath]強度。\n\n若是<color=#ffffff>集中遭遇戦</color>，則改為増加3級[Breath]強度。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9709,
+                    "simpleDesc": "増加1級[Breath]強度"
+                },
+                {
+                    "abilityID": 97091,
+                    "simpleDesc": "増加3級[Breath]強度"
+                }
+            ]
+        },
+        {
+            "id": 9710,
+            "name": "巨大的礼物袋",
+            "desc": "<color=#7C5738>回合開始</color>時，使現存<color=#61DA61>体力</color>最低的<color=#ffffff>友方単位</color>増加2級[Breath]強度并使其獲得2層[Breath]与2層[Protection]。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9710,
+                    "simpleDesc": "増加2級[Breath]強度并獲得2層[Breath]与2層[Protection]"
+                }
+            ]
+        },
+        {
+            "id": 9711,
+            "name": "悲傷的毛絨玩偶",
+            "desc": "<color=#ffffff>友方単位</color>造成的<color=#ffffff>傷害</color>+(該単位<color=#81BBE8>理智値</color>的絶対値/1.5)%(最少+0%)\n\n当擁有加算硬幣技能的<color=#ffffff>友方単位</color>解除混乱時，使其恢復全部<color=#81BBE8>理智値</color>(不対侵蝕的単位生效)。\n\n<color=#7C5738>回合開始</color>時，対擁有的技能全部為減算硬幣技能的<color=#ffffff>友方単位</color>施加3層[Paralysis]。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9711,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+(該単位<color=#81BBE8>理智値</color>的絶対値/1.5)%(最低0%)"
+                },
+                {
+                    "abilityID": 97111,
+                    "simpleDesc": "解除混乱時，恢復全部<color=#81BBE8>理智値</color>"
+                },
+                {
+                    "abilityID": 97112,
+                    "simpleDesc": "<color=#7C5738>回合開始</color>時，施加3層[Paralysis]"
+                }
+            ]
+        },
+        {
+            "id": 9712,
+            "name": "黑色帳簿",
+            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，根据<color=#ffffff>敵方単位</color>数，随机獲得相應个数的E.G.O資源。\n\n若参与本場戦斗的属于剣契組或黑云会的人格不低于4名(以参戦人員為基准)，則改為獲得持有量最少的E.G.O資源。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9712,
+                    "simpleDesc": "随机獲得E.G.O資源"
+                },
+                {
+                    "abilityID": 97121,
+                    "simpleDesc": "獲得持有量最少的E.G.O資源"
+                }
+            ]
+        },
+        {
+            "id": 9713,
+            "name": "鏽蝕的刀柄",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得1層<color=#ffffff>斬撃</color>威力提升 。\n\n属于剣契組或黑云会的<color=#ffffff>友方単位</color>改為獲得2層<color=#ffffff>斬撃</color>威力提升 。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9713,
+                    "simpleDesc": "獲得1層<color=#ffffff>斬撃</color>威力提升 "
+                },
+                {
+                    "abilityID": 97131,
+                    "simpleDesc": "獲得2層<color=#ffffff>斬撃</color>威力提升 "
+                }
+            ]
+        },
+        {
+            "id": 9714,
+            "name": "破碎的刀刃",
+            "desc": "本場戦斗中，首次通過攻撃技能效果使<color=#ffffff>敵方単位</color>増加[Laceration]強度或施加<color=#E40302>特殊流血</color>時，額外対其施加2層[Laceration]。（每場戦斗最多1次）\n\n若為属于黑云会的<color=#ffffff>友方単位</color>，則改為首次対<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>時，額外使其増加4級[Laceration]強度并対其施加4層[Laceration]。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9714,
+                    "simpleDesc": "額外施加2層[Laceration]"
+                },
+                {
+                    "abilityID": 97141,
+                    "simpleDesc": "額外増加4級[Laceration]強度并施加4層[Laceration]"
+                }
+            ]
+        },
+        {
+            "id": 9715,
+            "name": "損坏的刀刃",
+            "desc": "<color=#ffffff>友方単位</color>対<color=#ffffff>敵方単位</color>造成<color=#ffffff>暴撃</color>時，対<color=#ffffff>目標</color>額外造成(<color=#ffffff>自身</color>的[Breath]強度/3)点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>。\n\n若該<color=#ffffff>友方単位</color>属于剣契組，則改為<color=#ffffff>暴撃</color>時対<color=#ffffff>目標</color>額外造成(<color=#ffffff>自身</color>的[Breath]強度/2)点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9715,
+                    "simpleDesc": "額外造成(<color=#ffffff>自身</color>的[Breath]強度/3)点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>"
+                },
+                {
+                    "abilityID": 97151,
+                    "simpleDesc": "額外造成(<color=#ffffff>自身</color>的[Breath]強度/2)点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9716,
+            "name": "紅色流蘇",
+            "desc": "若<color=#ffffff>敵方単位</color>的<color=#ffffff>斬撃</color>抗性不高于1.5，則使其<color=#ffffff>斬撃</color>抗性+0.3",
+            "simpleDesc": [
+                {
+                    "abilityID": 9716,
+                    "simpleDesc": "<color=#ffffff>斬撃</color>抗性+0.3"
+                }
+            ]
+        },
+        {
+            "id": 9717,
+            "name": "壮観",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于黑云会的人格不低于3名，則触発該效果。(以参戦人員為基准)\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層<color=#ffffff>斬撃</color>威力提升 并使其造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+35%。\n\n<color=#7C5738>回合開始</color>時，属于黑云会的人格首次造成<color=#ffffff>傷害</color>時，額外使<color=#ffffff>目標</color>増加4級[Laceration]強度并対其施加4層[Laceration]。(<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9717,
+                    "simpleDesc": "獲得2層<color=#ffffff>斬撃</color>威力提升 ，造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+35%"
+                },
+                {
+                    "abilityID": 97171,
+                    "simpleDesc": "額外増加4級[Laceration]強度并施加4層[Laceration]"
+                }
+            ]
+        },
+        {
+            "id": 9718,
+            "name": "不動",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于剣契組的人格不低于3名，則触発該效果。(以参戦人員為基准)\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>獲得2層<color=#ffffff>斬撃</color>威力提升 并使其造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+35%。\n\n属于剣契組的人格造成<color=#ffffff>暴撃</color>時，対<color=#ffffff>目標</color>額外造成(<color=#ffffff>自身</color>的[Breath]強度)点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9718,
+                    "simpleDesc": "獲得2層<color=#ffffff>斬撃</color>威力提升 ，造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+35%"
+                },
+                {
+                    "abilityID": 97181,
+                    "simpleDesc": "額外造成(<color=#ffffff>自身</color>的[Breath]強度)点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9719,
+            "name": "破損的斗笠",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于剣契組的人格不低于3名，則触発該效果。(以参戦人員為基准)\n\n<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+50%。\n\n属于剣契組，且帯有[Breath]的<color=#ffffff>友方単位</color><color=#ffffff>暴撃</color>率固定為100%。\n\n属于剣契組的<color=#ffffff>友方単位</color><color=#ffffff>暴撃</color>倍率増加至1.5倍",
+            "simpleDesc": [
+                {
+                    "abilityID": 9719,
+                    "simpleDesc": "造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+50%"
+                },
+                {
+                    "abilityID": 97191,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>率固定為100%"
+                },
+                {
+                    "abilityID": 97192,
+                    "simpleDesc": "<color=#ffffff>暴撃</color>倍率増加至1.5倍"
+                }
+            ]
+        },
+        {
+            "id": 9720,
+            "name": "陳旧的長袍",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于剣契組的人格不低于3名，則触発該效果。(以参戦人員為基准)\n\n<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+50%。\n\n属于剣契組的<color=#ffffff>友方単位</color>1技能的<color=#ffffff>硬幣威力</color>+1，若該技能為単硬幣技能，則改為<color=#ffffff>硬幣威力</color>+3。\n\n[剣契組 頭領 默尓索専属] 装備了技能“肉斬”的回合内，<color=#ffffff>自身</color>不会陷入混乱，技能“肉斬”的拼点<color=#ffffff>最終威力</color>-36，技能“骨断”造成的<color=#ffffff>傷害</color>+50%。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9720,
+                    "simpleDesc": "造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+50%"
+                },
+                {
+                    "abilityID": 97201,
+                    "simpleDesc": "1技能的<color=#ffffff>硬幣威力</color>増加"
+                },
+                {
+                    "abilityID": 97202,
+                    "simpleDesc": "技能“肉斬”的拼点<color=#ffffff>最終威力</color>-24，技能“骨断”造成的<color=#ffffff>傷害</color>+50%"
+                }
+            ]
+        },
+        {
+            "id": 9721,
+            "name": "銀色的表殻",
+            "desc": "増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的攻撃技能(不包括E.G.O技能)対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%\n\n若該技能<color=#7C5738>本回合</color>首次使<color=#ffffff>敵方単位</color>[VibrationExplosion]，則<color=#7C5738>下回合</color>対其施加2層[Vibration](<color=#7C5738>每回合</color>最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9721,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+10%"
+                },
+                {
+                    "abilityID": 97211,
+                    "simpleDesc": "<color=#7C5738>下回合</color>施加2層[Vibration]"
+                }
+            ]
+        },
+        {
+            "id": 9722,
+            "name": "褪色的表殻",
+            "desc": "与<color=#7C5737>速度値</color>高于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1。\n\n対<color=#7C5737>速度値</color>高于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>時，<color=#7C5738>下回合</color>使該<color=#ffffff>敵方単位</color>増加3級[Vibration]強度并対其施加2層[Vibration](<color=#7C5738>每回合</color>最多1次)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9722,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>+1"
+                },
+                {
+                    "abilityID": 97221,
+                    "simpleDesc": "<color=#7C5738>下回合</color>増加3級[Vibration]強度并施加2層[Vibration]"
+                }
+            ]
+        },
+        {
+            "id": 9723,
+            "name": "警告函",
+            "desc": "<color=#7C5738>回合結束</color>時，対<color=#7C5737>速度値</color>最高的1名<color=#ffffff>敵方単位</color>在<color=#7C5738>下回合</color>施加1層[Binding](若是異想体，則改為1个<color=#ffffff>部位</color>)。\n\n若<color=#ffffff>目標</color>帯有[Vibration]或<color=#E40302>特殊震顫</color>，則改為施加2層[Binding]。\n\n<color=#ffffff>友方単位</color>攻撃帯有[Binding]的<color=#ffffff>目標</color>時，造成的<color=#ffffff>傷害</color>+(5+(<color=#ffffff>目標</color>的[Binding]層数×2.5))%(最多+15%)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9723,
+                    "simpleDesc": "<color=#7C5738>下回合</color>施加1層[Binding]"
+                },
+                {
+                    "abilityID": 97231,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+(5+(<color=#ffffff>目標</color>的[Binding]層数×2.5))%"
+                }
+            ]
+        },
+        {
+            "id": 9724,
+            "name": "蝕刻的指針",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，使<color=#7C5737>速度値</color>最低的3名<color=#ffffff>敵方単位</color>増加(9-当前<color=#7C5737>速度値</color>)級[Vibration]強度(最少3級)。\n\n対<color=#7C5738>回合開始</color>時帯有的[Vibration]或<color=#E40302>特殊震顫</color>強度不低于12級的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9724,
+                    "simpleDesc": "増加(9-当前<color=#7C5737>速度値</color>)級[Vibration]強度"
+                },
+                {
+                    "abilityID": 97241,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+10%"
+                }
+            ]
+        },
+        {
+            "id": 9725,
+            "name": "鏽蝕的指針",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，使<color=#7C5737>速度値</color>最高的1名<color=#ffffff>敵方単位</color>増加(9-当前<color=#7C5737>速度値</color>)級[Vibration]強度(最少3級)并対其施加層数相当于該数値一半的[Vibration](向上取整，若是異想体，則改為1个<color=#ffffff>部位</color>)。\n\n受到<color=#7C5738>回合開始</color>時帯有的[Vibration]或<color=#E40302>特殊震顫</color>強度不低于12級的<color=#ffffff>敵方単位</color>的<color=#ffffff>傷害</color>-10%。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9725,
+                    "simpleDesc": "増加(9-当前<color=#7C5737>速度値</color>)級[Vibration]強度并施加層数相当于該数値一半的[Vibration]"
+                },
+                {
+                    "abilityID": 97251,
+                    "simpleDesc": "受到的<color=#ffffff>傷害</color>-10%"
+                }
+            ]
+        },
+        {
+            "id": 9726,
+            "name": "涓滴之杯",
+            "desc": "擁有増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的攻撃技能(不包括E.G.O技能)的<color=#ffffff>友方単位</color>与<color=#ffffff>敵方単位</color>拼点勝利時，使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加2層[Vibration](<color=#7C5738>每回合</color>最多2次)。\n\n属于圣愚的人格改為増加3級[Vibration]強度并施加3層[Vibration](<color=#7C5738>每回合</color>最多3次)\n\n該人格与攻撃等級高于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>拼点時，使該<color=#ffffff>友方単位</color>的<color=#ffffff>拼点威力</color>+2，拼点勝利后造成的<color=#ffffff>傷害</color>+20%。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9726,
+                    "simpleDesc": "増加2級[Vibration]強度并施加2層[Vibration]"
+                },
+                {
+                    "abilityID": 97261,
+                    "simpleDesc": "増加3級[Vibration]強度并施加3層[Vibration]"
+                },
+                {
+                    "abilityID": 97262,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>+2，造成的<color=#ffffff>傷害</color>+20%"
+                }
+            ]
+        },
+        {
+            "id": 9727,
+            "name": "預支時間收据",
+            "desc": "対<color=#7C5737>速度値</color>高于<color=#ffffff>自身</color>至少2点的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+(5+<color=#7C5737>速度値</color>之差×2.5)%(最多+15%)。\n\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color>通過攻撃技能(不包括E.G.O技能)対<color=#7C5737>速度値</color>高于<color=#ffffff>自身</color>至少2点的<color=#ffffff>敵方単位</color>造成了<color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>対該<color=#ffffff>敵方単位</color>施加2層[Binding]与1層[ResultReduction](<color=#7C5738>每回合</color>最多1次)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9727,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+(5+<color=#7C5737>速度値</color>之差×2.5)%"
+                },
+                {
+                    "abilityID": 97271,
+                    "simpleDesc": "<color=#7C5738>下回合</color>施加2層[Binding]与1層[ResultReduction]"
+                }
+            ]
+        },
+        {
+            "id": 9728,
+            "name": "懐表：Type L",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果(不包括E.G.O技能，不包括待命人員)。\n\n<color=#ffffff>友方単位</color>増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的3技能加算<color=#ffffff>硬幣威力</color>+2，造成的<color=#ffffff>傷害</color>+25%。\n- 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(8/硬幣数)，而非加算<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的<color=#ffffff>友方単位</color>通過攻撃技能(包括E.G.O技能)使<color=#ffffff>敵方単位</color>[Switch_Vibration]或[FusionVibration]時，使該<color=#ffffff>敵方単位</color>轉換后的[Vibration]強度与層数変為1.5倍(僅在轉換為其他類型的[Vibration]時生效)并在<color=#7C5738>下回合</color>対該<color=#ffffff>敵方単位</color>施加5層[DefenseDown](<color=#7C5738>每回合</color>最多1次)。\n\n<color=#7C5738>回合開始</color>時，使<color=#7C5737>速度値</color>最少的3名<color=#ffffff>敵方単位</color>増加(12-当前<color=#7C5737>速度値</color>)級[Vibration]強度(最少6級，每个波次最多1次)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9728,
+                    "simpleDesc": "3技能的<color=#ffffff>硬幣威力</color>/<color=#ffffff>基礎威力</color>増加，造成的<color=#ffffff>傷害</color>+25%"
+                },
+                {
+                    "abilityID": 97281,
+                    "simpleDesc": "轉換后的[Vibration]強度与層数変為1.5倍"
+                },
+                {
+                    "abilityID": 97282,
+                    "simpleDesc": "増加(12-当前<color=#7C5737>速度値</color>)級[Vibration]強度"
+                }
+            ]
+        },
+        {
+            "id": 9729,
+            "name": "懐表：Type E",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果(不包括E.G.O技能，不包括待命人員)。\n\n<color=#ffffff>友方単位</color>増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的3技能加算<color=#ffffff>硬幣威力</color>+2，造成的<color=#ffffff>傷害</color>+25%。\n- 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(8/硬幣数)，而非加算<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的<color=#ffffff>友方単位</color>与<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>至少2点的<color=#ffffff>敵方単位</color>拼点時，使該<color=#ffffff>友方単位</color>造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的[Vibration]強度)%(最多+25%)，造成<color=#ffffff>傷害</color>時対<color=#ffffff>目標</color>施加2層[DefenseDown](最多6層)。\n\n<color=#7C5738>回合開始</color>時，使<color=#7C5737>速度値</color>最高的1名<color=#ffffff>敵方単位</color>増加(12-当前<color=#7C5737>速度値</color>)級[Vibration]強度(最少6級)并対其施加層数相当于該数値一半的[Vibration](向上取整，若是異想体，則改為1个<color=#ffffff>部位</color>，每个波次最多1次)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9729,
+                    "simpleDesc": "3技能的<color=#ffffff>硬幣威力</color>/<color=#ffffff>基礎威力</color>増加，造成的<color=#ffffff>傷害</color>+25%"
+                },
+                {
+                    "abilityID": 97291,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的[Vibration]強度)%，造成<color=#ffffff>傷害</color>時施加2層[DefenseDown]"
+                },
+                {
+                    "abilityID": 97292,
+                    "simpleDesc": "増加(12-当前<color=#7C5737>速度値</color>)級[Vibration]強度并施加層数相当于該数値一半的[Vibration]"
+                }
+            ]
+        },
+        {
+            "id": 9730,
+            "name": "懐表：Type Y",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果(不包括E.G.O技能，不包括待命人員)。\n\n<color=#ffffff>友方単位</color>増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的3技能加算<color=#ffffff>硬幣威力</color>+2，造成的<color=#ffffff>傷害</color>+25%。\n- 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(8/硬幣数)，而非加算<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n属于圣愚的人格改為3技能的<color=#ffffff>硬幣威力</color>+2，造成的<color=#ffffff>傷害</color>+(25+(<color=#ffffff>目標</color>的[Vibration]強度与[Vibration]層数之和))%(最多+100%)。\n\n<color=#7C5738>回合開始</color>時，対属于圣愚的人格施加3層[Vibration]。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9730,
+                    "simpleDesc": "3技能的<color=#ffffff>硬幣威力</color>/<color=#ffffff>基礎威力</color>増加，造成的<color=#ffffff>傷害</color>+25%"
+                },
+                {
+                    "abilityID": 97301,
+                    "simpleDesc": "3技能的<color=#ffffff>硬幣威力</color>+2，造成的<color=#ffffff>傷害</color>+(25+<color=#ffffff>目標</color>的[Vibration]強度与層数之和)%"
+                },
+                {
+                    "abilityID": 97302,
+                    "simpleDesc": "施加3層[Vibration]"
+                }
+            ]
+        },
+        {
+            "id": 9731,
+            "name": "懐表：Type P",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果(不包括E.G.O技能，不包括待命人員)。\n\n<color=#ffffff>友方単位</color>増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的3技能加算<color=#ffffff>硬幣威力</color>+2，造成的<color=#ffffff>傷害</color>+25%。\n- 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(8/硬幣数)，而非加算<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n増加[Vibration]強度，施加[Vibration]層数或施加<color=#E40302>特殊震顫</color>的<color=#ffffff>友方単位</color>与<color=#7C5737>速度値</color>高于<color=#ffffff>自身</color>至少2点的<color=#ffffff>敵方単位</color>拼点時，使該<color=#ffffff>友方単位</color>的<color=#ffffff>拼点威力</color>+2，造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的[Vibration]強度)%(最多+50%)。\n\n<color=#7C5738>回合開始</color>時，使<color=#7C5737>速度値</color>最少的3名<color=#ffffff>友方単位</color>按<color=#7C5737>速度値</color>由低到高分別獲得5層[AttackUp]，3層[AttackUp]与2層[AttackUp]。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9731,
+                    "simpleDesc": "3技能的<color=#ffffff>硬幣威力</color>/<color=#ffffff>基礎威力</color>増加，造成的<color=#ffffff>傷害</color>+25%"
+                },
+                {
+                    "abilityID": 97311,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>+2，造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的[Vibration]強度)%"
+                },
+                {
+                    "abilityID": 97312,
+                    "simpleDesc": "獲得[AttackUp]"
+                }
+            ]
+        }
+    ]
+}

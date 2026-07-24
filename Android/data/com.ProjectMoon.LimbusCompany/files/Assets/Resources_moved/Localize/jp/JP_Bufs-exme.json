@@ -1,0 +1,220 @@
+{
+    "dataList": [
+        {
+            "id": "ScratchesHurt",
+            "name": "撕裂的傷口",
+            "desc": "- 最大値：3\n- <color=#7C5738>回合開始</color>時，每帯有1層本效果，使<color=#ffffff>自身</color>増加2級流血強度 \n· 若本效果層数為最大値，則額外対<color=#ffffff>自身</color>施加1層流血 \n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加層数相当于本效果層数的束縛 \n· 若本效果層数為最大値，則<color=#7C5738>下回合</color>額外対<color=#ffffff>自身</color>施加1層虚弱 \n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color><color=#7C5738>本回合</color>未受到<color=#ffffff>暴撃</color><color=#ffffff>傷害</color>，則本效果層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TiedRope",
+            "name": "捕縛",
+            "desc": "- 基礎値：3\n- <color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為1\n- <color=#ffffff>自身</color>基礎技能的<color=#ffffff>硬幣威力</color>固定為0点\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層\n- 若施加者帯有的“押送准備”效果解除，則解除本效果",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "下位者抓捕下位者，并向上移交。"
+        },
+        {
+            "id": "TiedWithRope",
+            "name": "押送准備",
+            "desc": "- 基礎値：1\n- 正在捕縛{0}\n- <color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為1\n- 若<color=#ffffff>自身</color>対<color=#ffffff>目標</color>施加的捕縛效果解除，或<color=#ffffff>自身</color>(推奴人)陣亡或陷入混乱，則解除本效果\n- 若<color=#ffffff>自身</color>施加捕縛的<color=#ffffff>目標</color>在<color=#7C5738>本回合</color>陣亡，則解除“押送准備”效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RegretSCorp",
+            "name": "刺痛的記憶",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層束縛 \n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(当前回合数/4)層<color=#ffffff>拼点威力</color>提升 (向下取整，最多3層)\n- <color=#7C5738>回合結束</color>時，解除本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "TakePicture",
+            "name": "獲取情报",
+            "desc": "- 使用与被拍攝的技能相同級別的技能時，<color=#ffffff>拼点威力</color>-5\n(※ 守備技能与E.G.O技能分別計算)\n({0})\n- <color=#7C5738>回合結束</color>時，解除本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LensmanNail",
+            "name": "定格尖釘",
+            "desc": "- 最大値：10\n- <color=#7C5738>回合開始</color>時，每帯有2層束縛 ，対<color=#ffffff>自身</color>施加1層攻撃等級降低 (最多3層)\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>増加相当于本效果層数的流血 強度\n- 被震顫引爆 時，対<color=#ffffff>自身</color>施加層数相当于本效果層数的流血 (<color=#7C5738>每回合</color>最多1次)\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加相当于本效果層数的束縛 (最多6層)，随后本效果層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "PhotoTransition",
+            "name": "記憶轉換",
+            "desc": "- 基礎値：3\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層。<color=#7C5738>回合開始</color>時若本效果層数為0層，則改変特定単位与效果\n(若陷入混乱，則解除混乱)\n\n- 以上效果発動后，使記憶轉換的層数重置為基礎値",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "AengduNewArm",
+            "name": "鬼怪之臂",
+            "desc": "- 基礎攻撃等級+4\n- 基礎防御等級+4\n- 受到的<color=#ffffff>傷害</color>-20%\n- 使用技能時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層迅捷 (<color=#7C5738>每回合</color>最多2次)\n- <color=#7C5738>戦斗結束</color>時，使<color=#ffffff>自身</color>獲得2層呼吸法 ",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“……鬼怪之臂？袮是説那个經常出現在古代傳説中的鬼怪麼？唔……”\n“雖然不太相信，但想到在辺獄公司的工作經暦，就算民間傳説里的鬼怪真的存在也不奇怪叭。”\n“説起来，鬼怪部隊……我好像听説過這个名字。”"
+        },
+        {
+            "id": "WindBlade",
+            "name": "墨工坊-鋭 二式拔刀/動力：鬼怪之火",
+            "desc": "- 最大値：20\n- 每帯有1層本效果，使<color=#ffffff>自身</color>造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+1%(最多+10%)\n- 每帯有2層本效果，使<color=#ffffff>自身</color>守備技能的<color=#ffffff>拼点威力</color>-1(最多-5)\n- <color=#7C5738>回合結束</color>時，每帯有5層本效果，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層迅捷 (最多3層)",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“什么？袮喜歓那个型号麼？我們小老末的眼光很不錯嘛？店長~這个型号可以試一下麼？欸~当然拉！弄坏的話我們会付銭的，不必担心！嘿嘿。我不是説過了嘛？因為是常客所以這種事<color=#7C5738>完全</color>没問題拉~剣和剣鞘是一套的，一并拿起来叭。怎么様，比看上去要輕不少叭？”\n“奥……”\n“墨工坊持有専利的那个粒子？還是粉末来着？反正是那一類的東西，被放進了這个剣鞘里。所以每次收回后再拔出時，剣刃都会変得特別鋒利，剣也会在瞬間変得很輕。其中把重点放在提高鋒鋭度上的型号，就是現在小老末手里拿着的這一把咯。總之，每次拔剣出鞘的時候，都有一種叮~一声加上了BUFF的感覚！”\n“這把應該是墨工坊經典型号之一，鋭系列中的一款！从這个后処理来看的話……什么？！這不是已經停産的鋭 二式麼？！這可是很難弄到手的東西，没想到這里居然還有一把？！”\n“是那么貴重的物品麼？那么，不如就由小姐宁来使用它……”\n“唔唔唔……不用！不管怎么看都是為小老末袮設計的東西！和義手的推進功能也很适配。用順手可能要花上一点時間，不過如果能用好的話，以后到那儿都不会比別人遜色的呵？總之，就当作是慶祝从臨時成員正式成為小老末的紀念，前輩買給袮的！”\n“那么……我便満懐感激地收下了。”\n“啊。不愧是經典款，結實是真劬結實的，不過還是有些精細的部分，小心別把它弄坏了……不，弄坏了倒也没関系。只是……”\n“別死了。”\n“……這句話，我会深深銘記在心。”"
+        },
+        {
+            "id": "Collage_LowMorale",
+            "name": "混雑的記憶",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1~3層攻撃等級提升 并対<color=#ffffff>自身</color>施加1~3層防御等級降低 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Collage_Panic",
+            "name": "混雑的記憶",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1~5層攻撃等級提升 并対<color=#ffffff>自身</color>施加1~5層防御等級降低 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Lensman_LowMorale",
+            "name": "対情报的執念",
+            "desc": "- 与帯有獲取情报 的<color=#ffffff>目標</color>進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Lensman_Panic",
+            "name": "対情报的執念",
+            "desc": "- 与帯有獲取情报 的<color=#ffffff>目標</color>進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+1，造成的<color=#ffffff>傷害</color>+20%\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Aengdu_Lowmorale",
+            "name": "怨恨",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層強壮 并対<color=#ffffff>自身</color>施加1層破綻 \n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層迅捷 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "Aengdu_Panic",
+            "name": "怨恨",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層強壮 并対<color=#ffffff>自身</color>施加2層破綻 \n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層迅捷 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "BrandedKimSatgat",
+            "name": "烙印[奴]",
+            "desc": "- 基礎攻撃等級-？？\n- 基礎防御等級-？？",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DimensionalBagEzraETwo",
+            "name": "次元包-尤里亞工坊",
+            "desc": "从次元包里取出下一件工坊武器\n- 当前工坊武器：尤里亞工坊斧\n- 下件工坊武器：阿拉斯工坊手套",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RestingKimSatgat_LowMorale",
+            "name": "沈溺的悔恨",
+            "desc": "- 士气低落\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加2層<color=#ffffff>傷害</color>弱化 并使<color=#ffffff>自身</color>恢復40点<color=#61DA61>体力</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "RestingKimSatgat_Panic",
+            "name": "沈溺的悔恨",
+            "desc": "- 陷入恐慌\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加3層<color=#ffffff>傷害</color>弱化 并使<color=#ffffff>自身</color>恢復60点<color=#61DA61>体力</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ChoiSwordsmanship",
+            "name": "本国剣術[肉]",
+            "desc": "- 最小値：1，最大値：9\n- 使用技能時，若本效果層数為最小値或最大値，則使自身使用的所有硬幣轉化為<color=#ff6000><mark color=#ff000040><b><u>不可摧毀的硬幣</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>技能的基礎威力与硬幣威力根据本效果層数増減</color></mark></b></u>\n· 1~2層：基礎威力-6，硬幣威力+4\n· 3~4層：基礎威力-3，硬幣威力+2\n· 5層：无效果\n· 6~7層：基礎威力+4，硬幣威力-2\n· 8~9層：基礎威力+8，硬幣威力-3",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ChoiSwordsmanshipOne",
+            "name": "本国姿態-狩熊",
+            "desc": "{0}回合后改変本国姿態\n使用由<color=#ff6000><mark color=#ff000040><b><u>単硬幣</color></mark></b></u>技能構成的模式\n\n本国剣術[肉] 的層数<color=#ff6000><mark color=#ff000040><b><u>越高</color></mark></b></u>，林慶業越具備優勢",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "S公司所在的19区的山中，栖息着各種各様的野獣。\n其中，熊的身躯与力量犹如从懸崖滾落的巨石，在初次交撃中便不能落于下風，必須一撃令其伏首。"
+        },
+        {
+            "id": "ChoiSwordsmanshipMany",
+            "name": "本国姿態-狩虎",
+            "desc": "{0}回合后改変本国姿態\n使用由<color=#ff6000><mark color=#ff000040><b><u>多硬幣</color></mark></b></u>技能構成的模式\n\n本国剣術[肉] 的層数<color=#ff6000><mark color=#ff000040><b><u>越低</color></mark></b></u>，林慶業越具備優勢",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "虎是一種霊慧而凶残的動物。\n没有那只虎会因一撃而斃命。狩虎須以綿綿不絶的連撃扼住虎的气息，断絶它的生命。\n若无法做到這一点，令虎得以幸存，其終有一日会成為山君。\n那時，它将為人帯来的会是霊驗的好運還是凶惡的灾厄，无人能知。"
+        },
+        {
+            "id": "ChoiSwordsmanshipShield",
+            "name": "布面甲[肉]",
+            "desc": "- 最大値：5\n- 獲得本效果時，每獲得1層本效果，獲得相当于自身体力上限10%的護盾(最少1点，向下取整，通過本效果獲得的護盾不会在回合結束時解除)\n- 戦斗開始時，每帯有2層本效果，対自身施加1層防御等級降低 (向上取整)\n- 自身造成的斬撃傷害+(本效果層数×2.5)%\n- <color=#ff6000><mark color=#ff000040><b><u>受到相当于自身体力上限10%的護盾傷害時，本效果層数減少1層</color></mark></b></u>(当前層数減少需要受到的剩余護盾傷害量：{0})",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "PhotoTransitionChoi",
+            "name": "記憶轉換",
+            "desc": "- 基礎値：3\n- 回合結束時，本效果層数減少1層\n- <color=#ff6000><mark color=#ff000040><b><u>回合開始時，若本效果層数為0層，則使自身撤退，并改変戦斗場地</color></mark></b></u>\n- 重返戦斗時，根据自身当前的本国姿態，使自身獲得或失去層数相当于撤退回合数的本国剣術[肉] \n· 本国姿態-狩熊：獲得層数\n· 本国姿態-狩虎：減少層数",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "PhotoTransitionChoiCamera",
+            "name": "記憶轉換",
+            "desc": "- 基礎値：3\n- 回合結束時，本效果層数減少1層\n- <color=#ff6000><mark color=#ff000040><b><u>回合開始時，若本效果層数為0層，則使自身撤退，并改変戦斗場地</color></mark></b></u>\n- 重返戦斗時，根据林慶業当前的本国姿態，使林慶業獲得或失去層数相当于撤退回合数的本国剣術[肉] (当前為{0}回合)\n· 本国姿態-狩熊：獲得層数\n· 本国姿態-狩虎：減少層数",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ChoiSword_LowMorale",
+            "name": "顕影的記憶",
+            "desc": "- 士气低落\n- 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%，<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+15%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "ChoiSword_Panic",
+            "name": "顕影的記憶",
+            "desc": "- 陷入恐慌\n- 対<color=#ffffff>自身</color>施加2層<color=#ffffff>易損</color> ，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%，<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+30%，令本国弓[肉]-放箭的硬幣施加的状態效果変為2倍",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "DimensionalBagEzraDTwo",
+            "name": "次元包-納米尓工坊",
+            "desc": "从次元包里取出下一件工坊武器\n- 当前工坊武器：納米尓工坊手鎧\n- 下件工坊武器：尤里亞工坊斧",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "“這是放入了G公司奇点球体的制品，要想好好使用的話，需要在空中按下開関使其啓動，然后利用重量匝下去。如果用得好，会非常疼哦！”"
+        },
+        {
+            "id": "SlaveHunersPower",
+            "name": "押送命令",
+            "desc": "- 基礎攻撃等級+5\n- 基礎防御等級+5",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "LensmanPower",
+            "name": "調査命令",
+            "desc": "- 基礎攻撃等級+5\n- 基礎防御等級+5",
+            "summary": "",
+            "undefined": "-"
+        }
+    ]
+}

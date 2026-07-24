@@ -1,0 +1,225 @@
+{
+    "dataList": [
+        {
+            "id": 9105701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "撃勢",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>増加2級[Breath]強度\n[DefeatDuel] 使<color=#ffffff>自身</color>増加3級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9105702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "刺法",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于8級，則使本技能的<color=#ffffff>基礎威力</color>+2\n[DefeatDuel] 使<color=#ffffff>自身</color>増加5級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[SlashDamageUp]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9105703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "連斬",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有4級[Breath]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+5)\n[DefeatDuel] 使本技能的<color=#ffffff>基礎威力</color>-13\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+70%"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9105704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加5級[Breath]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9105801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "撃勢",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>増加2級[Breath]強度\n[DefeatDuel] 使<color=#ffffff>自身</color>増加3級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9105802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "刺法",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于8級，則使本技能的<color=#ffffff>基礎威力</color>+2\n[DefeatDuel] 使<color=#ffffff>自身</color>増加5級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[SlashDamageUp]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9105803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "連斬",
+                    "desc": "若<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>低于50%，則使本技能的<color=#ffffff>最終威力</color>+2\n[WhenUse] <color=#ffffff>自身</color>每帯有4級[Breath]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+5)\n[DefeatDuel] 使本技能的<color=#ffffff>基礎威力</color>-13\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>目標</color>的<color=#ffffff>混乱閾値</color>前移本硬幣<color=#ffffff>傷害</color>量的20%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9105804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "反撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加5級[Breath]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

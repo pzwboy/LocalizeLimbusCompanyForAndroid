@@ -1,0 +1,58 @@
+{
+    "dataList": [
+        {
+            "id": "DesperadoBuff",
+            "name": "亡命之徒",
+            "desc": "- 最大値：2\n- 每帯有1層本效果，使<color=#ffffff>自身</color>基礎攻撃技能的<color=#ffffff>拼点威力</color>+1，<color=#ffffff>基礎威力</color>+1\n- 若本效果層数為2層，則使<color=#ffffff>自身</color>基礎攻撃技能的加算<color=#ffffff>硬幣威力</color>+1，減算<color=#ffffff>硬幣威力</color>-1\n- <color=#7C5738>回合結束</color>時解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "TensionUp",
+            "name": "亢奮",
+            "desc": "- 最大値：3\n- 每帯有1層本效果，使<color=#ffffff>自身</color>的<color=#FE0100>暴怒</color>与<color=#FE6E00>色欲</color>技能造成的<color=#ffffff>傷害</color>+5%\n- 受到攻撃時，使<color=#ffffff>自身</color>的<color=#ffffff>混乱閾値</color>前移(5×本效果層数)\n- <color=#7C5738>回合結束</color>時解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "PinkPetals",
+            "name": "粉紅花瓣",
+            "desc": "- 最大値：30\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到<color=#1BC7F0>憂郁</color>技能的<color=#ffffff>傷害</color>+1%(最多+15%)\n- 每帯有10層本效果，受到攻撃時対<color=#ffffff>自身</color>施加1層沈淪 (<color=#7C5738>每回合</color>最多2次)\n- 被震顫引爆 時，受到(<color=#ffffff>自身</color>的沈淪 強度与粉紅花瓣 層数之和/5)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+            "summary": ""
+        },
+        {
+            "id": "QueenBeepheromone",
+            "name": "信息素",
+            "desc": "- 挑釁値 +10\n- 受到攻撃時，使<color=#ffffff>目標</color>増加3級焼傷 強度",
+            "summary": ""
+        },
+        {
+            "id": "QueenBeeMark",
+            "name": "信息素標記",
+            "desc": "- <color=#ffffff>自身</color>每帯有3級焼傷 強度，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+1%(最多+20%)\n- <color=#7C5738>回合結束</color>時解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "RunHallway",
+            "name": "群体移動准備",
+            "desc": "- 最大値：3\n- <color=#ffffff>戦斗開始</color>時本效果層数減少1層\n- 若本效果層数為0層，則<color=#7C5738>回合開始</color>時使用技能“群体移動”",
+            "summary": ""
+        },
+        {
+            "id": "NextHallway",
+            "name": "群体遷移",
+            "desc": "- <color=#7C5738>回合結束</color>時，解除<color=#ffffff>自身</color>的混乱并从戦斗中撤退\n(不包括強制混乱，不視作陣亡)\n- 連續遭遇戦中，将<color=#ffffff>自身</color>的<color=#ffffff>行動槽</color>賦予即将解除待命的単位并移動到待命人員編隊順序最靠后的位置",
+            "summary": ""
+        },
+        {
+            "id": "PumpkinJelly",
+            "name": "橙子味的璞紐紐",
+            "desc": "- 最大値：1\n<color=#7C5738>回合開始</color>時，若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的60%，則使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限30%的<color=#61DA61>体力</color>并解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "BestWelfareTeamCaptain",
+            "name": "福利部隊長",
+            "desc": "  - <color=#ffffff>行動槽</color>+1，将該人格的一个1技能替換為3技能\n- <color=#ffffff>自身</color>技能増加的焼傷 、流血 、破裂 、沈淪 与震顫 強度額外+2級(包括特殊負面状態)\n- 獲得或消耗彈薬 的基礎技能造成的<color=#ffffff>傷害</color>+30%\n- 使用獲得或消耗彈薬 的基礎技能時，使包括<color=#ffffff>自身</color>在内<color=#81BBE8>理智値</color>最低的1名<color=#ffffff>友方単位</color>恢復10点<color=#81BBE8>理智値</color>\n- <color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，触発以下效果\n· 獲得<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>対應属性的E.G.O資源2个与所有属性的E.G.O資源各1个\n· <color=#7C5738>下回合</color>将陣亡<color=#ffffff>敵方単位</color>的焼傷 、流血 、破裂 、沈淪 与震顫 強度与層数随机施加給<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(最少1点)",
+            "summary": ""
+        }
+    ]
+}

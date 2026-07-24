@@ -1,0 +1,730 @@
+{
+    "dataList": [
+        {
+            "id": 9104301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "野蛮打撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>未帯有[BearClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "迅速素描",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>未帯有[BearClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的被撕裂的色彩層数不低于5層，則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "野獣派-涂布",
+                    "desc": "<color=#ffffff>目標</color>每帯有3層被撕裂的色彩，使本技能造成的<color=#ffffff>傷害</color>+10%(最多+30%)\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若現存<color=#61DA61>体力</color>低于50%或<color=#ffffff>目標</color>的被撕裂的色彩不低于5層，則額外使用本技能的第3枚硬幣并使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BearClawWound]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "襯布",
+                    "desc": "[DuelCounter]\n[WhenUse] 若<color=#ffffff>目標</color>帯有[BearClawWound]，則使本技能的<color=#ffffff>最終威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104401,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "野蛮打撃",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>未帯有[BearClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104402,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "迅速素描",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>未帯有[BearClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的被撕裂的色彩層数不低于5層，則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104403,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "野獣派-涂布",
+                    "desc": "<color=#ffffff>目標</color>每帯有3層被撕裂的色彩，使本技能造成的<color=#ffffff>傷害</color>+10%(最多+30%)\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若現存<color=#61DA61>体力</color>低于50%或<color=#ffffff>目標</color>的被撕裂的色彩不低于5層，則額外使用本技能的第3枚硬幣并使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BearClawWound]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104404,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "襯布",
+                    "desc": "[DuelCounter]\n[WhenUse] 若<color=#ffffff>目標</color>帯有[BearClawWound]，則使本技能的<color=#ffffff>最終威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "准備作品",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>未帯有[EagleClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "迅速表現",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>未帯有[EagleClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的被撕裂的色彩層数不低于5層，則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>帯有[Agility]，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "完成作業",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 若現存<color=#61DA61>体力</color>低于50%或<color=#ffffff>目標</color>的被撕裂的色彩不低于5層，則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>帯有[Agility]，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "部分修改",
+                    "desc": "[DuelCounter]\n[WhenUse] 若<color=#ffffff>目標</color>帯有[EagleClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[EagleClawWound]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[EagleClawWound]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "准備作品",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>未帯有[EagleClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "迅速表現",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>未帯有[EagleClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的被撕裂的色彩層数不低于5層，則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>帯有[Agility]，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "完成作業",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>的[Laceration]強度与[Sinking]強度之和每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 若現存<color=#61DA61>体力</color>低于50%或<color=#ffffff>目標</color>的被撕裂的色彩不低于5層，則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Sinking]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>帯有[Agility]，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9104604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "部分修改",
+                    "desc": "[DuelCounter]\n[WhenUse] 若<color=#ffffff>目標</color>帯有[EagleClawWound]，則使本技能的<color=#ffffff>拼点威力</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[EagleClawWound]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[EagleClawWound]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9103401,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "搜捕目標",
+                    "desc": "若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]，則使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和每有6級，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]或<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptEnemy]層数不低于6層，則使本技能的最后一枚硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>増加2級[Breath]強度并使<color=#ffffff>自身</color>獲得2層[Breath]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9103402,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "指令所向",
+                    "desc": "若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]，則使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+20%\n<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和每有6級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]或<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptEnemy]層数不低于6層，則使本技能的最后一枚硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>増加3級[Breath]強度并使<color=#ffffff>自身</color>獲得3層[Breath]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加1級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9103403,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "執行指令",
+                    "desc": "若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]，則使本技能的<color=#ffffff>拼点威力</color>+2，造成的<color=#ffffff>傷害</color>+25%\n<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和每有6級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptEnemy]層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]或<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptEnemy]層数不低于6層，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>増加4級[Breath]強度并使<color=#ffffff>自身</color>獲得3層[Breath]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加1級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有1層[BlessingOfIndexPrescriptEnemy]，使本硬幣造成的<color=#ffffff>傷害</color>+5%(最多+45%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Sinking]強度并対其施加2層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9103501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "搜捕目標",
+                    "desc": "若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]，則使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和每有6級，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]或<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptEnemy]層数不低于6層，則使本技能的最后一枚硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>増加1級[Breath]強度并使<color=#ffffff>自身</color>獲得3層[Breath]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度并対其施加2層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9103502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "指令所向",
+                    "desc": "若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]，則使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+20%\n<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和每有6級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]或<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptEnemy]層数不低于6層，則使本技能的最后一枚硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>増加4級[Breath]強度并使<color=#ffffff>自身</color>獲得2層[Breath]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加1級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度并対其施加2層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9103503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "執行指令",
+                    "desc": "若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]，則使本技能的<color=#ffffff>拼点威力</color>+2，造成的<color=#ffffff>傷害</color>+25%\n<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和每有6級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptEnemy]層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>帯有[IndexPrescriptTargetToPersonality]或<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptEnemy]層数不低于6層，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>増加3級[Breath]強度并使<color=#ffffff>自身</color>獲得4層[Breath]\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，且命中時不会触発<color=#ffffff>目標</color>的[Sinking]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加1級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有1層[BlessingOfIndexPrescriptEnemy]，使本硬幣造成的<color=#ffffff>傷害</color>+5%(最多+45%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Sinking]強度并対其施加3層[Sinking]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

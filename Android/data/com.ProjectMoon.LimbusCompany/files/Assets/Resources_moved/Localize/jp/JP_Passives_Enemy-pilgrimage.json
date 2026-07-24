@@ -1,0 +1,82 @@
+{
+    "dataList": [
+        {
+            "id": 128901,
+            "name": "注意力分散",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>在<color=#7C5738>本回合</color>未受到<color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility]\n若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于攻撃<color=#ffffff>目標</color>，則<color=#7C5737>速度値</color>每<color=#7C5738>相差</color>1点，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+5%(最多+50%)"
+        },
+        {
+            "id": 128902,
+            "name": "浸染之剣",
+            "desc": "単方面攻撃命中時，対<color=#ffffff>目標</color>施加1層[NervousImpairment]"
+        },
+        {
+            "id": 128903,
+            "name": "深海崇拜",
+            "desc": "<color=#7C5738>回合開始</color>時，每有1名<color=#ffffff>友方単位</color>存活，使<color=#ffffff>自身</color>恢復3点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 9102701,
+            "name": "深海的恐怖",
+            "desc": "攻撃命中未帯有[Sinking]的<color=#ffffff>目標</color>時，令<color=#ffffff>自身</color>増加的[Sinking]強度額外+1級"
+        },
+        {
+            "id": 9102801,
+            "name": "深海的恐怖",
+            "desc": "攻撃命中未帯有[Sinking]的<color=#ffffff>目標</color>時，令<color=#ffffff>自身</color>増加的[Sinking]強度額外+2級"
+        },
+        {
+            "id": 9102802,
+            "name": "溟痕樂园",
+            "desc": "<color=#ffffff>自身</color>位于[NetherseaBrandUnit]上時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+2，并令<color=#ffffff>自身</color>攻撃命中時施加的[NervousImpairment]層数変為2倍"
+        },
+        {
+            "id": 9102901,
+            "name": "待命状態",
+            "desc": "処于[WaitingforCommandMod]時，直到受到<color=#ffffff>傷害</color>前不会使用攻撃技能\n\n若処于[WaitingforCommandMod]時受到<color=#ffffff>傷害</color>，則進入[ParticipationMod]并在<color=#7C5738>下回合</color>起開始使用攻撃技能"
+        },
+        {
+            "id": 9102902,
+            "name": "臨戦状態",
+            "desc": "<color=#7C5738>回合開始</color>時若処于[ParticipationMod]，則\n- 対[NervousImpairment]層数低于15層的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加3層[NervousImpairment]\n- 最小与最大<color=#7C5737>速度値</color>+3\n- 每失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>獲得1層[AttackUp](最多8層)\n\n<color=#7C5738>回合結束</color>時若処于[ParticipationMod]，則受到<color=#61DA61>体力</color>上限10%的固定<color=#ffffff>傷害</color>",
+            "summary": ""
+        },
+        {
+            "id": 9102903,
+            "name": "生存反射",
+            "desc": "与<color=#ffffff>目標</color>進行拼点或単方面攻撃命中時，対<color=#ffffff>目標</color>施加2層[NervousImpairment]\n- 若<color=#ffffff>自身</color>位于[NetherseaBrandUnit]上，則額外施加1層[NervousImpairment]"
+        },
+        {
+            "id": 9102904,
+            "name": "溟痕樂园",
+            "desc": "<color=#ffffff>自身</color>位于[NetherseaBrandUnit]上時，使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>+2，<color=#ffffff>硬幣威力</color>+2，并令<color=#ffffff>自身</color>攻撃命中時施加的[NervousImpairment]層数変為2倍"
+        },
+        {
+            "id": 9103001,
+            "name": "深度認知",
+            "desc": "所有属性的抗性-0.5"
+        },
+        {
+            "id": 9103002,
+            "name": "拡張本能",
+            "desc": "陣亡時，<color=#7C5738>下回合</color>在友方陣営中生成[NetherseaBrandUnit]"
+        },
+        {
+            "id": 9103003,
+            "name": "溟痕樂园",
+            "desc": "<color=#ffffff>自身</color>位于[NetherseaBrandUnit]上時，使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>+1，<color=#ffffff>硬幣威力</color>+1，并令<color=#ffffff>自身</color>攻撃命中時施加的[NervousImpairment]層数変為2倍"
+        },
+        {
+            "id": 9103101,
+            "name": "溟痕樂园",
+            "desc": "攻撃技能指定最近的<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>，并按由前到后指定次要<color=#ffffff>目標</color>\n\n\n<color=#ffffff>自身</color>位于[NetherseaBrandUnit]上時\n- 指定最遠的<color=#ffffff>目標</color>，<color=#ffffff>自身</color>所有技能的硬幣轉化為[SuperCoin]\n- 使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>+2，<color=#ffffff>硬幣威力</color>+2，并令<color=#ffffff>自身</color>攻撃命中時施加的[NervousImpairment]層数変為2倍",
+            "summary": "位于[NetherseaBrandUnit]上時，強化<color=#ffffff>自身</color>的技能"
+        },
+        {
+            "id": 9103201,
+            "name": "残骸清除",
+            "desc": "<color=#7C5737>速度値</color>固定為1，以未激活状態布置在可能出現[NetherseaBrandUnit]的戦斗中\n\n戦場中出現[NetherseaBrandUnit]后，<color=#ffffff>自身</color>激活且可受到<color=#ffffff>傷害</color>\n- 受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至1点的<color=#ffffff>傷害</color>后，発射圣徒之手并清洗戦場中的所有[NetherseaBrandUnit]。触発該效果時，圣徒之手在<color=#7C5738>下回合</color>変為未激活\n- 僅受到以<color=#ffffff>自身</color>為主要<color=#ffffff>目標</color>的技能的<color=#ffffff>傷害</color>，而不会受到其他<color=#ffffff>傷害</color>\n- 進入未激活状態時，解除<color=#ffffff>自身</color>的所有状態效果并使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至最大値",
+            "summary": "清洗戦場中的所有[NetherseaBrandUnit]"
+        }
+    ]
+}
