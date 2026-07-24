@@ -8,9 +8,9 @@
 ## 怎么汉化？
 很简单：
 
-先将游戏语言切换至日语（即`日本語`）
+先将游戏语言根据自己的喜好切换至`日本語`或是`한국어`。
 
-在`约20MB`的资源下载完成后将边狱公司退至后台（**不是小窗化**），下载本项目[Release](https://github.com/pzwboy/LocalizeLimbusCompanyForAndroid/releases/latest)中的`localize.zip`并解压
+在`约20MB`的资源下载完成后将边狱公司退至后台（**不是小窗化**），下载本项目[Release](https://github.com/pzwboy/LocalizeLimbusCompanyForAndroid/releases/latest)中的`jp.zip`或是`kr.zip`并解压
 ，通过文件管理器替换同名文件即可（一般就是直接复制到根目录）
 
 ## 字体是怎么回事？
