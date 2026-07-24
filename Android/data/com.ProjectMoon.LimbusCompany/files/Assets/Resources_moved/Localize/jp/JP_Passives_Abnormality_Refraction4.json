@@ -1,0 +1,149 @@
+{
+    "dataList": [
+        {
+            "id": 860501,
+            "name": "目撃肖像残影",
+            "desc": "<color=#ffffff>行動槽</color>与主人的肖像相連時，産生与肖像画顔色相同顔色的波長"
+        },
+        {
+            "id": 860502,
+            "name": "敢走不速之客",
+            "desc": "存在肖像時\n- <color=#7C5738>回合結束</color>時，若肖像存在不低于3回合，\n- 対未帯有[UninvitedGuest]且最先編入的<color=#ffffff>敵方単位</color>施加[UninvitedGuest]\n- 点燃所有肖像。使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加(焼毀的假肖像数×2)級[Sinking]強度并対其施加相應層数的[Sinking]。<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得相應層数的[AttackUp]与[Protection]。"
+        },
+        {
+            "id": 860503,
+            "name": "狩猟不速之客",
+            "desc": "若<color=#ffffff>目標</color>帯有[UninvitedGuest]，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+20%"
+        },
+        {
+            "id": 860507,
+            "name": "啊啊，主人…",
+            "desc": "存在肖像時，所有罪孼与物理抗性減少0.5并獲得8層[Protection]。\n若<color=#ffffff>敵方単位</color><color=#7C5738>撃殺</color>主人的肖像，則対該<color=#ffffff>敵方単位</color>施加[UninvitedGuest]，并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的物理抗性増加0.5并対<color=#ffffff>自身</color>施加5層<color=#ffffff>易損</color> 。"
+        },
+        {
+            "id": 860505,
+            "name": "袮也是不速之客麼？",
+            "desc": "若有<color=#ffffff>敵方単位</color>帯有[UninvitedGuest]，則<color=#ffffff>自身</color>每失去<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>時，対未帯有[UninvitedGuest]的1名<color=#ffffff>敵方単位</color>施加[UninvitedGuest](最多4名)"
+        },
+        {
+            "id": 860601,
+            "name": "追随的目光",
+            "desc": "<color=#ffffff>自身</color>存活時，<color=#7C5738>每回合</color>使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加1級[Sinking]強度并対其施加1層[Sinking]"
+        },
+        {
+            "id": 860602,
+            "name": "不速之客",
+            "desc": "<color=#ffffff>自身</color>陣亡時，対最后攻撃<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>施加[UninvitedGuest]\n- 若帯有[UninvitedGuest]的<color=#ffffff>敵方単位</color>不低于4名，則本效果不会生效"
+        },
+        {
+            "id": 860701,
+            "name": "追随的目光",
+            "desc": "<color=#ffffff>自身</color>存活時，<color=#7C5738>每回合</color>使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加1級[Sinking]強度并対其施加1層[Sinking]"
+        },
+        {
+            "id": 860702,
+            "name": "不速之客",
+            "desc": "<color=#ffffff>自身</color>陣亡時，対最后攻撃<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>施加[UninvitedGuest]\n- 若帯有[UninvitedGuest]的<color=#ffffff>敵方単位</color>不低于4名，則本效果不会生效"
+        },
+        {
+            "id": 860801,
+            "name": "熟悉的插頭",
+            "desc": "<color=#ffffff>自身</color>每帯有1層[ConnectedPlug]，使<color=#ffffff>自身</color>的最小<color=#7C5737>速度値</color>+1，獲得1層[AttackDmgUp]并対<color=#ffffff>自身</color>施加1層[Vulnerable]\n若<color=#ffffff>自身</color>因帯有3層[ConnectedPlug]而在<color=#7C5738>下回合</color>陷入混乱，則対<color=#ffffff>自身</color>施加4層[Vulnerable]"
+        },
+        {
+            "id": 860802,
+            "name": "過流",
+            "desc": "<color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>每帯有10層[Charge]，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[VioletDamageUp](最多2層)"
+        },
+        {
+            "id": 860803,
+            "name": "渴望自由",
+            "desc": "若現存<color=#61DA61>体力</color>不高于25%，則从<color=#7C5738>下回合</color>起，每經過1回合\n- 使<color=#ffffff>自身</color>獲得1層[ParryingResultUp]\n- 使<color=#ffffff>自身</color>獲得1層[AttackDmgUp]\n- 対<color=#ffffff>自身</color>施加1層[Vulnerable]"
+        },
+        {
+            "id": 860804,
+            "name": "発電机",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>未帯有[ConnectedPlug]与[ThundercloudFormation]，則<color=#7C5738>下回合</color>召喚発電机1次。"
+        },
+        {
+            "id": 862801,
+            "name": "雷云匯集",
+            "desc": "<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使電子羊獲得4層[ThundercloudFormation]。\n若電子羊已帯有該状態，則不会獲得。"
+        },
+        {
+            "id": 862802,
+            "name": "断開的対羊接地插頭",
+            "desc": "受到攻撃時，使攻撃者獲得1層[AntiSheepGround](<color=#7C5738>每回合</color>最多1層)"
+        },
+        {
+            "id": 862803,
+            "name": "安全插頭",
+            "desc": "受到的所有<color=#ffffff>傷害</color>変為0点"
+        },
+        {
+            "id": 862901,
+            "name": "宴会開幕",
+            "desc": "第2<color=#7C5738>回合開始</color>時，召喚受縛之王的仆从。\n受縛之王的仆从陣亡時，由令一名仆从接替上場，總計12名仆从。"
+        },
+        {
+            "id": 862902,
+            "name": "宴会閉幕",
+            "desc": "仆从全部陣亡時，<color=#ffffff>自身</color>加入戦斗。"
+        },
+        {
+            "id": 862903,
+            "name": "不該出現的文本",
+            "desc": "不該出現的文本"
+        },
+        {
+            "id": 862904,
+            "name": "崩裂的邦帯",
+            "desc": "躯干<color=#ffffff>部位</color>被破坏時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>獲得[BandageOfTheBoundKing]。"
+        },
+        {
+            "id": 828001,
+            "name": "受縛之王的仆从",
+            "desc": "本場戦斗中，獲得[BandageOfTheBoundKing]与[BigWelcome]。\n<color=#7C5738>每回合</color>開始時，受縛之王会護佑<color=#ffffff>自身</color>。\n<color=#7C5738>每回合</color>受縛之王的護佑以獲得[Enhancement]，恢復<color=#81BBE8>理智値</color>，恢復<color=#61DA61>体力</color>的順序切換。若存活的受縛之王侍从(<color=#9702DE>嫉炉</color>罪種)低于6名，則強化護佑效果。"
+        },
+        {
+            "id": 828002,
+            "name": "不該出現的文本",
+            "desc": "不該出現的文本"
+        },
+        {
+            "id": 828003,
+            "name": "不該出現的文本",
+            "desc": "不該出現的文本"
+        },
+        {
+            "id": 860506,
+            "name": "折射的爭扎",
+            "desc": "若与同一<color=#ffffff>目標</color>拼点不低于10次，則拼点判定時随机使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>増加或減少(拼点次数/10)。(向下取整)"
+        },
+        {
+            "id": 828004,
+            "name": "嫉炉罪種 2型",
+            "desc": "造成的<color=#ffffff>傷害</color>+15%，受到的<color=#ffffff>傷害</color>-15%"
+        },
+        {
+            "id": 828005,
+            "name": "折射的意志",
+            "desc": "起始<color=#81BBE8>理智値</color>+30点"
+        },
+        {
+            "id": 828006,
+            "name": "折射的意志",
+            "desc": "起始<color=#81BBE8>理智値</color>-20点"
+        },
+        {
+            "id": 828007,
+            "name": "折射的意志",
+            "desc": "起始<color=#81BBE8>理智値</color>+45点"
+        },
+        {
+            "id": 828008,
+            "name": "折射的意志",
+            "desc": "起始<color=#81BBE8>理智値</color>+20点"
+        }
+    ]
+}

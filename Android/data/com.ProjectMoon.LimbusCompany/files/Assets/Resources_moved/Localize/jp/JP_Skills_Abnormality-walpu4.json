@@ -1,0 +1,258 @@
+{
+    "dataList": [
+        {
+            "id": 836301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "理解",
+                    "desc": "若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于10点，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[VioletUnderstand]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[MentalCrack]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "認知",
+                    "desc": "若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于10点，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[VioletUnderstand]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[VioletTakeDamageUp]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[MentalCrack]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "拯救",
+                    "desc": "若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于10点，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[VioletUnderstand]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[VioletTakeDamageUp]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[MentalCrack]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "不能理解",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[VioletUnderstand]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836305,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "崩坏",
+                    "desc": "[CantDuel]\n[EndSkill] <color=#ffffff>自身</color>陣亡",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層[VioletTakeDamageUp]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成10~14点理智<color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "慈悲",
+                    "desc": "若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于20点，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[VioletTakeDamageUp]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[MentalCrack]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "愛",
+                    "desc": "若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于20点，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[VioletTakeDamageUp]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[MentalCrack]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃爍的理解的文字",
+                    "desc": "[CantDuel]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[MentalCrack]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[MentalCrack]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃爍的理解的文字",
+                    "desc": "若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于20点，則使本技能的<color=#ffffff>拼点威力</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[VioletTakeDamageUp]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[MentalCrack]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "不能理解",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Protection]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 836606,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "涌出的安息之臂",
+                    "desc": "[CantDuel]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成100点<color=#61DA61>体力</color><color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

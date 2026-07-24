@@ -1,0 +1,254 @@
+{
+    "dataList": [
+        {
+            "id": 810001,
+            "name": "照亮一切的灯光",
+            "desc": "若所有蝋蝕都被熄滅且<color=#61DA61>体力</color>全満，則在所有蝋蝕再次被点燃之前獲得抗性提升。\n当所有蝋蝕都被点燃時，抗性降低。"
+        },
+        {
+            "id": 810002,
+            "name": "被排斥的黑暗",
+            "desc": "蝋蝕被熄滅后，每4回合点燃所有被熄滅的蝋蝕。所有蝋蝕的<color=#61DA61>体力</color>減少至1。"
+        },
+        {
+            "id": 810701,
+            "name": "燃焼的火種",
+            "desc": "<color=#61DA61>体力</color>不会低于1点。\n<color=#61DA61>体力</color>為1点時，点燃蝋蝕并使用攻撃技能。"
+        },
+        {
+            "id": 810702,
+            "name": "沈淪的黑暗",
+            "desc": "当所有蝋蝕被点燃時，使用守備技能。\n若消耗了全部<color=#81BBE8>護盾</color>，則<color=#7C5738>下回合</color>熄滅所有蝋蝕。"
+        },
+        {
+            "id": 810101,
+            "name": "裸露的珍珠",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的緑色黏液 層数為0層，則陷入混乱。珍珠的所有罪孼抗性降低0.5。\n解除混乱時，使<color=#ffffff>自身</color>獲得10層緑色黏液 。"
+        },
+        {
+            "id": 810102,
+            "name": "破碎的貝殻",
+            "desc": "現存<color=#61DA61>体力</color>不高于10%時，改変<color=#ffffff>自身</color>模式。"
+        },
+        {
+            "id": 810103,
+            "name": "堅硬的貝殻",
+            "desc": "殻<color=#ffffff>部位</color>即使陷入混乱，也能保持原来的抗性。"
+        },
+        {
+            "id": 810104,
+            "name": "聚集的黏液",
+            "desc": "使用技能“蚕食黏液”時，<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為1。"
+        },
+        {
+            "id": 810901,
+            "name": "緑色黏液",
+            "desc": "被陸行珍珠<color=#7C5738>撃殺</color>時，使其獲得3層緑色黏液 。"
+        },
+        {
+            "id": 810902,
+            "name": "汚染黏液",
+            "desc": "<color=#7C5738>回合結束</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加(2+存活的緑色黏液数)層劇毒 。"
+        },
+        {
+            "id": 810201,
+            "name": "拡散的養气",
+            "desc": "熒光灯<color=#ffffff>部位</color>被破坏時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>獲得[AaCePcBb]。\n熒光灯<color=#ffffff>部位</color>在2回合后再生。"
+        },
+        {
+            "id": 810202,
+            "name": "水下呼吸",
+            "desc": "从第2回合起，<color=#7C5738>每回合</color>開始時若熒光灯<color=#ffffff>部位</color>未被破坏，則使<color=#ffffff>自身</color>増加8級呼吸法 強度。\n獲得3層呼吸法 。从第2回合起，<color=#7C5738>每回合</color>開始時若熒光灯<color=#ffffff>部位</color>被破坏，則対<color=#ffffff>自身</color>施加2層麻痹 与2層<color=#ffffff>傷害</color>弱化 。"
+        },
+        {
+            "id": 810203,
+            "name": "濁流",
+            "desc": "从第2回合起，<color=#7C5738>每回合</color>対未帯有[AaCePcBb]的<color=#ffffff>全体</color>人格施加1層束縛 ，1層麻痹 并使其失去3点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 810801,
+            "name": "硬化",
+            "desc": "只能受到不低于12点的<color=#ffffff>傷害</color>。\n低于12点的<color=#ffffff>傷害</color>変為0点。"
+        },
+        {
+            "id": 810802,
+            "name": "被冲走的漂流物",
+            "desc": "噬梦的濁流使用盲目后，若<color=#ffffff>自身</color>未被破坏，則対1名随机人格造成20点<color=#ffffff>傷害</color>。"
+        },
+        {
+            "id": 810803,
+            "name": "被破坏的漂流物",
+            "desc": "陣亡時<color=#61DA61>体力</color>不会低于1点。\n轉化為被破坏的漂流物。"
+        },
+        {
+            "id": 810301,
+            "name": "船長的命令",
+            "desc": "<color=#7C5738>回合開始</color>時若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不為-45点，則使<color=#ffffff>自身</color>恢復(除<color=#ffffff>自身</color>以外存活的<color=#ffffff>友方単位</color>数×5)点<color=#81BBE8>理智値</color>。\n<color=#7C5738>回合開始</color>時若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>為-45点，則在<color=#7C5738>回合結束</color>時解除恐慌，<color=#81BBE8>理智値</color>恢復為0点。"
+        },
+        {
+            "id": 810302,
+            "name": "残缺紋身",
+            "desc": "属于裴廓德鎮的<color=#ffffff>友方単位</color>陣亡時，使<color=#ffffff>自身</color>失去1層呼吸法 与10点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 810303,
+            "name": "不屈不撓的魚叉手",
+            "desc": "現存<color=#61DA61>体力</color>越低，<color=#ffffff>自身</color>的技能対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>越高。"
+        },
+        {
+            "id": 810304,
+            "name": "被灌輸的憎惡与仇恨",
+            "desc": "<color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>低于50%，則進入第2階段。\n第2階段前，<color=#ffffff>自身</color><color=#61DA61>体力</color>不会低于1点。\n第2階段開始時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至<color=#61DA61>体力</color>上限的50%并召喚4名<color=#ffffff>友方単位</color>。此后<color=#7C5738>每回合</color>開始時，対現存<color=#61DA61>体力</color>最低的1名<color=#ffffff>敵方単位</color>施加[AaCePcBj]。"
+        },
+        {
+            "id": 810305,
+            "name": "刻骨銘心的憎惡与仇恨",
+            "desc": "<color=#61DA61>体力</color>為1点時，使<color=#ffffff>自身</color>恢復至<color=#61DA61>体力</color>上限的50%并在<color=#7C5738>下回合</color>獲得2層強壮 (每場戦斗最多1次)"
+        },
+        {
+            "id": 810306,
+            "name": "渾濁的精神",
+            "desc": "若<color=#ffffff>自身</color>陷入混乱，且<color=#7C5738>回合結束</color>時<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于0点，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点。"
+        },
+        {
+            "id": 810401,
+            "name": "刻骨銘心的憎惡与仇恨",
+            "desc": "<color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>低于50%，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層迅捷 与2層強壮 。(每場戦斗最多1次)"
+        },
+        {
+            "id": 810402,
+            "name": "魚叉貫穿",
+            "desc": "技能<color=#ffffff>暴撃</color>時施加的負面状態額外+1。"
+        },
+        {
+            "id": 810501,
+            "name": "裴廓德号的船長",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不為-45点，則使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>。\n<color=#7C5738>回合結束</color>時若陷入恐慌，則解除恐慌，<color=#81BBE8>理智値</color>恢復為0点。"
+        },
+        {
+            "id": 810503,
+            "name": "模糊命令",
+            "desc": "若<color=#ffffff>自身</color>陷入混乱，且<color=#7C5738>回合結束</color>時除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的<color=#81BBE8>理智値</color>均低于0点，則使除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的<color=#81BBE8>理智値</color>恢復為0点。"
+        },
+        {
+            "id": 810504,
+            "name": "冷酷的决断",
+            "desc": "第2階段開始時，使<color=#ffffff>自身</color>恢復全部<color=#61DA61>体力</color>，魁魁格与斯達巴克的被動“船長的命令”不再生效。且魁魁格不会因<color=#7C5738>回合結束</color>時援護<color=#81BBE8>護盾</color>降為0点而陷入混乱。"
+        },
+        {
+            "id": 810601,
+            "name": "亞哈",
+            "desc": "<color=#7C5738>回合開始</color>時若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不為-45点，則使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>。\n<color=#7C5738>回合結束</color>時若陷入恐慌，則解除恐慌，<color=#81BBE8>理智値</color>恢復為0点并在<color=#7C5738>下回合</color>獲得2層強壮 与2層忍耐 。"
+        },
+        {
+            "id": 810602,
+            "name": "比普的罪与清白",
+            "desc": "階段開始時，獲得20層比普的自我 。\n<color=#7C5738>回合結束</color>時，每帯有1層比普的自我 ，使<color=#ffffff>自身</color>恢復3点<color=#81BBE8>理智値</color>。\n<color=#7C5738>回合結束</color>時，若[AaCePcBo]層数為0層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>陷入混乱。"
+        },
+        {
+            "id": 810603,
+            "name": "斯達巴克的恐惧",
+            "desc": "階段開始時，獲得20層斯達巴克的自我 。\n与帯有[AaCePcBj]的単位拼点失敗時，<color=#ffffff>自身</color>每有1个硬幣被摧毀，使<color=#ffffff>自身</color>失去1層[AaCePcBp]。\n<color=#7C5738>回合開始</color>時，每帯有5層斯達巴克的自我 ，使<color=#ffffff>自身</color>獲得1層守護 。\n<color=#7C5738>回合結束</color>時，若[AaCePcBp]層数為0層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>陷入混乱。"
+        },
+        {
+            "id": 810604,
+            "name": "魚叉貫穿",
+            "desc": "本階段内，令技能<color=#ffffff>暴撃</color>時施加的負面状態額外+1。"
+        },
+        {
+            "id": 810605,
+            "name": "魁魁格的懺悔",
+            "desc": "階段開始時，獲得30層魁魁格的自我 。\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，則恢復5層魁魁格的自我 。若<color=#ffffff>自身</color>未帯有<color=#81BBE8>護盾</color>，則失去10層[AaCePcBq]。\n<color=#7C5738>回合結束</color>時，若[AaCePcBq]層数為0層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>陷入混乱。"
+        },
+        {
+            "id": 810606,
+            "name": "不屈不撓的魚叉手",
+            "desc": "本階段期間，現存<color=#61DA61>体力</color>越低，<color=#ffffff>自身</color>的技能対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>越高。\n<color=#ffffff>自身</color>每失去0.75%<color=#61DA61>体力</color>，使造成的<color=#ffffff>傷害</color>+1%\n(最多+100%。現存<color=#61DA61>体力</color>為<color=#61DA61>体力</color>上限25%時達到最大値)"
+        },
+        {
+            "id": 810607,
+            "name": "崇高的代价",
+            "desc": "獲得其他人的自我時，使攻撃等級与防御等級増加\n特定技能拼点失敗時，使<color=#ffffff>自身</color>失去<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 814101,
+            "name": "照亮一切的灯光",
+            "desc": "若所有蝋蝕都被熄滅且<color=#61DA61>体力</color>全満，則在所有蝋蝕再次被点燃之前獲得抗性提升。\n当所有蝋蝕都被点燃時，抗性降低。"
+        },
+        {
+            "id": 814102,
+            "name": "被排斥的黑暗",
+            "desc": "蝋蝕被熄滅后，每4回合点燃所有被熄滅的蝋蝕。所有蝋蝕的<color=#61DA61>体力</color>減少至1。"
+        },
+        {
+            "id": 813601,
+            "name": "燃焼的火種",
+            "desc": "<color=#61DA61>体力</color>不会低于1点。\n<color=#61DA61>体力</color>為1点時，点燃蝋蝕并使用攻撃技能。"
+        },
+        {
+            "id": 813602,
+            "name": "沈淪的黑暗",
+            "desc": "当所有蝋蝕被点燃時，使用守備技能。\n若消耗了全部<color=#81BBE8>護盾</color>，則<color=#7C5738>下回合</color>熄滅所有蝋蝕。"
+        },
+        {
+            "id": 813701,
+            "name": "裸露的珍珠",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的緑色黏液 層数為0層，則陷入混乱。珍珠的所有罪孼抗性降低0.5。\n解除混乱時，使<color=#ffffff>自身</color>獲得10層緑色黏液 。"
+        },
+        {
+            "id": 813702,
+            "name": "破碎的貝殻",
+            "desc": "剩余10%<color=#61DA61>体力</color>時，改変<color=#ffffff>自身</color>模式。"
+        },
+        {
+            "id": 813703,
+            "name": "堅硬的貝殻",
+            "desc": "殻<color=#ffffff>部位</color>即使陷入混乱，也能保持原来的抗性。"
+        },
+        {
+            "id": 813704,
+            "name": "聚集的黏液",
+            "desc": "使用技能“蚕食黏液”時，<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為1。"
+        },
+        {
+            "id": 813801,
+            "name": "緑色黏液",
+            "desc": "被陸行珍珠<color=#7C5738>撃殺</color>時，使其獲得3層緑色黏液 。"
+        },
+        {
+            "id": 813802,
+            "name": "汚染黏液",
+            "desc": "<color=#7C5738>回合結束</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加(2+存活的緑色黏液数)層劇毒 。"
+        },
+        {
+            "id": 813901,
+            "name": "拡散的養气",
+            "desc": "熒光灯<color=#ffffff>部位</color>被破坏時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>獲得[AaCePcBb]。\n熒光灯<color=#ffffff>部位</color>在2回合后再生。"
+        },
+        {
+            "id": 813902,
+            "name": "水下呼吸",
+            "desc": "从第2回合起，<color=#7C5738>每回合</color>開始時若熒光灯<color=#ffffff>部位</color>未被破坏，則使<color=#ffffff>自身</color>増加8級呼吸法 強度。\n獲得3層呼吸法 。从第2回合起，<color=#7C5738>每回合</color>開始時若熒光灯<color=#ffffff>部位</color>被破坏，則対<color=#ffffff>自身</color>施加2層麻痹 与2層<color=#ffffff>傷害</color>弱化 。"
+        },
+        {
+            "id": 813903,
+            "name": "濁流",
+            "desc": "从第2回合起，<color=#7C5738>每回合</color>対未帯有[AaCePcBb]的<color=#ffffff>全体</color>人格施加1層束縛 ，1層麻痹 并使其失去3点<color=#81BBE8>理智値</color>。"
+        },
+        {
+            "id": 814001,
+            "name": "硬化",
+            "desc": "只能受到不低于12点的<color=#ffffff>傷害</color>。\n低于12点的<color=#ffffff>傷害</color>変為0点。"
+        },
+        {
+            "id": 814002,
+            "name": "被冲走的漂流物",
+            "desc": "噬梦的濁流使用盲目后，若<color=#ffffff>自身</color>未被破坏，則対1名随机人格造成20点<color=#ffffff>傷害</color>。"
+        },
+        {
+            "id": 814003,
+            "name": "被破坏的漂流物",
+            "desc": "陣亡時<color=#61DA61>体力</color>不会低于1点。\n轉化為被破坏的漂流物。"
+        }
+    ]
+}
