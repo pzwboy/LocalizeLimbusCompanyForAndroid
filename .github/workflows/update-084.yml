@@ -145,11 +145,9 @@ jobs:
         # 处理 JP 版本：添加 JP_ 前缀
         cd ${{ github.workspace }}/localize
         find . -type f | while read file; do
-          # 去掉开头的 ./
           rel="${file#./}"
           dir=$(dirname "$rel")
           base=$(basename "$rel")
-          # 添加 JP_ 前缀
           newbase="JP_$base"
           target_dir="${{ github.workspace }}/build_jp/$BASE_PATH/jp/$dir"
           mkdir -p "$target_dir"
@@ -168,16 +166,17 @@ jobs:
           cp "$rel" "$target_dir/$newbase"
         done
         
-        # 打包
-        cd ${{ github.workspace }}
-        zip -r jp.zip build_jp/Android
-        zip -r kr.zip build_kr/Android
+        # 打包（关键修改：进入目录再打包）
+        cd ${{ github.workspace }}/build_jp
+        zip -r ../jp.zip Android
+        cd ${{ github.workspace }}/build_kr
+        zip -r ../kr.zip Android
         
         echo "jp.zip and kr.zip created"
-        ls -lh jp.zip kr.zip
+        ls -lh ${{ github.workspace }}/jp.zip ${{ github.workspace }}/kr.zip
         
-        # 清理构建目录（可选）
-        rm -rf build_jp build_kr
+        # 清理构建目录
+        rm -rf ${{ github.workspace }}/build_jp ${{ github.workspace }}/build_kr
         
     - name: 创建Release
       if: steps.get_release.outputs.new_version == 'true'
