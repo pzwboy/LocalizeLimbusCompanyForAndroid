@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  同步原项目Release并进行处理:
+  sync-084-localize-release:
     runs-on: ubuntu-latest
     
     steps:
