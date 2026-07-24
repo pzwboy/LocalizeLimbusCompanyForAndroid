@@ -1,0 +1,22 @@
+{
+    "dataList": [
+        {
+            "id": 1019,
+            "panicName": "凌乱的絵画",
+            "lowMoraleDescription": "使自身獲得1層[Enhancement]并対自身施加1層[Vulnerable]",
+            "panicDescription": "使自身獲得1層[PlusCoinValueUp]并対自身施加3層[Vulnerable]。"
+        },
+        {
+            "id": 1021,
+            "panicName": "復仇",
+            "lowMoraleDescription": "対自身施加3層[DefenseDown]并使自身獲得3層[AttackDmgUp]",
+            "panicDescription": "対自身施加6層[DefenseDown]并使自身獲得5層[AttackDmgUp]"
+        },
+        {
+            "id": 1022,
+            "panicName": "憎惡",
+            "lowMoraleDescription": "拼点勝利時，下回合使自身獲得1層[AttackUp]（每回合最多3次）\n拼点失敗時，使自身獲得1層[DefenseUp]（每回合最多3次）",
+            "panicDescription": "拼点勝利時，本回合与下回合使自身獲得1層[AttackUp]（每回合最多3次）\n拼点失敗時，使自身獲得1層[DefenseUp]（每回合最多3次）\n回合結束時，使自身獲得2層[Agility]"
+        }
+    ]
+}

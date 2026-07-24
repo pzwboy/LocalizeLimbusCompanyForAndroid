@@ -1,0 +1,508 @@
+{
+    "dataList": [
+        {
+            "id": "FellBulletMark",
+            "name": "標記",
+            "desc": "- 成為凶彈射手的<color=#ffffff>目標</color>\n- <color=#7C5738>回合結束</color>時解除本效果",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR501",
+            "name": "施加量折射",
+            "desc": "通過技能或<color=#ffffff>硬幣效果</color>使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR502",
+            "name": "獲得量折射",
+            "desc": "<color=#ffffff>友方単位</color>通過技能或<color=#ffffff>硬幣效果</color>獲得的呼吸法 与充能 層数額外+1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR503",
+            "name": "折射的理智",
+            "desc": "<color=#7C5738>回合結束</color>時使<color=#81BBE8>理智値</color>最低的3名<color=#ffffff>友方単位</color>恢復8点<color=#81BBE8>理智値</color>(不包括陷入恐慌或侵蝕的<color=#ffffff>友方単位</color>)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR504",
+            "name": "버프 이름",
+            "desc": "<color=#ffffff>暴撃</color>時，若<color=#ffffff>自身</color>的呼吸法 強度高于20級，則消耗最多20級超出20級的呼吸法 強度并使<color=#ffffff>自身</color><color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(消耗的呼吸法 強度×2.5)%(最多+50%)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR505",
+            "name": "折射的充能",
+            "desc": "消耗不低于8層充能 的技能命中時，本場戦斗期間使<color=#ffffff>目標</color>的<color=#9702DE>嫉炉</color>抗性+0.1(每名<color=#ffffff>敵方単位</color>每个技能最多1次，最多+0.3)\n獲得或消耗充能 層数的技能造成的<color=#ffffff>傷害</color>+(10+獲得或消耗的充能 層数×2)%(最多+50%)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR506",
+            "name": "折射的爆発",
+            "desc": "<color=#7C5738>回合結束</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><color=#ffffff>部位</color>造成相当于其焼傷 強度的<color=#FE0100>暴怒</color><color=#ffffff>傷害</color>，并使其焼傷 層数減少1層;使其震顫引爆 1次，并使其震顫 層数減少1層(僅在層数不低于2層時生效)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR507",
+            "name": "折射的破裂",
+            "desc": "増加破裂 強度或施加破裂 層数的技能<color=#ffffff>最終威力</color>+2",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR508",
+            "name": "折射的沈淪",
+            "desc": "対<color=#81BBE8>理智値</color>低于0点或未帯有<color=#81BBE8>理智値</color>的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的沈淪 強度)%(最多+45%)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR509",
+            "name": "弱点破坏",
+            "desc": "対被破坏或陷入混乱的<color=#ffffff>部位</color>造成的<color=#ffffff>傷害</color>+30%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR510",
+            "name": "霧化吸入器",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>増加5級呼吸法 強度并獲得5層呼吸法 。激活<color=#044ED6>傲慢</color><color=#7C5738>共鳴</color>時，<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>増加3級呼吸法 強度并獲得3層呼吸法 。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR511",
+            "name": "孤独的射手",
+            "desc": "第1順位<color=#ffffff>友方単位</color>的最小与最大<color=#7C5737>速度値</color>+1。該<color=#ffffff>友方単位</color>減少1个1技能，増加1个3技能",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR512",
+            "name": "延續斗志",
+            "desc": "从第7順位<color=#ffffff>友方単位</color>起，其解除待命的<color=#7C5738>回合開始</color>時，使其恢復30点<color=#81BBE8>理智値</color>，本場戦斗期間使其獲得1層強壮 ，獲得<color=#ffffff>自身</color>基礎攻撃技能対應的E.G.O資源各2个",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR513",
+            "name": "資源收獲",
+            "desc": "攻撃或反撃技能結束時，若<color=#7C5738>撃殺</color>了<color=#ffffff>敵方単位</color>，則獲得該技能対應的E.G.O資源2个(每个技能最多1次，包括E.G.O技能)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR514",
+            "name": "버프 이름",
+            "desc": "新的<color=#ffffff>敵方単位</color>増援時，<color=#ffffff>戦斗開始</color>時使其増加5級流血 強度并対其施加3層流血 。若<color=#ffffff>友方単位</color>中存在<血魔>，則新的<color=#ffffff>敵方単位</color>登場時触発<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的流血 1次，并使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的流血 層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR515",
+            "name": "頑強防御",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>受到的<color=#ffffff>傷害</color>-50%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR516",
+            "name": "生死决断",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>傷害</color>+30%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR517",
+            "name": "憤怒的反撃",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>受到技能攻撃時，<color=#7C5738>下回合</color>使其獲得2層攻撃等級提升 (最多6層)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR518",
+            "name": "追憶吊墜",
+            "desc": "<color=#ffffff>戦斗開始</color>時，使最先編入的3名<color=#ffffff>友方単位</color>増加10級呼吸法 強度",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR519",
+            "name": "버프 이름",
+            "desc": "消耗彈薬 的技能<color=#ffffff>拼点威力</color>+2，造成的<color=#ffffff>傷害</color>+(60/硬幣数)%。若<color=#ffffff>自身</color>彈薬 数為0発，則<color=#7C5738>下回合</color>開始時獲得2発彈薬 (每場戦斗每名人格最多1次)\n第3区段的最終頭目的<color=#1BC7F0>憂郁</color>抗性変為脆弱(×1.5)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR520",
+            "name": "凶彈傾瀉",
+            "desc": "<color=#ffffff>友方単位</color>陣亡時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>的所有<color=#ffffff>部位</color>造成相当于該<color=#ffffff>友方単位</color><color=#61DA61>体力</color>上限50%的固定<color=#ffffff>傷害</color>",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR521",
+            "name": "体力紐曲",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的<color=#61DA61>体力</color>上限+25%，第一<color=#ffffff>混乱閾値</color>无效",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR522",
+            "name": "危険競賽",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>技能的<color=#ffffff>最終威力</color>+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR523",
+            "name": "染血宴会",
+            "desc": "命中時，若使<color=#ffffff>敵方単位</color>失去<color=#61DA61>体力</color>，則使<color=#ffffff>自身</color>恢復造成<color=#ffffff>傷害</color>量10%的<color=#61DA61>体力</color>。<color=#7C5738>回合結束</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的流血 層数減少3層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR524",
+            "name": "血之慶典",
+            "desc": "<color=#ffffff>友方単位</color>每消耗10層血宴 ，使其所有技能造成的<color=#ffffff>傷害</color>+1%(最多+30%)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR526",
+            "name": "折射的斬撃",
+            "desc": "<color=#ffffff>斬撃</color>技能的加算<color=#ffffff>硬幣威力</color>+1，減算<color=#ffffff>硬幣威力</color>-1\n第3区段的最終頭目的<color=#ffffff>斬撃</color>抗性変為脆弱(×1.5) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR527",
+            "name": "折射的突刺",
+            "desc": "<color=#ffffff>突刺</color>技能的加算<color=#ffffff>硬幣威力</color>+1，減算<color=#ffffff>硬幣威力</color>-1\n第3区段的最終頭目的<color=#ffffff>突刺</color>抗性変為脆弱(×1.5) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR528",
+            "name": "折射的打撃",
+            "desc": "<color=#ffffff>打撃</color>技能的加算<color=#ffffff>硬幣威力</color>+1，減算<color=#ffffff>硬幣威力</color>-1\n第3区段的最終頭目的<color=#ffffff>打撃</color>抗性変為脆弱(×1.5) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR529",
+            "name": "生長折射 I",
+            "desc": "敵方等級 +1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR530",
+            "name": "生長折射 II",
+            "desc": "敵方等級 +2",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR531",
+            "name": "増益名称",
+            "desc": "戦斗中，増援的<color=#ffffff>敵方単位</color>在其増援的<color=#7C5738>回合開始</color>時獲得2層<color=#ffffff>拼点威力</color>提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR532",
+            "name": "資源揮発",
+            "desc": "覚醒E.G.O技能攻撃結束后，按持有量由多到少消耗持有量多于1个的E.G.O資源1个，總計消耗2个",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR533",
+            "name": "綻放之血",
+            "desc": "<color=#ffffff>敵方単位</color>通過技能或<color=#ffffff>硬幣效果</color>使帯有流血 的<color=#ffffff>目標</color>増加的流血 強度或対該<color=#ffffff>目標</color>施加的流血 層数額外+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR534",
+            "name": "頑強防御",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>受到的<color=#ffffff>傷害</color>-20%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR535",
+            "name": "増益名称",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的<color=#61DA61>体力</color>上限-50%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR536",
+            "name": "折射的憤怒",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>受到技能攻撃時，<color=#7C5738>下回合</color>随机獲得1層攻撃等級提升 或1層防御等級提升 (<color=#7C5738>每回合</color>每名<color=#ffffff>敵方単位</color>最多4次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR537",
+            "name": "体力折射 II",
+            "desc": "<color=#ffffff>敵方単位</color>的<color=#61DA61>体力</color>上限+20%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR538",
+            "name": "増益名称",
+            "desc": "<color=#ffffff>敵方単位</color>技能的<color=#ffffff>最終威力</color>+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR539",
+            "name": "染血宴会",
+            "desc": "<color=#ffffff>敵方単位</color>通過技能或<color=#ffffff>硬幣效果</color>恢復的<color=#61DA61>体力</color>+20%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR540",
+            "name": "増益名称",
+            "desc": "<color=#ffffff>敵方単位</color>消耗血宴 的技能<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR541",
+            "name": "増益名称",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>以流血 強度最低的<color=#ffffff>友方単位</color>為主要<color=#ffffff>目標</color>時，使該<color=#ffffff>敵方単位</color>攻撃時技能的<color=#ffffff>最終威力</color>+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR542",
+            "name": "体力折射",
+            "desc": "<color=#ffffff>敵方単位</color>的<color=#61DA61>体力</color>上限+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR543",
+            "name": "延續意志",
+            "desc": "陣亡時，根据<color=#ffffff>自身</color>擁有的基礎攻撃技能的罪孼与級別，獲得相應的E.G.O資源。",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "FellBulletGroggy",
+            "name": "標記",
+            "desc": "- 无法解除\n- <color=#7C5738>回合結束</color>時，若本效果層数為0層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>陷入混乱\n- 使用技能指定<color=#ffffff>目標</color>射撃時，若<color=#ffffff>目標</color>未被標記，則使本效果的層数減少1層\n- 若技能調整<color=#ffffff>目標</color>射撃拼点失敗，則使本效果的層数減少1層\n- 若技能調整<color=#ffffff>目標</color>射撃指定的<color=#ffffff>友方単位</color>在該技能使用前陣亡，則使本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR544",
+            "name": "威力輪盤賭",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>技能的<color=#ffffff>最終威力</color>+1~3",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR545",
+            "name": "玻璃大炮",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>傷害</color>+20%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR546",
+            "name": "高風険",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>傷害</color>+10%\n第3区段的最終頭目的<color=#ffffff>斬撃</color>、<color=#ffffff>突刺</color>与<color=#ffffff>打撃</color>抗性変為脆弱(×1.3)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR547",
+            "name": "威力輪盤賭",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>技能的<color=#ffffff>最終威力</color>+1~3",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR548",
+            "name": "危険競賽",
+            "desc": "<color=#ffffff>敵方単位</color>的<color=#ffffff>拼点威力</color>+2",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR549",
+            "name": "生死决断",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的<color=#61DA61>体力</color>上限-25%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR550",
+            "name": "中等風険",
+            "desc": "<color=#ffffff>敵方単位</color>的加算<color=#ffffff>硬幣威力</color>+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR551",
+            "name": "折射的流血",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#61DA61>体力</color>為最大値的<color=#ffffff>敵方単位</color>増加5級流血 強度并対其施加3層流血 (每場戦斗每名<color=#ffffff>敵方単位</color>每个<color=#ffffff>部位</color>最多1次)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR552",
+            "name": "増益名称",
+            "desc": "<color=#ffffff>敵方単位</color>陣亡時，按現存<color=#61DA61>体力</color>由低到高在<color=#7C5738>下回合</color>使1名<color=#ffffff>友方単位</color>獲得2層<color=#ffffff>拼点威力</color>提升 ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR5BaseP",
+            "name": "生效的増益",
+            "desc": "",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR5BaseN",
+            "name": "生效的苦難",
+            "desc": "",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR553",
+            "name": "一次呼吸",
+            "desc": "E.G.O技能造成的<color=#ffffff>傷害</color>+30%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR554",
+            "name": "増益名称",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>造成的<color=#ffffff>傷害</color>+15%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR555",
+            "name": "拼点威力折射",
+            "desc": "<color=#ffffff>敵方単位</color>的<color=#ffffff>拼点威力</color>+1",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR556",
+            "name": "玻璃大炮",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>受到的<color=#ffffff>傷害</color>+30%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR557",
+            "name": "折射的呼吸法",
+            "desc": "<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(10+<color=#ffffff>自身</color>的呼吸法 強度与層数之和)%(最多+50%)",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR558",
+            "name": "折射的暴怒",
+            "desc": "<color=#FE0100>暴怒</color>技能造成的<color=#ffffff>傷害</color>+30%\n第3区段的最終頭目的<color=#FE0100>暴怒</color>抗性変為脆弱(×1.25) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR559",
+            "name": "折射的色欲",
+            "desc": "<color=#FE6E00>色欲</color>技能造成的<color=#ffffff>傷害</color>+30%\n第3区段的最終頭目的<color=#FE6E00>色欲</color>抗性変為脆弱(×1.25) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR560",
+            "name": "折射的怠惰",
+            "desc": "<color=#FED233>怠惰</color>技能造成的<color=#ffffff>傷害</color>+30%\n第3区段的最終頭目的<color=#FED233>怠惰</color>抗性変為脆弱(×1.25) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR561",
+            "name": "折射的暴食",
+            "desc": "<color=#A6FE00>暴食</color>技能造成的<color=#ffffff>傷害</color>+30%\n第3区段的最終頭目的<color=#A6FE00>暴食</color>抗性変為脆弱(×1.25) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR562",
+            "name": "折射的憂郁",
+            "desc": "<color=#1BC7F0>憂郁</color>技能造成的<color=#ffffff>傷害</color>+30%\n第3区段的最終頭目的<color=#1BC7F0>憂郁</color>抗性変為脆弱(×1.25) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR563",
+            "name": "折射的傲慢",
+            "desc": "<color=#044ED6>傲慢</color>技能造成的<color=#ffffff>傷害</color>+30%\n第3区段的最終頭目的<color=#044ED6>傲慢</color>抗性変為脆弱(×1.25) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR564",
+            "name": "折射的嫉炉",
+            "desc": "<color=#9702DE>嫉炉</color>技能造成的<color=#ffffff>傷害</color>+30%\n第3区段的最終頭目的<color=#9702DE>嫉炉</color>抗性変為脆弱(×1.25) ",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR565",
+            "name": "安樂",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的最小与最大<color=#7C5737>速度値</color>+2，<color=#61DA61>体力</color>上限+25%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR566",
+            "name": "攻撃性折射",
+            "desc": "<color=#ffffff>敵方単位</color>的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR567",
+            "name": "高風険",
+            "desc": "<color=#ffffff>敵方単位</color>的加算<color=#ffffff>硬幣威力</color>+2",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR568",
+            "name": "防御折射",
+            "desc": "<color=#ffffff>敵方単位</color>的防御等級+3",
+            "summary": "",
+            "undefined": "-"
+        },
+        {
+            "id": "MRR569",
+            "name": "傷害折射",
+            "desc": "<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%",
+            "summary": "",
+            "undefined": "-"
+        }
+    ]
+}

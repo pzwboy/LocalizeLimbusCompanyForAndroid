@@ -1,0 +1,96 @@
+{
+    "dataList": [
+        {
+            "id": 9269,
+            "name": "登場専用音響",
+            "desc": "<color=#ffffff>打撃</color>技能命中時，使該<color=#ffffff>友方単位</color>恢復造成<color=#ffffff>傷害</color>量5%的<color=#61DA61>体力</color>\n\n反撃技能命中時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(<color=#7C5738>每回合</color>每名人格最多2次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9269,
+                    "simpleDesc": "根据<color=#ffffff>傷害</color>量，相應恢復<color=#61DA61>体力</color>"
+                },
+                {
+                    "abilityID": 92691,
+                    "simpleDesc": "恢復<color=#81BBE8>理智値</color>"
+                }
+            ]
+        },
+        {
+            "id": 9270,
+            "name": "幼·兄登場",
+            "desc": "<color=#ffffff>友方単位</color>受到攻撃時，使該<color=#ffffff>友方単位</color>獲得3層[AttackUp]并対攻撃者施加4層[Laceration](每个技能最多1次)\n\n属于中指的人格使用的基礎技能<color=#ffffff>基礎威力</color>+1，造成的<color=#ffffff>傷害</color>+(30/硬幣数)%\n- <color=#7C5738>回合開始</color>時，若属于中指的人格不低于3名，則改為<color=#ffffff>基礎威力</color>+1，造成的<color=#ffffff>傷害</color>+(60/硬幣数)%\n- 若不低于5名，則改為<color=#ffffff>基礎威力</color>+2，造成的<color=#ffffff>傷害</color>+(90/硬幣数)%\n\n<color=#ffffff>打撃</color>技能命中時，使該<color=#ffffff>友方単位</color>恢復造成<color=#ffffff>傷害</color>量10%的<color=#61DA61>体力</color>\n\n反撃技能命中時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(<color=#7C5738>每回合</color>每名人格最多2次)\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>戦斗開始</color>時装備了反撃技能的<color=#ffffff>友方単位</color>在<color=#7C5738>本回合</color>未使用反撃技能，則<color=#7C5738>下回合</color>使該<color=#ffffff>友方単位</color>獲得1層[PlusCoinValueUp]与1層[MinusCoinValueDown]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9270,
+                    "simpleDesc": "対攻撃者施加[Laceration]層数，使受到攻撃的<color=#ffffff>友方単位</color>獲得[AttackUp]"
+                },
+                {
+                    "abilityID": 92701,
+                    "simpleDesc": "<color=#ffffff>基礎威力</color>増加，造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 92702,
+                    "simpleDesc": "根据<color=#ffffff>傷害</color>量，相應恢復<color=#61DA61>体力</color>"
+                },
+                {
+                    "abilityID": 92703,
+                    "simpleDesc": "恢復<color=#81BBE8>理智値</color>"
+                },
+                {
+                    "abilityID": 92704,
+                    "simpleDesc": "<color=#7C5738>下回合</color>獲得[PlusCoinValueUp]与[MinusCoinValueDown]"
+                }
+            ]
+        },
+        {
+            "id": 9271,
+            "name": "黑獣丸 - 卯",
+            "desc": "属于黑獣 - 卯的人格首次登場時，1回合内使其最小<color=#7C5737>速度値</color>固定為10(若最小<color=#7C5737>速度値</color>不低于10，則不会触発該效果)\n\n<color=#ffffff>自身</color>帯有[LegStrength]時，使<color=#ffffff>自身</color>基礎技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+10%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9271,
+                    "simpleDesc": "最小<color=#7C5737>速度値</color>固定"
+                },
+                {
+                    "abilityID": 92711,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>増加，造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
+        {
+            "id": 9272,
+            "name": "暗中行動",
+            "desc": "属于黑獣 - 卯的人格首次登場時，3回合内使其最小<color=#7C5737>速度値</color>固定為10(若最小<color=#7C5737>速度値</color>不低于10，則不会触発該效果)\n\n<color=#ffffff>自身</color>每帯有1層[LegStrength]，使<color=#ffffff>自身</color>基礎技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n\n施加[BurstAgility]時，額外対未帯有[BurstAgility]的2名<color=#ffffff>敵方単位</color>施加(<color=#7C5738>每回合</color>最多1次，若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n\n若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則令<color=#ffffff>自身</color>通過技能増加[Burst]強度或施加[Burst]層数時額外増加(<color=#7C5737>速度値</color>之差/3)級[Burst]強度或額外施加(<color=#7C5737>速度値</color>之差/3)層[Burst](最多3点)\n\n<color=#7C5738>回合結束</color>時，使属于黑獣 - 卯的<color=#ffffff>友方単位</color>在<color=#7C5738>下回合</color>獲得2層[Agility]\n若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>或進行単方面攻撃，則(<color=#7C5737>速度値</color>之差/3)每有1点，使<color=#ffffff>自身</color>造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>+10%(最多+30%)\n若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則(<color=#7C5737>速度値</color>之差/3)每有1点，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>-10%(最多-30%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9272,
+                    "simpleDesc": "最小<color=#7C5737>速度値</color>固定"
+                },
+                {
+                    "abilityID": 92721,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>増加，造成的<color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 92722,
+                    "simpleDesc": "額外施加[BurstAgility]"
+                },
+                {
+                    "abilityID": 92723,
+                    "simpleDesc": "技能増加[Burst]強度或施加[Burst]層数時，額外増加[Burst]強度或施加[Burst]層数"
+                },
+                {
+                    "abilityID": 92724,
+                    "simpleDesc": "<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>獲得[Agility]"
+                },
+                {
+                    "abilityID": 92725,
+                    "simpleDesc": "造成的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>増加"
+                },
+                {
+                    "abilityID": 92726,
+                    "simpleDesc": "受到的<color=#ffffff>傷害</color>減少"
+                }
+            ]
+        }
+    ]
+}

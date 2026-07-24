@@ -1,0 +1,124 @@
+{
+    "dataList": [
+        {
+            "id": 863001,
+            "name": "近身戦",
+            "desc": "若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則每<color=#7C5738>相差</color>1点，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%(最多+30%)\n若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>低于<color=#ffffff>目標</color>，則每<color=#7C5738>相差</color>1点，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>-10%(最多-30%)"
+        },
+        {
+            "id": 863002,
+            "name": "躍進",
+            "desc": "<color=#ffffff>自身</color>每帯有5級[Breath]強度，使<color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+1(最多+4)"
+        },
+        {
+            "id": 863003,
+            "name": "召喚標子",
+            "desc": "現存<color=#61DA61>体力</color>不高于75%時，改変攻撃模式\n攻撃模式改変時，召喚旧G公司部長与変本加歴的残兵，并対現存<color=#61DA61>体力</color>最低的<color=#ffffff>目標</color>施加[FellBulletMark]。\n- <color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>変為1。\n- 使<color=#ffffff>自身</color>獲得300点<color=#81BBE8>護盾</color><color=#61DA61>体力</color>。"
+        },
+        {
+            "id": 863004,
+            "name": "指定目標",
+            "desc": "使用指定<color=#ffffff>目標</color>射撃或調整<color=#ffffff>目標</color>射撃時，在<color=#7C5737>速度値</color>最低的<color=#ffffff>目標</color>中対現存<color=#61DA61>体力</color>最低的<color=#ffffff>目標</color>施加[FellBulletMark]"
+        },
+        {
+            "id": 863201,
+            "name": "養气供給",
+            "desc": "往昔的睡袋登場的首个<color=#7C5738>回合開始</color>時，使其増加10級[Breath]強度并使其獲得10層[Breath]\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[Breath]強度低于10級或[Breath]層数低于10層，則消耗相当于<color=#ffffff>自身</color>本体<color=#61DA61>体力</color>上限2%的頭部<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>増加5級[Breath]強度并使<color=#ffffff>自身</color>獲得5層[Breath](不会因該效果而<color=#ffffff>部位</color>破坏或陣亡)"
+        },
+        {
+            "id": 863202,
+            "name": "深呼吸",
+            "desc": "[Breath] 效果的<color=#ffffff>暴撃</color>率×1.5\n\n<color=#ffffff>暴撃</color>時：\n- 若[Breath] 強度不低于15級，則消耗(<color=#ffffff>自身</color>帯有的[Breath] 強度/5)級[Breath] 強度，使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(消耗的[Breath] 強度×4)%\n- 若[Breath] 層数不低于15層，則消耗(<color=#ffffff>自身</color>帯有的[Breath] 層数/5)層[Breath] ，使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(消耗的[Breath] 層数×8)%"
+        },
+        {
+            "id": 863203,
+            "name": "養气飽和状態",
+            "desc": "使用“那是…我的！”的回合内，<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為1。<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color>単位増加6級[Breath]強度并獲得6層[Breath]\n\n該<color=#7C5738>回合結束</color>時，消耗所有超過5級的[Breath]強度与超過5層的[Breath]，<color=#7C5738>下回合</color>開始時使頭部増加相当于消耗的[Breath]強度的[Breath]強度并獲得層数相当于消耗的[Breath]層数的[Breath]"
+        },
+        {
+            "id": 863204,
+            "name": "肋骨破坏",
+            "desc": "躯干<color=#ffffff>部位</color>被破坏時，<color=#7C5738>下回合</color>移除躯干<color=#ffffff>部位</color>并以人<color=#ffffff>部位</color>替代"
+        },
+        {
+            "id": 863205,
+            "name": "肋骨再生",
+            "desc": "<color=#7C5738>回合結束</color>時，使人<color=#ffffff>部位</color>帯有的[Breath]強度与[Breath]層数減半\n<color=#7C5738>下回合</color>移除人<color=#ffffff>部位</color>并以躯干<color=#ffffff>部位</color>替代"
+        },
+        {
+            "id": 863206,
+            "name": "断絶痛苦",
+            "desc": "每当<color=#ffffff>自身</color>拼点失敗并受到攻撃時，使<color=#ffffff>自身</color>的[Breath]強度減少1級\n\n每当<color=#ffffff>自身</color>受到単方面攻撃時，使<color=#ffffff>自身</color>的[Breath]層数減少1層\n\n无論<color=#ffffff>暴撃</color>与触発被動，<color=#ffffff>自身</color>的[Breath]強度与[Breath]層数不会低于5"
+        },
+        {
+            "id": 863207,
+            "name": "尖嘯",
+            "desc": "本体<color=#61DA61>体力</color>不高于40%時，<color=#7C5738>下回合</color>使用“分担痛苦”"
+        },
+        {
+            "id": 863208,
+            "name": "后遺症",
+            "desc": "人陣亡時，直到<color=#7C5738>下回合</color>使躯干与頭部的<color=#ffffff>斬撃</color>、<color=#ffffff>突刺</color>与<color=#ffffff>打撃</color>抗性+0.2(每場戦斗最多1次)"
+        },
+        {
+            "id": 863301,
+            "name": "沈溺的花瓣",
+            "desc": "<color=#7C5738>回合結束</color>時，若[BloodDinner]層数不低于20層，則消耗最多50層[BloodDinner]并使<color=#ffffff>自身</color>本体与頭部恢復相当于消耗的[BloodDinner]層数的<color=#61DA61>体力</color>\n- 頭部被破坏或陷入混乱時不会触発"
+        },
+        {
+            "id": 863302,
+            "name": "一滴養分",
+            "desc": "攻撃后，使<color=#ffffff>自身</color>本体与<color=#ffffff>部位</color>恢復相当于該攻撃技能<color=#ffffff>傷害</color>量一半的<color=#61DA61>体力</color>\n- 頭部被破坏或陷入混乱時不会触発"
+        },
+        {
+            "id": 863303,
+            "name": "渴望",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>在<color=#7C5738>本回合</color>恢復了<color=#61DA61>体力</color>，則每恢復10次<color=#61DA61>体力</color>，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp]与1層[DefenseDown](最多10層)"
+        },
+        {
+            "id": 863304,
+            "name": "残酷的血香",
+            "desc": "若[BloodDinner]層数不低于100層，則使用特殊技能\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[BloodDinner_Accumulation]層数不低于500層，或現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的60%，則改変模式"
+        },
+        {
+            "id": 863305,
+            "name": "折射的罪孼",
+            "desc": "[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的強度只能累積到50級(包括<color=#E40302>特殊焼傷</color>、流血、震顫、破裂与沈淪)"
+        },
+        {
+            "id": 863306,
+            "name": "鋒利的荊棘",
+            "desc": "<color=#ffffff>自身</color>的躯干<color=#ffffff>部位</color>受到技能<color=#ffffff>傷害</color>時，対攻撃者施加1層[Laceration](<color=#7C5738>每回合</color>每名人格最多1次)"
+        },
+        {
+            "id": 863307,
+            "name": "无尽的飢渴",
+            "desc": "<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有100層[BloodDinner_Accumulation]，対<color=#ffffff>自身</color>施加1層[DefenseDown](最多10層)\n<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有200層[BloodDinner_Accumulation]，使<color=#ffffff>自身</color>獲得1層[TakeHpHealIncrease](最多5層)"
+        },
+        {
+            "id": 863308,
+            "name": "无尽的渴望",
+            "desc": "每到3的倍数回合，触発選擇事件"
+        },
+        {
+            "id": 863309,
+            "name": "折射率提升",
+            "desc": "若<color=#ffffff>自身</color>登場超過9回合，則从<color=#7C5738>下回合</color>起，每超過10回合1回合，使<color=#ffffff>自身</color>獲得1層[AttackUp](最多10層)"
+        },
+        {
+            "id": 863101,
+            "name": "指定射殺",
+            "desc": "被凶彈射手<color=#7C5738>撃殺</color>時，<color=#7C5738>下回合</color>使凶彈射手獲得1層[Agility]，1層[Enhancement]与2層[AttackDmgUp]"
+        },
+        {
+            "id": 863102,
+            "name": "先手必勝",
+            "desc": "被罪人<color=#7C5738>撃殺</color>時，獲得<color=#7C5738>撃殺</color><color=#ffffff>自身</color>的技能対應的3个E.G.O資源"
+        },
+        {
+            "id": 863103,
+            "name": "不是我",
+            "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>未帯有[FellBulletMark]，則使<color=#ffffff>自身</color>獲得300点<color=#81BBE8>護盾</color>"
+        }
+    ]
+}

@@ -1,0 +1,286 @@
+{
+    "dataList": [
+        {
+            "id": 9403,
+            "name": "黑檀胸針",
+            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加2級[Burst]強度并対其施加2層[Burst]\n\n3回合内，<color=#7C5738>回合結束</color>時対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加2層[Binding]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9403,
+                    "simpleDesc": "使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加2級[Burst]強度并対其施加2層[Burst]"
+                },
+                {
+                    "abilityID": 94031,
+                    "simpleDesc": "対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加2層[Binding]"
+                }
+            ]
+        },
+        {
+            "id": 9404,
+            "name": "封装蛆虫",
+            "desc": "<color=#FE6E00>色欲</color>或<color=#A6FE00>暴食</color>攻撃技能命中<color=#ffffff>敵方単位</color>(不包括E.G.O技能)時，対其施加2層[Muckworm]\n\n若該技能為増加[Laceration]強度，施加[Laceration]層数或施加<color=#E40302>特殊流血</color>的技能，則改為対<color=#ffffff>目標</color>施加3層[Muckworm]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9404,
+                    "simpleDesc": "対<color=#ffffff>目標</color>施加2層[Muckworm]"
+                },
+                {
+                    "abilityID": 94041,
+                    "simpleDesc": "対<color=#ffffff>目標</color>施加3層[Muckworm]"
+                }
+            ]
+        },
+        {
+            "id": 9407,
+            "name": "定制",
+            "desc": "[第3順位人格専属]\n\n<color=#7C5737>関峠開始</color>時，対<color=#ffffff>自身</color>施加3層[Vibration]\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[Protection]，1層[AttackDmgUp]与1層[ResultEnhancement]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9407,
+                    "simpleDesc": "対<color=#ffffff>自身</color>施加3層[Vibration]"
+                },
+                {
+                    "abilityID": 94071,
+                    "simpleDesc": "使<color=#ffffff>自身</color>獲得1層[Protection]，1層[AttackDmgUp]与1層[ResultEnhancement]"
+                }
+            ]
+        },
+        {
+            "id": 9408,
+            "name": "鬼附鞋",
+            "desc": "[第2順位人格専属]\n\n<color=#7C5737>関峠開始</color>時，対<color=#ffffff>自身</color>施加3層[Sinking]\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[Protection]，1層[AttackDmgUp]与1層[ResultEnhancement]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9408,
+                    "simpleDesc": "対<color=#ffffff>自身</color>施加3層[Sinking]"
+                },
+                {
+                    "abilityID": 94081,
+                    "simpleDesc": "使<color=#ffffff>自身</color>獲得1層[Protection]，1層[AttackDmgUp]与1層[ResultEnhancement]"
+                }
+            ]
+        },
+        {
+            "id": 9409,
+            "name": "冰封的哀号",
+            "desc": "<color=#7C5738>回合開始</color>時，适用于<color=#7C5737>速度値</color>最低的1名人格\n\n該<color=#ffffff>友方単位</color>拼点勝利或受到<color=#ffffff>敵方単位</color>攻撃時，使<color=#ffffff>敵方単位</color>増加3級[Sinking]強度",
+            "simpleDesc": [
+                {
+                    "abilityID": 9409,
+                    "simpleDesc": "使<color=#ffffff>目標</color>増加3級[Sinking]強度"
+                }
+            ]
+        },
+        {
+            "id": 9410,
+            "name": "霜凍足迹",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加3層[Sinking]。使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加4級[Sinking]強度并対其施加8層[Sinking]。\n\n帯有[Sinking]的<color=#ffffff>敵方単位</color><color=#ffffff>拼点威力</color>-2，受到該效果的<color=#ffffff>敵方単位</color>与友方人格拼点失敗時，使該<color=#ffffff>敵方単位</color>増加2級[Sinking]強度;攻撃友方人格時，使該<color=#ffffff>敵方単位</color>増加3級[Sinking]強度。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9410,
+                    "simpleDesc": "使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級[Sinking]強度并対其施加8層[Sinking]"
+                },
+                {
+                    "abilityID": 94101,
+                    "simpleDesc": "帯有[Sinking]的<color=#ffffff>敵方単位</color><color=#ffffff>拼点威力</color>-2"
+                }
+            ]
+        },
+        {
+            "id": 9413,
+            "name": "釘与錘之書",
+            "desc": "<color=#ffffff>友方単位</color>増加[Laceration]強度，施加[Laceration]層数或施加<color=#E40302>特殊流血</color>的技能拼点勝利時，対<color=#ffffff>目標</color>施加1~2層[NailPersonality]\n\n若該<color=#ffffff>友方単位</color>属于N公司狂信徒，則<color=#7C5738>回合開始</color>時使其獲得1層狂信 ",
+            "simpleDesc": [
+                {
+                    "abilityID": 9413,
+                    "simpleDesc": "対<color=#ffffff>目標</color>施加1~2層[NailPersonality]"
+                },
+                {
+                    "abilityID": 94131,
+                    "simpleDesc": "若該<color=#ffffff>友方単位</color>属于N公司狂信徒，則<color=#7C5738>回合開始</color>時使其獲得1層狂信 "
+                }
+            ]
+        },
+        {
+            "id": 9414,
+            "name": "血紅鬃毛",
+            "desc": "适用于<color=#ffffff>全体</color>擁有<color=#FE0100>暴怒</color>或<color=#FE6E00>色欲</color>攻撃技能的人格\n\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>未受到敵方攻撃技能的<color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility]与2層[Endurance]\n\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>受到過敵方攻撃技能的<color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層[Binding]并使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+2",
+            "simpleDesc": [
+                {
+                    "abilityID": 9414,
+                    "simpleDesc": "<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility]与2層[Endurance]"
+                },
+                {
+                    "abilityID": 94141,
+                    "simpleDesc": "<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層[Binding]并使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+2"
+                }
+            ]
+        },
+        {
+            "id": 9415,
+            "name": "汚穢",
+            "desc": "<color=#ffffff>友方単位</color>増加[Laceration]強度，施加[Laceration]層数或施加<color=#E40302>特殊流血</color>的技能攻撃帯有[Laceration]的<color=#ffffff>敵方単位</color>時，使該<color=#ffffff>友方単位</color>対<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+15%\n\n若<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>不高于<color=#61DA61>体力</color>上限的33%，則改為造成的<color=#ffffff>傷害</color>+25%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9415,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+15%"
+                },
+                {
+                    "abilityID": 94151,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+25%"
+                }
+            ]
+        },
+        {
+            "id": 9416,
+            "name": "完全性",
+            "desc": "<color=#ffffff>友方単位</color>増加[Laceration]強度，施加[Laceration]層数或施加<color=#E40302>特殊流血</color>的技能拼点勝利時，対<color=#ffffff>目標</color>施加2~3層[NailPersonality]\n\n属于N公司狂信徒的人格対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+25%并在<color=#7C5738>回合開始</color>時獲得1層狂信 。若該人格的<color=#81BBE8>理智値</color>為最大値或上回合<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数不低于3，則額外使該人格獲得3層[AttackDmgUp]。\n\n属于N公司狂信徒的人格的<color=#ffffff>最終威力</color>+2，加算<color=#ffffff>硬幣威力</color>+1，減算<color=#ffffff>硬幣威力</color>-1，攻撃技能施加的[NailPersonality]層数額外+1層。\n\n属于N公司狂信徒的人格基礎技能対属于<机械融合生命体>的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+50%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9416,
+                    "simpleDesc": "拼点勝利時，対<color=#ffffff>目標</color>施加2~3層[NailPersonality]"
+                },
+                {
+                    "abilityID": 94161,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>+25%并在<color=#7C5738>回合開始</color>時獲得1層狂信 。満足条件時獲得3層[AttackDmgUp]"
+                },
+                {
+                    "abilityID": 94162,
+                    "simpleDesc": "<color=#ffffff>最終威力</color>+2，加算<color=#ffffff>硬幣威力</color>+1，減算<color=#ffffff>硬幣威力</color>-1，攻撃技能施加的[NailPersonality]層数額外+1層。"
+                },
+                {
+                    "abilityID": 94163,
+                    "simpleDesc": "基礎技能造成的<color=#ffffff>傷害</color>+50%"
+                }
+            ]
+        },
+        {
+            "id": 9419,
+            "name": "山茶花枝",
+            "desc": "本場戦斗中，1技能，2技能与3技能均使用1次后，<color=#7C5738>下回合</color>触発效果\n\n<color=#7C5738>回合開始</color>時，獲得1層[Agility]与1層[SkillPowerUp](最多畳加3次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9419,
+                    "simpleDesc": "<color=#7C5738>回合開始</color>時，獲得1層[Agility]与1層<color=#ffffff>基礎威力</color>提升 "
+                }
+            ]
+        },
+        {
+            "id": 9420,
+            "name": "万花筒",
+            "desc": "<color=#7C5738>回合開始</color>時，若有与<color=#ffffff>自身</color>属于同一陣営的人格，則獲得層数相当于除<color=#ffffff>自身</color>以外属于同一陣営的人格数的[AttackUp](最多4層)\n\n属于技術解放聯盟的人格<color=#ffffff>拼点威力</color>+1",
+            "simpleDesc": [
+                {
+                    "abilityID": 9420,
+                    "simpleDesc": "使<color=#ffffff>自身</color>獲得[AttackUp]"
+                },
+                {
+                    "abilityID": 94201,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>+1"
+                }
+            ]
+        },
+        {
+            "id": 9423,
+            "name": "破碎的眼鏡",
+            "desc": "<color=#ffffff>友方単位</color>与<color=#7C5737>速度値</color>高于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>拼点時，使該<color=#ffffff>友方単位</color><color=#ffffff>拼点威力</color>+1\n\n<color=#ffffff>友方単位</color>与<color=#7C5737>速度値</color>高于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>拼点勝利時，<color=#7C5738>下回合</color>使該<color=#ffffff>友方単位</color>獲得2層[AttackUp](最多4層)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9423,
+                    "simpleDesc": "<color=#ffffff>拼点威力</color>+1"
+                },
+                {
+                    "abilityID": 94231,
+                    "simpleDesc": "<color=#7C5738>下回合</color>獲得2層[AttackUp]"
+                }
+            ]
+        },
+        {
+            "id": 9424,
+            "name": "未寄出的信",
+            "desc": "[第1、第2順位人格専属]\n\n増加[Burst]強度或施加[Burst]層数的攻撃技能拼点勝利時，使<color=#ffffff>目標</color>増加5級[Burst]強度并対其施加3層[Burst](<color=#7C5738>每回合</color>每名人格最多1次)。\n\n与<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>敵方単位</color>拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+25%。\n\n与帯有[AttackUp]的<color=#ffffff>敵方単位</color>拼点勝利時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[AttackUp]并対拼点失敗的<color=#ffffff>敵方単位</color>施加3層[AttackDown](<color=#7C5738>每回合</color>每名人格最多3次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9424,
+                    "simpleDesc": "拼点勝利時，使<color=#ffffff>目標</color>増加5級[Burst]強度并対其施加3層[Burst]"
+                },
+                {
+                    "abilityID": 94241,
+                    "simpleDesc": "<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+25%"
+                },
+                {
+                    "abilityID": 94242,
+                    "simpleDesc": "対拼点失敗的<color=#ffffff>敵方単位</color>施加3層[AttackDown]"
+                }
+            ]
+        },
+        {
+            "id": 9429,
+            "name": "捕鯨槍義腿",
+            "desc": "<color=#7C5738>回合結束</color>時，使[Breath]強度与[Breath]層数之和最高的1名<color=#ffffff>友方単位</color>在<color=#7C5738>下回合</color>獲得2層[Agility]，2層[AttackUp]与2層[AttackDmgUp]。\n\n属于裴廓德号的人格最大<color=#7C5737>速度値</color>+1。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9429,
+                    "simpleDesc": "<color=#7C5738>下回合</color>獲得2層[Agility]，2層[AttackUp]与2層[AttackDmgUp]"
+                },
+                {
+                    "abilityID": 94291,
+                    "simpleDesc": "属于裴廓德号的人格最大<color=#7C5737>速度値</color>+1"
+                }
+            ]
+        },
+        {
+            "id": 9430,
+            "name": "照亮前方的汽灯",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>増加5級[Breath]強度并獲得5層[Breath]\n\n<color=#7C5738>回合結束</color>時，[Breath]強度与[Breath]層数之和最高的1名<color=#ffffff>友方単位</color>在<color=#7C5738>下回合</color>獲得2層[Agility]，3層[AttackUp]与3層[AttackDmgUp]\n\n属于裴廓德号的人格技能威力+2，最大<color=#7C5737>速度値</color>+2",
+            "simpleDesc": [
+                {
+                    "abilityID": 9430,
+                    "simpleDesc": "使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>増加5級[Breath]強度并獲得5層[Breath]"
+                },
+                {
+                    "abilityID": 94301,
+                    "simpleDesc": "<color=#7C5738>下回合</color>獲得2層[Agility]，3層[AttackUp]与3層[AttackDmgUp]。"
+                },
+                {
+                    "abilityID": 94302,
+                    "simpleDesc": "技能威力+2，最大<color=#7C5737>速度値</color>+2"
+                }
+            ]
+        },
+        {
+            "id": 9433,
+            "name": "首席管家的秘籍",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，選擇<color=#7C5737>速度値</color>最低的1名<color=#ffffff>敵方単位</color>(若是異想体，則随机1个<color=#ffffff>部位</color>)，从<color=#7C5738>下回合</color>起，5回合内対其施加5層[Binding]。\n\n拼点勝利時，若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>恢復相当于<color=#7C5737>速度値</color>之差的<color=#81BBE8>理智値</color>，并使拼点勝利的技能増加相当于<color=#7C5737>速度値</color>之差一半的攻撃等級(僅适用于拼点勝利的技能。最多増加3級)。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9433,
+                    "simpleDesc": "从<color=#7C5738>下回合</color>起的5回合内施加5層[Binding]"
+                },
+                {
+                    "abilityID": 94331,
+                    "simpleDesc": "使<color=#ffffff>自身</color>恢復相当于<color=#7C5737>速度値</color>之差的<color=#81BBE8>理智値</color>"
+                }
+            ]
+        },
+        {
+            "id": 9434,
+            "name": "手鏡",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，選擇<color=#7C5737>速度値</color>最低的2名<color=#ffffff>敵方単位</color>(若是異想体，則改為随机2个<color=#ffffff>部位</color>。単个<color=#ffffff>敵方単位</color>不会畳加)，<color=#7C5738>下回合</color>開始時対其施加5層[Binding]与3層[DefenseDown]。\n\n<color=#ffffff>敵方単位</color>解除混乱時，若其未擁有<color=#ffffff>混乱閾値</color>，則在其現存<color=#61DA61>体力</color>66%処生成1条<color=#ffffff>混乱閾値</color>(每場戦斗最多3次)。<color=#ffffff>友方単位</color>増加[Vibration]強度或施加[Vibration]層数的攻撃技能(包括対<color=#ffffff>自身</color>或<color=#ffffff>友方単位</color>施加)使<color=#ffffff>敵方単位</color>陷入混乱時(不包括E.G.O技能)，<color=#7C5738>下回合</color>使其他<color=#ffffff>敵方単位</color>(若是異想体，則改為以<color=#ffffff>部位</color>判定)増加共計相当于<color=#ffffff>目標</color>[Vibration]強度一半的[Vibration]強度，使陷入混乱的<color=#ffffff>目標</color>的[Vibration]強度変為2倍。",
+            "simpleDesc": [
+                {
+                    "abilityID": 9433,
+                    "simpleDesc": "<color=#7C5738>回合開始</color>時，対<color=#ffffff>目標</color>施加5層束縛 与3層防御等級降低 "
+                },
+                {
+                    "abilityID": 94331,
+                    "simpleDesc": "在現存<color=#61DA61>体力</color>66%処生成1条<color=#ffffff>混乱閾値</color>"
+                },
+                {
+                    "abilityID": 94332,
+                    "simpleDesc": "使陷入混乱的<color=#ffffff>目標</color>的震顫 強度変為2倍"
+                }
+            ]
+        }
+    ]
+}

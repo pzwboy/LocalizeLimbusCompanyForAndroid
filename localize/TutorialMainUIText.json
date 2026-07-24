@@ -1,0 +1,5424 @@
+{
+    "dataList": [
+        {
+            "id": "tutorial_mainui_01_selection",
+            "content": "編隊"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_01_desc_01",
+            "content": "宁可以用12名罪人的人格組建一个編隊。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_02_title_01",
+            "content": "編隊（罪人界面）"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_02_desc_01",
+            "content": "在罪人界面選擇罪人后，将会展示該罪人的人格列表并替換編隊内人格。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_03_title_01",
+            "content": "編隊（戦斗内容）"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_03_desc_01",
+            "content": "在各戦斗内容相関的編隊窗口中，選擇人格圖像的上半部分将顕示該罪人的人格列表，并从中替換編隊人格。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_04_desc_01",
+            "content": "在各戦斗内容相関的編隊窗口中，選擇人格圖像的下半部分将使該人格参与戦斗。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_04_desc_02",
+            "content": "此処顕示可以参加戦斗的最大罪人数。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_05_desc_01",
+            "content": "在部分无法更改編隊的戦斗内容中，選擇対應人格即可使該人格参与戦斗。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_06_title_01",
+            "content": "編隊-人格信息"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_06_desc_01",
+            "content": "在所有編隊窗口中，長按人格圖像会顕示人格信息，可以査看当前人格和E.G.O的詳細信息。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_07_title_01",
+            "content": "選擇播报員"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_07_desc_01",
+            "content": "選擇后能劬展示播报員一覧。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_07_desc_02",
+            "content": "可以更改戦斗中使用的播报員。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_08_title_01",
+            "content": "編輯編隊"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_08_desc_01",
+            "content": "通過組合提示的関鍵詞来命名編隊。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_08_desc_02",
+            "content": "總計能劬組建20个編隊。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_09_title_01",
+            "content": "編隊信息"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_09_desc_01",
+            "content": "可以査看編隊中所有人格技能的攻撃類型、罪孼属性和装備中的E.G.O列表。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_10_title_01",
+            "content": "E.G.O資源"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_10_desc_01",
+            "content": "能劬確認該編隊在戦斗中所能獲取的E.G.O資源的種類与数量。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_10_desc_02",
+            "content": "点撃此処，可以査看所選人格可提供的E.G.O資源，与所選E.G.O会消耗的E.G.O資源。"
+        },
+        {
+            "id": "tutorial_mainui_02_identityandegolist",
+            "content": "人格及E.G.O列表"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist",
+            "content": "人格列表"
+        },
+        {
+            "id": "tutorial_mainui_02_egolist",
+            "content": "E.G.O列表"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_01_desc_01",
+            "content": "展示可以選入編隊的罪人的人格一覧。可以確認人格的同步階段、等級、所属組織。"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_02_title_01",
+            "content": "編隊情况"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_02_desc_01",
+            "content": "能劬同時確認編隊中的人格以及E.G.O。于每个解析等級均可装備一種E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_03_title_01",
+            "content": "編隊情况"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_03_desc_01",
+            "content": "点撃該列按鈕時，能劬切換到可選中的E.G.O列表。"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_04_desc_01",
+            "content": "可在此処査看其稀有度、異想解析階段、主要属性以及名称。"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_05_title_01",
+            "content": "助戦列表"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_05_title_02",
+            "content": "助戦按鈕"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_05_desc_01",
+            "content": "選擇后，将会顕示好友的助戦人格列表。"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_05_desc_02",
+            "content": "能劬展示好友選擇的助戦人格及E.G.O一覧。"
+        },
+        {
+            "id": "tutorial_mainui_02_identitylist_page_06_desc_01",
+            "content": "袮能劬借用好友的助戦人格及其携帯的E.G.O。但同一編隊中僅能編入一名助戦人格。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo",
+            "content": "人格介紹"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_01_title_01",
+            "content": "等級"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_01_desc_01",
+            "content": "等級越高，人格能力値越得以強化。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_01_title_02",
+            "content": "同步階段"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_01_desc_02",
+            "content": "同步階段越高，人格技能效果越得以強化，也能獲得新的技能。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_02_title_01",
+            "content": "能力値"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_02_desc_01",
+            "content": "顕示該人格的体力，速度値范圍以及防御等級及変動値。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_02_title_02",
+            "content": "抗性信息"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_02_desc_02",
+            "content": "能劬顕示人格的抗性信息。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_03_title_01",
+            "content": "人格信息縮略"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_03_desc_01",
+            "content": "能劬確認人格装備的E.G.O以及所持技能。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_04_title_01",
+            "content": "技能"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_04_desc_01",
+            "content": "每个人格都擁有不同的技能。在此処可以確認技能的詳細信息。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_05_desc_01",
+            "content": "参与戦斗的人格能劬使用戦斗被動技能。每回合開始時，若満足条件則会触発相應戦斗被動技能。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_06_desc_01",
+            "content": "未参与戦斗的人格能劬使用支援被動技能。每回合開始時，若満足条件則会触発相應支援被動技能。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_07_title_01",
+            "content": "技能圖標"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_07_desc_01",
+            "content": "通過技能圖標的顔色可以区分其罪孼属性。罪孼属性被分為暴怒，色欲，怠惰，暴食，憂郁，傲慢，嫉炉七種顔色。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_08_desc_01",
+            "content": "技能圖標底部顕示攻撃類型。攻撃類型分為斬撃、突刺和打撃。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_08_desc_02",
+            "content": "技能圖標左側顕示技能的基礎威力。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_08_desc_03",
+            "content": "技能圖標頂部顕示硬幣威力。硬幣威力的計算方式分別為加算、減算、乘算。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_09_desc_01",
+            "content": "顕示技能硬幣總数。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_09_desc_02",
+            "content": "顕示技能名和人格擁有的技能数量。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_09_desc_03",
+            "content": "顕示技能攻撃等級変動値。技能攻撃等級与目標防御等級差距過大時，傷害将大幅提升或降低。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_10_desc_01",
+            "content": "顕示技能的攻撃容量。技能的攻撃容量与目標的行動槽容量相対應。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_11_title_01",
+            "content": "技能效果"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_11_desc_01",
+            "content": "満足一定条件便能発動的技能效果。"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_11_title_02",
+            "content": "硬幣效果"
+        },
+        {
+            "id": "tutorial_mainui_03_identityinfo_page_11_desc_02",
+            "content": "該硬幣満足条件便能発動的效果。判定失敗后无法発動硬幣效果。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo",
+            "content": "E.G.O信息"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_01_title_01",
+            "content": "異想解析階段"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_01_desc_01",
+            "content": "異想解析階段越高，技能效果越得以強化。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_02_title_01",
+            "content": "抗性信息"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_02_desc_01",
+            "content": "能劬顕示E.G.O的抗性信息。人格使用E.G.O技能后，該人格的罪孼抗性会被替換為E.G.O的罪孼抗性。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_02_title_02",
+            "content": "理智消耗量"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_02_desc_02",
+            "content": "使用E.G.O技能時消耗的理智値。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_02_title_03",
+            "content": "E.G.O資源消耗量"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_02_desc_03",
+            "content": "顕示使用E.G.O技能所消耗的E.G.O資源。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_03_title_01",
+            "content": "E.G.O技能"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_03_desc_01",
+            "content": "E.G.O擁有強大的技能效果与威力。能劬確認E.G.O技能的詳細信息。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_04_desc_01",
+            "content": "当人格在理智値較低的情况下使用E.G.O技能時，有概率引発E.G.O侵蝕，技能威力和技能效果会更強。\n但是无法控制其攻撃的目標，甚至可能会攻撃友方単位。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_05_desc_01",
+            "content": "生成E.G.O技能時，可以消耗1.5倍的理智値与E.G.O資源来強制使用E.G.O侵蝕，這称為E.G.O超頻。\n在戦斗中選擇E.G.O技能時，可以長按E.G.O来使用E.G.O超頻。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_05_desc_02",
+            "content": "使用E.G.O超頻時，如果E.G.O資源充足，則使用可識別友方与敵方単位的穏定超頻E.G.O技能。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_05_desc_03",
+            "content": "如果E.G.O資源不足，則使用无差別的不穏定超頻E.G.O技能。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_06_desc_01",
+            "content": "使用E.G.O技能将激活E.G.O的被動技能效果。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_07_title_01",
+            "content": "技能圖標"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_07_desc_01",
+            "content": "通過技能圖標的顔色可以区分其罪孼属性。罪孼属性被分為暴怒，色欲，怠惰，暴食，憂郁，傲慢，嫉炉七種顔色。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_08_desc_01",
+            "content": "技能圖標底部顕示攻撃類型。攻撃類型分為斬撃、突刺和打撃。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_08_desc_02",
+            "content": "技能圖標左側顕示技能的基礎威力。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_08_desc_03",
+            "content": "技能圖標頂部顕示硬幣威力。硬幣威力的計算方式分別為加算、減算、乘算。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_09_desc_01",
+            "content": "顕示技能硬幣總数。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_09_desc_02",
+            "content": "顕示技能攻撃等級変動値。技能攻撃等級与目標防御等級差距過大時，傷害将大幅提升或降低。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_09_desc_03",
+            "content": "顕示技能的攻撃容量。技能的攻撃容量与目標的行動槽容量相対應。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_10_title_01",
+            "content": "技能效果"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_10_desc_01",
+            "content": "満足一定条件便能発動的技能效果。"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_10_title_02",
+            "content": "硬幣效果"
+        },
+        {
+            "id": "tutorial_mainui_04_egoinfo_page_10_desc_02",
+            "content": "該硬幣満足条件便能発動的效果。判定失敗后无法発動硬幣效果。"
+        },
+        {
+            "id": "tutorial_mainui_05_storymain",
+            "content": "主綫故事"
+        },
+        {
+            "id": "tutorial_mainui_05_storymain_page_01_title_01",
+            "content": "選擇章節"
+        },
+        {
+            "id": "tutorial_mainui_05_storymain_page_01_desc_01",
+            "content": "能劬在推進関峠的同時重復閲読主綫故事。可以選擇故事章節。"
+        },
+        {
+            "id": "tutorial_mainui_05_storymain_page_02_title_01",
+            "content": "主綫故事列表"
+        },
+        {
+            "id": "tutorial_mainui_05_storymain_page_02_desc_01",
+            "content": "能劬選擇故事并進行観看。"
+        },
+        {
+            "id": "tutorial_mainui_05_storymain_page_03_title_01",
+            "content": "故事位置"
+        },
+        {
+            "id": "tutorial_mainui_05_storymain_page_03_desc_01",
+            "content": "能劬確認所選故事出現的関峠。"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity",
+            "content": "人格劇情"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity_page_01_title_01",
+            "content": "選擇罪人"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity_page_01_desc_01",
+            "content": "能劬閲読辺獄公司罪人們的故事和信息。選擇罪人。"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity_page_02_title_01",
+            "content": "選擇人格"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity_page_02_desc_01",
+            "content": "能劬展示罪人的人格一覧。"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity_page_03_title_01",
+            "content": "人格劇情"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity_page_03_desc_01",
+            "content": "能劬閲読該人格的故事。"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity_page_04_title_01",
+            "content": "語音台詞"
+        },
+        {
+            "id": "tutorial_mainui_06_storyidentity_page_04_desc_01",
+            "content": "能劬閲読并試听人格的語音台詞。"
+        },
+        {
+            "id": "tutorial_mainui_07_storymirror",
+            "content": "鏡像世界"
+        },
+        {
+            "id": "tutorial_mainui_07_storymirror_page_01_title_01",
+            "content": "鏡像世界"
+        },
+        {
+            "id": "tutorial_mainui_07_storymirror_page_01_desc_01",
+            "content": "選擇后，将会切換為鏡像世界一覧表。"
+        },
+        {
+            "id": "tutorial_mainui_07_storymirror_page_01_title_02",
+            "content": "鏡像世界列表"
+        },
+        {
+            "id": "tutorial_mainui_07_storymirror_page_01_desc_02",
+            "content": "鏡像世界根据不同的人格故事分為不同的類別。能劬確認不同的鏡像世界以及世界中登場的団体。"
+        },
+        {
+            "id": "tutorial_mainui_07_storymirror_page_02_title_01",
+            "content": "人格劇情"
+        },
+        {
+            "id": "tutorial_mainui_07_storymirror_page_02_desc_01",
+            "content": "能劬閲読以鏡像世界為基礎的人格故事。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain",
+            "content": "主綫関峠"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_01_title_01",
+            "content": "関峠"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_01_desc_01",
+            "content": "能劬選擇関峠并入場。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_02_desc_01",
+            "content": "戦斗勝利后会顕示関峠通関。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_02_desc_02",
+            "content": "達成EX CLEAR条件時将会顕示EX通関，并獲得額外奨励。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_03_title_01",
+            "content": "関峠故事"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_03_desc_01",
+            "content": "能劬閲読該関峠的劇情故事。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_03_title_02",
+            "content": "関峠説明"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_03_desc_02",
+            "content": "能劬確認関于該関峠的説明及関峠故事。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_03_title_03",
+            "content": "敵方情报"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_03_desc_03",
+            "content": "能劬確認関于敵人的信息。対于部分強力敵人，需要遭遇后才能確認信息。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_04_title_01",
+            "content": "EX 通関条件"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_04_desc_01",
+            "content": "顕示EX CLEAR所需条件。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_04_title_02",
+            "content": "進入戦斗"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_04_desc_02",
+            "content": "進入戦斗関峠時需要消耗脳啡汰。"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_05_title_01",
+            "content": "戦斗参与人数"
+        },
+        {
+            "id": "tutorial_mainui_08_stagemain_page_05_desc_01",
+            "content": "進入関峠的人数有所限制。"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon",
+            "content": "劇情迷宮"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_01_title_01",
+            "content": "劇情迷宮信息窗口"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_01_desc_01",
+            "content": "在各章節的最后関峠可能会出現迷宮。入場時将消耗脳啡汰模塊。"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_02_title_01",
+            "content": "迷宮探索"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_02_desc_01",
+            "content": "能劬通過選擇与当前節点相隣的節点来推進探索。在各个節点将会遭遇不同的戦斗或事件。"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_03_title_01",
+            "content": "罪人体力情况"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_03_desc_01",
+            "content": "迷宮探索期間，罪人的体力，理智値以及陣亡状態将会延續。"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_03_title_02",
+            "content": "存档点"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_03_desc_02",
+            "content": "到達存档点后，全体罪人的体力与理智値将得到恢復。"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_04_title_01",
+            "content": "E.G.O飾品"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_04_desc_01",
+            "content": "随着迷宮推進，将会獲得E.G.O飾品。獲得的E.G.O飾品是适用于迷宮的，能劬給予強力效果的道具。"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_04_title_02",
+            "content": "進入下一層"
+        },
+        {
+            "id": "tutorial_mainui_09_stagedungeon_page_04_desc_02",
+            "content": "迷宮由数个階層構成，通関本層最后的節点后，能劬移動至下一層。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon",
+            "content": "鏡像迷宮"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_01_title_01",
+            "content": "鏡像迷宮列表"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_01_desc_01",
+            "content": "能劬在衆多鏡像迷宮中選擇其一入場。需要消耗脳啡汰模塊来獲得奨励。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_02_title_01",
+            "content": "E.G.O飾品列表"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_02_desc_01",
+            "content": "能劬確認在鏡像迷宮中出現的E.G.O飾品，部分E.G.O擁有特殊的解鎖条件。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_03_title_01",
+            "content": "初始E.G.O飾品選擇"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_03_desc_01",
+            "content": "進入鏡像迷宮時，将会随机選出几件E.G.O飾品。从中選擇一件后，在推進鏡像迷宮時能劬獲得特殊效果。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_04_title_01",
+            "content": "選擇罪人"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_04_desc_01",
+            "content": "能劬从全体罪人中選擇三名并組成編隊。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_05_title_01",
+            "content": "選擇人格"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_05_desc_01",
+            "content": "能劬編輯所選罪人的人格。鏡像迷宮中使用了不同的強化方式，所有人格在編輯階段都将是10級。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_06_title_01",
+            "content": "選擇E.G.O"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_06_desc_01",
+            "content": "能劬給所選罪人装備E.G.O。在最初的編輯階段只能選擇ZAYIN級的E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_07_title_01",
+            "content": "鏡像迷宮探索"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_07_desc_01",
+            "content": "鏡像迷宮中，将会随机生成入場后的節点以及道路。選擇与当前節点相隣的節点并推進后，在各个節点将会随机生成不同類型的戦斗及事件。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_08_title_01",
+            "content": "E.G.O飾品"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_08_desc_01",
+            "content": "随着迷宮推進，将会獲得E.G.O飾品。獲得的E.G.O飾品是适用于迷宮的，能劬給予強力效果的道具。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_08_title_02",
+            "content": "罪人体力情况"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_08_desc_02",
+            "content": "迷宮探索期間，罪人的体力，理智値以及陣亡状態将会延續。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_09_title_01",
+            "content": "選擇罪人"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_09_desc_01",
+            "content": "通過部分事件，能劬追加罪人編入隊伍中。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_09_title_02",
+            "content": "升級"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_09_desc_02",
+            "content": "鏡像迷宮中使用了不同的強化方式。通過戦斗或是事件能劬升級并追加装備E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_10_title_01",
+            "content": "鏡像迷宮奨励"
+        },
+        {
+            "id": "tutorial_mainui_10_mirrordungeon_page_10_desc_01",
+            "content": "通関鏡像迷宮后将会獲得奨励。每周能劬領取固定次数的額外奨励。奨励数目与通関的節点数量成比例。"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction",
+            "content": "提取"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_01_title_01",
+            "content": "提取類型"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_01_desc_01",
+            "content": "能劬選擇常規提取或是定向提取"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_01_title_02",
+            "content": "提取"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_01_desc_02",
+            "content": "能劬使用狂气提取人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_02_title_01",
+            "content": "定向提取期"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_02_desc_01",
+            "content": "能劬確認定向提取的持續時間。"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_02_title_02",
+            "content": "定向提取対象"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_02_desc_02",
+            "content": "能劬確認概率提升的人格及E.G.O的詳細信息。"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_03_title_01",
+            "content": "提取暦史"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_03_desc_01",
+            "content": "能劬確認提取暦史。"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_03_title_02",
+            "content": "詳細概率"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_03_desc_02",
+            "content": "能劬確認人格及E.G.O被提取出的概率。"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_04_title_01",
+            "content": "自我碎片"
+        },
+        {
+            "id": "tutorial_mainui_11_extraction_page_04_desc_01",
+            "content": "当獲得重復的人格時，将会根据人格等級（星級）獲得自我碎片。"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine",
+            "content": "自動販賣机"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_01_title_01",
+            "content": "自動販賣机商品列表"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_01_desc_01",
+            "content": "能劬使用自我碎片購買未擁有的人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_02_title_01",
+            "content": "自動販賣机種類"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_02_desc_01",
+            "content": "能劬購買常駐或是特定賽季的人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_03_title_01",
+            "content": "選擇自動販賣机商品"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_03_desc_01",
+            "content": "想要購買人格或E.G.O，需要擁有該罪人的自我碎片。"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_04_title_01",
+            "content": "購買紡錘"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_04_desc_01",
+            "content": "能劬使用自我碎片購買紡錘。"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_04_title_02",
+            "content": "紡錘"
+        },
+        {
+            "id": "tutorial_mainui_12_vendingmachine_page_04_desc_02",
+            "content": "紡錘可以用于人格同步或是E.G.O異想解析。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_manager",
+            "content": "經理介紹"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_01_title_01",
+            "content": "玩家信息列表"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_01_desc_01",
+            "content": "能劬確認玩家信息，助戦角色及好友信息。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_02_title_01",
+            "content": "玩家信息"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_02_desc_01",
+            "content": "顕示玩家ID及帳戸等級。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_02_title_02",
+            "content": "横幅"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_02_desc_02",
+            "content": "能劬設定装飾横幅。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_03_title_01",
+            "content": "設定罪人代表"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_03_desc_01",
+            "content": "能劬从已有罪人中設定罪人代表的插画。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_04_title_01",
+            "content": "插画列表"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_04_desc_01",
+            "content": "能劬確認已有人格及E.G.O的插画。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_05_title_01",
+            "content": "簡介"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_05_desc_01",
+            "content": "能劬通過組合固定的文本，来設定自己的簡介。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_06_title_01",
+            "content": "簡介設定"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_06_desc_01",
+            "content": "能劬通過組合句子和単詞，来設定自己的簡介。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_company",
+            "content": "公司"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_07_title_01",
+            "content": "助戦人格列表"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_07_desc_01",
+            "content": "能劬設定助戦的人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_friend",
+            "content": "好友"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_08_title_01",
+            "content": "好友列表"
+        },
+        {
+            "id": "tutorial_mainui_13_userinfo_page_08_desc_01",
+            "content": "能劬確認好友的ID，横幅，簡介，登録日期，以及添加好友。"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_title",
+            "content": "戦斗通行証"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_01_title_01",
+            "content": "戦斗通行証奨励"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_01_desc_01",
+            "content": "能劬確認及領取每級免費及付費通行証的奨励。"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_02_title_01",
+            "content": "戦斗通行証持續時間及名称"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_02_desc_01",
+            "content": "能劬確認戦斗通行証持續的時間及季度名称。"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_02_title_02",
+            "content": "戦斗通行証等級及進度"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_02_desc_02",
+            "content": "能劬確認戦斗通行証的進度。"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_03_title_01",
+            "content": "戦斗通行証任務"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_03_desc_01",
+            "content": "任務列表中顕示了完成后将会獲得的通行証進度。分為日常，周常及季度任務。"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_04_title_01",
+            "content": "戦斗通行証超額奨励"
+        },
+        {
+            "id": "tutorial_mainui_14_battlepass_page_04_desc_01",
+            "content": "当戦斗通行証等級超出奨励等級后再次升級，将会獲得超額奨励。購買了付費通行証后，将会獲得更多的超額奨励。"
+        },
+        {
+            "id": "tutorial_mainui_15_exp_dungeon_title",
+            "content": "經驗采光"
+        },
+        {
+            "id": "tutorial_mainui_15_exp_dungeon_page_01_title_01",
+            "content": "經驗采光列表"
+        },
+        {
+            "id": "tutorial_mainui_15_exp_dungeon_page_01_desc_01",
+            "content": "能劬从符合推荐等級的經驗采光中選擇其一入場。入場時需要消耗脳啡汰模塊。"
+        },
+        {
+            "id": "tutorial_mainui_15_exp_dungeon_page_02_title_01",
+            "content": "有效属性"
+        },
+        {
+            "id": "tutorial_mainui_15_exp_dungeon_page_02_desc_01",
+            "content": "在經驗采光中出現的敵人均擁有特殊的物理抗性及属性抗性。在対應関峠中将会標明有效属性。"
+        },
+        {
+            "id": "tutorial_mainui_15_exp_dungeon_page_03_title_01",
+            "content": "經驗采光 奨励"
+        },
+        {
+            "id": "tutorial_mainui_15_exp_dungeon_page_03_desc_01",
+            "content": "通関經驗采光后将会獲得戦斗經驗及人格訓練券，且每日可以獲得一定次数的額外奨励。"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_title",
+            "content": "紡錘采光"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_01_title_01",
+            "content": "紡錘采光列表"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_page_01_desc_01",
+            "content": "所開放的異想体戦斗根据星期不同而変化。進入戦斗関峠時需要消耗脳啡汰模塊。"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_page_02_title_01",
+            "content": "有效属性"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_page_02_desc_01",
+            "content": "在紡錘采光中出現的敵人均擁有特殊的物理抗性及属性抗性。在対應関峠中将会標明有效的罪惡属性。"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_page_03_title_01",
+            "content": "選擇等級。"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_page_03_desc_01",
+            "content": "能劬从符合推荐等級的紡錘采光中選擇其一入場。"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_page_04_title_01",
+            "content": "紡錘采光 奨励"
+        },
+        {
+            "id": "tutorial_mainui_16_thread_dungeon_page_04_desc_01",
+            "content": "通関紡錘采光后将会獲得紡錘，且每日可以獲得一定次数的額外奨励。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_title",
+            "content": "折射軌道"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_01_title_01",
+            "content": "折射軌道 開放"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_01_desc_01",
+            "content": "折射軌道運行期間，会出現可以進入的綫路。\n宁可以選擇路綫，且不消耗任何資源自由入場。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_02_title_01",
+            "content": "運行時間"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_02_desc_01",
+            "content": "折射軌道運行時間将会顕示在綫路旁辺。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_03_desc_01",
+            "content": "進入関峠前，宁可以選擇所擁有的人格与E.G.O来組建隊伍。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_04_desc_01",
+            "content": "与其他戦斗方式不同，編隊完成且進入関峠后所進行的人格同步或異想解析，将不会反饋進此編隊中。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_05_desc_01",
+            "content": "戦斗中更无法更改編隊。\n如果想要反饋人格及E.G.O的升級、同步与異想解析情况，或是更換成其他人格、E.G.O后重新進入関峠，需要从第一関開始重新挑戦。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_06_title_01",
+            "content": "折射軌道 主界面"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_06_desc_01",
+            "content": "折射軌道一共由13个関峠構成。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_07_title_01",
+            "content": "戦斗"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_07_desc_01",
+            "content": "折射軌道中的所有戦斗皆与集中遭遇戦相同，友方単位的所有技能均能劬直接対應敵方行動槽。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_08_title_01",
+            "content": "現有E.G.O資源"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_08_desc_01",
+            "content": "通関本場戦斗后剩余的E.G.O資源在到下場戦斗依旧能劬使用。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_08_title_02",
+            "content": "人格状態"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_08_desc_02",
+            "content": "能劬表示編隊中人格的体力，理智値以及陣亡状態。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_09_title_01",
+            "content": "通関回合数与累計通関回合数"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_09_desc_01",
+            "content": "通関関峠后，将会記録下通関本次関峠所消耗的回合数，以及从第一関開始累計消耗的回合数。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_10_title_01",
+            "content": "人格状態"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_10_desc_01",
+            "content": "能劬表示編隊中人格的体力，理智値以及陣亡状態。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_11_title_01",
+            "content": "横幅獲取条件"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_11_desc_01",
+            "content": "能劬確認活動横幅的獲取条件。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_11_desc_02",
+            "content": "獲取条件越為苛刻，所能獲得的装飾横幅越為特別。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_12_title_01",
+            "content": "失物招領処"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_12_desc_01",
+            "content": "第一次通関関峠時，該関峠的奨励将会記録進失物招領処。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_12_desc_02",
+            "content": "活動期間，初次通関奨励将会累計存放在失物招領処。\n初次在失物招領処領取奨励，需要消耗一定量的脳啡汰模塊。\n在此之后，无須消耗更多脳啡汰模塊，可以随時領取奨励。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_13_title_01",
+            "content": "累計記録"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_13_desc_01",
+            "content": "在宁通過最終関峠后，本次探索的成績将会被記録，最多記録20次。\n記録数量超出20次時，新記録会優先覆盖消耗回合数最多的記録。\n有多个消耗回合数相同的記録時，人格陣亡数最多的記録将被覆盖。\n若人格陣亡数依然相同，則会覆盖比較旧的一方。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_14_title_01",
+            "content": "休息"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_14_desc_01",
+            "content": "参加戦斗的人格的体力和理智値在参加下一階段戦斗時保持不変。\n相反，如果該人格在不参加下一階段戦斗的情况下休息，則進入下一階段時，体力将完全恢復，理智値将重置為0。\n但是，如果理智値為0以上，則不会初始化為0。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_15_title_01",
+            "content": "記録更新"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_15_desc_01",
+            "content": "挑戦期間，可以回到已通関的特定関峠并重新開始挑戦。\n重新挑戦時，会以挑戦該関峠時的人格状態及所持的E.G.O資源数量開始戦斗。在此之后的通関記録将会被重置。"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_16_title_01",
+            "content": "折射軌道 特別装飾横幅"
+        },
+        {
+            "id": "tutorial_mainui_17_railway_page_16_desc_01",
+            "content": "折射軌道運行結束后，在所獲得的横幅上将会記録自己排名最高的通関累計回合数記録。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_title",
+            "content": "地獄鶏"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_01_title_01",
+            "content": "地獄鶏開放"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_01_desc_01",
+            "content": "[地獄鶏活動頁面]在通過主綫故事3-22后開放\n宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_02_title_01",
+            "content": "活動時間"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_02_desc_01",
+            "content": "此処顕示地獄鶏活動持續時間。地獄鶏活動期間，可以通過活動関峠及迷宮獲得[小鳳玩偶]。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_02_desc_02",
+            "content": "※鏡像迷宮，采光迷宮，折射軌道将无法獲得[小鳳玩偶]。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_03_title_01",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_03_desc_01",
+            "content": "地獄鶏共有 8 个普通関峠和 2 个迷宮。\n[小鳳玩偶]除了地獄鶏的通関奨励外，EX CLEAR奨励也会獲得。(限1次)"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_03_desc_02",
+            "content": "通関地獄鶏迷宮所獲得的[小鳳玩偶]数量遠大于普通関峠。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_04_title_01",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_04_desc_01",
+            "content": "在隊伍中編入地獄鶏活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[小鳳玩偶]的獲取量。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_05_title_01",
+            "content": "奨券兌換"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_05_desc_01",
+            "content": "宁可以在[奨券兌換処]根据所持有的[小鳳玩偶]数量兌換多様化奨励。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_06_title_01",
+            "content": "奨券兌換"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_06_desc_01",
+            "content": "在[奨券兌換処]中可以獲得各類資源，活動限定人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_06_desc_02",
+            "content": "此処展示了[奨券兌換処]的開放時間。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_07_title_01",
+            "content": "活動迷宮"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_07_desc_01",
+            "content": "地獄鶏迷宮的探索方式与鏡像迷宮相同。\n地獄鶏迷宮分為兩種難度，特征区別如下。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_08_title_01",
+            "content": "選擇E.G.O飾品"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_08_desc_01",
+            "content": "鏡像迷宮中的部分E.G.O飾品会出現在地獄鶏迷宮中。\n此類E.G.O飾品将会対人格及E.G.O進行有效輔助。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_09_title_01",
+            "content": "活動迷宮編隊"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_09_desc_01",
+            "content": "在地獄鶏迷宮中，袮以5个人格編隊開始探険。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_09_title_02",
+            "content": "使用預先配置"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_09_desc_02",
+            "content": "在地獄鶏迷宮中，添加了提高便利性的功能。\n通過預先配置按鍵，宁可以迅速以上一次所使用的編隊来進行探索。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_10_title_01",
+            "content": "活動迷宮構成"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_10_desc_01",
+            "content": "進入地獄鶏迷宮時，将与鏡像迷宮類似，随机生成節点及綫路。\n地獄鶏迷宮僅由一層組成，最終節点将会出現固定的頭目。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_11_title_01",
+            "content": "地獄鶏専属事件"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_11_desc_01",
+            "content": "在地獄鶏迷宮中将会遇到特殊事件及E.G.O飾品。\n地獄鶏迷宮専属事件可以通過節点下方的標識来輕松識別。"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_12_title_01",
+            "content": "活動結束"
+        },
+        {
+            "id": "tutorial_mainui_18_hells_chicken_12_desc_01",
+            "content": "活動結束后，宁也依然可以通過駕駛席-[外傳故事]及放映室-[其他故事]，随時重温地獄鶏的関峠和故事。"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_title",
+            "content": "賽季指南"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_01_title_01",
+            "content": "賽季期間"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_01_desc_01",
+            "content": "当新賽季開始時，会有全新的戦斗通行証上綫。\n戦斗通行証頁面能確認当前賽季的持續時間。"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_02_title_01",
+            "content": "戦斗通行証奨励"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_02_desc_01",
+            "content": "在戦斗通行証頁面能確認当前賽季可獲得的道具与E.G.O。"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_03_title_01",
+            "content": "人格&E.G.O的賽季信息"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_03_desc_01",
+            "content": "人格詳情或是E.G.O詳情的名称右側標注有賽季信息。\n没有標注賽季信息的人格或E.G.O被劃分至[常駐]。"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_04_title_01",
+            "content": "活動人格&E.G.O的賽季信息"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_04_desc_01",
+            "content": "活動人格和E.G.O会在賽季信息旁額外注明[EVENT]。"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_05_title_01",
+            "content": "自我碎片"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_05_desc_01",
+            "content": "自我碎片可在其規定的賽季期間内使用。\n\n当新賽季開始時，上一賽季的自我碎片總数将減半，并継承至下一賽季。(向上取整)\n\n如果經過了多个賽季，則每經過一个賽季継承数量減半一次。\n\n未被継承的自我碎片将会被轉換為紡錘。"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_06_title_01",
+            "content": "随机自我碎片箱&自選自我碎片箱"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_06_desc_01",
+            "content": "同理，自我碎片箱可在其規定的賽季期間内使用。\n\n当新賽季開始時，上一賽季的自我碎片箱總数将減半，并継承至下一賽季。（向上取整）\n\n如果經過了多个賽季，則每經過一个賽季継承数量減半一次。\n\n未被継承的自我碎片箱将会被轉換為紡錘箱。"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_07_title_01",
+            "content": "提取"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_07_desc_01",
+            "content": "随着新賽季的開始，新賽季的人格和E.G.O将持續加入提取列表。\n即使賽季変更，過去賽季的人格仍将保留在提取列表中，供宁提取獲得。\n※ 特定罪人的提取将包含之前賽季的活動人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_08_title_01",
+            "content": "自動販賣机"
+        },
+        {
+            "id": "tutorial_manual_1_season_information_08_desc_01",
+            "content": "随着新賽季的開始，与提取相同，新賽季的人格和E.G.O也将持續加入自動販賣机列表。\n此外，之前賽季的戦斗通行証中的人格与E.G.O也可通過自動販賣机獲取。\n\n不過，前一賽季的可提取人格和E.G.O会从自動販賣机列表中移除。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon",
+            "content": "鏡像迷宮"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_01",
+            "content": "鏡像迷宮列表"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_01",
+            "content": "能劬从列表中選擇一个鏡像迷宮進入。\n每次僅能探索一个鏡像迷宮，如果宁想在探険過程中進入令一个迷宮，宁必須先清除或放弃正在進行的鏡像迷宮。\n每个鏡像迷宮分為兩个難度：簡単和困難。起始之鏡不包含困難模式。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_02",
+            "content": "每周加成"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_02",
+            "content": "鏡像迷宮每周会提供3次額外的奨励，在結束時使用則可收獲奨励。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_03",
+            "content": "解鎖条件"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_03",
+            "content": "每个鏡像迷宮都存在開放条件。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_04",
+            "content": "E.G.O飾品圖鑑"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_04",
+            "content": "能劬査看在鏡像迷宮中出現過的E.G.O飾品。\n在鏡像迷宮中，未獲得過的E.G.O飾品将在圖鑑中顕示為“无数据”。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_05",
+            "content": "初始E.G.O飾品選擇"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_05",
+            "content": "進入鏡像迷宮時，将会随机選出几件E.G.O飾品。从中選擇一件后，在推進鏡像迷宮時能劬獲得特殊效果。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_06",
+            "content": "選擇罪人"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_06",
+            "content": "能劬選擇参与鏡像迷宮探索的罪人。\n每个鏡像迷宮初始可編排的最大罪人数固定的。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_07",
+            "content": "所持E.G.O飾品列表"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_07",
+            "content": "能劬査看当前擁有的E.G.O飾品。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_08",
+            "content": "使用預先配置"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_08",
+            "content": "使用預設時，可以載入在罪人界面設定的人格与E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_09",
+            "content": "經費"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_09",
+            "content": "能劬在此処査看宁所持有的經費。\n經費可用于在商店処購買E.G.O飾品，也可以在商店処或休息区購買新的人格和E.G.O飾品。\n在普通難度下，不会獲得初始經費，但初始編隊不需要任何經費。\n在困難模式下，提供一定初始經費，并且初始編隊需要消耗經費。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_10",
+            "content": "選擇人格"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_10",
+            "content": "能劬選擇罪人的人格。\n在鏡像迷宮中，所有人格将自動應用每个鏡像迷宮的人格等級。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_11",
+            "content": "選擇E.G.O"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_11",
+            "content": "為所選罪人選擇E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_12",
+            "content": "進入鏡像迷宮"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_12",
+            "content": "完成初始人格設置后，按“確認”能劬進入鏡像迷宮。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_13",
+            "content": "鏡像迷宮探索"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_13",
+            "content": "每次進入鏡像迷宮中，将会随机生成節点和路径。\n可以移動至与当前節点相隣的節点，在各節点中将会随机触発各種戦斗与事件。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_14",
+            "content": "E.G.O飾品"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_14",
+            "content": "在探索迷宮的過程中，将会獲得E.G.O飾品。\n獲得的E.G.O飾品是适用于迷宮的，能劬給予強力效果的道具。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_15",
+            "content": "罪人体力情况"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_15",
+            "content": "迷宮探索期間，罪人的体力，理智値以及陣亡状態将会延續。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_16",
+            "content": "関峠有利属性"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_16",
+            "content": "在鏡像迷宮的戦斗節点下方会顕示対敵人的有利属性。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_17",
+            "content": "休息点"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_17",
+            "content": "鏡像迷宮中的休息点能劬免費治療友方単位，或花費經費来追加人格与E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_18",
+            "content": "商店"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_18",
+            "content": "鏡像迷宮中的商店，能劬通過消耗戦斗中獲得的經費購買E.G.O飾品，治療友方単位，追加人格与E.G.O，強化所顕示的人格。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_19",
+            "content": "鏡像迷宮奨励"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_19",
+            "content": "在探険結束后，能劬花費脳啡汰模塊来領取奨励。\n如果使用每周3次的額外奨励次数，可以獲得大量的戦斗通行証經驗和定量狂气。\n奨励数量根据通関節点的数量発放。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_20",
+            "content": "困難難度奨励"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_20",
+            "content": "当鏡像迷宮的困難難度被解鎖時，困難難度奨励計数将顕示在上方。\n困難難度中能劬獲得更多的戦斗通行証經驗値，但每周只能領取3次奨励。\n困難難度奨励和每周奨励相互独立。宁可以通過将每周奨励應用于困難難度奨励来最大限度地提高宁獲取奨励的效率。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_21",
+            "content": "開局増益"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_21",
+            "content": "从鏡中之鏡開始，可以激活開局増益。"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_title_22",
+            "content": "開局増益效果"
+        },
+        {
+            "id": "tutorial_mainui_19_mirrordungeon_desc_22",
+            "content": "開局増益可以通過“星芒”系統激活，它為宁的迷宮探険提供各種増益效果。\n星芒可以通過通関鏡像迷宮獲得。到達更深的迷宮会獲得更多星芒。\n在特定的鏡像迷宮中，開局増益同時适用于普通模式和困難模式，但不会影響其他鏡像迷宮。\n在特定的鏡像迷宮中獲得的星芒无法用于激活其他鏡像迷宮的開局増益。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_title",
+            "content": "去·海·辺"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_01_title_01",
+            "content": "去·海·辺 開放"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_01_desc_01",
+            "content": "[去·海·辺活動頁面]在通過主綫故事4-54后開放。\n宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_02_title_01",
+            "content": "活動時間"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_02_desc_01",
+            "content": "此処顕示去·海·辺活動持續時間。去·海·辺活動期間，宁可以通過活動関峠以及主綫故事中的関峠与迷宮来獲得巴士改造廃料。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_02_desc_02",
+            "content": "※鏡像迷宮，采光迷宮，折射軌道将无法獲得[巴士改造廃料]。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_03_title_01",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_03_desc_01",
+            "content": "去·海·辺包括劇情関峠在内共有12関。\n[巴士改造廃料]除了去·海·辺的通関奨励外，EX通関奨励也会獲得。(限1次) "
+        },
+        {
+            "id": "tutorial_mainui_20_umida_03_desc_02",
+            "content": "通関去·海·辺活動関峠所獲得的[巴士改造廃料]数量遠大于主綫故事関峠。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_04_title_01",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_04_desc_01",
+            "content": "在隊伍中編入去·海·辺活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[巴士改造廃料]的獲取量。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_05_title_01",
+            "content": "廃料回收箱"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_05_desc_01",
+            "content": "宁可以在[廃料收集箱]根据所持有的[巴士改造廃料]数量兌換多様化奨励。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_06_title_01",
+            "content": "廃料回收箱"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_06_desc_01",
+            "content": "在[廃料收集箱]中可以獲得各類資源，活動限定人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_06_desc_02",
+            "content": "此処展示了[廃料收集箱]的開放時間。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_07_title_01",
+            "content": "活動関峠"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_07_desc_01",
+            "content": "去·海·辺没有迷宮;由一个袮可以獲取更多[巴士改造廃料]的特殊関峠作為替代。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_07_desc_02",
+            "content": "這个特殊関峠通過消耗脳啡汰模塊来進入。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_08_title_01",
+            "content": "含有稀有馬蹄鉄的巴士改造廃料"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_08_desc_01",
+            "content": "戦斗勝利后，有小概率獲得[含有稀有馬蹄鉄的巴士改造廃料]。\n所獲得的[含有稀有馬蹄鉄的巴士改造廃料]将自動轉化為20个[巴士改造廃料]。"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_09_title_01",
+            "content": "活動結束"
+        },
+        {
+            "id": "tutorial_mainui_20_umida_09_desc_01",
+            "content": "活動結束后，宁也依然可以通過駕駛席-[外傳故事]及放映室-[其他故事]，随時重温去·海·辺的関峠和故事。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_01_title_01",
+            "content": "如何進入戦斗"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_01_desc_01",
+            "content": "進入折射軌道2号綫時无需消耗任何資源。選擇路綫即可入場。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_02_title_01",
+            "content": "編隊"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_02_desc_01",
+            "content": "進入関峠時，宁可以選擇所擁有的人格与E.G.O来組建隊伍。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_03_desc_01",
+            "content": "戦斗中更无法更改編隊，且与其他戦斗方式不同，編隊完成并進入関峠后所進行的人格同步或異想解析，将不会反饋進此編隊中。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_04_title_01",
+            "content": "2号綫站点"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_04_desc_01",
+            "content": "折射軌道2号綫一共由9个関峠構成。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_05_desc_01",
+            "content": "選擇站点并進入戦斗。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_05_desc_02",
+            "content": "通関站点后所獲得的奨励将会顕示在本関下方。部分站点的奨励需要達到一定巡回数才会解鎖。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_06_title_01",
+            "content": "戦斗編隊"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_06_desc_01",
+            "content": "戦斗最多可編入7人。但若在不満7人的情况下進入戦斗，人格的行動槽并不会随着回合数増加。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_07_title_01",
+            "content": "戦斗"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_07_desc_01",
+            "content": "所有戦斗皆与集中遭遇戦相同，友方単位的所有技能均能劬直接対應敵方行動槽。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_07_desc_02",
+            "content": "通関関峠后，参与戦斗的人格及其体力、理智値，儀表盤上的技能、各个人格已使用的技能及剩余技能将会保存。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_08_desc_01",
+            "content": "通関本場戦斗后剩余的E.G.O資源在下一站依旧能劬使用。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_08_desc_02",
+            "content": "能劬顕示巡回数，以及到達目前站点的總計回合数。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_08_desc_03",
+            "content": "能劬表示編隊中人格的体力，理智値以及陣亡状態。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_09_desc_01",
+            "content": "進入下一站時将会読取上一站時所保存的数据。\n敵我双方的速度値将在進站時被保存。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_09_desc_02",
+            "content": "敵我双方的速度値将在進站時進行保存。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_10_desc_01",
+            "content": "放弃関峠時，会回到進入此站之前的状態。\n以往関峠開始時人格的体力、理智値、速度値、儀表盤上的技能、各个人格的技能使用状態，敵方単位的速度値将不会発生変化。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_10_desc_02",
+            "content": "関峠重開時人格的体力、理智値、速度値、儀表盤上的技能、各个人格的技能使用状態，敵方単位的速度値将不再発生変化。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_11_desc_01",
+            "content": "関峠攻略失敗時，可以回到進站前的状態或是以剩下的人格継續戦斗。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_11_desc_02",
+            "content": "継續進行戦斗時，不会刷新敵方単位的現存体力，并将在站点上方顕示現存体力的比例条。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_12_title_01",
+            "content": "巡回"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_12_desc_01",
+            "content": "通関了綫路上已開放的所有站点后，可以前往第一站（起点站）并進行巡回。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_12_desc_02",
+            "content": "選擇進行巡回時，将会増加1点巡回数。部分站点会基于巡回数開放。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_13_title_01",
+            "content": "選擇BUFF"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_13_desc_01",
+            "content": "每当進行巡回時都可以選擇1个友方BUFF与1个敵方BUFF。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_13_desc_02",
+            "content": "宁選擇的所有效果都会在以后的戦斗中激活并累積下去。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_14_desc_01",
+            "content": "選擇1種友方BUFF。无法選擇在以往的巡回中選擇過的效果。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_15_desc_01",
+            "content": "選擇1種敵方BUFF。无法選擇在以往的巡回中選擇過的效果。\n但是如果已經将所有效果都選過了1遍，則会刷新選擇机会并可以再次選擇宁想要的效果。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_15_desc_03",
+            "content": "除了可以直接選擇的BUFF以外，每次巡回時都会額外激活1个固定的BUFF。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_16_desc_01",
+            "content": "每5次巡回可以復活1个陣亡的人格。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_17_title_01",
+            "content": "終点站"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_17_desc_01",
+            "content": "進行巡回時（巡回数不小于1時）路綫中央的終点站将会被激活。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_17_desc_02",
+            "content": "終点站被激活后不論身処那一站都可以随時進入終点站。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_18_desc_01",
+            "content": "進入終点站后将再也无法回到以往的站点，請宁慎重考慮。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_18_desc_02",
+            "content": "折射軌道2号綫的最終目標是通関終点站，通関后将会記録巡回数、累計回合数、参与的人格与E.G.O以及BUFF列表。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_19_title_01",
+            "content": "横幅獲取条件"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_19_desc_01",
+            "content": "可以在此確認活動横幅的獲取条件。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_19_desc_02",
+            "content": "条件越困難，便会獲得更為特殊的横幅。\n獲得横幅后，会在上面顕示巡回数与累計回合数的最大値。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_19_desc_03",
+            "content": "獲得横幅后，会在上面顕示巡回数与累計回合数的最大値。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_20_title_01",
+            "content": "失物招領処"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_20_desc_01",
+            "content": "初次通関関峠或是満足特定的条件后，相関的奨励将会在失物認領所被激活。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_20_desc_02",
+            "content": "為了領取失物招領処中的奨励，最初需要支付一定数量的脳啡汰模塊。后續領取奨励无需額外消耗脳啡汰模塊，并且可以随時獲取已激活的奨励。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_21_title_01",
+            "content": "累計記録"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_21_desc_01",
+            "content": "通関最終関峠后，折射軌道的游玩記録将被保存，最多可保存20个通関記録。"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_21_desc_02",
+            "content": "記録超過20个時，将会優先刪除巡回数較少的記録，而在巡回数相同的情况下将会優先刪除累計回合数較多的記録。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_1_title_01",
+            "content": "路綫移動鍵"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_1_desc_01",
+            "content": "通関了路綫上已開放的所有站点后将会出現可以前往下一个路綫的按鍵。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_2_title_01",
+            "content": "巡回"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_2_desc_01",
+            "content": "可以通過路綫前往第一站（起点站）。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_2_desc_02",
+            "content": "在此過程中巡回数将会+1，并且将要選擇今后的戦斗中将被激活的友方BUFF与敵方BUFF。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_3_title_01",
+            "content": "選擇BUFF"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_3_desc_01",
+            "content": "每当進行巡回時都可以選擇1个友方BUFF与1个敵方BUFF。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_3_desc_02",
+            "content": "宁選擇的所有效果都会在以后的戦斗中激活并累積下去。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_4_desc_01",
+            "content": "選擇1種友方BUFF。无法選擇在以往的巡回中選擇過的效果。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_5_desc_01",
+            "content": "選擇1種敵方BUFF。无法選擇在以往的巡回中選擇過的效果。\n但是如果已經将所有效果都選過了1遍，則会刷新選擇机会并可以再次選擇宁想要的效果。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_5_desc_03",
+            "content": "除了可以直接選擇的BUFF以外，每次巡回時都会額外激活1个固定的BUFF。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_6_title_01",
+            "content": "終点站移動鍵"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_6_desc_01",
+            "content": "完成按鍵選擇后将通過路綫前往第一站（起点站）。部分站点将会基于巡回数額外開放。"
+        },
+        {
+            "id": "tutorial_mainui_22_railway2_page_6_desc_02",
+            "content": "進行巡回后路綫中央的終点站将被激活，并出現可以前往終点站的按鍵。"
+        },
+        {
+            "id": "tutorial_mainui_23_railway2_page_1_desc_01",
+            "content": "進入終点站后将再也无法回到以往的站点，請宁慎重考慮。"
+        },
+        {
+            "id": "tutorial_mainui_23_railway2_page_1_desc_02",
+            "content": "折射軌道2号綫的最終目標是通関終点站，通関后将会記録巡回数、累計回合数、参与的人格与E.G.O以及BUFF列表。"
+        },
+        {
+            "id": "tutorial_mainui_railway2_mainTitle",
+            "content": "折射軌道2号綫"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_08_title_01",
+            "content": "終点站移動鍵"
+        },
+        {
+            "id": "tutorial_mainui_21_railway2_page_04_desc_02",
+            "content": "每次入場時之后開放至第3站，第4站至第8站将会基于巡回数依次開放。"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_extraction",
+            "content": "瓦尓普吉斯之夜"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_extraction_page_01_desc_01",
+            "content": "活動期間，能劬進行瓦尓普吉斯之夜定向提取。"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_extraction_page_01_desc_02",
+            "content": "瓦尓普吉斯之夜定向提取中，本次瓦尓普吉斯之夜的人格及E.G.O的提取概率提升。"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_extraction_page_02_desc_01",
+            "content": "活動期間，在其他提取（除去賽季相関提取）中也可以提取本次瓦尓普吉斯之夜的人格及E.G.O。\n\n但，在此情况下該類内容的提取概率不会提升。"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_extraction_page_03_desc_01",
+            "content": "活動期間，在全部提取（除去賽季相関提取）中也可以提取以往瓦尓普吉斯之夜的所有人格及E.G.O。\n\n但，在此情况下該類内容的提取概率不会提升。"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_extraction_page_04_desc_01",
+            "content": "活動時間結束后，瓦尓普吉斯之夜的人格及E.G.O将从提取中除去。"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_vendingmachine",
+            "content": "瓦尓普吉斯之夜"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_vendingmachine_page_01_desc_01",
+            "content": "活動期間，可以在販賣机購買以往瓦尓普吉斯之夜的人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_walpurgisnacht_vendingmachine_page_02_desc_01",
+            "content": "当期的瓦尓普吉斯之夜的人格及E.G.O无法在販賣机中購買。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_01_title_01",
+            "content": "湖之鏡"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_01_desc_01",
+            "content": "第3賽季鏡像迷宮名為“湖之鏡”。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_01_desc_02",
+            "content": "能劬選擇以普通或困難難度進入。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_02_title_01",
+            "content": "每周加成"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_02_desc_01",
+            "content": "鏡像迷宮擁有每周奨励加成。領取奨励時使用額外奨励加成，将会大幅増加所獲得的奨励。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_02_desc_02",
+            "content": "普通難度每周可使用3次，困難難度每周可使用1次額外奨励加成。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_02_desc_03",
+            "content": "通関困難難度后，可以一次性消耗全部額外奨励加成，大幅提升奨励獲取的效率。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_03_title_01",
+            "content": "罪人"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_03_desc_01",
+            "content": "能劬確認罪人編隊情况。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_03_title_02",
+            "content": "開局増益"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_03_desc_02",
+            "content": "能劬消耗通関鏡像迷宮時所獲得的星芒，来獲取鏡像迷宮探索時的加成。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_03_title_03",
+            "content": "E.G.O飾品圖鑑"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_03_desc_03",
+            "content": "能劬確認在鏡像迷宮中出現的E.G.O飾品。若在鏡像迷宮的探索過程中獲得新的E.G.O飾品，将会在圖鑑中追加該E.G.O飾品的記録。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_04_title_01",
+            "content": "開局増益"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_04_desc_01",
+            "content": "每当激活湖之鏡的開局増益，在探索過程中獲得高等級E.G.O飾品的概率将会随之提升。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_04_desc_02",
+            "content": "開局増益不受鏡像迷宮難度的影響。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_04_title_02",
+            "content": "星芒"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_04_desc_03",
+            "content": "通関鏡像迷宮時，可以獲得星芒。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_04_desc_04",
+            "content": "探索完的層数越高，便能劬獲得越多星芒。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_05_title_01",
+            "content": "選擇初始E.G.O飾品"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_05_desc_01",
+            "content": "進入鏡像迷宮時，将会提供總計8種可選E.G.O飾品類型。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_05_desc_02",
+            "content": "能劬根据所選類型数，相應獲得其中的E.G.O飾品。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_05_desc_03",
+            "content": "鏡像迷宮中，能劬獲得有助于戦斗的E.G.O飾品。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_05_desc_04",
+            "content": "以之前未選擇過的E.G.O飾品類別通関鏡像迷宮時，可以額外獲得星芒。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_06_title_01",
+            "content": "選擇罪人"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_06_desc_01",
+            "content": "能劬選擇編入鏡像迷宮探索隊伍的罪人。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_06_desc_02",
+            "content": "在鏡像迷宮編隊時，人格等級将会固定在40級。但困難難度将会直接反映現有人格等級。（最多40級）"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_06_desc_03",
+            "content": "編入1★、2★人格時，可以獲得額外初始經費。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_06_desc_04",
+            "content": "編入上一次探索過程中从未使用過的人格時，可以獲得額外初始經費。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_07_title_01",
+            "content": "休息奨励"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_07_desc_01",
+            "content": "通関鏡像迷宮時，編入隊伍中的人格所剩余的休息奨励将轉換為星芒。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_07_desc_02",
+            "content": "然而，在游玩過程中被交替過的人格将不会消耗休息奨励，并无法獲得額外的星芒。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_07_desc_03",
+            "content": "除了消耗休息奨励或被交替過的人格以外，其余所有人格会増加1格休息奨励。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_08_title_01",
+            "content": "鏡像迷宮入場"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_08_desc_01",
+            "content": "完成人格与E.G.O設置后，按“確認”即可進入鏡像迷宮。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_08_desc_02",
+            "content": "此処将顕示編隊過程中可額外獲得的經費。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_09_title_01",
+            "content": "鏡像迷宮探索"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_09_desc_01",
+            "content": "每次進入鏡像迷宮中，将会随机生成節点和路径。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_09_desc_02",
+            "content": "選擇与当前節点相隣的節点并推進后，在各个節点将会随机生成不同類型的戦斗及事件。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_09_title_02",
+            "content": "經費"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_09_desc_03",
+            "content": "在鏡像迷宮的游玩過程中可以獲得經費，可以通過消耗經費使用商店与休息点的功能。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_10_title_01",
+            "content": "E.G.O飾品"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_10_desc_01",
+            "content": "此処顕示已獲取的E.G.O飾品。E.G.O飾品是适用于迷宮的，能給予強力效果的道具。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_10_title_02",
+            "content": "関峠有利属性"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page10_desc_02",
+            "content": "在鏡像迷宮的戦斗節点下方会顕示対應関峠的有利属性。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_10_title_03",
+            "content": "罪人状態"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_10_desc_03",
+            "content": "迷宮探索期間，罪人的体力，理智値以及陣亡状態将会延續。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_11_title_01",
+            "content": "商店"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_11_desc_01",
+            "content": "能劬通過消耗戦斗中獲得的經費購買E.G.O飾品，治療友方単位，追加人格与E.G.O，強化所顕示的人格。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_11_desc_02",
+            "content": "可以在商店里售賣不需要的E.G.O飾品，并獲取經費。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_12_title_01",
+            "content": "休息点"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_12_desc_01",
+            "content": "能劬通過消耗經費治療友方単位，追加人格与E.G.O，強化E.G.O飾品。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_12_desc_02",
+            "content": "可以通過合成E.G.O飾品獲取其他E.G.O飾品。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_13_title_01",
+            "content": "層数増益"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_13_desc_01",
+            "content": "每当通関一層時，将会獲得与E.G.O飾品邦定的随机敵方増益效果。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_13_desc_02",
+            "content": "每当通関一層時，敵方増益都会累積。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_14_title_01",
+            "content": "鏡像迷宮奨励"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_14_desc_01",
+            "content": "通関鏡像迷宮后，可以消耗脳啡汰模塊来領取奨励。"
+        },
+        {
+            "id": "tutorial_mirrordungeon03_page_14_desc_02",
+            "content": "奨励将基于已通過的層数進行発放，可以通過使用每周額外奨励次数来獲得更加豊厚的奨励。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_01_title",
+            "content": "20区的奇迹"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_01_title_01",
+            "content": "20区的奇迹 開放"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_01_desc_01",
+            "content": "[20区的奇迹活動頁面]在通関主綫故事5-36后開放。宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_02_title_01",
+            "content": "活動時間"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_02_desc_01",
+            "content": "此処顕示了20区的奇迹活動的持續時間。活動過程中，宁可以通過通関活動或主綫関峠以及鏡像迷宮来獲取[装飾品包裹]。\n※ 宁无法从采光関峠中獲取[装飾品包裹]。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_03_title_01",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_03_desc_01",
+            "content": "20区的奇迹包括劇情関峠在内共有13関。\n這些関峠均有[装飾品包裹]作為首次通関奨励。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_03_desc_02",
+            "content": "与主綫故事相比，宁可以从20区的奇迹活動関峠中獲得更多[装飾品包裹]。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_04_title_01",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_04_desc_01",
+            "content": "在隊伍中編入20区的奇迹的活動加成E.G.O后清剿活動関峠及迷宮，能劬提升[装飾品包裹]的獲取量。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_05_title_01",
+            "content": "交換礼物"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_05_desc_01",
+            "content": "基于宁獲得的[装飾品包裹]数量，宁可以在交換礼物頁面兌換多種奨励。\n宁最多能收集4000[装飾品包裹]。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_06_desc_01",
+            "content": "在[交換礼物]中可以獲得各類資源，活動限定人格及E.G.O。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_06_desc_02",
+            "content": "此処顕示了[交換礼物]的開放時間。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_07_title_01",
+            "content": "活動関峠"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_07_desc_01",
+            "content": "20区的奇迹活動并不包含迷宮関峠。作為替代，将会有供宁反復進入并獲得大量装飾品包裹的特殊関峠。特殊関峠将消耗脳啡汰模塊。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_08_title_01",
+            "content": "装飾品包裹"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_08_desc_01",
+            "content": "宁有小概率从戦斗奨励中獲得巨大装飾品包裹。巨大装飾品包裹将会自動轉換為20装飾品包裹。"
+        },
+        {
+            "id": "tutorial_mainui_24_miracle_09_desc_01",
+            "content": "活動結束后，宁可在駕駛席和放映室-[其他劇情]頁面重温戦斗或重覧劇情。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_01_title",
+            "content": "第2次 瓦尓普吉斯之夜 - 緑色的黎明"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_01_title_01",
+            "content": "解鎖第2次 瓦尓普吉斯之夜 - 緑色的黎明"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_01_desc_01",
+            "content": "[第2次 瓦尓普吉斯之夜 - 緑色的黎明] 不論宁的主綫故事進度，都将解鎖。宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_02_title_01",
+            "content": "活動時間"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_02_desc_01",
+            "content": "此処顕示了 第2次 瓦尓普吉斯之夜 - 緑色的黎明 活動的開放時間。在活動中，宁可完成緑色的黎明考驗普通及困難難度下的各類任務，并獲取奨励。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_03_title_01",
+            "content": "普通難度戦斗"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_03_desc_01",
+            "content": "選擇這扇門以進入緑色的黎明考驗，完成緑色的黎明考驗需要消耗脳啡汰模塊。普通難度下，宁部署的40級以下的人格等級将被自動提升至40。不過，人格的同步進度与E.G.O異想解析進度将保持不変。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_03_title_02",
+            "content": "困難難度戦斗"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_03_desc_02",
+            "content": "通過緑色的黎明考驗普通難度，将解鎖其困難難度。在困難難度下，人格的等級、同步階段与E.G.O異想解析進度将保持不変。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_04_title_01",
+            "content": "特別播报員"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_04_desc_01",
+            "content": "緑色的黎明考驗期間，宁的播报員将固定為一位特別播报員。因此，宁无法在此活動関峠中選擇自己的播报員。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_04_title_02",
+            "content": "控制部隊長 效果"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_04_desc_02",
+            "content": "以第一順位進入関峠的罪人将被賦予“控制部隊長”效果。擁有“控制部隊長”效果的罪人将在緑色的黎明戦斗中獲得額外行動槽，其技能数量也会産生変動。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_05_title_01",
+            "content": "任務列表"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_05_desc_01",
+            "content": "通過[任務列表]界面，能劬査看需要完成的任務，以及任務奨励。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_06_desc_01",
+            "content": "[任務列表]界面将顕示奨励領取期。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_06_desc_02",
+            "content": "能劬分別確認普通任務及困難任務。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_06_desc_03",
+            "content": "完成任務可在[任務列表]領取多様化奨励。"
+        },
+        {
+            "id": "tutorial_mainui_25_walpu2_07_desc_01",
+            "content": "活動結束后，宁可在駕駛席和放映室-[其他劇情]頁面重温戦斗或重覧劇情。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_title_01",
+            "content": "折射軌道3号綫"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_01_title_01",
+            "content": "入場方式"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_01_desc_01",
+            "content": "選擇已激活的綫路即可入場。入場折射軌道時不消耗任何道具。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_02_title_01",
+            "content": "編隊"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_02_desc_01",
+            "content": "入場時，可以選擇所擁有的人格与E.G.O来進行組建隊伍。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_03_title_01",
+            "content": "3号綫的站点"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_03_desc_01",
+            "content": "折射軌道3号綫由13个站点組成，其中10个站点会進行戦斗。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_03_desc_02",
+            "content": "在不進行戦斗的第4站、第8站、第12站中，可進行人格的恢復、復活、以及更換隊伍組成。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_04_desc_01",
+            "content": "選擇站点進入関峠。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_04_desc_02",
+            "content": "通関該站点的报酬顕示在下方。报酬可于失物招領処領取獲得。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_05_title_01",
+            "content": "編隊"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_05_desc_01",
+            "content": "戦斗最多可編入6人。但是，当入場人格少于6人時，即使回合数増漲，行動槽数量也不会増加。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_06_title_01",
+            "content": "戦斗"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_06_desc_01",
+            "content": "所有戦斗都将以友方技能直接与敵方技能相対應的集中遭遇戦的方式進行。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_07_title_01",
+            "content": "圖鑑"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_07_desc_01",
+            "content": "从劇情迷宮的戦斗中獲得的異想体観察等級，将会反映在異想体圖鑑中并可以从中進行確認。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_07_desc_02",
+            "content": "但是，基于観察等級的傷害強化效果不会生效。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_07_desc_03",
+            "content": "折射軌道3号綫中，即使在戦斗中選擇放弃関峠，戦斗中更新的圖鑑内容也会原封不動地被保存下来。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_08_desc_01",
+            "content": "戦斗后剩余的E.G.O資源可在下一站中使用。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_08_desc_02",
+            "content": "通関某站点的回合数，以及从初始站累計的總回合数将顕示于站点上方。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_08_desc_03",
+            "content": "編隊的人格、体力、理智値、死亡状態将展示于此。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_09_desc_01",
+            "content": "在戦斗失敗后，可以選擇回到進入該站点之前的状態，也可以選擇使用存活的其他人格継續戦斗。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_09_desc_02",
+            "content": "如果選擇継續，敵人当前的生命値将被保留。其剩余生命値将以百分比形式顕示在站点上方。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_10_desc_01",
+            "content": "若点撃重置按鈕，将回到進入該站点前的状態。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_11_title_01",
+            "content": "記録更新"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_11_desc_01",
+            "content": "在探索期間，可以選擇从之前已通過的站点重新開始戦斗。若選擇這様做，則在該站点重新開始戦斗時，罪人的状態和E.G.O資源持有量将恢復到首次進入該站点時的状態，并且在該站点之后通過的所有站点的完成進度都将被重置。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_12_title_01",
+            "content": "休息站点"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_12_desc_01",
+            "content": "当到達休息站点第4站、第8站、第12站時，全体友方的体力将恢復，并復活所有死亡的人格。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_12_desc_02",
+            "content": "理智値不低于0点的人格将保留其理智値，而理智値低于0点的人格的理智値将被恢復為0点。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_12_desc_03",
+            "content": "也可在休息站点更改隊伍構成。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_13_desc_01",
+            "content": "進入終点站后将无法回到之前的站点，請慎重選擇。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_13_desc_02",
+            "content": "通関終点站是折射軌道3号綫的最終目標。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_14_title_01",
+            "content": "横幅獲取条件"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_14_desc_01",
+            "content": "可以確認折射軌道3号綫横幅的獲取条件。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_14_desc_02",
+            "content": "獲取条件越苛刻，獲得的横幅越特別。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_14_desc_03",
+            "content": "獲得横幅時，最佳記録的累計回合数将顕示在横幅上。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_15_title_01",
+            "content": "失物招領処"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_15_desc_01",
+            "content": "在活動期間第一次通関某个站点時，其奨励将会発放至失物招領処。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_15_desc_02",
+            "content": "第一次通過失物招領処領取奨励時，需要使用特定数量的脳啡汰模塊。而之后再領取奨励将不再需要消耗脳啡汰模塊。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_16_title_01",
+            "content": "累計記録"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_16_desc_01",
+            "content": "通関最終関峠后，折射軌道的游玩記録将被保存，最多可保存20个通関記録。"
+        },
+        {
+            "id": "tutorial_mainui_railway3_page_16_desc_02",
+            "content": "超過20个記録的情况下，累計回合数最多的記録将被刪除。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_01_title",
+            "content": "肉斬骨断"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_01_title_01",
+            "content": "肉斬骨断 開放"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_01_desc_01",
+            "content": "[肉斬骨断活動頁面]在通過主綫故事5.5-12后開放。\n\n宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_02_title_01",
+            "content": "活動時間"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_02_desc_01",
+            "content": "此処展示了肉斬骨断活動的持續時間。\n\n通関活動関峠、迷宮可獲取[染血剣鞘]。除此之外，首次通関主綫関峠、迷宮，通関鏡像迷宮也可獲取[染血剣鞘]。\n\n※ 采光関峠与折射軌道中无法獲取[染血剣鞘]。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_03_title_01",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_03_desc_01",
+            "content": "肉斬骨断的戦斗，包括劇情関峠在内共有12関。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_03_desc_02",
+            "content": "从肉斬骨断活動関峠中獲得的[染血剣鞘]将遠多于主綫劇情関峠。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_04_title_01",
+            "content": "活動奨励人格"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_04_desc_01",
+            "content": "肉斬骨断活動期間，在隊伍中編入活動加成人格后通関活動関峠及迷宮，[染血剣鞘]的獲取量将提升。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_05_title_01",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_05_desc_01",
+            "content": "在[奨励兌換]窗口中花費[染血剣鞘]可獲得各種奨励。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_06_desc_01",
+            "content": "此処展示了領取奨励的期限。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_06_desc_02",
+            "content": "可从這里獲得各種道具及活動限定人格。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_07_title_01",
+            "content": "活動関峠"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_07_desc_01",
+            "content": "肉斬骨断最后的戦斗，将以鏡像迷宮的形式進行。\n\n入場時，将消耗脳啡汰模塊。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_08_title_01",
+            "content": "寄宿怨恨的剣鞘"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_08_desc_01",
+            "content": "戦斗勝利后，有低概率獲得[寄宿怨恨的剣鞘]。\n\n[寄宿怨恨的剣鞘]将会自動轉換為20个染血剣鞘。"
+        },
+        {
+            "id": "tutorial_mainui_26_ycgd_09_desc_01",
+            "content": "活動結束后，可在駕駛席 - [外傳故事]及放映室 - [其他故事]中，重温肉斬骨断的戦斗和劇情。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_01_title",
+            "content": "時間殺人時間"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_01_title_01",
+            "content": "活動開放"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_01_desc_01",
+            "content": "[時間殺人時間活動頁面]在通過主綫故事6-48后開放。宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_02_title_01",
+            "content": "活動時間"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_02_desc_01",
+            "content": "此処顕示了時間殺人時間活動的持續時間。\n活動過程中，宁可以通過活動関峠或鏡像迷宮来獲取[懐表]。\n\n※ 宁无法从采光関峠以及折射軌道中獲取[懐表]。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_03_title_01",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_03_desc_01",
+            "content": "時間殺人時間包括劇情関峠在内共有14関和1个迷宮。\n\n除了活動通関奨励外，這些関峠均有額外的[懐表]作為首次通関奨励。（僅1次）"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_04_title_01",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_04_desc_01",
+            "content": "在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[懐表]的獲取量。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_05_title_01",
+            "content": "道具兌換"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_05_desc_01",
+            "content": "在[奨励兌換]窗口中花費持有的[懐表]可獲得各種奨励。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_06_desc_01",
+            "content": "在[奨励兌換]中可以獲得各類資源及活動限定人格。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_06_desc_02",
+            "content": "此処顕示了[奨励兌換]的奨励領取時間。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_07_title_01",
+            "content": "活動関峠"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_07_desc_01",
+            "content": "時間殺人時間活動的最后関峠将会出現迷宮，入場時将消耗脳啡汰模塊。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_08_title_01",
+            "content": "成梱懐表"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_08_desc_01",
+            "content": "戦斗勝利后，有低概率獲得[成梱懐表]。\n\n[成梱懐表]将会自動轉換為20个[懐表]。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt_09_desc_01",
+            "content": "活動結束后，通過駕駛席-[外傳故事]及放映室-[其他故事]，可随時享受時間殺人時間的関峠和故事。"
+        },
+        {
+            "id": "tutorial_mainui_28_tkt",
+            "content": "時間殺人時間"
+        },
+        {
+            "id": "tutorial_mainui_railway4_title_01",
+            "content": "折射軌道4号綫"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_01_title_01",
+            "content": "入場方式"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_01_desc_01",
+            "content": "選擇已激活的綫路即可入場。\n\n入場折射軌道時不消耗任何道具。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_02_desc_01",
+            "content": "折射軌道是十分困難的活動。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_02_desc_02",
+            "content": "本次的4号綫，推荐配置是人格同步4階段及人格等級45級，E.G.O則為異想解析4階段。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_02_desc_03",
+            "content": "建議宁尽可能満足養成条件后再入場。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_03_title_01",
+            "content": "編隊"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_03_desc_01",
+            "content": "将宁所持有的人格与E.G.O編隊后入場。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_03_desc_02",
+            "content": "当提高人格等級、人格同步階段、E.G.O異想解析階段時，将会在折射軌道中實時反映変更的内容。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_04_title_01",
+            "content": "4号綫的站点与区段"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_04_desc_01",
+            "content": "4号綫共有13个站点，数个站点将会邦定在各个区段并構成相應的関峠。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_04_desc_02",
+            "content": "4号綫包含由四个区段所構成的戦斗関峠与各个区段之間的休息站点。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_05_desc_01",
+            "content": "選擇区段并入場。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_05_desc_02",
+            "content": "通関区段時，将会記録通関回合数。\n\n与此同時，還会記録从第1区段到当前区段為止所有区段通関回合数的累計回合總数。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_05_desc_03",
+            "content": "当宁通関区段時，可在失物招領処領取的相應奨励将会顕示在下端。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_06_title_01",
+            "content": "戦斗編隊-編隊順位效果"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_06_desc_01",
+            "content": "在4号綫可以基于編隊的順位得到特殊的増益。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_06_desc_02",
+            "content": "対于部分待命人員，将会額外啓用初始理智値増益。対于使用減算硬幣的人格，初始理智値増益将会以負数激活。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_07_title_01",
+            "content": "戦斗編隊-連續戦斗"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_07_desc_01",
+            "content": "4号綫将以連續戦斗的方式進行。\n\n出戦人員在連續戦斗中陣亡時，将由待命人員按照指定順序進行補位。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_07_desc_02",
+            "content": "宁需要将7名出戦人員与5名待命人員全部設定完畢方可入場。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_08_title_01",
+            "content": "戦斗"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_08_desc_01",
+            "content": "所有戦斗都将以友方技能直接与敵方技能相対應的集中遭遇戦的方式進行。\n在進入折射軌道4号綫后，可以使用1次光之樹苗的能力。\n使用時不会影響除去該活動以外其余場合的使用次数。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_09_title_01",
+            "content": "戦斗-編隊順位效果"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_09_desc_01",
+            "content": "宁在戦斗中也可以確認基于編隊順位所激活的増益效果。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_09_desc_02",
+            "content": "当友方人格在4号綫陣亡時，根据陣亡人格所持有的基礎攻撃技能属性与級別，獲得相應的E.G.O資源。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_10_title_01",
+            "content": "戦斗-連續戦斗"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_10_desc_01",
+            "content": "出戦人員在連續戦斗中陣亡時，将由待命人員按照指定順序進行補位。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_10_desc_02",
+            "content": "待命人員変為出戦人員時，所激活的被動技能将由支援被動技能轉為戦斗被動技能。\n\n而出戦人員陣亡時，所激活的被動技能将由戦斗被動技能轉為支援被動技能。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_11_title_01",
+            "content": "戦斗-意志堅定"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_11_desc_01",
+            "content": "4号綫中，人格死亡時不会導致理智値減少。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_11_desc_02",
+            "content": "部分4号綫出場的敵方単位也会适用編隊順序。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_12_title_01",
+            "content": "圖鑑"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_12_desc_01",
+            "content": "从劇情迷宮或是鏡像迷宮的戦斗中獲得的異想体観察等級，将会反映在異想体圖鑑中并可以从中進行確認。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_12_desc_02",
+            "content": "但是，基于観察等級的傷害強化效果不会生效。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_12_desc_03",
+            "content": "折射軌道4号綫中，即使在戦斗中選擇重新挑戦或放弃関峠，戦斗中更新的圖鑑内容也会原封不動地被保存下来。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_13_desc_01",
+            "content": "戦斗后剩余的E.G.O資源在下一区段依旧能劬使用。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_13_desc_02",
+            "content": "編隊中人格的体力、理智値、陣亡状態将会顕示在界面下方。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_14_title_01",
+            "content": "休息站点"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_14_desc_01",
+            "content": "在各个区段之間的休息站点，人格的体力将会恢復至最大値并将理智値初始化為0。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_14_desc_02",
+            "content": "宁可以在休息站点随意修改編隊。\n\n如果在戦斗中感到困難，建議宁在休息站点切換其他編隊。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_15_desc_01",
+            "content": "友方単位全滅時将回到入場界面，宁可以重新調整編隊順序或立即重新挑戦目前関峠。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_16_title_01",
+            "content": "記録更新"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_16_desc_01",
+            "content": "在探索期間，可以選擇从之前已通過的関峠重新開始戦斗。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_16_desc_02",
+            "content": "若从特定関峠重新開始戦斗，罪人的状態和E.G.O資源持有量将恢復到首次進入該関峠時的状態，并且在該関峠之后通過的所有関峠的完成進度都将被重置。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_17_title_01",
+            "content": "横幅獲取条件"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_17_desc_01",
+            "content": "可以確認折射軌道4号綫横幅的獲取条件。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_17_desc_02",
+            "content": "獲得横幅時，最佳記録的累計回合数将顕示在横幅上。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_18_title_01",
+            "content": "失物招領処"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_18_desc_01",
+            "content": "在活動期間第一次通関関峠時，其奨励将会発放至失物招領処。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_18_desc_02",
+            "content": "第一次通過失物招領処領取奨励時，需要使用特定数量的脳啡汰模塊。\n\n而之后再領取奨励将不再需要消耗脳啡汰模塊。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_19_title_01",
+            "content": "累計記録"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_19_desc_01",
+            "content": "通関最終関峠后，折射軌道的游玩記録将被保存，最多可保存20个通関記録。"
+        },
+        {
+            "id": "tutorial_mainui_railway4_page_19_desc_02",
+            "content": "超過20个記録的情况下，累計回合数最多的記録将被刪除。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_01_title",
+            "content": "WARP快車謀殺案"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_01_title_01",
+            "content": "WARP快車謀殺案 開放"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_01_desc_01",
+            "content": "[WARP快車謀殺案活動頁面]在通過主綫故事0-4后開放。宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_02_title_01",
+            "content": "活動時間"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_02_desc_01",
+            "content": "此処展示了WARP快車謀殺案的持續時間。活動期間内，通過WARP快車謀殺案、鏡像迷宮，或者初次通関主綫劇情時，均可獲得[普通乘客復原包]。在折射軌道中无法獲得[普通乘客復原包]。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_03_title_01",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_03_desc_01",
+            "content": "WARP快車謀殺案包括劇情関峠在内共有15関。[普通乘客復原包]除了WARP快車謀殺案的通関奨励外，EX通関奨励也会獲得。(限1次) "
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_03_desc_02",
+            "content": "从WARP快車謀殺案活動関峠中獲得的[普通乘客復原包]将遠多于主綫劇情関峠。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_04_title_01",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_04_desc_01",
+            "content": "在隊伍中編入WARP快車謀殺案活動加成角色与E.G.O后通関活動関峠及迷宮，能劬提升[普通乘客復原包]的獲取量。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_05_title_01",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_05_desc_01",
+            "content": "宁可以在[奨励兌換]処根据所持有的[普通乘客復原包]数量兌換多様化奨励。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_06_desc_01",
+            "content": "此処展示了[奨励兌換]的開放時間。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_06_desc_02",
+            "content": "在[奨励兌換]中可以獲得各類道具与活動限定人格。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_07_title_01",
+            "content": "連續遭遇戦関峠"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_07_desc_01",
+            "content": "WARP快車謀殺案的部分関峠以連續戦斗的方式進行。在連續戦斗中，友方単位陣亡不会消耗理智値。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_08_title_01",
+            "content": "收尾人乘客復原包"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_08_desc_01",
+            "content": "宁有小概率从戦斗奨励中獲得[收尾人乘客復原包]。[收尾人乘客復原包]将会自動轉換為20个[普通乘客復原包]。"
+        },
+        {
+            "id": "tutorial_mainui_29_mowe_09_desc_01",
+            "content": "活動結束后，宁也依然可以通過駕駛席-[外傳故事]及放映室-[其他故事]，随時重温WARP快車謀殺案的関峠和故事。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_11_title_01",
+            "content": "連續戦斗"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_11_desc_01",
+            "content": "在連續戦斗中，除出戦人員以外，可以選擇“待命人員”。\n\n出戦人員在戦斗中陣亡后，待命人員将替補進入戦斗。\n\n連續戦斗中所選的全部人員（出戦人員以及待命人員）全部陣亡后，戦斗失敗。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_12_title_01",
+            "content": "待命人員編隊"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_12_desc_01",
+            "content": "出戦人員陣亡時，将由待命人員按照指定順序進行補位。\n\n待命人員参加戦斗時，将根据編隊順序的初始理智値，恢復相應人員的理智値。\n\n在一部分連續戦斗中，待命人員参与戦斗時将獲得額外效果。\n\n請活用該机制，制定編隊順序。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_13_title_01",
+            "content": "解除待命"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_13_desc_01",
+            "content": "在連續戦斗中，不会因友方単位陣亡后的基礎理智値増減条件而導致理智値減少。\n\n戦斗中部分人員陣亡后，目前編隊順序最靠前的待命人員将進行補位。\n這称作“解除待命”。\n\n陣亡人格的戦斗被動将被替換為支援被動。\n\n解除待命的人格的支援被動将被替換為其戦斗被動。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_14_title_01",
+            "content": "敵方状况展示界面"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_14_desc_01",
+            "content": "在連續戦斗中，波次界面将会顕示戦斗中会出現敵人数量，以及已打倒的敵人数量。\n\n但，在戦斗中因特定条件而生成的敵人无法顕示在該界面中。"
+        },
+        {
+            "id": "TutoEvent5501_P1_T1",
+            "content": "活動開放"
+        },
+        {
+            "id": "TutoEvent5501_P1_D1",
+            "content": "宁可以通過玻璃窗或駕駛席上的活動横幅，進入[20区的奇迹 復刻活動頁面]。"
+        },
+        {
+            "id": "TutoEvent5501_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent5501_P2_D1",
+            "content": "此処顕示了20区的奇迹 復刻活動的持續時間。\n\n活動期間内，通過20区的奇迹関峠、鏡像迷宮，或者初次通関主綫劇情関峠時，均可獲得[装飾品包裹]。\n\n※ 宁无法从采光関峠以及折射軌道中獲取[装飾品包裹]。"
+        },
+        {
+            "id": "TutoEvent5501_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent5501_P3_D1",
+            "content": "20区的奇迹 復刻包括劇情関峠在内共有13関。\n\n這些関峠均有[装飾品包裹]作為首次通関奨励（每个関峠僅首次通関時可獲得）。"
+        },
+        {
+            "id": "TutoEvent5501_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent5501_P4_D1",
+            "content": "在隊伍中編入活動加成E.G.O后清剿活動関峠及鏡像迷宮，能劬提升[装飾品包裹]的獲取量。"
+        },
+        {
+            "id": "TutoEvent5501_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent5501_P5_D1",
+            "content": "在[奨励兌換]窗口中花費持有的[装飾品包裹]可獲得各種奨励。"
+        },
+        {
+            "id": "TutoEvent5501_P6_D1",
+            "content": "在[奨励兌換]中可以獲得活動限定E.G.O、播报員、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent5501_P6_D2",
+            "content": "此処顕示了[奨励兌換]的奨励領取時間。"
+        },
+        {
+            "id": "TutoEvent5501_P7_T1",
+            "content": "巨大装飾品包裹"
+        },
+        {
+            "id": "TutoEvent5501_P7_D1",
+            "content": "宁有小概率从戦斗奨励中獲得[巨大装飾品包裹]。\n\n[巨大装飾品包裹]将会自動轉換為20个[装飾品包裹]。"
+        },
+        {
+            "id": "TutoEvent5501_P8_T1",
+            "content": "困難難度"
+        },
+        {
+            "id": "TutoEvent5501_P8_D1",
+            "content": "活動期間可以游玩20区的奇迹困難難度。困難難度在通過主綫劇情関峠6-48后解鎖。"
+        },
+        {
+            "id": "TutoEvent5501_P8_D2",
+            "content": "困難難度能劬比普通難度獲得更多的活動道具。"
+        },
+        {
+            "id": "TutoEvent5501_P8_D3",
+            "content": "通関困難関峠同様可獲得首次通関奨励、EX通関奨励与章節進度奨励。"
+        },
+        {
+            "id": "TutoEvent5501_P9_D1",
+            "content": "活動結束后，宁可在駕駛席和放映室-[其他劇情]頁面重温戦斗或重覧劇情。"
+        },
+        {
+            "id": "TutoEvent7501_P1_T1",
+            "content": "LCB定期体檢"
+        },
+        {
+            "id": "TutoEvent7501_P1_D1",
+            "content": "LCB定期体檢開放"
+        },
+        {
+            "id": "TutoEvent7501_P1_D2",
+            "content": "宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "TutoEvent7501_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent7501_P2_D1",
+            "content": "此処顕示了LCB定期体檢活動的持續時間。活動過程中，宁可以通過通関活動或主綫関峠以及鏡像迷宮来獲取[情报文件]。\n\n※ 宁无法从采光関峠或折射軌道中獲取[情报文件]。"
+        },
+        {
+            "id": "TutoEvent7501_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent7501_P3_D1",
+            "content": "LCB定期体檢包括劇情関峠在内共有13関。這些関峠均有[情报文件]作為首次通関奨励。"
+        },
+        {
+            "id": "TutoEvent7501_P3_D2",
+            "content": "与主綫故事関峠相比，宁可以从LCB定期体檢活動関峠中獲得更多[情报文件]。"
+        },
+        {
+            "id": "TutoEvent7501_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent7501_P4_D1",
+            "content": "LCB定期体檢活動期間，在隊伍中編入活動加成人格与E.G.O后通関活動関峠及迷宮，[情报文件]的獲取量将提升。"
+        },
+        {
+            "id": "TutoEvent7501_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent7501_P5_D1",
+            "content": "在[奨励兌換]窗口中花費持有的[情报文件]可獲得各種奨励。"
+        },
+        {
+            "id": "TutoEvent7501_P6_T1",
+            "content": "此処顕示了[奨励兌換]的奨励領取時間。"
+        },
+        {
+            "id": "TutoEvent7501_P6_D1",
+            "content": "在[奨励兌換]中可以獲得各類道具与活動限定人格。"
+        },
+        {
+            "id": "TutoEvent7501_P7_T1",
+            "content": "連續遭遇戦関峠"
+        },
+        {
+            "id": "TutoEvent7501_P7_D1",
+            "content": "LCB定期体檢的部分関峠以連續戦斗的方式進行。在連續戦斗中，友方単位陣亡不会消耗理智値。"
+        },
+        {
+            "id": "TutoEvent7501_P8_T1",
+            "content": "活動関峠"
+        },
+        {
+            "id": "TutoEvent7501_P8_D1",
+            "content": "LCB定期体檢活動的最后関峠将会出現迷宮，入場時将消耗脳啡汰模塊。"
+        },
+        {
+            "id": "TutoEvent7501_P9_T1",
+            "content": "机密文件"
+        },
+        {
+            "id": "TutoEvent7501_P9_D1",
+            "content": "宁有小概率从戦斗奨励中獲得机密文件。机密文件将会自動轉換為20个情报文件。"
+        },
+        {
+            "id": "TutoEvent7501_P10_D1",
+            "content": "活動結束后，可在駕駛席 - [外傳故事]及放映室 - [其他故事]中，重温LCB定期体檢的戦斗和劇情。"
+        },
+        {
+            "id": "TutoEvent5502_P1_T1",
+            "content": "活動開放"
+        },
+        {
+            "id": "TutoEvent5502_P1_D1",
+            "content": "宁可以通過玻璃窗或駕駛席上的活動横幅，進入[肉斬骨断 復刻活動頁面]。"
+        },
+        {
+            "id": "TutoEvent5502_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent5502_P2_D1",
+            "content": "此処展示了肉斬骨断復刻活動的持續時間。通関活動関峠可獲取[染血剣鞘]。除此之外，首次通関主綫関峠、鏡像迷宮也可獲取[染血剣鞘]。\n\n※ 采光関峠与折射軌道中无法獲取[染血剣鞘]。"
+        },
+        {
+            "id": "TutoEvent5502_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent5502_P3_D1",
+            "content": "肉斬骨断 復刻包括劇情関峠在内共有11関和1个迷宮。這些関峠均有[染血剣鞘]作為首次通関奨励（每个関峠僅首次通関時可獲得）。"
+        },
+        {
+            "id": "TutoEvent5502_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent5502_P4_D1",
+            "content": "活動期間，在隊伍中編入活動加成人格后通関活動関峠及迷宮，[染血剣鞘]的獲取量将提升。"
+        },
+        {
+            "id": "TutoEvent5502_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent5502_P5_D1",
+            "content": "在[奨励兌換]窗口中花費獲得的[染血剣鞘]，可兌換各種奨励。"
+        },
+        {
+            "id": "TutoEvent5502_P6_D1",
+            "content": "此処顕示了[奨励兌換]的奨励領取時間。"
+        },
+        {
+            "id": "TutoEvent5502_P6_D2",
+            "content": "在[奨励兌換]中可以獲得活動限定人格、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent5502_P7_T1",
+            "content": "寄宿怨恨的剣鞘"
+        },
+        {
+            "id": "TutoEvent5502_P7_D1",
+            "content": "戦斗勝利后，有低概率獲得[寄宿怨恨的剣鞘]。[寄宿怨恨的剣鞘]将会自動轉換為20个[染血剣鞘]。"
+        },
+        {
+            "id": "TutoEvent5502_P8_T1",
+            "content": "困難難度"
+        },
+        {
+            "id": "TutoEvent5502_P8_D1",
+            "content": "活動期間可以游玩肉斬骨断困難難度。困難難度在通過主綫劇情関峠6-48后解鎖。"
+        },
+        {
+            "id": "TutoEvent5502_P8_D2",
+            "content": "困難難度能劬比普通難度獲得更多的活動道具。"
+        },
+        {
+            "id": "TutoEvent5502_P8_D3",
+            "content": "通関困難関峠同様可獲得首次通関奨励、EX通関奨励与章節進度奨励。"
+        },
+        {
+            "id": "TutoEvent5502_P9_D1",
+            "content": "活動結束后，可在駕駛席 - [外傳故事]及放映室 - [其他故事]中，重温肉斬骨断的戦斗和劇情。"
+        },
+        {
+            "id": "TutoRailway5_P1_T1",
+            "content": "折射軌道5号綫"
+        },
+        {
+            "id": "TutoRailway5_P1_D1",
+            "content": "如何進入戦斗"
+        },
+        {
+            "id": "TutoRailway5_P1_D2",
+            "content": "選擇已激活的綫路即可入場。\n\n進入折射軌道時无需消耗任何道具。"
+        },
+        {
+            "id": "TutoRailway5_P2_T1",
+            "content": "折射軌道是十分困難的活動。"
+        },
+        {
+            "id": "TutoRailway5_P2_D1",
+            "content": "本次的5号綫，推荐配置是人格同步4階段及人格等級50級，E.G.O則為異想解析4階段。"
+        },
+        {
+            "id": "TutoRailway5_P2_D2",
+            "content": "建議宁尽可能満足養成条件后再入場。"
+        },
+        {
+            "id": "TutoRailway5_P3_T1",
+            "content": "5号綫的站点与区段"
+        },
+        {
+            "id": "TutoRailway5_P3_D1",
+            "content": "5号綫共有11个站点，数个站点将会邦定在各个区段并構成相應的関峠。"
+        },
+        {
+            "id": "TutoRailway5_P3_D2",
+            "content": "5号綫包含由三个区段所構成的戦斗関峠。"
+        },
+        {
+            "id": "TutoRailway5_P4_T1",
+            "content": "進入区段"
+        },
+        {
+            "id": "TutoRailway5_P4_D1",
+            "content": "通関区段時，将会記録通関回合数。\n\n与此同時，還会記録从第1区段到当前区段為止所有区段通関回合数的累計回合總数。"
+        },
+        {
+            "id": "TutoRailway5_P4_D2",
+            "content": "当宁通関区段時，可在失物招領処領取的相應奨励将会顕示在下端。"
+        },
+        {
+            "id": "TutoRailway5_P5_T1",
+            "content": "戦斗編隊-連續戦斗"
+        },
+        {
+            "id": "TutoRailway5_P5_D1",
+            "content": "5号綫将以連續戦斗的方式進行。\n\n出戦人員在連續戦斗中陣亡時，将由待命人員按照指定順序進行補位。"
+        },
+        {
+            "id": "TutoRailway5_P5_D2",
+            "content": "宁需要将6名出戦人員与6名待命人員全部設定完畢方可入場。"
+        },
+        {
+            "id": "TutoRailway5_P6_T1",
+            "content": "人格出戦限制"
+        },
+        {
+            "id": "TutoRailway5_P6_D1",
+            "content": "在5号綫中，宁不能編入相同的人格同時挑戦第一区段和第二区段。\n每个区段都需要指定不同的人格。"
+        },
+        {
+            "id": "TutoRailway5_P6_D2",
+            "content": "此限制不适用于第3区段，宁可以自由編入人格。"
+        },
+        {
+            "id": "TutoRailway5_P7_T1",
+            "content": "編隊"
+        },
+        {
+            "id": "TutoRailway5_P7_D1",
+            "content": "将宁所持有的人格与E.G.O編隊后入場。"
+        },
+        {
+            "id": "TutoRailway5_P7_D2",
+            "content": "当提高人格等級、人格同步階段、E.G.O異想解析階段時，将会在折射軌道中實時反映変更的内容。"
+        },
+        {
+            "id": "TutoRailway5_P7_D3",
+            "content": "対于部分待命人員，将会額外啓用初始理智値増益，編隊順序越靠后的待命人員会獲得更高的初始理智値増益。\n\n対于使用減算硬幣的人格，初始理智値増益将会以負数激活。"
+        },
+        {
+            "id": "TutoRailway5_P8_T1",
+            "content": "戦斗"
+        },
+        {
+            "id": "TutoRailway5_P8_D1",
+            "content": "所有戦斗都将以友方技能直接与敵方技能相対應的集中遭遇戦的方式進行。\n每个区段中可以記録的最高回合数是100回合。如果回合数在単个区段内超過100回合，戦斗将以失敗告終。"
+        },
+        {
+            "id": "TutoRailway5_P9_T1",
+            "content": "圖鑑"
+        },
+        {
+            "id": "TutoRailway5_P9_D1",
+            "content": "5号綫中除各个区段的最終波次頭目外，所有敵方信息都将公開。請基于此信息編入更為合适的人格及E.G.O。"
+        },
+        {
+            "id": "TutoRailway5_P9_D2",
+            "content": "但是，基于観察等級的傷害強化效果不会生效。"
+        },
+        {
+            "id": "TutoRailway5_P9_D3",
+            "content": "5号綫中，即使在戦斗中選擇重新挑戦或放弃関峠，戦斗中更新的圖鑑内容也会原封不動地被保存下来。"
+        },
+        {
+            "id": "TutoRailway5_P10_T1",
+            "content": "戦斗-連續戦斗"
+        },
+        {
+            "id": "TutoRailway5_P10_D1",
+            "content": "出戦人員在連續戦斗中陣亡時，将由待命人員按照指定順序進行補位。"
+        },
+        {
+            "id": "TutoRailway5_P10_D2",
+            "content": "待命人員変為出戦人員時，所激活的被動技能将由支援被動技能轉為戦斗被動技能。\n\n而出戦人員陣亡時，所激活的被動技能将由戦斗被動技能轉為支援被動技能。"
+        },
+        {
+            "id": "TutoRailway5_P11_T1",
+            "content": "戦斗-延續意志"
+        },
+        {
+            "id": "TutoRailway5_P11_D1",
+            "content": "当友方人格在5号綫陣亡時，根据陣亡人格所持有的基礎攻撃技能属性与級別，獲得相應的E.G.O資源。与連續遭遇戦相同，友方単位的陣亡不会降低其他友方単位的理智値。"
+        },
+        {
+            "id": "TutoRailway5_P12_T1",
+            "content": "部分5号綫出場的敵方単位也会适用編隊順序。"
+        },
+        {
+            "id": "TutoRailway5_P13_T1",
+            "content": "戦斗-増益和苦難"
+        },
+        {
+            "id": "TutoRailway5_P13_D1",
+            "content": "通過区段内的一个波次（站点）后，将会選擇増益与苦難。"
+        },
+        {
+            "id": "TutoRailway5_P13_D2",
+            "content": "選擇対友方単位有利的増益和対敵方単位有利的苦難，選擇的増益与苦難在挑戦5号綫的期間保持。"
+        },
+        {
+            "id": "TutoRailway5_P14_T1",
+            "content": "通関信息"
+        },
+        {
+            "id": "TutoRailway5_P14_D1",
+            "content": "通関各个区段后，在通関信息窗口中可以確認自己獲得的増益与苦難、参与戦斗的人格等統計。"
+        },
+        {
+            "id": "TutoRailway5_P15_T1",
+            "content": "通関区段后剩余的E.G.O資源，可以在下一个区段使用。"
+        },
+        {
+            "id": "TutoRailway5_P16_T1",
+            "content": "友方単位全滅時将回到入場界面，可以重新調整編隊順序或立即重新挑戦目前関峠。"
+        },
+        {
+            "id": "TutoRailway5_P17_T1",
+            "content": "記録刷新"
+        },
+        {
+            "id": "TutoRailway5_P17_D1",
+            "content": "在探索期間，可以選擇从之前已通過的関峠重新開始戦斗。"
+        },
+        {
+            "id": "TutoRailway5_P17_D2",
+            "content": "从特定関峠重新開始戦斗時，罪人的状態和E.G.O資源持有量将恢復到首次進入該関峠時的状態。該関峠之后通過的所有関峠的完成進度也都将被重置。"
+        },
+        {
+            "id": "TutoRailway5_P18_T1",
+            "content": "横幅獲取条件"
+        },
+        {
+            "id": "TutoRailway5_P18_D1",
+            "content": "可以確認折射軌道5号綫横幅的獲取条件。"
+        },
+        {
+            "id": "TutoRailway5_P18_D2",
+            "content": "獲得横幅時，最佳記録的累計回合数将顕示在横幅上。\n累計回合数減少時，横幅的累計回合数将会更新。累計回合数相同時，将会更新為最新通関記録的回合数。"
+        },
+        {
+            "id": "TutoRailway5_P19_T1",
+            "content": "失物招領処"
+        },
+        {
+            "id": "TutoRailway5_P19_D1",
+            "content": "第一次通関站点時，対應的奨励将会発放至失物招領処。"
+        },
+        {
+            "id": "TutoRailway5_P19_D2",
+            "content": "僅首次通過失物招領処領取奨励時，需要消耗一定量的脳啡汰模塊。\n\n之后可以随時領取奨励，无需再消耗額外的脳啡汰模塊，"
+        },
+        {
+            "id": "TutoRailway5_P20_T1",
+            "content": "記録"
+        },
+        {
+            "id": "TutoRailway5_P20_D1",
+            "content": "通関最終関峠后，折射軌道的游玩記録将被保存，最多可保存20个通関記録。"
+        },
+        {
+            "id": "TutoRailway5_P20_D2",
+            "content": "超過20个記録的情况下，累計回合数最多的記録将被刪除。"
+        },
+        {
+            "id": "TutoEvent7502_P1_T1",
+            "content": "深夜清掃"
+        },
+        {
+            "id": "TutoEvent7502_P1_D1",
+            "content": "深夜清掃 已開放"
+        },
+        {
+            "id": "TutoEvent7502_P1_D2",
+            "content": "[深夜清掃]在通過主綫故事7.5-14后開放。宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "TutoEvent7502_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent7502_P2_D1",
+            "content": "此処顕示了深夜清掃活動的持續時間。活動過程中，宁可以通過通関活動或主綫関峠以及鏡像迷宮来獲取[清道夫液態燃料罐]。\n\n※宁无法从采光関峠、折射軌道或鏡像迷宮平行畳加模式（第6層及以上）中獲取[清道夫液態燃料罐]。"
+        },
+        {
+            "id": "TutoEvent7502_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent7502_P3_D1",
+            "content": "深夜清掃包括劇情関峠在内共有12関。\n[清道夫液態燃料罐]除了深夜清掃的通関奨励外，EX通関奨励也会獲得。(限1次) "
+        },
+        {
+            "id": "TutoEvent7502_P3_D2",
+            "content": "从深夜清掃活動関峠中獲得的[清道夫液態燃料罐]将遠多于主綫劇情関峠。"
+        },
+        {
+            "id": "TutoEvent7502_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent7502_P4_D1",
+            "content": "深夜清掃活動期間，在隊伍中編入活動加成人格后通関活動関峠及迷宮，[清道夫液態燃料罐]的獲取量将提升。"
+        },
+        {
+            "id": "TutoEvent7502_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent7502_P5_D2",
+            "content": "宁可以在[奨励兌換]処根据所持有的[清道夫液態燃料罐]数量兌換多様化奨励。"
+        },
+        {
+            "id": "TutoEvent7502_P6_D1",
+            "content": "此処顕示了[奨励兌換]的奨励領取時間。"
+        },
+        {
+            "id": "TutoEvent7502_P6_D2",
+            "content": "在[奨励兌換]中可以獲得各類道具与活動限定人格。"
+        },
+        {
+            "id": "TutoEvent7502_P7_T1",
+            "content": "連續遭遇戦関峠"
+        },
+        {
+            "id": "TutoEvent7502_P7_D1",
+            "content": "深夜清掃的部分関峠以連續戦斗的方式進行。在連續戦斗中，友方単位陣亡不会消耗理智値。"
+        },
+        {
+            "id": "TutoEvent7502_P8_T1",
+            "content": "特大型液態燃料罐"
+        },
+        {
+            "id": "TutoEvent7502_P8_D1",
+            "content": "宁有小概率从戦斗奨励中獲得特大型液態燃料罐。特大型液態燃料罐将会自動轉換為20个清道夫液態燃料罐。"
+        },
+        {
+            "id": "TutoEvent7502_P9_D1",
+            "content": "活動結束后，通過駕駛席-[外傳故事]及放映室-[其他故事]，可随時享受深夜清掃的関峠和故事。"
+        },
+        {
+            "id": "TutoFormation_P1_T1",
+            "content": "罪人（編隊）"
+        },
+        {
+            "id": "TutoFormation_P1_D1",
+            "content": "宁可以用12名辺獄公司罪人的人格組建不同的編隊。"
+        },
+        {
+            "id": "TutoFormation_P1_T2",
+            "content": "編輯編隊"
+        },
+        {
+            "id": "TutoFormation_P1_D2",
+            "content": "在罪人界面選擇罪人后，将会展示該罪人的人格与E.G.O列表。宁可以在此処更改編隊。"
+        },
+        {
+            "id": "TutoFormation_P1_D3",
+            "content": "在右側選擇“全人格”或“全E.G.O”按鈕，即可査看所有罪人人格和E.G.O的完整列表，這将有助于宁更好地組建編隊。"
+        },
+        {
+            "id": "TutoFormation_P2_T1",
+            "content": "戦斗編隊窗口"
+        },
+        {
+            "id": "TutoFormation_P2_D1",
+            "content": "在通常的編隊窗口中，点撃人格圖像便可以進入編輯窗口。然而，如果是戦前的編隊頁面，人格圖像則会分為以下兩个区域。"
+        },
+        {
+            "id": "TutoFormation_P2_D2",
+            "content": "選擇人格圖像的上部区域時，可以進行与上述編輯功能相同的操作，可以確認并替換罪人的人格与E.G.O。"
+        },
+        {
+            "id": "TutoFormation_P2_D3",
+            "content": "人格圖像的下半部分用于選擇参戦人格，点撃此処将使該人格参与戦斗。"
+        },
+        {
+            "id": "TutoFormation_P2_D4",
+            "content": "右下方会顕示可以参加此次戦斗的罪人上限。"
+        },
+        {
+            "id": "TutoFormation_P2_D5",
+            "content": "在部分无法更改編隊的戦斗中，人格圖像的全部区域都只可用于選擇参戦人格。"
+        },
+        {
+            "id": "TutoFormation_P2_T2",
+            "content": "待命人員編隊"
+        },
+        {
+            "id": "TutoFormation_P2_D6",
+            "content": "在常規戦斗中，部署的罪人数量不能超過右下角所標明的最大罪人数。"
+        },
+        {
+            "id": "TutoFormation_P2_D7",
+            "content": "但是，在連續戦斗中，除出戦人員以外，可以選擇“待命人員”。\n\n出戦人員在戦斗中陣亡后，待命人員将替補進入戦斗。\n\n連續戦斗中所選的全部人員（出戦人員以及待命人員）全部陣亡后，戦斗失敗。"
+        },
+        {
+            "id": "TutoFormation_P2_D8",
+            "content": "出戦人員陣亡時，将由待命人員按照指定順序進行補位。\n\n待命人員参加戦斗時，将根据編隊順序的初始理智値，恢復相應人員的理智値。"
+        },
+        {
+            "id": "TutoFormation_P2_D9",
+            "content": "在一部分連續戦斗中，待命人員参与戦斗時将獲得額外效果。\n\n請活用該机制，制定編隊順序，以獲得優勢。"
+        },
+        {
+            "id": "TutoFormation_P2_T3",
+            "content": "解除待命"
+        },
+        {
+            "id": "TutoFormation_P2_D10",
+            "content": "在連續戦斗中，不会因友方単位陣亡后的基礎理智値増減条件而導致理智値減少。\n\n戦斗中部分人員陣亡后，目前編隊順序最靠前的待命人員将進行補位。\n這称作“解除待命”。"
+        },
+        {
+            "id": "TutoFormation_P2_D11",
+            "content": "陣亡人格的戦斗被動将被替換為支援被動。\n\n解除待命的人格的支援被動将被替換為其戦斗被動。"
+        },
+        {
+            "id": "TutoFormation_P2_T4",
+            "content": "敵方状况"
+        },
+        {
+            "id": "TutoFormation_P2_D12",
+            "content": "在連續戦斗中，波次界面将会顕示戦斗中会出現敵人数量，以及已打倒的敵人数量。"
+        },
+        {
+            "id": "TutoFormation_P2_D13",
+            "content": "但，在戦斗中因特定条件而生成的敵人无法顕示在該界面中。"
+        },
+        {
+            "id": "TutoFormation_P3_T1",
+            "content": "人格信息"
+        },
+        {
+            "id": "TutoFormation_P3_D1",
+            "content": "在編隊窗口長按人格圖像，就会進入人格信息頁面。"
+        },
+        {
+            "id": "TutoFormation_P3_D2",
+            "content": "在人格信息頁面，可以査看当前人格和E.G.O的詳細信息。"
+        },
+        {
+            "id": "TutoFormation_P4_T1",
+            "content": "選擇播报員"
+        },
+        {
+            "id": "TutoFormation_P4_D1",
+            "content": "点撃左側的“播报員”按鈕，就会顕示播报員列表。"
+        },
+        {
+            "id": "TutoFormation_P4_D2",
+            "content": "播报員会播报有関戦斗進程的信息。宁可以在此更改于戦斗中使用的播报員。"
+        },
+        {
+            "id": "TutoFormation_P4_D3",
+            "content": "点撃播报員下端的放大鏡圖標，就可以査看播报員在不同情况下的台詞。"
+        },
+        {
+            "id": "TutoFormation_P5_T1",
+            "content": "編隊名称"
+        },
+        {
+            "id": "TutoFormation_P5_D1",
+            "content": "宁可以通過組合関鍵詞来命名編隊。"
+        },
+        {
+            "id": "TutoFormation_P5_D2",
+            "content": "宁最多可以編輯20个編隊。"
+        },
+        {
+            "id": "TutoFormation_P6_T1",
+            "content": "編隊詳情"
+        },
+        {
+            "id": "TutoFormation_P6_D1",
+            "content": "点撃“詳情”按鈕，即可査看編隊中所有人格技能的攻撃類型、罪孼属性，和装備中的E.G.O列表。"
+        },
+        {
+            "id": "TutoFormation_P6_T2",
+            "content": "E.G.O資源"
+        },
+        {
+            "id": "TutoFormation_P6_D2",
+            "content": "在右側的面板中，宁可以在此確認該編隊在戦斗中所能獲取的E.G.O資源的種類与数量。"
+        },
+        {
+            "id": "TutoFormation_P6_D3",
+            "content": "点撃右側面板，可以査看所選人格可提供的E.G.O資源，与所選E.G.O会消耗的E.G.O資源。"
+        },
+        {
+            "id": "TutoFormation_P7_T1",
+            "content": "編隊碼"
+        },
+        {
+            "id": "TutoFormation_P7_D1",
+            "content": "宁可以復制与分享宁的編隊碼，或在此黏貼編隊碼，以載入其他編隊。"
+        },
+        {
+            "id": "TutoFormation_P7_T2",
+            "content": "刪除編隊"
+        },
+        {
+            "id": "TutoFormation_P7_D2",
+            "content": "初始化当前所選的編隊。"
+        },
+        {
+            "id": "TutoFormation_P7_T3",
+            "content": "助戦"
+        },
+        {
+            "id": "TutoFormation_P7_D3",
+            "content": "宁可以在此選擇好友的助戦人格。"
+        },
+        {
+            "id": "TutoFormation_P8_T1",
+            "content": "復制編碼"
+        },
+        {
+            "id": "TutoFormation_P8_D1",
+            "content": "復制当前所選編隊的編隊碼。"
+        },
+        {
+            "id": "TutoFormation_P8_T2",
+            "content": "黏貼編碼"
+        },
+        {
+            "id": "TutoFormation_P8_D2",
+            "content": "将復制的編隊碼黏貼到此処，以載入其他編隊。"
+        },
+        {
+            "id": "TutoIDList_P1_T1",
+            "content": "人格列表"
+        },
+        {
+            "id": "TutoIDList_P1_D1",
+            "content": "顕示可以選入編隊的罪人人格一覧。\n\n可以確認人格的同步階段、等級、所属組織。"
+        },
+        {
+            "id": "TutoIDList_P2_T1",
+            "content": "選擇罪人"
+        },
+        {
+            "id": "TutoIDList_P2_D1",
+            "content": "点撃“ALL”按鈕即可査看所有罪人的人格列表。"
+        },
+        {
+            "id": "TutoIDList_P2_D2",
+            "content": "宁当前編隊中的人格将会被顕示出来。\n\n選擇罪人圖像時，該罪人的人格将顕示在列表中。"
+        },
+        {
+            "id": "TutoIDList_P2_D3",
+            "content": "在此可切換人格与E.G.O列表。"
+        },
+        {
+            "id": "TutoIDList_P3_T1",
+            "content": "顕示詳情"
+        },
+        {
+            "id": "TutoIDList_P3_D1",
+            "content": "這里可以査看人格的技能攻撃類型、罪孼属性、能力値以及抗性情况。"
+        },
+        {
+            "id": "TutoIDList_P3_D2",
+            "content": "※ 在査看E.G.O列表時，无法使用此按鈕。"
+        },
+        {
+            "id": "TutoIDList_P4_T1",
+            "content": "E.G.O列表"
+        },
+        {
+            "id": "TutoIDList_P4_D1",
+            "content": "這里顕示了編隊中所選罪人的E.G.O。\n\n可在此処査看其稀有度、異想解析階段、主要属性以及名称。"
+        },
+        {
+            "id": "TutoIDList_P5_D1",
+            "content": "点撃“ALL”按鈕即可査看所有罪人的E.G.O列表。"
+        },
+        {
+            "id": "TutoIDList_P5_D2",
+            "content": "点撃罪人圖像時，該罪人的E.G.O将顕示在列表中。"
+        },
+        {
+            "id": "TutoIDList_P6_T1",
+            "content": "編隊状况"
+        },
+        {
+            "id": "TutoIDList_P6_D1",
+            "content": "宁可以同時確認編隊中的人格以及E.G.O。每種稀有度均可装備一个E.G.O。"
+        },
+        {
+            "id": "TutoIDList_P6_D2",
+            "content": "点撃該按鈕時，能劬切換到可選中的人格或E.G.O列表。"
+        },
+        {
+            "id": "TutoIDList_P7_T1",
+            "content": "排序"
+        },
+        {
+            "id": "TutoIDList_P7_D1",
+            "content": "宁可以按照宁想要的方式排列人格与E.G.O。"
+        },
+        {
+            "id": "TutoIDList_P7_T2",
+            "content": "篩選"
+        },
+        {
+            "id": "TutoIDList_P7_D2",
+            "content": "選擇人格与E.G.O的特殊関鍵字，可設定為只顕示宁所需的人格与E.G.O。"
+        },
+        {
+            "id": "TutoIDList_P8_T1",
+            "content": "切換可見"
+        },
+        {
+            "id": "TutoIDList_P8_D1",
+            "content": "選擇“已擁有”時，只会顕示已獲取的人格和E.G.O的列表。"
+        },
+        {
+            "id": "TutoIDList_P8_D2",
+            "content": "選擇“ALL”時，将会顕示已獲取和未獲取的人格与E.G.O的完整列表。"
+        },
+        {
+            "id": "TutoIDList_P9_T1",
+            "content": "助戦列表"
+        },
+        {
+            "id": "TutoIDList_P9_D1",
+            "content": "在此可査看好友所設置的助戦人格列表。"
+        },
+        {
+            "id": "TutoIDList_P9_D2",
+            "content": "選擇時，宁可以借用好友的助戦人格及其携帯的E.G.O。但同一編隊中不能編入2名或以上的助戦人格。"
+        },
+        {
+            "id": "TutoEvent6511_P1_T1",
+            "content": "活動開放"
+        },
+        {
+            "id": "TutoEvent6511_P1_D1",
+            "content": "宁可以通過玻璃窗或駕駛席上的活動横幅，進入[時間殺人時間 復刻活動頁面]。"
+        },
+        {
+            "id": "TutoEvent6511_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent6511_P2_D1",
+            "content": "此処顕示了時間殺人時間 復刻活動的持續時間。活動期間内，通過時間殺人時間関峠、鏡像迷宮，或者初次通関主綫劇情関峠時，均可獲得[懐表]。\n※ 宁无法从采光関峠以及折射軌道中獲取[懐表]。"
+        },
+        {
+            "id": "TutoEvent6511_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent6511_P3_D1",
+            "content": "時間殺人時間 復刻包括劇情関峠在内共有14関和1个迷宮。除了活動通関奨励外，這些関峠均有[懐表]作為首次通関奨励。（每个関峠僅首次通関時可獲得）"
+        },
+        {
+            "id": "TutoEvent6511_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent6511_P4_D1",
+            "content": "在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[懐表]的獲取量。"
+        },
+        {
+            "id": "TutoEvent6511_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent6511_P5_D1",
+            "content": "在[奨励兌換]窗口中花費持有的[懐表]可獲得各種奨励。"
+        },
+        {
+            "id": "TutoEvent6511_P6_D1",
+            "content": "在[奨励兌換]中可以獲得活動限定人格、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent6511_P6_D2",
+            "content": "此処顕示了[奨励兌換]的奨励領取時間。"
+        },
+        {
+            "id": "TutoEvent6511_P7_T1",
+            "content": "成梱懐表"
+        },
+        {
+            "id": "TutoEvent6511_P7_D1",
+            "content": "戦斗勝利后，有低概率獲得[成梱懐表]。[成梱懐表]将会自動轉換為20个[懐表]。"
+        },
+        {
+            "id": "TutoEvent6511_P8_T1",
+            "content": "困難難度"
+        },
+        {
+            "id": "TutoEvent6511_P8_D1",
+            "content": "活動期間可以游玩時間殺人時間困難難度。困難難度在通過主綫劇情関峠7-36后解鎖。"
+        },
+        {
+            "id": "TutoEvent6511_P8_D2",
+            "content": "困難難度能劬比普通難度獲得更多的活動道具。"
+        },
+        {
+            "id": "TutoEvent6511_P8_D3",
+            "content": "通関困難関峠同様可獲得首次通関奨励、EX通関奨励与章節進度奨励。"
+        },
+        {
+            "id": "TutoEvent6511_P9_D1",
+            "content": "活動結束后，通過駕駛席-[外傳故事]及放映室-[其他故事]，可随時享受時間殺人時間的関峠和故事。"
+        },
+        {
+            "id": "TutoEvent8501_Title",
+            "content": "切磋琢春"
+        },
+        {
+            "id": "TutoEvent8501_P1_T1",
+            "content": "活動開放"
+        },
+        {
+            "id": "TutoEvent8501_P1_D1",
+            "content": "[切磋琢春]在通関主綫故事8-33后開放。宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "TutoEvent8501_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent8501_P2_D1",
+            "content": "此処顕示了切磋琢春活動的持續時間。活動期間内，通関切磋琢春関峠、鏡像迷宮，或者在活動開始后初次通関主綫劇情関峠時，均可獲得[智·勇·仁基礎入門手册]。\n※ 宁无法从采光関峠以及折射軌道中獲取[智·勇·仁基礎入門手册]。"
+        },
+        {
+            "id": "TutoEvent8501_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent8501_P3_D1",
+            "content": "切磋琢春包括劇情関峠在内共有12関。\n這些関峠均有[智·勇·仁基礎入門手册]作為首次通関奨励（每个関峠僅首次通関時可獲得）。"
+        },
+        {
+            "id": "TutoEvent8501_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent8501_P4_D1",
+            "content": "在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[智·勇·仁基礎入門手册]的獲取量。"
+        },
+        {
+            "id": "TutoEvent8501_P5_T1",
+            "content": "成就"
+        },
+        {
+            "id": "TutoEvent8501_P5_D1",
+            "content": "通過[成就]界面，能劬査看養成中可完成的任務，以及任務奨励。"
+        },
+        {
+            "id": "TutoEvent8501_P6_D1",
+            "content": "此処顕示了[成就]界面的奨励領取時間。"
+        },
+        {
+            "id": "TutoEvent8501_P6_D2",
+            "content": "完成任務可在[成就]界面領取[智·勇·仁基礎入門手册]。"
+        },
+        {
+            "id": "TutoEvent8501_P7_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent8501_P7_D1",
+            "content": "在[奨励兌換]頁面消耗持有的[智·勇·仁基礎入門手册]可兌換各種奨励。"
+        },
+        {
+            "id": "TutoEvent8501_P8_D1",
+            "content": "此処顕示了[奨励兌換]頁面的開放時間。"
+        },
+        {
+            "id": "TutoEvent8501_P8_D2",
+            "content": "在[奨励兌換]中可以獲得活動限定人格、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent8501_P9_T1",
+            "content": "連續遭遇戦関峠"
+        },
+        {
+            "id": "TutoEvent8501_P9_D1",
+            "content": "切磋琢春的最終戦斗為連續遭遇戦。進入戦斗需要消耗脳啡汰模塊。"
+        },
+        {
+            "id": "TutoEvent8501_P10_T1",
+            "content": "假装不是秘籍的秘籍"
+        },
+        {
+            "id": "TutoEvent8501_P10_D1",
+            "content": "宁有小概率从戦斗奨励中獲得[假装不是秘籍的秘籍]。[假装不是秘籍的秘籍]将会自動轉換為20个[智·勇·仁基礎入門手册]。"
+        },
+        {
+            "id": "TutoEvent8501_P11_D1",
+            "content": "活動結束后，可在駕駛席 - [外傳故事]及放映室 - [其他故事]中，重温切磋琢春的戦斗和劇情。"
+        },
+        {
+            "id": "TutoMinigame8501_P1_T1",
+            "content": "日期与能力値"
+        },
+        {
+            "id": "TutoMinigame8501_P1_D1",
+            "content": "目標是在[授課]的30天内尽可能地提升主要能力値“智、勇、仁”。"
+        },
+        {
+            "id": "TutoMinigame8501_P2_T1",
+            "content": "選擇課程"
+        },
+        {
+            "id": "TutoMinigame8501_P2_D1",
+            "content": "除有固定課程的日期外，每天可選擇3門課程。\n可選課程的種類会随着日期推進而逐步増加。"
+        },
+        {
+            "id": "TutoMinigame8501_P2_T2",
+            "content": "課程效果"
+        },
+        {
+            "id": "TutoMinigame8501_P2_D2",
+            "content": "每門課程提升的能力値都不同，根据課程的不同状態会恢復或減少。"
+        },
+        {
+            "id": "TutoMinigame8501_P3_T1",
+            "content": "課程結果与状態"
+        },
+        {
+            "id": "TutoMinigame8501_P3_D1",
+            "content": "課程可能以成功或失敗告終。課程成功将会大幅提升能力値，失敗則会大幅減少能力値。\n更好的状態会増加課程成功的概率。"
+        },
+        {
+            "id": "TutoMinigame8501_P4_T1",
+            "content": "連携"
+        },
+        {
+            "id": "TutoMinigame8501_P4_D1",
+            "content": "授課期間，在同一天進行特定的課程組合会激活連携。"
+        },
+        {
+            "id": "TutoMinigame8501_P4_T2",
+            "content": "激活連携"
+        },
+        {
+            "id": "TutoMinigame8501_P4_D2",
+            "content": "可在日程表中査看已被発現的連携的激活情况。"
+        },
+        {
+            "id": "TutoMinigame8501_P5_T1",
+            "content": "連携列表"
+        },
+        {
+            "id": "TutoMinigame8501_P5_D1",
+            "content": "可在[連携列表]頁面査看已被発現的和未被発現的所有連携。"
+        },
+        {
+            "id": "TutoMinigame8501_P6_T1",
+            "content": "開始授課"
+        },
+        {
+            "id": "TutoMinigame8501_P6_D1",
+            "content": "選擇好所有課程，即可点撃[開始授課]按鈕進行授課。"
+        },
+        {
+            "id": "TutoMinigame8501_P7_D1",
+            "content": "進行授課"
+        },
+        {
+            "id": "TutoMinigame8501_P7_D2",
+            "content": "授課会自動進行。授課期間，能力値変化会實時展示。"
+        },
+        {
+            "id": "TutoMinigame8501_P8_T1",
+            "content": "課程升級"
+        },
+        {
+            "id": "TutoMinigame8501_P8_D1",
+            "content": "接受不同的課程，都会獲得經驗値。經驗値升至最大時会提升授課等級。\n等級越高，授課結果増加的能力値越高。高級為最高等級，且无法継續升級。"
+        },
+        {
+            "id": "TutoMinigame8501_P9_T1",
+            "content": "戦斗能力的強化方法"
+        },
+        {
+            "id": "TutoMinigame8501_P9_D1",
+            "content": "能力値智、勇、仁在特定数値以上，或是将課程升級至特定等級時，将強化学生的戦斗能力。賈惜春和辛克莱被強化的能力各有不同。"
+        },
+        {
+            "id": "TutoMinigame8501_P10_T1",
+            "content": "戦斗能力的確認"
+        },
+        {
+            "id": "TutoMinigame8501_P10_D1",
+            "content": "点撃放大鏡圖標査看賈惜春的詳細能力値。"
+        },
+        {
+            "id": "TutoMinigame8501_P11_T1",
+            "content": "賈惜春単挑対决"
+        },
+        {
+            "id": "TutoMinigame8501_P11_D1",
+            "content": "在特定日期，戦斗将替代授課。這時，僅有賈惜春一人参加戦斗。"
+        },
+        {
+            "id": "TutoMinigame8501_P12_T1",
+            "content": "戦斗流程"
+        },
+        {
+            "id": "TutoMinigame8501_P12_D1",
+            "content": "行動槽将被自動連接，按下銅鑼形状的按鈕即可開始戦斗。\n只有在戦斗中取勝后，才能進入下一天的課程。"
+        },
+        {
+            "id": "TutoEvent8502_Title",
+            "content": "善意的巡礼"
+        },
+        {
+            "id": "TutoEvent8502_P1_T1",
+            "content": "活動開放"
+        },
+        {
+            "id": "TutoEvent8502_P1_D1",
+            "content": "[善意的巡礼]在通関主綫劇情0-4后解鎖。宁可以通過玻璃窗或駕駛席的活動横幅進入。"
+        },
+        {
+            "id": "TutoEvent8502_P1_D2",
+            "content": "按照故事時間順序，尚未通関8.5間章「切磋琢春」的經理，可能会在部分活動劇情内容中看到劇透，請注意。"
+        },
+        {
+            "id": "TutoEvent8502_P2_T1",
+            "content": "活動期間"
+        },
+        {
+            "id": "TutoEvent8502_P2_D1",
+            "content": "此処顕示了[善意的巡礼]活動的持續時間。活動期間内，通関[善意的巡礼]関峠、鏡像迷宮，或在活動開始后首次通関主綫劇情関峠時，均可獲得[恐魚標本]。\n※ 宁无法从采光関峠和折射軌道中獲取[恐魚標本]。"
+        },
+        {
+            "id": "TutoEvent8502_P2_D2",
+            "content": "[善意的巡礼]為僅在活動期間可供游玩的限時内容，活動結束后，将无法継續観看相関劇情、進入関峠或戦斗。"
+        },
+        {
+            "id": "TutoEvent8502_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent8502_P3_D1",
+            "content": "[善意的巡礼]活動包括劇情関峠在内共有14个関峠。在活動戦斗中，除通関奨励外，還可獲得[恐魚標本]作為首次通関奨励（每个関峠僅限首次通関時可獲得一次）。"
+        },
+        {
+            "id": "TutoEvent8502_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent8502_P4_D1",
+            "content": "活動期間，在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[恐魚標本]的獲取量。"
+        },
+        {
+            "id": "TutoEvent8502_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent8502_P5_D1",
+            "content": "在[奨励兌換]界面消耗持有的[恐魚標本]可兌換各種奨励。"
+        },
+        {
+            "id": "TutoEvent8502_P6_D1",
+            "content": "在[奨励兌換]界面可以兌換活動奨励E.G.O、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent8502_P6_D2",
+            "content": "此処顕示了[奨励兌換]界面的開放時間。"
+        },
+        {
+            "id": "TutoEvent8502_P7_T1",
+            "content": "普通難度"
+        },
+        {
+            "id": "TutoEvent8502_P7_D1",
+            "content": "在普通難度下，如果人格等級与同步階段、E.G.O的異想解析階段較低，将会進行如下修正。"
+        },
+        {
+            "id": "TutoEvent8502_P7_D2",
+            "content": "※ 人格等級提升至55級，人格同步階段提升至4級，E.G.O異想解析階段提升至4級"
+        },
+        {
+            "id": "TutoEvent8502_P8_D1",
+            "content": "章節進度及EX通関進度奨励僅能在活動期間（2025/9/25 11:00 ~ 10/23 05:00 [CST]）領取。\n請宁注意這一点。"
+        },
+        {
+            "id": "TutoEvent8502_P9_T1",
+            "content": "活動関峠"
+        },
+        {
+            "id": "TutoEvent8502_P9_D1",
+            "content": "[善意的巡礼]活動的最后関峠将会出現迷宮，\n入場時将消耗脳啡汰模塊。"
+        },
+        {
+            "id": "TutoEvent8502_P10_T1",
+            "content": "困難難度"
+        },
+        {
+            "id": "TutoEvent8502_P10_D1",
+            "content": "活動期間可以游玩[善意的巡礼]困難難度。\n困難難度将在通過主綫劇情関峠0-4后解鎖。"
+        },
+        {
+            "id": "TutoEvent8502_P10_D2",
+            "content": "困難難度能劬比普通難度獲得更多的活動道具。"
+        },
+        {
+            "id": "TutoEvent8502_P10_D3",
+            "content": "通関困難関峠同様可獲得首次通関奨励、EX通関奨励与章節進度奨励。"
+        },
+        {
+            "id": "TutoEvent8502_P10_D4",
+            "content": "通関困難難度時，該関峠的普通難度也将被視為已通関。\n在這種情况下，可同時獲得該関峠普通難度可獲得的 EX 通関奨励（狂气）及活動道具首次通関奨励。\n※ 但帳号經驗値、人格經驗値及活動道具重復奨励不适用。"
+        },
+        {
+            "id": "TutoEvent8502_P11_T1",
+            "content": "発光的恐魚標本"
+        },
+        {
+            "id": "TutoEvent8502_P11_D1",
+            "content": "戦斗勝利后，宁有小概率獲得[発光的恐魚標本]。[発光的恐魚標本]将会自動轉換為20个[恐魚標本]。"
+        },
+        {
+            "id": "TutoEvent8502_P12_D1",
+            "content": "活動期間，通過駕駛席-[外傳故事]及放映室-[其他故事]可重温[善意的巡礼]的戦斗和劇情。"
+        },
+        {
+            "id": "TutoEvent8502_P12_D2",
+            "content": "※ 活動結束后（2025/9/25 11:00 ~ 10/23 05:00 [CST]），[善意的巡礼]的戦斗和劇情将从駕駛席和放映室中移除。"
+        },
+        {
+            "id": "TutoEvent6512_Title",
+            "content": "WARP快車謀殺案 復刻"
+        },
+        {
+            "id": "TutoEvent6512_P1_T1",
+            "content": "活動 開放"
+        },
+        {
+            "id": "TutoEvent6512_P1_D1",
+            "content": "宁可以通過玻璃窗或駕駛席上的活動横幅，進入[WARP快車謀殺案 復刻活動頁面]。"
+        },
+        {
+            "id": "TutoEvent6512_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent6512_P2_D1",
+            "content": "此処顕示了WARP快車謀殺案 復刻活動的持續時間。活動期間内，通過時間殺人時間関峠、鏡像迷宮，或者初次通関主綫劇情関峠時，均可獲得[普通乘客復原包]。\n※ 宁无法从采光関峠以及折射軌道中獲取[普通乘客復原包]。"
+        },
+        {
+            "id": "TutoEvent6512_P3_T1",
+            "content": "活動関峠"
+        },
+        {
+            "id": "TutoEvent6512_P3_D1",
+            "content": "[普通乘客復原包]除了活動関峠的首次通関奨励外，EX通関奨励也会獲得。(限1次) "
+        },
+        {
+            "id": "TutoEvent6512_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent6512_P4_D1",
+            "content": "在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[普通乘客復原包]的獲取量。"
+        },
+        {
+            "id": "TutoEvent6512_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent6512_P5_D1",
+            "content": "宁可以在[奨励兌換]処根据所持有的[普通乘客復原包]数量兌換多様化奨励。"
+        },
+        {
+            "id": "TutoEvent6512_P6_D1",
+            "content": "此処顕示了[奨励兌換]頁面的開放時間。"
+        },
+        {
+            "id": "TutoEvent6512_P6_D2",
+            "content": "在[奨励兌換]中可以獲得活動限定人格、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent6512_P7_T1",
+            "content": "收尾人乘客復原包"
+        },
+        {
+            "id": "TutoEvent6512_P7_D1",
+            "content": "戦斗勝利后，宁有小概率从奨励中獲得[收尾人乘客復原包]。[收尾人乘客復原包]将会自動轉換為20个[普通乘客復原包]。"
+        },
+        {
+            "id": "TutoEvent6512_P8_T1",
+            "content": "困難難度"
+        },
+        {
+            "id": "TutoEvent6512_P8_D1",
+            "content": "活動期間可以游玩WARP快車謀殺案困難難度。困難難度在通過主綫劇情関峠7-36后解鎖。"
+        },
+        {
+            "id": "TutoEvent6512_P8_D2",
+            "content": "困難難度能劬比普通難度獲得更多的活動道具。"
+        },
+        {
+            "id": "TutoEvent6512_P8_D3",
+            "content": "通関困難関峠同様可獲得首次通関奨励、EX通関奨励与章節進度奨励。"
+        },
+        {
+            "id": "TutoEvent6512_P9_D1",
+            "content": "活動結束后，通過駕駛席-[外傳故事]及放映室-[其他故事]，可随時享受WARP快車謀殺案的関峠和故事。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P1_T1",
+            "content": "折射軌道 開放"
+        },
+        {
+            "id": "TutoRailway1BokGak_P1_D1",
+            "content": "宁可以選擇已激活的綫路，无需消耗任何道具即可入場。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P2_T1",
+            "content": "入場推荐配置"
+        },
+        {
+            "id": "TutoRailway1BokGak_P2_D1",
+            "content": "折射軌道的入場推荐配置将会顕示在綫路旁辺。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P2_D2",
+            "content": "建議宁尽可能達到推荐配置后再入場。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P3_T1",
+            "content": "1号綫站点"
+        },
+        {
+            "id": "TutoRailway1BokGak_P3_D1",
+            "content": "1号綫共有13个站点。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P3_D2",
+            "content": "通過站点時，通関回合数将会被記録。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P3_D3",
+            "content": "与此同時，還会記録从第1站到当前站点為止，所有站点通関回合数的累計回合總数。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P3_D4",
+            "content": "当宁通過站点時，可在失物招領処領取的相應奨励将会顕示在下端。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P4_T1",
+            "content": "圖鑑"
+        },
+        {
+            "id": "TutoRailway1BokGak_P4_D1",
+            "content": "1号綫中所有敵方信息都已公開。請基于這些信息編入更為合适的人格及E.G.O。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P4_D2",
+            "content": "但是，基于観察等級的傷害強化效果不会生效。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P4_D3",
+            "content": "折射軌道1号綫中，即使在戦斗中選擇重新挑戦或放弃関峠，戦斗中更新的圖鑑内容也会原封不動地被保存下来。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P5_T1",
+            "content": "編隊"
+        },
+        {
+            "id": "TutoRailway1BokGak_P5_D1",
+            "content": "将宁所持有的人格与E.G.O編隊后入場。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P5_D2",
+            "content": "編隊人員可以在各个站点重新調整。每次進入站点時罪人的体力将完全恢復。理智値則継承前一站点時的状態。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P5_D3",
+            "content": "当提高人格等級、人格同步階段、E.G.O異想解析階段時，将会在折射軌道中實時反映変更的内容。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P5_D4",
+            "content": "対于部分待命人員，将会額外啓用初始理智値増益，編隊順序越靠后的待命人員会獲得更高的初始理智値増益。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P5_D5",
+            "content": "対于使用減算硬幣的人格，初始理智値増益将会以負数激活。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P6_T1",
+            "content": "戦斗編隊-連續戦斗"
+        },
+        {
+            "id": "TutoRailway1BokGak_P6_D1",
+            "content": "1号綫将以連續戦斗的方式進行。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P6_D2",
+            "content": "出戦人員在連續戦斗中陣亡時，将由待命人員按照指定順序進行補位。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P6_D3",
+            "content": "宁需要将5名出戦人員与7名待命人員全部設定完畢方可入場。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P7_T1",
+            "content": "戦斗"
+        },
+        {
+            "id": "TutoRailway1BokGak_P7_D1",
+            "content": "所有戦斗皆与集中遭遇戦相同，友方単位的所有技能均能劬直接対應敵方行動槽。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P7_D2",
+            "content": "每个站点可以記録的最高回合数是100回合。如果回合数在単个站点内超過100回合，戦斗将以失敗告終。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P8_T1",
+            "content": "戦斗-連續戦斗"
+        },
+        {
+            "id": "TutoRailway1BokGak_P8_D1",
+            "content": "出戦人員在連續戦斗中陣亡時，将由待命人員按照指定順序進行補位。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P8_D2",
+            "content": "待命人員変為出戦人員時，所激活的被動技能将由支援被動技能轉為戦斗被動技能。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P8_D3",
+            "content": "而出戦人員陣亡時，所激活的被動技能将由戦斗被動技能轉為支援被動技能。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P9_T1",
+            "content": "戦斗-遺留的意志"
+        },
+        {
+            "id": "TutoRailway1BokGak_P9_D1",
+            "content": "当友方人格在1号綫陣亡時，根据陣亡人格所持有的基礎攻撃技能属性与級別，獲得相應的E.G.O資源。与連續遭遇戦相同，友方単位的陣亡不会降低其他友方単位的理智値。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P10_T1",
+            "content": "通関信息"
+        },
+        {
+            "id": "TutoRailway1BokGak_P10_D1",
+            "content": "通関各个站点后，在通関信息窗口中可以確認本次通関回合数、累計總回合数、参与戦斗的人格等統計数据。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P11_D1",
+            "content": "通過站点后，剩余的E.G.O資源可在下一站中使用。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P12_D1",
+            "content": "友方単位全滅時将回到入場界面，宁可以重新調整編隊順序或立即重新挑戦目前関峠。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P13_T1",
+            "content": "記録更新"
+        },
+        {
+            "id": "TutoRailway1BokGak_P13_D1",
+            "content": "在探索期間，可以選擇从之前已通過的関峠重新開始戦斗。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P13_D2",
+            "content": "若从特定関峠重新開始戦斗，罪人的状態和E.G.O資源持有量将恢復到首次進入該関峠時的状態，并且在該関峠之后通過的所有関峠的完成進度都将被重置。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P14_T1",
+            "content": "横幅獲取条件"
+        },
+        {
+            "id": "TutoRailway1BokGak_P14_D1",
+            "content": "可以確認折射軌道1号綫横幅的獲取条件。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P15_T1",
+            "content": "失物招領処"
+        },
+        {
+            "id": "TutoRailway1BokGak_P15_D1",
+            "content": "在活動期間第一次通関某个站点時，其奨励将会発放至失物招領処。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P15_D2",
+            "content": "為了領取失物招領処中的奨励，最初需要支付一定数量的脳啡汰模塊。"
+        },
+        {
+            "id": "TutoRailway1BokGak_P15_D3",
+            "content": "后續領取奨励无需額外消耗脳啡汰模塊，并且可以随時獲取已激活的奨励。"
+        },
+        {
+            "id": "TutoUIReplacement_P1_T1",
+            "content": "UI設計更改"
+        },
+        {
+            "id": "TutoUIReplacement_P1_D1",
+            "content": "通過此按鈕，即可更改UI界面設計。"
+        },
+        {
+            "id": "TutoUIReplacement_P2_T1",
+            "content": "UI設計模式"
+        },
+        {
+            "id": "TutoUIReplacement_P2_D1",
+            "content": "在模式選項中，可以選擇“基礎模式”或“深色模式”中的一種。"
+        },
+        {
+            "id": "TutoUIReplacement_P2_T2",
+            "content": "UI皮膚"
+        },
+        {
+            "id": "TutoUIReplacement_P2_D2",
+            "content": "今后預計会追加UI皮膚，与主題相符的装飾元素将反映在UI設計中。"
+        },
+        {
+            "id": "TutoUIReplacement_P3_T1",
+            "content": "已選UI的預覧"
+        },
+        {
+            "id": "TutoUIReplacement_P3_D1",
+            "content": "点撃此按鈕，即可在主界面預覧經理目前已選的UI設計模式与UI皮膚。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_15_title_01",
+            "content": "外観投影"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_15_desc_01",
+            "content": "展示可以選入編隊的罪人的外観一覧。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_16_title_01",
+            "content": "投影制作"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_16_desc_01",
+            "content": "尚未制作的投影，可通過点撃此按鈕以制作。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_17_title_01",
+            "content": "投影制作"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_17_desc_01",
+            "content": "可使用自我碎片与紡錘制作投影。若使用与所制作投影的外観相対應的罪人的自我碎片，則可花費更低的成本以制作投影。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_18_title_01",
+            "content": "外観投影應用"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_18_desc_01",
+            "content": "投影了外観的罪人，将顕示外観投影圖標。"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_19_title_01",
+            "content": "外観投影應用"
+        },
+        {
+            "id": "tutorial_mainui_01_selection_page_19_desc_01",
+            "content": "也可在“公司”界面将已經投影了外観的人格設為助戦人格。"
+        },
+        {
+            "id": "TutoEvent7512_Title",
+            "content": "LCB定期体檢 復刻"
+        },
+        {
+            "id": "TutoEvent7512_P1_T1",
+            "content": "活動開放"
+        },
+        {
+            "id": "TutoEvent7512_P1_D1",
+            "content": "宁可以通過玻璃窗或駕駛席上的活動横幅，進入[LCB定期体檢 復刻活動頁面]。"
+        },
+        {
+            "id": "TutoEvent7512_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent7512_P2_D1",
+            "content": "此処顕示了LCB定期体檢 復刻活動的持續時間。\n\n活動期間内，通過LCB定期体檢関峠、鏡像迷宮，或者初次通関主綫劇情関峠時，均可獲得[情报文件]。\n\n※ 宁无法从采光関峠以及折射軌道中獲取[情报文件]。"
+        },
+        {
+            "id": "TutoEvent7512_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent7512_P3_D1",
+            "content": "LCB定期体檢 復刻包括劇情関峠在内共有12関和1个迷宮。\n\n除了活動通関奨励外，這些関峠均有[情报文件]作為首次通関奨励。（每个関峠僅首次通関時可獲得）"
+        },
+        {
+            "id": "TutoEvent7512_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent7512_P4_D1",
+            "content": "在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[情报文件]的獲取量。"
+        },
+        {
+            "id": "TutoEvent7512_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent7512_P5_D1",
+            "content": "在[奨励兌換]窗口中花費持有的[情报文件]可獲得各種奨励。"
+        },
+        {
+            "id": "TutoEvent7512_P6_D1",
+            "content": "此処顕示了[奨励兌換]頁面的開放時間。"
+        },
+        {
+            "id": "TutoEvent7512_P6_D2",
+            "content": "在[奨励兌換]中可以獲得活動限定人格、播报員、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent7512_P7_T1",
+            "content": "机密文件"
+        },
+        {
+            "id": "TutoEvent7512_P7_D1",
+            "content": "宁有小概率从戦斗奨励中獲得[机密文件]。[机密文件]将会自動轉換為20个[情报文件]。"
+        },
+        {
+            "id": "TutoEvent7512_P8_T1",
+            "content": "困難難度"
+        },
+        {
+            "id": "TutoEvent7512_P8_D1",
+            "content": "活動期間可以游玩LCB定期体檢困難難度。困難難度在通過主綫劇情関峠8-33后解鎖。"
+        },
+        {
+            "id": "TutoEvent7512_P8_D2",
+            "content": "困難難度能劬比普通難度獲得更多的活動道具。"
+        },
+        {
+            "id": "TutoEvent7512_P8_D3",
+            "content": "通関困難関峠同様可獲得首次通関奨励、EX通関奨励与章節進度奨励。"
+        },
+        {
+            "id": "TutoEvent7512_P9_D1",
+            "content": "活動結束后，可在駕駛席 - [外傳故事]及放映室 - [其他故事]中，重温LCB定期体檢的戦斗和劇情。"
+        },
+        {
+            "id": "TutoEvent9125_Title",
+            "content": "絞絲結綫"
+        },
+        {
+            "id": "TutoEvent9125_P1_T1",
+            "content": "活動開放"
+        },
+        {
+            "id": "TutoEvent9125_P1_D1",
+            "content": "宁可以通過玻璃窗或駕駛席上的活動横幅，進入[絞絲結綫 活動頁面]。"
+        },
+        {
+            "id": "TutoEvent9125_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent9125_P2_D1",
+            "content": "此処顕示了絞絲結綫活動的持續時間。\n\n活動期間内，宁可以通過清剿絞絲結綫関峠、鏡像迷宮，或者初次通関主綫劇情関峠，以獲得[被斬断的綫]。\n\n※ 宁无法从采光関峠以及折射軌道中獲取[被斬断的綫]。"
+        },
+        {
+            "id": "TutoEvent9125_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent9125_P3_D1",
+            "content": "絞絲結綫活動包括劇情関峠在内共有14个関峠。\n在活動戦斗中，除通関奨励外，還可獲得[被斬断的綫]作為首次通関奨励（每个関峠僅限首次通関時可獲得一次）。\n\n在絞絲結綫関峠中，可獲得比主綫劇情関峠更多的[被斬断的綫]。"
+        },
+        {
+            "id": "TutoEvent9125_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent9125_P4_D1",
+            "content": "在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[被斬断的綫]的獲取量。"
+        },
+        {
+            "id": "TutoEvent9125_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent9125_P5_D1",
+            "content": "在[奨励兌換]窗口中花費持有的[被斬断的綫]可獲得各種奨励。"
+        },
+        {
+            "id": "TutoEvent9125_P6_D1",
+            "content": "此処顕示了[奨励兌換]頁面的開放時間。"
+        },
+        {
+            "id": "TutoEvent9125_P6_D2",
+            "content": "在[奨励兌換]中可以獲得活動限定人格、播报員、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent9125_P7_T1",
+            "content": "被斬断焼却的綫団"
+        },
+        {
+            "id": "TutoEvent9125_P7_D1",
+            "content": "宁有小概率从戦斗奨励中獲得[被斬断焼却的綫団]。[被斬断焼却的綫団]将会自動轉換為20个[被斬断的綫]。"
+        },
+        {
+            "id": "TutoEvent9125_P8_D1",
+            "content": "活動結束后，可在駕駛席 - [外傳故事]及放映室 - [其他故事]中，重温絞絲結綫的戦斗和劇情。"
+        },
+        {
+            "id": "TutoEvent9125_P9_T1",
+            "content": "映射戦斗][斗戦射映"
+        },
+        {
+            "id": "TutoEvent9125_P9_D1",
+            "content": "在活動的第二周時，映射戦斗][斗戦射映将加入游戯，\n且僅在通過此活動的全部関峠時開放。"
+        },
+        {
+            "id": "TutoEvent9125_P9_D2",
+            "content": "其中会出現進一步強化后的活動頭目，\n請運用多个隊伍，在一定回合内撃敗活動頭目。"
+        },
+        {
+            "id": "TutoBossraid_Title",
+            "content": "映射戦斗][斗戦射映"
+        },
+        {
+            "id": "TutoBossraid_P1_T1",
+            "content": "開放期間"
+        },
+        {
+            "id": "TutoBossraid_P1_D1",
+            "content": "此処会顕示所選的章節頭目的可挑戦時間段。"
+        },
+        {
+            "id": "TutoBossraid_P1_D2",
+            "content": "撃敗頭目后可以獲得僅限一次的奨励。在限定的回合数内撃敗頭目時，可以領取額外奨励。"
+        },
+        {
+            "id": "TutoBossraid_P1_D3",
+            "content": "在活動復刻中添加的頭目不会有令外的開放時期，而是可以随時進行挑戦。"
+        },
+        {
+            "id": "TutoBossraid_P2_T1",
+            "content": "推荐配置"
+        },
+        {
+            "id": "TutoBossraid_P2_D1",
+            "content": "由于映射戦斗][斗戦射映為高難度挑戦，\n建議将所有的人格与E.G.O按照推荐配置充分成長后\n再進行挑戦。"
+        },
+        {
+            "id": "TutoBossraid_P2_T2",
+            "content": "難度"
+        },
+        {
+            "id": "TutoBossraid_P2_D2",
+            "content": "難度分為普通以及困難兩種難度，\n困難難度将在通過普通難度后解鎖。"
+        },
+        {
+            "id": "TutoBossraid_P3_T1",
+            "content": "映射效果"
+        },
+        {
+            "id": "TutoBossraid_P3_D1",
+            "content": "在映射戦斗][斗戦射映中，根据\n各个戦斗以及階段会有着特殊效果。\n\n在編隊時将其考慮在内可以譲\n戦斗更為順利地進行。"
+        },
+        {
+            "id": "TutoBossraid_P4_T1",
+            "content": "流程説明"
+        },
+        {
+            "id": "TutoBossraid_P4_D1",
+            "content": "宁可以在此確認映射戦斗][斗戦射映\n的一般流程説明。"
+        },
+        {
+            "id": "TutoBossraid_P5_T1",
+            "content": "査看敵方詳情"
+        },
+        {
+            "id": "TutoBossraid_P5_D1",
+            "content": "宁可以在戦斗前預先確認\n各个階段的敵人的信息、技能以及被動。"
+        },
+        {
+            "id": "TutoBossraid_P6_T1",
+            "content": "編隊"
+        },
+        {
+            "id": "TutoBossraid_P6_D1",
+            "content": "在戦斗中，宁可以按順序使用最多3个編隊。"
+        },
+        {
+            "id": "TutoBossraid_P6_D2",
+            "content": "然而，在之前的戦斗編隊中使用的人格，无法在之后的編隊中再次使用。"
+        },
+        {
+            "id": "TutoBossraid_P7_D1",
+            "content": "每个編隊最多能進行12回合的戦斗。"
+        },
+        {
+            "id": "TutoBossraid_P8_D1",
+            "content": "如果在戦斗中超過了12回合或是選擇了戦斗結束，頭目的階段、体力、理智値以及剩余的E.G.O資源都会被保存并継承至下一个編隊，从而可以継續進行戦斗。"
+        },
+        {
+            "id": "TutoBossraid_P9_D1",
+            "content": "通過普通難度后，困難難度将会開放。"
+        },
+        {
+            "id": "TutoBossraid_P10_D1",
+            "content": "在困難難度中，除了映射效果外\n会額外増加苦難效果。"
+        },
+        {
+            "id": "TutoBossraid_P11_T1",
+            "content": "奨励"
+        },
+        {
+            "id": "TutoBossraid_P11_D1",
+            "content": "在撃敗各个難度的頭目時，可以獲得\n僅限一次的奨励。在限定的回合数内\n撃敗頭目時，可以領取額外的奨励。"
+        },
+        {
+            "id": "TutoEvent7522_P1_T1",
+            "content": "深夜清掃 復刻"
+        },
+        {
+            "id": "TutoEvent7522_P1_D1",
+            "content": "深夜清掃 已開放"
+        },
+        {
+            "id": "TutoEvent7522_P1_D2",
+            "content": "宁可以通過玻璃窗或駕駛席上的活動横幅，進入[深夜清掃 復刻活動頁面]。"
+        },
+        {
+            "id": "TutoEvent7522_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent7522_P2_D1",
+            "content": "此処展示了深夜清掃復刻活動的持續時間。活動過程中，宁可以通過通関深夜清掃関峠以及鏡像迷宮，或是在活動開始后首次通関主綫関峠来獲取[清道夫液態燃料罐]。\n\n※ 宁无法从采光関峠或折射軌道獲取[清道夫液態燃料罐]。"
+        },
+        {
+            "id": "TutoEvent7522_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent7522_P3_D1",
+            "content": "深夜清掃 復刻的戦斗，包括劇情関峠在内共有12関。"
+        },
+        {
+            "id": "TutoEvent7522_P3_D2",
+            "content": "除了活動通関奨励外，這些関峠均有額外的[清道夫液態燃料罐]作為首次通関奨励。（每个戦斗関峠僅1次）"
+        },
+        {
+            "id": "TutoEvent7522_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent7522_P4_D1",
+            "content": "在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[清道夫液態燃料罐]的獲取量。"
+        },
+        {
+            "id": "TutoEvent7522_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent7522_P5_D1",
+            "content": "宁可以在[奨励兌換]処根据所持有的[清道夫液態燃料罐]数量兌換多様化奨励。"
+        },
+        {
+            "id": "TutoEvent7522_P6_D1",
+            "content": "此処顕示了[奨励兌換]的奨励領取時間。"
+        },
+        {
+            "id": "TutoEvent7522_P6_D2",
+            "content": "在[奨励兌換]中可以獲得活動限定人格、播报員、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent7522_P7_T1",
+            "content": "連續遭遇戦関峠"
+        },
+        {
+            "id": "TutoEvent7522_P7_D1",
+            "content": "深夜清掃的部分関峠以連續戦斗的方式進行。在連續戦斗中，友方単位陣亡不会消耗理智値。"
+        },
+        {
+            "id": "TutoEvent7522_P8_T1",
+            "content": "特大型液態燃料罐"
+        },
+        {
+            "id": "TutoEvent7522_P8_D1",
+            "content": "戦斗勝利后，宁有小概率从戦斗奨励中獲得特大型液態燃料罐。特大型液態燃料罐将会自動轉換為20个清道夫液態燃料罐。"
+        },
+        {
+            "id": "TutoEvent7522_P9_T1",
+            "content": "困難難度"
+        },
+        {
+            "id": "TutoEvent7522_P9_D1",
+            "content": "活動期間可以游玩深夜清掃困難難度。困難難度在通過主綫劇情関峠8-33后解鎖。"
+        },
+        {
+            "id": "TutoEvent7522_P9_D2",
+            "content": "困難難度能劬比普通難度獲得更多的活動道具。"
+        },
+        {
+            "id": "TutoEvent7522_P9_D3",
+            "content": "通関困難関峠同様可獲得首次通関奨励、EX通関奨励与章節進度奨励。"
+        },
+        {
+            "id": "TutoEvent7522_P10_D1",
+            "content": "活動結束后，通過駕駛席-[外傳故事]及放映室-[其他故事]，可随時享受深夜清掃的関峠和故事。"
+        },
+        {
+            "id": "TutoBossraid_P12_T1",
+            "content": "兌換商店 - 常駐奨励"
+        },
+        {
+            "id": "TutoBossraid_P12_D1",
+            "content": "在常駐奨励頁面，花費焼制的透鏡，可獲得各種各様的奨励。"
+        },
+        {
+            "id": "TutoRailway6_P1_T1",
+            "content": "折射軌道 開放"
+        },
+        {
+            "id": "TutoRailway6_P1_D1",
+            "content": "宁可以選擇已激活的綫路，无需消耗任何道具即可入場。"
+        },
+        {
+            "id": "TutoRailway6_P2_T1",
+            "content": "入場推荐配置"
+        },
+        {
+            "id": "TutoRailway6_P2_D1",
+            "content": "折射軌道的入場推荐配置将会顕示在綫路旁辺。"
+        },
+        {
+            "id": "TutoRailway6_P2_D2",
+            "content": "折射軌道是高難度戦斗内容。建議宁尽可能達到推荐配置后再入場。"
+        },
+        {
+            "id": "TutoRailway6_P3_T1",
+            "content": "6号綫的站点与区段"
+        },
+        {
+            "id": "TutoRailway6_P3_D1",
+            "content": "6号綫共有8个站点，数个站点将会邦定在各个区段并構成相應的関峠。"
+        },
+        {
+            "id": "TutoRailway6_P3_D2",
+            "content": "6号綫包含由5个区段所構成的戦斗関峠。"
+        },
+        {
+            "id": "TutoRailway6_P3_D3",
+            "content": "通過站点時，通関回合数将会被記録。"
+        },
+        {
+            "id": "TutoRailway6_P3_D4",
+            "content": "当宁通過站点時，将会顕示可在失物招領処領取的相應奨励。"
+        },
+        {
+            "id": "TutoRailway6_P4_T1",
+            "content": "進入区段"
+        },
+        {
+            "id": "TutoRailway6_P4_D1",
+            "content": "通関区段時，将会記録通関回合数。"
+        },
+        {
+            "id": "TutoRailway6_P4_D2",
+            "content": "与此同時，還会記録从第1区段到当前区段為止所有区段通関回合数的累計回合總数。"
+        },
+        {
+            "id": "TutoRailway6_P4_D3",
+            "content": "当宁通関区段時，可在失物招領処領取的相應奨励将会顕示在下端。"
+        },
+        {
+            "id": "TutoRailway6_P5_T1",
+            "content": "圖鑑"
+        },
+        {
+            "id": "TutoRailway6_P5_D1",
+            "content": "6号綫中除各个区段的最終波次頭目外，所有敵方信息都将公開。請基于此信息編入更為合适的人格及E.G.O。"
+        },
+        {
+            "id": "TutoRailway6_P5_D2",
+            "content": "但是，基于観察等級的傷害強化效果不会生效。"
+        },
+        {
+            "id": "TutoRailway6_P5_D3",
+            "content": "6号綫中，即使在戦斗中選擇重新挑戦或放弃関峠，戦斗中更新的圖鑑内容也会原封不動地被保存下来。"
+        },
+        {
+            "id": "TutoRailway6_P6_T1",
+            "content": "戦斗編隊"
+        },
+        {
+            "id": "TutoRailway6_P6_D1",
+            "content": "将宁所持有的人格与E.G.O編隊后入場。"
+        },
+        {
+            "id": "TutoRailway6_P6_D2",
+            "content": "当提高人格等級、人格同步階段、E.G.O異想解析階段時，将会在折射軌道中實時反映変更的内容。"
+        },
+        {
+            "id": "TutoRailway6_P6_D3",
+            "content": "対于部分待命人員，将会額外啓用初始理智値増益，編隊順序越靠后的待命人員会獲得更高的初始理智値増益。"
+        },
+        {
+            "id": "TutoRailway6_P6_D4",
+            "content": "対于使用減算硬幣的人格，初始理智値増益将会以負数激活。"
+        },
+        {
+            "id": "TutoRailway6_P7_T1",
+            "content": "戦斗編隊-連續戦斗"
+        },
+        {
+            "id": "TutoRailway6_P7_D1",
+            "content": "6号綫将以連續戦斗的方式進行。"
+        },
+        {
+            "id": "TutoRailway6_P7_D2",
+            "content": "出戦人員在連續戦斗中陣亡時，将由待命人員按照指定順序進行補位。"
+        },
+        {
+            "id": "TutoRailway6_P7_D3",
+            "content": "宁需要将7名出戦人員与5名待命人員全部設定完畢方可入場。"
+        },
+        {
+            "id": "TutoRailway6_P8_T1",
+            "content": "人格出戦限制"
+        },
+        {
+            "id": "TutoRailway6_P8_D1",
+            "content": "6号綫中，在進入第5区段時，将会継承清剿第1区段后的体力百分比和理智値。\n同時，第3、4区段无法使用前一个区段編隊中的人格。"
+        },
+        {
+            "id": "TutoRailway6_P9_T1",
+            "content": "戦斗"
+        },
+        {
+            "id": "TutoRailway6_P9_D1",
+            "content": "所有戦斗都将以友方技能直接与敵方技能相対應的集中遭遇戦的方式進行。"
+        },
+        {
+            "id": "TutoRailway6_P9_D2",
+            "content": "每个站点可以記録的最高回合数是100回合。如果回合数在単个站点内超過100回合，戦斗将会算作失敗。"
+        },
+        {
+            "id": "TutoRailway6_P10_T1",
+            "content": "戦斗-連續戦斗"
+        },
+        {
+            "id": "TutoRailway6_P10_D1",
+            "content": "出戦人員在戦斗中陣亡時，将由待命人員按照指定順序進行補位。"
+        },
+        {
+            "id": "TutoRailway6_P10_D2",
+            "content": "待命人員変為出戦人員時，所激活的被動技能将由支援被動技能轉為戦斗被動技能。"
+        },
+        {
+            "id": "TutoRailway6_P10_D3",
+            "content": "而出戦人員陣亡時，所激活的被動技能将由戦斗被動技能轉為支援被動技能。"
+        },
+        {
+            "id": "TutoRailway6_P11_T1",
+            "content": "戦斗-遺留的意志"
+        },
+        {
+            "id": "TutoRailway6_P11_D1",
+            "content": "当友方人格在6号綫陣亡時，根据陣亡人格所持有的基礎攻撃技能属性与級別，獲得相應的E.G.O資源。与連續遭遇戦相同，友方単位的陣亡不会降低其他友方単位的理智値。"
+        },
+        {
+            "id": "TutoRailway6_P12_T1",
+            "content": "部分6号綫出場的敵方単位也会适用編隊順序。"
+        },
+        {
+            "id": "TutoRailway6_P13_T1",
+            "content": "通関信息"
+        },
+        {
+            "id": "TutoRailway6_P13_D1",
+            "content": "通関各个站点后，在通関信息窗口中可以確認本次通関回合数、累計總回合数、每場戦斗中獲得的效果、参与戦斗的人格等統計数据。"
+        },
+        {
+            "id": "TutoRailway6_P14_D1",
+            "content": "通過站点后，剩余的E.G.O資源可在下一站中使用。"
+        },
+        {
+            "id": "TutoRailway6_P15_D1",
+            "content": "友方単位全滅時将回到入場界面，宁可以重新調整編隊順序或立即重新挑戦目前関峠。"
+        },
+        {
+            "id": "TutoRailway6_P16_T1",
+            "content": "記録更新"
+        },
+        {
+            "id": "TutoRailway6_P16_D1",
+            "content": "在探索期間，可以選擇从之前已通過的関峠重新開始戦斗。"
+        },
+        {
+            "id": "TutoRailway6_P16_D2",
+            "content": "若从特定関峠重新開始戦斗，罪人的状態和E.G.O資源持有量将恢復到首次進入該関峠時的状態，并且在該関峠之后通過的所有関峠的完成進度都将被重置。"
+        },
+        {
+            "id": "TutoRailway6_P17_T1",
+            "content": "横幅獲取条件"
+        },
+        {
+            "id": "TutoRailway6_P17_D1",
+            "content": "可以確認折射軌道6号綫横幅的獲取条件。"
+        },
+        {
+            "id": "TutoRailway6_P18_T1",
+            "content": "失物招領処"
+        },
+        {
+            "id": "TutoRailway6_P18_D1",
+            "content": "在活動期間第一次通関某个站点時，其奨励将会発放至失物招領処。"
+        },
+        {
+            "id": "TutoRailway6_P18_D2",
+            "content": "第一次領取失物招領処中的奨励需要消耗一定数量的脳啡汰模塊。"
+        },
+        {
+            "id": "TutoRailway6_P18_D3",
+            "content": "之后，无需額外消耗脳啡汰模塊，即可随時領取奨励。"
+        },
+        {
+            "id": "TutoRailway6_P19_T1",
+            "content": "累計記録"
+        },
+        {
+            "id": "TutoRailway6_P19_D1",
+            "content": "通関最終関峠后，折射軌道的游玩記録将被保存，最多可保存20个通関記録。"
+        },
+        {
+            "id": "TutoRailway6_P19_D2",
+            "content": "超過20个記録的情况下，累計回合数最多的記録将被刪除。"
+        },
+        {
+            "id": "TutoEvent9127_Title",
+            "content": "經驗記憶"
+        },
+        {
+            "id": "TutoEvent9127_P1_T1",
+            "content": "活動開放"
+        },
+        {
+            "id": "TutoEvent9127_P1_D1",
+            "content": "[經驗記憶活動頁面]在通過主綫故事0-4后開放。宁可以通過玻璃窗或駕駛席上的活動横幅進入。"
+        },
+        {
+            "id": "TutoEvent9127_P2_T1",
+            "content": "活動時間"
+        },
+        {
+            "id": "TutoEvent9127_P2_D1",
+            "content": "此処展示了經驗記憶活動的持續時間。\n活動過程中，宁可以通過通関經驗記憶関峠以及鏡像迷宮，或是在活動開始后首次通関主綫関峠来獲取[几張照片]。\n※ 宁无法从采光関峠或折射軌道獲取[几張照片]。"
+        },
+        {
+            "id": "TutoEvent9127_P3_T1",
+            "content": "活動戦斗"
+        },
+        {
+            "id": "TutoEvent9127_P3_D1",
+            "content": "經驗記憶活動包括劇情関峠在内共有14个関峠和1个迷宮。\n除了活動通関奨励外，這些関峠均有[几張照片]作為首次通関奨励（每个関峠僅首次通関時可獲得）。\n\n在經驗記憶関峠中，可獲得比主綫劇情関峠更多的[几張照片]。"
+        },
+        {
+            "id": "TutoEvent9127_P4_T1",
+            "content": "活動加成角色"
+        },
+        {
+            "id": "TutoEvent9127_P4_D1",
+            "content": "在隊伍中編入活動加成角色与E.G.O后清剿活動関峠及迷宮，能劬提升[几張照片]的獲取量。"
+        },
+        {
+            "id": "TutoEvent9127_P5_T1",
+            "content": "奨励兌換"
+        },
+        {
+            "id": "TutoEvent9127_P5_D1",
+            "content": "宁可以在[奨励兌換]処根据所持有的[几張照片]数量兌換多様化奨励。"
+        },
+        {
+            "id": "TutoEvent9127_P6_D1",
+            "content": "此処顕示了[奨励兌換]頁面的開放時間。"
+        },
+        {
+            "id": "TutoEvent9127_P6_D2",
+            "content": "在[奨励兌換]中可以獲得活動限定人格、車票装飾、横幅及各類資源。"
+        },
+        {
+            "id": "TutoEvent9127_P7_T1",
+            "content": "許多照片"
+        },
+        {
+            "id": "TutoEvent9127_P7_D1",
+            "content": "戦斗勝利后，有低概率獲得[許多照片]。[許多照片]将会自動轉換為20个[几張照片]。"
+        },
+        {
+            "id": "TutoEvent9127_P8_D1",
+            "content": "活動結束后，通過駕駛席-[外傳故事]及放映室-[其他故事]，可随時享受經驗記憶的関峠和故事。"
+        },
+        {
+            "id": "TutoBossraid_P13_T1",
+            "content": "兌換商店 - 限定奨励"
+        },
+        {
+            "id": "TutoBossraid_P13_D1",
+            "content": "在限定奨励頁面，花費展開的膠片，可獲得活動限定奨励。"
+        },
+        {
+            "id": "TutoBossraid_P13_D2",
+            "content": "限定奨励兌換，僅可在活動奨励兌換期間内進行。\n活動奨励兌換期間結束后，限定奨励頁面将会消失，展開的膠片也将轉換為用于常駐奨励兌換的焼制的透鏡。"
+        },
+        {
+            "id": "TutoUIReplacement_P4_T1",
+            "content": "更換大庁BGM"
+        },
+        {
+            "id": "TutoUIReplacement_P4_D1",
+            "content": "点撃該按鈕，即可設置大庁BGM。"
+        },
+        {
+            "id": "TutoUIReplacement_P5_T1",
+            "content": "更換BGM模式"
+        },
+        {
+            "id": "TutoUIReplacement_P5_D1",
+            "content": "在更換BGM功能中，可以分別設置玻璃窗BGM与罪人専属BGM。"
+        },
+        {
+            "id": "TutoUIReplacement_P6_T1",
+            "content": "設置玻璃窗BGM"
+        },
+        {
+            "id": "TutoUIReplacement_P6_D1",
+            "content": "点撃“設置玻璃窗BGM”按鈕，即可从所有音源中選擇宁喜歓的BGM并添加至播放列表。然后便可以播放BGM。"
+        },
+        {
+            "id": "TutoUIReplacement_P6_D2",
+            "content": "宁可在玻璃窗使用宁的播放列表播放BGM。"
+        },
+        {
+            "id": "TutoUIReplacement_P7_T1",
+            "content": "設置罪人BGM"
+        },
+        {
+            "id": "TutoUIReplacement_P7_D1",
+            "content": "点撃“設置罪人BGM”按鈕，為每位罪人単独設置曲目。所選BGM可在主頁播放。"
+        },
+        {
+            "id": "TutoUIReplacement_P8_T1",
+            "content": "設置罪人BGM"
+        },
+        {
+            "id": "TutoUIReplacement_P8_D1",
+            "content": "選擇罪人并設置BGM。選中該罪人為主頁時，将播放其BGM。"
+        },
+        {
+            "id": "Jukebox_P1_T1",
+            "content": "点唱机"
+        },
+        {
+            "id": "Jukebox_P1_D1",
+            "content": "在点唱机内欣賞解鎖的曲目"
+        },
+        {
+            "id": "Jukebox_P1_D2",
+            "content": "可通過劇情関峠、活動奨励和自動販賣机等多種方法獲取新曲目。"
+        },
+        {
+            "id": "Jukebox_P2_T1",
+            "content": "按鈕功能"
+        },
+        {
+            "id": "Jukebox_P2_D1",
+            "content": "点撃“循環播放”按鈕，便会依序循環播放曲目;点撃“随机播放”按鈕，便会随机播放曲目。"
+        },
+        {
+            "id": "Jukebox_P3_T1",
+            "content": "類別"
+        },
+        {
+            "id": "Jukebox_P3_D1",
+            "content": "選擇宁想听的類別并点撃“播放”，便僅会收听被選擇類別内的曲目。"
+        },
+        {
+            "id": "Jukebox_P4_T1",
+            "content": "播放列表"
+        },
+        {
+            "id": "Jukebox_P4_D1",
+            "content": "若宁想收藏喜歓的BGM，可点撃BGM旁的“+”按鈕，以将它們添加至播放列表。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P1_T1",
+            "content": "鏡屈折鉄道 解放"
+        },
+        {
+            "id": "TutoRailway2BokGak_P1_D1",
+            "content": "活性化した路線を選択し、コストを消耗せず自由に入場することができます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P2_T1",
+            "content": "入場推奨事項"
+        },
+        {
+            "id": "TutoRailway2BokGak_P2_D1",
+            "content": "鏡屈折鉄道の入場推奨条件が、路線の上段に表示されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P2_D2",
+            "content": "なるべく推奨条件を合わせてから入場することをおすすめいたします。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P3_T1",
+            "content": "2号線の駅"
+        },
+        {
+            "id": "TutoRailway2BokGak_P3_D1",
+            "content": "2号線は、計9個の駅で構成されています。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P3_D2",
+            "content": "各循環回数によって、該当ステージにて出現するボスの駅のみ表示されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P3_D3",
+            "content": "当該循環に表示された全ての駅は、一つの連続戦闘ステージとして構成されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P4_T1",
+            "content": "循環"
+        },
+        {
+            "id": "TutoRailway2BokGak_P4_D1",
+            "content": "路線の上にある解放済みの駅を全てクリアすると、次の循環へと自動で移行します。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P4_D2",
+            "content": "循環をする進行する場合、循環回数が1増加します。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P4_D3",
+            "content": "一部の駅は循環回数によって追加で解放されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P4_D4",
+            "content": "直前の循環に再挑戦することはできません。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P5_T1",
+            "content": "図鑑"
+        },
+        {
+            "id": "TutoRailway2BokGak_P5_D1",
+            "content": "2号線では、全ての敵の情報が公開されています。攻略に合った人格とE.G.Oを編成して戦闘を進めてください。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P5_D2",
+            "content": "ただし、観察レベルによるダメージ量増加効果は適用されません。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P5_D3",
+            "content": "2号線では戦闘中にリトライまたはギブアップしても、戦闘中に更新された図鑑内容が保存されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P6_T1",
+            "content": "編成"
+        },
+        {
+            "id": "TutoRailway2BokGak_P6_D1",
+            "content": "保有する人格とE.G.Oを編成して入場します。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P6_D2",
+            "content": "編成人員は各循環ごとに変更できます。各循環ごとに囚人の体力が全快します。精神力は、前の循環の状態が維持されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P6_D3",
+            "content": "人格レベルを上げたり同期化段階上昇、E.G.O幻想解析状態上昇時、進行中の鏡屈折鉄道でも変更内容が反映されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P6_D4",
+            "content": "待機人員には開始精神力バフが追加で適用され、編成順が遅いほど開始時の精神力が高くなります。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P6_D5",
+            "content": "減算コインを使用する人格の場合は、開始精神力バフが負の値として適用されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P7_T1",
+            "content": "戦闘編成 - 連続戦闘"
+        },
+        {
+            "id": "TutoRailway2BokGak_P7_D1",
+            "content": "2号線は、連続戦闘方式で進行されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P7_D2",
+            "content": "連続戦闘では出撃人員が死亡した際、待機人員が設定順に従って宛がわれます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P7_D3",
+            "content": "7名の出撃人員と5名の待機人員を全て設定しないと戦闘に入場できません。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P8_T1",
+            "content": "戦闘"
+        },
+        {
+            "id": "TutoRailway2BokGak_P8_D1",
+            "content": "全ての戦闘は、味方のスキルと敵のスキルを直接対応させる集中戦闘方式で進行します。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P8_D2",
+            "content": "1角ステージで記録される最大ターン数は100ターンで、ターン数が100を超える場合は敗北として処理されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P9_T1",
+            "content": "戦闘 - 連続戦闘"
+        },
+        {
+            "id": "TutoRailway2BokGak_P9_D1",
+            "content": "出撃人員が死亡した際、待機人員が設定順に従って宛がわれます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P9_D2",
+            "content": "待機人員が出撃人員に切り替わると、適用中のサポートパッシブがバトルパッシブに変更されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P9_D3",
+            "content": "出撃人員が死亡した場合、適用中のバトルパッシブがサポートパッシブに変更されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P10_T1",
+            "content": "戦闘 - 遺された意志"
+        },
+        {
+            "id": "TutoRailway2BokGak_P10_D1",
+            "content": "2号線では人格死亡時、保有している基本攻撃スキルの属性と同じE.G.O資源をランク数だけ得て、既存の連続戦闘のように他の味方の精神力が減少しません。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P11_T1",
+            "content": "バフ選択"
+        },
+        {
+            "id": "TutoRailway2BokGak_P11_D1",
+            "content": "循環を進行するたびに味方バフ、敵バフをそれぞれ1つずつ選択できます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P11_D2",
+            "content": "選択した全効果は、以降の戦闘にて累積して適用されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P11_D3",
+            "content": "味方バフ1種を選択します。直前の循環で選択した効果は選ぶことができません。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P11_D4",
+            "content": "敵バフを1種選択します。以前に選択した効果を選ぶことはできません。\nただし、全ての効果を一回ずつ選んだのであれば選択チャンスが初期化され、再びお望みの効果を選ぶことができます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P11_D5",
+            "content": "直接選択可能なバフ以外に、循環するたびに1つの固定バフが追加で適用されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P15_T1",
+            "content": "終着駅"
+        },
+        {
+            "id": "TutoRailway2BokGak_P15_D1",
+            "content": "循環回数が1以上なら、路線の中央にある終着駅がアクティブになります。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P15_D2",
+            "content": "終着駅がアクティブになると、どの循環からでも自由に終着駅へ入場することができます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P15_D3",
+            "content": "終着駅に入場すると以前の駅へは戻れなくなるので、慎重に選択する必要があります。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P15_D4",
+            "content": "終着駅をクリアすることが鏡屈折鉄道2号線の最終目標であり、クリアすると循環回数と累計ターン数、参加人格とE.G.O、バフリストが記録されます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P16_T1",
+            "content": "クリア情報"
+        },
+        {
+            "id": "TutoRailway2BokGak_P16_D1",
+            "content": "各駅をクリア後、クリア情報ウィンドウにてクリアターン、累計ターン、戦闘参加人格の統計を確認できます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P17_D1",
+            "content": "駅をクリア後に残ったE.G.O資源は、次の駅にて使用することができます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P18_D1",
+            "content": "現在完了した循環回数と、累計ターン数を確認できます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P19_D1",
+            "content": "味方が全滅すると入場画面へと戻され、編成順を再度設定したり現在の戦闘に即リトライすることができます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P20_T1",
+            "content": "バナー獲得条件"
+        },
+        {
+            "id": "TutoRailway2BokGak_P20_D1",
+            "content": "鏡屈折鉄道2号線 BokGakバナー獲得条件を確認できます。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P21_T1",
+            "content": "遺失物取扱所"
+        },
+        {
+            "id": "TutoRailway2BokGak_P21_D1",
+            "content": "ステージを初めてクリアした場合、該当報酬が遺失物取扱所に登録されてアクティブになります。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P21_D2",
+            "content": "遺失物取扱所にて報酬を受け取るためには最初の一回に限り、一定量のエンケファリンモジュールを消費する必要があります。"
+        },
+        {
+            "id": "TutoRailway2BokGak_P21_D3",
+            "content": "それ以降は、追加のエンケファリンモジュールの消費なしに、いつでも報酬を獲得することができます。"
+        }
+    ]
+}

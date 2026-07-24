@@ -1,0 +1,916 @@
+{
+    "dataList": [
+        {
+            "id": 2090411,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "沸騰腐蝕",
+                    "abName": "陸行珍珠",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層震顫 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層束縛 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "沸騰腐蝕",
+                    "abName": "陸行珍珠",
+                    "desc": "[BeforeAttack] 若主要<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>不低于50%，則使本技能的<color=#ffffff>攻撃容量</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級震顫 強度并対其施加5層震顫 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層束縛 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 使<color=#ffffff>目標</color>震顫引爆 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "沸騰腐蝕",
+                    "abName": "陸行珍珠",
+                    "desc": "[BeforeAttack] 若主要<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>不低于50%，則使本技能的<color=#ffffff>攻撃容量</color>+1;若主要<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>不低于75%，則使本技能的<color=#ffffff>攻撃容量</color>額外+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級震顫 強度并対其施加7層震顫 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加2層束縛 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>震顫引爆 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090421,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "沸騰腐蝕",
+                    "abName": "陸行珍珠",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復本硬幣<color=#ffffff>傷害</color>量30%的<color=#61DA61>体力</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>震顫引爆 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "沸騰腐蝕",
+                    "abName": "陸行珍珠",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 若主要<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>不低于50%，則使本技能的<color=#ffffff>攻撃容量</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復本硬幣<color=#ffffff>傷害</color>量30%的<color=#61DA61>体力</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層防御等級降低 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>震顫引爆 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "沸騰腐蝕",
+                    "abName": "陸行珍珠",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 若主要<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>不低于50%，則使本技能的<color=#ffffff>攻撃容量</color>+1;若主要<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>不低于75%，則使本技能的<color=#ffffff>攻撃容量</color>額外+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復本硬幣<color=#ffffff>傷害</color>量30%的<color=#61DA61>体力</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加5層防御等級降低 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>震顫引爆 "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090511,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "執行",
+                    "abName": "天之執行官的輔佐",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層<color=#FED233>怠惰</color><color=#ffffff>易損</color> "
+                                },
+                                {
+                                    "desc": "[EndSkill] 使除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限15%的<color=#61DA61>体力</color>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "執行",
+                    "abName": "天之執行官的輔佐",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層<color=#FED233>怠惰</color><color=#ffffff>易損</color> "
+                                },
+                                {
+                                    "desc": "[EndSkill] 使除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限25%的<color=#61DA61>体力</color>"
+                                },
+                                {
+                                    "desc": "[EndSkillHead] 若<color=#ffffff>目標</color>陷入混乱或<color=#7C5738>撃殺</color><color=#ffffff>目標</color>，則使恢復<color=#61DA61>体力</color>的<color=#ffffff>友方単位</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限10%的<color=#81BBE8>護盾</color>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "執行",
+                    "abName": "天之執行官的輔佐",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層<color=#FED233>怠惰</color><color=#ffffff>易損</color> "
+                                },
+                                {
+                                    "desc": "[EndSkill] 使除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限30%的<color=#61DA61>体力</color>"
+                                },
+                                {
+                                    "desc": "[EndSkillHead] 若<color=#ffffff>目標</color>陷入混乱或<color=#7C5738>撃殺</color><color=#ffffff>目標</color>，則使恢復<color=#61DA61>体力</color>的<color=#ffffff>友方単位</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限15%的<color=#81BBE8>護盾</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090521,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "執行",
+                    "abName": "天之執行官的輔佐",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>震顫引爆 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成15点理智<color=#ffffff>傷害</color>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "執行",
+                    "abName": "天之執行官的輔佐",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 若現存<color=#61DA61>体力</color>低于50%，則使本技能的<color=#ffffff>攻撃容量</color>+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>震顫引爆 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成20点理智<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] 若<color=#ffffff>目標</color>陷入混乱或<color=#7C5738>撃殺</color><color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "執行",
+                    "abName": "天之執行官的輔佐",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 若現存<color=#61DA61>体力</color>低于50%，則使本技能的<color=#ffffff>攻撃容量</color>+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>震顫引爆 "
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成20点理智<color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>陷入混乱或<color=#7C5738>撃殺</color><color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>恢復7点<color=#81BBE8>理智値</color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090611,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "血欲",
+                    "abName": "紅舞鞋",
+                    "desc": "<color=#ffffff>目標</color>每帯有2級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+6)\n[StartBattle] <color=#7C5738>本回合</color>使本技能主要<color=#ffffff>目標</color>的[Laceration]層数不会減少。\n[EndSkill] 3回合内，<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>失去10点<color=#81BBE8>理智値</color>。",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成相当于其[Laceration]強度点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>\n- 若<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数不低于4，則改為造成相当于(<color=#ffffff>目標</color>的[Laceration]強度×1.2)点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>\n(本技能最多計入99級[Laceration]強度)",
+                                    "summary": "[OnSucceedAttack] 根据<color=#ffffff>目標</color>的[Laceration]強度，相應対其造成<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[EnemyKill] 若本技能或其<color=#ffffff>硬幣效果</color>対<color=#ffffff>目標</color>造成超過其剩余<color=#61DA61>体力</color>的<color=#ffffff>傷害</color>，則対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成共計相当于溢出<color=#ffffff>傷害</color>量的固定<color=#ffffff>傷害</color>\n(若是<color=#ffffff>集中遭遇戦</color>，則以本体<color=#61DA61>体力</color>計算)",
+                                    "summary": "[EnemyKill] 対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成共計相当于溢出<color=#ffffff>傷害</color>量的<color=#ffffff>傷害</color>。"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "血欲",
+                    "abName": "紅舞鞋",
+                    "desc": "<color=#ffffff>目標</color>每帯有2級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+<style=\"highlight\">9</style>)\n[StartBattle] <color=#7C5738>本回合</color>使本技能主要<color=#ffffff>目標</color>的[Laceration]層数不会減少。\n[EndSkill] 3回合内，<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>失去10点<color=#81BBE8>理智値</color>。",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成相当于<style=\"highlight\">(其[Laceration]強度×1.2)</style>点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>\n- 若<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数不低于4，則改為造成相当于(<color=#ffffff>目標</color>的[Laceration]強度×<style=\"highlight\">1.5</style>)点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>\n<style=\"highlight\">- 若<color=#FE6E00>色欲</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>数不低于4，則改為造成相当于(<color=#ffffff>目標</color>的[Laceration]強度×1.8)点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color></style>\n(本技能最多計入99級[Laceration]強度)",
+                                    "summary": "[OnSucceedAttack] 根据<color=#ffffff>目標</color>的[Laceration]強度，相應対其造成<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[EnemyKill] 若本技能或其<color=#ffffff>硬幣效果</color>対<color=#ffffff>目標</color>造成超過其剩余<color=#61DA61>体力</color>的<color=#ffffff>傷害</color>，則対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成共計相当于溢出<color=#ffffff>傷害</color>量的固定<color=#ffffff>傷害</color>\n(若是<color=#ffffff>集中遭遇戦</color>，則以本体<color=#61DA61>体力</color>計算)",
+                                    "summary": "[EnemyKill] 対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成共計相当于溢出<color=#ffffff>傷害</color>量的<color=#ffffff>傷害</color>。"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "血欲",
+                    "abName": "紅舞鞋",
+                    "desc": "<color=#ffffff>目標</color>每帯有2級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+<style=\"highlight\">13</style>)\n[StartBattle] <color=#7C5738>本回合</color>使本技能主要<color=#ffffff>目標</color>的[Laceration]層数不会減少。\n[EndSkill] 3回合内，<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>失去10点<color=#81BBE8>理智値</color>。",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成相当于(其[Laceration]強度×<style=\"highlight\">1.5</style>)点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>\n- 若<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数不低于4，則改為造成相当于(<color=#ffffff>目標</color>的[Laceration]強度×<style=\"highlight\">1.8</style>)点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>\n- 若<color=#FE6E00>色欲</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>数不低于4，則改為造成相当于(<color=#ffffff>目標</color>的[Laceration]強度×<style=\"highlight\">2</style>)点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>\n(本技能最多計入99級[Laceration]強度)",
+                                    "summary": "[OnSucceedAttack] 根据<color=#ffffff>目標</color>的[Laceration]強度，相應対其造成<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>"
+                                },
+                                {
+                                    "desc": "[EnemyKill] 若本技能或其<color=#ffffff>硬幣效果</color>対<color=#ffffff>目標</color>造成超過其剩余<color=#61DA61>体力</color>的<color=#ffffff>傷害</color>，則対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成共計相当于溢出<color=#ffffff>傷害</color>量的固定<color=#ffffff>傷害</color>\n(若是<color=#ffffff>集中遭遇戦</color>，則以本体<color=#61DA61>体力</color>計算)",
+                                    "summary": "[EnemyKill] 対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成共計相当于溢出<color=#ffffff>傷害</color>量的<color=#ffffff>傷害</color>。"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090621,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "血欲",
+                    "abName": "紅舞鞋",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数-2)(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加(2+<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数)級[Laceration]強度\n(最高計入<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数：4)",
+                                    "summary": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加(2+<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数)級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "血欲",
+                    "abName": "紅舞鞋",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数-2)(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加(<style=\"highlight\">3</style>+<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数)級[Laceration]強度\n(最高計入<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数：<style=\"highlight\">5</style>)",
+                                    "summary": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加(3+<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数)級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "血欲",
+                    "abName": "紅舞鞋",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数-2)(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加(<style=\"highlight\">4</style>+<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数)級[Laceration]強度\n(最高計入<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数：<style=\"highlight\">6</style>)",
+                                    "summary": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加(4+<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数)級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">3</style>層[Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090711,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "詛咒之釘",
+                    "abName": "痛苦泰迪",
+                    "desc": "[EndSkill] 使<color=#ffffff>自身</color>与現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限12.5%的<color=#61DA61>体力</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Curse]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[NailPersonality]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "詛咒之釘",
+                    "abName": "痛苦泰迪",
+                    "desc": "[EndSkill] 使<color=#ffffff>自身</color>与現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限12.5%的<color=#61DA61>体力</color>\n<style=\"highlight\">- 受到恢復的単位每帯有2種負面状態，使其額外恢復2.5%的<color=#61DA61>体力</color>(最多7.5%)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">3</style>級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Curse]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加2層[NailPersonality]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "詛咒之釘",
+                    "abName": "痛苦泰迪",
+                    "desc": "[EndSkill] 使<color=#ffffff>自身</color>与現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限<style=\"highlight\">15%</style>的<color=#61DA61>体力</color>\n- 受到恢復的単位每帯有<style=\"highlight\">1</style>種負面状態，使其額外恢復2.5%的<color=#61DA61>体力</color>(最多<style=\"highlight\">10%</style>)\n<style=\"highlight\">- 若包括本技能在内<color=#9702DE>嫉炉</color><color=#7C5738>共鳴</color>数不低于4，則額外使1名<color=#ffffff>友方単位</color>恢復<color=#61DA61>体力</color></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">4</style>級[Laceration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">3</style>層[Curse]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] 対<color=#ffffff>目標</color>施加<style=\"highlight\">3</style>層[NailPersonality]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090721,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "詛咒之釘",
+                    "abName": "痛苦泰迪",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[EndSkill] 使除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的3名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限15%的<color=#61DA61>体力</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Curse]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] 対<color=#ffffff>目標</color>施加2層[NailPersonality]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "詛咒之釘",
+                    "abName": "痛苦泰迪",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[EndSkill] 使除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的3名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限15%的<color=#61DA61>体力</color>\n<style=\"highlight\">- 受到恢復的単位每帯有2種負面状態，直到<color=#7C5738>下回合</color>使其獲得1層[AttackUp](最多2層)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">3</style>級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Curse]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] 対<color=#ffffff>目標</color>施加2層[NailPersonality]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "詛咒之釘",
+                    "abName": "痛苦泰迪",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[EndSkill] 使除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的3名<color=#ffffff>友方単位</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限<style=\"highlight\">20%</style>的<color=#61DA61>体力</color>\n- 受到恢復的単位每帯有1種負面状態，直到<color=#7C5738>下回合</color>使其獲得<style=\"highlight\">1</style>層[AttackUp](最多<style=\"highlight\">3</style>層)\n<style=\"highlight\">- 若包括本技能在内<color=#9702DE>嫉炉</color><color=#7C5738>共鳴</color>数不低于4，則額外使1名<color=#ffffff>友方単位</color>恢復<color=#61DA61>体力</color></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">4</style>級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">3</style>層[Curse]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] 対<color=#ffffff>目標</color>施加<style=\"highlight\">3</style>層[NailPersonality]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090811,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "指定審判",
+                    "abName": "灼熱公爵",
+                    "desc": "[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的(1+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限15%的<color=#61DA61>体力</color>(最多3名)\n[EndSkill] 3回合内，<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>失去10点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>，則<color=#7C5738>下回合</color>対其施加(1+(<color=#FE0100>暴怒</color><color=#7C5738>共鳴</color>数/3))層[BirdCage](最多2層，向下取整)"
+                                }
+                            ]
+                        },
+                        {}
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "指定審判",
+                    "abName": "灼熱公爵",
+                    "desc": "<style=\"highlight\">[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数/2)(最多+3，向下取整)</style>\n[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的(1+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限<style=\"highlight\">18</style>%的<color=#61DA61>体力</color>(最多3名)\n[EndSkill] 3回合内，<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>失去10点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">8</style>級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>，則<color=#7C5738>下回合</color>対其施加(1+(<color=#FE0100>暴怒</color><color=#7C5738>共鳴</color>数/3))層[BirdCage](最多<style=\"highlight\">3</style>層，向下取整)"
+                                }
+                            ]
+                        },
+                        {}
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "指定審判",
+                    "abName": "灼熱公爵",
+                    "desc": "[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数/2)(最多+3，向下取整)\n[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的(1+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限<style=\"highlight\">20</style>%的<color=#61DA61>体力</color>(最多3名)\n[EndSkill] 3回合内，<color=#7C5738>回合結束</color>時使<color=#ffffff>自身</color>失去10点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加8級[Combustion]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>，則<color=#7C5738>下回合</color>対其施加(1+(<color=#FE0100>暴怒</color><color=#7C5738>共鳴</color>数/3))層[BirdCage](最多3層，向下取整)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090821,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "指定審判",
+                    "abName": "灼熱公爵",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数/2)(最多+3，向下取整)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>，則対其施加(1+<color=#FE0100>暴怒</color><color=#7C5738>共鳴</color>数)層[BirdCage](最多3層)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "主要<color=#ffffff>目標</color>每帯有1級[Combustion]強度，使本硬幣対其造成的<color=#ffffff>傷害</color>+1%(最多+50%)"
+                                },
+                                {
+                                    "desc": "[EnemyKill] 使現存<color=#61DA61>体力</color>比例最低的(1+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>獲得1層[CrimsonResultUp]与1層[CrimsonDamageUp](最多4名，每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "指定審判",
+                    "abName": "灼熱公爵",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数/2)(最多+3，向下取整)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">8</style>級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>，則対其施加(1+<color=#FE0100>暴怒</color><color=#7C5738>共鳴</color>数)層[BirdCage](最多<style=\"highlight\">4</style>層)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "主要<color=#ffffff>目標</color>每帯有1級[Combustion]強度，使本硬幣対其造成的<color=#ffffff>傷害</color>+1%(最多+50%)"
+                                },
+                                {
+                                    "desc": "[EnemyKill] 使現存<color=#61DA61>体力</color>比例最低的(1+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>獲得1層[CrimsonResultUp]与1層[CrimsonDamageUp](最多<style=\"highlight\">5</style>名，每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "指定審判",
+                    "abName": "灼熱公爵",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] 使本技能的<color=#ffffff>攻撃容量</color>+(最大<color=#7C5738>共鳴</color>数/2)(最多+3，向下取整)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">10</style>級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]</style>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 若<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>，則対其施加(1+<color=#FE0100>暴怒</color><color=#7C5738>共鳴</color>数)層[BirdCage](最多<style=\"highlight\">5</style>層)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "主要<color=#ffffff>目標</color>每帯有1級[Combustion]強度，使本硬幣対其造成的<color=#ffffff>傷害</color>+<style=\"highlight\">2</style>%(最多+<style=\"highlight\">100</style>%)"
+                                },
+                                {
+                                    "desc": "[EnemyKill] 使現存<color=#61DA61>体力</color>比例最低的(1+最大<color=#7C5738>共鳴</color>数)名<color=#ffffff>友方単位</color>獲得1層[CrimsonResultUp]与1層[CrimsonDamageUp](最多<style=\"highlight\">6</style>名，每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090911,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "步入晚霞",
+                    "abName": "晚霞旅人",
+                    "desc": "[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>并使其獲得2層[ScarletMothRodion](最低<color=#61DA61>体力</color>恢復量：1)\n- 額外使(<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数-1)名<color=#ffffff>友方単位</color>恢復(最多額外2名)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "步入晚霞",
+                    "abName": "晚霞旅人",
+                    "desc": "<style=\"highlight\">[WhenUse] <color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度与[Laceration]強度之和每有6級，使本技能的<color=#ffffff>拼点威力</color>+1(最多+2)</style>\n[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限<style=\"highlight\">8%</style>的<color=#61DA61>体力</color>并使其獲得2層[ScarletMothRodion](最低<color=#61DA61>体力</color>恢復量：1)\n- 額外使(<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数-1)名<color=#ffffff>友方単位</color>恢復(最多額外2名)\n<style=\"highlight\">- 若恢復的<color=#ffffff>目標</color>装備了<color=#FE6E00>色欲</color>技能，則使其恢復3点<color=#81BBE8>理智値</color></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">3</style>級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">3</style>級[Laceration]強度"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "步入晚霞",
+                    "abName": "晚霞旅人",
+                    "desc": "[WhenUse] <color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度与[Laceration]強度之和每有6級，使本技能的<color=#ffffff>拼点威力</color>+1(最多+2)\n[EndSkill] 使現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限<style=\"highlight\">10%</style>的<color=#61DA61>体力</color>并使其獲得2層[ScarletMothRodion](最低<color=#61DA61>体力</color>恢復量：1)\n- 額外使(<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数-1)名<color=#ffffff>友方単位</color>恢復(最多額外2名)\n- 若恢復的<color=#ffffff>目標</color>装備了<color=#FE6E00>色欲</color>技能，則使其恢復<style=\"highlight\">6</style>点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Combustion]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[EndCoin] <color=#7C5738>下回合</color>対命中的<color=#ffffff>目標</color>施加1層[CrimsonTakeDamageUp]与1層[ScarletTakeDamageUp]</style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2090921,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "步入晚霞",
+                    "abName": "晚霞旅人",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] <color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度与[Laceration]強度之和每有4級，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+15%)\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-6(最多-12)\n[EndSkill] 随机使<color=#ffffff>友方単位</color>獲得1層[ScarletMothRodion]，触発3次",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]"
+                                },
+                                {
+                                    "desc": "[EndCoin] <color=#7C5738>下回合</color>対命中的<color=#ffffff>目標</color>施加1層[CrimsonTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                },
+                                {
+                                    "desc": "[EndCoin] <color=#7C5738>下回合</color>対命中的<color=#ffffff>目標</color>施加1層[ScarletTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "步入晚霞",
+                    "abName": "晚霞旅人",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] <color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度与[Laceration]強度之和每有4級，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+15%)\n<style=\"highlight\">- 若激活了<color=#FE0100>暴怒</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>或<color=#FE6E00>色欲</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>，則使本技能造成的<color=#ffffff>傷害</color>額外+10%</style>\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-6(最多-12)\n[EndSkill] 随机使<color=#ffffff>友方単位</color>獲得1層[ScarletMothRodion]，触発<style=\"highlight\">4次</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">2</style>級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]"
+                                },
+                                {
+                                    "desc": "[EndCoin] <color=#7C5738>下回合</color>対命中的<color=#ffffff>目標</color>施加1層[CrimsonTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">2</style>級[Laceration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Laceration]"
+                                },
+                                {
+                                    "desc": "[EndCoin] <color=#7C5738>下回合</color>対命中的<color=#ffffff>目標</color>施加1層[ScarletTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "步入晚霞",
+                    "abName": "晚霞旅人",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n[BeforeAttack] <color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度与[Laceration]強度之和每有4級，使本技能造成的<color=#ffffff>傷害</color><style=\"highlight\">+10%(最多+30%)</style>\n- 若激活了<color=#FE0100>暴怒</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>或<color=#FE6E00>色欲</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>，則使本技能造成的<color=#ffffff>傷害</color>額外<style=\"highlight\">+20%</style>\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color><style=\"highlight\">-5(最多-10)</style>\n[EndSkill] 随机使<color=#ffffff>友方単位</color>獲得1層[ScarletMothRodion]，触発<style=\"highlight\">5次</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">2</style>層[Combustion]"
+                                },
+                                {
+                                    "desc": "[EndCoin] <color=#7C5738>下回合</color>対命中的<color=#ffffff>目標</color>施加1層[CrimsonTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">2</style>層[Laceration]"
+                                },
+                                {
+                                    "desc": "[EndCoin] <color=#7C5738>下回合</color>対命中的<color=#ffffff>目標</color>施加1層[ScarletTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
