@@ -119,7 +119,7 @@ jobs:
         
         echo "Files stored in localize/ (without JP_ prefix)"
         
-    - name: Commit and push changes
+    - name: 提交并推送变更
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         git config user.name "github-actions[bot]"
@@ -133,7 +133,7 @@ jobs:
         git commit -m "同步更新版本 ${{ steps.get_release.outputs.version }}"
         git push origin main
         
-    - name: Build release packages
+    - name: 构建Release包体
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         # 创建临时构建目录
@@ -179,7 +179,7 @@ jobs:
         # 清理构建目录（可选）
         rm -rf build_jp build_kr
         
-    - name: 创建Release 更新本地化包体
+    - name: 创建Release
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         VERSION="${{ steps.get_release.outputs.version }}"
