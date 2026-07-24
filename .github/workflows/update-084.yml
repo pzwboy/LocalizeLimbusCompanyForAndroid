@@ -185,7 +185,7 @@ jobs:
         VERSION="${{ steps.get_release.outputs.version }}"
         gh release create "$VERSION" \
           --title "$VERSION" \
-          --notes "更新到版本 $VERSION，`jp.zip`为替换原`日本語`，`kr.zip`为替换原`한국어`。" \
+          --notes "更新到版本 $VERSION，jp.zip为替换原日本語，kr.zip为替换原한국어。" \
           --target main \
           jp.zip kr.zip
       env:
