@@ -28,17 +28,17 @@
         {
             "id": 139301,
             "name": "回現的過去",
-            "desc": "若<color=#ffffff>自身</color>的[AccumulatedPast]層数不低于50層，且本体<color=#61DA61>体力</color>不高于80%，則在<color=#7C5738>回合結束</color>時消耗50層[AccumulatedPast]，并使本体恢復200点<color=#61DA61>体力</color>"
+            "desc": "若<color=#ffffff>自身</color>的[AccumulatedPastMirror]層数不低于50層，且本体<color=#61DA61>体力</color>不高于80%，則在<color=#7C5738>回合結束</color>時消耗50層[AccumulatedPastMirror]，并使本体恢復200点<color=#61DA61>体力</color>"
         },
         {
             "id": 139302,
             "name": "消逝的過去",
-            "desc": "躯干<color=#ffffff>部位</color>被破坏后，消耗所有[AccumulatedPast]\n躯干<color=#ffffff>部位</color>被破坏后，<color=#7C5738>下回合</color>起使躯干<color=#ffffff>部位</color>的所有罪孼抗性与物理抗性在本場戦斗中全部変為“抵抗”(0.5)"
+            "desc": "躯干<color=#ffffff>部位</color>被破坏后，消耗所有[AccumulatedPastMirror]\n躯干<color=#ffffff>部位</color>被破坏后，<color=#7C5738>下回合</color>起使躯干<color=#ffffff>部位</color>的所有罪孼抗性与物理抗性在本場戦斗中全部変為“抵抗”(0.5)"
         },
         {
             "id": 139303,
             "name": "被破坏的排气口",
-            "desc": "蒸汽槍<color=#ffffff>部位</color>被破坏時，消耗所有<color=#ffffff>部位</color>的[Breath]強度\n蒸汽槍<color=#ffffff>部位</color>被破坏后，每当使<color=#ffffff>自身</color>増加[Breath]強度時，都会対<color=#ffffff>自身</color>施加層数相当于[Breath]強度的[Vulnerable]\n蒸汽槍<color=#ffffff>部位</color>被破坏后，每次使用攻撃技能都会使<color=#ffffff>自身</color>失去1級[Breath]強度"
+            "desc": "蒸汽槍<color=#ffffff>部位</color>被破坏時，消耗所有<color=#ffffff>部位</color>的[Breath]強度\n蒸汽槍<color=#ffffff>部位</color>被破坏后，使<color=#ffffff>自身</color>増加[Breath]強度時，対<color=#ffffff>自身</color>施加層数相当于増加的[Breath]強度的[Vulnerable]\n蒸汽槍<color=#ffffff>部位</color>被破坏后，<color=#ffffff>自身</color>使用攻撃技能時，使<color=#ffffff>自身</color>失去1級[Breath]強度"
         },
         {
             "id": 139304,
@@ -48,7 +48,7 @@
         {
             "id": 139305,
             "name": "節拍器",
-            "desc": "[AccumulatedPast]層数為奇数時，対<color=#ffffff>自身</color>施加3層[Vulnerable]并使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]\n層数為偶数時，使<color=#ffffff>自身</color>獲得3層[Protection]并対<color=#ffffff>自身</color>施加3層[AttackDmgDown]"
+            "desc": "[AccumulatedPastMirror]層数為奇数時，対<color=#ffffff>自身</color>施加3層[Vulnerable]并使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]\n層数為偶数時，使<color=#ffffff>自身</color>獲得3層[Protection]并対<color=#ffffff>自身</color>施加3層[AttackDmgDown]"
         },
         {
             "id": 139401,

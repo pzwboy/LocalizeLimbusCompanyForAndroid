@@ -256,7 +256,7 @@
                 {
                     "level": 1,
                     "name": "6463",
-                    "desc": "<color=#ffffff>自身</color>每帯有50層[AccumulatedPast]，使本技能造成的<color=#ffffff>傷害</color>+10%\n[WhenUse] <color=#ffffff>目標</color>的[Vibration]強度与[Vibration]層数之和每有10点，使本技能的<color=#ffffff>基礎威力</color>+1(最多+3)\n[WhenUse] 若<color=#ffffff>自身</color>的[AccumulatedPast]層数為奇数，則使本技能造成的<color=#ffffff>傷害</color>+30%",
+                    "desc": "<color=#ffffff>自身</color>每帯有50層[AccumulatedPastMirror]，使本技能造成的<color=#ffffff>傷害</color>+10%\n[WhenUse] <color=#ffffff>目標</color>的[Vibration]強度与[Vibration]層数之和每有10点，使本技能的<color=#ffffff>基礎威力</color>+1(最多+3)\n[WhenUse] 若<color=#ffffff>自身</color>的[AccumulatedPastMirror]層数為奇数，則使本技能造成的<color=#ffffff>傷害</color>+30%",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -278,7 +278,7 @@
                 {
                     "level": 1,
                     "name": "6753",
-                    "desc": "<color=#ffffff>自身</color>每帯有50層[AccumulatedPast]，使本技能造成的<color=#ffffff>傷害</color>+10%\n[WhenUse] <color=#ffffff>目標</color>的[Vibration]強度与[Vibration]層数之和每有10点，使本技能的<color=#ffffff>基礎威力</color>+1(最多+3)\n[WhenUse] 若<color=#ffffff>自身</color>的[AccumulatedPast]層数為偶数，則使<color=#ffffff>自身</color>獲得3層[Protection](<color=#7C5738>每回合</color>最多1次)",
+                    "desc": "<color=#ffffff>自身</color>每帯有50層[AccumulatedPastMirror]，使本技能造成的<color=#ffffff>傷害</color>+10%\n[WhenUse] <color=#ffffff>目標</color>的[Vibration]強度与[Vibration]層数之和每有10点，使本技能的<color=#ffffff>基礎威力</color>+1(最多+3)\n[WhenUse] 若<color=#ffffff>自身</color>的[AccumulatedPastMirror]層数為偶数，則使<color=#ffffff>自身</color>獲得3層[Protection](<color=#7C5738>每回合</color>最多1次)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -318,7 +318,7 @@
                                     "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>的<color=#ffffff>混乱閾値</color>前移本硬幣<color=#ffffff>傷害</color>量的50%"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[AccumulatedPast]，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+50%)"
+                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[AccumulatedPastMirror]，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+50%)"
                                 }
                             ]
                         }
@@ -369,7 +369,7 @@
                                     "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[Breath]強度不低于5級，則使<color=#ffffff>目標</color>的<color=#ffffff>混乱閾値</color>前移本硬幣<color=#ffffff>傷害</color>量的50%"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 使所有<color=#ffffff>部位</color>増加8級[Breath]強度并獲得4層[Breath]"
+                                    "desc": "[OnSucceedAttack] 使所有<color=#ffffff>部位</color>増加8級[Breath]強度并使所有<color=#ffffff>部位</color>獲得4層[Breath]"
                                 }
                             ]
                         },
@@ -398,10 +398,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "<color=#ffffff>自身</color>每帯有1層[AccumulatedPast]，使本硬幣造成的<color=#ffffff>傷害</color>+1%(最多+200%)"
+                                    "desc": "<color=#ffffff>自身</color>每帯有1層[AccumulatedPastMirror]，使本硬幣造成的<color=#ffffff>傷害</color>+1%(最多+200%)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有50層[AccumulatedPast]，使<color=#ffffff>目標</color>[VibrationExplosion]1次。使<color=#ffffff>目標</color>的[Vibration]層数減少1層(最多5次)"
+                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有50層[AccumulatedPastMirror]，使<color=#ffffff>目標</color>[VibrationExplosion]1次。使<color=#ffffff>目標</color>的[Vibration]層数減少1層(最多5次)"
                                 }
                             ]
                         }
@@ -2109,7 +2109,7 @@
                                     "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 使本体、躯干恢復15点<color=#61DA61>体力</color>"
+                                    "desc": "[OnSucceedAttack] 使本体与躯干<color=#ffffff>部位</color>恢復15点<color=#61DA61>体力</color>"
                                 }
                             ]
                         }
@@ -2357,7 +2357,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>目標</color>帯有的[Vibration]層数，相應使其[VibrationExplosion]"
+                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>目標</color>的[Vibration]層数，相應使其[VibrationExplosion]"
                                 }
                             ]
                         }

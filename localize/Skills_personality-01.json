@@ -2952,19 +2952,19 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "次元斬り",
-                    "desc": "[WhenUse] 自分の[Charge]回数を2消耗し、コイン威力 +1",
+                    "name": "次元斬",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color>2層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が6増加 (スキルごとに1回)"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[Charge](每个技能最多1次)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DriftingDimensionYisang]を1消耗し、このコインを再使用(スキルごとに1回)"
+                                    "desc": "[OnSucceedAttack] 消耗1層[DriftingDimensionYisang]并<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
                                 }
                             ]
                         }
@@ -2972,19 +2972,19 @@
                 },
                 {
                     "level": 2,
-                    "name": "次元斬り",
-                    "desc": "[WhenUse] 自分の[Charge]回数を2消耗し、コイン威力 +1<style=\"highlight\"></style>",
+                    "name": "次元斬",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color>2層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1<style=\"highlight\"></style>",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が6増加 (スキルごとに1回)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[Charge](每个技能最多1次)<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]<style=\"highlight\">2</style>を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">2</style>級[Burst]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DriftingDimensionYisang]を1消耗し、このコインを再使用(スキルごとに1回)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 消耗1層[DriftingDimensionYisang]并<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -2992,19 +2992,19 @@
                 },
                 {
                     "level": 4,
-                    "name": "次元斬り",
-                    "desc": "<style=\"highlight\">[WhenUse] 自分の[Charge]回数と対象の[Burst], [DimensionRift]の合計6につき、最終威力 +1 (最大3)</style>\n[WhenUse] 自分の[Charge]回数を2消耗し、コイン威力 +1",
+                    "name": "次元斬",
+                    "desc": "<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>的[Charge]層数，<color=#ffffff>目標</color>的[Burst]強度与<color=#ffffff>目標</color>的[DimensionRift]層数之和每有6点，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)</style>\n[WhenUse] 消耗<color=#ffffff>自身</color>2層[Charge]并使本技能的<color=#ffffff>硬幣威力</color>+1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が6増加 (スキルごとに1回)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[Charge](每个技能最多1次)<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]2を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DriftingDimensionYisang]を1消耗し、このコインを再使用(スキルごとに1回)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 消耗1層[DriftingDimensionYisang]并<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3017,29 +3017,29 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "連続次元斬り",
-                    "desc": "[WhenUse] 自分の[Charge]回数を5消耗し、最終威力 +2",
+                    "name": "連續次元斬",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color>5層[Charge]并使本技能的<color=#ffffff>最終威力</color>+2",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が6増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[Charge]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DimensionRift]を1付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[DimensionRift]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[Charge]威力 × 4)%だけ斬撃ダメージ (最大20%)"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)"
                                 }
                             ]
                         }
@@ -3047,29 +3047,29 @@
                 },
                 {
                     "level": 2,
-                    "name": "連続次元斬り",
-                    "desc": "[WhenUse] 自分の[Charge]回数を5消耗し、最終威力 +2\n<style=\"highlight\">[WhenUse] 自分の[Charge]が3以上なら、コイン威力 +1</style>",
+                    "name": "連續次元斬",
+                    "desc": "[WhenUse] 消耗<color=#ffffff>自身</color>5層[Charge]并使本技能的<color=#ffffff>最終威力</color>+2\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>自身</color>的[Charge]強度不低于3級，則使本技能的<color=#ffffff>硬幣威力</color>+1</style>",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が6増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[Charge]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]2を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DimensionRift]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[DimensionRift]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[Charge]威力 × 4)%だけ斬撃ダメージ (最大20%)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3077,29 +3077,29 @@
                 },
                 {
                     "level": 4,
-                    "name": "連続次元斬り",
-                    "desc": "<style=\"highlight\">[WhenUse] 対象の[Burst], [DimensionRift]の合計6につき、最終威力 +1 (最大3)</style>\n[WhenUse] 自分の[Charge]回数を5消耗し、最終威力 +2\n[WhenUse] 自分の[Charge]威力が3以上なら、コイン威力 +1",
+                    "name": "連續次元斬",
+                    "desc": "<style=\"highlight\">[WhenUse] <color=#ffffff>目標</color>的[Burst]強度与[DimensionRift]層数之和每有6点，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)</style>\n[WhenUse] 消耗<color=#ffffff>自身</color>5層[Charge]并使本技能的<color=#ffffff>最終威力</color>+2\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]強度不低于3級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が6増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[Charge]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]2を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DimensionRift]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[DimensionRift]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[Charge]威力 × 4)%だけ斬撃ダメージ (最大20%)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3112,39 +3112,39 @@
             "levelList": [
                 {
                     "level": 3,
-                    "name": "空間切断",
-                    "desc": "[BeforeUse] 自分の[Charge]回数が15以上なら、「四次角歪曲時系列切断」として発動\n[WhenUse] 自分の[Charge]回数が7以上, 15未満なら、\n- [Charge]回数を全て消耗し、消耗した[Charge]回数7につきコイン威力 +1 (最大2)\n\n[WhenUse] [DriftingDimensionYisang]1, [FourDimensionYisang]1を得る",
+                    "name": "空間撕裂",
+                    "desc": "[BeforeUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則改為使用“四次角歪曲時間序列撕裂”\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]若<color=#ffffff>自身</color>的充能層数在7~14層之間，\n- 則消耗所有[Charge]層数，每消耗7層[Charge]，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[DriftingDimensionYisang]与1層[FourDimensionYisang]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[Charge]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[Charge]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DimensionRift]2を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DimensionRift]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[Charge]威力 × 4)%だけ斬撃ダメージ (最大20%)"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)"
                                 }
                             ]
                         }
@@ -3152,39 +3152,39 @@
                 },
                 {
                     "level": 4,
-                    "name": "空間切断",
-                    "desc": "[BeforeUse] 自分の[Charge]回数が15以上なら、「四次角歪曲時系列切断」として発動\n[WhenUse] 自分の[Charge]回数が7以上, 15未満なら、\n- [Charge]回数を全て消耗し、消耗した[Charge]回数7につきコイン威力 +1 (最大2)\n\n<style=\"highlight\">[WhenUse] 対象の[Burst], [DimensionRift]の合計6につき、最終威力 +1 (最大4)</style>\n[WhenUse] [DriftingDimensionYisang]1, [FourDimensionYisang]1を得る",
+                    "name": "空間撕裂",
+                    "desc": "[BeforeUse] 若<color=#ffffff>自身</color>的[Charge]層数不低于15層，則改為使用“四次角歪曲時間序列撕裂”\n[WhenUse] 若<color=#ffffff>自身</color>的[Charge]若<color=#ffffff>自身</color>的充能層数在7~14層之間，\n- 則消耗所有[Charge]層数，每消耗7層[Charge]，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n\n<style=\"highlight\">[WhenUse] <color=#ffffff>目標</color>的[Burst]強度与[DimensionRift]層数之和每有6点，使本技能的<color=#ffffff>最終威力</color>+1(最多+4)</style>\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[DriftingDimensionYisang]与1層[FourDimensionYisang]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[Charge]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[Charge]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DimensionRift]2を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DimensionRift]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[Charge]威力 × 4)%だけ斬撃ダメージ (最大20%)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3197,16 +3197,16 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "回避",
-                    "desc": "[StartBattle] [DriftingDimensionYisang]1, [FourDimensionYisang]1を得る (1ターンにつき1回)\n- 自分の[Charge]威力が3以上なら、追加で1を得る\n\n[StartBattle] 自分の[Charge]回数が7未満なら、体力を最大値の(不足している[Charge]回数)%だけ消耗し、[Charge]回数を7まで得る。(このダメージで体力が0にならない、小数点切り捨て)\n\n[StartBattle] 自分の[Charge]回数が15を超過しているなら、超過した[Charge]回数を最大10消耗し、以下の効果を適用\n- (消耗値)%だけ体力を回復\n- (消耗値 / 3)だけ次のターンに[Agility]を得る (小数点切り捨て)",
+                    "name": "閃避",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得1層[DriftingDimensionYisang]与1層[FourDimensionYisang](<color=#7C5738>每回合</color>最多1次)\n- 若<color=#ffffff>自身</color>的[Charge]強度不低于3級，則使<color=#ffffff>自身</color>額外獲得1層[DriftingDimensionYisang]与[FourDimensionYisang]\n\n[StartBattle] 若<color=#ffffff>自身</color>的[Charge]層数低于7層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(7-<color=#ffffff>自身</color>的[Charge]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至7層[Charge](該效果不会使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点;向下取整)\n\n[StartBattle] 若<color=#ffffff>自身</color>的[Charge]層数高于15層，則消耗最多10層超過15層的[Charge]并触発以下效果\n- 使<color=#ffffff>自身</color>恢復(消耗的[Charge]層数)%的<color=#61DA61>体力</color>\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(消耗的[Charge]層数/3)層[Agility](向下取整)",
                     "coinlist": [
                         {}
                     ]
                 },
                 {
                     "level": 4,
-                    "name": "回避",
-                    "desc": "<style=\"highlight\">[StartBattle] 自分の[Charge]威力だけ[ChargeForceField]を得る (1ターンにつき1回。最大5)</style>\n[StartBattle] [DriftingDimensionYisang]1, [FourDimensionYisang]1を得る (1ターンにつき1回)\n- 自分の[Charge]威力が3以上なら、追加で1を得る\n\n[StartBattle] 自分の[Charge]回数が7未満なら、体力を最大値の(不足している[Charge]回数)%だけ消耗し、[Charge]回数を7まで得る。(このダメージで体力が0にならない、小数点切り捨て)\n\n[StartBattle] 自分の[Charge]回数が15を超過しているなら、超過した[Charge]回数を最大10消耗し、以下の効果を適用\n- (消耗値)%だけ体力を回復\n- (消耗値 / 3)だけ次のターンに[Agility]を得る (小数点切り捨て)",
+                    "name": "閃避",
+                    "desc": "<style=\"highlight\">[StartBattle] 使<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>[Charge]強度的[ChargeForceField](<color=#7C5738>每回合</color>最多1次，最多5層)</style>\n[StartBattle] 使<color=#ffffff>自身</color>獲得1層[DriftingDimensionYisang]与1層[FourDimensionYisang](<color=#7C5738>每回合</color>最多1次)\n- 若<color=#ffffff>自身</color>的[Charge]強度不低于3級，則使<color=#ffffff>自身</color>額外獲得1層[DriftingDimensionYisang]与[FourDimensionYisang]\n\n[StartBattle] 若<color=#ffffff>自身</color>的[Charge]層数低于7層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(7-<color=#ffffff>自身</color>的[Charge]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至7層[Charge](該效果不会使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点;向下取整)\n\n[StartBattle] 若<color=#ffffff>自身</color>的[Charge]層数高于15層，則消耗最多10層超過15層的[Charge]并触発以下效果\n- 使<color=#ffffff>自身</color>恢復(消耗的[Charge]層数)%的<color=#61DA61>体力</color>\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(消耗的[Charge]層数/3)層[Agility](向下取整)",
                     "coinlist": [
                         {}
                     ]
@@ -3218,64 +3218,64 @@
             "levelList": [
                 {
                     "level": 3,
-                    "name": "四次角歪曲時系列切断",
-                    "desc": "[WideAreaRampage]\n[WhenUse] メインターゲットの[Burst], [DimensionRift]の合計6につき、最終威力 +1 (最大3)\n[WhenUse] [DriftingDimensionYisang]1, [FourDimensionYisang]1を得る\n[WhenUse] 自分の[Charge]回数を15消耗し、最終威力 +1, コイン威力 +2",
+                    "name": "四次角歪曲時間序列撕裂",
+                    "desc": "[WideAreaRampage]\n[WhenUse] 主要<color=#ffffff>目標</color>的[Burst]強度与[DimensionRift]層数之和每有6点，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[DriftingDimensionYisang]与1層[FourDimensionYisang]\n[WhenUse] 消耗<color=#ffffff>自身</color>15層[Charge]并使本技能的<color=#ffffff>最終威力</color>+1，<color=#ffffff>硬幣威力</color>+2",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [FourDimensionYisang]を1得る"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[FourDimensionYisang]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の5%だけ、全攻撃対象へ斬撃ダメージを与える"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>全体</color>攻撃<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量5%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [FourDimensionYisang]を1得る"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[FourDimensionYisang]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の5%だけ、全攻撃対象へ斬撃ダメージを与える"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>全体</color>攻撃<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量5%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [FourDimensionYisang]を1得る"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[FourDimensionYisang]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Burst]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の5%だけ、全攻撃対象へ斬撃ダメージを与える"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>全体</color>攻撃<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量5%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[Charge]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Burst]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Burst]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [DimensionRift]2を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DimensionRift]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の5%だけ、全攻撃対象へ斬撃ダメージを与える"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>全体</color>攻撃<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量5%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]威力が5以上なら、このコインを再使用 (スキルごとに1回)"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[Charge]強度不低于5級，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
                                 }
                             ]
                         }

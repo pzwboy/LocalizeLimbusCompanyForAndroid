@@ -1967,6 +1967,27 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "level": 5,
+                    "name": "第四根火柴之焰",
+                    "abName": "焦化少女",
+                    "desc": "<style=\"highlight\">每有1点最大<color=#7C5738>共鳴</color>数，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+30%)\n[EndSkill] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[CrimsonResultUp]与1層[CrimsonDamageUp]</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack]</style> 使<color=#ffffff>目標</color>増加6級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[CrimsonTakeDamageUp]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -2001,6 +2022,27 @@
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層<color=#FE0100>暴怒</color><color=#ffffff>易損</color> "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 5,
+                    "name": "第四根火柴之焰",
+                    "abName": "焦化少女",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n<style=\"highlight\">每有1点最大<color=#7C5738>共鳴</color>数，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+30%)\n[DefeatDuel] 使本技能的<color=#ffffff>基礎威力</color>-18\n[EndSkill] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[CrimsonResultUp]与1層[CrimsonDamageUp]</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">10</style>級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[CrimsonTakeDamageUp]<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -2131,7 +2173,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "智慧的青枝",
+                    "name": "知識樹之枝",
                     "abName": "辛克莱",
                     "desc": "",
                     "coinlist": [
@@ -2149,7 +2191,7 @@
                 },
                 {
                     "level": 3,
-                    "name": "智慧的青枝",
+                    "name": "知識樹之枝",
                     "abName": "辛克莱",
                     "desc": "",
                     "coinlist": [
@@ -2170,7 +2212,7 @@
                 },
                 {
                     "level": 4,
-                    "name": "智慧的青枝",
+                    "name": "知識樹之枝",
                     "abName": "辛克莱",
                     "desc": "",
                     "coinlist": [

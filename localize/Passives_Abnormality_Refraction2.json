@@ -8,7 +8,7 @@
         {
             "id": 853902,
             "name": "磨損殆尽的傘",
-            "desc": "頭部被破坏時，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加1層<color=#ffffff>傷害</color>弱化 "
+            "desc": "頭部被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加1層<color=#ffffff>傷害</color>弱化 "
         },
         {
             "id": 853903,
@@ -23,12 +23,12 @@
         {
             "id": 853905,
             "name": "折射的破裂与沈淪",
-            "desc": "破裂 与沈淪 的強度只能累積到30級。\n破裂 与沈淪 的層数只能累積到5層。"
+            "desc": "破裂 与沈淪 的強度最多累積到30級。\n破裂 与沈淪 的層数最多累積到5層。"
         },
         {
             "id": 853906,
             "name": "施加折射的流血",
-            "desc": "<color=#ffffff>自身</color>被施加流血 強度或層数時，額外追加1級流血 強度与1層流血 。"
+            "desc": "<color=#ffffff>自身</color>被増加流血 強度或施加流血 層数時，額外使<color=#ffffff>自身</color>増加1級流血 強度并対<color=#ffffff>自身</color>施加1層流血 。(不适用于巡回[TabExplain]效果)"
         },
         {
             "id": 854001,
@@ -53,7 +53,7 @@
         {
             "id": 854103,
             "name": "折射的流血与震顫",
-            "desc": "流血 与震顫 的強度只能累積到30級。\n流血 与震顫 的層数只能累積到5層。"
+            "desc": "流血 与震顫 的強度最多累積到30級。\n流血 与震顫 的層数最多累積到5層。"
         },
         {
             "id": 854105,
@@ -73,12 +73,12 @@
         {
             "id": 854203,
             "name": "折射的流血与震顫",
-            "desc": "流血 与震顫 的強度只能累積到30級。\n流血 与震顫 的層数只能累積到5層。"
+            "desc": "流血 与震顫 的強度最多累積到30級。\n流血 与震顫 的層数最多累積到5層。"
         },
         {
             "id": 854204,
             "name": "施加折射的破裂",
-            "desc": "<color=#ffffff>自身</color>被施加破裂 強度或層数時，額外追加1級破裂 強度与1層破裂 。"
+            "desc": "<color=#ffffff>自身</color>被増加破裂 強度或施加破裂 層数時，額外使<color=#ffffff>自身</color>増加1級破裂 強度并対<color=#ffffff>自身</color>施加1層破裂 。(不适用于巡回[TabExplain]效果)"
         },
         {
             "id": 854301,
@@ -93,7 +93,7 @@
         {
             "id": 854402,
             "name": "施加折射的沈淪",
-            "desc": "<color=#ffffff>自身</color>被施加沈淪 強度或層数時，額外追加1級沈淪 強度与1層沈淪 。"
+            "desc": "<color=#ffffff>自身</color>被増加沈淪 強度或施加沈淪 層数時，額外使<color=#ffffff>自身</color>増加1級沈淪 強度并対<color=#ffffff>自身</color>施加1層沈淪 。(不适用于巡回[TabExplain]效果)"
         },
         {
             "id": 854501,
@@ -108,12 +108,12 @@
         {
             "id": 854503,
             "name": "折射的流血与震顫",
-            "desc": "流血 与震顫 的強度只能累積到30級。\n流血 与震顫 的層数只能累積到5層。"
+            "desc": "流血 与震顫 的強度最多累積到30級。\n流血 与震顫 的層数最多累積到5層。"
         },
         {
             "id": 854504,
             "name": "施加折射的破裂",
-            "desc": "<color=#ffffff>自身</color>被施加破裂 強度或層数時，額外追加1級破裂 強度与1層破裂 。"
+            "desc": "<color=#ffffff>自身</color>被増加破裂 強度或施加破裂 層数時，額外使<color=#ffffff>自身</color>増加1級破裂 強度并対<color=#ffffff>自身</color>施加1層破裂 。(不适用于巡回[TabExplain]效果)"
         },
         {
             "id": 854601,
@@ -133,12 +133,12 @@
         {
             "id": 854703,
             "name": "折射的流血与震顫",
-            "desc": "流血 与震顫 的強度只能累積到30級。\n流血 与震顫 的層数只能累積到5層。"
+            "desc": "流血 与震顫 的強度最多累積到30級。\n流血 与震顫 的層数最多累積到5層。"
         },
         {
             "id": 854704,
             "name": "施加折射的破裂",
-            "desc": "<color=#ffffff>自身</color>被施加破裂 強度或層数時，額外追加1級破裂 強度与1層破裂 。"
+            "desc": "<color=#ffffff>自身</color>被増加破裂 強度或施加破裂 層数時，額外使<color=#ffffff>自身</color>増加1級破裂 強度并対<color=#ffffff>自身</color>施加1層破裂 。(不适用于巡回[TabExplain]效果)"
         },
         {
             "id": 854801,
@@ -158,7 +158,7 @@
         {
             "id": 854903,
             "name": "領先的誘餌",
-            "desc": "精霊<color=#ffffff>部位</color>受到攻撃也不会消耗本体的<color=#61DA61>体力</color>。\n根据已魅惑 人数相應増加<color=#ffffff>行動槽</color>。"
+            "desc": "精霊<color=#ffffff>部位</color>受到攻撃也不会消耗本体的<color=#61DA61>体力</color>。\n根据已魅惑 人数相應増加攻撃的<color=#ffffff>行動槽</color>。"
         },
         {
             "id": 854904,
@@ -173,7 +173,7 @@
         {
             "id": 854906,
             "name": "折射的破裂与沈淪",
-            "desc": "破裂 与沈淪 的強度只能累積到30級。\n破裂 与沈淪 的層数只能累積到5層。"
+            "desc": "破裂 与沈淪 的強度最多累積到30級。\n破裂 与沈淪 的層数最多累積到5層。"
         },
         {
             "id": 854907,
@@ -187,7 +187,7 @@
         },
         {
             "id": 855002,
-            "name": "被困的次元逃逸",
+            "name": "脱离受困次元",
             "desc": "所有次元在被生成的回合内被破坏時，<color=#7C5738>下回合</color>会主動撕開次元并出場。\n随后失去5層充能 ，并使所有<color=#ffffff>部位</color>的<color=#ffffff>混乱閾値</color>前移30。"
         },
         {
@@ -198,12 +198,12 @@
         {
             "id": 855004,
             "name": "折射的焼傷与破裂",
-            "desc": "焼傷 与破裂 的強度只能累積到30級。\n焼傷 与破裂 的層数只能累積到5層。"
+            "desc": "焼傷 与破裂 的強度最多累積到30級。\n焼傷 与破裂 的層数最多累積到5層。"
         },
         {
             "id": 855005,
             "name": "施加折射的震顫",
-            "desc": "<color=#ffffff>自身</color>被施加震顫 強度或層数時，額外追加1級震顫 強度与1層震顫 。"
+            "desc": "<color=#ffffff>自身</color>被増加震顫 強度或施加震顫 層数時，額外使<color=#ffffff>自身</color>増加1級震顫 強度并対<color=#ffffff>自身</color>施加1層震顫 。(不适用于巡回[TabExplain]效果)"
         },
         {
             "id": 856001,
@@ -213,12 +213,12 @@
         {
             "id": 856101,
             "name": "劇毒沸騰的次元",
-            "desc": "若穿過劇毒沸騰的次元，使本体<color=#61DA61>体力</color>上限+20%"
+            "desc": "若穿過劇毒沸騰的次元，則使本体<color=#61DA61>体力</color>上限+20%"
         },
         {
             "id": 856201,
             "name": "震顫不止的次元",
-            "desc": "若穿過震顫不止的次元，<color=#7C5737>速度値</color>+1"
+            "desc": "若穿過震顫不止的次元，則使<color=#ffffff>自身</color>的最小<color=#7C5737>速度値</color>+1，最大<color=#7C5737>速度値</color>+1"
         },
         {
             "id": 856301,
@@ -243,12 +243,12 @@
         {
             "id": 855104,
             "name": "折射的破裂与沈淪",
-            "desc": "破裂 与沈淪 的強度只能累積到30級。\n破裂 与沈淪 的層数只能累積到5層。"
+            "desc": "破裂 与沈淪 的強度最多累積到30級。\n破裂 与沈淪 的層数最多累積到5層。"
         },
         {
             "id": 855105,
             "name": "施加折射的焼傷",
-            "desc": "<color=#ffffff>自身</color>被施加焼傷 強度或層数時，額外追加1級焼傷 強度与1層焼傷 。"
+            "desc": "<color=#ffffff>自身</color>被増加焼傷 強度或施加焼傷 層数時，額外使<color=#ffffff>自身</color>増加1級焼傷 強度并対<color=#ffffff>自身</color>施加1層焼傷 。(不适用于巡回[TabExplain]效果)"
         },
         {
             "id": 855501,
@@ -273,7 +273,7 @@
         {
             "id": 855505,
             "name": "施加折射的沈淪",
-            "desc": "<color=#ffffff>自身</color>被施加沈淪 強度或層数時，額外追加1級沈淪 強度与1層沈淪 。"
+            "desc": "<color=#ffffff>自身</color>被増加沈淪 強度或施加沈淪 層数時，額外使<color=#ffffff>自身</color>増加1級沈淪 強度并対<color=#ffffff>自身</color>施加1層沈淪 。(不适用于巡回[TabExplain]效果)"
         },
         {
             "id": 855506,
@@ -292,8 +292,8 @@
         },
         {
             "id": 855601,
-            "name": "永恒的枷鎖",
-            "desc": "<color=#61DA61>体力</color>上限増加(巡回数*5)%。\n造成的<color=#ffffff>傷害</color>減少(巡回数*5)%"
+            "name": "永遠的枷鎖",
+            "desc": "<color=#61DA61>体力</color>上限増加(巡回数×5)%。\n造成的<color=#ffffff>傷害</color>減少(巡回数×5)%"
         },
         {
             "id": 855602,
@@ -308,7 +308,7 @@
         {
             "id": 855604,
             "name": "匯為一体的藤蔓",
-            "desc": "<color=#7C5738>撃殺</color>玫瑰時，使本体与血肉<color=#ffffff>部位</color>失去30点<color=#61DA61>体力</color>。\n此后本場戦斗中対應罪孼属性的抗性降低0.1(可畳加)"
+            "desc": "<color=#7C5738>撃殺</color>玫瑰時，使本体与血肉<color=#ffffff>部位</color>失去30点<color=#61DA61>体力</color>。\n此后本場戦斗中対應罪孼属性的抗性増加0.1(可畳加)"
         },
         {
             "id": 856401,
@@ -318,7 +318,7 @@
         {
             "id": 856402,
             "name": "余火",
-            "desc": "受到攻撃而陣亡時対<color=#ffffff>目標</color>造成与受到的<color=#ffffff>傷害</color>相当的<color=#ffffff>傷害</color>，并使<color=#ffffff>目標</color>増加5級焼傷 強度"
+            "desc": "受到攻撃而陣亡時，対<color=#ffffff>目標</color>造成相当于<color=#ffffff>自身</color>受到<color=#ffffff>傷害</color>量的<color=#ffffff>傷害</color>，并使<color=#ffffff>目標</color>増加5級焼傷 強度"
         },
         {
             "id": 856403,
@@ -403,7 +403,7 @@
         {
             "id": 856802,
             "name": "自我破坏",
-            "desc": "<color=#ffffff>自身</color>受到攻撃時，<color=#7C5738>下回合</color><color=#1BC7F0>憂郁</color>抗性変為脆弱(1.5)，使<color=#ffffff>自身</color>獲得5層守護 "
+            "desc": "<color=#ffffff>自身</color>受到攻撃時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的<color=#1BC7F0>憂郁</color>抗性変為脆弱(1.5)并使<color=#ffffff>自身</color>獲得5層守護 "
         },
         {
             "id": 856803,
