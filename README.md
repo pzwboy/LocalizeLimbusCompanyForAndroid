@@ -8,7 +8,7 @@
 ## 怎么汉化？
 很简单：
 
-先将游戏语言切换至英语`English`
+先将游戏语言切换至日语（即`日本語`）
 
 在`约20MB`的资源下载完成后将边狱公司退至后台（**不是小窗化**），下载本项目[Release](https://github.com/pzwboy/LocalizeLimbusCompanyForAndroid/releases/latest)中的`localize.zip`并解压
 ，通过文件管理器替换同名文件即可（一般就是直接复制到根目录）
@@ -17,4 +17,4 @@
 因字库问题，文本替换了所有汉字至日语字形，至少能看懂了不是吗……
 
 ## 许可证
-CC BY-NC-SA 4.0
+[CC BY-NC-SA 4.0](/README.md)

@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
+    - name: 检查仓库
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
         
-    - name: Get latest release info
+    - name: 获取原iOS版汉化项目信息
       id: get_release
       run: |
         # 使用认证请求
@@ -85,7 +85,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Download and process files
+    - name: 下载并处理文本文件
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         echo "Downloading from: ${{ steps.get_release.outputs.download_url }}"
@@ -108,26 +108,17 @@ jobs:
         unzip localize_jp.zip -d ../temp_extract/
         cd ..
         
-        # 处理文件：重命名JP_前缀为EN_
+        # 处理文件
         cd temp_extract
         
         if [ -d "LocalizeTemp_jp" ]; then
           cd LocalizeTemp_jp
         fi
         
-        # 递归重命名所有以JP_开头的文件
-        find . -type f -name "JP_*" | while read file; do
-          dir=$(dirname "$file")
-          basename=$(basename "$file")
-          newname="${basename/#JP_/EN_}"
-          mv "$file" "$dir/$newname"
-          echo "Renamed: $basename -> $newname"
-        done
-        
         cd ../..
         
         # 准备目标目录
-        TARGET_DIR="Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en"
+        TARGET_DIR="Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/jp"
         
         # 清空并创建目标目录（完全同步）
         rm -rf "$TARGET_DIR"
@@ -148,7 +139,7 @@ jobs:
         
         echo "Files processed and copied to target directory"
         
-    - name: Commit and push changes
+    - name: 提交并推送更改
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         git config user.name "github-actions[bot]"
@@ -166,14 +157,14 @@ jobs:
         git commit -m "同步更新版本 ${{ steps.get_release.outputs.version }}"
         git push origin main
         
-    - name: Create release package
+    - name: 创建Release中的文本压缩包
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         cd ${{ github.workspace }}
-        zip -r localize.zip Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/en/
+        zip -r localize.zip Android/data/com.ProjectMoon.LimbusCompany/files/Assets/Resources_moved/Localize/jp/
         echo "Package created: localize.zip"
         
-    - name: Create release
+    - name: 创建Release 完成更新
       if: steps.get_release.outputs.new_version == 'true'
       run: |
         VERSION="${{ steps.get_release.outputs.version }}"
