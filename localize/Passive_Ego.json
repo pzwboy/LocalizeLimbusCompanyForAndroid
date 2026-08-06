@@ -428,7 +428,7 @@
         },
         {
             "id": 2100711,
-            "name": "骯臓的皮",
+            "name": "殃臓的皮",
             "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>帯有負面状態，則使<color=#ffffff>自身</color>獲得1層[ParryingResultUp]与1層[Endurance]\n- <color=#ffffff>自身</color>每帯有3種負面状態，使<color=#ffffff>自身</color>獲得1層[Protection](最多2層)"
         },
         {
@@ -587,18 +587,18 @@
         },
         {
             "id": 2031011,
-            "name": "此度はそなたが針を呑む番である…！",
-            "desc": "嫉妬属性スキルのダメージ量 +10%\n- 嫉妬共鳴数1につき、追加で当該スキルのダメージ量 +1% (最大7%)\n\nターン開始時、(この戦闘中に累積した自分の体力ダメージ(バリアダメージを含む) ÷ 20)だけ[AttackUp]を得る (最大3)\n\n戦闘開始時に嫉妬完全共鳴を発動したなら、全ての敵へ[NiddleEGO]1を付与 (集中戦闘の場合は部位で判定)"
+            "name": "此次輪到汝来将這針呑下…！",
+            "desc": "使<color=#9702DE>嫉炉</color>技能造成的<color=#ffffff>傷害</color>+10%\n- 每有1点<color=#9702DE>嫉炉</color><color=#7C5738>共鳴</color>数，使該技能造成的<color=#ffffff>傷害</color>額外+1%(最多+7%)\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得(本場戦斗中<color=#ffffff>自身</color>累計受到的<color=#61DA61>体力</color><color=#ffffff>傷害</color>(包括<color=#81BBE8>護盾</color><color=#ffffff>傷害</color>)/20)層[AttackUp](最多3層)\n\n<color=#ffffff>戦斗開始</color>時，若激活<color=#9702DE>嫉炉</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>，則対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加1層[NiddleEGO](若是<color=#ffffff>集中遭遇戦</color>，則改為対所有<color=#ffffff>部位</color>)"
         },
         {
             "id": 2030412,
-            "name": "暴食のるつぼ",
-            "desc": "ターン開始時、色欲以外のランダム属性のE.G.O資源<style=\"highlight\">1つ</style>を、色欲E.G.O資源1つに変換\n<style=\"highlight\">- 色欲E.G.O資源が20以上ならこの効果は発動せず、代わりに[ScarletResultUp]1を得る\n\n色欲属性基本攻撃スキルの攻撃開始前、保有している色欲E.G.O資源1つにつきダメージ量 +1% (最大10%)</style>"
+            "name": "暴食巨釜",
+            "desc": "<color=#7C5738>回合開始</color>時，将<style=\"highlight\">1</style>个非<color=#FE6E00>色欲</color>属性的E.G.O資源轉化為1个<color=#FE6E00>色欲</color>E.G.O資源\n<style=\"highlight\">- 若<color=#FE6E00>色欲</color>E.G.O資源数不少于20个，則不会触発該效果，改為使<color=#ffffff>自身</color>獲得1層[ScarletResultUp]\n\n<color=#FE6E00>色欲</color>基礎技能攻撃前，每持有1个<color=#FE6E00>色欲</color>E.G.O資源，使該技能造成的<color=#ffffff>傷害</color>+1%(最多+10%)</style>"
         },
         {
             "id": 2100312,
-            "name": "シチュー噴出",
-            "desc": "裏面的中時、対象が敵なら[Combustion]1を付与\n\n<style=\"highlight\">敵へ[Combustion]威力または回数を付与する基本攻撃スキル使用時\n\n- 加算コインスキルなら\n・精神力が40未満なら、精神力を4回復\n・精神力が40以上なら、ダメージ量 +10%\n\n- 減算コインスキルなら\n・精神力が-25より高ければ、精神力を4減少 (この効果で精神力が-40未満にならない)\n・精神力が-25以下なら、ダメージ量 +10%</style>"
+            "name": "燉菜噴涌",
+            "desc": "<color=#ffffff>自身</color>的攻撃反面命中時，若<color=#ffffff>目標</color>為<color=#ffffff>敵方単位</color>，則使<color=#ffffff>目標</color>増加1級[Combustion]強度\n\n<style=\"highlight\">対<color=#ffffff>敵方単位</color>使用増加[Combustion]強度或施加[Combustion]層数的基礎攻撃技能時，\n\n- 若該技能為加算硬幣技能\n· <color=#81BBE8>理智値</color>低于40点時，使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>\n· <color=#81BBE8>理智値</color>不低于40点時，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%\n\n- 若該技能為減算硬幣技能\n· <color=#81BBE8>理智値</color>高于-25点時，使<color=#ffffff>自身</color>失去4点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点)\n· <color=#81BBE8>理智値</color>不高于-25点時，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%</style>"
         }
     ]
 }

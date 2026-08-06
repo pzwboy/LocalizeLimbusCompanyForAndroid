@@ -2799,7 +2799,7 @@
                 {
                     "level": 3,
                     "name": "舉刃対笑，如落叶之香气般対瀑布哭泣叭",
-                    "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[StackYisangSpecialSkill]為9層，則使本技能轉化為“Furioso-Replica”(<color=#7C5738>每回合</color>最多1次)\n- 儀表盤上位于最左側<color=#ffffff>行動槽</color>下方一行的技能優先触発\n- [BeforeUse] 若<color=#ffffff>自身</color>的[StackYisangSpecialSkill]層数低于9層，則使用3技能\n以(75-(<color=#ffffff>自身</color>的[KarmaOfIndexAlly]層数/2))%的概率提供<color=#ffffff>斬撃</color>武器\n- 令使用<color=#ffffff>斬撃</color>武器的硬幣造成的<color=#ffffff>傷害</color>+12.5%\n若本技能被[IndexPrescriptTargetMarkToEnemy]標記，則使本技能造成的<color=#ffffff>傷害</color>+10%\n若<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 从本技能的最后一枚硬幣起，使(<color=#ffffff>自身</color>的[UnlockBuff_Base]階段)枚硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]",
+                    "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[StackYisangSpecialSkill]層数為9層，則使本技能轉化為“Furioso-Replica”(<color=#7C5738>每回合</color>最多1次)\n- 儀表盤上位于最左側<color=#ffffff>行動槽</color>下方一行的技能優先触発\n- [BeforeUse] 若<color=#ffffff>自身</color>的[StackYisangSpecialSkill]層数低于9層，則使用3技能\n以(75-(<color=#ffffff>自身</color>的[KarmaOfIndexAlly]層数/2))%的概率提供<color=#ffffff>斬撃</color>武器\n- 令使用<color=#ffffff>斬撃</color>武器的硬幣造成的<color=#ffffff>傷害</color>+12.5%\n若本技能被[IndexPrescriptTargetMarkToEnemy]標記，則使本技能造成的<color=#ffffff>傷害</color>+10%\n若<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 从本技能的最后一枚硬幣起，使(<color=#ffffff>自身</color>的[UnlockBuff_Base]階段)枚硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]",
                     "coinlist": [
                         {},
                         {
@@ -2834,7 +2834,7 @@
                 {
                     "level": 4,
                     "name": "舉刃対笑，如落叶之香气般対瀑布哭泣叭",
-                    "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[StackYisangSpecialSkill]為9層，則使本技能轉化為“Furioso-Replica”(<color=#7C5738>每回合</color>最多1次)\n- 儀表盤上位于最左側<color=#ffffff>行動槽</color>下方一行的技能優先触発\n- [BeforeUse] 若<color=#ffffff>自身</color>的[StackYisangSpecialSkill]層数低于9層，則使用3技能\n以(75-(<color=#ffffff>自身</color>的[KarmaOfIndexAlly]層数/2))%的概率提供<color=#ffffff>斬撃</color>武器\n- 令使用<color=#ffffff>斬撃</color>武器的硬幣造成的<color=#ffffff>傷害</color><style=\"highlight\">+25%</style>\n若本技能被[IndexPrescriptTargetMarkToEnemy]標記，則使本技能造成的<color=#ffffff>傷害</color><style=\"highlight\">+20%</style>\n<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和<style=\"highlight\">每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>\n[WhenUse] 从本技能的最后一枚硬幣起，使(<color=#ffffff>自身</color>的[UnlockBuff_Base]階段<style=\"highlight\">+1</style>)枚硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]\n<style=\"highlight\">- 額外使<color=#ffffff>自身</color>増加相当于<color=#ffffff>自身</color>[UnlockBuff_Base]階段的[Breath]強度</style>",
+                    "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[StackYisangSpecialSkill]層数為9層，則使本技能轉化為“Furioso-Replica”(<color=#7C5738>每回合</color>最多1次)\n- 儀表盤上位于最左側<color=#ffffff>行動槽</color>下方一行的技能優先触発\n- [BeforeUse] 若<color=#ffffff>自身</color>的[StackYisangSpecialSkill]層数低于9層，則使用3技能\n以(75-(<color=#ffffff>自身</color>的[KarmaOfIndexAlly]層数/2))%的概率提供<color=#ffffff>斬撃</color>武器\n- 令使用<color=#ffffff>斬撃</color>武器的硬幣造成的<color=#ffffff>傷害</color><style=\"highlight\">+25%</style>\n若本技能被[IndexPrescriptTargetMarkToEnemy]標記，則使本技能造成的<color=#ffffff>傷害</color><style=\"highlight\">+20%</style>\n<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Sinking]強度之和<style=\"highlight\">每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>\n[WhenUse] 从本技能的最后一枚硬幣起，使(<color=#ffffff>自身</color>的[UnlockBuff_Base]階段<style=\"highlight\">+1</style>)枚硬幣轉化為[SuperCoin]\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]\n<style=\"highlight\">- 額外使<color=#ffffff>自身</color>増加相当于<color=#ffffff>自身</color>[UnlockBuff_Base]階段的[Breath]強度</style>",
                     "coinlist": [
                         {},
                         {
@@ -3039,7 +3039,7 @@
                                     "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[DimensionRift]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多20%)"
                                 }
                             ]
                         }
@@ -3069,7 +3069,7 @@
                                     "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[DimensionRift]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多20%)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3099,7 +3099,7 @@
                                     "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[DimensionRift]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多20%)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3144,7 +3144,7 @@
                                     "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DimensionRift]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多20%)"
                                 }
                             ]
                         }
@@ -3184,7 +3184,7 @@
                                     "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[DimensionRift]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多+20%)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[Charge]強度×4)%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(最多20%)<style=\"highlight\"></style>"
                                 }
                             ]
                         }

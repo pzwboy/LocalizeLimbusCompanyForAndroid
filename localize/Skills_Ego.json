@@ -3100,6 +3100,39 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "level": 4,
+                    "name": "一生燉菜",
+                    "abName": "冠湯翼蜥",
+                    "desc": "[BeforeAttack] 根据当前<color=#FE6E00>色欲</color>E.G.O資源数増加<color=#ffffff>傷害</color>(最多+50%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層焼傷 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 5,
+                    "name": "一生燉菜",
+                    "abName": "冠湯翼蜥",
+                    "desc": "<style=\"highlight\">主要<color=#ffffff>目標</color>的[Combustion]強度与[Laceration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[BeforeAttack] 每持有6个<color=#FE6E00>色欲</color>E.G.O資源，<color=#7C5738>下回合</color>按編隊順序使1名<color=#ffffff>友方単位</color>獲得1層[ScarletResultUp](最多5名)\n[BeforeAttack] 每持有1个<color=#FE6E00>色欲</color>E.G.O資源，使本技能造成的<color=#ffffff>傷害</color>+6%(最多+120%)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Combustion]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]</style>"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -3131,6 +3164,42 @@
                             "coindescs": [
                                 {
                                     "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加4層焼傷 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "一生燉菜",
+                    "abName": "冠湯翼蜥",
+                    "desc": "[CantIdentify]\n指定<color=#61DA61>体力</color>最高的単位\n\n[BeforeAttack] 根据当前<color=#FE6E00>色欲</color>E.G.O資源数増加<color=#ffffff>傷害</color>(最多+50%)\n随后消耗(<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数)的<color=#FE6E00>色欲</color>E.G.O資源。每消耗1个資源増加10%<color=#ffffff>傷害</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加4層焼傷 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 5,
+                    "name": "一生燉菜",
+                    "abName": "冠湯翼蜥",
+                    "desc": "[CantIdentify]\n指定<color=#61DA61>体力</color>最高的単位\n\n<style=\"highlight\">主要<color=#ffffff>目標</color>的[Combustion]強度与[Laceration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[BeforeAttack] 每持有6个<color=#FE6E00>色欲</color>E.G.O資源，<color=#7C5738>下回合</color>按編隊順序使1名<color=#ffffff>友方単位</color>獲得1層[ScarletResultUp]与1層[ScarletDamageUp](最多5名)\n[BeforeAttack] \n- 每持有1个<color=#FE6E00>色欲</color>E.G.O資源，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+100%)\n- 消耗(<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>数×2)个<color=#FE6E00>色欲</color>E.G.O資源(最多8个)\n- 每消耗1个E.G.O資源，使本技能造成的<color=#ffffff>傷害</color>+20%(最多+160%)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加4層[Combustion]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>施加4層[Laceration]</style>"
                                 }
                             ]
                         }
@@ -3172,6 +3241,51 @@
                                 },
                                 {
                                     "desc": "[OnSucceedAttackTail] 使<color=#ffffff>目標</color>増加7級焼傷 強度;若指定<color=#ffffff>友方単位</color>，則<color=#7C5738>下回合</color>使其獲得2層迅捷 和1層E.G.O資源獲取量提升 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "一生燉菜",
+                    "abName": "冠湯翼蜥",
+                    "desc": "[CantIdentify]\n指定<color=#61DA61>体力</color>最低的単位\n若指定<color=#ffffff>友方単位</color>，則不会造成<color=#ffffff>傷害</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] 若指定<color=#ffffff>友方単位</color>，則使其恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] 使<color=#ffffff>目標</color>増加7級焼傷 強度;若指定<color=#ffffff>友方単位</color>，則<color=#7C5738>下回合</color>使其獲得2層迅捷 和1層E.G.O資源獲取量提升 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 5,
+                    "name": "一生燉菜",
+                    "abName": "冠湯翼蜥",
+                    "desc": "[CantIdentify]\n指定<color=#61DA61>体力</color>最低的単位\n<style=\"highlight\">使用本技能所消耗的<color=#A6FE00>暴食</color>E.G.O資源減少至0个\n若指定<color=#ffffff>友方単位</color>，則不会造成<color=#ffffff>傷害</color>且不会触発其守備技能(包括可拼点守備技能)\n[DefeatDuel] 使本技能的<color=#ffffff>基礎威力</color>-8\n[EndSkill] 若本技能命中了<color=#ffffff>友方単位</color>，則使<color=#ffffff>自身</color>恢復相当于本技能指定的<color=#ffffff>友方単位</color>数的<color=#81BBE8>理智値</color>\n[EndSkill] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(5×本技能指定的<color=#ffffff>友方単位</color>数)%的<color=#61DA61>体力</color>(最少5%，最多20%)\n[EndSkill] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[GainSinStockAdder]与2層[Agility]</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則</style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\"> - 使<color=#ffffff>目標</color>恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(5×本技能指定的<color=#ffffff>友方単位</color>数)%的<color=#61DA61>体力</color>(最多20%)</style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\"> - <color=#7C5738>下回合</color>使<color=#ffffff>目標</color>獲得1層[GainSinStockAdder]与2層[Agility]</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] 使<color=#ffffff>目標</color>増加7級[Combustion]強度<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3222,6 +3336,30 @@
                             "coindescs": [
                                 {
                                     "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層焼傷 "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 5,
+                    "name": "一生燉菜",
+                    "abName": "冠湯翼蜥",
+                    "desc": "[CantIdentify]\n指定<color=#61DA61>体力</color>最低的単位\n<style=\"highlight\"> 使用本技能所消耗的<color=#A6FE00>暴食</color>E.G.O資源減少至0个\n[DefeatDuel] 使本技能的<color=#ffffff>基礎威力</color>-12\n[BeforeAttack] <color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度之和每有4級，使本技能造成的<color=#ffffff>傷害</color>+15%(最多+60%)\n[BeforeAttack] 消耗最多3个持有量最多的E.G.O資源，每消耗1个，使本技能造成的<color=#ffffff>傷害</color>+10%(最多+30%)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] 若通過本技能效果消耗了E.G.O資源，則対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量50%的<color=#FE6E00>色欲</color><color=#ffffff>傷害</color></style>"
                                 }
                             ]
                         }

@@ -703,7 +703,7 @@
         {
             "id": 9029,
             "name": "又小又可能很坏的玩偶",
-            "desc": "対<color=#ffffff>戦斗開始</color>時帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%\n\n受到来自<color=#ffffff>戦斗開始</color>時帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>的<color=#ffffff>傷害</color>-20%\n\n擁有<color=#044ED6>傲慢</color>攻撃技能的<color=#ffffff>友方単位</color>改為対帯有流血或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+20%\n\n擁有<color=#044ED6>傲慢</color>攻撃技能的<color=#ffffff>友方単位</color>改為受到来自帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>的<color=#ffffff>傷害</color>-30%。",
+            "desc": "対<color=#ffffff>戦斗開始</color>時帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%\n\n受到来自<color=#ffffff>戦斗開始</color>時帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>的<color=#ffffff>傷害</color>-20%\n\n擁有<color=#044ED6>傲慢</color>攻撃技能的<color=#ffffff>友方単位</color>改為対帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+20%\n\n擁有<color=#044ED6>傲慢</color>攻撃技能的<color=#ffffff>友方単位</color>改為受到来自帯有[Laceration]或<color=#E40302>特殊流血</color>的<color=#ffffff>敵方単位</color>的<color=#ffffff>傷害</color>-30%。",
             "simpleDesc": [
                 {
                     "abilityID": 9029,
@@ -812,7 +812,7 @@
         {
             "id": 9034,
             "name": "単点打撃邏輯電路",
-            "desc": "使用増加[Combustion]強度或施加<color=#E40302>特殊焼傷</color>的技能或<color=#9702DE>嫉炉</color>技能命中<color=#ffffff>敵方単位</color>時，額外使<color=#ffffff>目標</color>増加(技能硬幣数/2)級[Combustion]強度(向上取整)\n- [不可重復触発] 遷居申請 希斯克利夫 E.G.O被動“電路連接”触発時，該效果不会触発\n\n命中時，若<color=#ffffff>目標</color>的[Combustion]強度為99級，則使其施加1層[IDMicroChip](每个<color=#ffffff>敵方単位</color>最多1次，<color=#7C5738>每回合</color>最多3次)",
+            "desc": "使用増加[Combustion]強度或施加<color=#E40302>特殊焼傷</color>的技能或<color=#9702DE>嫉炉</color>技能命中<color=#ffffff>敵方単位</color>時，額外使<color=#ffffff>目標</color>増加(技能硬幣数/2)級[Combustion]強度(向上取整)\n- [不可重復触発] 遷居申請 希斯克利夫 E.G.O被動“電路連接”触発時，該效果不会触発\n\n命中時，若<color=#ffffff>目標</color>的[Combustion]強度為99級，則対其施加1層[IDMicroChip](每个<color=#ffffff>敵方単位</color>最多1次，<color=#7C5738>每回合</color>最多3次)",
             "simpleDesc": [
                 {
                     "abilityID": 9034,
@@ -1293,7 +1293,7 @@
         {
             "id": 29049,
             "name": "荊棘之路++",
-            "desc": "使用増加[Sinking]強度或施加<color=#E40302>特殊沈淪</color>的技能対<color=#ffffff>敵方単位</color>造成<color=#61DA61>体力</color><color=#ffffff>傷害</color>時，<color=#7C5738>回合結束</color>時額外使其<style=\"upgradeHighlight\">増加4級[Sinking]強度并施加3層[Sinking]</style>。(每个回合，每名<color=#ffffff>敵方単位</color>最多1次)\n\n若激活<color=#1BC7F0>憂郁</color>或<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>，則在<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則随机対一个<color=#ffffff>部位</color>)増加3級[Sinking]強度并施加3層[Sinking]。",
+            "desc": "使用増加[Sinking]強度或施加<color=#E40302>特殊沈淪</color>的技能対<color=#ffffff>敵方単位</color>造成<color=#61DA61>体力</color><color=#ffffff>傷害</color>時，<color=#7C5738>回合結束</color>時額外使其<style=\"upgradeHighlight\">増加4級[Sinking]強度并対其施加3層[Sinking]</style>。(每个回合，每名<color=#ffffff>敵方単位</color>最多1次)\n\n若激活<color=#1BC7F0>憂郁</color>或<color=#FE6E00>色欲</color><color=#7C5738>共鳴</color>，則在<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則随机対一个<color=#ffffff>部位</color>)増加3級[Sinking]強度并対其施加3層[Sinking]。",
             "simpleDesc": [
                 {
                     "abilityID": 29049,
@@ -1308,7 +1308,7 @@
         {
             "id": 9050,
             "name": "紅染棉花",
-            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加1級[Laceration]強度并対其施加15層[Laceration]。\n\n<color=#7C5738>回合開始</color>時，帯有[Laceration]的<color=#ffffff>敵方単位</color>在<color=#7C5738>本回合</color>減少(其[Laceration]強度/3)級攻撃等級与防御等級。([Laceration]強度積累至30級時效果最高)",
+            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加1級[Laceration]強度并対其施加15層[Laceration]。(若是異想体，則対所有<color=#ffffff>部位</color>造成此效果。)\n\n<color=#7C5738>回合開始</color>時，帯有[Laceration]的<color=#ffffff>敵方単位</color>在<color=#7C5738>本回合</color>減少(其[Laceration]強度/3)級攻撃等級与防御等級。([Laceration]強度積累至30級時效果最高)",
             "simpleDesc": [
                 {
                     "abilityID": 9050,
