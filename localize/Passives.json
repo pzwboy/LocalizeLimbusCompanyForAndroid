@@ -528,7 +528,7 @@
         {
             "id": 1120421,
             "name": "協助烹任",
-            "desc": "<color=#ffffff>戦斗開始</color>時，使現存<color=#61DA61>体力</color>最低的<color=#ffffff>友方単位</color>恢復5点<color=#61DA61>体力</color>。\n使良·派 厨師長 良秀的被動技能“即興烹任”造成的<color=#61DA61>体力</color>恢復量+5。"
+            "desc": "<color=#ffffff>戦斗開始</color>時，使現存<color=#61DA61>体力</color>最低的<color=#ffffff>友方単位</color>恢復5点<color=#61DA61>体力</color>。\n使良·派 厨師長 良秀的被動技能“即興烹任”的<color=#61DA61>体力</color>恢復量+5。"
         },
         {
             "id": 1100501,
@@ -1685,7 +1685,7 @@
         {
             "id": 1081011,
             "name": "冲撃抵消巨剣",
-            "desc": "<color=#ffffff>戦斗開始</color>時，根据<color=#ffffff>自身</color>帯有的[Vibration]層数，使<color=#ffffff>自身</color>獲得相應層数的[DefenseUp](最多5層)\n- 若<color=#ffffff>自身</color>帯有防御姿態 ，則使以上效果獲得的[DefenseUp]層数変為2倍。"
+            "desc": "<color=#ffffff>戦斗開始</color>時，根据<color=#ffffff>自身</color>帯有的[Vibration]層数，使<color=#ffffff>自身</color>獲得相應層数的[DefenseUp](最多5層)\n- 若<color=#ffffff>自身</color>帯有[DefensiveStance]，則使以上效果獲得的[DefenseUp]層数変為2倍。"
         },
         {
             "id": 1081021,
@@ -3115,7 +3115,7 @@
         {
             "id": 1071621,
             "name": "如果是一対一决斗…",
-            "desc": "<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color>基礎攻撃技能拼点勝利時，\n対<color=#ffffff>目標</color>施加1層[Combustion](<color=#7C5738>每回合</color>最多1次)\n- 優先适用于属于拇指的人格\n- 若該<color=#ffffff>友方単位</color>属于拇指，則改為施加1層[Combustion]与1層[Vibration]\n- <color=#ffffff>戦斗開始</color>時，若場上僅存在1名<color=#ffffff>敵方単位</color>(若是異想体，則以本体判定)，則令本被動施加的[Combustion]層数与[Vibration]層数額外+1層",
+            "desc": "<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color>基礎攻撃技能拼点勝利時，\n対<color=#ffffff>目標</color>施加1層[Combustion](<color=#7C5738>每回合</color>最多1次)\n- 優先适用于属于拇指的人格\n- 若該<color=#ffffff>友方単位</color>属于拇指，則改為施加1層[Combustion]与1層[Vibration]\n- <color=#ffffff>戦斗開始</color>時，若場上僅存在1名<color=#ffffff>敵方単位</color>(若是異想体，則改為以本体判定)，則令本被動施加的[Combustion]層数与[Vibration]層数額外+1層",
             "summary": "",
             "flavor": ""
         },
@@ -3137,7 +3137,7 @@
         {
             "id": 1091603,
             "name": "伯納特利家族之耻",
-            "desc": "<color=#ffffff>自身</color>每消耗1発[AccelBullet]，使<color=#ffffff>自身</color>増加2級[Breath]強度并使<color=#ffffff>自身</color>獲得2層[Breath]\n擲出消耗[AccelBullet]的硬幣時，即使<color=#ffffff>自身</color>消耗了所有[AccelBullet]，攻撃也不会取消\n\n<color=#ffffff>自身</color>僅視作施加[Combustion]与[Vibration]的人格\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的<color=#ffffff>行動槽</color>中存在技能“処置”，則対上回合<color=#ffffff>自身</color>最后攻撃的<color=#ffffff>敵方単位</color>施加[TeachersPreyRodion](若是<color=#ffffff>集中遭遇戦</color>，則以<color=#ffffff>部位</color>判定)\n- 若没有<color=#ffffff>目標</color>，則対現存<color=#61DA61>体力</color>最低的<color=#ffffff>敵方単位</color>施加[TeachersPreyRodion]"
+            "desc": "<color=#ffffff>自身</color>每消耗1発[AccelBullet]，使<color=#ffffff>自身</color>増加2級[Breath]強度并使<color=#ffffff>自身</color>獲得2層[Breath]\n擲出消耗[AccelBullet]的硬幣時，即使<color=#ffffff>自身</color>消耗了所有[AccelBullet]，攻撃也不会取消\n\n<color=#ffffff>自身</color>僅視作施加[Combustion]与[Vibration]的人格\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的<color=#ffffff>行動槽</color>中存在技能“処置”，則対上回合<color=#ffffff>自身</color>最后攻撃的<color=#ffffff>敵方単位</color>施加[TeachersPreyRodion](若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n- 若没有<color=#ffffff>目標</color>，則対現存<color=#61DA61>体力</color>最低的<color=#ffffff>敵方単位</color>施加[TeachersPreyRodion]"
         },
         {
             "id": 1091604,
@@ -3234,6 +3234,26 @@
             "desc": "<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color>使用獲得或消耗[Charge]層数的技能時，<color=#7C5738>下回合</color>使其獲得1層[Agility](<color=#7C5738>每回合</color>最多1次)",
             "summary": "",
             "flavor": ""
+        },
+        {
+            "id": 1061601,
+            "name": "草炎玉球",
+            "desc": "マッチ勝利時、対象に点穴があるなら、[DianxueHongLu]1を付与(1ターンにつき1回)\n\nターン終了時、自分の[Breath]威力5につき次のターンにて[Agility]1を得る(最大2)\n\nクリティカルダメージ量 +(対象の[Combustion]威力)% (最大15%)"
+        },
+        {
+            "id": 1061602,
+            "name": "立会いの下での決闘",
+            "desc": "ステージ初登場時、待機人員またはサポート人員として編成されたセンク協会所属味方人格の数だけ[DuelSousTemoinsEast]を得る(最大3, 死亡者を含む)\n\n基本攻撃スキルで最後に的中した対象へ、次のターンにて[DianxueHongLu]1を付与(1ターンにつき1回, 集中戦闘なら部位に付与)"
+        },
+        {
+            "id": 1061611,
+            "name": "草炎玉球",
+            "desc": "マッチ勝利時、対象に点穴があるなら、[DianxueHongLu]1を付与(1ターンにつき1回)\n\nターン終了時、自分の[Breath]威力<style=\"highlight\">3</style>につき次のターンにて[Agility]1を得る(最大2)\n\nクリティカルダメージ量 +(対象の[Combustion]威力)% (最大15%)\n<style=\"highlight\">- 対象の[DianxueHongLu]1につき、最大値が5%増加</style>"
+        },
+        {
+            "id": 1061621,
+            "name": "退路を融かしておきますね",
+            "desc": "速度が最も高い味方が[Combustion]または特殊火傷を保有した敵にマッチ勝利時、次のターンに[Binding]1を付与(1ターンにつき1回)\n- 対象の[Combustion]回数が4以下なら、追加でこのターンに対象の[Combustion]回数が1増加\n- 対象の[Combustion]回数が5以上なら、追加でこのターンに[Combustion]3を付与"
         }
     ]
 }

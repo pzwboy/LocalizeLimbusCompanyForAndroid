@@ -63,7 +63,7 @@
         {
             "id": 9003,
             "name": "塵帰塵",
-            "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)都帯有[Combustion]或<color=#E40302>特殊焼傷</color>，則使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加2級[Combustion]強度。",
+            "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)都帯有[Combustion]或<color=#E40302>特殊焼傷</color>，則使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加2級[Combustion]強度。",
             "simpleDesc": [
                 {
                     "abilityID": 9003,
@@ -74,7 +74,7 @@
         {
             "id": 19003,
             "name": "塵帰塵+",
-            "desc": "<color=#ffffff>戦斗開始</color>時，<style=\"upgradeHighlight\">使帯有[Combustion]或<color=#E40302>特殊焼傷</color>的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加2級[Combustion]強度</style>。",
+            "desc": "<color=#ffffff>戦斗開始</color>時，<style=\"upgradeHighlight\">使帯有[Combustion]或<color=#E40302>特殊焼傷</color>的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加2級[Combustion]強度</style>。",
             "simpleDesc": [
                 {
                     "abilityID": 19003,
@@ -85,7 +85,7 @@
         {
             "id": 29003,
             "name": "塵帰塵++",
-            "desc": "<color=#ffffff>戦斗開始</color>時，<style=\"upgradeHighlight\">使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加3級[Combustion]強度</style>。",
+            "desc": "<color=#ffffff>戦斗開始</color>時，<style=\"upgradeHighlight\">使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加3級[Combustion]強度</style>。",
             "simpleDesc": [
                 {
                     "abilityID": 29003,
@@ -406,7 +406,7 @@
         {
             "id": 9016,
             "name": "緑光果實",
-            "desc": "使用<color=#A6FE00>暴食</color>技能対未陷入混乱的<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>，或通過技能效果増加[Vibration]強度時，随机使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加共計4級[Vibration]強度。",
+            "desc": "使用<color=#A6FE00>暴食</color>技能対未陷入混乱的<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>，或通過技能效果増加[Vibration]強度時，随机使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加共計4級[Vibration]強度。",
             "simpleDesc": [
                 {
                     "abilityID": 9016,
@@ -417,7 +417,7 @@
         {
             "id": 19016,
             "name": "緑光果實+",
-            "desc": "使用<color=#A6FE00>暴食</color>技能対未陷入混乱的<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>，或通過技能效果増加[Vibration]強度時，随机使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加共計<style=\"upgradeHighlight\">6級[Vibration]強度</style>。",
+            "desc": "使用<color=#A6FE00>暴食</color>技能対未陷入混乱的<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>，或通過技能效果増加[Vibration]強度時，随机使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加共計<style=\"upgradeHighlight\">6級[Vibration]強度</style>。",
             "simpleDesc": [
                 {
                     "abilityID": 19016,
@@ -428,7 +428,7 @@
         {
             "id": 29016,
             "name": "緑光果實++",
-            "desc": "使用<color=#A6FE00>暴食</color>技能対未陷入混乱的<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>，或通過技能效果増加[Vibration]強度時，随机使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加共計<style=\"upgradeHighlight\">8級[Vibration]強度</style>。",
+            "desc": "使用<color=#A6FE00>暴食</color>技能対未陷入混乱的<color=#ffffff>敵方単位</color>造成<color=#ffffff>傷害</color>，或通過技能效果増加[Vibration]強度時，随机使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加共計<style=\"upgradeHighlight\">8級[Vibration]強度</style>。",
             "simpleDesc": [
                 {
                     "abilityID": 29016,
@@ -454,7 +454,7 @@
         {
             "id": 9018,
             "name": "玫瑰王冠",
-            "desc": "<color=#7C5738>回合開始</color>時，随机使1名<color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加4級[Burst]強度。\n\n激活<color=#A6FE00>暴食</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>時，在<color=#ffffff>戦斗開始</color>時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加2級[Burst]強度。",
+            "desc": "<color=#7C5738>回合開始</color>時，随机使1名<color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加4級[Burst]強度。\n\n激活<color=#A6FE00>暴食</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>時，在<color=#ffffff>戦斗開始</color>時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加2級[Burst]強度。",
             "simpleDesc": [
                 {
                     "abilityID": 9018,
@@ -469,7 +469,7 @@
         {
             "id": 19018,
             "name": "玫瑰王冠+",
-            "desc": "<color=#7C5738>回合開始</color>時，随机使<style=\"upgradeHighlight\">2名<color=#ffffff>敵方単位</color></style>(或所有異想体<color=#ffffff>部位</color>)増加4級[Burst]強度。\n\n激活<color=#A6FE00>暴食</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>時，在<color=#ffffff>戦斗開始</color>時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">増加3級[Burst]強度</style>。",
+            "desc": "<color=#7C5738>回合開始</color>時，随机使<style=\"upgradeHighlight\">2名<color=#ffffff>敵方単位</color></style>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加4級[Burst]強度。\n\n激活<color=#A6FE00>暴食</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>時，在<color=#ffffff>戦斗開始</color>時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">増加3級[Burst]強度</style>。",
             "simpleDesc": [
                 {
                     "abilityID": 19018,
@@ -484,7 +484,7 @@
         {
             "id": 29018,
             "name": "玫瑰王冠++",
-            "desc": "<color=#7C5738>回合開始</color>時，随机使<style=\"upgradeHighlight\">3名<color=#ffffff>敵方単位</color></style>(或所有異想体<color=#ffffff>部位</color>)増加4級[Burst]強度。\n\n激活<color=#A6FE00>暴食</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>時，在<color=#ffffff>戦斗開始</color>時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">増加4級[Burst]強度</style>。",
+            "desc": "<color=#7C5738>回合開始</color>時，随机使<style=\"upgradeHighlight\">3名<color=#ffffff>敵方単位</color></style>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加4級[Burst]強度。\n\n激活<color=#A6FE00>暴食</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>時，在<color=#ffffff>戦斗開始</color>時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">増加4級[Burst]強度</style>。",
             "simpleDesc": [
                 {
                     "abilityID": 29018,
@@ -737,7 +737,7 @@
         {
             "id": 9031,
             "name": "輝光変動儀",
-            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加4級[Vibration]強度，并対其施加4層[Vibration]。\n\n使用<color=#9702DE>嫉炉</color>技能造成<color=#ffffff>傷害</color>時，使<color=#ffffff>目標</color>増加2級[Vibration]強度。",
+            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加4級[Vibration]強度，并対其施加4層[Vibration]。\n\n使用<color=#9702DE>嫉炉</color>技能造成<color=#ffffff>傷害</color>時，使<color=#ffffff>目標</color>増加2級[Vibration]強度。",
             "simpleDesc": [
                 {
                     "abilityID": 9031,
@@ -752,7 +752,7 @@
         {
             "id": 19031,
             "name": "輝光変動儀+",
-            "desc": "<style=\"upgradeHighlight\">波次的首个<color=#7C5738>回合開始</color>時</style>，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加4級[Vibration]強度，并対其施加4層[Vibration]。\n\n使用<color=#9702DE>嫉炉</color>技能造成<color=#ffffff>傷害</color>時，使<color=#ffffff>目標</color>増加2級[Vibration]強度。",
+            "desc": "<style=\"upgradeHighlight\">波次的首个<color=#7C5738>回合開始</color>時</style>，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加4級[Vibration]強度，并対其施加4層[Vibration]。\n\n使用<color=#9702DE>嫉炉</color>技能造成<color=#ffffff>傷害</color>時，使<color=#ffffff>目標</color>増加2級[Vibration]強度。",
             "simpleDesc": [
                 {
                     "abilityID": 19031,
@@ -767,7 +767,7 @@
         {
             "id": 29031,
             "name": "輝光変動儀++",
-            "desc": "波次的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)<style=\"upgradeHighlight\">増加5級[Vibration]強度，并対其施加5層[Vibration]。</style>\n\n使用<color=#9702DE>嫉炉</color>技能造成<color=#ffffff>傷害</color>時，使<color=#ffffff>目標</color><style=\"upgradeHighlight\">増加3級[Vibration]強度。</style>",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)<style=\"upgradeHighlight\">増加5級[Vibration]強度，并対其施加5層[Vibration]。</style>\n\n使用<color=#9702DE>嫉炉</color>技能造成<color=#ffffff>傷害</color>時，使<color=#ffffff>目標</color><style=\"upgradeHighlight\">増加3級[Vibration]強度。</style>",
             "simpleDesc": [
                 {
                     "abilityID": 29031,
@@ -1308,7 +1308,7 @@
         {
             "id": 9050,
             "name": "紅染棉花",
-            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加1級[Laceration]強度并対其施加15層[Laceration]。(若是異想体，則対所有<color=#ffffff>部位</color>造成此效果。)\n\n<color=#7C5738>回合開始</color>時，帯有[Laceration]的<color=#ffffff>敵方単位</color>在<color=#7C5738>本回合</color>減少(其[Laceration]強度/3)級攻撃等級与防御等級。([Laceration]強度積累至30級時效果最高)",
+            "desc": "関峠的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加1級[Laceration]強度并対其施加15層[Laceration]。\n\n<color=#7C5738>回合開始</color>時，帯有[Laceration]的<color=#ffffff>敵方単位</color>在<color=#7C5738>本回合</color>減少(其[Laceration]強度/3)級攻撃等級与防御等級。([Laceration]強度積累至30級時效果最高)",
             "simpleDesc": [
                 {
                     "abilityID": 9050,
@@ -1323,7 +1323,7 @@
         {
             "id": 19050,
             "name": "紅染棉花+",
-            "desc": "<style=\"upgradeHighlight\">波次的首个<color=#7C5738>回合開始</color>時</style>，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">増加2級[Laceration]強度</style>并対其施加15層[Laceration]。(若是異想体，則対所有<color=#ffffff>部位</color>造成此效果。)\n\n<color=#7C5738>回合開始</color>時，帯有[Laceration]的<color=#ffffff>敵方単位</color>在<color=#7C5738>本回合</color>減少(其[Laceration]強度/3)級攻撃等級与防御等級。([Laceration]強度積累至30級時效果最高)",
+            "desc": "<style=\"upgradeHighlight\">波次的首个<color=#7C5738>回合開始</color>時</style>，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">(若是異想体，則改為所有<color=#ffffff>部位</color>)増加2級[Laceration]強度</style>并対其施加15層[Laceration]。\n\n<color=#7C5738>回合開始</color>時，帯有[Laceration]的<color=#ffffff>敵方単位</color>在<color=#7C5738>本回合</color>減少(其[Laceration]強度/3)級攻撃等級与防御等級。([Laceration]強度積累至30級時效果最高)",
             "simpleDesc": [
                 {
                     "abilityID": 19050,
@@ -1338,7 +1338,7 @@
         {
             "id": 29050,
             "name": "紅染棉花++",
-            "desc": "波次的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">増加4級[Laceration]強度并対其施加20層[Laceration]。</style>(若是異想体，則対所有<color=#ffffff>部位</color>造成此效果。)\n\n<color=#7C5738>回合開始</color>時，帯有[Laceration]的<color=#ffffff>敵方単位</color>在<color=#7C5738>本回合</color>減少<style=\"upgradeHighlight\">(其[Laceration]強度/2)級攻撃等級与防御等級。</style>([Laceration]強度積累至30級時效果最高)",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color><style=\"upgradeHighlight\">(若是異想体，則改為所有<color=#ffffff>部位</color>)増加4級[Laceration]強度并対其施加20層[Laceration]。</style>\n\n<color=#7C5738>回合開始</color>時，帯有[Laceration]的<color=#ffffff>敵方単位</color>在<color=#7C5738>本回合</color>減少<style=\"upgradeHighlight\">(其[Laceration]強度/2)級攻撃等級与防御等級。</style>([Laceration]強度積累至30級時效果最高)",
             "simpleDesc": [
                 {
                     "abilityID": 29050,
@@ -1499,7 +1499,7 @@
         {
             "id": 9055,
             "name": "暴雨",
-            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)増加(当前回合数×2)級[Vibration]強度并対其施加2層[Vibration]。\n\n<color=#7C5738>回合結束</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)[VibrationExplosion]。",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)増加(当前回合数×2)級[Vibration]強度并対其施加2層[Vibration]。\n\n<color=#7C5738>回合結束</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)[VibrationExplosion]。",
             "simpleDesc": [
                 {
                     "abilityID": 9055,
@@ -1514,7 +1514,7 @@
         {
             "id": 19055,
             "name": "暴雨+",
-            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)<style=\"upgradeHighlight\">増加(3+当前回合数×2)級[Vibration]強度并対其施加3層[Vibration]。</style>\n\n<color=#7C5738>回合結束</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)[VibrationExplosion]。",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)<style=\"upgradeHighlight\">増加(3+当前回合数×2)級[Vibration]強度并対其施加3層[Vibration]。</style>\n\n<color=#7C5738>回合結束</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)[VibrationExplosion]。",
             "simpleDesc": [
                 {
                     "abilityID": 19055,
@@ -1529,7 +1529,7 @@
         {
             "id": 29055,
             "name": "暴雨++",
-            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)<style=\"upgradeHighlight\">増加(5+当前回合数×2)級[Vibration]強度</style>并対其施加3層[Vibration]。\n\n<color=#7C5738>回合結束</color>時，<style=\"upgradeHighlight\">使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)[VibrationExplosion]2次</style>。",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)<style=\"upgradeHighlight\">増加(5+当前回合数×2)級[Vibration]強度</style>并対其施加3層[Vibration]。\n\n<color=#7C5738>回合結束</color>時，<style=\"upgradeHighlight\">使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)[VibrationExplosion]2次</style>。",
             "simpleDesc": [
                 {
                     "abilityID": 29055,
@@ -2269,7 +2269,7 @@
         {
             "id": 9083,
             "name": "月之記憶",
-            "desc": "<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(異想体則為所有<color=#ffffff>部位</color>)的物理抗性及罪孼抗性全部変為“致命”。",
+            "desc": "<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)的物理抗性及罪孼抗性全部変為“致命”。",
             "simpleDesc": [
                 {
                     "abilityID": 9083,
@@ -2354,7 +2354,7 @@
         {
             "id": 9088,
             "name": "鎮魂",
-            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果。(不包括E.G.O技能，不包括待命人員)\n\n<color=#7C5738>回合開始</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或異想体的所有<color=#ffffff>部位</color>)施加6層[Combustion]并随机使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加共計15級[Combustion]強度。(每个波次最多1次)\n\n使増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的加算硬幣技能的<color=#ffffff>最終威力</color>+1，<color=#ffffff>硬幣威力</color>+1，使<color=#ffffff>目標</color>増加的[Combustion]強度額外+1級，対<color=#ffffff>目標</color>施加的[Combustion]層数額外+1層。\n- 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(4/硬幣数)，而非<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的技能拼点勝利時，使<color=#ffffff>目標</color><color=#ffffff>敵方単位</color>増加(剩余硬幣数+1)級[Combustion]強度",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果。(不包括E.G.O技能，不包括待命人員)\n\n<color=#7C5738>回合開始</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)施加6層[Combustion]并随机使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加共計15級[Combustion]強度。(每个波次最多1次)\n\n使増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的加算硬幣技能的<color=#ffffff>最終威力</color>+1，<color=#ffffff>硬幣威力</color>+1，使<color=#ffffff>目標</color>増加的[Combustion]強度額外+1級，対<color=#ffffff>目標</color>施加的[Combustion]層数額外+1層。\n- 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(4/硬幣数)，而非<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n増加[Combustion]強度，施加[Combustion]層数或施加<color=#E40302>特殊焼傷</color>的技能拼点勝利時，使<color=#ffffff>目標</color><color=#ffffff>敵方単位</color>増加(剩余硬幣数+1)級[Combustion]強度",
             "simpleDesc": [
                 {
                     "abilityID": 9088,
@@ -2493,7 +2493,7 @@
         {
             "id": 9093,
             "name": "熒光灯",
-            "desc": "<color=#7C5738>回合結束</color>時，若有<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>帯有[Burst]，則<color=#7C5738>下回合</color>随机使1名<color=#ffffff>友方単位</color>獲得1層[AttackDmgUp]或1層[Agility]。触発(帯有[Burst]的<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>数量+1)次。",
+            "desc": "<color=#7C5738>回合結束</color>時，若有<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>帯有[Burst]，則<color=#7C5738>下回合</color>随机使1名<color=#ffffff>友方単位</color>獲得1層[AttackDmgUp]或1層[Agility]。触発(帯有[Burst]的<color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)数量+1)次。",
             "simpleDesc": [
                 {
                     "abilityID": 9093,
@@ -2504,7 +2504,7 @@
         {
             "id": 19093,
             "name": "熒光灯+",
-            "desc": "<color=#7C5738>回合結束</color>時，若有<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>帯有[Burst]，則<color=#7C5738>下回合</color>随机使1名<color=#ffffff>友方単位</color>獲得1層[AttackDmgUp]或1層[Agility]。<style=\"upgradeHighlight\">触発(帯有[Burst]的<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>数量+3)次</style>。",
+            "desc": "<color=#7C5738>回合結束</color>時，若有<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>帯有[Burst]，則<color=#7C5738>下回合</color>随机使1名<color=#ffffff>友方単位</color>獲得1層[AttackDmgUp]或1層[Agility]。<style=\"upgradeHighlight\">触発(帯有[Burst]的<color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)数量+3)次</style>。",
             "simpleDesc": [
                 {
                     "abilityID": 19093,
@@ -2515,7 +2515,7 @@
         {
             "id": 29093,
             "name": "熒光灯++",
-            "desc": "<color=#7C5738>回合結束</color>時，若有<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>帯有[Burst]，則<color=#7C5738>下回合</color>随机使1名<color=#ffffff>友方単位</color><style=\"upgradeHighlight\">獲得1層[AttackDmgUp]与1層[Agility]。</style>触発(帯有[Burst]的<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>数量+3)次。",
+            "desc": "<color=#7C5738>回合結束</color>時，若有<color=#ffffff>敵方単位</color>或異想体<color=#ffffff>部位</color>帯有[Burst]，則<color=#7C5738>下回合</color>随机使1名<color=#ffffff>友方単位</color><style=\"upgradeHighlight\">獲得1層[AttackDmgUp]与1層[Agility]。</style>触発(帯有[Burst]的<color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)数量+3)次。",
             "simpleDesc": [
                 {
                     "abilityID": 29093,
@@ -2545,7 +2545,7 @@
         {
             "id": 9095,
             "name": "破碎羅盤",
-            "desc": "波次的首个<color=#7C5738>回合開始</color>時，随机対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)施加共計(5+<color=#ffffff>敵方単位</color>数量×3)層[Sinking]。（若是異想体，僅其本体算作1名<color=#ffffff>敵方単位</color>）",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，随机対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)施加共計(5+<color=#ffffff>敵方単位</color>数量×3)層[Sinking]。（若是異想体，僅其本体算作1名<color=#ffffff>敵方単位</color>）",
             "simpleDesc": [
                 {
                     "abilityID": 9095,
@@ -2556,7 +2556,7 @@
         {
             "id": 19095,
             "name": "破碎羅盤+",
-            "desc": "波次的首个<color=#7C5738>回合開始</color>時，随机対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)施加共計<style=\"upgradeHighlight\">(10+<color=#ffffff>敵方単位</color>数量×3)層[Sinking]</style>。(若是異想体，僅其本体算作1名<color=#ffffff>敵方単位</color>)",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，随机対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)施加共計<style=\"upgradeHighlight\">(10+<color=#ffffff>敵方単位</color>数量×3)層[Sinking]</style>。(若是異想体，僅其本体算作1名<color=#ffffff>敵方単位</color>)",
             "simpleDesc": [
                 {
                     "abilityID": 19095,
@@ -2567,7 +2567,7 @@
         {
             "id": 29095,
             "name": "破碎羅盤++",
-            "desc": "波次的首个<color=#7C5738>回合開始</color>時，随机対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(或所有異想体<color=#ffffff>部位</color>)施加共計<style=\"upgradeHighlight\">(10+<color=#ffffff>敵方単位</color>数量×4)層[Sinking]</style>。(若是異想体，僅其本体算作1名<color=#ffffff>敵方単位</color>)",
+            "desc": "波次的首个<color=#7C5738>回合開始</color>時，随机対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)施加共計<style=\"upgradeHighlight\">(10+<color=#ffffff>敵方単位</color>数量×4)層[Sinking]</style>。(若是異想体，僅其本体算作1名<color=#ffffff>敵方単位</color>)",
             "simpleDesc": [
                 {
                     "abilityID": 29095,

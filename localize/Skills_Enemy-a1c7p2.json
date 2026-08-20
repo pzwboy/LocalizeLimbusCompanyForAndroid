@@ -32,7 +32,7 @@
                 {
                     "level": 1,
                     "name": "失去目的的暴怒",
-                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的硬化血液 層数不低于3層且本技能的硬幣帯有施加[Burst]的效果，則額外使<color=#ffffff>目標</color>増加2級[Laceration]強度",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[HardenedBlood]層数不低于3層且本技能的硬幣帯有施加[Burst]的效果，則額外使<color=#ffffff>目標</color>増加2級[Laceration]強度",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -159,7 +159,7 @@
                 {
                     "level": 1,
                     "name": "失去目的的暴怒",
-                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的硬化血液 層数不低于3層且本技能的硬幣帯有施加[Burst]的效果，則額外対<color=#ffffff>目標</color>施加1層[Laceration]",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于5級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[HardenedBlood]層数不低于3層且本技能的硬幣帯有施加[Burst]的效果，則額外対<color=#ffffff>目標</color>施加1層[Laceration]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -321,7 +321,7 @@
                 {
                     "level": 1,
                     "name": "硬血強化打撃",
-                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，根据<color=#ffffff>自身</color>帯有的硬化血液 層数，額外使<color=#ffffff>目標</color>増加[Burst]強度\n[EndSkill] 消耗所有硬化血液 与染血之手 ",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，根据<color=#ffffff>自身</color>帯有的[HardenedBlood]層数，額外使<color=#ffffff>目標</color>増加[Burst]強度\n[EndSkill] 消耗所有[HardenedBlood]与[BloodyHand]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -430,7 +430,7 @@
                 {
                     "level": 1,
                     "name": "硬血強化打撃",
-                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，根据<color=#ffffff>自身</color>帯有的硬化血液 層数，額外使<color=#ffffff>目標</color>増加[Burst]強度\n[EndSkill] 消耗所有硬化血液 与染血之手 ",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，根据<color=#ffffff>自身</color>帯有的[HardenedBlood]層数，額外使<color=#ffffff>目標</color>増加[Burst]強度\n[EndSkill] 消耗所有[HardenedBlood]与[BloodyHand]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -591,7 +591,7 @@
                 {
                     "level": 1,
                     "name": "反撃",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的染血之手 層数不低于1層，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的硬化血液 層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[BloodyHand]層数不低于1層，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[HardenedBlood]層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -723,7 +723,7 @@
                 {
                     "level": 1,
                     "name": "反撃",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的染血之手 層数不低于1層，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的硬化血液 層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[BloodyHand]層数不低于1層，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[HardenedBlood]層数不低于3層，則使本技能的<color=#ffffff>硬幣威力</color>+1",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -764,7 +764,7 @@
                 {
                     "level": 1,
                     "name": "硬血削切",
-                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有5層慶典的熱潮 或<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并立即触発<color=#ffffff>自身</color>的[Laceration]1次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少1層",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有5層[FestivalFever]或<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并立即触発<color=#ffffff>自身</color>的[Laceration]1次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少1層",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -793,7 +793,7 @@
                 {
                     "level": 1,
                     "name": "硬血強化展開",
-                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndBattle] 消耗所有硬化血液 与慶典的熱潮 ",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndBattle] 消耗所有[HardenedBlood]与[FestivalFever]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -826,7 +826,7 @@
                 {
                     "level": 1,
                     "name": "閃避",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+1\n[StartBattle] 使<color=#ffffff>自身</color>獲得2層慶典的熱潮 \n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去2層慶典的熱潮 ",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[FestivalFever]層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+1\n[StartBattle] 使<color=#ffffff>自身</color>獲得2層[FestivalFever]\n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去2層[FestivalFever]",
                     "coinlist": [
                         {}
                     ]
@@ -861,7 +861,7 @@
                 {
                     "level": 1,
                     "name": "硬血乱刺",
-                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有5層慶典的熱潮 或<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并立即触発<color=#ffffff>自身</color>的[Laceration]1次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少1層",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有5層[FestivalFever]或<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并立即触発<color=#ffffff>自身</color>的[Laceration]1次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少1層",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -890,7 +890,7 @@
                 {
                     "level": 1,
                     "name": "硬血強化展開",
-                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndBattle] 消耗所有硬化血液 与慶典的熱潮 ",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>増加15級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndBattle] 消耗所有[HardenedBlood]与[FestivalFever]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -923,7 +923,7 @@
                 {
                     "level": 1,
                     "name": "閃避",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+1\n[StartBattle] 使<color=#ffffff>自身</color>獲得2層慶典的熱潮 \n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去2層慶典的熱潮 ",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[FestivalFever]層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+1\n[StartBattle] 使<color=#ffffff>自身</color>獲得2層[FestivalFever]\n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去2層[FestivalFever]",
                     "coinlist": [
                         {}
                     ]
@@ -1017,7 +1017,7 @@
                 {
                     "level": 1,
                     "name": "永遠的幸福王国拉·曼却領！",
-                    "desc": "[WhenUse] 若[BloodDinner]低于40層，則使<color=#ffffff>自身</color>増加20級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndSkill] 消耗40層[BloodDinner]\n[EndBattle] 消耗所有[HardenedBlood]和[FestivalFever]\n\n",
+                    "desc": "[WhenUse] 若[BloodDinner]低于40層，則使<color=#ffffff>自身</color>増加20級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndSkill] 消耗40層[BloodDinner]\n[EndBattle] 消耗所有[HardenedBlood]和[FestivalFever]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1049,7 +1049,7 @@
                 {
                     "level": 1,
                     "name": "閃避",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+2\n[StartBattle] 使<color=#ffffff>自身</color>獲得3層慶典的熱潮 \n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去3層慶典的熱潮 ",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[FestivalFever]層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+2\n[StartBattle] 使<color=#ffffff>自身</color>獲得3層[FestivalFever]\n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去3層[FestivalFever]",
                     "coinlist": [
                         {}
                     ]
@@ -1143,7 +1143,7 @@
                 {
                     "level": 1,
                     "name": "永遠的幸福王国拉·曼却領！",
-                    "desc": "[WhenUse] 若[BloodDinner]低于40層，則使<color=#ffffff>自身</color>増加20級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndSkill] 消耗40層[BloodDinner]\n[EndBattle] 消耗所有[HardenedBlood]和[FestivalFever]\n\n",
+                    "desc": "[WhenUse] 若[BloodDinner]低于40層，則使<color=#ffffff>自身</color>増加20級[Laceration]強度并対<color=#ffffff>自身</color>施加2層[Laceration]，立即触発<color=#ffffff>自身</color>的[Laceration]2次，随后使<color=#ffffff>自身</color>的[Laceration]層数減少2層\n[EndSkill] 消耗40層[BloodDinner]\n[EndBattle] 消耗所有[HardenedBlood]和[FestivalFever]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1175,7 +1175,7 @@
                 {
                     "level": 1,
                     "name": "閃避",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的慶典的熱潮 層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+2\n[StartBattle] 使<color=#ffffff>自身</color>獲得3層慶典的熱潮 \n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去3層慶典的熱潮 ",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[FestivalFever]層数不低于5層，則使本技能的<color=#ffffff>最終威力</color>+2\n[StartBattle] 使<color=#ffffff>自身</color>獲得3層[FestivalFever]\n[OnDefeatEvade] 使<color=#ffffff>自身</color>失去3層[FestivalFever]",
                     "coinlist": [
                         {}
                     ]
