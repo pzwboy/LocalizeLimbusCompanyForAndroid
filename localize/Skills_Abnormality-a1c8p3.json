@@ -6,7 +6,7 @@
                 {
                     "level": 1,
                     "name": "二連斬",
-                    "desc": "<color=#ffffff>目標</color>的[Combustion]与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)",
+                    "desc": "<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -32,7 +32,7 @@
                 {
                     "level": 1,
                     "name": "三連撃",
-                    "desc": "<color=#ffffff>目標</color>的[Combustion]与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)",
+                    "desc": "<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -65,7 +65,7 @@
                 {
                     "level": 1,
                     "name": "二連斬-爆",
-                    "desc": "<color=#ffffff>目標</color>的[Combustion]与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+4)\n[DefeatDuel] 使<color=#ffffff>自身</color>的[BulletPropellant]減少1発",
+                    "desc": "<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+4)\n[DefeatDuel] 使<color=#ffffff>自身</color>的[BulletPropellant]減少1発",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -97,7 +97,7 @@
                 {
                     "level": 1,
                     "name": "三連撃-爆",
-                    "desc": "<color=#ffffff>目標</color>的[Combustion]与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+4)\n[DefeatDuel] 使<color=#ffffff>自身</color>的[BulletPropellant]減少1発",
+                    "desc": "<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+4)\n[DefeatDuel] 使<color=#ffffff>自身</color>的[BulletPropellant]減少1発",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -142,7 +142,7 @@
                 {
                     "level": 1,
                     "name": "爆碎斬",
-                    "desc": "優先指定帯有[Prey]的<color=#ffffff>目標</color>\n可无視<color=#7C5737>速度値</color>与本技能拼点\n<color=#ffffff>目標</color>的[Combustion]与[Vibration]強度之和每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+3)\n[DefeatDuel] 使<color=#ffffff>自身</color>失去10点<color=#81BBE8>理智値</color>",
+                    "desc": "優先指定帯有[Prey]的<color=#ffffff>目標</color>\n可无視<color=#7C5737>速度値</color>与本技能拼点\n<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+3)\n[DefeatDuel] 使<color=#ffffff>自身</color>失去10点<color=#81BBE8>理智値</color>",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -211,7 +211,7 @@
                 {
                     "level": 1,
                     "name": "快刀乱麻",
-                    "desc": "優先指定帯有[Prey]的<color=#ffffff>目標</color>\n可无視<color=#7C5737>速度値</color>与本技能拼点。直到使用本技能時，<color=#ffffff>自身</color>不会陷入混乱\n[WhenUse] 消耗所有[BattleSense]，若消耗的[BattleSense]層数\n- 不低于10層，則每消耗10層，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n- 為25層，則主要<color=#ffffff>目標</color>的[Combustion]与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+5)\n[DefeatDuel] 対<color=#ffffff>自身</color>施加4層[ResultReduction]\n[DefeatDuel] 対<color=#ffffff>自身</color>施加1層[Paralysis]\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-80%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，令本技能増加的[Combustion]与[Vibration]強度与施加的[Combustion]与[Vibration]層数減半(不包括其他效果増加的施加量)\n[EndSkill] 使<color=#ffffff>自身</color>[FullReload](<color=#7C5738>每回合</color>最多1次)\n- 若<color=#ffffff>自身</color>帯有[BulletPropellantSpecial]，則改為使<color=#ffffff>自身</color>[ReloadKeepAmmo](<color=#7C5738>每回合</color>最多1次)\n[EndSkill] 結束<color=#7C5738>本回合</color>",
+                    "desc": "優先指定帯有[Prey]的<color=#ffffff>目標</color>\n可无視<color=#7C5737>速度値</color>与本技能拼点。直到使用本技能時，<color=#ffffff>自身</color>不会陷入混乱\n[WhenUse] 消耗所有[BattleSense]，若消耗的[BattleSense]層数\n- 不低于10層，則每消耗10層，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n- 為25層，則主要<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+5)\n[DefeatDuel] 対<color=#ffffff>自身</color>施加4層[ResultReduction]\n[DefeatDuel] 対<color=#ffffff>自身</color>施加1層[Paralysis]\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-80%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，令本技能増加的[Combustion]与[Vibration]強度与施加的[Combustion]与[Vibration]層数減半(不包括其他效果増加的施加量)\n[EndSkill] 使<color=#ffffff>自身</color>[FullReload](<color=#7C5738>每回合</color>最多1次)\n- 若<color=#ffffff>自身</color>帯有[BulletPropellantSpecial]，則改為使<color=#ffffff>自身</color>[ReloadKeepAmmo](<color=#7C5738>每回合</color>最多1次)\n[EndSkill] 結束<color=#7C5738>本回合</color>",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -242,7 +242,7 @@
                 {
                     "level": 1,
                     "name": "超絶猛虎殺撃乱斬",
-                    "desc": "優先指定帯有[Prey]的<color=#ffffff>目標</color>\n可无視<color=#7C5737>速度値</color>与本技能拼点。直到使用本技能時，<color=#ffffff>自身</color>不会陷入混乱\n[WhenUse] 消耗所有[BattleSense]，若消耗的[BattleSense]層数\n- 不低于10層，則每消耗10層，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+4)\n- 不低于25層，則主要<color=#ffffff>目標</color>的[Combustion]与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+6)\n- 為50層，則使本技能的<color=#ffffff>硬幣威力</color>+1，造成的<color=#ffffff>傷害</color>+50%\n[DefeatDuel] 対<color=#ffffff>自身</color>施加2層[ResultReduction]\n[DefeatDuel] 対<color=#ffffff>自身</color>施加6層[Paralysis]\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-80%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，令本技能増加的[Combustion]与[Vibration]強度与施加的[Combustion]与[Vibration]層数減半(不包括其他效果増加的施加量)\n[EndSkill] 使<color=#ffffff>自身</color>[FullReload](<color=#7C5738>每回合</color>最多1次)\n- 若<color=#ffffff>自身</color>帯有[BulletPropellantSpecial]，則改為使<color=#ffffff>自身</color>[ReloadKeepAmmo](<color=#7C5738>每回合</color>最多1次)\n[EndSkill] 結束<color=#7C5738>本回合</color>",
+                    "desc": "優先指定帯有[Prey]的<color=#ffffff>目標</color>\n可无視<color=#7C5737>速度値</color>与本技能拼点。直到使用本技能時，<color=#ffffff>自身</color>不会陷入混乱\n[WhenUse] 消耗所有[BattleSense]，若消耗的[BattleSense]層数\n- 不低于10層，則每消耗10層，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+4)\n- 不低于25層，則主要<color=#ffffff>目標</color>的[Combustion]強度与[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+6)\n- 為50層，則使本技能的<color=#ffffff>硬幣威力</color>+1，造成的<color=#ffffff>傷害</color>+50%\n[DefeatDuel] 対<color=#ffffff>自身</color>施加2層[ResultReduction]\n[DefeatDuel] 対<color=#ffffff>自身</color>施加6層[Paralysis]\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-80%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱，令本技能増加的[Combustion]与[Vibration]強度与施加的[Combustion]与[Vibration]層数減半(不包括其他效果増加的施加量)\n[EndSkill] 使<color=#ffffff>自身</color>[FullReload](<color=#7C5738>每回合</color>最多1次)\n- 若<color=#ffffff>自身</color>帯有[BulletPropellantSpecial]，則改為使<color=#ffffff>自身</color>[ReloadKeepAmmo](<color=#7C5738>每回合</color>最多1次)\n[EndSkill] 結束<color=#7C5738>本回合</color>",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -350,7 +350,7 @@
                                     "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Combustion]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Combustion]"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
                                 }
                             ]
                         }

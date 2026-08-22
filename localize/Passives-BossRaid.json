@@ -119,63 +119,63 @@
         },
         {
             "id": 501911,
-            "name": "射影戦闘",
-            "desc": "同じ対象とのマッチが10発以上になると、\nマッチ威力が現在の(マッチ発数 ÷ 10)だけランダムに増加または減少 (最大10)\n\n[Combustion]・[Laceration]・[Vibration]・[Burst]・[Sinking]の威力が最大30まで蓄積され、\n回数は最大10まで蓄積される\n\n1番目の編成で入場した場合、ステージ開始時に\n- 自分と戦場にいる全囚人の精神力を30に変更\n(減算コイン人格なら、-30を適用)\n- 全属性E.G.O資源 +3\n\nパッシブ「<noparse>天退星</noparse>」の効果発動時、\nターンが終了して次のターンにフェーズ2へ移行する\n- 保有効果はフェーズ移行によって初期化されない\n\n2・3番目の編成で入場した場合、ステージ開始時に\n現体力の比率に応じて、下記パッシブが順番に発動していたものとして扱われる\n- 85%超過 : <noparse>虎標弾</noparse>装填\n- 85%以下 : <noparse>虎標弾</noparse>装填、レイホン【雷横】\n- 66%以下 : <noparse>虎標弾</noparse>装填、レイホン【雷横】、<noparse>天退星</noparse>\n- 50%以下 : <noparse>虎標弾</noparse>装填、レイホン【雷横】、<noparse>天退星</noparse>、小指 天退星雷横"
+            "name": "映射戦斗",
+            "desc": "若与同一<color=#ffffff>目標</color>拼点不低于10次，\n則随机使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>増加或減少(拼点次数/10)(最多10)\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]強度最多累計到30級，\n層数最多累計到10層\n\n第1編隊登場的<color=#7C5737>関峠開始</color>時，\n- 使<color=#ffffff>自身</color>与場上的<color=#ffffff>全体</color>罪人的<color=#81BBE8>理智値</color>変為30点\n(若是減算硬幣人格，則改為-30点)\n- 獲得所有属性的E.G.O資源各3个\n\n被動天退星的效果触発時，\n結束<color=#7C5738>本回合</color>并在<color=#7C5738>下回合</color>変為第2階段\n- <color=#ffffff>自身</color>帯有的状態效果不会因改変階段而重置\n\n第1与第2編隊登場的<color=#7C5737>関峠開始</color>時，\n根据現存<color=#61DA61>体力</color>比例，相應使以下被動按順序視作已触発\n- 高于85%： <noparse>虎標彈</noparse>装填\n- 不高于85%：<noparse>虎標彈</noparse>装填，雷横\n- 不高于66%：<noparse>虎標彈</noparse>装填，雷横，天退星\n- 不高于50%：<noparse>虎標彈</noparse>装填，雷横，天退星，小指 天退星雷横"
         },
         {
             "id": 501901,
-            "name": "親指幹部 カポIIII",
-            "desc": "[Combustion]・[Laceration]・[Vibration]・[Burst]・[Sinking]による被ダメージ量 -30%\n\n[BulletPropellant]を消耗するコインをトスするとき、[BulletPropellant]がない場合でも攻撃をキャンセルしない代わりに該当コイン的中時に[Combustion]付与、[Combustion]回数増加が発動しない\n\nマッチ進行時、(1 + マッチを進行した回数 ÷ 3)だけ、対象の[Vibration]回数が増加\n(最大3, 1つの対象へ1ターンにつき最大3回適用)"
+            "name": "拇指干部 指揮官IIII",
+            "desc": "受到的[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]<color=#ffffff>傷害</color>-30%\n\n擲出消耗[BulletPropellant]的硬幣時，即使<color=#ffffff>自身</color>消耗了所有[BulletPropellant]，攻撃也不会取消，但該硬幣的増加[Combustion]強度与施加[Combustion]層数的效果不会生效\n\n進行拼点時，対<color=#ffffff>目標</color>施加(1+進行拼点次数/3)層[Vibration]\n(最多3層，<color=#7C5738>每回合</color>每个<color=#ffffff>目標</color>最多3次)"
         },
         {
             "id": 501902,
             "name": "東部十剣",
-            "desc": "ステージ開始時とパターンが変更されるターン開始時、\n- [Bothersome]1を得る\n- 自分の失った体力10%につき、精神力を5回復(最大40)\n\n[PanicChangeLock]効果が適用され、\nターン終了時にパニック状態なら精神力が45に変更される"
+            "desc": "<color=#7C5737>関峠開始</color>時与改変模式的<color=#7C5738>回合開始</color>時\n- 対<color=#ffffff>自身</color>施加1層[Bothersome]\n- <color=#ffffff>自身</color>每失去10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(最多40点)\n\n适用于[PanicChangeLock]效果，\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為45点"
         },
         {
             "id": 501903,
-            "name": "獲物選び",
-            "desc": "ターン開始時、前のターンに<color=#ff6000><mark=#ff000040><b><u>自分へ最も多くダメージを与えた囚人へ[Prey_leiheng]1を付与</u></b></mark></color>\n\nレイホンが[Prey_leiheng]を保有する囚人を攻撃し、攻撃終了時に対象が\n- 混乱状態なら全囚人の精神力が10減少し、このターンと次のターンに[ParryingResultDown]1を得る (1ターンにつき1回)\n- 死亡したなら、上記効果が追加で1回発動"
+            "name": "選定猟物",
+            "desc": "回合開始時，対在上回合<color=#ff6000><mark=#ff000040><b><u>対自身造成的傷害最高的罪人施加1層[Prey_leiheng]</u></b></mark></color>\n\n雷横攻撃帯有[Prey_leiheng]的罪人后，若目標\n- 陷入混乱，則使全体罪人失去10点理智値并在本回合与下回合対其施加1層[ParryingResultDown](每回合最多1次)\n- 陣亡，則以上效果額外触発1次"
         },
         {
             "id": 501904,
             "name": "天退星刀",
-            "desc": "<color=#ff6000><mark=#ff000040><b><u>一方攻撃的中時</u></b></mark></color>、ダメージ量が30%増加し、次のターンに[Vulnerable]1を付与\n\n[BulletPropellant]を消耗して、的中したスキルコインのダメージ量が20%だけ増加し、次のターンに[DefenseDown]2を付与\n\n<color=#ff6000><mark=#ff000040><b><u>対象が守備スキルを装着した場合は、上記の効果が適用されない</u></b></mark></color>"
+            "desc": "<color=#ff6000><mark=#ff000040><b><u>単方面攻撃命中時</u></b></mark></color>，造成的傷害+30%并在下回合対目標施加1層[Vulnerable]\n\n技能消耗[BulletPropellant]的硬幣命中時，造成的傷害+20%并在下回合対目標施加2層[DefenseDown]\n\n<color=#ff6000><mark=#ff000040><b><u>若目標装備了守備技能，則以上效果不会生效</u></b></mark></color>"
         },
         {
             "id": 501912,
-            "name": "天退星刀オーバーヒート",
-            "desc": "強力な攻撃(「快刀亂麻」・「超絶猛虎殺撃乱斬」)を使用したなら、この戦闘の間に強力な攻撃を使用した回数だけ次のターンに[Complacency]を得る (最大5)"
+            "name": "天退星刀 過熱",
+            "desc": "若使用了強力攻撃(“快刀乱麻”，“超絶猛虎殺撃乱斬”)，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加層数相当于本場戦斗期間<color=#ffffff>自身</color>使用該技能次数的[Complacency](最多5層)"
         },
         {
             "id": 501910,
-            "name": "揷翅虎",
-            "desc": "戦闘開始時、<color=#ff6000><mark=#ff000040><b><u>自分の速度に比例</u></b></mark></color>して\n- 数値だけ精神力を回復。精神力が0未満なら回復量が2倍になる\n- (数値 ÷ 3)だけ[SlashDamageUp]を得る (最大5)\n\n戦闘開始時、<color=#ff6000><mark=#ff000040><b><u>自分が[Binding]を3以上保有しているなら上記の効果が発動せず、</u></b></mark></color>保有している[Binding]の数値だけ[DefenseDown]を得る (最大9)"
+            "name": "插翅虎",
+            "desc": "戦斗開始時，<color=#ff6000><mark=#ff000040><b><u>根据自身的速度値</u></b></mark></color>\n- 使自身恢復相当于自身的速度値的理智値。若自身理智値低于0点，則使恢復的理智値変為2倍\n- 使自身獲得(自身的速度値/3)層[SlashDamageUp](最多5層)\n\n戦斗開始時，<color=#ff6000><mark=#ff000040><b><u>若自身的[Binding]層数不低于3層，則以上效果不会触発</u></b></mark></color>并対自身施加層数相当于自身[Binding]層数的[DefenseDown](最多9層)"
         },
         {
             "id": 501905,
-            "name": "虎標弾装填",
-            "desc": "最初のターン終了時、[BulletPropellant]を装填して次のターンにパターンが変更される\n- 混乱状態なら、混乱を解除"
+            "name": "虎標彈装填",
+            "desc": "首个<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>装填[BulletPropellant]并在<color=#7C5738>下回合</color>改変<color=#ffffff>自身</color>模式\n- 若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
         },
         {
             "id": 501906,
-            "name": "レイホン【雷横】",
-            "desc": "ターン終了時に体力が85%以下になるか、2ターン目終了時に次のターンにパターンが変更される\n- 強力な攻撃(「快刀亂麻」)を使用し、3ターン目ごとに繰り返す。このスキルを使用するターンの速度の最小・最大値 +10\n- 該当ターン開始時、[BattleSense]25を得る\n- 混乱状態なら、混乱を解除"
+            "name": "雷横",
+            "desc": "<color=#7C5738>回合結束</color>時現存<color=#61DA61>体力</color>不高于85%或第2<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>改変<color=#ffffff>自身</color>模式\n- 使用強力攻撃(“快刀乱麻”)，每3回合重復該效果。使用該技能的回合使<color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+10\n- 該<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得25層[BattleSense]\n- 若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
         },
         {
             "id": 501907,
             "name": "天退星",
-            "desc": "戦闘進行中に体力が66%以下になったなら、次のターンにフェーズが移行してパターンが変更される\n- 該当ターン開始時、[Irritation]1を得る\n- 該当ターン開始時、[BulletPropellantSpecial]18を得て即装填\n· [BulletPropellantSpecial]を全て消耗する場合、この効果が[BulletPropellant]に変更されて次のターンに厳格な親指 ソルダート2名を召喚し、[BulletPropellantSpecial]を補給\n- 混乱状態なら、混乱を解除"
+            "desc": "若戦斗中現存<color=#61DA61>体力</color>不高于66%，則<color=#7C5738>下回合</color>改変階段与<color=#ffffff>自身</color>模式\n- 該<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[Irritation]\n- 該<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得18発[BulletPropellantSpecial]并立刻装填\n· 若<color=#ffffff>自身</color>消耗了所有[BulletPropellantSpecial]，則使其轉化為[BulletPropellant]并在<color=#7C5738>下回合</color>召喚2名厳格的拇指士兵為<color=#ffffff>自身</color>補給[BulletPropellantSpecial]\n- 若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
         },
         {
             "id": 501908,
             "name": "小指 天退星雷横",
-            "desc": "ターン終了時点で体力が50%以下になったなら、次のターンにパターンが変更される\n- 強力な攻撃「快刀亂麻」が「超絶猛虎殺撃乱斬」に変更される。このスキルを使用するターン速度の最小・最大値 +15\n- [BattleSense]が[RestoredBattleSense]に変更\n- [Irritation]が[HugeIrritation]に変更\n- 混乱状態なら、混乱を解除"
+            "desc": "若<color=#7C5738>回合結束</color>時現存<color=#61DA61>体力</color>不高于50%，則<color=#7C5738>下回合</color>改変<color=#ffffff>自身</color>模式\n- 強力攻撃“快刀乱麻”改為“超絶猛虎殺撃乱斬”。使用該技能的回合使<color=#ffffff>自身</color>的最小与最大<color=#7C5737>速度値</color>+15\n- 使<color=#ffffff>自身</color>的[BattleSense]轉化為[RestoredBattleSense]\n- 使<color=#ffffff>自身</color>的[Irritation]轉化為[HugeIrritation]\n- 若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱"
         },
         {
             "id": 502001,
-            "name": "猛虎標弾支援",
-            "desc": "ターン終了時、[Vulnerable]3を得る\nターン終了時、レイホンへ[BulletPropellantSpecial]を支給する\n\n死亡時、次のターンにレイホンが[Vulnerable]1を得る"
+            "name": "猛虎標彈支援",
+            "desc": "<color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加3層[Vulnerable]\n<color=#7C5738>回合結束</color>時，為雷横補給[BulletPropellantSpecial]\n\n<color=#ffffff>自身</color>陣亡時，<color=#7C5738>下回合</color>対雷横施加1層[Vulnerable]"
         }
     ]
 }

@@ -130,7 +130,7 @@
         {
             "id": 2100111,
             "name": "動揺",
-            "desc": "攻撃命中時，若当前硬幣的朝向与前一个硬幣不同，則失去5点<color=#81BBE8>理智値</color>，并在<color=#7C5738>下回合</color>獲得1層傷害強化 。(<color=#7C5738>每回合</color>最多3次)"
+            "desc": "攻撃命中時，若当前硬幣的朝向与前一个硬幣不同，則失去5点<color=#81BBE8>理智値</color>，并在<color=#7C5738>本回合</color>獲得1層傷害強化 。(<color=#7C5738>每回合</color>最多3次)"
         },
         {
             "id": 2100211,
@@ -598,7 +598,8 @@
         {
             "id": 2100312,
             "name": "燉菜噴涌",
-            "desc": "<color=#ffffff>自身</color>的攻撃反面命中時，若<color=#ffffff>目標</color>為<color=#ffffff>敵方単位</color>，則使<color=#ffffff>目標</color>増加1級[Combustion]強度\n\n<style=\"highlight\">対<color=#ffffff>敵方単位</color>使用増加[Combustion]強度或施加[Combustion]層数的基礎攻撃技能時，\n\n- 若該技能為加算硬幣技能\n· <color=#81BBE8>理智値</color>低于40点時，使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>\n· <color=#81BBE8>理智値</color>不低于40点時，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%\n\n- 若該技能為減算硬幣技能\n· <color=#81BBE8>理智値</color>高于-25点時，使<color=#ffffff>自身</color>失去4点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点)\n· <color=#81BBE8>理智値</color>不高于-25点時，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%</style>"
+            "desc": "<color=#ffffff>自身</color>的攻撃反面命中時，若<color=#ffffff>目標</color>為<color=#ffffff>敵方単位</color>，則使<color=#ffffff>目標</color>増加1級[Combustion]強度\n\n<style=\"highlight\">対<color=#ffffff>敵方単位</color>使用増加[Combustion]強度或施加[Combustion]層数的基礎攻撃技能時，\n\n- 若該技能為加算硬幣技能\n· <color=#81BBE8>理智値</color>低于40点時，使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>\n· <color=#81BBE8>理智値</color>不低于40点時，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%\n\n- 若該技能為減算硬幣技能\n· <color=#81BBE8>理智値</color>高于-25点時，使<color=#ffffff>自身</color>失去4点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点)\n· <color=#81BBE8>理智値</color>不高于-25点時，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%</style>",
+            "summary": "反面命中時，使<color=#ffffff>目標</color>増加[Combustion]強度。使<color=#ffffff>自身</color>恢復或失去<color=#81BBE8>理智値</color>，或造成的<color=#ffffff>傷害</color>増加"
         }
     ]
 }
