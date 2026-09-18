@@ -3418,6 +3418,379 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 1041601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "不潔だな",
+                    "desc": "[StartBattle] 自分の[ChargeNoirAlly]威力が3、[ChargeNoirAlly]回数が\n12以上なら、[ChargeNoirAlly]回数を6消耗して体力最大値の5%だけバリアを得る (1ターンにつき2回)\n[WhenUse] 自分の[ChargeNoirAlly]回数が10未満なら、\n自分の[ChargeNoirAlly]回数が1増加\n[WhenUse] [RealisationAlly]を最大15消耗\n- マッチ威力 +1\n- ダメージ量 +(消耗した[RealisationAlly] × 3)% (最大45%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 2,
+                    "name": "不潔だな",
+                    "desc": "[StartBattle] 自分の[ChargeNoirAlly]威力が3、[ChargeNoirAlly]回数が12以上なら、\n[ChargeNoirAlly]回数を6消耗して体力最大値の5%だけバリアを得る (1ターンにつき2回)\n[WhenUse] 自分の[ChargeNoirAlly]回数が10未満なら、自分の[ChargeNoirAlly]回数が<style=\"highlight\">2</style>増加\n[WhenUse] [RealisationAlly]を最大15消耗\n- マッチ威力 +1\n- ダメージ量 +(消耗した[RealisationAlly] × 3)% (最大45%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "不潔だな",
+                    "desc": "[StartBattle] 自分の[ChargeNoirAlly]威力が3、[ChargeNoirAlly]回数が12以上なら、\n[ChargeNoirAlly]回数を6消耗して体力最大値の5%だけバリアを得る (1ターンにつき2回)\n[WhenUse] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">12</style>未満なら、自分の[ChargeNoirAlly]回数が2増加\n<style=\"highlight\">[WhenUse] [NoirSuitAlly]が50以上なら、\nマッチ威力 +1、ダメージ量 +30%</style>\n[WhenUse] [RealisationAlly]を最大15消耗\n<style=\"highlight\">- 最終威力 +1</style>\n- ダメージ量 +(消耗した[RealisationAlly] × 3)% (最大45%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1041602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "来て試着してみろ",
+                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数が12以上なら、6消耗してマッチ威力 +1、ダメージ量 +10%\n- 自分の[ChargeNoirAlly]回数が2増加\n[WhenUse] [RealisationAlly]を最大20消耗\n- マッチ威力 +1\n- ダメージ量 +(消耗した[RealisationAlly])% (最大20%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] (自分の[ChargeNoirAlly]威力+1)だけ自分の[ChargeNoirAlly]回数が増加 (最大4)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加"
+                                }
+                            ]
+                        },
+                        {}
+                    ]
+                },
+                {
+                    "level": 2,
+                    "name": "来て試着してみろ",
+                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数が12以上なら、\n6消耗してマッチ威力 +1、ダメージ量 +10%\n- 自分の[ChargeNoirAlly]回数が2増加\n[WhenUse] [RealisationAlly]を最大20消耗\n- マッチ威力 +1\n- ダメージ量 +(消耗した[RealisationAlly])% (最大20%)<style=\"highlight\"></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] (自分の[ChargeNoirAlly]威力+1)だけ自分の[ChargeNoirAlly]回数が増加 (最大<style=\"highlight\">6</style>)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少</style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "来て試着してみろ",
+                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数が12以上なら、\n6消耗して<style=\"highlight\">最終威力 +1</style>、ダメージ量 <style=\"highlight\">+20%</style>\n- 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加\n<style=\"highlight\">[WhenUse] [NoirSuitAlly]が50以上なら、ダメージ量 +15%</style>\n[WhenUse] [RealisationAlly]を最大20消耗\n<style=\"highlight\">- 最終威力 +1</style>\n- ダメージ量 +(消耗した[RealisationAlly])% (最大20%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] (自分の[ChargeNoirAlly]威力 + <style=\"highlight\">3</style>)だけ自分の[ChargeNoirAlly]回数が増加 (最大6)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が<style=\"highlight\">2</style>増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1041603,
+            "levelList": [
+                {
+                    "level": 3,
+                    "name": "トリプル・スタンピード・ステッチング",
+                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数が10以上なら、最大20まで消耗し、\nダメージ量 +(消耗した[ChargeNoirAlly]回数)% (最大20%)\n- 自分の[ChargeNoirAlly]回数が3増加\n[WhenUse] [NoirSuitAlly]40につき、マッチ威力 +1, ダメージ量 +10% (それぞれ最大2, 最大20%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "ダメージ量 +([NoirSuitAlly]の数値÷2)% (最大50%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "トリプル・スタンピード・ステッチング",
+                    "desc": "<style=\"highlight\">[StartBattle] [NoirSuitAlly]20を得る (1ターンにつき1回)</style>\n[WhenUse]\n- 自分の[ChargeNoirAlly]回数が10以上なら最大20まで消耗し、\nダメージ量 +(消耗した[ChargeNoirAlly]回数)% (最大20%)\n- 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加\n[WhenUse] [NoirSuitAlly]<style=\"highlight\">30</style>につき、マッチ威力 +1、ダメージ量 <style=\"highlight\">+20%</style> <style=\"highlight\">(それぞれ最大3, 最大60%)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">3</style>を付与、[Vibration]回数が<style=\"highlight\">3</style>増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "ダメージ量 +(<style=\"highlight\">[NoirSuitAlly]の数値</style>)% (最大<style=\"highlight\">100%</style>)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]<style=\"highlight\">2回</style>。対象の[Vibration]回数が<style=\"highlight\">2</style>減少"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1041604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "この顧客野郎！商品にシワが寄ってるじゃないか！",
+                    "desc": "[DuelCounter]\n[StartBattle]\n- 自分の[NoirSuitAlly]が60以上なら、該当効果が次のターンに[RealisationAlly]へ変更される\n- 自分の[RealisationAlly]が60未満なら、該当効果が次のターンに[NoirSuitAlly]へ変更される\n[WhenUse] 自分の[ChargeNoirAlly]回数が2増加 (1ターンにつき2回)",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]1を付与 (1ターンにつき2回)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "この顧客野郎！商品にシワが寄ってるじゃないか！",
+                    "desc": "[DuelCounter]\n[StartBattle]\n- 自分の[NoirSuitAlly]が60以上なら、\n該当効果が次のターンに[RealisationAlly]へ変更される\n- 自分の[RealisationAlly]が60未満なら、\n該当効果が次のターンに[NoirSuitAlly]へ変更される\n<style=\"highlight\">[BeforeUse] 自分の[RealisationAlly]が60以上なら、\n「ワンキック - クチュール・ミュルティプル」として発動する (1ターンにつき1回)\n- この効果が発動したなら、攻撃終了時に[RealisationAlly]を全て消耗</style>\n[WhenUse] 自分の[ChargeNoirAlly]回数が2増加 (1ターンにつき2回)",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]1を付与 (1ターンにつき2回)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "この顧客野郎！商品にシワが寄ってるじゃないか！",
+                    "desc": "[DuelCounter]\n[StartBattle]\n- 自分の[NoirSuitAlly]が60以上なら、\n該当効果が次のターンに[RealisationAlly]へ変更される\n- 自分の[RealisationAlly]が60未満なら、\n該当効果が次のターンに[NoirSuitAlly]へ変更される\n[BeforeUse] 自分の[RealisationAlly]が60以上なら、\n「ワンキック - クチュール・ミュルティプル」として発動する (1ターンにつき1回)\n- この効果が発動したなら、攻撃終了時に[RealisationAlly]を全て消耗\n<style=\"highlight\">[WhenUse] 自分の[ChargeNoirAlly]威力が3/5以上なら、コイン威力 +1/+2</style>\n[WhenUse] 自分の[ChargeNoirAlly]回数が2増加 (1ターンにつき2回)",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">2</style>を付与 (1ターンにつき2回)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1041605,
+            "levelList": [
+                {
+                    "level": 3,
+                    "name": "ワンキック - クチュール・ミュルティプル",
+                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数を最大20まで消耗し、\nダメージ量 +(消耗した[ChargeNoirAlly]回数)% (最大20%)\n- 自分の[ChargeNoirAlly]回数が3増加\n[WhenUse] [RealisationAlly]を最大60消耗\n- 消耗した[RealisationAlly]が60以上なら、最終威力 +1\n- ダメージ量 +(消耗した[RealisationAlly]÷3)% (最大20%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]3を付与、[Vibration]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が2以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の10%だけ貫通ダメージ"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "ワンキック - クチュール・ミュルティプル",
+                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数を最大20まで消耗し、\nダメージ量 +(消耗した[ChargeNoirAlly]回数)% (最大20%)\n- 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加\n[WhenUse] [RealisationAlly]を最大60消耗\n- 消耗した[RealisationAlly]<style=\"highlight\">30につき</style>、最終威力 +1 <style=\"highlight\">(最大2)</style>\n- ダメージ量 +(消耗した[RealisationAlly]÷3)% (最大20%)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]3を付与、[Vibration]回数が3増加<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、\n[VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が2以上なら、\n[VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] このコインの最終ダメージ量の10%だけ貫通ダメージ</style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の<style=\"highlight\">15%</style>だけ貫通ダメージ"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

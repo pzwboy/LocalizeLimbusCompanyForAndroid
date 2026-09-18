@@ -2772,6 +2772,331 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 1081601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "ああ、あなたには聞こえないようですね？",
+                    "desc": "[WhenUse] 自分の現体力が80%以上なら、[ChargeRougeAlly]回数3を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 2,
+                    "name": "ああ、あなたには聞こえないようですね？",
+                    "desc": "<style=\"highlight\">自分の[ChargeRougeAlly]が2以上なら、コイン威力 +1</style>\n[WhenUse] 自分の現体力が80%以上なら、[ChargeRougeAlly]回数3を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が<style=\"highlight\">3</style>増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "ああ、あなたには聞こえないようですね？",
+                    "desc": "自分の[ChargeRougeAlly]が2以上なら、コイン威力 +1\n[WhenUse] 自分の現体力が80%以上なら、[ChargeRougeAlly]回数<style=\"highlight\">5</style>を得る\n<style=\"highlight\">[WhenUse] 対象の[Laceration]3につき、マッチ威力 +1 (最大2)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が3増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1081602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "声が聞こえなかったからといって、不在だったわけではないということを！",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 体力最大値の([ChargeRougeAlly]威力 × 2)%だけ体力を回復 (最大10%)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 2,
+                    "name": "声が聞こえなかったからといって、不在だったわけではないということを！",
+                    "desc": "<style=\"highlight\">自分の[ChargeRougeAlly]2につき、最終威力 +1 (最大2)\n[WhenUse] 自分の[ChargeRougeAlly]回数が10未満なら、体力を最大値の3 × (10 - 現在の[ChargeRougeAlly]回数)%だけ消耗し、[ChargeRougeAlly]回数が10まで増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を10消耗し、コイン威力 +1\n[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1\n[BeforeAttack] 自分に[RougeIshmaelEclose]があるなら、ダメージ量 +20%\n- [RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗した後に発動</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が<style=\"highlight\">4</style>増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[ChargeRougeAlly]が3以上なら、次のターンに[ScarletTakeDamageUp]1を付与 (1ターンにつき1回)</style>"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 体力を最大値の([ChargeRougeAlly]威力 × <style=\"highlight\">3</style>)%だけ回復 (最大<style=\"highlight\">15%</style>)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "声が聞こえなかったからといって、不在だったわけではないということを！",
+                    "desc": "自分の[ChargeRougeAlly]2につき、最終威力 +1 (最大2)\n[WhenUse] 自分の[ChargeRougeAlly]回数が10未満なら、体力を最大値の3 × (10 - 現在の[ChargeRougeAlly]回数)%だけ消耗し、[ChargeRougeAlly]回数が10まで増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を10消耗し、コイン威力 +1\n[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1\n[BeforeAttack] 自分に[RougeIshmaelEclose]があるなら、ダメージ量 +<style=\"highlight\">40%</style>\n- [RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗した後に発動",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]が<style=\"highlight\">2</style>以上なら、次のターンに[ScarletTakeDamageUp]1を付与 (1ターンにつき1回)"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 体力を最大値の([ChargeRougeAlly]威力 × 3)%だけ回復 (最大15%)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1081603,
+            "levelList": [
+                {
+                    "level": 3,
+                    "name": "掻き削り、引き剥がし、釘付けにしろ！",
+                    "desc": "自分の[ChargeRougeAlly]1につき、ダメージ量 +5% (最大25%)\n[StartBattle] 自分の現体力が最大値の50%未満、または自分に[RougeIshmaelEclose]があるなら、このスキルの全コインが[SuperCoin]に変更される\n[WhenUse] 自分の[ChargeRougeAlly]回数が15未満なら、体力を最大値の3 × (15 - 現在の[ChargeRougeAlly]回数)%だけ消耗し、[ChargeRougeAlly]回数が15まで増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を15消耗し、コイン威力 +3\n[WhenUse] 対象の[Laceration]6につき、コイン威力 +1 (最大2)\n[BeforeAttack] 自分に[RougeIshmaelEclose]があるなら、ダメージ量 +40%\n- [RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗した後に発動",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[ChargeRougeAlly]威力 × 10)%だけ色欲ダメージ (最大30%)"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 体力を最大値の([ChargeRougeAlly]威力 × 4)%だけ回復 (最大20%)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "掻き削り、引き剥がし、釘付けにしろ！",
+                    "desc": "自分の[ChargeRougeAlly]1につき、ダメージ量 +<style=\"highlight\">10%</style> (最大<style=\"highlight\">50%</style>)\n[StartBattle] 自分の現体力が最大値の50%未満、または自分に[RougeIshmaelEclose]があるなら、このスキルの全コインが[SuperCoin]に変更される\n[WhenUse] 自分の[ChargeRougeAlly]回数が15未満なら、体力を最大値の3 × (15 - 現在の[ChargeRougeAlly]回数)%だけ消耗し、[ChargeRougeAlly]回数が15まで増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を15消耗し、コイン威力 +3\n[WhenUse] 対象の[Laceration]6につき、コイン威力 +1 (最大2)\n[BeforeAttack] 自分に[RougeIshmaelEclose]があるなら、ダメージ量 +40%\n- [RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗した後に発動",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]<style=\"highlight\">4</style>を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[ChargeRougeAlly]威力 × 10)%だけ色欲ダメージ (最大30%)"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 体力を最大値の([ChargeRougeAlly]威力 × 4)%だけ回復 (最大20%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1081604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "やっぱり…この世界には意味があったんですよね？",
+                    "desc": "[DuelCounter]\n[StartBattle] 自分の現体力が最大値の10%以下なら、[RougeIshmaelCocoon]2を得て[RougeIshmaelCocoon]になる (戦闘につき1回)\n[StartBattle] 自分に[RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗し、次のターンにこのスロットの[Aggro]が10増加 (1ターンにつき1回)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "やっぱり…この世界には意味があったんですよね？",
+                    "desc": "[DuelCounter]\n[StartBattle] 自分の現体力が最大値の10%以下なら、[RougeIshmaelCocoon]2を得て[RougeIshmaelCocoon]になる (戦闘につき1回)\n[StartBattle] 自分に[RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗し、次のターンにこのスロットの[Aggro]が10増加 (1ターンにつき1回)\n<style=\"highlight\">[WhenUse] 自分の[ChargeRougeAlly]威力2につき、最終威力 +1 (最大2)\n[WhenUse] 対象の[Laceration]4につき、ダメージ量 +10% (最大40%)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 自分に[RougeIshmaelEclose]があるなら、体力を最大値の10%だけ回復 (1ターンにつき1回)</style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1081605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "声に従い、喜んで私の中へ",
+                    "desc": "[RougeIshmaelCocoon]専用スキル\n[CanDuelGuard]\n[StartBattle] 自分の[ChargeRougeAlly]回数が10以上なら、10消耗し、次のターンに編成順が早い順に味方2名へ[ResultEnhancement]1を付与 (1ターンにつき1回)\n[StartBattle] 自分の体力を最大値の50%だけ回復 (1ターンにつき1回)\n[WinDuel] 自分の[ChargeRougeAlly]回数が5増加 (1ターンにつき4回)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "声に従い、喜んで私の中へ",
+                    "desc": "[RougeIshmaelCocoon]専用スキル\n[CanDuelGuard]\n[StartBattle] 自分の[ChargeRougeAlly]回数が10以上なら、10消耗し、次のターンに編成順が早い順に味方2名へ[ResultEnhancement]1を付与 (1ターンにつき1回)\n<style=\"highlight\">- 対象がル・ルージュ所属なら、次のターンに自分の[ChargeRougeAlly]回数が5増加し、対象に[AttackDmgUp]1を追加で付与</style>\n[StartBattle] 自分の体力最大値の<style=\"highlight\">100%</style>だけ体力を回復 (1ターンにつき1回)\n<style=\"highlight\">[WinDuel] 自分に付与された解除可能なマイナス効果からランダムに1つ除去 (1ターンにつき1回)</style>\n[WinDuel] 自分の[ChargeRougeAlly]回数が5増加 (1ターンにつき4回)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

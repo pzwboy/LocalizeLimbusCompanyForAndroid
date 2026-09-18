@@ -1,0 +1,710 @@
+{
+  "dataList": [
+    {
+      "id": 9105901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "殴る",
+          "desc": "対象の[Vibration]が4以上なら、最終威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "体当たり",
+          "desc": "対象の[Vibration]が4以上なら、最終威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分に[Laceration]があるなら、その威力の数値の半分だけ対象に[Laceration]回数を付与 (最大5、1ターンにつき1回、小数点以下切り捨て)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "叩きつける",
+          "desc": "対象の[Vibration]が4以上なら、最終威力 +1\n[WhenUse] 自分の[Laceration]1につき、ダメージ量 +1% (最大20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 自分に[Laceration]があるなら、その威力の数値だけ対象に[Laceration]回数を付与 (最大8、1ターンにつき1回)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防御",
+          "desc": "[StartBattle] 精神力を5回復\n[StartBattle] 次のターンに[ResultEnhancement]1を得る",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "打つ",
+          "desc": "対象の[Vibration]が4以上なら、最終威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "胴体で押す",
+          "desc": "対象の[Vibration]が4以上なら、最終威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分に[Laceration]があるなら、その威力の数値の半分だけ対象に[Laceration]回数を付与 (最大5、1ターンにつき1回、小数点以下切り捨て)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "振り下ろす",
+          "desc": "対象の[Vibration]が4以上なら、最終威力 +1\n[WhenUse] 自分の[Laceration]1につき、ダメージ量 +1% (最大20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 自分に[Laceration]があるなら、その威力の数値だけ対象に[Laceration]回数を付与 (最大8、1ターンにつき1回)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防御",
+          "desc": "[StartBattle] 精神力を5回復\n[StartBattle] 次のターンに[ResultEnhancement]1を得る",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "触るな…！",
+          "desc": "[WhenUse]\n- 対象の[Vibration]が6以上なら、コイン威力 +1\n- 自分の[ChargeNoir]回数が10以上なら、コイン威力 +1\n\n[WhenUse] 自分の[ChargeNoir]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [ChargeNoir]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "手を出すな…！",
+          "desc": "[WhenUse]\n- 対象の[Vibration]が6以上なら、コイン威力 +1\n- 自分の[ChargeNoir]回数が10以上なら、コイン威力 +1\n\n[WhenUse] 自分の[ChargeNoir]回数が4増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[ChargeNoir]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "何もしちゃ駄目なんだって…！",
+          "desc": "自分の[ChargeNoir]威力1につき、ダメージ量 +4% (最大20%)\n\n[WhenUse] 自分の[ChargeNoir]回数が10以上なら、[ChargeNoir]回数10を消耗してコイン威力 +1, ダメージ量 +20%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "漁る",
+          "desc": "対象の[Laceration]が6以上なら、最終威力 +1",
+          "flavor": "あるはずだ…何かあるはずだ…。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ひったくる",
+          "desc": "対象の[Laceration]3につき、最終威力 +1 (最大2)",
+          "flavor": "これは私のだ！",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "見つけた！",
+          "desc": "対象の[Laceration]3につき、最終威力 +1 (最大3)\n[WhenUse] 自分の体力が50%未満、または対象の[Laceration]が10以上なら、全コインが[SuperCoin]に変更される",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "クリティカルダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "させるか！これは私のだ！",
+          "desc": "[WhenUse] 対象が保有する効果2種につき、[Breath]2を得る (最大5)\n[WhenUse] 対象が保有する効果が4種以上なら、自分の[Breath]回数が1増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "漁る",
+          "desc": "対象の[Laceration]が6以上なら、最終威力 +1",
+          "flavor": "あるはずだ…何かあるはずだ…。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ひったくる",
+          "desc": "対象の[Laceration]3につき、最終威力 +1 (最大2)",
+          "flavor": "これは私のだ！",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "見つけた！",
+          "desc": "対象の[Laceration]3につき、最終威力 +1 (最大3)\n[WhenUse] 自分の体力が50%未満、または対象の[Laceration]が10以上なら、全コインが[SuperCoin]に変更される",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "クリティカルダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "させるか！これは私のだ！",
+          "desc": "[WhenUse] 対象が保有する効果2種につき、[Breath]2を得る (最大5)\n[WhenUse] 対象が保有する効果が4種以上なら、自分の[Breath]回数が1増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "なみ縫い - 経糸",
+          "desc": "対象の[Laceration]が4以上なら、最終威力 +1\n\n[WhenUse] 対象の[Laceration]が6以上なら、全コインが[SuperCoin]になる",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[PenetrateResistDown]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "しつけ縫い - 経糸",
+          "desc": "対象の[Laceration]が4以上なら、最終威力 +1 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [NiddlePin]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Binding]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "返し縫い - 経糸",
+          "desc": "対象の[Laceration]4につき、最終威力 +1 (最大2)\n\n[WhenUse] 対象の[Laceration]1につき、ダメージ量 +1% (最大20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与、[Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] このコインを1回再使用 (スキルにつき1回)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Laceration]威力だけ貫通ダメージ (最大30)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [NiddlePin]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "コの字とじ - 経糸",
+          "desc": "[StartBattle] 次のターンに[PenetrateResultUp]1を得る",
+          "coinlist": []
+        }
+      ]
+    },
+    {
+      "id": 9106401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "なみ縫い - 緯糸",
+          "desc": "対象の[Laceration]が4以上なら、最終威力 +1\n\n[WhenUse] 対象の[Laceration]が6以上なら、全コインが[SuperCoin]になる",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[PenetrateTakeDamageUp]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "しつけ縫い - 緯糸",
+          "desc": "対象の[Laceration]が4以上なら、最終威力 +1 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [NiddlePin]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Binding]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "返し縫い - 緯糸",
+          "desc": "対象の[Laceration]4につき、最終威力 +1 (最大2)\n\n[WhenUse] 対象の[Laceration]1につき、ダメージ量 +1% (最大20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与、[Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] このコインを1回再使用 (スキルにつき1回)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Laceration]威力だけ貫通ダメージ (最大30)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [NiddlePin]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "コの字とじ - 緯糸",
+          "desc": "[StartBattle] 次のターンに[PenetrateResultUp]1を得る",
+          "coinlist": []
+        }
+      ]
+    }
+  ]
+}

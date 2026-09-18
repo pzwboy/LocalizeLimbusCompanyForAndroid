@@ -1,0 +1,512 @@
+{
+  "dataList": [
+    {
+      "key": "ReturnToMainUiScene",
+      "text": "探索進行度を保存して、メイン画面に戻りますか？"
+    },
+    {
+      "key": "AskToMoveFloor",
+      "text": "{0}階に移動しますか？"
+    },
+    {
+      "key": "MoveFloorUiDesc",
+      "text": "どの階へ移動しよう？"
+    },
+    {
+      "key": "DialogueSkipConfirmDesc",
+      "text": "ストーリーをスキップしますか？"
+    },
+    {
+      "key": "DialogueSkipDontShowAgain",
+      "text": "このポップアップを再表示しない"
+    },
+    {
+      "key": "AccumulatedExp",
+      "text": "現在の累計消費目玉数"
+    },
+    {
+      "key": "RemainExpToNextLevel",
+      "text": "次のランクまで"
+    },
+    {
+      "key": "ItemFilterAll",
+      "text": "すべて"
+    },
+    {
+      "key": "ItemFilterKeyItem",
+      "text": "クエスト"
+    },
+    {
+      "key": "ItemFilterSurvival",
+      "text": "生存"
+    },
+    {
+      "key": "ItemFilterBasicAttack",
+      "text": "基本攻撃"
+    },
+    {
+      "key": "ItemFilterAdditionalAttack",
+      "text": "追加攻撃"
+    },
+    {
+      "key": "ItemFilterPrisonerEffect",
+      "text": "囚人効果"
+    },
+    {
+      "key": "ItemFilterEtc",
+      "text": "その他"
+    },
+    {
+      "key": "Item_QuestMark",
+      "text": "重要アイテム"
+    },
+    {
+      "key": "Item_Suffix_Disabled",
+      "text": "{0}（無効）"
+    },
+    {
+      "key": "rpg_quest_tag_dialogue",
+      "text": "会話"
+    },
+    {
+      "key": "rpg_quest_tag_battle",
+      "text": "戦闘"
+    },
+    {
+      "key": "rpg_quest_tag_hunt",
+      "text": "狩り"
+    },
+    {
+      "key": "rpg_quest_tag_gather",
+      "text": "収集"
+    },
+    {
+      "key": "rpg_quest_tag_shop",
+      "text": "ショップ"
+    },
+    {
+      "key": "rpg_quest_tag_move",
+      "text": "移動"
+    },
+    {
+      "key": "Common_Ok",
+      "text": "確認"
+    },
+    {
+      "key": "Quest_Tag_Progress",
+      "text": "進行度"
+    },
+    {
+      "key": "Quest_Tag_Reward",
+      "text": "報酬"
+    },
+    {
+      "key": "Shop_Title",
+      "text": "ショップ"
+    },
+    {
+      "key": "Shop_Category_All",
+      "text": "すべて"
+    },
+    {
+      "key": "Shop_Category_Artifact",
+      "text": "アーティファクト"
+    },
+    {
+      "key": "Shop_Category_Etc",
+      "text": "その他"
+    },
+    {
+      "key": "Shop_Button_Buy",
+      "text": "購入"
+    },
+    {
+      "key": "Shop_SelectedItem_None",
+      "text": "購入するアイテムを選択してください。"
+    },
+    {
+      "key": "Shop_Item_Stock",
+      "text": "残り"
+    },
+    {
+      "key": "Shop_Item_Owned",
+      "text": "所持中"
+    },
+    {
+      "key": "Shop_Item_NotForSale",
+      "text": "購入不可"
+    },
+    {
+      "key": "Shop_Empty_Item_List",
+      "text": "表示できる商品がありません。"
+    },
+    {
+      "key": "Log_ItemAcquired",
+      "text": "アイテム入手: {0} ×{1}"
+    },
+    {
+      "key": "Log_ItemAcquiredKeyItem",
+      "text": "アイテム入手: <color=#{2}>{0} ×{1}</color>"
+    },
+    {
+      "key": "Log_CurrencyEarned",
+      "text": "目玉を{0}個入手"
+    },
+    {
+      "key": "Log_Purchased",
+      "text": "購入: {0} ×{1} ({2}消費)"
+    },
+    {
+      "key": "Log_PurchasedKeyItem",
+      "text": "購入: <color=#{3}>{0} ×{1}</color> ({2}消費)"
+    },
+    {
+      "key": "Log_NpcInteracted",
+      "text": "会話を終えた。"
+    },
+    {
+      "key": "Log_ProjectileRemoved",
+      "text": "投射体を除去: {0}"
+    },
+    {
+      "key": "Log_ChoiceSelected",
+      "text": "選択: {0}"
+    },
+    {
+      "key": "Log_QuestAcquired",
+      "text": "<color=#{1}>クエスト発生: {0}</color>"
+    },
+    {
+      "key": "Log_QuestCompleted",
+      "text": "クエスト完了: {0}"
+    },
+    {
+      "key": "Log_QuestGoalProgress",
+      "text": "目標進行度: {0}"
+    },
+    {
+      "key": "Log_PlayerHit",
+      "text": "被撃：{0}"
+    },
+    {
+      "key": "Log_BattleResultSync",
+      "text": "戦闘結果反映({0}): HP {1}/{2}, MP {3}/{4}"
+    },
+    {
+      "key": "Log_BattleDefeatHp",
+      "text": "戦闘敗北: HP {0}"
+    },
+    {
+      "key": "Log_CheatVitals",
+      "text": "チート: {0}"
+    },
+    {
+      "key": "Log_EventEffectVitals",
+      "text": "イベント効果: {0}"
+    },
+    {
+      "key": "Log_RecruitFullRecover",
+      "text": "仲間加入({0}): HP/精神力全快"
+    },
+    {
+      "key": "Log_VitalsNoChange",
+      "text": "変化なし"
+    },
+    {
+      "key": "Log_NpcDefeated",
+      "text": "{0}を撃破 (ダメージ{1})"
+    },
+    {
+      "key": "Log_NpcDefeatedWeakness",
+      "text": "{0}を撃破 (弱点攻撃ダメージ{1})"
+    },
+    {
+      "key": "Log_DamageDealt",
+      "text": "{0}にダメージ {1}"
+    },
+    {
+      "key": "Log_DamageDealtWeakness",
+      "text": "{0}に弱点攻撃ダメージ {1}"
+    },
+    {
+      "key": "Log_PlayerDead",
+      "text": "プレイヤー死亡"
+    },
+    {
+      "key": "Log_BattleEntered",
+      "text": "戦闘突入"
+    },
+    {
+      "key": "Log_BattleWin",
+      "text": "戦闘勝利"
+    },
+    {
+      "key": "Log_BattleLose",
+      "text": "戦闘敗北"
+    },
+    {
+      "key": "Log_RestSpotHealed",
+      "text": "体力が全快しました"
+    },
+    {
+      "key": "Log_EscapeBlocked",
+      "text": "今はここから出られない"
+    },
+    {
+      "key": "Log_WardenAppeared",
+      "text": "冷え冷えとした不吉さが、徐々に締めつけてくる。"
+    },
+    {
+      "key": "Log_SuicideBlocked",
+      "text": "これでは、逃れられないようだ。"
+    },
+    {
+      "key": "ProgressPopup_Title",
+      "text": "シーシュポス百貨店"
+    },
+    {
+      "key": "ProgressPopup_Suicide",
+      "text": "ガントレットで\n自殺する"
+    },
+    {
+      "key": "ProgressPopup_EnemyAttackIndication",
+      "text": "敵の攻撃予兆を表示"
+    },
+    {
+      "key": "ProgressPopup_MyAttackIndication",
+      "text": "自分の攻撃範囲を表示"
+    },
+    {
+      "key": "ProgressPopup_Restore",
+      "text": "セーブの復元"
+    },
+    {
+      "key": "RestorePopup_Title",
+      "text": "セーブの復元"
+    },
+    {
+      "key": "RestorePopup_Checking",
+      "text": "確認中…"
+    },
+    {
+      "key": "RestorePopup_FoundNoQuest",
+      "text": "復元できる自動セーブ地点があります。"
+    },
+    {
+      "key": "RestoreCompare_ColCurrent",
+      "text": "最後のセーブ"
+    },
+    {
+      "key": "RestoreCompare_ColBackup",
+      "text": "復元"
+    },
+    {
+      "key": "RestoreCompare_NoQuest",
+      "text": "なし"
+    },
+    {
+      "key": "RestoreCompare_Unknown",
+      "text": "確認不可"
+    },
+    {
+      "key": "RestoreCompare_SavedAt",
+      "text": "セーブした時刻 : {0}"
+    },
+    {
+      "key": "RestorePopup_None",
+      "text": "戻れる自動セーブ地点がありません。"
+    },
+    {
+      "key": "RestorePopup_LoadFailed",
+      "text": "自動セーブの情報を確認できません。"
+    },
+    {
+      "key": "RestorePopup_Confirm",
+      "text": "この地点以降の進行状況は失われます。元に戻すことはできません。\nセーブを復元しますか？"
+    },
+    {
+      "key": "RestorePopup_Running",
+      "text": "復元中です…"
+    },
+    {
+      "key": "RestorePopup_NeedRestart",
+      "text": "復元しました。これ以降の進行状況は保存されませんので、ゲームを再起動してください。"
+    },
+    {
+      "key": "RestorePopup_Close",
+      "text": "閉じる"
+    },
+    {
+      "key": "Inventory_Empty",
+      "text": "所持しているアイテムがありません。"
+    },
+    {
+      "key": "Inventory_NotSelected",
+      "text": "アイテムが選択されていません。"
+    },
+    {
+      "key": "LogPopup_Title",
+      "text": "すべてのログ"
+    },
+    {
+      "key": "Setting_Tab_Sisyphus",
+      "text": "シーシュポス"
+    },
+    {
+      "key": "Setting_Sisyphus_UiSetting",
+      "text": "UI設定"
+    },
+    {
+      "key": "Setting_Sisyphus_KeyManual",
+      "text": "ショートカットキーマニュアル"
+    },
+    {
+      "key": "Setting_Sisyphus_CensorDeadscene",
+      "text": "死亡シーンの規制"
+    },
+    {
+      "key": "Setting_Sisyphus_Move",
+      "text": "移動"
+    },
+    {
+      "key": "Setting_Sisyphus_Interaction",
+      "text": "インタラクト"
+    },
+    {
+      "key": "Setting_Sisyphus_Quest",
+      "text": "ジャーナル：クエスト"
+    },
+    {
+      "key": "Setting_Sisyphus_GauntletSuicide",
+      "text": "ガントレットで自殺する"
+    },
+    {
+      "key": "Setting_Sisyphus_Attack",
+      "text": "攻撃"
+    },
+    {
+      "key": "Setting_Sisyphus_Guard",
+      "text": "ガード"
+    },
+    {
+      "key": "Setting_Sisyphus_Dodge",
+      "text": "回避"
+    },
+    {
+      "key": "Setting_Sisyphus_Run",
+      "text": "ダッシュ"
+    },
+    {
+      "key": "Setting_Sisyphus_LockedNeedItem",
+      "text": "※未解放、アイテムの購入が必要"
+    },
+    {
+      "key": "Setting_Sisyphus_LanternToggle",
+      "text": "ランタンON/OFF"
+    },
+    {
+      "key": "Setting_Sisyphus_CloseWindowOrSetting",
+      "text": "開いているウィンドウを閉じる / 設定"
+    },
+    {
+      "key": "Setting_Sisyphus_Inventory",
+      "text": "インベントリ"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueNext",
+      "text": "進行・選択肢の確定"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueChoice",
+      "text": "会話中の選択肢の選択"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueSkip",
+      "text": "会話スキップ"
+    },
+    {
+      "key": "Setting_Sisyphus_FullLog",
+      "text": "すべてのログ"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditFastForward",
+      "text": "クレジット早送り"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditSkip",
+      "text": "クレジットスキップ"
+    },
+    {
+      "key": "Setting_Sisyphus_QuestNavigation",
+      "text": "クエスト案内の矢印"
+    },
+    {
+      "key": "Setting_Sisyphus_TabDefault",
+      "text": "ショートカットキー"
+    },
+    {
+      "key": "Setting_Sisyphus_TabMobile",
+      "text": "ボタン"
+    },
+    {
+      "key": "WardenBigNail",
+      "text": "看守の大釘"
+    },
+    {
+      "key": "FormationUI_AskToBack",
+      "text": "戻る操作で戦闘を離脱すると、敗北します。"
+    },
+    {
+      "key": "Setting_Sisyphus_Manual",
+      "text": "マニュアル"
+    },
+    {
+      "key": "Setting_Sisyphus_BattleStatus",
+      "text": "影界の状況"
+    },
+    {
+      "key": "TheaterTitle",
+      "text": "上映館"
+    },
+    {
+      "key": "SettingTitle",
+      "text": "設定"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileMenu",
+      "text": "メニュー"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileAutoAttack",
+      "text": "自動攻撃"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileInteraction",
+      "text": "インタラクト"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileQuestNavigation",
+      "text": "矢印"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileLantern",
+      "text": "ランタン"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileUnlockNotice",
+      "text": "※表示された機能は、アイテムを購入すると解禁できます。"
+    },
+    {
+      "key": "Rpg_Menu_Status_Ego_Resources_Owned",
+      "text": "E.G.O資源状況"
+    },
+    {
+      "key": "Rpg_Menu_Status_Character_Mental_Status",
+      "text": "囚人の精神力状況"
+    },
+    {
+      "key": "Rpg_Move_Floor_Ui_Current_Floor",
+      "text": "現在の階"
+    }
+  ]
+}
