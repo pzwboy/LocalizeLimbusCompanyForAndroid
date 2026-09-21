@@ -1,266 +1,266 @@
 {
-  "dataList": [
-    {
-      "id": 146501,
-      "name": "ル・ノワール生地",
-      "desc": "ステージ開始時、[NoirBindArmor]5を得る\nターン開始時、自分の体力最大値の([NoirBindArmor]の数値)%だけバリアを得る",
-      "flavor": "ル・ノワールの生地は、鎧のように堅牢で形の崩れないシルエットによってお客様の体型を補整する。"
-    },
-    {
-      "id": 146502,
-      "name": "顧客案内",
-      "desc": "対象の[NoirNoComply]1につき、対象へ与えるダメージ量と対象から受けるダメージ量 +10%\n[NoirNoComply]が3の対象への与ダメージ量 +200%",
-      "flavor": "ル・ノワールでは、本社の厳格な管理マニュアルに則ってお客様に対応しております。"
-    },
-    {
-      "id": 146503,
-      "name": "保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を累計で\n- 3消耗するたびに[NoirBindArmor]1を得る\n- 10消耗するたびに[ChargeNoir]1を得る",
-      "flavor": "凝縮させて力を集め、固定する。変化させないことは、変化させることよりも大きな力を要するときがある。"
-    },
-    {
-      "id": 146603,
-      "name": "代謝作用",
-      "desc": "戦闘に初めて登場すると、[ChargeRouge]回数10を得る\n\n戦闘中、自分の[ChargeRouge]回数を累計で10消耗するたびに[ChargeRouge]1を得る"
-    },
-    {
-      "id": 149401,
-      "name": "ル・ルージュ ジャケット",
-      "desc": "ターン終了時、[ChargeRouge]回数を最大10まで獲得または失う\n\n自分の被撃時、攻撃者が[Charge]を得るスキルを使用していれば、[Charge]回数1を攻撃者に移す (攻撃者のスキルごとに1回)\n当該効果が発動するたびに[AttackUp]1を得る\nターン開始時、自分の[ChargeRouge]回数の15を超過する分を最大5まで消耗し、体力最大値の(消耗値)%を回復"
-    },
-    {
-      "id": 149402,
-      "name": "筋繊維デニム",
-      "desc": "自分の[ChargeRouge]威力1につき、自分のスキルダメージ量 +1% (最大10%)\n\nスキル使用時に自分の体力が50%未満なら、当該スキルで得る[ChargeRouge]回数 +2\n自分の失った体力1%につき、スキルダメージ量 +1%"
-    },
-    {
-      "id": 149301,
-      "name": "ル・ルージュ ジャケット",
-      "desc": "ターン終了時、[ChargeRouge]回数を最大10まで獲得または失う\n\n自分の被撃時、攻撃者が[Charge]を得るスキルを使用していれば、[Charge]回数1を攻撃者に移す (攻撃者のスキルごとに1回)\n当該効果が発動するたびに[AttackUp]1を得る"
-    },
-    {
-      "id": 149302,
-      "name": "切迫",
-      "desc": "ターン開始時、自分の[ChargeRouge]が3, [ChargeRouge]回数が10以上なら、「攻撃的マーケティング」を使用\n\n自分の失った体力1%につき、スキルダメージ量 +1% "
-    },
-    {
-      "id": 149303,
-      "name": "聞こえる…別の神の声が…。",
-      "desc": "ステージ開始時、[RisingMadnessRouge]を得る\n- ターン開始時、今回の戦闘にて体力が初めて50%以下になると、\n[RisingMadnessRouge]が[RisingMadnessRouge2nd]に変更される\n\nマッチ敗北時、[ChargeRouge]回数2を得る",
-      "flavor": "温かな声を聞いたが、それ以上変わることができず、精神が肉体に閉じ込められたまま分裂によって狂症に陥った。"
-    },
-    {
-      "id": 146601,
-      "name": "ル・ルージュ ブティーク 新作ルックブック",
-      "desc": "[RougeThreeNormal]パターン\n\n保有する[RougeThreeCocoon], [RougeThreeCocoonShield]を除去し、[RougeThreeNormal]を得る\n<color=#ff6000><mark=#ff000040><b><u>被撃時、[RougeThreeNormal]1を得る\nターン終了時に[RougeThreeNormal]が20なら、次のターンに[RougeThreeCocoon]パターンへ変更される</u></b></mark></color>\n\n[RougeThreeNormal]で体力が10未満になるダメージを受けると、そのダメージを受けずに体力最大値の30%だけ回復してターンを終了。その後、[RougeThreeCocoon]に変更され、今回の戦闘中[Enhancement]2を得る (戦闘につき1回)"
-    },
-    {
-      "id": 146602,
-      "name": "試着室の中へ",
-      "desc": "[RougeThreeCocoon]パターン\n\n保有する[RougeThreeNormal]を除去し、[RougeThreeCocoon]1, [RougeThreeCocoonShield]500を得る\n\n<color=#ff6000><mark=#ff000040><b><u>被撃時、[RougeThreeCocoonHit]を得る</u></b></mark></color>\n[RougeThreeCocoonShield]が0になるか、[RougeThreeCocoon]が3になると精神力が20減少してターン終了。次のターンに[RougeThreeNormal]パターンへ変更され、今回の戦闘中[AttackDmgUp]1を得る (混乱状態なら混乱状態を解除)"
-    },
-    {
-      "id": 147401,
-      "name": "スーシェフ",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>攻撃スキルで対象を倒すと[SapsareeCooking]1を得る</u></b></mark></color>\n- スキル使用時に対象が保有していた効果3つにつき、[SapsareeCooking]を追加で1得る (最大2を得る)",
-      "flavor": "肩書きはシェフだが、5階のレストランでは決して認められない。"
-    },
-    {
-      "id": 147402,
-      "name": "料理が上手なんですよ",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>[SapsareeCooking]保有時、ターンの最後の番に「あっ！私の食事の時間なんですよ」スキルを使用</u></b></mark></color>\n(自分を除く全対象が死亡しているか、混乱状態では発動しない)\nターン終了時に「あっ！私の食事の時間なんですよ」スキルを使用できなかった場合、[SapsareeHungry]1を得る",
-      "flavor": "5階のレストランでは、こんなものを料理と呼んですらくれない。"
-    },
-    {
-      "id": 147403,
-      "name": "料理欲求",
-      "desc": "4ターンごとに強力な暴食スキルを使用\n(混乱により発動できなかった場合、次のターンに発動)\n- ターン終了時に[SapsareeYammi]が5以上なら、次のターンに強力な暴食スキルを使用\n\nターン終了時に[SapsareeHungry]が3以上なら、次のターンに強力な憤怒スキルを使用",
-      "flavor": "食べるものを作ることと、料理をすることは違う。お前はただ…食べられるようにしているだけ。"
-    },
-    {
-      "id": 147404,
-      "name": "美味しいんですよ！！！",
-      "desc": "ターン開始時、保有する[SapsareeYammi]1につき精神力を3回復",
-      "flavor": "フードコートの連中に、味を語ることなどできるだろうか？"
-    },
-    {
-      "id": 147405,
-      "name": "逃げるんですよ！",
-      "desc": "スーシェフの体力が30%未満になると、戦闘が終了する",
-      "flavor": "死にたくはない。"
-    },
-    {
-      "id": 147501,
-      "name": "美味しい料理材料。",
-      "desc": "自分が保有する効果が5種以上なら、攻撃レベル3, 防御レベル3増加",
-      "flavor": "こんなものは食材ですらない。"
-    },
-    {
-      "id": 147502,
-      "name": "肉軟化作用",
-      "desc": "被撃時、次のターンに防御レベル減少1を得る, 攻撃レベル増加1を得る (1ターンにつき最大3)",
-      "flavor": "硬い財布の革が柔らかくなったところで、たかが知れている。"
-    },
-    {
-      "id": 147503,
-      "name": "お腹空いた…。",
-      "desc": "ターン終了時にスーシェフがスキル「あっ！私の食事の時間なんですよ」を使用できなかった場合、[SapsareeHungry]1を得る",
-      "flavor": "食材用に作られた財布ではないが、食材として飼育されているのだから、腹が減るのも当然だ。"
-    },
-    {
-      "id": 148101,
-      "name": "パッチワーク",
-      "desc": "ステージ開始時、[UnresolvedFeelings]30を得る\n体力が50%以下なら、特定パターンで使用するスキルが強力なスキルに置き換わる",
-      "flavor": "お直しで余って捨てられるはずの生地を幾重にも縫い重ねた。端切れ一枚一枚だけを見れば価値がないというが、生地としての物性は残っているため、フロアマネージャーが掻き集めるのだ。"
-    },
-    {
-      "id": 148102,
-      "name": "警戒心チェック",
-      "desc": "ターン開始時、下記の効果が発動\n<color=#ff6000><mark=#ff000040><b><u>- [Wariness]が10の囚人が1名以上いるなら、攻撃スロットが一つ追加され、当該スロットにスキル「警告放送」を装着</u></b></mark></color>\n- [ReliefSense]を保有しない全ての囚人に[Wariness]1を付与\n- [HorribleTerror]を保有する人格1名につき、[HorribleEat]1を得る\n\n<color=#ff6000><mark=#ff000040><b><u>囚人のスキルが自分に的中すると、</u></b></mark></color>当該スキルの攻撃終了時、そのスキルが自分に的中した回数だけ対象の囚人に<color=#ff6000><mark=#ff000040><b><u>[Wariness]を付与</u></b></mark></color>",
-      "flavor": "声を聞くには、耳ではなく、まず心を開かなければならない。"
-    },
-    {
-      "id": 148103,
-      "name": "感謝",
-      "desc": "ターン開始時、<color=#ff6000><mark=#ff000040><b><u>[ReliefSense]が3の囚人が1名以上いるなら、攻撃スロットが一つ追加され、当該スロットにスキル「聞いてくれて…ありがとう…。」を装着</u></b></mark></color>",
-      "flavor": "案内放送をろくに聞かずに聞き流してしまうお客様が、あまりにも多かった…聞いてくれてありがとう…。"
-    },
-    {
-      "id": 148104,
-      "name": "パニック射殺",
-      "desc": "パニック状態の対象への与ダメージ量 +200%",
-      "flavor": "精神が崩れたとき、肉体も容易く崩せる技がある。"
-    },
-    {
-      "id": 149201,
-      "name": "ル・ノワール生地",
-      "desc": "ステージ開始時、[NoirBindArmor]5を得る\n\nターン開始時、自分の体力最大値の([NoirBindArmor]の数値÷2)%だけバリアを得る\n\n混乱状態になると[NoirBindArmor]を全て失い、\nターン開始時に混乱状態が解除されると[NoirBindArmor]5を得る",
-      "flavor": "ル・ノワールの生地は、鎧のように堅牢で形の崩れないシルエットによってお客様の体型を補整する。"
-    },
-    {
-      "id": 149202,
-      "name": "保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を累計で\n- 5消耗するたびに[NoirBindArmor]1を得る\n- 10消耗するたびに[ChargeNoir]1を得る",
-      "flavor": "凝縮させて力を集め、固定する。変化させないことは、変化させることよりも大きな力を要するときがある。"
-    },
-    {
-      "id": 149203,
-      "name": "停止のための変化",
-      "desc": "ターン開始時、自分の[ChargeNoir]回数が10以上なら強力なスキルを使用\n\nスキル使用時に自分の[ChargeNoir]回数が15以上なら、\n自分の[ChargeNoir]回数を3消耗してダメージ量 +20%",
-      "flavor": "この新しい声は、自分が変わらずにいられるように、自分を変えてくれるって言うんだ…。"
-    },
-    {
-      "id": 149204,
-      "name": "聞こえる…別の神の声が…。",
-      "desc": "ステージ開始時、[RisingMadnessNoir]2を得る\n- ターン開始時、今回の戦闘にて体力が初めて50%以下になると、\n[RisingMadnessNoir]が[RisingMadnessNoir2nd]に変更される\n\nマッチ敗北時、[ChargeNoir]回数2を得る",
-      "flavor": "温かな声を聞いたが、それ以上変わることができず、精神が肉体に閉じ込められたまま分裂によって狂症に陥った。"
-    },
-    {
-      "id": 148201,
-      "name": "ル・ノワール生地",
-      "desc": "ステージ開始時、[NoirBindArmor]3を得る\n\nターン開始時、自分の体力最大値の([NoirBindArmor]の数値)%だけバリアを得る (混乱時を除く)",
-      "flavor": "ル・ノワールの生地は、鎧のように堅牢で形の崩れないシルエットによってお客様の体型を補整する。"
-    },
-    {
-      "id": 148202,
-      "name": "保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を累計で\n- 3消耗するたびに[NoirBindArmor]1を得る\n- 10消耗するたびに[ChargeNoir]威力1を得る\n\n自分の[ChargeNoir]威力が3以上なら、自分の[ChargeNoir]回数最大値 +5",
-      "flavor": "凝縮させて力を集め、固定する。変化させないことは、変化させることよりも大きな力を要するときがある。"
-    },
-    {
-      "id": 148203,
-      "name": "凝縮の発散",
-      "desc": "ターン開始時、自分の[ChargeNoir]威力が3, [ChargeNoir]回数が10以上なら、強力なスキルを使用",
-      "flavor": "静止させるために一か所へ集められた力は、いつか噴き出す。"
-    },
-    {
-      "id": 148204,
-      "name": "保存転換の逆説",
-      "desc": "バリアを保有する状態で囚人から被撃時、\n自分の[ChargeNoir]回数が1増加 (スキルごとに1回、1ターンにつき3回)\n- 自分の[ChargeNoir]威力が3/5以上なら、代わりに自分の[ChargeNoir]回数が2/3増加\n\nターン終了時にバリアが残っていれば、\n次のターンに[ChargeNoir]威力1につき、[ChargeNoir]回数1, [DefenseUp]1を得る (それぞれ最大3)",
-      "flavor": "自分を変化させようとする外部の力を、自らを保存しようとする力へと転換する。\n\nどれだけ変化を望まず、静止しようとしても、必ず何かを変化させなければならない世界。"
-    },
-    {
-      "id": 148301,
-      "name": "ル・ノワール ギャバジン生地",
-      "desc": "ステージ開始時、[NoirSuit]30を得る\n\nターン開始時、\n- 自分の体力最大値の([NoirSuit]÷5)%だけバリアを得る (混乱時を除く)",
-      "flavor": "フォーマルさと堅牢さを追求するル・ノワールが送り出す、フラグシップの生地。"
-    },
-    {
-      "id": 148302,
-      "name": "保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を累計で\n10消耗するたびに[ChargeNoir]威力1を得る\n\n自分の[ChargeNoir]威力が3以上なら、自分の[ChargeNoir]回数最大値 +5",
-      "flavor": "凝縮させて力を集め、固定する。変化させないことは、変化させることよりも大きな力を要するときがある。"
-    },
-    {
-      "id": 148303,
-      "name": "饋還",
-      "desc": "ターン開始時に[Realisation]があるなら、「ワンキック」が「ワンキック - クチュール・ミュルティプル」として適用される\n\n[VibrationExplosion]時、[VibrationExplosion]の混乱区間前進量 +20%\n- 自分の[ChargeNoir]回数が12以上なら、代わりに[VibrationExplosion]時に自分の[ChargeNoir]回数1を\n消耗して[VibrationExplosion]の混乱区間前進量 +40% (対象ごとに適用)\n\n[VibrationExplosion]時にターゲットに混乱区間がなければ、\n自分の[DefenseUp]の数値だけ固定ダメージを与える (最大20)",
-      "flavor": "ル・ノワールは、相手に強い振動を与えて揺さぶることで、その価値を崩壊させられると信じている。\n\n対象が激しく振動するほど、刻一刻と変化を経ていると考えるからだ。\n\nル・ノワールの戦闘技術は、こうした信念に基づいて作られる。"
-    },
-    {
-      "id": 148304,
-      "name": "保存転換の逆説の逆説",
-      "desc": "バリアを保有する状態で囚人から被撃時、\n- 対象の囚人に[Vibration]1を付与 (スキルごとに1回)\n- 自分の[ChargeNoir]回数が1増加 (スキルごとに1回、1ターンにつき3回)\n- 自分の[ChargeNoir]威力が3/5以上なら、代わりに自分の[ChargeNoir]回数が2/3増加\n\nターン終了時にバリアが残っていれば、\n次のターンに[ChargeNoir]威力1につき、[ChargeNoir]回数1, [DefenseUp]2を得る (それぞれ最大3, 最大6)",
-      "flavor": "変わるまいと努めるほど、存在は変化する状態へと向かう。\n\n存在するものは常にどこかへ向かっており、どこかへ向かう以上、変化は伴わざるを得ない。"
-    },
-    {
-      "id": 149601,
-      "name": "縫製開始",
-      "desc": "ターン開始時、ランダムな敵2名に[NiddleExpected]を付与"
-    },
-    {
-      "id": 149602,
-      "name": "ハンドメイド",
-      "desc": "戦場の針っ子1体につき、スキル最終威力 +1",
-      "flavor": "手縫いは、熟練した職人の数が命だ。"
-    },
-    {
-      "id": 149603,
-      "name": "耳を塞いでも見えるクレーム",
-      "desc": "3の倍数のターンごとに繭の泣き声が聞こえる\n2フェーズ突入時、繭の泣き声が毎ターン続く\n\n繭の泣き声が聞こえるターンは行動不能状態に免疫\n\n混乱区間を超えると、次のターンに[Vulnerable]2を得る",
-      "flavor": "繭から声が聞こえてくる。\n「80番双糸未満は生地として認めない。」「ボタンホール、なんで横向きじゃないの？」\n「旧式織機で天竺ですか？」「セルビッジの色、なんで赤じゃないんですか？」\n「これ、防縮加工されてないな。」「Super 150以下は安物の生地ですよ。」\n「Superの数字が単に糸の太さだって？直径と番手は違うのに、そんなことも知らないんですね。」\n「裾上げは当然、ユニオンスペシャルで仕上げてくれますよね？」「これリジッドですか？あ、セルビッジだったかな？」\n「よく見ると、針目が均一すぎるな。機械を使ったでしょ？」「手縫いじゃなきゃビスポークじゃない。」\n「あ、これミラネーゼのボタンホールじゃないな。」「200番手を超えてこそ、シャツ生地と呼べるんですよ。」\n「あ、表に縫い目が見えるな。」「縫い目が2列見える。失格。」\n「なんだこの縫い代の処理。」「3プライは超えてくれないと。」"
-    },
-    {
-      "id": 148401,
-      "name": "未熟な赤き神",
-      "desc": "ターン終了時に[ChargeRouge]回数が減少しない\n<color=#ff6000><mark=#ff000040><b><u>マッチ進行時、対象の[Laceration]が発動</u></b></mark></color>するたびに自分の[ChargeRouge]回数が1増加\n対象を倒すと、対象の([Laceration]威力 + [Laceration]回数)だけ自分の[ChargeRouge]回数が増加\nターン開始時、自分の[ChargeRouge]回数1につき精神力を3回復",
-      "flavor": "渇望によって生まれてしまった神。その誕生さえ、完全ではなかった。"
-    },
-    {
-      "id": 148402,
-      "name": "薔薇色に脈動する筋肉",
-      "desc": "ターン開始時、自分に[Gourmandise]がなく、<color=#ff6000><mark=#ff000040><b><u>自分の[ChargeRouge]回数が15以上なら、[ChargeRouge]回数を全て消耗して[Gourmandise]を得る</u></b></mark></color>\n\n[Gourmandise]がある状態で下記の効果を得る\n- スキル使用時、自分の[Laceration]回数が3増加\n- スキル的中時、[Laceration]1を得る\n- 部位が攻撃を受けると[BuffetSick]1を得る\n- マッチ敗北時、[BuffetSick]3を得る\n- 対象を倒した際に対象の[BloodyMucus]が3以上なら、次のターンに「赤き神の引きちぎられた肉片」を生成\n- 戦闘終了時、[BloodyMucus]を保有する敵1名につき精神力を3回復\n\nターン終了時に[Gourmandise]効果が消滅するとき、<color=#ff6000><mark=#ff000040><b><u>自分が保有する[BuffetSick]の総和が30以上なら</u></b></mark></color>、次のターンにパターンが弱化し、戦場の「赤き神の引きちぎられた肉片」が混乱状態になる\n\n※[BloodyMucus]は<color=#ff6000><mark=#ff000040><b><u>E.G.Oスキル, 守備スキルの使用</u></b></mark></color>により数値を減少させられる\n※「赤き神の引きちぎられた肉片」は死亡した対象の[BloodyMucus]だけ[DeterioratingBody]を得る\n※[DeterioratingBody]を保有する「赤き神の引きちぎられた肉片」は死亡しない\n※「赤き神の引きちぎられた肉片」は戦場に最大3体まで生成される",
-      "flavor": "腕と脚が狂ったようにばたつく。もともと自分の身体についていたものではなかったかのように。"
-    },
-    {
-      "id": 148403,
-      "name": "格差",
-      "desc": "自分より遅い対象への与ダメージ量 +50%",
-      "flavor": "目に映る全てのものは、それぞれの速さで動いている。"
-    },
-    {
-      "id": 148404,
-      "name": "生存本能",
-      "desc": "ターン開始時に[SavePlacenta]1を得て、命綱の部位に[Protection]5を付与\n[Gourmandise]を保有しているか、混乱状態なら、当該パッシブは発動しない",
-      "flavor": "身体は意識とは無関係に、身を守ろうともがく。どこまでが自分の身体かも分からないというのに。"
-    },
-    {
-      "id": 148405,
-      "name": "切れた命綱",
-      "desc": "命綱の部位が破壊された状態なら、ターン終了時、次のターンに胴体の部位が[Vulnerable]3を得る",
-      "flavor": "身体についているもの、このぶら下がっているもの、どこまでが自分なのか、量りかねている。"
-    },
-    {
-      "id": 148406,
-      "name": "暴力的な誕生の暴走",
-      "desc": "命綱の部位が破壊されていない状態で、ターン終了時に本体の体力が50%未満なら[Gourmandise]を得る\n以降、命綱の部位が破壊されるまで[Gourmandise]の数値が減少しない",
-      "flavor": "身体は暖かかった場所から、冷たい場所へ。意識は涼しかった場所から、熱い場所へ。そうして何もかも、無理やりに。"
-    },
-    {
-      "id": 149701,
-      "name": "知性なき脈動",
-      "desc": "- 生成時、死亡した対象の[BloodyMucus]の数値だけ[DeterioratingBody]を得る\n\n[DeterioratingBody]消滅時に死亡",
-      "flavor": "これは生きている。だが、脳はない。意識は脳ではなく、脈動する筋肉からも生まれえたのだろうか。"
-    }
-  ]
+    "dataList": [
+        {
+            "id": 146501,
+            "name": "黑派面料",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirBindArmor]層数)%的<color=#81BBE8>護盾</color>",
+            "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
+        },
+        {
+            "id": 146502,
+            "name": "顧客指南",
+            "desc": "<color=#ffffff>目標</color>每帯有1層[NoirNoComply]，使<color=#ffffff>自身</color>対<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>与受到来自<color=#ffffff>目標</color>的<color=#ffffff>傷害</color>+10%\n対[NoirNoComply]層数為3層的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+200%",
+            "flavor": "黑派通過總公司厳格的管理手册来為客人們提供服務。"
+        },
+        {
+            "id": 146503,
+            "name": "保存",
+            "desc": "本場戦斗中，根据<color=#ffffff>自身</color>累計消耗的[ChargeNoir]層数\n- 每当累計消耗3層時，使<color=#ffffff>自身</color>獲得1層[NoirBindArmor]\n- 每当累計消耗10層時，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度",
+            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+        },
+        {
+            "id": 146603,
+            "name": "代謝作用",
+            "desc": "<color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得10層[ChargeRouge]\n\n本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeRouge]時，使<color=#ffffff>自身</color>増加1級[ChargeRouge]強度"
+        },
+        {
+            "id": 149401,
+            "name": "紅派 挟克",
+            "desc": "<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得或減少最多10層[ChargeRouge]\n\n受到攻撃時，若攻撃者使用的技能為獲得[Charge]的技能，則使<color=#ffffff>自身</color>的1層[Charge]轉移至攻撃者(攻撃者每个技能最多1次)\n該效果触発時，使<color=#ffffff>自身</color>獲得1層[AttackUp]\n<color=#7C5738>回合開始</color>時，消耗<color=#ffffff>自身</color>最多5層超過15層的[ChargeRouge]并使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(消耗的[ChargeRouge]層数)%的<color=#61DA61>体力</color>"
+        },
+        {
+            "id": 149402,
+            "name": "肌繊維牛仔庫",
+            "desc": "<color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，使<color=#ffffff>自身</color>技能造成的<color=#ffffff>傷害</color>+1%(最多+10%)\n\n<color=#ffffff>自身</color>技能使用時，若現存<color=#61DA61>体力</color>低于50%，則令該技能獲得的[ChargeRouge]層数額外+2層\n<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>技能造成的<color=#ffffff>傷害</color>+1%"
+        },
+        {
+            "id": 149301,
+            "name": "紅派 挟克",
+            "desc": "<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得或減少最多10層[ChargeRouge]\n\n受到攻撃時，若攻撃者使用的技能為獲得[Charge]的技能，則使<color=#ffffff>自身</color>的1層[Charge]轉移至攻撃者(攻撃者每个技能最多1次)\n該效果触発時，使<color=#ffffff>自身</color>獲得1層[AttackUp]"
+        },
+        {
+            "id": 149302,
+            "name": "迫切",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于3級且[ChargeRouge]層数不低于10層，則使用“進攻性営銷”\n\n<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>技能造成的<color=#ffffff>傷害</color>+1%"
+        },
+        {
+            "id": 149303,
+            "name": "我听到了…令一个神的声音…",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得[RisingMadnessRouge]\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color><color=#61DA61>体力</color>在本場戦斗中首次不高于50%，\n則使<color=#ffffff>自身</color>的[RisingMadnessRouge]轉化為[RisingMadnessRouge2nd]\n\n拼点失敗時，使<color=#ffffff>自身</color>獲得2層[ChargeRouge]",
+            "flavor": "雖然听到了温柔的声音，但却已无法再発生変化。精神被困鎖于肉体之中，因分裂陷入了瘋狂。"
+        },
+        {
+            "id": 146601,
+            "name": "紅派精品店 新品圖册",
+            "desc": "[RougeThreeNormal]模式\n\n解除自身帯有的[RougeThreeCocoon]与[RougeThreeCocoonShield]并使自身獲得[RougeThreeNormal]\n<color=#ff6000><mark=#ff000040><b><u>受到攻撃時，使自身獲得1層[RougeThreeNormal]\n回合結束時，若自身的[RougeThreeNormal]層数為20層，則下回合進入[RougeThreeCocoon]模式</u></b></mark></color>\n\n処于[RougeThreeNormal]状態時，若自身受到使自身体力低于10点的傷害時，无視該傷害，使自身恢復体力上限30%的体力并結束該回合。随后進入[RougeThreeCocoon]状態并在本場戦斗中使自身獲得2層[Enhancement](每場戦斗最多1次)"
+        },
+        {
+            "id": 146602,
+            "name": "進入更衣室",
+            "desc": "[RougeThreeCocoon]模式\n\n解除自身的[RougeThreeNormal]并使自身獲得1層[RougeThreeCocoon]与500層[RougeThreeCocoonShield]\n\n<color=#ff6000><mark=#ff000040><b><u>受到攻撃時，使自身獲得[RougeThreeCocoonHit]</u></b></mark></color>\n若自身的[RougeThreeCocoonShield]層数為0層或自身的[RougeThreeCocoon]層数為3層，則使自身失去20点理智値并結束該回合。随后在下回合進入[RougeThreeNormal]模式并在本場戦斗中獲得1層[AttackDmgUp](若自身陷入混乱，則解除自身的混乱)"
+        },
+        {
+            "id": 147401,
+            "name": "副主厨",
+            "desc": "<color=#ff6000><mark=#ff000040><b><u>攻撃技能撃殺目標時，使自身獲得1層[SapsareeCooking]</u></b></mark></color>\n- 技能使用時，目標每帯有3種状態效果，額外使自身獲得1層[SapsareeCooking](最多2層)",
+            "flavor": "雖然称号是厨師，但絶不会在5F的餐庁得到認可。"
+        },
+        {
+            "id": 147402,
+            "name": "我説我很会做料理奥",
+            "desc": "<color=#ff6000><mark=#ff000040><b><u>若自身帯有[SapsareeCooking]，則在本回合最后使用技能“啊！我説吃飯時間到了奥”</u></b></mark></color>\n(除自身以外的全体目標均陣亡或自身陷入混乱時不会触発)\n回合結束時，若自身未使用“啊！我説吃飯時間到了奥”，則使自身獲得1層[SapsareeHungry]",
+            "flavor": "在5F的餐庁里，這種東西也不叫料理。"
+        },
+        {
+            "id": 147403,
+            "name": "烹任欲望",
+            "desc": "每4回合使用強力<color=#A6FE00>暴食</color>技能\n(若因陷入混乱而无法触発，則在<color=#7C5738>下回合</color>触発)\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[SapsareeYammi]層数不低于5層，則<color=#7C5738>下回合</color>使用強力<color=#A6FE00>暴食</color>技能\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[SapsareeHungry]層数不低于3層，則<color=#7C5738>下回合</color>使用強力<color=#FE0100>暴怒</color>技能",
+            "flavor": "做用来吃的東西和烹任料理是不同的。袮只是……譲它変得能吃而已。"
+        },
+        {
+            "id": 147404,
+            "name": "我説這可是超級美味奥！！！",
+            "desc": "<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有1層[SapsareeYammi]，使<color=#ffffff>自身</color>恢復3点<color=#81BBE8>理智値</color>",
+            "flavor": "美食广場里的那些東西，能談得上味道麼？"
+        },
+        {
+            "id": 147405,
+            "name": "我説我要開溜了奥！",
+            "desc": "副主厨<color=#61DA61>体力</color>低于30%時結束戦斗",
+            "flavor": "我不想死。"
+        },
+        {
+            "id": 147501,
+            "name": "美味的烹任食材。",
+            "desc": "若<color=#ffffff>自身</color>帯有的状態效果不少于5種，則使<color=#ffffff>自身</color>増加3級攻撃等級与3級防御等級",
+            "flavor": "這些甚至都不是食材。"
+        },
+        {
+            "id": 147502,
+            "name": "嫩肉作用",
+            "desc": "受到攻撃時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層防御等級降低 并使<color=#ffffff>自身</color>獲得1層攻撃等級提升 (<color=#7C5738>每回合</color>最多3次)",
+            "flavor": "銭包那堅靭的皮革，就算変軟了也没用。"
+        },
+        {
+            "id": 147503,
+            "name": "肚子空空…",
+            "desc": "<color=#7C5738>回合結束</color>時，若副主厨未使用技能“啊！我説吃飯時間到了奥”，則使<color=#ffffff>自身</color>獲得1層[SapsareeHungry]",
+            "flavor": "雖然銭包不是為了成為食材而制作的，但由于是作為食材来飼養，因此会感到飢餓也是当然的。"
+        },
+        {
+            "id": 148101,
+            "name": "拼布",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得30層[UnresolvedFeelings]\n現存<color=#61DA61>体力</color>不高于50%時，特定模式使用的技能替換為強力技能",
+            "flavor": "将修改后剩余的面料一層層地縫起来。単看每一枚零碎的面料并无价値，但面料所具有的物性仍然存在，因此楼層經理才会收集它們。"
+        },
+        {
+            "id": 148102,
+            "name": "戒心確認",
+            "desc": "回合開始時，触発以下效果\n<color=#ff6000><mark=#ff000040><b><u>- 若有不低于1名罪人的[Wariness]層数為10層，則自身額外獲得1个行動槽并在其中装備技能“警告广播”</u></b></mark></color>\n- 対未帯有[ReliefSense]的全体罪人施加1層[Wariness]\n- 每有1名帯有[HorribleTerror]的人格，使自身獲得1層[HorribleEat]\n\n<color=#ff6000><mark=#ff000040><b><u>受到罪人的技能攻撃時，</u></b></mark></color>該技能攻撃后対該罪人施加層数相当于自身受到該技能攻撃次数的<color=#ff6000><mark=#ff000040><b><u>[Wariness]</u></b></mark></color>",
+            "flavor": "想要听到声音，要敞開的是心扉，而非双耳。"
+        },
+        {
+            "id": 148103,
+            "name": "感謝",
+            "desc": "回合開始時，<color=#ff6000><mark=#ff000040><b><u>若有不低于1名罪人的[ReliefSense]層数為3層，則自身額外獲得1个行動槽并在其中装備技能“感謝…聆听…”</u></b></mark></color>",
+            "flavor": "有很多客人不好好去听店内广播，或是将其当作耳旁風溜走……感謝宁的傾听……"
+        },
+        {
+            "id": 148104,
+            "name": "恐慌射殺",
+            "desc": "対陷入恐慌的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+200%",
+            "flavor": "有些技術能在精神崩潰時輕易地摧毀肉体。"
+        },
+        {
+            "id": 149201,
+            "name": "黑派面料",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirBindArmor]層数/2)%的<color=#81BBE8>護盾</color>\n\n<color=#ffffff>自身</color>陷入混乱時，使<color=#ffffff>自身</color>失去所有[NoirBindArmor]，\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>解除了混乱，則使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]",
+            "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
+        },
+        {
+            "id": 149202,
+            "name": "保存",
+            "desc": "本場戦斗中，根据<color=#ffffff>自身</color>累計消耗的[ChargeNoir]層数\n- 每当累計消耗5層時，使<color=#ffffff>自身</color>獲得1層[NoirBindArmor]\n- 每当累計消耗10層時，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度",
+            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+        },
+        {
+            "id": 149203,
+            "name": "為停止而改変",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于10層，則使用強力技能\n\n使用技能時，若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于15層，\n則消耗<color=#ffffff>自身</color>3層[ChargeNoir]并使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+20%",
+            "flavor": "這新的声音説，它会帮我改変自己，這様我就能保持不変……"
+        },
+        {
+            "id": 149204,
+            "name": "我听到了…令一个神的声音…",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得2層[RisingMadnessNoir]\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color><color=#61DA61>体力</color>在本場戦斗中首次不高于50%，\n則使<color=#ffffff>自身</color>的[RisingMadnessNoir]轉化為[RisingMadnessNoir2nd]\n\n拼点失敗時，使<color=#ffffff>自身</color>獲得2層[ChargeNoir]",
+            "flavor": "雖然听到了温柔的声音，但却已无法再発生変化。精神被困鎖于肉体之中，因分裂陷入了瘋狂。"
+        },
+        {
+            "id": 148201,
+            "name": "黑派面料",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得3層[NoirBindArmor]\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirBindArmor]層数)%的<color=#81BBE8>護盾</color>(不包括陷入混乱時)",
+            "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
+        },
+        {
+            "id": 148202,
+            "name": "保存",
+            "desc": "本場戦斗中，根据<color=#ffffff>自身</color>累計消耗的[ChargeNoir]層数\n- 每当累計消耗3層時，使<color=#ffffff>自身</color>獲得1層[NoirBindArmor]\n- 每当累計消耗10層時，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級時，使<color=#ffffff>自身</color>的最大[ChargeNoir]層数+5",
+            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+        },
+        {
+            "id": 148203,
+            "name": "凝聚的発散",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級且[ChargeNoir]層数不低于10層，則使用強力技能",
+            "flavor": "為了使其停止而聚集于一処的力量總有一天会噴薄而出。"
+        },
+        {
+            "id": 148204,
+            "name": "保存-轉化悖論",
+            "desc": "若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>時受到罪人攻撃，\n則使<color=#ffffff>自身</color>獲得1層[ChargeNoir](每个技能最多1次，<color=#7C5738>每回合</color>最多3次)\n- 若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3/5級，則改為使<color=#ffffff>自身</color>獲得2/3層[ChargeNoir]\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，\n則<color=#7C5738>下回合</color><color=#ffffff>自身</color>每帯有1級[ChargeNoir]強度，使<color=#ffffff>自身</color>獲得1層[ChargeNoir]与1層[DefenseUp](分別最多3層)",
+            "flavor": "将試圖改変<color=#ffffff>自身</color>的外源力量，轉化為想要保存<color=#ffffff>自身</color>的力量。\n\n是无論多么不希望改変，无論多么想要静止下来，都必須要発生某種変化的世界。"
+        },
+        {
+            "id": 148301,
+            "name": "黑派 華達捏面料",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得30層[NoirSuit]\n\n<color=#7C5738>回合開始</color>時，\n- 使<color=#ffffff>自身</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirSuit]層数/5)%的<color=#81BBE8>護盾</color>(不包括陷入混乱時)",
+            "flavor": "追求正式感与堅固的黑派推出的旗艦面料。"
+        },
+        {
+            "id": 148302,
+            "name": "保存",
+            "desc": "本場戦斗中，根据<color=#ffffff>自身</color>累計消耗的[ChargeNoir]層数\n- 每当累計消耗10層時，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級時，使<color=#ffffff>自身</color>的最大[ChargeNoir]層数+5",
+            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+        },
+        {
+            "id": 148303,
+            "name": "反饋",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>帯有[Realisation]，則<color=#ffffff>自身</color>的“単踏”改為使用“単踏-多様定制時装”\n\n触発[VibrationExplosion]時，使[VibrationExplosion]造成的<color=#ffffff>混乱閾値</color>前移量+20%\n- 若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于12層，則改為造成[VibrationExplosion]時，消耗1層[ChargeNoir]并使[VibrationExplosion]造成的<color=#ffffff>混乱閾値</color>前移量+40%(每名<color=#ffffff>目標</color>分別触発)\n\n触発[VibrationExplosion]時，若<color=#ffffff>目標</color>未擁有<color=#ffffff>混乱閾値</color>，則対其造成相当于<color=#ffffff>自身</color>[DefenseUp]層数的固定<color=#ffffff>傷害</color>(最多20点)",
+            "flavor": "黑派相信通過強烈的震顫来令敵人動揺，就能使其价値崩榻。\n\n他們認為攻撃対象震顫得越激烈，就越是每時每刻都在經暦変化。\n\n黑派的戦斗技術，都是基于這一信念而創造。"
+        },
+        {
+            "id": 148304,
+            "name": "保存-轉化悖論的悖論",
+            "desc": "若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，則受到罪人攻撃時，\n- 使該罪人増加1級[Vibration]強度(每个技能最多1次)\n- 使<color=#ffffff>自身</color>獲得1層[ChargeNoir](每个技能最多1次，<color=#7C5738>每回合</color>最多3次)\n· 若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3/5級，則改為獲得2/3層[ChargeNoir]\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，\n則<color=#ffffff>自身</color>的[ChargeNoir]強度每有1級，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ChargeNoir]与2層[DefenseUp](分別最多3層与6層)",
+            "flavor": "越是努力不去改変，其存在就越傾向于変化的状態。\n\n存在的東西總是傾向于某个方向，而只要傾向于某个方向，変化就会随之而来。"
+        },
+        {
+            "id": 149601,
+            "name": "縫制開始",
+            "desc": "<color=#7C5738>回合開始</color>時，随机対2名<color=#ffffff>敵方単位</color>施加[NiddleExpected]"
+        },
+        {
+            "id": 149602,
+            "name": "手工制作",
+            "desc": "每有1名針族在場，使<color=#ffffff>自身</color>技能的<color=#ffffff>最終威力</color>+1",
+            "flavor": "于手工縫制而言，熟練工匠的数量就是生命。"
+        },
+        {
+            "id": 149603,
+            "name": "堵上耳朶也能听見的投訴",
+            "desc": "每到3的倍数回合，会听見繭的悲鳴\n進入第2階段后，繭的悲鳴<color=#7C5738>每回合</color>持續\n\n在听見繭的悲鳴的回合，<color=#ffffff>自身</color>免疫无法行動状態\n\n若<color=#ffffff>自身</color>的<color=#61DA61>体力</color>降至<color=#ffffff>混乱閾値</color>之下，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層[Vulnerable]",
+            "flavor": "从繭里傳来了声音。\n“80支2股以下不算是面料。” “紐扣眼為什么不是横的？”\n“是旧式織机織出来的天竺布麼？” “布辺的顔色為什么不是紅色？”\n“這个没做防縮水工藝捏。” “Super150以下的都是廉价面料叭。”\n“袮説Super等級只代表綫的粗細？直径和支数都不一様，怎么連這个都不知道。”\n“肯定会用Union Special給下擺做処理叭？” “這个是硬化過的麼？啊，還是説是布辺？”\n“仔細看去，針脚太均雲了，是用了机器叭？” “不是純手工縫制就算不上定做。”\n“啊，這不是米蘭式扣眼啊。” “支数得超過200才能叫襯衫面料叭。”\n“啊，从外面能看見縫綫捏。” “能看到兩列縫綫捏。淘汰。”\n“縫分怎么処理成這様。” “得超過3股才行。”"
+        },
+        {
+            "id": 148401,
+            "name": "未成的赤紅之神",
+            "desc": "回合結束時，自身的[ChargeRouge]層数不会減少\n<color=#ff6000><mark=#ff000040><b><u>進行拼点時，每触発1次目標的[Laceration]</u></b></mark></color>，使自身獲得1層[ChargeRouge]\n撃殺目標時，使自身獲得層数相当于目標的[Laceration]強度与[Laceration]層数之和的[ChargeRouge]\n回合開始時，自身每帯有1層[ChargeRouge]，使自身恢復3点理智値",
+            "flavor": "因渴望而誕生的神。就連其誕生也并不完整。"
+        },
+        {
+            "id": 148402,
+            "name": "搏動着的薔薇色肌肉",
+            "desc": "回合開始時，若自身未帯有[Gourmandise]，<color=#ff6000><mark=#ff000040><b><u>且自身的[ChargeRouge]層数不低于15層，則消耗所有[ChargeRouge]層数并使自身獲得[Gourmandise]</u></b></mark></color>\n\n自身帯有[Gourmandise]時，獲得以下效果：\n- 使用技能時，対自身施加3層[Laceration]\n- 技能命中時，使自身増加1級[Laceration]強度\n- 部位受到攻撃時，対自身施加1層[BuffetSick]\n- 拼点失敗時，対自身施加3層[BuffetSick]\n- 撃殺目標時，若其[BloodyMucus]層数不低于3層，則下回合生成“赤紅之神被撕下的肉塊”\n- 戦斗結束時，每有1名敵方単位帯有[BloodyMucus]，使自身恢復3点理智値\n\n回合結束時，若[Gourmandise]解除時<color=#ff6000><mark=#ff000040><b><u>自身的[BuffetSick]層数不低于30層</u></b></mark></color>，則下回合弱化自身模式并使場上的“赤紅之神被撕下的肉塊”陷入混乱\n\n※ [BloodyMucus]層数可通過<color=#ff6000><mark=#ff000040><b><u>使用E.G.O技能或守備技能</u></b></mark></color>減少\n※ “赤紅之神被撕下的肉塊”獲得相当于陣亡目標[BloodyMucus]層数的[DeterioratingBody]層数\n※ 帯有[DeterioratingBody]的“赤紅之神被撕下的肉塊”不会陣亡\n※ 場上最多生成3个“赤紅之神被撕下的肉塊”",
+            "flavor": "手和脚瘋狂地胡乱爭扎着。倣佛并非原本就長在身体上一様。"
+        },
+        {
+            "id": 148403,
+            "name": "差距",
+            "desc": "対<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+50%",
+            "flavor": "映于眼中的所有事物，都以各自不同的速度不断移動着。"
+        },
+        {
+            "id": 148404,
+            "name": "求生本能",
+            "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[SavePlacenta]，并使命脉<color=#ffffff>部位</color>獲得5層[Protection]\n若<color=#ffffff>自身</color>帯有[Gourmandise]或陷入混乱，則該被動效果不会触発",
+            "flavor": "身体進行着与意識无関的，為保護身体為目的的爭扎。甚至連到那里為止是自己的身体都不知道。"
+        },
+        {
+            "id": 148405,
+            "name": "被切断的命脉",
+            "desc": "<color=#7C5738>回合結束</color>時，若命脉<color=#ffffff>部位</color>被破坏，則<color=#7C5738>下回合</color>対躯干<color=#ffffff>部位</color>施加3層[Vulnerable]",
+            "flavor": "黏在身上、吊在身上的這些東西，到那里為止算是自己，已經難以衡量了。"
+        },
+        {
+            "id": 148406,
+            "name": "暴力的誕生的狂暴",
+            "desc": "<color=#7C5738>回合結束</color>時，若命脉<color=#ffffff>部位</color>未被破坏，且本体<color=#61DA61>体力</color>低于50%，則使<color=#ffffff>自身</color>獲得[Gourmandise]\n命脉<color=#ffffff>部位</color>被破坏前，<color=#ffffff>自身</color>的[Gourmandise]層数不会減少",
+            "flavor": "身体从温暖之処到冰冷之処。意識从凉爽之処到炎熱之処。一切都是強制的。"
+        },
+        {
+            "id": 149701,
+            "name": "无意識搏動",
+            "desc": "- 生成時，獲得相当于陣亡<color=#ffffff>目標</color>[BloodyMucus]層数的[DeterioratingBody]層数\n\n[DeterioratingBody]解除時陣亡",
+            "flavor": "它是活着的。但，却没有大脳。意識不是来源于大脳，而是自搏動的肌肉中産生的麼。"
+        }
+    ]
 }

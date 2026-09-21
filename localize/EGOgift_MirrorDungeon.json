@@ -3101,7 +3101,7 @@
         },
         {
             "id": 9114,
-            "name": "鏡触覚通感",
+            "name": "鏡反射触覚聯覚",
             "desc": "<color=#ffffff>友方単位</color>通過増加[Vibration]強度或施加[Vibration]層数的攻撃技能(包括対<color=#ffffff>自身</color>施加的技能，不包括E.G.O技能)使<color=#ffffff>敵方単位</color>陷入混乱時，随机使除該単位以外的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為随机<color=#ffffff>部位</color>)増加共計該単位[Vibration]強度1/3的[Vibration]強度\n\n若没有<color=#ffffff>敵方単位</color>可増加[Vibration]強度，則改為<color=#7C5738>下回合</color>使<color=#ffffff>目標</color>的[Vibration]強度変為1.5倍",
             "simpleDesc": [
                 {
@@ -3798,7 +3798,7 @@
         {
             "id": 9140,
             "name": "决意",
-            "desc": "本場戦斗中，擁有不低于2个<color=#ffffff>斬撃</color>技能的<color=#ffffff>友方単位</color>首个回合的<color=#ffffff>拼点威力</color>+1，从第2回合起使其獲得1層[Agility]并使其<color=#ffffff>拼点威力</color>+1。\n\n属于し協会的人格恢復<color=#61DA61>体力</color>最多恢復至<color=#61DA61>体力</color>上限的75%，但受到的<color=#ffffff>傷害</color>与使<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>-50%(<color=#7C5737>関峠開始</color>時立即触発，不包括E.G.O飾品恢復的<color=#61DA61>体力</color>)。\n\n<color=#7C5738>每回合</color>開始時，使属于し協会的人格獲得1層<color=#ffffff>斬撃</color>威力提升 与1層<color=#ffffff>斬撃</color>傷害強化 ",
+            "desc": "本場戦斗中，擁有不低于2个<color=#ffffff>斬撃</color>技能的<color=#ffffff>友方単位</color>首个回合的<color=#ffffff>拼点威力</color>+1，从第2回合起使其獲得1層[Agility]并使其<color=#ffffff>拼点威力</color>+1。\n\n属于し協会的人格恢復<color=#61DA61>体力</color>最多恢復至<color=#61DA61>体力</color>上限的75%，但受到的<color=#ffffff>傷害</color>与使<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>-50%(進入戦斗時立即触発，不包括E.G.O飾品恢復的<color=#61DA61>体力</color>)。\n\n<color=#7C5738>每回合</color>開始時，使属于し協会的人格獲得1層<color=#ffffff>斬撃</color>威力提升 与1層<color=#ffffff>斬撃</color>傷害強化 ",
             "simpleDesc": [
                 {
                     "abilityID": 9140,
@@ -3813,7 +3813,7 @@
         {
             "id": 19140,
             "name": "决意+",
-            "desc": "本場戦斗中，擁有不低于2个<color=#ffffff>斬撃</color>技能的<color=#ffffff>友方単位</color>首个回合的<color=#ffffff>拼点威力</color>+1，从第2回合起使其獲得<style=\"upgradeHighlight\">2層[Agility]</style>并使其<color=#ffffff>拼点威力</color>+1。\n\n属于し協会的人格恢復<color=#61DA61>体力</color>最多恢復至<color=#61DA61>体力</color>上限的<style=\"upgradeHighlight\">50</style>%，但受到的<color=#ffffff>傷害</color>与使<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>-<style=\"upgradeHighlight\">75</style>%（<color=#7C5737>関峠開始</color>時立即触発，不包括E.G.O飾品恢復的<color=#61DA61>体力</color>）。\n\n<color=#7C5738>每回合</color>開始時，使属于し協会的人格獲得1層<color=#ffffff>斬撃</color>威力提升 与<style=\"upgradeHighlight\">2</style>層<color=#ffffff>斬撃</color>傷害強化 ",
+            "desc": "本場戦斗中，擁有不低于2个<color=#ffffff>斬撃</color>技能的<color=#ffffff>友方単位</color>首个回合的<color=#ffffff>拼点威力</color>+1，从第2回合起使其獲得<style=\"upgradeHighlight\">2層[Agility]</style>并使其<color=#ffffff>拼点威力</color>+1。\n\n属于し協会的人格恢復<color=#61DA61>体力</color>最多恢復至<color=#61DA61>体力</color>上限的<style=\"upgradeHighlight\">50</style>%，但受到的<color=#ffffff>傷害</color>与使<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>-<style=\"upgradeHighlight\">75</style>%（進入戦斗時立即触発，不包括E.G.O飾品恢復的<color=#61DA61>体力</color>）。\n\n<color=#7C5738>每回合</color>開始時，使属于し協会的人格獲得1層<color=#ffffff>斬撃</color>威力提升 与<style=\"upgradeHighlight\">2</style>層<color=#ffffff>斬撃</color>傷害強化 ",
             "simpleDesc": [
                 {
                     "abilityID": 19140,
@@ -3828,7 +3828,7 @@
         {
             "id": 29140,
             "name": "决意++",
-            "desc": "本場戦斗中，擁有不低于2个<color=#ffffff>斬撃</color>技能的<color=#ffffff>友方単位</color>首个回合的<color=#ffffff>拼点威力</color>+1，从第2回合起使其獲得2層[Agility]并使其<style=\"upgradeHighlight\"><color=#ffffff>最終威力</color>+1。</style>\n\n属于し協会的人格恢復<color=#61DA61>体力</color>最多恢復至<color=#61DA61>体力</color>上限的<style=\"upgradeHighlight\">49</style>%，但受到的<color=#ffffff>傷害</color>与使<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>-75%（<color=#7C5737>関峠開始</color>時立即触発，不包括E.G.O飾品恢復的<color=#61DA61>体力</color>）。\n\n<color=#7C5738>每回合</color>開始時，使属于し協会的人格獲得1層<color=#ffffff>斬撃</color>威力提升 与<style=\"upgradeHighlight\">3</style>層<color=#ffffff>斬撃</color>傷害強化 ",
+            "desc": "本場戦斗中，擁有不低于2个<color=#ffffff>斬撃</color>技能的<color=#ffffff>友方単位</color>首个回合的<color=#ffffff>拼点威力</color>+1，从第2回合起使其獲得2層[Agility]并使其<style=\"upgradeHighlight\"><color=#ffffff>最終威力</color>+1。</style>\n\n属于し協会的人格恢復<color=#61DA61>体力</color>最多恢復至<color=#61DA61>体力</color>上限的<style=\"upgradeHighlight\">49</style>%，但受到的<color=#ffffff>傷害</color>与使<color=#ffffff>自身</color>恢復的<color=#61DA61>体力</color>-75%（進入戦斗時立即触発，不包括E.G.O飾品恢復的<color=#61DA61>体力</color>）。\n\n<color=#7C5738>每回合</color>開始時，使属于し協会的人格獲得1層<color=#ffffff>斬撃</color>威力提升 与<style=\"upgradeHighlight\">3</style>層<color=#ffffff>斬撃</color>傷害強化 ",
             "simpleDesc": [
                 {
                     "abilityID": 29140,

@@ -1,56 +1,56 @@
 {
-  "dataList": [
-    {
-      "id": "main_ui_rpg_battle_defeated_title",
-      "content": "戦闘敗北"
-    },
-    {
-      "id": "main_ui_rpg_battle_defeated_desc",
-      "content": "<color=#990000>全ての囚人が死亡しました。</color>\n今後の進行を選択してください。"
-    },
-    {
-      "id": "main_ui_rpg_retry",
-      "content": "再挑戦"
-    },
-    {
-      "id": "main_ui_rpg_retry_desc",
-      "content": "この戦闘を最初からやり直す"
-    },
-    {
-      "id": "main_ui_rpg_accept_defeat",
-      "content": "ギブアップ"
-    },
-    {
-      "id": "main_ui_rpg_accept_defeat_desc",
-      "content": "最後にセーブした状態の泉へ戻る"
-    },
-    {
-      "id": "ContinueConfirm_Desc_Rpg_Stage",
-      "content": "10-4ステージでは、戦闘中にコンティニュー機能を使用しても、\n最終クリア時にEXクリアとして記録されます。\n\nただしコンティニュー使用後、<color=#990000>リトライ・敗北・ギブアップせずに戦闘に勝利し、進行度が保存</color>された場合、\n<color=#990000>10-4ステージを途中でギブアップしても、コンティニューに使用したアイテムは返還されません。</color>\nまた、使用した狂気は請約撤回できません。"
-    },
-    {
-      "id": "formation_ego_resource_popup_current_owned_desc",
-      "content": "現在保有しているE.G.O資源の数量です。"
-    },
-    {
-      "id": "formation_ego_resource_popup_current_owned",
-      "content": "保有E.G.O資源"
-    },
-    {
-      "id": "9128_chapter_notice_button_title",
-      "content": "章の注意事項"
-    },
-    {
-      "id": "9128_chapter_notice_popup_title",
-      "content": "現在プレイ中の章は<color=#3246AB>[{0}章 {1}]</color>です。"
-    },
-    {
-      "id": "9128_chapter_notice_enter_title",
-      "content": "<color=#3246AB>[{0}章 {1}]</color>へ突入しますか？"
-    },
-    {
-      "id": "9128_chapter_notice_popup_desc",
-      "content": "◆ 前の章をクリアしていなくても、<color=#ff6000><mark color=#ff000040><b><u>メインストーリー10章をプレイできます。</color></mark></b></u>\n◆ <color=#ff6000><mark color=#ff000040><b><u>9.5章までのネタバレ</color></mark></b></u>が含まれています。\n◆ 10章をクリアした際に前の章をクリアしていない場合、鏡ダンジョン、鏡屈折鉄道、採光、射影戦闘など、<color=#ff6000><mark color=#ff000040><b><u>前の章のクリアによって解放されるコンテンツは利用できません。</color></mark></b></u>全てのコンテンツを利用するには、解放条件を満たしてください。\n◆ 10章クリアを条件とするコンテンツ(今後のアップデートで追加予定)を利用するには、<color=#ff6000><mark color=#ff000040><b><u>10章および9.5-26ステージをクリア</color></mark></b></u>してください。\n◆ 10章プレイ時、<color=#ff6000><mark color=#ff000040><b><u>ムルソーの一部人格がサポートとして提供</color></mark></b></u>されます。(サポート人格・E.G.Oには同期化・幻想解析4段階が適用されます。)\n◆ 10章プレイ時、<color=#ff6000><mark color=#ff000040><b><u>味方全員の人格の同期化3段階がサポート</color></mark></b></u>されます。E.G.Oの幻想解析は別途補正されません。"
-    }
-  ]
+    "dataList": [
+        {
+            "id": "main_ui_rpg_battle_defeated_title",
+            "content": "戦斗失敗"
+        },
+        {
+            "id": "main_ui_rpg_battle_defeated_desc",
+            "content": "<color=#990000>所有罪人陣亡。</color>\n請選擇后續操作。"
+        },
+        {
+            "id": "main_ui_rpg_retry",
+            "content": "重試"
+        },
+        {
+            "id": "main_ui_rpg_retry_desc",
+            "content": "重新開始這次戦斗"
+        },
+        {
+            "id": "main_ui_rpg_accept_defeat",
+            "content": "放弃"
+        },
+        {
+            "id": "main_ui_rpg_accept_defeat_desc",
+            "content": "返回最后保存状態的泉"
+        },
+        {
+            "id": "ContinueConfirm_Desc_Rpg_Stage",
+            "content": "无論玩家是否使用過續関功能，\n通過関峠10-4都将標記為EX通関。\n\n但是，若使用了續関功能，且<color=#990000>在没有重試、失敗或放弃的情况下戦斗勝利并保存了進度</color>，則<color=#990000>中途放弃関峠10-4将不会返還用于續関的資源。</color>\n\n請注意，消耗的狂气无法退款。"
+        },
+        {
+            "id": "formation_ego_resource_popup_current_owned_desc",
+            "content": "当前持有的E.G.O資源数量。"
+        },
+        {
+            "id": "formation_ego_resource_popup_current_owned",
+            "content": "所持E.G.O資源"
+        },
+        {
+            "id": "9128_chapter_notice_button_title",
+            "content": "章節注意事項"
+        },
+        {
+            "id": "9128_chapter_notice_popup_title",
+            "content": "当前正在游玩的章節為<color=#3246AB>[{0} - {1}]</color>。"
+        },
+        {
+            "id": "9128_chapter_notice_enter_title",
+            "content": "要進入<color=#3246AB>[Chapter {0} - {1}]</color>麼？"
+        },
+        {
+            "id": "9128_chapter_notice_popup_desc",
+            "content": "◆ 即使尚未通関之前的章節，<color=#ff6000><mark color=#ff000040><b><u>也可游玩主綫故事第10章</color></mark></b></u>。\n◆ 包含<color=#ff6000><mark color=#ff000040><b><u>至間章VII的劇透</color></mark></b></u>。\n◆ 通関第10章時，若仍未通関之前的章節，則鏡像迷宮、折射軌道、采光、映射戦斗等<color=#ff6000><mark color=#ff000040><b><u>需通関之前的章節才能解鎖的内容将无法使用。</color></mark></b></u>若想游玩所有内容，請満足解鎖条件。\n◆ 対于以通関第10章為条件的内容（預計今后更新），請<color=#ff6000><mark color=#ff000040><b><u>通関第10章及関峠9.5-26</color></mark></b></u>。\n◆ 游玩第10章時，<color=#ff6000><mark color=#ff000040><b><u>将提供默尓索的部分人格作為助戦人格</color></mark></b></u>。（助戦人格及E.G.O為同步/異想解析4階段。）\n◆ 游玩第10章時，<color=#ff6000><mark color=#ff000040><b><u>全体友方単位的人格同步将提升至3階段</color></mark></b></u>。E.G.O的異想解析不会令行補正。"
+        }
+    ]
 }

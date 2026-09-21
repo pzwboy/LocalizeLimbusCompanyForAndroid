@@ -229,7 +229,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "雷歴風行",
+                    "name": "疾行步法",
                     "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層破裂守護 (<color=#7C5738>每回合</color>最多6層)",
                     "coinlist": [
                         {
@@ -2778,20 +2778,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "ああ、あなたには聞こえないようですね？",
-                    "desc": "[WhenUse] 自分の現体力が80%以上なら、[ChargeRougeAlly]回数3を得る",
+                    "name": "啊啊…袮听不見，対麼？",
+                    "desc": "[WhenUse] 若現存<color=#61DA61>体力</color>不低于80%，則使<color=#ffffff>自身</color>獲得3層[ChargeRougeAlly]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
                                 }
                             ]
                         }
@@ -2799,20 +2799,20 @@
                 },
                 {
                     "level": 2,
-                    "name": "ああ、あなたには聞こえないようですね？",
-                    "desc": "<style=\"highlight\">自分の[ChargeRougeAlly]が2以上なら、コイン威力 +1</style>\n[WhenUse] 自分の現体力が80%以上なら、[ChargeRougeAlly]回数3を得る",
+                    "name": "啊啊…袮听不見，対麼？",
+                    "desc": "<style=\"highlight\">若<color=#ffffff>自身</color>的[ChargeRougeAlly]強度不低于2級，則使本技能的<color=#ffffff>硬幣威力</color>+1</style>\n[WhenUse] 若現存<color=#61DA61>体力</color>不低于80%，則使<color=#ffffff>自身</color>獲得3層[ChargeRougeAlly]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が<style=\"highlight\">3</style>増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">3</style>層[ChargeRougeAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
                                 }
                             ]
                         }
@@ -2820,20 +2820,20 @@
                 },
                 {
                     "level": 4,
-                    "name": "ああ、あなたには聞こえないようですね？",
-                    "desc": "自分の[ChargeRougeAlly]が2以上なら、コイン威力 +1\n[WhenUse] 自分の現体力が80%以上なら、[ChargeRougeAlly]回数<style=\"highlight\">5</style>を得る\n<style=\"highlight\">[WhenUse] 対象の[Laceration]3につき、マッチ威力 +1 (最大2)</style>",
+                    "name": "啊啊…袮听不見，対麼？",
+                    "desc": "若<color=#ffffff>自身</color>的[ChargeRougeAlly]強度不低于2級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若現存<color=#61DA61>体力</color>不低于80%，則使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[ChargeRougeAlly]\n<style=\"highlight\">[WhenUse] <color=#ffffff>目標</color>每帯有3級[Laceration]強度，使本技能的<color=#ffffff>拼点威力</color>+1(最多+2)</style>",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が3増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeRougeAlly]<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
                                 }
                             ]
                         }
@@ -2846,29 +2846,29 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "声が聞こえなかったからといって、不在だったわけではないということを！",
+                    "name": "听不見那声音，并不代表它不存在！",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                    "desc": "若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
                                 },
                                 {
-                                    "desc": "[ReUseOnSucceedAttack] 体力最大値の([ChargeRougeAlly]威力 × 2)%だけ体力を回復 (最大10%)"
+                                    "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[ChargeRougeAlly]強度×2)%的<color=#61DA61>体力</color>(最多10%)"
                                 }
                             ]
                         }
@@ -2876,32 +2876,32 @@
                 },
                 {
                     "level": 2,
-                    "name": "声が聞こえなかったからといって、不在だったわけではないということを！",
-                    "desc": "<style=\"highlight\">自分の[ChargeRougeAlly]2につき、最終威力 +1 (最大2)\n[WhenUse] 自分の[ChargeRougeAlly]回数が10未満なら、体力を最大値の3 × (10 - 現在の[ChargeRougeAlly]回数)%だけ消耗し、[ChargeRougeAlly]回数が10まで増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を10消耗し、コイン威力 +1\n[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1\n[BeforeAttack] 自分に[RougeIshmaelEclose]があるなら、ダメージ量 +20%\n- [RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗した後に発動</style>",
+                    "name": "听不見那声音，并不代表它不存在！",
+                    "desc": "<style=\"highlight\"><color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于10層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限3×(10-現存[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至10層[ChargeRougeAlly]\n[WhenUse] 消耗<color=#ffffff>自身</color>10層[ChargeRougeAlly]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[BeforeAttack] 若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則使本技能造成的<color=#ffffff>傷害</color>+20%\n- 若<color=#ffffff>自身</color>未帯有[RougeIshmaelEclose]，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>并触発該效果</style>",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が<style=\"highlight\">4</style>増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[ChargeRougeAlly]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                    "desc": "若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[ChargeRougeAlly]が3以上なら、次のターンに[ScarletTakeDamageUp]1を付与 (1ターンにつき1回)</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]強度不低于3級，則<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[ScarletTakeDamageUp](<color=#7C5738>每回合</color>最多1次)</style>"
                                 },
                                 {
-                                    "desc": "[ReUseOnSucceedAttack] 体力を最大値の([ChargeRougeAlly]威力 × <style=\"highlight\">3</style>)%だけ回復 (最大<style=\"highlight\">15%</style>)"
+                                    "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[ChargeRougeAlly]強度×<style=\"highlight\">3</style>)%的<color=#61DA61>体力</color>(最多<style=\"highlight\">15%</style>)"
                                 }
                             ]
                         }
@@ -2909,32 +2909,32 @@
                 },
                 {
                     "level": 4,
-                    "name": "声が聞こえなかったからといって、不在だったわけではないということを！",
-                    "desc": "自分の[ChargeRougeAlly]2につき、最終威力 +1 (最大2)\n[WhenUse] 自分の[ChargeRougeAlly]回数が10未満なら、体力を最大値の3 × (10 - 現在の[ChargeRougeAlly]回数)%だけ消耗し、[ChargeRougeAlly]回数が10まで増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を10消耗し、コイン威力 +1\n[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1\n[BeforeAttack] 自分に[RougeIshmaelEclose]があるなら、ダメージ量 +<style=\"highlight\">40%</style>\n- [RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗した後に発動",
+                    "name": "听不見那声音，并不代表它不存在！",
+                    "desc": "<color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于10層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限3×(10-現存[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至10層[ChargeRougeAlly]\n[WhenUse] 消耗<color=#ffffff>自身</color>10層[ChargeRougeAlly]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[BeforeAttack] 若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則使本技能造成的<color=#ffffff>傷害</color>+<style=\"highlight\">40%</style>\n- 若<color=#ffffff>自身</color>未帯有[RougeIshmaelEclose]，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>并触発該效果",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得4層[ChargeRougeAlly]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                    "desc": "若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Laceration]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]が<style=\"highlight\">2</style>以上なら、次のターンに[ScarletTakeDamageUp]1を付与 (1ターンにつき1回)"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]強度不低于<style=\"highlight\">2</style>級，則<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[ScarletTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
                                 },
                                 {
-                                    "desc": "[ReUseOnSucceedAttack] 体力を最大値の([ChargeRougeAlly]威力 × 3)%だけ回復 (最大15%)<style=\"highlight\"></style>"
+                                    "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[ChargeRougeAlly]強度×3)%的<color=#61DA61>体力</color>(最多15%)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -2947,33 +2947,33 @@
             "levelList": [
                 {
                     "level": 3,
-                    "name": "掻き削り、引き剥がし、釘付けにしろ！",
-                    "desc": "自分の[ChargeRougeAlly]1につき、ダメージ量 +5% (最大25%)\n[StartBattle] 自分の現体力が最大値の50%未満、または自分に[RougeIshmaelEclose]があるなら、このスキルの全コインが[SuperCoin]に変更される\n[WhenUse] 自分の[ChargeRougeAlly]回数が15未満なら、体力を最大値の3 × (15 - 現在の[ChargeRougeAlly]回数)%だけ消耗し、[ChargeRougeAlly]回数が15まで増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を15消耗し、コイン威力 +3\n[WhenUse] 対象の[Laceration]6につき、コイン威力 +1 (最大2)\n[BeforeAttack] 自分に[RougeIshmaelEclose]があるなら、ダメージ量 +40%\n- [RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗した後に発動",
+                    "name": "将其刮削、剥下、用釘固定叭！",
+                    "desc": "<color=#ffffff>自身</color>每帯有1級[ChargeRougeAlly]強度，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+25%)\n[StartBattle] 若現存<color=#61DA61>体力</color>低于<color=#ffffff>自身</color><color=#61DA61>体力</color>上限的50%，或<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于15層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限3×(15-<color=#ffffff>自身</color>的[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至15層[ChargeRougeAlly]\n[WhenUse] 消耗<color=#ffffff>自身</color>15層[ChargeRougeAlly]并使本技能的<color=#ffffff>硬幣威力</color>+3\n[WhenUse] <color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[BeforeAttack] 若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則使本技能造成的<color=#ffffff>傷害</color>+40%\n- 若<color=#ffffff>自身</color>未帯有[RougeIshmaelEclose]，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>并触発該效果 ",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                    "desc": "若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[ChargeRougeAlly]威力 × 10)%だけ色欲ダメージ (最大30%)"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[ChargeRougeAlly]強度×10)%的<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>(最多30%)"
                                 },
                                 {
-                                    "desc": "[ReUseOnSucceedAttack] 体力を最大値の([ChargeRougeAlly]威力 × 4)%だけ回復 (最大20%)"
+                                    "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[ChargeRougeAlly]強度×4)%的<color=#61DA61>体力</color>(最多20%)"
                                 }
                             ]
                         }
@@ -2981,33 +2981,33 @@
                 },
                 {
                     "level": 4,
-                    "name": "掻き削り、引き剥がし、釘付けにしろ！",
-                    "desc": "自分の[ChargeRougeAlly]1につき、ダメージ量 +<style=\"highlight\">10%</style> (最大<style=\"highlight\">50%</style>)\n[StartBattle] 自分の現体力が最大値の50%未満、または自分に[RougeIshmaelEclose]があるなら、このスキルの全コインが[SuperCoin]に変更される\n[WhenUse] 自分の[ChargeRougeAlly]回数が15未満なら、体力を最大値の3 × (15 - 現在の[ChargeRougeAlly]回数)%だけ消耗し、[ChargeRougeAlly]回数が15まで増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を15消耗し、コイン威力 +3\n[WhenUse] 対象の[Laceration]6につき、コイン威力 +1 (最大2)\n[BeforeAttack] 自分に[RougeIshmaelEclose]があるなら、ダメージ量 +40%\n- [RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗した後に発動",
+                    "name": "将其刮削、剥下、用釘固定叭！",
+                    "desc": "<color=#ffffff>自身</color>每帯有1級[ChargeRougeAlly]強度，使本技能造成的<color=#ffffff>傷害</color>+<style=\"highlight\">10%</style>(最多+<style=\"highlight\">50%</style>)\n[StartBattle] 若現存<color=#61DA61>体力</color>低于<color=#ffffff>自身</color><color=#61DA61>体力</color>上限的50%，或<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于15層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限3×(15-<color=#ffffff>自身</color>的[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至15層[ChargeRougeAlly]\n[WhenUse] 消耗<color=#ffffff>自身</color>15層[ChargeRougeAlly]并使本技能的<color=#ffffff>硬幣威力</color>+3\n[WhenUse] <color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[BeforeAttack] 若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則使本技能造成的<color=#ffffff>傷害</color>+40%\n- 若<color=#ffffff>自身</color>未帯有[RougeIshmaelEclose]，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>并触発該效果 ",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]<style=\"highlight\">4</style>を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">4</style>級[Laceration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "自分に[RougeIshmaelEclose]があるなら、このコインを1回再使用 (スキルにつき1回)"
+                                    "desc": "若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の(自分の[ChargeRougeAlly]威力 × 10)%だけ色欲ダメージ (最大30%)"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(<color=#ffffff>自身</color>的[ChargeRougeAlly]強度×10)%的<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>(最多30%)"
                                 },
                                 {
-                                    "desc": "[ReUseOnSucceedAttack] 体力を最大値の([ChargeRougeAlly]威力 × 4)%だけ回復 (最大20%)"
+                                    "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[ChargeRougeAlly]強度×4)%的<color=#61DA61>体力</color>(最多20%)"
                                 }
                             ]
                         }
@@ -3020,20 +3020,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "やっぱり…この世界には意味があったんですよね？",
-                    "desc": "[DuelCounter]\n[StartBattle] 自分の現体力が最大値の10%以下なら、[RougeIshmaelCocoon]2を得て[RougeIshmaelCocoon]になる (戦闘につき1回)\n[StartBattle] 自分に[RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗し、次のターンにこのスロットの[Aggro]が10増加 (1ターンにつき1回)",
+                    "name": "果然…這个世界還是有意義的叭？",
+                    "desc": "[DuelCounter]\n[StartBattle] 若現存<color=#61DA61>体力</color>不高于<color=#61DA61>体力</color>上限的10%，則使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)\n[StartBattle] 若<color=#ffffff>自身</color>未帯有[RougeIshmaelEclose]，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>并在<color=#7C5738>下回合</color>使本技能対應<color=#ffffff>行動槽</color>的[Aggro]+10(<color=#7C5738>每回合</color>最多1次)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得4層[ChargeRougeAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
                                 }
                             ]
                         }
@@ -3041,23 +3041,23 @@
                 },
                 {
                     "level": 4,
-                    "name": "やっぱり…この世界には意味があったんですよね？",
-                    "desc": "[DuelCounter]\n[StartBattle] 自分の現体力が最大値の10%以下なら、[RougeIshmaelCocoon]2を得て[RougeIshmaelCocoon]になる (戦闘につき1回)\n[StartBattle] 自分に[RougeIshmaelEclose]がないなら、自分の体力を最大値の20%だけ消耗し、次のターンにこのスロットの[Aggro]が10増加 (1ターンにつき1回)\n<style=\"highlight\">[WhenUse] 自分の[ChargeRougeAlly]威力2につき、最終威力 +1 (最大2)\n[WhenUse] 対象の[Laceration]4につき、ダメージ量 +10% (最大40%)</style>",
+                    "name": "果然…這个世界還是有意義的叭？",
+                    "desc": "[DuelCounter]\n[StartBattle] 若現存<color=#61DA61>体力</color>不高于<color=#61DA61>体力</color>上限的10%，則使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)\n[StartBattle] 若<color=#ffffff>自身</color>未帯有[RougeIshmaelEclose]，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>并在<color=#7C5738>下回合</color>使本技能対應<color=#ffffff>行動槽</color>的[Aggro]+10(<color=#7C5738>每回合</color>最多1次)\n<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能造成的<color=#ffffff>傷害</color>+10%(最多+40%)</style>",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得4層[ChargeRougeAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 自分に[RougeIshmaelEclose]があるなら、体力を最大値の10%だけ回復 (1ターンにつき1回)</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 若<color=#ffffff>自身</color>帯有[RougeIshmaelEclose]，則使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限10%的<color=#61DA61>体力</color>(<color=#7C5738>每回合</color>最多1次)</style>"
                                 }
                             ]
                         }
@@ -3070,8 +3070,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "声に従い、喜んで私の中へ",
-                    "desc": "[RougeIshmaelCocoon]専用スキル\n[CanDuelGuard]\n[StartBattle] 自分の[ChargeRougeAlly]回数が10以上なら、10消耗し、次のターンに編成順が早い順に味方2名へ[ResultEnhancement]1を付与 (1ターンにつき1回)\n[StartBattle] 自分の体力を最大値の50%だけ回復 (1ターンにつき1回)\n[WinDuel] 自分の[ChargeRougeAlly]回数が5増加 (1ターンにつき4回)",
+                    "name": "順从那声音，我欣然地深入我之中",
+                    "desc": "[RougeIshmaelCocoon]専用技能\n[CanDuelGuard]\n[StartBattle] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数不低于10層，則消耗10層[ChargeRougeAlly]并在<color=#7C5738>下回合</color>使最先編入的2名<color=#ffffff>友方単位</color>獲得1層[ResultEnhancement](<color=#7C5738>每回合</color>最多1次)\n[StartBattle] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限50%的<color=#61DA61>体力</color>(<color=#7C5738>每回合</color>最多1次)\n[WinDuel] 使<color=#ffffff>自身</color>獲得5層[ChargeRougeAlly](<color=#7C5738>每回合</color>最多4次)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -3084,8 +3084,8 @@
                 },
                 {
                     "level": 4,
-                    "name": "声に従い、喜んで私の中へ",
-                    "desc": "[RougeIshmaelCocoon]専用スキル\n[CanDuelGuard]\n[StartBattle] 自分の[ChargeRougeAlly]回数が10以上なら、10消耗し、次のターンに編成順が早い順に味方2名へ[ResultEnhancement]1を付与 (1ターンにつき1回)\n<style=\"highlight\">- 対象がル・ルージュ所属なら、次のターンに自分の[ChargeRougeAlly]回数が5増加し、対象に[AttackDmgUp]1を追加で付与</style>\n[StartBattle] 自分の体力最大値の<style=\"highlight\">100%</style>だけ体力を回復 (1ターンにつき1回)\n<style=\"highlight\">[WinDuel] 自分に付与された解除可能なマイナス効果からランダムに1つ除去 (1ターンにつき1回)</style>\n[WinDuel] 自分の[ChargeRougeAlly]回数が5増加 (1ターンにつき4回)",
+                    "name": "順从那声音，我欣然地深入我之中",
+                    "desc": "[RougeIshmaelCocoon]専用技能\n[CanDuelGuard]\n[StartBattle] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数不低于10層，則消耗10層[ChargeRougeAlly]并在<color=#7C5738>下回合</color>使最先編入的2名<color=#ffffff>友方単位</color>獲得1層[ResultEnhancement](<color=#7C5738>每回合</color>最多1次)\n<style=\"highlight\">- 若該<color=#ffffff>友方単位</color>属于紅派，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得5層[ChargeRougeAlly]并額外使該<color=#ffffff>友方単位</color>獲得1層[AttackDmgUp]</style>\n[StartBattle] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限<style=\"highlight\">100%</style>的<color=#61DA61>体力</color>(<color=#7C5738>每回合</color>最多1次)\n<style=\"highlight\">[WinDuel] 随机解除<color=#ffffff>自身</color>帯有的1種可解除的負面状態(<color=#7C5738>每回合</color>最多1次)</style>\n[WinDuel] 使<color=#ffffff>自身</color>獲得5層[ChargeRougeAlly](<color=#7C5738>每回合</color>最多4次)",
                     "coinlist": [
                         {
                             "coindescs": [

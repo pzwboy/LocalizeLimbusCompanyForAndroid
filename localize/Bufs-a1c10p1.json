@@ -1,413 +1,413 @@
 {
-  "dataList": [
-    {
-      "id": "NoirNoComply",
-      "name": "案内不履行",
-      "desc": "- 最大値 : 3\n- 数値1につき、被ダメージ量 +5%",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "ブランドの規定をお守りいただけなかったため、ブランドの方向性を保つための制裁を加える場合がございます。"
-    },
-    {
-      "id": "NoirBindArmor",
-      "name": "ル・ノワール ウーステッド生地",
-      "desc": "- 最大値 : 15\n- 数値5につき、速度最大値 -1、攻撃レベル +1、防御レベル +1\n- ターン終了時、数値が1減少",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "ル・ノワールの生地は、鎧のように堅牢で形の崩れないシルエットによってお客様の体型を補整する。"
-    },
-    {
-      "id": "ChargeNoir",
-      "name": "保存",
-      "desc": "- 特殊充電\n- 回数最大値 : 20\n- 充電威力および回数を増減させる効果を同様に受ける\n- ターン終了時、回数が1減少\n\n<color=#1aece7>回数累計消耗量: {2}</color>",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "凝縮させて力を集め、固定する。変化させないことは、変化させることよりも大きな力を要するときがある。"
-    },
-    {
-      "id": "ChargeRouge",
-      "name": "脈動",
-      "desc": "- 特殊充電\n- 回数最大値 : 20\n- 充電威力および回数を増減させる効果を同様に受ける\n- ターン終了時、回数が1減少",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "肉の収縮と弛緩。血の流れ。その度合いに応じて溢れ出す力。"
-    },
-    {
-      "id": "RisingMadnessRouge",
-      "name": "陽射し",
-      "desc": "- 最大値 : 2\n- ターン終了時、1減少\n- ターン開始時に数値が0なら、下記の効果が適用される\n・ダメージ量増加1, 脆弱1を得る\n・全スキルのコインが、自分の脈動の数値だけ、最後のコインから破壊不能コインに変更される\n・ターン終了時、次のターンに最大値まで回復",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "…なれるよ。"
-    },
-    {
-      "id": "RisingMadnessRouge2nd",
-      "name": "刺すような陽射し",
-      "desc": "- 最大値 : 1\n- ターン終了時、1減少\n- ターン開始時に数値が0なら、下記の効果が適用される\n・威力増加2, ダメージ量増加2, 脆弱3を得る\n・全スキルのコインが、自分の脈動の数値だけ、最後のコインから破壊不能コインに変更される\n・ターン終了時、次のターンに最大値まで回復",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "陽射しは、触れるものすべてに囁く。触れたものが熱くひりつき、焼けて焦げていこうとも降り注ぐ。"
-    },
-    {
-      "id": "RisingMadnessNoir",
-      "name": "陽射し",
-      "desc": "- 最大値 : 2\n- ターン終了時、1減少\n- ターン開始時に数値が0なら、下記の効果が適用される\n・ダメージ量増加1, 脆弱1を得る\n・全スキルのコインが、自分の保存威力だけ、最後のコインから破壊不能コインに変更される\n・ターン終了時、次のターンに最大値まで回復",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "…なれるよ。"
-    },
-    {
-      "id": "RisingMadnessNoir2nd",
-      "name": "刺すような陽射し",
-      "desc": "- 最大値 : 1\n- ターン終了時、1減少\n- ターン開始時に数値が0なら、下記の効果が適用される\n・威力増加2, ダメージ量増加2, 脆弱3を得る\n・全スキルのコインが、自分の保存威力だけ、最後のコインから破壊不能コインに変更される\n・ターン終了時、次のターンに最大値まで回復",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "陽射しは、触れるものすべてに囁く。触れたものが熱くひりつき、焼けて焦げていこうとも降り注ぐ。"
-    },
-    {
-      "id": "RougeThreeNormal",
-      "name": "ブティークの新作服",
-      "desc": "- 最大値 : 20\n\nスキル使用時、自分の体力最大値の1%を消耗して、自分のスキルダメージ量 +(消耗した体力)%",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "温かな声についていけば…新たなシーズンへ…！"
-    },
-    {
-      "id": "RougeThreeCocoon",
-      "name": "試着室",
-      "desc": "- 最大値 : 3\n- 体力ダメージを受けない\n- 攻撃を受けると、下記の効果を適用 (1ターンにつき最大20回)\n\n・脈動回数1を得る\n・ダメージ量増加1を得る\n・次のターンに防御レベル減少1を得る",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "注意：傷んだ服を着直しているところです。試着室でのマナーは、皆さんご存じですよね？"
-    },
-    {
-      "id": "RougeThreeCocoonHit",
-      "name": "迫害",
-      "desc": "- 最大値 : 20",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "試着室の使用中に手出しするなんて…これは信仰への迫害…。"
-    },
-    {
-      "id": "SapsareeShield",
-      "name": "食べて…",
-      "desc": "- スーシェフが敵に一方攻撃されるとき、数値を1消耗して敵の攻撃対象を自分に変更し、援護防御専用スキルを使用\n- 援護防御を保有する味方が複数名いるなら、最も高い数値を持つ味方が優先して使用\n- この効果は援護防御とみなされ、援護防御の数値を計算するときに合算される\n- ターン終了時に消滅",
-      "summary": ""
-    },
-    {
-      "id": "SapsareeYammi",
-      "name": "美味しいものを食べて元気が出るんですよ",
-      "desc": "- 最大値 : 5\n- 数値1につき、攻撃レベルが1増加\n- ターン開始時、保有する「お腹が空いたんですよ」1につき、数値が1減少",
-      "summary": "",
-      "flavor": "味による満足ではなく、満腹感による満足にすぎない。"
-    },
-    {
-      "id": "SapsareeCooking",
-      "name": "ぶつ切りの料理材料",
-      "desc": "- 最大値 : 5\n- ターン終了時に消滅",
-      "summary": "",
-      "flavor": "口に入れられるように切っただけ。その包丁さばきには、いかなる哲学も、手を掛けた跡もない。"
-    },
-    {
-      "id": "SapsareeHungry",
-      "name": "お腹が空いたんですよ",
-      "desc": "- 最大値 : 3\n- 数値1につき、攻撃レベルが1増加\n- 数値が3なら、与ダメージ量 +50%\n- スーシェフがスキル「あっ！私の食事の時間なんですよ」を使用すると消滅",
-      "summary": "",
-      "flavor": "何でも腹に詰め込みさえすれば満たされる空腹。それがここにいる連中の本性。"
-    },
-    {
-      "id": "SapsareeSpices",
-      "name": "ピリカラソース",
-      "desc": "- 最大値 : 3\n- 数値1につき、攻撃レベルが1減少",
-      "summary": "",
-      "flavor": "材料の質を隠すための安易な方法。"
-    },
-    {
-      "id": "Sapsaree_LowMorale",
-      "name": "料理渇望",
-      "desc": "- 士気低下\n- 自分の「お腹が空いたんですよ」の数値1につき、攻撃レベルが1増加, 被ダメージ量 +3%",
-      "summary": "",
-      "flavor": "お前は料理をしたいんじゃない。料理をしている気分を味わい、食事をする真似がしたいのだ。"
-    },
-    {
-      "id": "Sapsaree_Panic",
-      "name": "料理渇望",
-      "desc": "- パニック\n- 自分の「お腹が空いたんですよ」の数値1につき、攻撃レベルが2増加, 被ダメージ量 +5%",
-      "summary": "",
-      "flavor": "お前は料理をしたいんじゃない。料理をしている気分を味わい、食事をする真似がしたいのだ。"
-    },
-    {
-      "id": "HungryPeople_LowMorale",
-      "name": "FOMO",
-      "desc": "- 士気低下\n- 自分の失った体力20%につき、攻撃レベルが1増加 (最大2)\n- 脆弱1を得る",
-      "summary": "",
-      "flavor": "今回の流行を逃すわけにはいかないのに…！"
-    },
-    {
-      "id": "HungryPeople_Panic",
-      "name": "FOMO",
-      "desc": "- パニック\n- 自分の失った体力20%につき、攻撃レベルが1増加 (最大2)\n- 脆弱1を得る",
-      "summary": "",
-      "flavor": "今回の流行を逃すわけにはいかないのに…！"
-    },
-    {
-      "id": "UnresolvedFeelings",
-      "name": "多層レイヤーパッチワーク",
-      "desc": "- 最大値 : 30\n- 数値だけ防御レベルが増加\n- 傾聴への感謝を保有する対象から攻撃を受けると、傾聴への感謝の数値だけ減少 (人格ごとに1ターンにつき2回)\n- 「聞いてくれて…ありがとう…。」スキルのマッチ敗北時、5減少",
-      "summary": "",
-      "flavor": "当の本人は、こうして分厚い布団の中にいたまま音を聞かない。"
-    },
-    {
-      "id": "Wariness",
-      "name": "警戒心",
-      "desc": "- 最大値 : 10\n- 数値だけ攻撃レベル減少, 防御レベル減少\n- このキャラクターがマッチ敗北時、3減少",
-      "summary": "",
-      "flavor": "初めて聞く声だから警戒するのではない。心を叩こうとするがゆえに、警戒してしまうのだ。"
-    },
-    {
-      "id": "ReliefSense",
-      "name": "傾聴への感謝",
-      "desc": "- 最大値 : 3\n- ターン開始時、数値が1増加して精神力を10回復\n- このステージのボスにスキルでダメージを与えるとき、ダメージ量 +(数値 × 50)%。その後、当該スキルの攻撃終了時に消滅\n- 数値が3なら、多層レイヤーパッチワークの防御レベル効果を無視してダメージを与える",
-      "summary": "",
-      "flavor": "聞いてくれて…ありがとう…。"
-    },
-    {
-      "id": "HorribleTerror",
-      "name": "おぞましいリピート再生",
-      "desc": "- 最大値 : 1\n- ターン開始時にE.G.O侵蝕状態なら、このターンの間、全対象への与ダメージ量 -50%\n- ターン終了時、現体力の50%だけ体力ダメージを受けて消滅 (小数点切り捨て、この効果では混乱しない)",
-      "summary": "",
-      "flavor": "聞くまで…百貨店の放送をちゃんと聞くまで…ずっと…ずっと…聞け…。"
-    },
-    {
-      "id": "HorribleEat",
-      "name": "リピート再生のリピート",
-      "desc": "- 最大値 : 15\n- 数値だけ攻撃レベルが増加",
-      "summary": "",
-      "flavor": "全員が聞くまで繰り返される放送はこだまとなり、こだまはまた繰り返され、共鳴する。"
-    },
-    {
-      "id": "NoirSuit",
-      "name": "ル・ノワール ギャバジン生地のコート",
-      "desc": "- 最大値 : 100\n- ターン開始時、数値20につき防御レベル増加1を得る (最大4)\n- 自分のスキル、パッシブ効果で保存回数を消耗または獲得すると、その数値だけ増加 (1ターンにつき最大30、保存回数の最大値を超えて獲得する数値を含む)\n- バリアがある状態で攻撃を受けると、2増加 (1ターンにつき最大20)\n- ターン終了時にバリアが残っていれば、10増加\n- 数値が100になると、次のターンにアルミュール・エヴェイエへ変更される",
-      "flavor": "緯糸よりも経糸をはるかに多くして綾織りにしたコート。\n特有の高い密度によって、着用者を外部から保護する。",
-      "summary": ""
-    },
-    {
-      "id": "Realisation",
-      "name": "アルミュール・エヴェイエ",
-      "desc": "- 最大値 : 100\n- ターン開始時、数値10につき精神力を5回復\n- ターン開始時、数値20につき攻撃レベル増加1, 防御レベル増加1を得る (それぞれ最大4)\n- 全ての基本攻撃スキルのコインが破壊不能コインに変更される\n- 変更された次のターンから、ターン終了時に10減少\n- 数値が0になると、ル・ノワール ギャバジン生地のコートへ変更される",
-      "flavor": "外部から加わる力が着用者に届くのを防いでいたル・ノワールの生地は、最終的に外部からの変化を排除するために目覚める。\n蓄えたエネルギーを放出し、外部要因を取り除く方向へと働く。",
-      "summary": ""
-    },
-    {
-      "id": "LaRouge_LowMorale",
-      "name": "皮の外へ！",
-      "desc": "- 士気低下\n防御レベル -3\n攻撃レベル +1",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "気が急くあまり、飛び出そうとする身体の中身が皮膚を突き破らんばかりだ。"
-    },
-    {
-      "id": "LaRouge_Panic",
-      "name": "皮の外へ！",
-      "desc": "- パニック\n防御レベル -5\n攻撃レベル +2",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "気が急くあまり、飛び出そうとする身体の中身が皮膚を突き破らんばかりだ。"
-    },
-    {
-      "id": "LaNoir_LowMorale",
-      "name": "殻の中へ…",
-      "desc": "- 士気低下\n速度最大値 -1\n防御レベル +1",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "このまま固く中へ、内側へと縮こまる。"
-    },
-    {
-      "id": "LaNoir_Panic",
-      "name": "殻の中へ…",
-      "desc": "- パニック\n速度最大値 -5\n防御レベル +3",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "このまま固く中へ、内側へと縮こまる。"
-    },
-    {
-      "id": "NiddlePinned",
-      "name": "剥製状態",
-      "desc": "- 最大値 : 2\n\n- 攻撃を受けると、出血回数が1増加 (1ターンにつき3回)\n- この効果を保有する間、行動不能状態になる\n\n- ターン終了時、体力ダメージを15受けて自分の針釘が5減少\n- ターン終了時、1減少",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "お望みどおりに…。ハンドメイド！ビスポーク！ハンドソーン！"
-    },
-    {
-      "id": "NiddleExpected",
-      "name": "舌に刺さった針",
-      "desc": "- 守備スキル装着時\n  - 自分の針釘が1減少\n  - この効果が消滅\n\n- ターン終了時、針釘3を得てこの効果が消滅",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "打ち込まれた釘を抜くためには、しばし立ち止まらなければならない。"
-    },
-    {
-      "id": "HowlingCocoon",
-      "name": "繭の泣き声 - 微弱",
-      "desc": "- 時折、繭の泣き声が聞こえる。\n- スキル最終威力 +2",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "正しい情報と誤った情報を織り交ぜて話す者たちは、無知であるがゆえにかえって堂々としており、それだけにその言葉を無視するのが難しいという。"
-    },
-    {
-      "id": "HowlingCocoonTwo",
-      "name": "繭の泣き声 - 悪性",
-      "desc": "- 繭の泣き声が止まらない。\n- スキル最終威力 +3",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "リジッドと…セルビッジは…互いに関係ないんだって…。ギリッ…わざとだ！わざと！知ってて言ってるんだろ！！！"
-    },
-    {
-      "id": "MeursaultBuffet",
-      "name": "釘刺す者",
-      "desc": "- 今回の戦闘にて自分のスキル使用時、当該属性のE.G.O資源を追加で2個得る (1ターンにつき2回)\n- ターン開始時に戦場に他の味方がいれば、このターンはダメージで死亡しない\n- 退却不可",
-      "summary": "",
-      "flavor": "黄金の釘を握り、揺籃を引き裂いた。そして神を釘刺しにする。"
-    },
-    {
-      "id": "Nutrition",
-      "name": "奪い取った何か。",
-      "desc": "- 最大値 : 5\n- ターン終了時、次のターンに自分の脈動回数が(数値 × 2)だけ増加し、この効果が消滅\n- 消滅時の数値が最大値なら、次のターンに全ての部位が本体の体力最大値の3%だけバリアを得る (この効果で獲得したバリアはターン終了時にも消えない)",
-      "summary": "",
-      "flavor": "相手が持つ、良さそうに見える全てのものは、本来自分のものでなければならないのだから、これは強奪ではなく正当な回収にすぎない。"
-    },
-    {
-      "id": "Gourmandise",
-      "name": "暴走",
-      "desc": "- 基本値 : 3\n- 自分の出血3につき、与ダメージ量 +5% (最大30%)\n- 全ての部位が混乱状態にならず、出血による被ダメージ量 -75%\n- ターン終了時、1減少\n- 効果消滅時、脈動回数を全て消耗",
-      "summary": "",
-      "flavor": "ばらばらになった身体の器官が、それぞれずたずたに引き裂かれんばかりに飛び出そうとする。抑えきれない暴走は、かえって身体を一つにする。"
-    },
-    {
-      "id": "BuffetSick",
-      "name": "苦痛の袋",
-      "desc": "- 最大値 : 30\n- ターン終了時、暴走効果が消滅するときに共に消滅し、次のターンに数値5につき脆弱1を得る",
-      "summary": "",
-      "flavor": "痛みは全てここに集まる。だから、この器官が破裂するとき、痛みはより鮮明になる。"
-    },
-    {
-      "id": "SavePlacenta",
-      "name": "自己保護",
-      "desc": "- 命綱が敵に一方攻撃されるとき、数値を1消耗して敵の攻撃対象を胴体に変更し、援護防御専用スキルを使用\n- ターン終了時に消滅",
-      "summary": ""
-    },
-    {
-      "id": "BloodyMucus",
-      "name": "洗礼[赤]",
-      "desc": "- 最大値 : 5\n- 自分の出血威力3につき、攻撃レベルが1増加 (最大3)\n- 数値が最大値なら、出血ダメージを2倍受けるが、出血ダメージでは死亡しない\n- 基本攻撃スキル使用時、自分の出血回数が(数値×2)だけ増加\n- E.G.Oスキルまたは守備スキル使用時、数値が3減少",
-      "summary": "",
-      "flavor": "「血で肉を洗い流せ」"
-    },
-    {
-      "id": "DeterioratingBody",
-      "name": "生の本能",
-      "desc": "- 最大値 : 5\n- 体力が1未満に減少しない\n- 攻撃を受けると1減少 (スキルごとに2回)\n- ターン終了時、1減少。効果が消滅すると死亡",
-      "summary": "",
-      "flavor": "生きようと足掻くその姿はしぶといが、いずれ終わりは来る。"
-    },
-    {
-      "id": "BuffetFailed",
-      "name": "疲労困憊",
-      "desc": "- 最大値 : 3\n- 数値1につき、速度最小値 -1, 最大値 -1\n- ターン開始時、脆弱1を得る\n- ターン終了時、1減少\n(全ての部位に適用)",
-      "summary": "",
-      "flavor": "暴走の後に訪れる制約。力の速さと大きさに応じ、世界はそれぞれの形で代償を支払わせる。"
-    },
-    {
-      "id": "EarlyBuffet_LowMorale",
-      "name": "分裂",
-      "desc": "- 士気低下\n- 防御レベル -3\n- 攻撃レベル +3\n- 洗礼[赤]を5保有する対象とマッチ進行時、マッチ威力 +2",
-      "summary": "",
-      "flavor": "一体…なぜ？自分はどんな姿をしている？自分は…何なんだ？"
-    },
-    {
-      "id": "EarlyBuffet_Panic",
-      "name": "分裂",
-      "desc": "- パニック\n- 防御レベル -5\n- 攻撃レベル +3\n- 与ダメージ量 +10%\n- 洗礼[赤]を3以上保有する対象とマッチ進行時、マッチ威力 +3",
-      "summary": "",
-      "flavor": "一体…なぜ？自分はどんな姿をしている？自分は…何なんだ？"
-    },
-    {
-      "id": "SisyphusTopaz",
-      "name": "トパーズ",
-      "desc": "- 効果なし",
-      "summary": ""
-    },
-    {
-      "id": "SisyphusAmethyst",
-      "name": "アメジスト",
-      "desc": "- スキルで敵に付与する火傷・出血・振動・破裂・沈潜の威力付与量 +1",
-      "summary": ""
-    },
-    {
-      "id": "SisyphusAmber",
-      "name": "アンバー",
-      "desc": "- スキルで敵に付与する火傷・出血・振動・破裂・沈潜の威力付与量 +1\n- 充電回数・呼吸回数の獲得量 +1",
-      "summary": ""
-    },
-    {
-      "id": "SisyphusEmerald",
-      "name": "エメラルド",
-      "desc": "- スキルで敵に付与する火傷・出血・振動・破裂・沈潜の威力付与量 +1\n- 充電回数・呼吸回数の獲得量 +1\n- 効果獲得時、充電回数10を得る (戦闘につき1回)",
-      "summary": ""
-    },
-    {
-      "id": "SisyphusGold",
-      "name": "ゴールド",
-      "desc": "- スキルで敵に付与する火傷・出血・振動・破裂・沈潜の威力付与量 +1\n- 充電回数・呼吸回数の獲得量 +1\n- 効果獲得時、充電回数10を得る (戦闘につき1回)\n- マッチ威力 +1",
-      "summary": ""
-    },
-    {
-      "id": "SisyphusRuby",
-      "name": "ルビー",
-      "desc": "- スキルで敵に付与する火傷・出血・振動・破裂・沈潜の威力付与量 +1\n- 充電回数・呼吸回数の獲得量 +1\n- 効果獲得時、充電回数10を得る (戦闘につき1回)\n- マッチ威力 +1\n- 最終威力 +1",
-      "summary": ""
-    },
-    {
-      "id": "RougeThreeCocoonShield",
-      "name": "信仰",
-      "desc": "- ターン開始時、数値だけバリアを得る\n- バリアが減少すると数値も減少する",
-      "summary": "",
-      "flavor": "「信仰とは、望むものの実体であり、望むものの…」"
-    },
-    {
-      "id": "RisingMadnessSisyphe",
-      "name": "陽射し",
-      "desc": "- 最大値 : 2\n- ターン終了時、1減少\n- ターン開始時に数値が0なら、下記の効果が適用される\n・ダメージ量増加1, 脆弱1を得る\n・全スキルのコインが破壊不能コインに変更される\n・ターン終了時、次のターンに最大値まで回復",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "…なれるよ。"
-    },
-    {
-      "id": "RisingMadnessSisyphe2nd",
-      "name": "刺すような陽射し",
-      "desc": "- 最大値 : 1\n- ターン終了時、1減少\n- ターン開始時に数値が0なら、下記の効果が適用される\n・威力増加2, ダメージ量増加2, 脆弱3を得る\n・全スキルのコインが破壊不能コインに変更される\n・ターン終了時、次のターンに最大値まで回復",
-      "summary": "",
-      "undefined": "-",
-      "flavor": "陽射しは、触れるものすべてに囁く。触れたものが熱くひりつき、焼けて焦げていこうとも降り注ぐ。"
-    },
-    {
-      "id": "WeakWithering_LowMorale",
-      "name": "もつれた縫製",
-      "desc": "- 士気低下\n- ターン開始時、攻撃威力減少1を得る",
-      "summary": ""
-    },
-    {
-      "id": "WeakWithering_Panic",
-      "name": "もつれた縫製",
-      "desc": "- パニック\n- ターン開始時、攻撃威力減少1, ダメージ量減少1を得る",
-      "summary": ""
-    },
-    {
-      "id": "NiddlePin",
-      "name": "針釘",
-      "desc": "- 特殊出血\n- 貫通ダメージを受けると、出血回数が1増加して数値が1減少\n- ターン終了時、出血1を得て数値が1減少",
-      "summary": ""
-    }
-  ]
+    "dataList": [
+        {
+            "id": "NoirNoComply",
+            "name": "違反規定",
+            "desc": "- 最大値：3\n- 每帯有1層本效果，受到的<color=#ffffff>傷害</color>+5%",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "由于没有遵守品牌的規定，因此為了維持品牌的方向性，可能会遭到制裁。"
+        },
+        {
+            "id": "NoirBindArmor",
+            "name": "黑派 精紡面料",
+            "desc": "- 最大値：15\n- 每帯有5層本效果，最大<color=#7C5737>速度値</color>-1，攻撃等級+1，防御等級+1\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
+        },
+        {
+            "id": "ChargeNoir",
+            "name": "保存",
+            "desc": "- 特殊充能\n- 最大層数：20\n- 本效果強度与層数的増減同様受普通充能 影響\n- 回合結束時，本效果的層数減少1層\n\n<color=#1aece7>累計消耗層数：{2}</color>",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+        },
+        {
+            "id": "ChargeRouge",
+            "name": "搏動",
+            "desc": "- <color=#FCC700>特殊充能</color>\n- 最大層数：20\n- 本效果強度与層数的増減同様受普通充能 影響\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "肉的收縮与舒張。血液的流動。根据它們的程度所相應産生的力量。"
+        },
+        {
+            "id": "RisingMadnessRouge",
+            "name": "陽光",
+            "desc": "- 最大値：2\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得1層傷害強化 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n· 所有技能从最后一枚硬幣起，使(<color=#ffffff>自身</color>的搏動 強度)枚硬幣轉化為不可摧毀的硬幣 \n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "……可以的。"
+        },
+        {
+            "id": "RisingMadnessRouge2nd",
+            "name": "刺眼的陽光",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得2層威力提升 与2層傷害強化 并対<color=#ffffff>自身</color>施加3層<color=#ffffff>易損</color> \n· 所有技能从最后一枚硬幣起，使(<color=#ffffff>自身</color>的搏動 強度)枚硬幣轉化為不可摧毀的硬幣\n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "日光対它所触及的一切都附耳低語。即便触及的事物会変得灼熱、刺痛，直到逐漸焼焦，也会依然照射下去。"
+        },
+        {
+            "id": "RisingMadnessNoir",
+            "name": "陽光",
+            "desc": "- 最大値：2\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得1層傷害強化 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n· 所有技能从最后一枚硬幣起，使(<color=#ffffff>自身</color>的保存 強度)枚硬幣轉化為不可摧毀的硬幣 \n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "……可以的。"
+        },
+        {
+            "id": "RisingMadnessNoir2nd",
+            "name": "刺眼的陽光",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得2層威力提升 与2層傷害強化 并対<color=#ffffff>自身</color>施加3層<color=#ffffff>易損</color> \n· 所有技能从最后一枚硬幣起，使(<color=#ffffff>自身</color>的保存 強度)枚硬幣轉化為不可摧毀的硬幣 \n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "日光対它所触及的一切都附耳低語。即便触及的事物会変得灼熱、刺痛，直到逐漸焼焦，也会依然照射下去。"
+        },
+        {
+            "id": "RougeThreeNormal",
+            "name": "精品店新品",
+            "desc": "- 最大値：20\n\n使用技能時，消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限1%的<color=#61DA61>体力</color>并使該技能造成的<color=#ffffff>傷害</color>+(消耗的<color=#61DA61>体力</color>)%",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "跟着那温柔的声音……前往新的一季……！"
+        },
+        {
+            "id": "RougeThreeCocoon",
+            "name": "更衣室",
+            "desc": "- 最大値：3\n- 不会受到<color=#61DA61>体力</color><color=#ffffff>傷害</color>\n- 受到攻撃時，触発以下效果(<color=#7C5738>每回合</color>最多20次)\n\n· 使<color=#ffffff>自身</color>獲得1層搏動 \n· 使<color=#ffffff>自身</color>獲得1層傷害強化 \n· <color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層防御等級降低 ",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "注意：正在重新穿上破損的衣服。更衣室的礼儀，大家都記得叭？"
+        },
+        {
+            "id": "RougeThreeCocoonHit",
+            "name": "迫害",
+            "desc": "- 最大値：20",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "在使用更衣室時打擾別人……這是対信仰的迫害……"
+        },
+        {
+            "id": "SapsareeShield",
+            "name": "吃叭…",
+            "desc": "- 副主厨将受到来自<color=#ffffff>敵方単位</color>的単方面攻撃時，消耗1層并使該<color=#ffffff>敵方単位</color>的<color=#ffffff>目標</color>改為<color=#ffffff>自身</color>，随后使用援護防御専用技能\n- 多个<color=#ffffff>友方単位</color>帯有援護防御 時，層数最高的<color=#ffffff>友方単位</color>優先触発\n- 本效果視作援護防御 ，与援護防御 層数相加計算\n- <color=#7C5738>回合結束</color>時解除",
+            "summary": ""
+        },
+        {
+            "id": "SapsareeYammi",
+            "name": "我説吃好喝好，精神百倍奥",
+            "desc": "- 最大値：5\n- 每帯有1層本效果，使<color=#ffffff>自身</color>増加1級攻撃等級\n- <color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有1層“我説我肚子餓了奥”，使本效果的層数減少1層",
+            "summary": "",
+            "flavor": "并非因風味而満足，而是因飽腹感而満足。"
+        },
+        {
+            "id": "SapsareeCooking",
+            "name": "切碎的食材",
+            "desc": "- 最大値：5\n- <color=#7C5738>回合結束</color>時解除",
+            "summary": "",
+            "flavor": "只是切成了能入口的大小。那刀工之中并不存在任何哲学，也没有任何用心的痕迹。"
+        },
+        {
+            "id": "SapsareeHungry",
+            "name": "我説我肚子餓了奥",
+            "desc": "- 最大値：3\n- 每帯有1層本效果，使<color=#ffffff>自身</color>増加1級攻撃等級\n- 若本效果層数為3層，則使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+50%\n- 副主厨使用技能“啊！我説吃飯時間到了奥”時解除",
+            "summary": "",
+            "flavor": "随便塞点東西進肚子里就能満足的飢餓。那就是這些東西的本性。"
+        },
+        {
+            "id": "SapsareeSpices",
+            "name": "火辣辣醤",
+            "desc": "- 最大値：3\n- 每帯有1層本效果，使<color=#ffffff>自身</color>減少1級攻撃等級",
+            "summary": "",
+            "flavor": "掩盖材料質量的簡単易行的方法。"
+        },
+        {
+            "id": "Sapsaree_LowMorale",
+            "name": "烹任欲望",
+            "desc": "- 士气低落\n- <color=#ffffff>自身</color>每帯有1層“我説我肚子餓了奥”，使<color=#ffffff>自身</color>攻撃等級+1，受到的<color=#ffffff>傷害</color>+3%",
+            "summary": "",
+            "flavor": "袮不是想烹任。袮只是想体驗烹任的感覚，模倣進食的動作。"
+        },
+        {
+            "id": "Sapsaree_Panic",
+            "name": "烹任欲望",
+            "desc": "- 陷入恐慌\n- <color=#ffffff>自身</color>每帯有1層“我説我肚子餓了奥”，使<color=#ffffff>自身</color>攻撃等級+2，受到的<color=#ffffff>傷害</color>+5%",
+            "summary": "",
+            "flavor": "袮不是想烹任。袮只是想体驗烹任的感覚，模倣進食的動作。"
+        },
+        {
+            "id": "HungryPeople_LowMorale",
+            "name": "錯失恐惧症",
+            "desc": "- 士气低落\n- <color=#ffffff>自身</color>每失去20%<color=#61DA61>体力</color>，攻撃等級+1(最多+2)\n- 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "flavor": "這次的流行不容錯過……！"
+        },
+        {
+            "id": "HungryPeople_Panic",
+            "name": "錯失恐惧症",
+            "desc": "- 陷入恐慌\n- <color=#ffffff>自身</color>每失去20%<color=#61DA61>体力</color>，攻撃等級+1(最多+2)\n- 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "flavor": "這次的流行不容錯過……！"
+        },
+        {
+            "id": "UnresolvedFeelings",
+            "name": "多層拼布",
+            "desc": "- 最大値：30\n- 使<color=#ffffff>自身</color>増加相当于本效果層数的防御等級\n- 受到帯有“感謝聆听”的<color=#ffffff>目標</color>攻撃時，使本效果層数減少相当于“感謝聆听”層数(<color=#7C5738>每回合</color>每名人格最多2次)\n- 技能“感謝…聆听…”拼点失敗時，使本效果層数減少5層",
+            "summary": "",
+            "flavor": "可自己却蒙在厚厚的被子里，不去听任何声音。"
+        },
+        {
+            "id": "Wariness",
+            "name": "戒心",
+            "desc": "- 最大値：10\n- 使<color=#ffffff>自身</color>減少相当于本效果層数的攻撃等級，増加相当于本效果層数的防御等級\n- 若<color=#ffffff>自身</color>拼点失敗，則使本效果層数減少3層",
+            "summary": "",
+            "flavor": "并不是因為初次听見這声音才有所戒備。是因為它試圖叩響心門，才譲人戒備起来。"
+        },
+        {
+            "id": "ReliefSense",
+            "name": "感謝聆听",
+            "desc": "- 最大値：3\n- <color=#7C5738>回合開始</color>時，本效果層数増加1層，并使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>\n- 使<color=#ffffff>自身</color>技能対本関峠頭目造成的<color=#ffffff>傷害</color>+(本效果層数×50)%，該技能攻撃后解除本效果\n- 若本效果層数為3層，則<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>无視多層拼布 的防御等級效果",
+            "summary": "",
+            "flavor": "感謝……聆听……"
+        },
+        {
+            "id": "HorribleTerror",
+            "name": "可怕的重復播放",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>処于E.G.O侵蝕状態，則使<color=#ffffff>自身</color><color=#7C5738>本回合</color>対所有<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>-50%\n- <color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>受到現存<color=#61DA61>体力</color>50%的<color=#61DA61>体力</color><color=#ffffff>傷害</color>，随后解除本效果(向下取整，該效果不会使<color=#ffffff>自身</color>陷入混乱)",
+            "summary": "",
+            "flavor": "直到袮去听……去好好聆听百貨店的店内广播為止……一直……一直……聆听叭……"
+        },
+        {
+            "id": "HorribleEat",
+            "name": "重復播放的重復",
+            "desc": "- 最大値：15\n- 使<color=#ffffff>自身</color>増加相当于本效果層数的攻撃等級",
+            "summary": "",
+            "flavor": "直到所有人都听見的重復播放的广播産生回声，回声将継續重復，直到化為<color=#7C5738>共鳴</color>。"
+        },
+        {
+            "id": "NoirSuit",
+            "name": "黑派 華達捏大衣",
+            "desc": "- 最大値：100\n- <color=#7C5738>回合開始</color>時，每帯有20層本效果，使<color=#ffffff>自身</color>獲得1層防御等級提升 (最多4層)\n- <color=#ffffff>自身</color>通過技能或被動效果消耗或獲得保存 層数時，獲得相應層数的本效果(<color=#7C5738>每回合</color>最多30層;包括超過最大保存 層数的層数)\n- 若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>時受到攻撃，則使<color=#ffffff>自身</color>獲得2層本效果(<color=#7C5738>每回合</color>最多20層)\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>，則獲得10層本效果\n- 若本效果層数為100層，則<color=#7C5738>下回合</color>使本效果轉化為織紋覚醒 ",
+            "flavor": "用經紗遠多于緯紗的斜紋織法制成的大衣。\n其特有的高密度性質保護穿着者免受外来<color=#ffffff>傷害</color>。",
+            "summary": ""
+        },
+        {
+            "id": "Realisation",
+            "name": "織紋覚醒",
+            "desc": "- 最大値：100\n- <color=#7C5738>回合開始</color>時，每帯有10層本效果，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n- <color=#7C5738>回合開始</color>時，每帯有20層本效果，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 与1層防御等級提升 (分別最多4層)\n- 基礎攻撃技能的所有硬幣轉化為不可摧毀的硬幣\n- 本效果被轉化后，从<color=#7C5738>下回合</color>起，<color=#7C5738>回合結束</color>時，本效果層数減少10層\n- 若本效果層数為0層，則使本效果轉化為黑派 華達捏大衣 ",
+            "flavor": "使从外部施加的力无法触及穿着者的華達捏面料，最終為消除外部帯来的変化而覚醒。\n通過釋放積蓄的能量，遵循消除外部因素的傾向而起效。",
+            "summary": ""
+        },
+        {
+            "id": "LaRouge_LowMorale",
+            "name": "从皮里出去！",
+            "desc": "- 士气低落\n防御等級-3\n攻撃等級+1",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "心情太過急切，身体里的東西都要冲破皮膚涌出来了。"
+        },
+        {
+            "id": "LaRouge_Panic",
+            "name": "从皮里出去！",
+            "desc": "- 陷入恐慌\n防御等級-5\n攻撃等級+2",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "心情太過急切，身体里的東西都要冲破皮膚涌出来了。"
+        },
+        {
+            "id": "LaNoir_LowMorale",
+            "name": "回到殻中…",
+            "desc": "- 士气低落\n最大<color=#7C5737>速度値</color>-1\n防御等級+1",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "就這様僵硬地向着内側蜷縮起来。"
+        },
+        {
+            "id": "LaNoir_Panic",
+            "name": "回到殻中…",
+            "desc": "- 陷入恐慌\n最大<color=#7C5737>速度値</color>-5\n防御等級+3",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "就這様僵硬地向着内側蜷縮起来。"
+        },
+        {
+            "id": "NiddlePinned",
+            "name": "標本化",
+            "desc": "- 最大値：2\n\n- 受到攻撃時，対<color=#ffffff>自身</color>施加1層流血 (<color=#7C5738>每回合</color>最多3次)\n- 帯有本效果時，<color=#ffffff>自身</color>无法行動\n\n- <color=#7C5738>回合結束</color>時，失去15点<color=#61DA61>体力</color>，并使<color=#ffffff>自身</color>的針釘 層数減少5層\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "如袮所愿……純手工制作！量身定制！手工縫制！"
+        },
+        {
+            "id": "NiddleExpected",
+            "name": "刺舌之針",
+            "desc": "- <color=#ffffff>自身</color>装備守備技能時\n - 使<color=#ffffff>自身</color>的針釘 層数減少1層\n - 解除本效果\n\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加3層針釘 ，随后解除本效果",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "為了把已經釘入的釘子拔出，必須暫時停下脚步。"
+        },
+        {
+            "id": "HowlingCocoon",
+            "name": "繭的悲鳴-微弱",
+            "desc": "- 偶尓，会听見繭的悲鳴。\n- 技能的<color=#ffffff>最終威力</color>+2",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "据説那些把正確情报和錯誤情报混雑在一起来講的人，反而会因无知而顕得理直气壮，因此那些話反而很難被忽視。"
+        },
+        {
+            "id": "HowlingCocoonTwo",
+            "name": "繭的悲鳴-惡性",
+            "desc": "- 繭的悲鳴不会停下。\n- 技能的<color=#ffffff>最終威力</color>+3",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "硬化牛仔庫……和布辺……根本没有関系……咯啊……故意的！絶対是故意的！袮是明明知道還故意要這么説的叭！！！"
+        },
+        {
+            "id": "MeursaultBuffet",
+            "name": "嵌釘者",
+            "desc": "- 本場戦斗中，<color=#ffffff>自身</color>使用技能時，獲得2个対應属性的E.G.O資源(<color=#7C5738>每回合</color>最多2次)\n- <color=#7C5738>回合開始</color>時，若有其他<color=#ffffff>友方単位</color>在場，則<color=#7C5738>本回合</color><color=#ffffff>自身</color>不会因受到<color=#ffffff>傷害</color>陣亡\n- 无法撤退",
+            "summary": "",
+            "flavor": "手握黄金之釘，将揺籃撕裂。而后将神以釘刺穿。"
+        },
+        {
+            "id": "Nutrition",
+            "name": "奪来的某物。",
+            "desc": "- 最大値：5\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(本效果層数×2)層搏動 ，随后解除本效果\n- 若本效果解除時層数為最大値，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>所有<color=#ffffff>部位</color>獲得本体<color=#61DA61>体力</color>上限3%的<color=#81BBE8>護盾</color>(通過本效果獲得的<color=#81BBE8>護盾</color>不会在<color=#7C5738>回合結束</color>時解除)",
+            "summary": "",
+            "flavor": "因為所有対方所擁有的看上去還算不錯的東西本来就應該是自己的，所以這并非搶奪，只不過是正当的收回。"
+        },
+        {
+            "id": "Gourmandise",
+            "name": "狂暴",
+            "desc": "- 基礎値：3\n- <color=#ffffff>自身</color>每帯有3級流血 強度，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+5%(最多+30%)\n- 所有<color=#ffffff>部位</color>不会陷入混乱，受到的流血 <color=#ffffff>傷害</color>-75%\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層\n- 本效果解除時，消耗<color=#ffffff>自身</color>所有搏動 層数",
+            "summary": "",
+            "flavor": "四分五裂的身体中的器官，像是被撕成了碎片般四下飛散。无法控制的狂暴反而会譲身体融合為一。"
+        },
+        {
+            "id": "BuffetSick",
+            "name": "痛苦之袋",
+            "desc": "- 最大値：30\n- <color=#7C5738>回合結束</color>時，若狂暴 效果解除，則解除本效果，每減少5層，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
+            "summary": "",
+            "flavor": "痛苦都聚集在這里。因而，当這一器官破裂時，痛苦会更加鮮明。"
+        },
+        {
+            "id": "SavePlacenta",
+            "name": "自我保護",
+            "desc": "- 命脉将受到来自<color=#ffffff>敵方単位</color>的単方面攻撃時，消耗1層并使該<color=#ffffff>敵方単位</color>的<color=#ffffff>目標</color>改為<color=#ffffff>自身</color>，随后使用援護防御専用技能\n- <color=#7C5738>回合結束</color>時解除",
+            "summary": ""
+        },
+        {
+            "id": "BloodyMucus",
+            "name": "洗礼[赤紅]",
+            "desc": "- 最大値：5\n- <color=#ffffff>自身</color>每帯有3級流血 強度，使<color=#ffffff>自身</color>増加1級攻撃等級(最多3級)\n- 若本效果層数為最大値，則使<color=#ffffff>自身</color>受到的流血 <color=#ffffff>傷害</color>変為2倍且不会因流血 <color=#ffffff>傷害</color>而陣亡\n- 使用基礎攻撃技能時，対<color=#ffffff>自身</color>施加(本效果層数×2)層流血 \n- 使用E.G.O技能或守備技能時，本效果層数減少3層",
+            "summary": "",
+            "flavor": "“以血為肉施洗”"
+        },
+        {
+            "id": "DeterioratingBody",
+            "name": "求生本能",
+            "desc": "- 最大値：5\n- <color=#61DA61>体力</color>不会低于1点\n- 受到攻撃時，本效果層数減少1層(每个技能最多2次)\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層;本效果解除時，<color=#ffffff>自身</color>陣亡",
+            "summary": "",
+            "flavor": "那爭扎求生的身姿雖然頑強，但終究有窮尽之時。"
+        },
+        {
+            "id": "BuffetFailed",
+            "name": "虚脱",
+            "desc": "- 最大値：3\n- 每帯有1層本效果，最小与最大<color=#7C5737>速度値</color>-1\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n- <color=#7C5738>回合結束</color>時，本效果層数減少1層\n(适用于所有<color=#ffffff>部位</color>)",
+            "summary": "",
+            "flavor": "狂暴之后随之到来的制約。根据力量与速度的大小，世界会通過不同的形式令其付出代价。"
+        },
+        {
+            "id": "EarlyBuffet_LowMorale",
+            "name": "分裂",
+            "desc": "- 士气低落\n- 防御等級-3\n- 攻撃等級+3\n- 与帯有的洗礼[赤紅] 層数為5層的<color=#ffffff>目標</color>進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+2",
+            "summary": "",
+            "flavor": "究竟……為何？我是什么様子？我……是什么？"
+        },
+        {
+            "id": "EarlyBuffet_Panic",
+            "name": "分裂",
+            "desc": "- 陷入恐慌\n- 防御等級-5\n- 攻撃等級+3\n- 造成的<color=#ffffff>傷害</color>+10%\n- 与帯有的洗礼[赤紅] 層数不低于3層的<color=#ffffff>目標</color>進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+3",
+            "summary": "",
+            "flavor": "究竟……為何？我是什么様子？我……是什么？"
+        },
+        {
+            "id": "SisyphusTopaz",
+            "name": "托帕石",
+            "desc": "- 无效果",
+            "summary": ""
+        },
+        {
+            "id": "SisyphusAmethyst",
+            "name": "紫水晶",
+            "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級",
+            "summary": ""
+        },
+        {
+            "id": "SisyphusAmber",
+            "name": "琥珀",
+            "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+1層",
+            "summary": ""
+        },
+        {
+            "id": "SisyphusEmerald",
+            "name": "祖母緑",
+            "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+1層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)",
+            "summary": ""
+        },
+        {
+            "id": "SisyphusGold",
+            "name": "黄金",
+            "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+1層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)\n- <color=#ffffff>拼点威力</color>+1",
+            "summary": ""
+        },
+        {
+            "id": "SisyphusRuby",
+            "name": "紅宝石",
+            "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+1層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)\n- <color=#ffffff>拼点威力</color>+1\n- <color=#ffffff>最終威力</color>+1",
+            "summary": ""
+        },
+        {
+            "id": "RougeThreeCocoonShield",
+            "name": "信仰",
+            "desc": "- <color=#7C5738>回合開始</color>時，獲得相当于本效果層数的<color=#81BBE8>護盾</color>\n- <color=#81BBE8>護盾</color>減少時，本效果層数減少",
+            "summary": "",
+            "flavor": "“信仰，是袮所渴望之物的實体，袮所渴望之物的……”"
+        },
+        {
+            "id": "RisingMadnessSisyphe",
+            "name": "陽光",
+            "desc": "- 最大値：2\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得1層傷害強化 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color>\n· 技能的所有硬幣轉化為不可摧毀的硬幣\n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "……可以的。"
+        },
+        {
+            "id": "RisingMadnessSisyphe2nd",
+            "name": "刺眼的陽光",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得2層威力提升 与2層傷害強化 并対<color=#ffffff>自身</color>施加3層<color=#ffffff>易損</color>\n· 技能的所有硬幣轉化為不可摧毀的硬幣\n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
+            "summary": "",
+            "undefined": "-",
+            "flavor": "日光対它所触及的一切都附耳低語。即便触及的事物会変得灼熱、刺痛，直到逐漸焼焦，也会依然照射下去。"
+        },
+        {
+            "id": "WeakWithering_LowMorale",
+            "name": "胡乱縫紉",
+            "desc": "- 士气低落\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層攻撃等級降低 ",
+            "summary": ""
+        },
+        {
+            "id": "WeakWithering_Panic",
+            "name": "胡乱縫紉",
+            "desc": "- 陷入恐慌\n- <color=#7C5738>回合開始</color>時，対<color=#ffffff>自身</color>施加1層攻撃等級降低 与1層<color=#ffffff>傷害</color>弱化 ",
+            "summary": ""
+        },
+        {
+            "id": "NiddlePin",
+            "name": "針釘",
+            "desc": "- <color=#E40302>特殊流血</color>\n- 受到<color=#ffffff>突刺</color><color=#ffffff>傷害</color>時，対<color=#ffffff>自身</color>施加1層流血 并使本效果層数減少1層\n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>増加1級流血 強度并使本效果層数減少1層",
+            "summary": ""
+        }
+    ]
 }

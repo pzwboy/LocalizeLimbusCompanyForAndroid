@@ -1075,7 +1075,7 @@
                 {
                     "level": 1,
                     "name": "飛撲叭！！",
-                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>\n[WhenUse] 若<color=#ffffff>目標</color>帯有的負面状態不少于3種，則使本技能的<color=#ffffff>基礎威力</color>+1\n[EndSkill] 使現存<color=#61DA61>体力</color>最低的1口瓮対<color=#ffffff>目標</color>使用技能“飛撲而来的破瓮”",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>\n[WhenUse] 若<color=#ffffff>目標</color>帯有的負面状態不少于3種，則使本技能的<color=#ffffff>基礎威力</color>+1\n[EndSkill] 使現存<color=#61DA61>体力</color>最低的1口瓮対<color=#ffffff>目標</color>使用技能“飛撲而来的破瓮”(无視混乱状態)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1600,7 +1600,7 @@
                 {
                     "level": 1,
                     "name": "充拳流-相触",
-                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 対<color=#ffffff>自身</color>施加3層[Charge]",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Burst]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Charge]",
                     "coinlist": [
                         {
                             "coindescs": [

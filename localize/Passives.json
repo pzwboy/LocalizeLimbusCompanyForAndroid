@@ -67,7 +67,7 @@
         },
         {
             "id": 1050201,
-            "name": "安若泰山",
+            "name": "堅如泰山",
             "desc": "受到攻撃時，随机使1名<color=#ffffff>敵方単位</color>増加1級焼傷 強度。(最多4次)"
         },
         {
@@ -97,7 +97,7 @@
         },
         {
             "id": 1070201,
-            "name": "喘息未定",
+            "name": "呼吸",
             "desc": "受到攻撃造成的<color=#ffffff>傷害</color>后，<color=#7C5738>本回合</color>内使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%。"
         },
         {
@@ -227,7 +227,7 @@
         },
         {
             "id": 1030221,
-            "name": "万念倶灰",
+            "name": "受挫之心",
             "desc": "使<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color><color=#7C5738>本回合</color>使用的首个技能<color=#ffffff>最終威力</color>+1。"
         },
         {
@@ -262,7 +262,7 @@
         },
         {
             "id": 1050321,
-            "name": "默默行事",
+            "name": "沈默寡言",
             "desc": "令<color=#7C5737>速度値</color>最低的1名<color=#ffffff>友方単位</color>使<color=#ffffff>目標</color>増加的破裂 強度額外+1級。"
         },
         {
@@ -287,7 +287,7 @@
         },
         {
             "id": 1070221,
-            "name": "不顧己身",
+            "name": "自我忽視",
             "desc": "使現存<color=#61DA61>体力</color>最低的1名<color=#ffffff>友方単位</color>造成与受到的<color=#ffffff>傷害</color>都+20%。"
         },
         {
@@ -342,7 +342,7 @@
         },
         {
             "id": 1100321,
-            "name": "固執己見",
+            "name": "靭勁",
             "desc": "使現存<color=#61DA61>体力</color>最低的1名<color=#ffffff>友方単位</color>受到的<color=#ffffff>傷害</color>-10%。"
         },
         {
@@ -779,7 +779,7 @@
         },
         {
             "id": 1010501,
-            "name": "越戦越勇…",
+            "name": "越到此等時刻…",
             "desc": "使<color=#ffffff>敵方単位</color>震顫引爆 時，每前移4点<color=#ffffff>混乱閾値</color>，対其施加1層[DefenseDown](每名<color=#ffffff>敵方単位</color>，<color=#7C5738>每回合</color>最多5層)"
         },
         {
@@ -3184,7 +3184,7 @@
             "name": "隔熱大衣",
             "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得0層[StigmaWorkshopCelloCaseOne]\n\n<color=#ffffff>自身</color>不会因[Combustion]<color=#ffffff>傷害</color>陷入混乱或使<color=#61DA61>体力</color>降至1点以下\n<color=#ffffff>自身</color>受到的[Combustion]<color=#ffffff>傷害</color>-50%(向下取整)\n- 若<color=#ffffff>自身</color>的<color=#61DA61>体力</color>低于50%，則改為受到的[Combustion]<color=#ffffff>傷害</color>-75%(向下取整)",
             "summary": "受到的焼傷 <color=#ffffff>傷害</color>減少",
-            "flavor": "若袮决定使用操控熱量的工坊装備，就要有支付相應金銭的覚悟。因為与那些只要更鋒利、更堅固就可以的普通類型的武器不同，使用激発熱量的武器時，為了不譲自己也被那股熱量卷入，需要做各種各様的前期准備。\n\n当然，単純只是噴火的武器，或是不易起火的布料之類的東西很容易稿到。但想要得到能在使用者所希望的時机按使用者所希望的程度去細致地施放熱量的武器，以及能阻當相應的熱量的布料，通常都需要投入極高的費用，在掌握其使用方法上需付出的努力也不可懈怠。\n\n若袮像這様在其中投入了金銭与時間，那么找上袮的委托也会相應増加。"
+            "flavor": "若袮决定使用操控熱量的工坊装備，就要有支付相應金銭的覚悟。因為与那些只要更鋒利、更堅固就可以的普通類型的武器不同，使用激発熱量的武器時，為了不譲自己也被那股熱量卷入，需要做各種各様的前期准備。\n\n当然，単純只是噴火的武器，或是不易起火的面料之類的東西很容易稿到。但想要得到能在使用者所希望的時机按使用者所希望的程度去細致地施放熱量的武器，以及能阻當相應的熱量的面料，通常都需要投入極高的費用，在掌握其使用方法上需付出的努力也不可懈怠。\n\n若袮像這様在其中投入了金銭与時間，那么找上袮的委托也会相應増加。"
         },
         {
             "id": 1021603,
@@ -3257,52 +3257,52 @@
         },
         {
             "id": 1041601,
-            "name": "饋還",
-            "desc": "敵に[VibrationExplosion]時、[VibrationExplosion]の混乱区間前進量 +15%\n- 自分の[ChargeNoirAlly]回数が12以上なら、代わりに[VibrationExplosion]時、自分の[ChargeNoirAlly]回数を1消耗して[VibrationExplosion]の混乱区間前進量 +30% (ターゲットごとに適用)\n\n自分にバリアがあるとき、敵から攻撃を受けると、\n該当する敵に[Vibration]威力2を付与 (敵ごとに1ターンにつき2回)",
-            "summary": "混乱区間前進量が増加",
-            "flavor": "ル・ノワールは、相手に強い振動を与えて揺さぶることで、その価値を崩壊させられると信じている。対象が激しく振動するほど、刻一刻と変化を経ていると考えるからであり、ル・ノワールの戦闘技術は、こうした方向性に基づいて構成された。\n\nそして、彼らは覚えてもいなければ経験もしていないだろうが、シーシュポス百貨店の外にも、同じ原理で作動し、発達した戦闘技術が存在する。"
+            "name": "反饋",
+            "desc": "使<color=#ffffff>敵方単位</color>[VibrationExplosion]時，使[VibrationExplosion]造成的<color=#ffffff>混乱閾値</color>前移量+15%\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数不低于12層，則改為[VibrationExplosion]時消耗<color=#ffffff>自身</color>1層[ChargeNoirAlly]并使[VibrationExplosion]造成的<color=#ffffff>混乱閾値</color>前移量+30%(每名<color=#ffffff>目標</color>分別触発)\n\n若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>時受到<color=#ffffff>敵方単位</color>攻撃，\n則使該<color=#ffffff>敵方単位</color>増加2級[Vibration]強度(<color=#7C5738>每回合</color>每名<color=#ffffff>敵方単位</color>最多2次)",
+            "summary": "<color=#ffffff>混乱閾値</color>前移量増加",
+            "flavor": "黑派相信通過強烈的震顫来令敵人動揺，就能使其价値崩榻。因為攻撃対象震顫得越激烈，就越是每時每刻都在經暦変化，黑派的戦斗技術都是基于這一方向来構成。\n\n而且，雖然他們并无記憶也未曾親身經暦，但在西西弗百貨之外，也存在着以同様原理運作的発達的戦斗技術。"
         },
         {
             "id": 1041602,
-            "name": "ル・ノワール ギャバジン生地",
-            "desc": "戦場に登場時、[NoirSuitAlly]25を得る\n\nターン開始時、自分の体力最大値の(([NoirSuitAlly] + [RealisationAlly]) ÷ 5)%だけバリアを得る",
-            "summary": "バリアを得る"
+            "name": "黑派 華達捏面料",
+            "desc": "<color=#ffffff>自身</color>在戦斗中登場時，使<color=#ffffff>自身</color>獲得25層[NoirSuitAlly]\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirSuitAlly]層数与[RealisationAlly]層数之和/5)%的<color=#81BBE8>護盾</color>",
+            "summary": "獲得<color=#81BBE8>護盾</color>"
         },
         {
             "id": 1041603,
-            "name": "ル・ノワール ギャバジン生地",
-            "desc": "戦場に登場時、[NoirSuitAlly]25を得る\n\nターン開始時、\n- 自分の体力最大値の(([NoirSuitAlly] + [RealisationAlly]) ÷ 5)%だけバリアを得る\n- [RealisationAlly]があるなら、「トリプル・スタンピード・ステッチング」が「ワンキック - クチュール・ミュルティプル」として適用される",
-            "summary": "バリアを得る"
+            "name": "黑派 華達捏面料",
+            "desc": "<color=#ffffff>自身</color>在戦斗中登場時，使<color=#ffffff>自身</color>獲得25層[NoirSuitAlly]\n\n<color=#7C5738>回合開始</color>時，\n- 使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirSuitAlly]層数与[RealisationAlly]層数之和/5)%的<color=#81BBE8>護盾</color>\n- 若<color=#ffffff>自身</color>帯有[RealisationAlly]，則使“三綫印花縫紉”轉化為“単踏-多様定制時装”",
+            "summary": "獲得<color=#81BBE8>護盾</color>"
         },
         {
             "id": 1041604,
             "name": "保存",
-            "desc": "戦闘中、累計で自分の[ChargeNoirAlly]回数を10消耗するたびに\n[ChargeNoirAlly]威力1を得る\n\nターン終了時、自分の[ChargeNoirAlly]威力が3未満なら、[ChargeNoirAlly]回数を全て消耗して\n(消耗した数値 × 5)だけ次のターンにバリアを得る\n\n自分の[ChargeNoirAlly]威力が3以上なら、[ChargeNoirAlly]回数が12未満のとき\n自分の基本スキルで獲得する[ChargeNoirAlly]回数の獲得量 +1\n\n基本攻撃スキル使用時、\n- 対象の[Vibration]威力が6以上なら、コイン威力 +1\n- 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1\n- ダメージ量 +(自分の[ChargeNoirAlly]威力 × 2)% (最大10%)\n・「トリプル・スタンピード・ステッチング」「ワンキック - クチュール・ミュルティプル」なら、\n代わりにダメージ量 +(自分の[ChargeNoirAlly]威力 × 4)% (最大20%)",
-            "summary": "保存回数が一定数値未満なら、獲得量が増加\n基本攻撃スキル使用時、コイン威力とダメージ量が増加"
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoirAlly]，\n使<color=#ffffff>自身</color>増加1級[ChargeNoirAlly]強度\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度低于3級，則消耗所有[ChargeNoirAlly]層数并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(消耗的[ChargeNoirAlly]層数×5)点<color=#81BBE8>護盾</color>\n\n若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級且<color=#ffffff>自身</color>的[ChargeNoirAlly]層数低于12層，則令<color=#ffffff>自身</color>的基礎技能獲得的[ChargeNoirAlly]層数額外+1層\n\n基礎攻撃技能使用時\n- 若<color=#ffffff>目標</color>的[Vibration]強度不低于6級，則使<color=#ffffff>自身</color>的<color=#ffffff>硬幣威力</color>+1\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n- 使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×2)%(最多+10%)\n· “三綫印花縫紉”与“単踏-多様定制時装”改為造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×4)%(最多+20%)",
+            "summary": "保存 層数低于一定値時，獲得的保存 層数増加\n基礎攻撃技能使用時，<color=#ffffff>硬幣威力</color>与造成的<color=#ffffff>傷害</color>増加"
         },
         {
             "id": 1041621,
-            "name": "ル・ノワールの美徳と価値",
-            "desc": "[Charge]・特殊[Charge]を保有する味方のうち、編成順が最も早い味方1名が基本スキルを使用して[VibrationExplosion]で与える混乱区間前進量 +12.5%",
-            "summary": "振動爆発時、混乱区間前進量が増加\n被撃時、振動威力を付与"
+            "name": "黑派之美德与价値",
+            "desc": "使帯有[Charge]或特殊[Charge]的<color=#ffffff>友方単位</color>中最先編入的1名<color=#ffffff>友方単位</color>基礎技能触発[VibrationExplosion]時造成的<color=#ffffff>混乱閾値</color>前移量+12.5%",
+            "summary": "震顫引爆 時，造成的<color=#ffffff>混乱閾値</color>前移量増加\n受到攻撃時，使<color=#ffffff>目標</color>増加震顫 強度"
         },
         {
             "id": 1081601,
-            "name": "変化の揺籃",
-            "desc": "基本スキル使用時、自分の[ChargeRougeAlly]回数が10未満なら、マッチ威力 +2\n\n自分が[RougeIshmaelEclose]なら、基本スキル的中時に体力を最大値の8%だけ回復 (1ターンにつき5回)",
-            "flavor": "試着室とも呼ぶけれど、外ではこれを蛹や卵と呼ぶ方が正しいだろうね。\n中で自分の身体を溶かしたり潰したりしながら変化し、時が来たら殻を破って外へ出てくるんだろう。\nでも、まだ準備のできていないものを外から引き裂いてしまうと、悲しいことに壊れてしまうんだ。\nだから、この時期が一番脆くて、いつにも増して世話が必要なんだよ。"
+            "name": "変化的揺籃",
+            "desc": "基礎技能使用時，若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于10層，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+2\n\n若<color=#ffffff>自身</color>処于[RougeIshmaelEclose]状態，則<color=#ffffff>自身</color>的基礎技能命中時使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限8%的<color=#61DA61>体力</color>(<color=#7C5738>每回合</color>最多5次)",
+            "flavor": "雖然叫做更衣室，但在外面該将其称作蛹或者繭比較正確。\n在其中不断将自己的身体融化并発生変化，等待時机到来破殻而出。\n但若在還未准備好時从外部将其撕裂的話，就会可悲地損坏掉。\n因此，其在這一時期最為脆弱，也比任何時候都更需要照料。"
         },
         {
             "id": 1081602,
-            "name": "試着室の中へ…",
-            "desc": "戦闘中、累計で自分の[ChargeRougeAlly]回数を10消耗するたびに[ChargeRougeAlly]1を得る\n\n自分の基本スキルの体力減少効果では混乱状態にならず、体力が1未満に減少しない\n(体力が1の場合、基本スキル効果のうち体力消耗によって発動する効果の適用を受けられる)\n\n今回の戦闘で体力が0になるダメージを受けたとき、そのダメージを受けず、即座に[RougeIshmaelCocoon]2を得て\n[RougeIshmaelCocoon]になる (戦闘につき1回)\n- 守備スキルの効果で[RougeIshmaelCocoon]になったなら、この効果は今回の戦闘中発動しない\n\n[RougeIshmaelCocoon]になるとき、自分の体力最大値だけバリアを得る\n (この効果で得たバリアはターン終了時にも消えない)\n- [RougeIshmaelCocoon]が解除されるとき、上記効果で得たバリアは消える\n\n[RougeIshmaelCocoon]のとき、「声に従い、喜んで私の中へ」のみ使用可能 (E.G.Oスキルは使用不可)\n\nターン終了時に[RougeIshmaelCocoon]が0なら、[RougeIshmaelCocoon]が解除されて[RougeIshmaelEclose]になり、[ChargeRougeAlly]回数5を得る",
-            "flavor": "着替えるんです、もっと自分らしい姿に！"
+            "name": "進入更衣室…",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeRougeAlly]時，使<color=#ffffff>自身</color>増加1級[ChargeRougeAlly]強度\n\n<color=#ffffff>自身</color>基礎技能的消耗<color=#61DA61>体力</color>的效果不会使<color=#ffffff>自身</color>陷入混乱或使<color=#ffffff>自身</color>的<color=#61DA61>体力</color>低于1点\n(現存<color=#61DA61>体力</color>為1点時，<color=#ffffff>自身</color>基礎技能的消耗<color=#61DA61>体力</color>的效果也可触発)\n\n本場戦斗中，<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，无視該<color=#ffffff>傷害</color>，并立即使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)\n- 若<color=#ffffff>自身</color>通過<color=#ffffff>自身</color>的守備技能效果進入[RougeIshmaelCocoon]状態，則以上效果在本場戦斗中不会触発\n\n<color=#ffffff>自身</color>進入[RougeIshmaelCocoon]状態時，使<color=#ffffff>自身</color>獲得相当于<color=#ffffff>自身</color><color=#61DA61>体力</color>上限的<color=#81BBE8>護盾</color>\n- 通過該效果獲得的<color=#81BBE8>護盾</color>不会在<color=#7C5738>回合結束</color>時解除\n- <color=#ffffff>自身</color>解除[RougeIshmaelCocoon]状態時，解除以上效果獲得的<color=#81BBE8>護盾</color>\n\n<color=#ffffff>自身</color>処于[RougeIshmaelCocoon]状態時，僅可使用技能“順从那声音，我欣然地深入我之中”(无法使用E.G.O技能)\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[RougeIshmaelCocoon]層数為0層，則解除[RougeIshmaelCocoon]状態并進入[RougeIshmaelEclose]状態，使<color=#ffffff>自身</color>獲得5層[ChargeRougeAlly]",
+            "flavor": "我要換件衣服，変得更像我自己！"
         },
         {
             "id": 1081621,
-            "name": "[ル・ルージュ・オートクチュール・アクトリス] - ローブ",
-            "desc": "編成順1番・2番の人格がパッシブ・スキル・コインの効果で回復する体力回復量 +20%\n\n色欲共鳴が完全共鳴なら、このターンの間、編成順1番・2番の人格がスキルで受けるダメージ量 -10%",
-            "flavor": "鏡世界の人格を原本そのままに上書きするのが難しいとき、役者だけのために仕立てられた形で服が作られ、その服が着せられる。\nオートクチュールは、ある種の映画的な再構成だ。かつていた存在を服へと置き換えて上書きし、役者はその存在に感情移入して没入し、演じる。映画を見る者は、それが演技ではなく実在であるという嘘を受け入れ、役者はその物語の中でだけはその存在となって原本を再現する。"
+            "name": "[紅派高級定制女演員]-礼服",
+            "desc": "使第1与第2順位的人格通過被動、技能与<color=#ffffff>硬幣效果</color>恢復的<color=#61DA61>体力</color>+20%\n\n激活<color=#FE6E00>色欲</color><color=#7C5738>完全</color><color=#7C5738>共鳴</color>時，<color=#7C5738>本回合</color>使第1与第2順位的人格受到来自技能的<color=#ffffff>傷害</color>-10%",
+            "flavor": "当難以将鏡像世界的人格原封不動地覆写上去時，就会制作出為演員量身定制并穿着的服装。\n高級定制時装是一種電影式的重構。将曾經存在的存在置換為服装并覆盖其上，演員将感情代入并沈浸于其中，進行表演。観看電影的人接受了這并非表演而是真實存在的幌言，演員在那个故事中成為那一存在，再現其本質。"
         }
     ]
 }

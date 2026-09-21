@@ -1,90 +1,90 @@
 {
-  "dataList": [
-    {
-      "id": 9105901,
-      "name": "ガラス瓶は慎重に扱わないといけないのに…！",
-      "desc": "スキルで攻撃を受けると[Laceration]3を得る (スキルごとに1回)\n\n上記の効果発動時、次のターンに[ResultEnhancement]1を得る (最大2)"
-    },
-    {
-      "id": 9105902,
-      "name": "私の瓶は安全だ",
-      "desc": "自分に[Laceration]がない状態でターン終了時、精神力を5回復"
-    },
-    {
-      "id": 9105903,
-      "name": "瓶を満たさないと",
-      "desc": "自分の体力が最大でないとき、自分のスキルが的中した対象が[Laceration]を保有していれば、体力最大値の2%を回復 (1ターンにつき2回、小数点切り捨て)"
-    },
-    {
-      "id": 9106601,
-      "name": "ル・ノワール生地",
-      "desc": "戦闘に初めて登場時、[NoirBindArmor]5を得る\n\nターン開始時、10 + 自分の体力最大値の([NoirBindArmor]の数値)%だけバリアを得る",
-      "flavor": "ル・ノワールの生地は、鎧のように堅牢で形の崩れないシルエットによってお客様の体型を補整する。"
-    },
-    {
-      "id": 9106602,
-      "name": "保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を累計で\n- 5消耗するたびに[NoirBindArmor]1を得る\n- 10消耗するたびに[ChargeNoir]1を得る",
-      "flavor": "凝縮させて力を集め、固定する。変化させないことは、変化させることよりも大きな力を要するときがある。"
-    },
-    {
-      "id": 9106603,
-      "name": "停止のための変化",
-      "desc": "ターン開始時、自分の[ChargeNoir]回数が10以上なら強力なスキルを使用\n\nスキル使用時に自分の[ChargeNoir]回数が15以上なら、\n自分の[ChargeNoir]回数を3消耗してダメージ量 +20%",
-      "flavor": "この新しい声は、自分が変わらずにいられるように、自分を変えてくれるって言うんだ…。"
-    },
-    {
-      "id": 9106604,
-      "name": "聞こえる…別の神の声が…。",
-      "desc": "戦闘に初めて登場時、[RisingMadnessNoir]2を得る\n- ターン開始時、今回の戦闘にて体力が初めて50%以下になると、\n[RisingMadnessNoir]が[RisingMadnessNoir2nd]に変更される\n\nマッチ敗北時、[ChargeNoir]回数2を得る",
-      "flavor": "温かな声を聞いたが、それ以上変わることができず、精神が肉体に閉じ込められたまま分裂によって狂症に陥った。"
-    },
-    {
-      "id": 9106001,
-      "name": "ディギング",
-      "desc": "マッチ開始時、対象が保有する効果1種につき、次のターンに[Breath]威力2を得る (最大10)\n- 保有する効果が3種以上なら、次のターンに自分の[Breath]回数が3増加",
-      "flavor": "価値を生み出せないル・カーキの連中だからこそ、ひっくり返しながら価値あるものを探し出さなければならない。"
-    },
-    {
-      "id": 9106002,
-      "name": "トレンド待ち",
-      "desc": "自分の[Breath]威力が6以上なら、コイン威力 +1",
-      "flavor": "今回はどんなコアがトレンドなんだ！？"
-    },
-    {
-      "id": 9106003,
-      "name": "守るための足掻き",
-      "desc": "ターン開始時、自分の失った体力10%につき精神力を3回復 (最大15)"
-    },
-    {
-      "id": 9106004,
-      "name": "聞こえる…別の神の声が…。",
-      "desc": "戦闘に初めて登場時、[RisingMadnessSisyphe]2を得る\n- ターン開始時、今回の戦闘にて体力が初めて50%以下になると、\n[RisingMadnessSisyphe]が[RisingMadnessSisyphe2nd]に変更される",
-      "flavor": "温かな声を聞いたが、それ以上変わることができず、精神が肉体に閉じ込められたまま分裂によって狂症に陥った。"
-    },
-    {
-      "id": 9106301,
-      "name": "裁縫",
-      "desc": "貫通耐性または嫉妬耐性が1.5以上の対象に付与する[NiddlePin]の数値 +1",
-      "flavor": "縫うときは針数が大事なんだ、針数が。"
-    },
-    {
-      "id": 9106302,
-      "name": "小さく尖った釘",
-      "desc": "[NiddlePin]を保有する敵にスキルで[Laceration]威力を付与するとき、付与量が(対象の[NiddlePin]の数値)だけ増加 (最大3)",
-      "flavor": "釘も針も変わらない。"
-    },
-    {
-      "id": 9106701,
-      "name": "切迫",
-      "desc": "ターン開始時、自分の[ChargeRouge]威力が3、[ChargeRouge]回数が10以上なら、強力なスキルを使用\n\n自分の失った体力1%につき、スキルダメージ量 +1%",
-      "flavor": "もっと自分らしく…服だけでは表せない、本当の自分の姿を…！"
-    },
-    {
-      "id": 9106702,
-      "name": "聞こえる…別の神の声が…。",
-      "desc": "ステージ開始時、[RisingMadnessRouge]を得る\n- ターン開始時、今回の戦闘にて体力が初めて50%以下になると、\n[RisingMadnessRouge]が[RisingMadnessRouge2nd]に変更される\n\nマッチ敗北時、[ChargeRouge]回数2を得る",
-      "flavor": "温かな声を聞いたが、それ以上変わることができず、精神が肉体に閉じ込められたまま分裂によって狂症に陥った。"
-    }
-  ]
+    "dataList": [
+        {
+            "id": 9105901,
+            "name": "玻璃瓶要小心処理才行…！",
+            "desc": "受到技能攻撃時，使<color=#ffffff>自身</color>増加3級[Laceration]強度(每个技能最多1次)\n\n該效果触発時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement](最多2層)"
+        },
+        {
+            "id": 9105902,
+            "name": "我的瓶子安全拉",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>未帯有[Laceration]，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 9105903,
+            "name": "我必須把瓶子装満",
+            "desc": "若<color=#ffffff>自身</color><color=#61DA61>体力</color>未満且技能命中的<color=#ffffff>目標</color>帯有[Laceration]，則使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限2%的<color=#61DA61>体力</color>(<color=#7C5738>每回合</color>最多2次，向下取整)"
+        },
+        {
+            "id": 9106601,
+            "name": "黑派面料",
+            "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得(10+<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirBindArmor]層数)%)点<color=#81BBE8>護盾</color>",
+            "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
+        },
+        {
+            "id": 9106602,
+            "name": "保存",
+            "desc": "本場戦斗中，根据<color=#ffffff>自身</color>累計消耗的[ChargeNoir]層数\n- 每当累計消耗5層時，使<color=#ffffff>自身</color>獲得1層[NoirBindArmor]\n- 每当累計消耗10層時，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度",
+            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+        },
+        {
+            "id": 9106603,
+            "name": "為停止而改変",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于10層，則使用強力技能\n\n使用技能時，若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于15層，\n則消耗<color=#ffffff>自身</color>3層[ChargeNoir]并使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+20%",
+            "flavor": "這新的声音説，它会帮我改変自己，這様我就能保持不変……"
+        },
+        {
+            "id": 9106604,
+            "name": "我听到了…令一个神的声音…",
+            "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得2層[RisingMadnessNoir]\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color><color=#61DA61>体力</color>在本場戦斗中首次不高于50%，\n則使<color=#ffffff>自身</color>的[RisingMadnessNoir]轉化為[RisingMadnessNoir2nd]\n\n拼点失敗時，使<color=#ffffff>自身</color>獲得2層[ChargeNoir]",
+            "flavor": "雖然听到了温柔的声音，但却已无法再発生変化。精神被困鎖于肉体之中，因分裂陷入了瘋狂。"
+        },
+        {
+            "id": 9106001,
+            "name": "掘掘",
+            "desc": "拼点開始時，<color=#ffffff>目標</color>每帯有1種状態效果，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加2級[Breath]強度(最多10級)\n- 若<color=#ffffff>目標</color>帯有的状態效果数不少于3種，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[Breath]",
+            "flavor": "由于是无法創造价値的褐派，因此要尋找有价値的東西。"
+        },
+        {
+            "id": 9106002,
+            "name": "等待風潮",
+            "desc": "若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使<color=#ffffff>自身</color>的<color=#ffffff>硬幣威力</color>+1",
+            "flavor": "這次的核心風潮是什么？！"
+        },
+        {
+            "id": 9106003,
+            "name": "為守護而爭扎",
+            "desc": "<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每失去10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>恢復3点<color=#81BBE8>理智値</color>(最多15点)"
+        },
+        {
+            "id": 9106004,
+            "name": "我听到了…令一个神的声音…",
+            "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得2層[RisingMadnessSisyphe]\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color><color=#61DA61>体力</color>在本場戦斗中首次不高于50%，\n則使<color=#ffffff>自身</color>的[RisingMadnessSisyphe]轉化為[RisingMadnessSisyphe2nd]",
+            "flavor": "雖然听到了温柔的声音，但却已无法再発生変化。精神被困鎖于肉体之中，因分裂陷入了瘋狂。"
+        },
+        {
+            "id": 9106301,
+            "name": "縫紉",
+            "desc": "若<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>抗性或<color=#9702DE>嫉炉</color>抗性不低于1.5，則対其施加的[NiddlePin]層数額外+1層",
+            "flavor": "縫紉最重要的就是針数啊針数。"
+        },
+        {
+            "id": 9106302,
+            "name": "小而尖的釘子",
+            "desc": "通過技能使帯有[NiddlePin]的<color=#ffffff>敵方単位</color>増加[Laceration]強度時，令該技能増加的[Laceration]強度額外+(<color=#ffffff>目標</color>的[NiddlePin]層数)級(最多3級)",
+            "flavor": "釘子和針没有什么区別。"
+        },
+        {
+            "id": 9106701,
+            "name": "迫切",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于3級且[ChargeRouge]層数不低于10層，則使用強力技能\n\n<color=#ffffff>自身</color>每失去1%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>技能造成的<color=#ffffff>傷害</color>+1%",
+            "flavor": "更像我自己……服装所无法表達出的，真正的我自己……！"
+        },
+        {
+            "id": 9106702,
+            "name": "我听到了…令一个神的声音…",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得[RisingMadnessRouge]\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color><color=#61DA61>体力</color>在本場戦斗中首次不高于50%，\n則使<color=#ffffff>自身</color>的[RisingMadnessRouge]轉化為[RisingMadnessRouge2nd]\n\n拼点失敗時，使<color=#ffffff>自身</color>獲得2層[ChargeRouge]",
+            "flavor": "雖然听到了温柔的声音，但却已无法再発生変化。精神被困鎖于肉体之中，因分裂陷入了瘋狂。"
+        }
+    ]
 }

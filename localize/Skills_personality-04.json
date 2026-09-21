@@ -3424,20 +3424,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "不潔だな",
-                    "desc": "[StartBattle] 自分の[ChargeNoirAlly]威力が3、[ChargeNoirAlly]回数が\n12以上なら、[ChargeNoirAlly]回数を6消耗して体力最大値の5%だけバリアを得る (1ターンにつき2回)\n[WhenUse] 自分の[ChargeNoirAlly]回数が10未満なら、\n自分の[ChargeNoirAlly]回数が1増加\n[WhenUse] [RealisationAlly]を最大15消耗\n- マッチ威力 +1\n- ダメージ量 +(消耗した[RealisationAlly] × 3)% (最大45%)",
+                    "name": "真是殃臓",
+                    "desc": "[StartBattle] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，[ChargeNoirAlly]層数不低于12層，\n則消耗6層[ChargeNoirAlly]并使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(<color=#7C5738>每回合</color>最多2次)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数低于10層，則使<color=#ffffff>自身</color>獲得1層[ChargeNoirAlly]\n[WhenUse] 消耗最多15層[RealisationAlly]\n- 使本技能的<color=#ffffff>拼点威力</color>+1\n- 使本技能造成的<color=#ffffff>傷害</color>+(消耗的[RealisationAlly]層数×3)%(最多+45%)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeNoirAlly]"
                                 }
                             ]
                         }
@@ -3445,20 +3445,20 @@
                 },
                 {
                     "level": 2,
-                    "name": "不潔だな",
-                    "desc": "[StartBattle] 自分の[ChargeNoirAlly]威力が3、[ChargeNoirAlly]回数が12以上なら、\n[ChargeNoirAlly]回数を6消耗して体力最大値の5%だけバリアを得る (1ターンにつき2回)\n[WhenUse] 自分の[ChargeNoirAlly]回数が10未満なら、自分の[ChargeNoirAlly]回数が<style=\"highlight\">2</style>増加\n[WhenUse] [RealisationAlly]を最大15消耗\n- マッチ威力 +1\n- ダメージ量 +(消耗した[RealisationAlly] × 3)% (最大45%)",
+                    "name": "真是殃臓",
+                    "desc": "[StartBattle] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，[ChargeNoirAlly]層数不低于12層，\n則消耗6層[ChargeNoirAlly]并使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(<color=#7C5738>每回合</color>最多2次)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数低于10層，則使<color=#ffffff>自身</color>獲得<style=\"highlight\">2</style>層[ChargeNoirAlly]\n[WhenUse] 消耗最多15層[RealisationAlly]\n- 使本技能的<color=#ffffff>拼点威力</color>+1\n- 使本技能造成的<color=#ffffff>傷害</color>+(消耗的[RealisationAlly]層数×3)%(最多+45%)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[ChargeNoirAlly]"
                                 }
                             ]
                         }
@@ -3466,20 +3466,20 @@
                 },
                 {
                     "level": 4,
-                    "name": "不潔だな",
-                    "desc": "[StartBattle] 自分の[ChargeNoirAlly]威力が3、[ChargeNoirAlly]回数が12以上なら、\n[ChargeNoirAlly]回数を6消耗して体力最大値の5%だけバリアを得る (1ターンにつき2回)\n[WhenUse] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">12</style>未満なら、自分の[ChargeNoirAlly]回数が2増加\n<style=\"highlight\">[WhenUse] [NoirSuitAlly]が50以上なら、\nマッチ威力 +1、ダメージ量 +30%</style>\n[WhenUse] [RealisationAlly]を最大15消耗\n<style=\"highlight\">- 最終威力 +1</style>\n- ダメージ量 +(消耗した[RealisationAlly] × 3)% (最大45%)",
+                    "name": "真是殃臓",
+                    "desc": "[StartBattle] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，[ChargeNoirAlly]層数不低于12層，\n則消耗6層[ChargeNoirAlly]并使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(<color=#7C5738>每回合</color>最多2次)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数低于<style=\"highlight\">12</style>層，則使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly]\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>自身</color>的[NoirSuitAlly]層数不低于50層，\n則使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+30%</style>\n[WhenUse] 消耗最多15層[RealisationAlly]\n<style=\"highlight\">- 使本技能的<color=#ffffff>最終威力</color>+1</style>\n- 使本技能造成的<color=#ffffff>傷害</color>+(消耗的[RealisationAlly]層数×3)%(最多+45%)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[ChargeNoirAlly]"
                                 }
                             ]
                         }
@@ -3492,20 +3492,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "来て試着してみろ",
-                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数が12以上なら、6消耗してマッチ威力 +1、ダメージ量 +10%\n- 自分の[ChargeNoirAlly]回数が2増加\n[WhenUse] [RealisationAlly]を最大20消耗\n- マッチ威力 +1\n- ダメージ量 +(消耗した[RealisationAlly])% (最大20%)",
+                    "name": "来試穿看看",
+                    "desc": "[WhenUse]\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数不低于12層，則消耗6層[ChargeNoirAlly]并使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n- 使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly]\n[WhenUse] 消耗最多20層[RealisationAlly]\n- 使本技能的<color=#ffffff>拼点威力</color>+1\n- 使本技能造成的<color=#ffffff>傷害</color>+(消耗的[RealisationAlly]層数)%(最多+20%)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] (自分の[ChargeNoirAlly]威力+1)だけ自分の[ChargeNoirAlly]回数が増加 (最大4)"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度+1)層[ChargeNoirAlly](最多4層)"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加1層[Vibration]"
                                 }
                             ]
                         },
@@ -3514,27 +3514,27 @@
                 },
                 {
                     "level": 2,
-                    "name": "来て試着してみろ",
-                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数が12以上なら、\n6消耗してマッチ威力 +1、ダメージ量 +10%\n- 自分の[ChargeNoirAlly]回数が2増加\n[WhenUse] [RealisationAlly]を最大20消耗\n- マッチ威力 +1\n- ダメージ量 +(消耗した[RealisationAlly])% (最大20%)<style=\"highlight\"></style>",
+                    "name": "来試穿看看",
+                    "desc": "[WhenUse]\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数不低于12層，則消耗6層[ChargeNoirAlly]并使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n- 使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly]\n[WhenUse] 消耗最多20層[RealisationAlly]\n- 使本技能的<color=#ffffff>拼点威力</color>+1\n- 使本技能造成的<color=#ffffff>傷害</color>+(消耗的[RealisationAlly]層数)%(最多+20%)<style=\"highlight\"></style>",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] (自分の[ChargeNoirAlly]威力+1)だけ自分の[ChargeNoirAlly]回数が増加 (最大<style=\"highlight\">6</style>)"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度+1)層[ChargeNoirAlly](最多<style=\"highlight\">6</style>層)"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加1層[Vibration]<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層</style>"
                                 }
                             ]
                         }
@@ -3542,27 +3542,27 @@
                 },
                 {
                     "level": 4,
-                    "name": "来て試着してみろ",
-                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数が12以上なら、\n6消耗して<style=\"highlight\">最終威力 +1</style>、ダメージ量 <style=\"highlight\">+20%</style>\n- 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加\n<style=\"highlight\">[WhenUse] [NoirSuitAlly]が50以上なら、ダメージ量 +15%</style>\n[WhenUse] [RealisationAlly]を最大20消耗\n<style=\"highlight\">- 最終威力 +1</style>\n- ダメージ量 +(消耗した[RealisationAlly])% (最大20%)",
+                    "name": "来試穿看看",
+                    "desc": "[WhenUse]\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数不低于12層，\n則消耗6層[ChargeNoirAlly]并使本技能的<style=\"highlight\"><color=#ffffff>最終威力</color>+1</style>，造成的<color=#ffffff>傷害</color><style=\"highlight\">+20%</style>\n- 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[ChargeNoirAlly]\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>自身</color>的[NoirSuitAlly]層数不低于50層，則使本技能造成的<color=#ffffff>傷害</color>+15%</style>\n[WhenUse] 消耗最多20層[RealisationAlly]\n<style=\"highlight\">- 使本技能的<color=#ffffff>最終威力</color>+1</style>\n- 使本技能造成的<color=#ffffff>傷害</color>+(消耗的[RealisationAlly]層数)%(最多+20%)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] (自分の[ChargeNoirAlly]威力 + <style=\"highlight\">3</style>)だけ自分の[ChargeNoirAlly]回数が増加 (最大6)"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度+<style=\"highlight\">3</style>)層[ChargeNoirAlly](最多6層)"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が<style=\"highlight\">2</style>増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加<style=\"highlight\">2</style>層[Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3575,33 +3575,33 @@
             "levelList": [
                 {
                     "level": 3,
-                    "name": "トリプル・スタンピード・ステッチング",
-                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数が10以上なら、最大20まで消耗し、\nダメージ量 +(消耗した[ChargeNoirAlly]回数)% (最大20%)\n- 自分の[ChargeNoirAlly]回数が3増加\n[WhenUse] [NoirSuitAlly]40につき、マッチ威力 +1, ダメージ量 +10% (それぞれ最大2, 最大20%)",
+                    "name": "三綫印花縫紉",
+                    "desc": "[WhenUse]\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数不低于10層，則消耗最多20層[ChargeNoirAlly]\n并使本技能造成的<color=#ffffff>傷害</color>+(消耗的[ChargeNoirAlly]層数)%(最多+20%)\n- 使<color=#ffffff>自身</color>獲得3層[ChargeNoirAlly]\n[WhenUse] <color=#ffffff>自身</color>每帯有40層[NoirSuitAlly]，使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color>+10%(分別最多+2，+20%)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeNoirAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加2層[Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "ダメージ量 +([NoirSuitAlly]の数値÷2)% (最大50%)"
+                                    "desc": "使本硬幣造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[NoirSuitAlly]層数/2)%(最多+50%)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層"
                                 }
                             ]
                         }
@@ -3609,33 +3609,33 @@
                 },
                 {
                     "level": 4,
-                    "name": "トリプル・スタンピード・ステッチング",
-                    "desc": "<style=\"highlight\">[StartBattle] [NoirSuitAlly]20を得る (1ターンにつき1回)</style>\n[WhenUse]\n- 自分の[ChargeNoirAlly]回数が10以上なら最大20まで消耗し、\nダメージ量 +(消耗した[ChargeNoirAlly]回数)% (最大20%)\n- 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加\n[WhenUse] [NoirSuitAlly]<style=\"highlight\">30</style>につき、マッチ威力 +1、ダメージ量 <style=\"highlight\">+20%</style> <style=\"highlight\">(それぞれ最大3, 最大60%)</style>",
+                    "name": "三綫印花縫紉",
+                    "desc": "<style=\"highlight\">[StartBattle] 使<color=#ffffff>自身</color>獲得20層[NoirSuitAlly](<color=#7C5738>每回合</color>最多1次)</style>\n[WhenUse]\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数不低于10層，則消耗最多20層[ChargeNoirAlly]\n并使本技能造成的<color=#ffffff>傷害</color>+(消耗的[ChargeNoirAlly]層数)%(最多+20%)\n- 使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[ChargeNoirAlly]\n[WhenUse] <color=#ffffff>自身</color>每帯有<style=\"highlight\">30</style>層[NoirSuitAlly]，使本技能的<color=#ffffff>拼点威力</color>+1，造成的<color=#ffffff>傷害</color><style=\"highlight\">+20%</style><style=\"highlight\">(分別最多+3，+60%)</style>",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[ChargeNoirAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">3</style>を付与、[Vibration]回数が<style=\"highlight\">3</style>増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">3</style>級[Vibration]強度并対其施加<style=\"highlight\">3</style>層[Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "ダメージ量 +(<style=\"highlight\">[NoirSuitAlly]の数値</style>)% (最大<style=\"highlight\">100%</style>)"
+                                    "desc": "使本硬幣造成的<color=#ffffff>傷害</color>+(<style=\"highlight\"><color=#ffffff>自身</color>的[NoirSuitAlly]層数</style>)%(最多+<style=\"highlight\">100%</style>)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]<style=\"highlight\">2回</style>。対象の[Vibration]回数が<style=\"highlight\">2</style>減少"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使<color=#ffffff>目標</color>[VibrationExplosion]<style=\"highlight\">2次</style>，并使<color=#ffffff>目標</color>的[Vibration]層数減少<style=\"highlight\">2</style>層"
                                 }
                             ]
                         }
@@ -3648,8 +3648,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "この顧客野郎！商品にシワが寄ってるじゃないか！",
-                    "desc": "[DuelCounter]\n[StartBattle]\n- 自分の[NoirSuitAlly]が60以上なら、該当効果が次のターンに[RealisationAlly]へ変更される\n- 自分の[RealisationAlly]が60未満なら、該当効果が次のターンに[NoirSuitAlly]へ変更される\n[WhenUse] 自分の[ChargeNoirAlly]回数が2増加 (1ターンにつき2回)",
+                    "name": "混帳顧客！商品不都起皺了麼！",
+                    "desc": "[DuelCounter]\n[StartBattle]\n- 若<color=#ffffff>自身</color>的[NoirSuitAlly]層数不低于60層，則<color=#7C5738>下回合</color>使該效果轉化為[RealisationAlly]\n- 若<color=#ffffff>自身</color>的[RealisationAlly]層数低于60層，則<color=#7C5738>下回合</color>使該效果轉化為[NoirSuitAlly]\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly](<color=#7C5738>每回合</color>最多2次)",
                     "coinlist": [
                         {},
                         {
@@ -3658,7 +3658,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]1を付与 (1ターンにつき2回)"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度(<color=#7C5738>每回合</color>最多2次)"
                                 }
                             ]
                         }
@@ -3666,8 +3666,8 @@
                 },
                 {
                     "level": 3,
-                    "name": "この顧客野郎！商品にシワが寄ってるじゃないか！",
-                    "desc": "[DuelCounter]\n[StartBattle]\n- 自分の[NoirSuitAlly]が60以上なら、\n該当効果が次のターンに[RealisationAlly]へ変更される\n- 自分の[RealisationAlly]が60未満なら、\n該当効果が次のターンに[NoirSuitAlly]へ変更される\n<style=\"highlight\">[BeforeUse] 自分の[RealisationAlly]が60以上なら、\n「ワンキック - クチュール・ミュルティプル」として発動する (1ターンにつき1回)\n- この効果が発動したなら、攻撃終了時に[RealisationAlly]を全て消耗</style>\n[WhenUse] 自分の[ChargeNoirAlly]回数が2増加 (1ターンにつき2回)",
+                    "name": "混帳顧客！商品不都起皺了麼！",
+                    "desc": "[DuelCounter]\n[StartBattle]\n- 若<color=#ffffff>自身</color>的[NoirSuitAlly]層数不低于60層，\n則<color=#7C5738>下回合</color>使該效果轉化為[RealisationAlly]\n- 若<color=#ffffff>自身</color>的[RealisationAlly]層数低于60層，\n則<color=#7C5738>下回合</color>使該效果轉化為[NoirSuitAlly]\n<style=\"highlight\">[BeforeUse] 若<color=#ffffff>自身</color>的[RealisationAlly]層数不低于60層，\n則改為使用“単踏-多様定制時装”(<color=#7C5738>每回合</color>最多1次)\n- 触発該效果后，攻撃后消耗所有[RealisationAlly]</style>\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly](<color=#7C5738>每回合</color>最多2次)",
                     "coinlist": [
                         {},
                         {
@@ -3676,7 +3676,7 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]1を付与 (1ターンにつき2回)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度(<color=#7C5738>每回合</color>最多2次)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3684,8 +3684,8 @@
                 },
                 {
                     "level": 4,
-                    "name": "この顧客野郎！商品にシワが寄ってるじゃないか！",
-                    "desc": "[DuelCounter]\n[StartBattle]\n- 自分の[NoirSuitAlly]が60以上なら、\n該当効果が次のターンに[RealisationAlly]へ変更される\n- 自分の[RealisationAlly]が60未満なら、\n該当効果が次のターンに[NoirSuitAlly]へ変更される\n[BeforeUse] 自分の[RealisationAlly]が60以上なら、\n「ワンキック - クチュール・ミュルティプル」として発動する (1ターンにつき1回)\n- この効果が発動したなら、攻撃終了時に[RealisationAlly]を全て消耗\n<style=\"highlight\">[WhenUse] 自分の[ChargeNoirAlly]威力が3/5以上なら、コイン威力 +1/+2</style>\n[WhenUse] 自分の[ChargeNoirAlly]回数が2増加 (1ターンにつき2回)",
+                    "name": "混帳顧客！商品不都起皺了麼！",
+                    "desc": "[DuelCounter]\n[StartBattle]\n- 若<color=#ffffff>自身</color>的[NoirSuitAlly]層数不低于60層，\n則<color=#7C5738>下回合</color>使該效果轉化為[RealisationAlly]\n- 若<color=#ffffff>自身</color>的[RealisationAlly]層数低于60層，\n則<color=#7C5738>下回合</color>使該效果轉化為[NoirSuitAlly]\n[BeforeUse] 若<color=#ffffff>自身</color>的[RealisationAlly]層数不低于60層，\n則改為使用“単踏-多様定制時装”(<color=#7C5738>每回合</color>最多1次)\n- 触発該效果后，攻撃后消耗所有[RealisationAlly]\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3/5級，則使本技能的<color=#ffffff>硬幣威力</color>+1/+2</style>\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly](<color=#7C5738>每回合</color>最多2次)",
                     "coinlist": [
                         {},
                         {
@@ -3694,7 +3694,7 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">2</style>を付与 (1ターンにつき2回)"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">2</style>級[Vibration]強度(<color=#7C5738>每回合</color>最多2次)"
                                 }
                             ]
                         }
@@ -3707,40 +3707,40 @@
             "levelList": [
                 {
                     "level": 3,
-                    "name": "ワンキック - クチュール・ミュルティプル",
-                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数を最大20まで消耗し、\nダメージ量 +(消耗した[ChargeNoirAlly]回数)% (最大20%)\n- 自分の[ChargeNoirAlly]回数が3増加\n[WhenUse] [RealisationAlly]を最大60消耗\n- 消耗した[RealisationAlly]が60以上なら、最終威力 +1\n- ダメージ量 +(消耗した[RealisationAlly]÷3)% (最大20%)",
+                    "name": "単踏-多様定制時装",
+                    "desc": "[WhenUse]\n- 消耗<color=#ffffff>自身</color>最多20層[ChargeNoirAlly]\n并使本技能造成的<color=#ffffff>傷害</color>+(消耗的[ChargeNoirAlly]層数)%(最多+20%)\n- 使<color=#ffffff>自身</color>獲得3層[ChargeNoirAlly]\n[WhenUse] 消耗最多60層[RealisationAlly]\n- 若消耗的[RealisationAlly]層数不低于60層，則使本技能的<color=#ffffff>最終威力</color>+1\n- 使本技能造成的<color=#ffffff>傷害</color>+(消耗的[RealisationAlly]層数/3)%(最多+20%)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeNoirAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]3を付与、[Vibration]回数が3増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度并対其施加3層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が2以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于2級，則使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の10%だけ貫通ダメージ"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量10%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                                 }
                             ]
                         }
@@ -3748,43 +3748,43 @@
                 },
                 {
                     "level": 4,
-                    "name": "ワンキック - クチュール・ミュルティプル",
-                    "desc": "[WhenUse]\n- 自分の[ChargeNoirAlly]回数を最大20まで消耗し、\nダメージ量 +(消耗した[ChargeNoirAlly]回数)% (最大20%)\n- 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加\n[WhenUse] [RealisationAlly]を最大60消耗\n- 消耗した[RealisationAlly]<style=\"highlight\">30につき</style>、最終威力 +1 <style=\"highlight\">(最大2)</style>\n- ダメージ量 +(消耗した[RealisationAlly]÷3)% (最大20%)",
+                    "name": "単踏-多様定制時装",
+                    "desc": "[WhenUse]\n- 消耗<color=#ffffff>自身</color>最多20層[ChargeNoirAlly]\n并使本技能造成的<color=#ffffff>傷害</color>+(消耗的[ChargeNoirAlly]層数)%(最多+20%)\n- 使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[ChargeNoirAlly]\n[WhenUse] 消耗最多60層[RealisationAlly]\n- <style=\"highlight\">每消耗30層</style>[RealisationAlly]，使本技能的<color=#ffffff>最終威力</color>+1<style=\"highlight\">(最多+2)</style>\n- 使本技能造成的<color=#ffffff>傷害</color>+(消耗的[RealisationAlly]層数/3)%(最多+20%)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[ChargeNoirAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]3を付与、[Vibration]回数が3増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度并対其施加3層[Vibration]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が3以上なら、\n[VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が2以上なら、\n[VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于2級，則使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] このコインの最終ダメージ量の10%だけ貫通ダメージ</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量10%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] このコインの最終ダメージ量の<style=\"highlight\">15%</style>だけ貫通ダメージ"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量<style=\"highlight\">15%</style>的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                                 }
                             ]
                         }
