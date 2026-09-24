@@ -31,16 +31,16 @@
             "panicDescription": "回合開始時，対自身施加1層[Reduction]与1層[AttackDmgDown]"
         },
         {
-            "id": 1109,
-            "panicName": "反復死亡",
-            "lowMoraleDescription": "使自身獲得3層[Protection]",
-            "panicDescription": "使自身獲得5層[Protection]"
-        },
-        {
             "id": 1121,
             "panicName": "分裂",
             "lowMoraleDescription": "防御等級-3，攻撃等級+3\n与帯有的[BloodyMucus]層数為5層的目標進行拼点時，使自身的拼点威力+2",
             "panicDescription": "防御等級-5，攻撃等級+3\n造成的傷害+10%\n与帯有的[BloodyMucus]層数不低于3層目標進行拼点時，使自身拼点威力+3"
+        },
+        {
+            "id": 1109,
+            "panicName": "反復死亡",
+            "lowMoraleDescription": "使自身獲得3層[Protection]",
+            "panicDescription": "使自身獲得5層[Protection]"
         }
     ]
 }

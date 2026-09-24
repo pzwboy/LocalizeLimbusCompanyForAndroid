@@ -3594,6 +3594,296 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 1091701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "ルトゥーシュ(Retouche)",
+                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 対象が味方なら、[Charge]回数3, [AttackUp]1を付与\n[EndSkill] 対象が味方なら、下記の効果を発動 (1ターンにつき1回)\n- 自分の最大体力の5%だけバリアを付与 (最小1)\n- [NoirScissorShield]1を付与\n- 対象が[PersonalityCharge]なら、[Enhancement]1を付与",
+                    "coinlist": [
+                        {
+                            "coindescs": []
+                        }
+                    ]
+                },
+                {
+                    "level": 2,
+                    "name": "ルトゥーシュ(Retouche)",
+                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 対象が味方なら、[Charge]回数<style=\"highlight\">4</style>, [AttackUp]1を付与\n[EndSkill] 対象が味方なら、下記の効果を発動 (1ターンにつき1回)\n- 自分の最大体力の5%だけバリアを付与 (最小1)\n- [NoirScissorShield]1を付与\n- 対象が[PersonalityCharge]なら、[Enhancement]1を付与<style=\"highlight\"></style>",
+                    "coinlist": [
+                        {
+                            "coindescs": []
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "ルトゥーシュ(Retouche)",
+                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 対象が味方なら、[Charge]回数4, [AttackUp]1を付与\n[EndSkill] 対象が味方なら、下記の効果を発動 <style=\"highlight\">(1ターンにつき2回)</style>\n- 自分の最大体力の<style=\"highlight\">10%</style>だけバリアを付与 (最小1)\n- [NoirScissorShield]1を付与\n- 対象が[PersonalityCharge]なら、[Enhancement]2を付与",
+                    "coinlist": [
+                        {
+                            "coindescs": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1091702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "固定、そしてパターンに沿って裁断",
+                    "desc": "[StartBattle] 自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）に[AttackUp]2, 自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)\n- [PersonalityCharge]なら、[AttackUp]1, 自分の最大体力の5%だけバリアを追加で付与\n\n[WhenUse] 対象の[Vibration]威力が6以上なら、コイン威力+1\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が6増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 2,
+                    "name": "固定、そしてパターンに沿って裁断",
+                    "desc": "[StartBattle] <style=\"highlight\">自分と、</style>自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）に[AttackUp]2, 自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)\n- [PersonalityCharge]なら、[AttackUp]1, 自分の最大体力の5%だけバリアを追加で付与\n\n[WhenUse] 対象の[Vibration]威力が6以上なら、コイン威力+1\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が6増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "固定、そしてパターンに沿って裁断",
+                    "desc": "[StartBattle] 自分と、自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）、<style=\"highlight\">現体力の比率が最も低い味方1名</style>に[AttackUp]2, 自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)\n- [PersonalityCharge]なら、[AttackUp]1, 自分の最大体力の5%だけバリアを追加で付与\n\n<style=\"highlight\">[WhenUse] 対象の[Vibration]威力6につき、コイン威力+1 (最大2)</style>\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が6増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [AmberResistDown]1を付与 (1ターンにつき1回)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1091703,
+            "levelList": [
+                {
+                    "level": 3,
+                    "name": "クーペ・ダン・ル・ビエ",
+                    "desc": "自分の[NoirScissorCut]1につき、ダメージ量+15% (最大30%)\n\n[StartBattle] 自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）、現体力の比率が最も低い味方1名に[NoirScissorShield]1を付与し、自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)\n\n[WhenUse] 対象の[Vibration]威力が6以上なら、コイン威力+1\n[WhenUse] 自分の[ChargeKhakiAlly]威力3につき、最終威力+1 (最大2)\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2\n\n[EndSkill] 自分の[ChargeKhakiAlly]回数が5増加",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が5以上なら、5を消耗して[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "クーペ・ダン・ル・ビエ",
+                    "desc": "自分の[NoirScissorCut]1につき、ダメージ量<style=\"highlight\">+30% (最大60%)</style>\n\n[StartBattle] 自分と、自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）、現体力の比率が最も低い味方1名に[NoirScissorShield]1を付与し、自分の最大体力の<style=\"highlight\">10%</style>だけバリアを付与 (最小1, 1ターンにつき1回)\n\n<style=\"highlight\">[WhenUse] 対象の[Vibration]威力6につき、コイン威力+1 (最大2)</style>\n[WhenUse] 自分の[ChargeKhakiAlly]威力3につき、最終威力+1 (最大2)\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2\n\n[EndSkill] 自分の[ChargeKhakiAlly]回数が5増加",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が5以上なら、5を消耗して[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1091704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "トリミング",
+                    "desc": "[DuelCounter]\n[StartBattle] 自分の[ChargeKhakiAlly]回数が5増加 (1ターンにつき2回)\n[StartBattle] 自分と、自分を除く現体力の比率が最も低い味方2名に、自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "トリミング",
+                    "desc": "[DuelCounter]\n[StartBattle] 自分の[ChargeKhakiAlly]回数が5増加 (1ターンにつき2回)\n[StartBattle] 自分と、自分を除く現体力の比率が最も低い味方2名に、自分の最大体力の<style=\"highlight\">10%</style>だけバリアを付与 (最小1, 1ターンにつき1回)\n\n<style=\"highlight\">[WhenUse] 自分の[ChargeKhakiAlly]回数5につき、マッチ威力+1 (最大4)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1091705,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "パターン起こし",
+                    "desc": "[CantDuel]\n[WhenUse] 自分の[ChargeKhakiAlly]回数が3増加",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]威力が3以上なら、このコインを再使用 (スキルごとに1回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1091706,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "切り抜く",
+                    "desc": "[CantDuel]\n[WhenUse] 自分の[ChargeKhakiAlly]威力3につき、最終威力+1 (最大2)\n[WhenUse] 自分の[ChargeKhakiAlly]回数が5増加\n\n[EndSkill] 対象の[NoirScissorAlly]2を消耗\n[EndSkill] [NoirScissorCut]1を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

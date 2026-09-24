@@ -1,0 +1,548 @@
+{
+  "dataList": [
+    {
+      "id": 40004101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "赤い釘",
+          "desc": "[WhenUse] 対象の[Laceration]4につき、基本威力+1 (最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "赤い釘",
+          "desc": "[WhenUse] 対象の[Laceration]4につき、基本威力+1 (最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分の[ChargeRouge]威力2につき、[BloodyMucusAlly]1を付与 (最大2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "精神力のない対象なら、ダメージ量+50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象の精神力が10減少"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "赤い釘",
+          "desc": "[WhenUse] 対象の[Laceration]4につき、基本威力+1 (最大2)\n[WhenUse] 対象より精神力が高い、または対象に精神力がなければ、コイン威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分の[ChargeRouge]威力2につき、[BloodyMucusAlly]1を付与 (最大2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "精神力のない対象なら、ダメージ量+50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象の精神力が10減少"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BuffetGold]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "あっち行って",
+          "desc": "[WhenUse] 対象の[Laceration]4につき、コイン威力+1 (最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "あっち行って",
+          "desc": "[WhenUse] 対象の[Laceration]4につき、コイン威力+1 (最大2)\n[WhenUse] 自分の[ChargeRouge]威力2につき、攻撃加重値+1 (最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分の[ChargeRouge]威力2につき、[BloodyMucusAlly]1を付与 (最大2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分の[ChargeRouge]威力2につき、[BloodyMucusAlly]1を付与 (最大2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "あっち行って",
+          "desc": "[WhenUse] 対象の[Laceration]4につき、コイン威力+1 (最大2)\n[WhenUse] 自分の[ChargeRouge]威力2につき、攻撃加重値+1 (最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分の[ChargeRouge]威力2につき、[BloodyMucusAlly]1を付与 (最大2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BuffetGold]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分の[ChargeRouge]威力2につき、[BloodyMucusAlly]1を付与 (最大2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BuffetGold]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "頑張って",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] [ParryingResultUp]1を付与"
+                },
+                {
+                  "desc": "[EndCoin] 自分の[ChargeRouge]威力1につき、[AttackUp]1を付与 (最大5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "頑張って",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 自分の[ChargeRouge]威力2につき、攻撃加重値+1 (最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] [ParryingResultUp]1を付与"
+                },
+                {
+                  "desc": "[EndCoin] 自分の[ChargeRouge]威力1につき、[AttackUp]1を付与 (最大5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "頑張って",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 自分の[ChargeRouge]威力2につき、攻撃加重値+1 (最大2)\n[EndSkill] 自分に[GourmandiseAlly]効果があり、自分の[ChargeRouge]回数が10以上なら、[ChargeRouge]回数を最大10消耗し、的中した全ての対象に[SkillPowerUp]1を付与",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] [ParryingResultUp]1を付与"
+                },
+                {
+                  "desc": "[EndCoin] 自分の[ChargeRouge]威力1につき、[AttackUp]1を付与 (最大5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "頑張って",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 自分の[ChargeRouge]威力2につき、攻撃加重値+1 (最大2)\n[EndSkill] 自分に[GourmandiseAlly]効果があり、自分の[ChargeRouge]回数が10以上なら、[ChargeRouge]回数を最大10消耗し、的中した全ての対象に[SkillPowerUp]1を付与",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] [SkillPowerUp]1を付与"
+                },
+                {
+                  "desc": "[EndCoin] 自分の[ChargeRouge]威力1につき、今回のターンと次のターンに[AttackUp]1を付与 (最大5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "痛い思いをしないで",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] (このスキルの最終威力×2)だけ対象の体力を回復\n- ル・ルージュ所属なら、代わりに体力を減少させ、その数値だけ自分の体力を回復 (この効果で混乱したり、体力が1未満に減少しない)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "痛い思いをしないで",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 自分の[ChargeRouge]威力が3以上なら、攻撃加重値+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] (このスキルの最終威力×2)だけ対象の体力を回復\n- ル・ルージュ所属なら、代わりに体力を減少させ、その数値だけ自分の体力を回復 (この効果で混乱したり、体力が1未満に減少しない)"
+                },
+                {
+                  "desc": "[EndCoin] このスキルの最終威力だけ対象の精神力を回復\n- 精神力が最大値なら、解除可能なマイナス効果の中からランダムな1つを除去"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "痛い思いをしないで",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 自分の[ChargeRouge]威力が3以上なら、攻撃加重値+4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] (このスキルの最終威力×2)だけ対象の体力を回復\n- 対象の最大体力の(自分の[ChargeRouge]威力×2)%だけ追加で体力を回復\n- ル・ルージュ所属なら、代わりに体力を減少させ、その数値だけ自分の体力を回復 (この効果で混乱したり、体力が1未満に減少しない)"
+                },
+                {
+                  "desc": "[EndCoin] このスキルの最終威力だけ対象の精神力を回復\n- (自分の[ChargeRouge]威力×3)だけ追加で精神力を回復\n- 精神力が最大値なら、解除可能なマイナス効果の中からランダムな1つを除去"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "わたしの手を握って",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 次のターンに[Binding]5を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 対象の混乱状態を解除"
+                },
+                {
+                  "desc": "[EndCoin] このスキルの最終威力だけ対象の体力を回復"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "わたしの手を握って",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 対象の混乱状態を解除"
+                },
+                {
+                  "desc": "[EndCoin] このスキルの最終威力だけ対象の体力を回復"
+                },
+                {
+                  "desc": "[EndCoin] 次のターンに対象の最大体力の50%だけバリアを付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "赤い釘の洗礼",
+          "desc": "[WhenUse] 自分の[ChargeRouge]回数が10以上なら、[ChargeRouge]回数を最大10消耗し、攻撃加重値+2, コイン威力+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "赤い釘の洗礼",
+          "desc": "[WhenUse] 自分の[ChargeRouge]回数が10以上なら、[ChargeRouge]回数を最大10消耗し、攻撃加重値+2, コイン威力+2\n[WhenUse] 対象の[Laceration]4につき、基本威力+1 (最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "赤い釘の洗礼",
+          "desc": "[WhenUse] 自分の[ChargeRouge]回数が10以上なら、[ChargeRouge]回数を最大10消耗し、攻撃加重値+2, コイン威力+2\n[WhenUse] 対象の[Laceration]4につき、基本威力+1 (最大2)\n[WhenUse] 自分の[ChargeRouge]威力が5以上なら、下記の効果を適用\n- 攻撃加重値+2\n- コイン威力+(自分の[ChargeRouge]威力-3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BuffetGold]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BuffetGold]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodyMucusAlly]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [BuffetGold]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "わたしが終わらせてあげる…",
+          "desc": "[CantDuel]\n対象の失った体力1%につき、ダメージ量+0.5% (最大30%)\n[WhenUse] 自分に[GourmandiseAlly]効果があれば、攻撃加重値+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Binding]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自分に[GourmandiseAlly]効果があれば、このコインを再使用 (最大1回)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ラ・ノゼ（la nausée）",
+          "desc": "[StartBattle] 自分の[ChargeRouge]回数を全て消耗し、自分を含む全ての味方の体力を最大体力の([ChargeRouge]回数消耗値)%だけ回復",
+          "flavor": "神へと成長する過程で、必然的に経験する感覚。ある者にはめまいとして、ある者には吐き気として、ある者には発作として、ある者には欺瞞として、そしてある者には拒絶として。世界のすべてが目まぐるしく、恐ろしく、混沌としている。これに耐えるため、まだ境界の曖昧になっていない自らのものを守り抜くため、これは何であれ吐き出して守ろうとする。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ル・トゥルー・ルージュ（le Trou rouge）",
+          "desc": "[StartBattle] [ChargeRouge]回数4を得る",
+          "flavor": "これは赤い穴だ。閉じてはいるが、穴のように終わりなき飢えを抱え、その穴が満たされることを望む。そう期待されたとおりに、そう生まれてしまったとおりに。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

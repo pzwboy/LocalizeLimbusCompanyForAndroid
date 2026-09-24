@@ -1,94 +1,205 @@
 {
     "dataList": [
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1000",
+            "title": "開場",
+            "description": "載入后立即播放開場演出（S1001B）的隠藏任務",
+            "steps": [
+                {
+                    "index": 0
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1011",
+            "title": "探索周圍",
+            "description": "来到了一个名叫“西西弗百貨”的地方。默尓索会在那捏？暫且先四処看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "探索周圍"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1012",
+            "title": "返回衛生間",
+            "description": "在西西弗百貨遇到了克羅默的親姐姐。先回到衛生間重新整頓一下叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "返回衛生間"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1013",
+            "title": "尋找默尓索",
+            "description": "默尓索似乎就在百貨店的某処。地板上鋪着地毯，前方陳列着衣服。在百貨店里四処看看，尋找展示衣服的地方叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "探索百貨店"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1014",
+            "title": "？？？",
+            "description": "似乎有什么藏在這里。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "？？？"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1021",
+            "title": "尋找默尓索 2",
+            "description": "默尓索似乎就在附近。去找找默尓索叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "尋找默尓索"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1022",
+            "title": "默尓索的提議",
+            "description": "决定是否接受默尓索的提議\n→ 接受后開始狩猟任務;若暫緩，稍后可以再次与快銷服飾館店員交談后接受。",
+            "steps": [
+                {
+                    "index": 0
+                },
+                {
+                    "index": 1
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1023",
+            "title": "人台退場",
+            "description": "要帯回默尓索，需要先帮助三个被称為“人台”的東西退場。消滅這些人台之后，再回去找看起来像是店主的含羞草叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "譲人台退場"
+                },
+                {
+                    "index": 1,
+                    "goalDescription1": "回去找含羞草"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1031",
+            "title": "探索西西弗百貨",
+            "description": "从默尓索那里听到了関于西西弗百貨的説明。雖然没有完全理解，但這里似乎没有一个正常的出口。總之先継續在這里四処看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "探索百貨店"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1032",
+            "title": "探索西西弗百貨 2",
+            "description": "遇到了一个名叫杜布瓦的人。這个人看起来也像是剛進入西西弗百貨没多久。為了尋找前往楼上的方法，継續在百貨店里四処看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "探索百貨店"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1041",
+            "title": "看看陳列的衣服",
+            "description": "来到了一个叫作“当代服飾館”的地方。店員似乎没有興趣和我們交談。先看看店里陳列的衣服叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "看看衣服"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1042",
+            "title": "阻止試圖攻撃的黑派店員",
+            "description": "",
+            "steps": [
+                {
+                    "index": 0
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1051",
+            "title": "前往紅派的店鋪",
+            "description": "从黑派店員那里听説了関于黄金松脂的事情。接着去楼上的紅派当代服飾館看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往紅派当代服飾館"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1052",
+            "title": "尋找大針",
+            "description": "紅派当代服飾館的店員奎利安拜托我們去找一根大針。先去尋找持有這根針的人台，拿到針之后再回去找奎利安叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "从人台上得到大針并回去找奎利安"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1061",
+            "title": "購買衣服",
+            "description": "据説要想到楼上去，首先需要積累購買記録。先从店鋪的店員那里買些衣服，然后継續尋找前往楼上的方法叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "向奎利安購買衣服"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1062",
+            "title": "前往扶梯",
+            "description": "找到了可以前往下一層的扶梯。看到了剛才遇見的杜布瓦。去和他聊聊叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "与杜布瓦交談"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1064",
+            "title": "乘坐扶梯",
+            "description": "扶梯正在運作。現在應該可以前往2F了。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "乘扶梯到2F"
+                }
+            ]
         },
         {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": ""
+            "key": "Q1018",
+            "title": "？？？",
+            "description": "（隠藏）獲得尖釘時的対話",
+            "steps": [
+                {
+                    "index": 0
+                }
+            ]
         },
         {
             "key": "Q1001",

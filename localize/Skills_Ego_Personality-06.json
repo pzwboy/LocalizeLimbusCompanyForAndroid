@@ -1150,6 +1150,166 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 2061011,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "拒絶宣布",
+                    "abName": "メトロポラリスの住民",
+                    "desc": "[BeforeAttack] 自分の[Charge]回数が1増加\n[BeforeAttack] 自分の[Charge]回数を最大6消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]5を付与(最大5名、小数点切り捨て)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                }
+                            ]
+                        },
+                        {}
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "拒絶宣布",
+                    "abName": "メトロポラリスの住民",
+                    "desc": "<style=\"highlight\">[WhenUse] 自分の[Charge]威力だけ<noparse>マッチ威力が増加</noparse>(最大2)</style>\n[BeforeAttack] 自分の[Charge]回数が<style=\"highlight\">3</style>増加\n[BeforeAttack] 自分の[Charge]回数を最大<style=\"highlight\">8</style>消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]5を付与 (最大<style=\"highlight\">6</style>名、小数点切り捨て)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] [PhotoElectricity]1を付与</style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "拒絶宣布",
+                    "abName": "メトロポラリスの住民",
+                    "desc": "[WhenUse] 自分の[Charge]威力だけ<noparse>マッチ威力が増加</noparse>(最大<style=\"highlight\">3</style>)\n[BeforeAttack] 自分の[Charge]回数が<style=\"highlight\">5</style>増加\n[BeforeAttack] 自分の[Charge]回数を最大<style=\"highlight\">10</style>消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]5を付与 (最大<style=\"highlight\">7</style>名、小数点切り捨て)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [PhotoElectricity]<style=\"highlight\">2</style>を付与"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2061021,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "拒絶宣布",
+                    "abName": "メトロポラリスの住民",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nバリアを保有する対象への与ダメージ量 +15%\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -6(最大-12)\n[BeforeAttack] 自分の[Charge]回数が3増加\n[BeforeAttack] 自分の[Charge]回数を最大6消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]7を付与(最大5名、小数点切り捨て)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] 自分の[Charge]回数を最大10消耗し、消耗した数値だけこのコインの<noparse>最終威力が増加</noparse>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "拒絶宣布",
+                    "abName": "メトロポラリスの住民",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nバリアを保有する対象への与ダメージ量 +<style=\"highlight\">20</style>%\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -6(最大-12)\n<style=\"highlight\">[BeforeAttack] 自分の[Charge]威力だけ<noparse>最終威力が増加</noparse>(最大2)</style>\n[BeforeAttack] 自分の[Charge]回数が<style=\"highlight\">4</style>増加\n[BeforeAttack] 自分の[Charge]回数を最大<style=\"highlight\">8</style>消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]7を付与(最大<style=\"highlight\">6</style>名、小数点切り捨て)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] 自分の[Charge]回数を最大10消耗し、消耗した数値だけこのコインの<noparse>最終威力が増加</noparse>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] [PhotoElectricity]1を付与</style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "拒絶宣布",
+                    "abName": "メトロポラリスの住民",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nバリアを保有する対象への与ダメージ量 +<style=\"highlight\">25</style>%\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -6(最大-12)\n[BeforeAttack] 自分の[Charge]威力だけ<noparse>最終威力が増加</noparse>(最大<style=\"highlight\">3</style>)\n[BeforeAttack] 自分の[Charge]回数が<style=\"highlight\">5</style>増加\n[BeforeAttack] 自分の[Charge]回数を最大<style=\"highlight\">10</style>消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数/2)名へ[ChargeForceField]7を付与(最大<style=\"highlight\">7</style>名、小数点切り捨て)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] 自分の[Charge]回数を最大10消耗し、消耗した数値だけこのコインの<noparse>最終威力が増加</noparse>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [PhotoElectricity]<style=\"highlight\">2</style>を付与"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -1,137 +1,115 @@
 {
     "dataList": [
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4001",
+            "title": "前往4F",
+            "description": "拿着黑派們給的鑑定报告登上4F叭。持有這个的話似乎会受到黑派極高規格的款待，因此也許広百貨店時能輕松不少。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "乘扶梯到4F"
                 }
             ]
         },
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4002",
+            "title": "探索4F",
+            "description": "抵達了4F。這里会有什么様的店鋪捏？先向右走，広一広4F叭。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "探索4F"
                 }
             ]
         },
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4003",
+            "title": "探索4F 2",
+            "description": "从黑派制鞋館的店員単脚人那里得知，有一種能撕裂任何面料的武器。先离開黑派制鞋館，探索4F剩下的部分叭。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
+                    "goalDescription1": "結束与単脚人的対話"
                 },
                 {
                     "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "探索4F",
+                    "goalDescription2": "与駝背落地灯交談"
                 }
             ]
         },
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4004",
+            "title": "去見家具館的主人",
+            "description": "来到了名為家具館的場所。駝背落地灯拜托我們給他帯去适合他的衣服。去見見家具館的主人叭。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "与家具館的主人交談"
                 }
             ]
         },
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4005",
+            "title": "給駝背落地灯帯来新衣服",
+            "description": "家具館的主人快樂衣厨默默地向我們展示了它内部挂着的各種物品。取下一身合适的衣服，帯給駝背落地灯叭。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "給駝背落地灯帯来新衣服"
                 }
             ]
         },
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4006",
+            "title": "从快樂衣厨中取出更多衣服",
+            "description": "看到了我們為駝背落地灯帯来的衣服，其他家具開始感到不満。回到快樂衣厨処，取出為其他家具准備的衣服。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "从快樂衣厨中取出更多衣服"
                 }
             ]
         },
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4007",
+            "title": "将衣服帯給家具們",
+            "description": "从快樂衣厨中取出了几件衣服。現在把衣服分発給家具們叭。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "将衣服交給骨衣架",
+                    "goalDescription2": "把衣服交給舒服的皮床",
+                    "goalDescription3": "把衣服交給剥制皮窗帘",
+                    "goalDescription4": "把衣服交給紅色軟登",
+                    "goalDescription5": "把衣服交給人皮沙発",
+                    "goalDescription6": "把衣服交給双子台灯"
                 }
             ]
         },
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4008",
+            "title": "回到快樂衣厨処",
+            "description": "把衣服全部交給了其他家具們。再次回到快樂衣厨処叭。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
+                    "goalDescription1": "回到快樂衣厨処"
                 },
                 {
                     "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "目睹家具們的襲撃"
                 }
             ]
         },
         {
-            "key": "Q4009",
-            "title": "前往地下",
-            "description": "根据我們得到的配方，黄金綫団可以从黄金之繭処得到。黄金之繭据説能在B1F見到。在B1F得到黄金之繭后，前往B2F叭。",
+            "key": "Q4013",
+            "title": "与駝背落地灯交談",
+            "description": "連心臓都被剥去的快樂衣厨已經不再動彈。离開家具館前，再与駝背落地灯交談一次叭。",
             "steps": [
                 {
                     "index": 0,
-                    "goalDescription1": "乘坐扶梯前往B1F"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "探索B1F"
+                    "goalDescription1": "与駝背落地灯交談"
                 }
             ]
         },

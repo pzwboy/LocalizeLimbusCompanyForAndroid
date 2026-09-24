@@ -911,6 +911,268 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 2091011,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "鏡触覚",
+                    "abName": "道を失った心",
+                    "desc": "自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大2)\n[BeforeAttack] (2 + 最大共鳴数)だけ[Breath]を得る(最大8)\n[BeforeAttack] 自分の[Breath]回数が2増加\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [AttackDown]2を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "鏡触覚",
+                    "abName": "道を失った心",
+                    "desc": "自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大<style=\"highlight\">3</style>)\n[BeforeAttack] (<style=\"highlight\">3</style> + 最大共鳴数)だけ[Breath]を得る(最大8)\n[BeforeAttack] 自分の[Breath]回数が<style=\"highlight\">3</style>増加\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">3</style>を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が<style=\"highlight\">2</style>増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [AttackDown]2を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "鏡触覚",
+                    "abName": "道を失った心",
+                    "desc": "自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大<style=\"highlight\">4</style>)\n[BeforeAttack] (<style=\"highlight\">4</style> + 最大共鳴数)だけ[Breath]を得る(最大8)\n[BeforeAttack] 自分の[Breath]回数が<style=\"highlight\">4</style>増加\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">4</style>を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が<style=\"highlight\">3</style>増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [AttackDown]2を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2091021,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "鏡触覚",
+                    "abName": "道を失った心",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大2)\n[BeforeAttack] (2 + 最大共鳴数)だけ[Breath]を得る(最大10)\n[BeforeAttack] 自分の[Breath]回数が2増加\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -4(最大-12)\n[BeforeAttack] 自分の[Breath]回数が10以上なら、自分の[Breath]回数を4消耗し、メインターゲットへのクリティカル与ダメージ量 +20%\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [AttackDown]3を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "鏡触覚",
+                    "abName": "道を失った心",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大<style=\"highlight\">3</style>)\n[BeforeAttack] (<style=\"highlight\">3</style> + 最大共鳴数)だけ[Breath]を得る(最大10)\n[BeforeAttack] 自分の[Breath]回数が<style=\"highlight\">3</style>増加\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -4(最大-12)\n[BeforeAttack] 自分の[Breath]回数が10以上なら、自分の[Breath]回数を4消耗し、メインターゲットへのクリティカル与ダメージ量 +<style=\"highlight\">30</style>%\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">4</style>を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] [Vibration]回数が1増加</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [AttackDown]3を付与<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "鏡触覚",
+                    "abName": "道を失った心",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大<style=\"highlight\">4</style>)\n[BeforeAttack] (<style=\"highlight\">4</style> + 最大共鳴数)だけ[Breath]を得る(最大10)\n[BeforeAttack] 自分の[Breath]回数が<style=\"highlight\">4</style>増加\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -4(最大-12)\n[BeforeAttack] 自分の[Breath]回数が10以上なら、自分の[Breath]回数を4消耗し、メインターゲットへのクリティカル与ダメージ量 +<style=\"highlight\">40</style>%\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">5</style>を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が<style=\"highlight\">2</style>増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [AttackDown]3を付与<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
