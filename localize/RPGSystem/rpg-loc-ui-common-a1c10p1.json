@@ -14,11 +14,11 @@
         },
         {
             "key": "FloorMoveUnboughtConfirmDesc",
-            "text": "この階には、まだ購入していない\nアイテムが残っています。\n別の階に移動しますか？"
+            "text": "本層還有未購買的道具。\n要移動到其他楼層麼？"
         },
         {
             "key": "FloorMoveUnboughtDontShowAgain",
-            "text": "このポップアップを再表示しない"
+            "text": "不再顕示此彈窗"
         },
         {
             "key": "DialogueSkipConfirmDesc",
@@ -66,7 +66,7 @@
         },
         {
             "key": "Item_QuestMark",
-            "text": "重要物品"
+            "text": "重要道具"
         },
         {
             "key": "Item_Suffix_Disabled",
@@ -130,7 +130,7 @@
         },
         {
             "key": "Shop_SelectedItem_None",
-            "text": "請選擇要購買的物品。"
+            "text": "請選擇要購買的道具。"
         },
         {
             "key": "Shop_Item_Stock",
@@ -150,11 +150,11 @@
         },
         {
             "key": "Log_ItemAcquired",
-            "text": "獲得物品：{0} x{1}"
+            "text": "獲得道具：{0} x{1}"
         },
         {
             "key": "Log_ItemAcquiredKeyItem",
-            "text": "獲得物品：<color=#{2}>{0} x{1}</color>"
+            "text": "獲得道具：<color=#{2}>{0} x{1}</color>"
         },
         {
             "key": "Log_CurrencyEarned",
@@ -218,7 +218,7 @@
         },
         {
             "key": "Log_NpcDefeated",
-            "text": "{0}被撃敗（{1}点傷害）"
+            "text": "{0}被撃敗"
         },
         {
             "key": "Log_PlayerDead",
@@ -258,7 +258,7 @@
         },
         {
             "key": "ProgressPopup_Suicide",
-            "text": "用護手\n自殺"
+            "text": "返回\n泉"
         },
         {
             "key": "ProgressPopup_EnemyAttackIndication",
@@ -342,11 +342,11 @@
         },
         {
             "key": "LogPopup_Tab_Story",
-            "text": "ストーリーログ"
+            "text": "劇情記録"
         },
         {
             "key": "LogPopup_Tab_System",
-            "text": "システムログ"
+            "text": "系統記録"
         },
         {
             "key": "Setting_Tab_Sisyphus",
@@ -366,39 +366,39 @@
         },
         {
             "key": "Setting_Sisyphus_LightMode",
-            "text": "ライトモード"
+            "text": "光照模式"
         },
         {
             "key": "Setting_Sisyphus_Brightness",
-            "text": "明るさ調整"
+            "text": "亮度調整"
         },
         {
             "key": "Setting_Sisyphus_BrightnessCeiling",
-            "text": "明るさの上限"
+            "text": "亮度上限"
         },
         {
             "key": "Setting_Sisyphus_MoveAssist",
-            "text": "移動方向の補正"
+            "text": "移動方向修正"
         },
         {
             "key": "Setting_Sisyphus_RunStartDelay",
-            "text": "ダッシュ制限時間"
+            "text": "奔砲緩冲時間"
         },
         {
             "key": "Setting_Sisyphus_VirtualPadWalkStart",
-            "text": "歩行開始半径"
+            "text": "行走触発半径"
         },
         {
             "key": "Setting_Sisyphus_VirtualPadRunKeep",
-            "text": "ダッシュ維持半径"
+            "text": "奔砲維持半径"
         },
         {
             "key": "Setting_Sisyphus_VirtualPadRunStart",
-            "text": "ダッシュ開始半径"
+            "text": "奔砲触発半径"
         },
         {
             "key": "Setting_Sisyphus_TurnAssist",
-            "text": "移動中の方向転換補助"
+            "text": "移動轉向輔助"
         },
         {
             "key": "Setting_Sisyphus_RunStartDelayValue",
@@ -418,7 +418,7 @@
         },
         {
             "key": "Setting_Sisyphus_GauntletSuicide",
-            "text": "用護手自殺"
+            "text": "返回泉"
         },
         {
             "key": "Setting_Sisyphus_Attack",
@@ -547,22 +547,6 @@
         {
             "key": "Rpg_Move_Floor_Ui_Current_Floor",
             "text": "当前楼層"
-        },
-        {
-            "key": "Log_PlayerHit",
-            "text": "受到的攻撃：{0}"
-        },
-        {
-            "key": "Log_NpcDefeatedWeakness",
-            "text": "{0}被撃敗（{1}点弱点攻撃傷害）"
-        },
-        {
-            "key": "Log_DamageDealt",
-            "text": "対{0}造成了{1}点傷害"
-        },
-        {
-            "key": "Log_DamageDealtWeakness",
-            "text": "対{0}造成了{1}点弱点攻撃傷害"
         }
     ]
 }

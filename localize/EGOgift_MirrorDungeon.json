@@ -2646,7 +2646,7 @@
         {
             "id": 9098,
             "name": "福袋",
-            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果。(不包括E.G.O技能，不包括待命人員)\n\n随机1名<color=#ffffff>戦斗開始</color>時帯有[Breath]的<color=#ffffff>友方単位</color>通過技能対<color=#ffffff>敵方単位</color>造成<color=#ffffff>暴撃</color>時，<color=#7C5738>下回合</color>開始時使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>増加7級[Breath]強度并獲得7層[Breath]。(<color=#7C5738>每回合</color>最多1次)\n\n使擁有増加[Breath]強度或獲得[Breath]層数的技能(不包括E.G.O技能)的人格3技能的<color=#ffffff>最終威力</color>+3，加算<color=#ffffff>硬幣威力</color>+(12/硬幣数)，造成的<color=#ffffff>傷害</color>+(50/硬幣数)%。\n- 減算硬幣技能改為<color=#ffffff>最終威力</color>+(12/硬幣数)，而非加算<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n<color=#ffffff>戦斗開始</color>時，随机使1名<color=#ffffff>友方単位</color>増加3級[Breath]強度(優先選取擁有増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格)。優先選取擁有<color=#1BC7F0>憂郁</color>攻撃技能的<color=#ffffff>友方単位</color>，且該情况下改為使其増加3級[Breath]強度并獲得2層[Breath]。",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有使単位増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果。(不包括E.G.O技能，不包括待命人員)\n\n随机1名<color=#ffffff>戦斗開始</color>時帯有[Breath]的<color=#ffffff>友方単位</color>通過技能対<color=#ffffff>敵方単位</color>造成<color=#ffffff>暴撃</color>時，<color=#7C5738>下回合</color>開始時使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>増加7級[Breath]強度并獲得7層[Breath]。(<color=#7C5738>每回合</color>最多1次)\n\n使擁有増加[Breath]強度或獲得[Breath]層数的技能(不包括E.G.O技能)的人格3技能的<color=#ffffff>最終威力</color>+3，加算<color=#ffffff>硬幣威力</color>+(12/硬幣数)，造成的<color=#ffffff>傷害</color>+(50/硬幣数)%。\n- 減算硬幣技能改為<color=#ffffff>最終威力</color>+(12/硬幣数)，而非加算<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n<color=#ffffff>戦斗開始</color>時，随机使1名<color=#ffffff>友方単位</color>増加3級[Breath]強度(優先選取擁有増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格)。優先選取擁有<color=#1BC7F0>憂郁</color>攻撃技能的<color=#ffffff>友方単位</color>，且該情况下改為使其増加3級[Breath]強度并獲得2層[Breath]。",
             "simpleDesc": [
                 {
                     "abilityID": 9098,
@@ -4444,7 +4444,7 @@
         },
         {
             "id": 9174,
-            "name": "碎裂的骨片",
+            "name": "纏結的骨片",
             "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Sinking]強度，施加[Sinking]層数或施加<color=#E40302>特殊沈淪</color>的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果。(不包括E.G.O技能，不包括待命人員)\n\n<color=#7C5738>回合開始</color>時，対帯有[Sinking]的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>(若是異想体，則改為所有<color=#ffffff>部位</color>)重新施加(上回合受撃而消耗的[Sinking]層数/3)層[Sinking]。\n\n基礎技能命中時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于0点(未帯有<color=#81BBE8>理智値</color>的<color=#ffffff>目標</color>改為若其<color=#1BC7F0>憂郁</color>抗性不低于1.5)，則対其造成(其[Sinking]強度/10)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(最少1点<color=#ffffff>傷害</color>，該效果<color=#7C5738>每回合</color>最多触発10次)。",
             "simpleDesc": [
                 {
@@ -4471,7 +4471,7 @@
         {
             "id": 9179,
             "name": "追憶",
-            "desc": "<color=#7C5738>回合開始</color>時，若擁有増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果。(不包括E.G.O技能，不包括待命人員)\n\n使擁有増加[Breath]強度或獲得[Breath]層数的技能(不包括E.G.O技能)的人格3技能的加算<color=#ffffff>硬幣威力</color>+1。\n- 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(4/硬幣数)，而非加算<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n<color=#ffffff>戦斗開始</color>時，随机使1名<color=#ffffff>友方単位</color>増加3級[Breath]強度(優先選取擁有増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格)。優先選取擁有<color=#1BC7F0>憂郁</color>攻撃技能的<color=#ffffff>友方単位</color>，且該情况下改為使其増加3級[Breath]強度并獲得2層[Breath]。",
+            "desc": "<color=#7C5738>回合開始</color>時，若擁有使単位増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格不低于5名，則在本場戦斗期間触発該效果。(不包括E.G.O技能，不包括待命人員)\n\n使擁有増加[Breath]強度或獲得[Breath]層数的技能(不包括E.G.O技能)的人格3技能的加算<color=#ffffff>硬幣威力</color>+1。\n- 減算硬幣技能改為<color=#ffffff>基礎威力</color>+(4/硬幣数)，而非加算<color=#ffffff>硬幣威力</color>(最少+1，向下取整)\n\n<color=#ffffff>戦斗開始</color>時，随机使1名<color=#ffffff>友方単位</color>増加3級[Breath]強度(優先選取擁有増加[Breath]強度或獲得[Breath]層数的攻撃技能的人格)。優先選取擁有<color=#1BC7F0>憂郁</color>攻撃技能的<color=#ffffff>友方単位</color>，且該情况下改為使其増加3級[Breath]強度并獲得2層[Breath]。",
             "simpleDesc": [
                 {
                     "abilityID": 9179,

@@ -3524,78 +3524,78 @@
         },
         {
             "id": "EmpathicDistressAlly",
-            "name": "感覚亀裂",
-            "desc": "- 最大値：5\n- 自分以外の味方が被撃時、自分の振動回数が1増加し、この効果の数値が1減少 (スキルごとに1回)\n- 自分以外の味方がいない場合、被撃時に自分が振動威力を2得て、この効果の数値が1減少(スキルごとに1回)\n- クリティカル攻撃で被撃時、被ダメージ量+(自分の振動威力)% (最大15%)",
+            "name": "感覚裂隙",
+            "desc": "- 最大値：5\n- 除<color=#ffffff>自身</color>以外的<color=#ffffff>友方単位</color>受到攻撃時，対<color=#ffffff>自身</color>施加1層震顫 ，并使本效果層数減少1層(每个技能最多1次)\n- 若没有除<color=#ffffff>自身</color>以外的<color=#ffffff>友方単位</color>在場，則受到攻撃時使<color=#ffffff>自身</color>増加2級震顫 強度，并使本效果層数減少1層(每个技能最多1次)\n- 受到<color=#ffffff>暴撃</color>攻撃時，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的震顫 強度)%(最多+15%)",
             "summary": "",
             "undefined": "-",
-            "flavor": "心の姿と肉体の姿の違いを知るとき、亀裂が生じる。"
+            "flavor": "当了解到心的面貌与肉体面貌的不同時，裂隙就産生了。"
         },
         {
             "id": "PersonalityVibration",
-            "name": "振動人格",
-            "desc": "振動威力、振動回数または特殊振動を付与する基本攻撃スキルを持つ人格",
+            "name": "震顫人格",
+            "desc": "擁有増加震顫 強度，施加震顫 層数或施加<color=#E40302>特殊震顫</color>的基礎攻撃技能的人格",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "PersonalityBreath",
-            "name": "呼吸人格",
-            "desc": "呼吸威力、呼吸回数を付与するか得る基本攻撃スキルを持つ人格",
+            "name": "呼吸法人格",
+            "desc": "擁有使単位増加呼吸法 強度或獲得呼吸法 層数的基礎攻撃技能的人格",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "PersonalityCharge",
-            "name": "充電人格",
-            "desc": "充電または特殊充電を付与するか得るか、消耗する基本攻撃スキルを持つ人格",
+            "name": "充能人格",
+            "desc": "擁有使単位獲得或消耗充能 或<color=#FCC700>特殊充能</color>的基礎攻撃技能的人格",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "ChargeKhakiAlly",
             "name": "漂流慣性",
-            "desc": "- 回数の最大値：20\n- 特殊充電\n- 充電威力および回数を増減させる効果を同様に受ける\n- ターン終了時、回数が1減少",
+            "desc": "- <color=#FCC700>特殊充能</color>\n- 最大層数：20\n- 本效果強度与層数的増減同様受普通充能 影響\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
             "summary": "",
             "undefined": "-",
-            "flavor": "漂流する者たちは流れを変えることはできなくとも、流れを強固にし、流れの中で自らの仕事をする。"
+            "flavor": "漂流者即便不能左右潮流，也会鞏固潮流，并在潮流中完成自己的工作。"
         },
         {
             "id": "NoirScissorAlly",
-            "name": "裁断の印",
-            "desc": "- 最大値：4\n- この効果を持つ対象が死亡時、この効果の付与者が精神力を5回復し、次のターンに攻撃レベル増加を1得る(1ターンにつき3回)",
+            "name": "裁切標記",
+            "desc": "- 最大値：4\n- 若帯有本效果的<color=#ffffff>目標</color>陣亡，則使施加本效果的単位恢復5点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>獲得1層攻撃等級提升 (<color=#7C5738>每回合</color>最多3次)",
             "summary": "",
             "undefined": "-",
-            "flavor": "布地や木材などを寸法に合わせて切り取るための印。"
+            "flavor": "将布料或木材等按尺寸裁切所用的標記。"
         },
         {
             "id": "NoirScissorCut",
-            "name": "花ばさみ",
-            "desc": "- 最大値：2\n- 数値1につき、与ダメージ量+7%",
+            "name": "飾花剪刀",
+            "desc": "- 最大値：2\n- 每帯有1層本效果，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+7%",
             "summary": "",
             "undefined": "-",
-            "flavor": "地下で作られた原初の材料を断ち切るためのはさみは、より特別で巨大だ。初めて織られた布を切り続けてきたこのはさみに花が咲くのは、根源を切ってきたためであり、自然な現象だ。"
+            "flavor": "為了将其用于剪断于地下制成的最初的材料，剪刀被做得更加特別而巨大。這把一直剪裁着最初織成的布料的剪刀綻放花朶，是因其切断了根源而産生的自然現象。"
         },
         {
             "id": "SupportAlly",
-            "name": "双極性",
-            "desc": "味方人格をスキルの対象に指定できる\nスキル自動指定時、または通常戦闘の場合、編成順が最も早い味方を優先して指定\n- 対象が味方の場合、攻撃が的中せず、守備スキルを発動させない (マッチ可能守備を含む)\n味方を指定した場合、戦闘開始時にスキル発動",
+            "name": "二元性",
+            "desc": "技能可指定友方人格為<color=#ffffff>目標</color>\n技能自動指定時，或在常規遭遇戦中，優先指定最先編入的<color=#ffffff>友方単位</color>\n- 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則攻撃不会命中，且不会触発守備技能(包括可拼点守備技能)\n若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則在<color=#ffffff>戦斗開始</color>時使用該技能",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "SupportEnemy",
-            "name": "双極性",
-            "desc": "味方をスキルの対象に指定できる\nスキル自動指定時、または通常戦闘の場合はランダムな味方を指定\n- 対象が味方の場合、攻撃が的中せず、守備スキルを発動させない (マッチ可能守備を含む)\n味方を指定した場合、戦闘開始時にスキル発動",
+            "name": "二元性",
+            "desc": "技能可指定<color=#ffffff>友方単位</color>為<color=#ffffff>目標</color>\n技能自動指定時，或在常規遭遇戦中，随机指定<color=#ffffff>友方単位</color>\n- 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則攻撃不会命中，且不会触発守備技能(包括可拼点守備技能)\n若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則在<color=#ffffff>戦斗開始</color>時使用該技能",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "NoirScissorShield",
-            "name": "ドゥ、オー・ボン・スィゾー",
-            "desc": "- 最大値：1\n- 攻撃レベル+3, 防御レベル+3\n- 充電人格の場合、スキル使用時に精神力を5回復(1ターンにつき1回)\n- 基本スキル的中時、該当コインの最終ダメージ量の5%だけ斬撃ダメージ\n- ターン終了時に消滅",
+            "name": "兩片剪刀",
+            "desc": "- 最大値：1\n- 攻撃等級+3，防御等級+3\n- 使用技能時，若<color=#ffffff>自身</color>為充能人格 ，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(<color=#7C5738>每回合</color>最多1次)\n- 基礎技能命中時，造成相当于該硬幣最終<color=#ffffff>傷害</color>量5%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>\n- <color=#7C5738>回合結束</color>時解除",
             "summary": "",
             "undefined": "-",
-            "flavor": "はさみは二つで一つとなり、一つであるものを二つに分ける。"
+            "flavor": "剪刀二位一体，又将原為一体的事物一分為二。"
         }
     ]
 }

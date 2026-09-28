@@ -3600,8 +3600,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "ルトゥーシュ(Retouche)",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 対象が味方なら、[Charge]回数3, [AttackUp]1を付与\n[EndSkill] 対象が味方なら、下記の効果を発動 (1ターンにつき1回)\n- 自分の最大体力の5%だけバリアを付与 (最小1)\n- [NoirScissorShield]1を付与\n- 対象が[PersonalityCharge]なら、[Enhancement]1を付与",
+                    "name": "修衣(Retouche)",
+                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則使其獲得3層[Charge]与1層[AttackUp]\n[EndSkill] 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則触発以下效果(<color=#7C5738>每回合</color>最多1次)\n- 使<color=#ffffff>目標</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(最低1点)\n- 使<color=#ffffff>目標</color>獲得1層[NoirScissorShield]\n- 若<color=#ffffff>目標</color>属于[PersonalityCharge]，則使其獲得1層[Enhancement]",
                     "coinlist": [
                         {
                             "coindescs": []
@@ -3610,8 +3610,8 @@
                 },
                 {
                     "level": 2,
-                    "name": "ルトゥーシュ(Retouche)",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 対象が味方なら、[Charge]回数<style=\"highlight\">4</style>, [AttackUp]1を付与\n[EndSkill] 対象が味方なら、下記の効果を発動 (1ターンにつき1回)\n- 自分の最大体力の5%だけバリアを付与 (最小1)\n- [NoirScissorShield]1を付与\n- 対象が[PersonalityCharge]なら、[Enhancement]1を付与<style=\"highlight\"></style>",
+                    "name": "修衣(Retouche)",
+                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則使其獲得<style=\"highlight\">4</style>層[Charge]与1層[AttackUp]\n[EndSkill] 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則触発以下效果(<color=#7C5738>每回合</color>最多1次)\n- 使<color=#ffffff>目標</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(最低1点)\n- 使<color=#ffffff>目標</color>獲得1層[NoirScissorShield]\n- 若<color=#ffffff>目標</color>属于[PersonalityCharge]，則使其獲得1層[Enhancement]<style=\"highlight\"></style>",
                     "coinlist": [
                         {
                             "coindescs": []
@@ -3620,8 +3620,8 @@
                 },
                 {
                     "level": 4,
-                    "name": "ルトゥーシュ(Retouche)",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 対象が味方なら、[Charge]回数4, [AttackUp]1を付与\n[EndSkill] 対象が味方なら、下記の効果を発動 <style=\"highlight\">(1ターンにつき2回)</style>\n- 自分の最大体力の<style=\"highlight\">10%</style>だけバリアを付与 (最小1)\n- [NoirScissorShield]1を付与\n- 対象が[PersonalityCharge]なら、[Enhancement]2を付与",
+                    "name": "修衣(Retouche)",
+                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則使其獲得4層[Charge]与1層[AttackUp]\n[EndSkill] 若<color=#ffffff>目標</color>為<color=#ffffff>友方単位</color>，則触発以下效果<style=\"highlight\">(<color=#7C5738>每回合</color>最多2次)</style>\n- 使<color=#ffffff>目標</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限<style=\"highlight\">10%</style>的<color=#81BBE8>護盾</color>(最低1点)\n- 使<color=#ffffff>目標</color>獲得1層[NoirScissorShield]\n- 若<color=#ffffff>目標</color>属于[PersonalityCharge]，則使其獲得2層[Enhancement]",
                     "coinlist": [
                         {
                             "coindescs": []
@@ -3635,27 +3635,27 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "固定、そしてパターンに沿って裁断",
-                    "desc": "[StartBattle] 自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）に[AttackUp]2, 自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)\n- [PersonalityCharge]なら、[AttackUp]1, 自分の最大体力の5%だけバリアを追加で付与\n\n[WhenUse] 対象の[Vibration]威力が6以上なら、コイン威力+1\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2",
+                    "name": "固定，并沿紙様裁切",
+                    "desc": "[StartBattle] 使除<color=#ffffff>自身</color>以外最先編入的1名其他<color=#ffffff>友方単位</color>(優先指定[PersonalityCharge])獲得2層[AttackUp]与<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(最少1点;<color=#7C5738>每回合</color>最多1次)\n- 若該<color=#ffffff>友方単位</color>為[PersonalityCharge]，則使其額外獲得1層[AttackUp]与<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>\n\n[WhenUse] 若<color=#ffffff>目標</color>的[Vibration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 消耗<color=#ffffff>自身</color>5層[ChargeKhakiAlly]并使本技能的<color=#ffffff>最終威力</color>+2",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が6増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[ChargeKhakiAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         }
@@ -3663,27 +3663,27 @@
                 },
                 {
                     "level": 2,
-                    "name": "固定、そしてパターンに沿って裁断",
-                    "desc": "[StartBattle] <style=\"highlight\">自分と、</style>自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）に[AttackUp]2, 自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)\n- [PersonalityCharge]なら、[AttackUp]1, 自分の最大体力の5%だけバリアを追加で付与\n\n[WhenUse] 対象の[Vibration]威力が6以上なら、コイン威力+1\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2",
+                    "name": "固定，并沿紙様裁切",
+                    "desc": "[StartBattle] 使<style=\"highlight\"><color=#ffffff>自身</color>与</style>除<color=#ffffff>自身</color>以外最先編入的1名其他<color=#ffffff>友方単位</color>(優先指定[PersonalityCharge])獲得2層[AttackUp]与<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(最少1点;<color=#7C5738>每回合</color>最多1次)\n- 若該<color=#ffffff>友方単位</color>為[PersonalityCharge]，則使其額外獲得1層[AttackUp]与<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>\n\n[WhenUse] 若<color=#ffffff>目標</color>的[Vibration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 消耗<color=#ffffff>自身</color>5層[ChargeKhakiAlly]并使本技能的<color=#ffffff>最終威力</color>+2",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が6増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[ChargeKhakiAlly]<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>獲得2層[Vibration]<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3691,30 +3691,30 @@
                 },
                 {
                     "level": 4,
-                    "name": "固定、そしてパターンに沿って裁断",
-                    "desc": "[StartBattle] 自分と、自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）、<style=\"highlight\">現体力の比率が最も低い味方1名</style>に[AttackUp]2, 自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)\n- [PersonalityCharge]なら、[AttackUp]1, 自分の最大体力の5%だけバリアを追加で付与\n\n<style=\"highlight\">[WhenUse] 対象の[Vibration]威力6につき、コイン威力+1 (最大2)</style>\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2",
+                    "name": "固定，并沿紙様裁切",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>，除<color=#ffffff>自身</color>以外最先編入的1名其他<color=#ffffff>友方単位</color>(優先指定[PersonalityCharge])<style=\"highlight\">与現存<color=#61DA61>体力</color>比例最低的1名<color=#ffffff>友方単位</color></style>獲得2層[AttackUp]与<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(最少1点;<color=#7C5738>每回合</color>最多1次)\n- 若該<color=#ffffff>友方単位</color>為[PersonalityCharge]，則使其額外獲得1層[AttackUp]与<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>\n\n<style=\"highlight\">[WhenUse] <color=#ffffff>目標</color>每帯有6級[Vibration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>\n[WhenUse] 消耗<color=#ffffff>自身</color>5層[ChargeKhakiAlly]并使本技能的<color=#ffffff>最終威力</color>+2",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が6増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得6層[ChargeKhakiAlly]<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>獲得2層[Vibration]<style=\"highlight\"></style>"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [AmberResistDown]1を付与 (1ターンにつき1回)<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[AmberResistDown](<color=#7C5738>每回合</color>最多1次)<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -3727,36 +3727,36 @@
             "levelList": [
                 {
                     "level": 3,
-                    "name": "クーペ・ダン・ル・ビエ",
-                    "desc": "自分の[NoirScissorCut]1につき、ダメージ量+15% (最大30%)\n\n[StartBattle] 自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）、現体力の比率が最も低い味方1名に[NoirScissorShield]1を付与し、自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)\n\n[WhenUse] 対象の[Vibration]威力が6以上なら、コイン威力+1\n[WhenUse] 自分の[ChargeKhakiAlly]威力3につき、最終威力+1 (最大2)\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2\n\n[EndSkill] 自分の[ChargeKhakiAlly]回数が5増加",
+                    "name": "斜裁",
+                    "desc": "<color=#ffffff>自身</color>每帯有1層[NoirScissorCut]，使本技能造成的<color=#ffffff>傷害</color>+15%(最多+30%)\n\n[StartBattle] 使除<color=#ffffff>自身</color>以外最先編入的1名<color=#ffffff>友方単位</color>(優先指定[PersonalityCharge])与現存<color=#61DA61>体力</color>比例最低的1名<color=#ffffff>友方単位</color>獲得1層[NoirScissorShield]与<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(最低1点;<color=#7C5738>每回合</color>最多1次)\n\n[WhenUse] 若<color=#ffffff>目標</color>的[Vibration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] <color=#ffffff>自身</color>每帯有3級[ChargeKhakiAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 消耗<color=#ffffff>自身</color>5層[ChargeKhakiAlly]并使本技能的<color=#ffffff>最終威力</color>+2\n\n[EndSkill] 使<color=#ffffff>自身</color>獲得5層[ChargeKhakiAlly]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[NoirScissorAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[NoirScissorAlly]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が5以上なら、5を消耗して[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeKhakiAlly]層数不低于5層，則消耗5層[ChargeKhakiAlly]，使<color=#ffffff>目標</color>[VibrationExplosion]并使<color=#ffffff>目標</color>的[Vibration]層数減少1層"
                                 }
                             ]
                         }
@@ -3764,36 +3764,36 @@
                 },
                 {
                     "level": 4,
-                    "name": "クーペ・ダン・ル・ビエ",
-                    "desc": "自分の[NoirScissorCut]1につき、ダメージ量<style=\"highlight\">+30% (最大60%)</style>\n\n[StartBattle] 自分と、自分を除く編成順が最も早い味方1名（[PersonalityCharge]を優先）、現体力の比率が最も低い味方1名に[NoirScissorShield]1を付与し、自分の最大体力の<style=\"highlight\">10%</style>だけバリアを付与 (最小1, 1ターンにつき1回)\n\n<style=\"highlight\">[WhenUse] 対象の[Vibration]威力6につき、コイン威力+1 (最大2)</style>\n[WhenUse] 自分の[ChargeKhakiAlly]威力3につき、最終威力+1 (最大2)\n[WhenUse] 自分の[ChargeKhakiAlly]回数5を消耗し、最終威力+2\n\n[EndSkill] 自分の[ChargeKhakiAlly]回数が5増加",
+                    "name": "斜裁",
+                    "desc": "<color=#ffffff>自身</color>每帯有1層[NoirScissorCut]，使本技能造成的<color=#ffffff>傷害</color><style=\"highlight\">+30%(最多+60%)</style>\n\n[StartBattle] 使<color=#ffffff>自身</color>，除<color=#ffffff>自身</color>以外最先編入的1名<color=#ffffff>友方単位</color>(優先指定[PersonalityCharge])与現存<color=#61DA61>体力</color>比例最低的1名<color=#ffffff>友方単位</color>獲得1層[NoirScissorShield]与<color=#ffffff>自身</color><color=#61DA61>体力</color>上限<style=\"highlight\">10%</style>的<color=#81BBE8>護盾</color>(最低1点;<color=#7C5738>每回合</color>最多1次)\n\n<style=\"highlight\">[WhenUse] <color=#ffffff>目標</color>每帯有6級[Vibration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>\n[WhenUse] <color=#ffffff>自身</color>每帯有3級[ChargeKhakiAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 消耗<color=#ffffff>自身</color>5層[ChargeKhakiAlly]并使本技能的<color=#ffffff>最終威力</color>+2\n\n[EndSkill] 使<color=#ffffff>自身</color>獲得5層[ChargeKhakiAlly]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[NoirScissorAlly]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[NoirScissorAlly]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]回数が5以上なら、5を消耗して[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeKhakiAlly]層数不低于5層，則消耗5層[ChargeKhakiAlly]，使<color=#ffffff>目標</color>[VibrationExplosion]并使<color=#ffffff>目標</color>的[Vibration]層数減少1層"
                                 }
                             ]
                         }
@@ -3806,13 +3806,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "トリミング",
-                    "desc": "[DuelCounter]\n[StartBattle] 自分の[ChargeKhakiAlly]回数が5増加 (1ターンにつき2回)\n[StartBattle] 自分と、自分を除く現体力の比率が最も低い味方2名に、自分の最大体力の5%だけバリアを付与 (最小1, 1ターンにつき1回)",
+                    "name": "鑲辺",
+                    "desc": "[DuelCounter]\n[StartBattle] 使<color=#ffffff>自身</color>獲得5層[ChargeKhakiAlly](<color=#7C5738>每回合</color>最多2次)\n[StartBattle] 使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#81BBE8>護盾</color>(最低1点;<color=#7C5738>每回合</color>最多1次)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                                 }
                             ]
                         }
@@ -3820,13 +3820,13 @@
                 },
                 {
                     "level": 4,
-                    "name": "トリミング",
-                    "desc": "[DuelCounter]\n[StartBattle] 自分の[ChargeKhakiAlly]回数が5増加 (1ターンにつき2回)\n[StartBattle] 自分と、自分を除く現体力の比率が最も低い味方2名に、自分の最大体力の<style=\"highlight\">10%</style>だけバリアを付与 (最小1, 1ターンにつき1回)\n\n<style=\"highlight\">[WhenUse] 自分の[ChargeKhakiAlly]回数5につき、マッチ威力+1 (最大4)</style>",
+                    "name": "鑲辺",
+                    "desc": "[DuelCounter]\n[StartBattle] 使<color=#ffffff>自身</color>獲得5層[ChargeKhakiAlly](<color=#7C5738>每回合</color>最多2次)\n[StartBattle] 使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外現存<color=#61DA61>体力</color>比例最低的2名<color=#ffffff>友方単位</color>獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限<style=\"highlight\">10%</style>的<color=#81BBE8>護盾</color>(最低1点;<color=#7C5738>每回合</color>最多1次)\n\n<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>每帯有5層[ChargeKhakiAlly]，使本技能的<color=#ffffff>拼点威力</color>+1(最多+4)</style>",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                                 }
                             ]
                         }
@@ -3839,19 +3839,19 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "パターン起こし",
-                    "desc": "[CantDuel]\n[WhenUse] 自分の[ChargeKhakiAlly]回数が3増加",
+                    "name": "紙様制作",
+                    "desc": "[CantDuel]\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[ChargeKhakiAlly]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[ChargeKhakiAlly]威力が3以上なら、このコインを再使用 (スキルごとに1回)"
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeKhakiAlly]強度不低于3級，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [NoirScissorAlly]1を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[NoirScissorAlly]"
                                 }
                             ]
                         }
@@ -3864,20 +3864,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "切り抜く",
-                    "desc": "[CantDuel]\n[WhenUse] 自分の[ChargeKhakiAlly]威力3につき、最終威力+1 (最大2)\n[WhenUse] 自分の[ChargeKhakiAlly]回数が5増加\n\n[EndSkill] 対象の[NoirScissorAlly]2を消耗\n[EndSkill] [NoirScissorCut]1を得る",
+                    "name": "剪下",
+                    "desc": "[CantDuel]\n[WhenUse] <color=#ffffff>自身</color>每帯有3級[ChargeKhakiAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 使<color=#ffffff>自身</color>獲得5層[ChargeKhakiAlly]\n\n[EndSkill] 消耗<color=#ffffff>目標</color>2層[NoirScissorAlly]\n[EndSkill] 使<color=#ffffff>自身</color>獲得1層[NoirScissorCut]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         }

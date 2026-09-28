@@ -1156,14 +1156,14 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "拒絶宣布",
-                    "abName": "メトロポラリスの住民",
-                    "desc": "[BeforeAttack] 自分の[Charge]回数が1増加\n[BeforeAttack] 自分の[Charge]回数を最大6消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]5を付与(最大5名、小数点切り捨て)",
+                    "name": "拒絶宣告",
+                    "abName": "梅特羅波拉利斯的市民",
+                    "desc": "[BeforeAttack] 使<color=#ffffff>自身</color>獲得1層[Charge]\n[BeforeAttack] 消耗<color=#ffffff>自身</color>最多6層[Charge]并使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外的(1+(消耗的[Charge]層数/2))名<color=#ffffff>友方単位</color>獲得5層[ChargeForceField](最多5名，向下取整)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
                                 }
                             ]
                         },
@@ -1172,21 +1172,21 @@
                 },
                 {
                     "level": 3,
-                    "name": "拒絶宣布",
-                    "abName": "メトロポラリスの住民",
-                    "desc": "<style=\"highlight\">[WhenUse] 自分の[Charge]威力だけ<noparse>マッチ威力が増加</noparse>(最大2)</style>\n[BeforeAttack] 自分の[Charge]回数が<style=\"highlight\">3</style>増加\n[BeforeAttack] 自分の[Charge]回数を最大<style=\"highlight\">8</style>消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]5を付与 (最大<style=\"highlight\">6</style>名、小数点切り捨て)",
+                    "name": "拒絶宣告",
+                    "abName": "梅特羅波拉利斯的市民",
+                    "desc": "<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>每帯有1級[Charge]強度，使本技能的<color=#ffffff>拼点威力</color>+1(最多+2)</style>\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">3</style>層[Charge]\n[BeforeAttack] 消耗<color=#ffffff>自身</color>最多<style=\"highlight\">8</style>層[Charge]并使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外的(1+(消耗的[Charge]層数/2))名<color=#ffffff>友方単位</color>獲得5層[ChargeForceField](最多<style=\"highlight\">6</style>名，向下取整)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] [PhotoElectricity]1を付与</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[PhotoElectricity]</style>"
                                 }
                             ]
                         }
@@ -1194,21 +1194,21 @@
                 },
                 {
                     "level": 4,
-                    "name": "拒絶宣布",
-                    "abName": "メトロポラリスの住民",
-                    "desc": "[WhenUse] 自分の[Charge]威力だけ<noparse>マッチ威力が増加</noparse>(最大<style=\"highlight\">3</style>)\n[BeforeAttack] 自分の[Charge]回数が<style=\"highlight\">5</style>増加\n[BeforeAttack] 自分の[Charge]回数を最大<style=\"highlight\">10</style>消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]5を付与 (最大<style=\"highlight\">7</style>名、小数点切り捨て)",
+                    "name": "拒絶宣告",
+                    "abName": "梅特羅波拉利斯的市民",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有1級[Charge]強度，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">3</style>)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[Charge]\n[BeforeAttack] 消耗<color=#ffffff>自身</color>最多<style=\"highlight\">10</style>層[Charge]并使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外的(1+(消耗的[Charge]層数/2))名<color=#ffffff>友方単位</color>獲得5層[ChargeForceField](最多<style=\"highlight\">7</style>名，向下取整)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [PhotoElectricity]<style=\"highlight\">2</style>を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">2</style>層[PhotoElectricity]"
                                 }
                             ]
                         }
@@ -1221,9 +1221,9 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "拒絶宣布",
-                    "abName": "メトロポラリスの住民",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nバリアを保有する対象への与ダメージ量 +15%\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -6(最大-12)\n[BeforeAttack] 自分の[Charge]回数が3増加\n[BeforeAttack] 自分の[Charge]回数を最大6消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]7を付与(最大5名、小数点切り捨て)",
+                    "name": "拒絶宣告",
+                    "abName": "梅特羅波拉利斯的市民",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n使本技能対帯有<color=#81BBE8>護盾</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+15%\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-6(最多-12)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得3層[Charge]\n[BeforeAttack] 消耗<color=#ffffff>自身</color>最多6層[Charge]并使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外的(1+(消耗的[Charge]層数/2))名<color=#ffffff>友方単位</color>獲得7層[ChargeForceField](最多5名，向下取整) ",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1231,7 +1231,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
                                 }
                             ]
                         },
@@ -1241,7 +1241,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] 自分の[Charge]回数を最大10消耗し、消耗した数値だけこのコインの<noparse>最終威力が増加</noparse>"
+                                    "desc": "[OnStartCoin] 消耗<color=#ffffff>自身</color>最多10層[Charge]，每消耗1層[Charge]，使本硬幣的<color=#ffffff>最終威力</color>+1"
                                 }
                             ]
                         }
@@ -1249,9 +1249,9 @@
                 },
                 {
                     "level": 3,
-                    "name": "拒絶宣布",
-                    "abName": "メトロポラリスの住民",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nバリアを保有する対象への与ダメージ量 +<style=\"highlight\">20</style>%\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -6(最大-12)\n<style=\"highlight\">[BeforeAttack] 自分の[Charge]威力だけ<noparse>最終威力が増加</noparse>(最大2)</style>\n[BeforeAttack] 自分の[Charge]回数が<style=\"highlight\">4</style>増加\n[BeforeAttack] 自分の[Charge]回数を最大<style=\"highlight\">8</style>消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数÷2)名へ[ChargeForceField]7を付与(最大<style=\"highlight\">6</style>名、小数点切り捨て)",
+                    "name": "拒絶宣告",
+                    "abName": "梅特羅波拉利斯的市民",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n使本技能対帯有<color=#81BBE8>護盾</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+<style=\"highlight\">20</style>%\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-6(最多-12)\n<style=\"highlight\">[BeforeAttack] <color=#ffffff>自身</color>每帯有1級[Charge]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)</style>\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[Charge]\n[BeforeAttack] 消耗<color=#ffffff>自身</color>最多<style=\"highlight\">8</style>層[Charge]并使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外的(1+(消耗的[Charge]層数/2))名<color=#ffffff>友方単位</color>獲得7層[ChargeForceField](最多<style=\"highlight\">6</style>名，向下取整) ",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1259,7 +1259,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
                                 }
                             ]
                         },
@@ -1269,10 +1269,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] 自分の[Charge]回数を最大10消耗し、消耗した数値だけこのコインの<noparse>最終威力が増加</noparse>"
+                                    "desc": "[OnStartCoin] 消耗<color=#ffffff>自身</color>最多10層[Charge]，每消耗1層[Charge]，使本硬幣的<color=#ffffff>最終威力</color>+1"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] [PhotoElectricity]1を付与</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[PhotoElectricity]</style>"
                                 }
                             ]
                         }
@@ -1280,9 +1280,9 @@
                 },
                 {
                     "level": 4,
-                    "name": "拒絶宣布",
-                    "abName": "メトロポラリスの住民",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nバリアを保有する対象への与ダメージ量 +<style=\"highlight\">25</style>%\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -6(最大-12)\n[BeforeAttack] 自分の[Charge]威力だけ<noparse>最終威力が増加</noparse>(最大<style=\"highlight\">3</style>)\n[BeforeAttack] 自分の[Charge]回数が<style=\"highlight\">5</style>増加\n[BeforeAttack] 自分の[Charge]回数を最大<style=\"highlight\">10</style>消耗し、自分と自分以外のランダムな味方(1 + 消耗した[Charge]回数/2)名へ[ChargeForceField]7を付与(最大<style=\"highlight\">7</style>名、小数点切り捨て)",
+                    "name": "拒絶宣告",
+                    "abName": "梅特羅波拉利斯的市民",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n使本技能対帯有<color=#81BBE8>護盾</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+<style=\"highlight\">25</style>%\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-6(最多-12)\n[BeforeAttack] <color=#ffffff>自身</color>每帯有1級[Charge]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+<style=\"highlight\">3</style>)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[Charge]\n[BeforeAttack] 消耗<color=#ffffff>自身</color>最多<style=\"highlight\">10</style>層[Charge]并使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外的(1+(消耗的[Charge]層数/2))名<color=#ffffff>友方単位</color>獲得7層[ChargeForceField](最多<style=\"highlight\">7</style>名，向下取整) ",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1290,7 +1290,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[Charge]"
                                 }
                             ]
                         },
@@ -1300,10 +1300,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] 自分の[Charge]回数を最大10消耗し、消耗した数値だけこのコインの<noparse>最終威力が増加</noparse>"
+                                    "desc": "[OnStartCoin] 消耗<color=#ffffff>自身</color>最多10層[Charge]，每消耗1層[Charge]，使本硬幣的<color=#ffffff>最終威力</color>+1"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [PhotoElectricity]<style=\"highlight\">2</style>を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">2</style>層[PhotoElectricity]"
                                 }
                             ]
                         }

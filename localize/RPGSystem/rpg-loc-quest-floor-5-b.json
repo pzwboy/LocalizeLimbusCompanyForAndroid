@@ -1,150 +1,150 @@
 {
-  "dataList": [
-    {
-      "key": "Q5001",
-      "title": "5階を調べる",
-      "description": "ついにプイと共に5階に来た。何があるかは分からないけど、このまま歩いていこう。",
-      "steps": [
+    "dataList": [
         {
-          "index": 0,
-          "goalDescription1": "5階の廊下にある扉を調べる"
+            "key": "Q5001",
+            "title": "調査5F",
+            "description": "我們終于和支咿一起抵達了5F。還不知道這里到底有什么，總之先四処走走看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "調査位于5F走廊的門"
+                },
+                {
+                    "index": 1,
+                    "goalDescription1": "听听克羅默的話"
+                }
+            ]
         },
         {
-          "index": 1,
-          "goalDescription1": "クローマーの話を聞く"
-        }
-      ]
-    },
-    {
-      "key": "Q5011",
-      "title": "???",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "???"
-        }
-      ]
-    },
-    {
-      "key": "Q5002",
-      "title": "地下1階へ向かう",
-      "description": "5階の中へ入るには、美徳が足りないという。プイは、黄金の皮で作った死装束を着なければならないと言っていた。地下へ行けば、皮を加工してくれる者がいるらしい。地下へ行ってみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "地下1階へ向かう"
+            "key": "Q5011",
+            "title": "？？？",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "？？？"
+                }
+            ]
         },
         {
-          "index": 1,
-          "goalDescription1": "5階の帳に触れてみる"
-        }
-      ]
-    },
-    {
-      "key": "Q5004",
-      "title": "5階の奥へ向かう",
-      "description": "統制者が完成させてくれた黄金の皮の服をプイが着た。だが、うにょりを平らげてしまったプイの気分はあまりよくなさそうだ。今度は5階へ向かおう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "5階の奥へ向かう"
+            "key": "Q5002",
+            "title": "前往B1F",
+            "description": "据説想進入5F，我們的美德仍然不足。必須譲支咿穿上用黄金皮革制作的寿衣。前往地下貌似能找到了可以加工皮革的人。去地下看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往B1F"
+                },
+                {
+                    "index": 1,
+                    "goalDescription1": "触触5F的帷幕。"
+                }
+            ]
         },
         {
-          "index": 1,
-          "goalDescription2": "押し寄せるものたちを倒す"
-        }
-      ]
-    },
-    {
-      "key": "Q5008",
-      "title": "（内部）道を塞ぐル・ノワールとの対面",
-      "steps": [
+            "key": "Q5004",
+            "title": "前往5F深処",
+            "description": "支咿穿上了管制員制成的黄金皮革的衣服。但吃掉咯紐的事似乎譲它的心情不太好。現在前往5F叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往5F深処"
+                },
+                {
+                    "index": 1,
+                    "goalDescription2": "撃敗蜂擁而至的東西"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "道を塞ぐル・ノワールと遭遇する"
-        }
-      ]
-    },
-    {
-      "key": "Q5006",
-      "title": "（内部）ル・ノワールの集団を突破",
-      "steps": [
+            "key": "Q5008",
+            "title": "（内部）面対堵路的黑派",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "遇到堵路的黑派"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "ル・ノワール店員[陽射し]を9体倒す",
-          "goalDescription2": "ル・ノワールの警備員を7体倒す",
-          "goalDescription3": "ル・ノワール コンテンポラリー店員を3体倒す",
-          "goalDescription4": "ル・ノワール メゾン店員を2体倒す",
-          "goalDescription5": "ル・ノワール メゾンを2体倒す"
-        }
-      ]
-    },
-    {
-      "key": "Q5007",
-      "title": "5階の奥の帳へ向かう",
-      "description": "5階で押し寄せる敵を倒した。今度は5階の奥へ入り、帳に触れてみよう。プイが黄金の死装束を着たのだから、前とは違う変化が起きるかもしれない。",
-      "steps": [
+            "key": "Q5006",
+            "title": "（内部）突破黑派団体",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "消滅9个黑派店員[陽光]",
+                    "goalDescription2": "消滅7个黑派警衛",
+                    "goalDescription3": "消滅3个黑派当代服飾館店員",
+                    "goalDescription4": "消滅2个黑派品牌世家店員",
+                    "goalDescription5": "消滅2个黑派品牌世家"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "5階の帳に触れてみる",
-          "goalDescription2": ""
-        }
-      ]
-    },
-    {
-      "key": "Q5003",
-      "title": "ル・ノワールのブランドマネージャーを倒す",
-      "description": "道を塞ぐル・ノワールのブランドマネージャーを倒そう。",
-      "steps": [
+            "key": "Q5007",
+            "title": "前往位于5F深処的帷幕",
+            "description": "我們消滅了5F蜂擁而至的敵人。現在前往5F深処，触触帷幕叭。既然支咿穿着黄金寿衣，情况應該会和之前有所不同。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "触触5F的帷幕。",
+                    "goalDescription2": ""
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "ル・ノワールのブランドマネージャーを倒す"
-        }
-      ]
-    },
-    {
-      "key": "Q5005",
-      "title": "ビュッフェを見守る",
-      "description": "繭が割れた。\nビュッフェが何になるのか見守ろう。",
-      "steps": [
+            "key": "Q5003",
+            "title": "撃殺黑派品牌經理",
+            "description": "打倒堵住去路的黑派品牌經理叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "打倒黑派品牌經理"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "ビュッフェが何になるのか最後まで見守る"
-        }
-      ]
-    },
-    {
-      "key": "Q5009",
-      "title": "レストランの中へ向かう",
-      "description": "5階を塞いでいた帳の中へ無事に入った。中では、巨大な何かが食事をしているのが見える。ひとまず敵を避け、さらに奥へ逃げよう。",
-      "steps": [
+            "key": "Q5005",
+            "title": "観察自助餐",
+            "description": "繭裂開了。\n見証自助餐最終会変成什么模様叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "見証自助餐最后会変成什么"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "レストランの中へ向かう"
-        }
-      ]
-    },
-    {
-      "key": "Q5010",
-      "title": "押し寄せるル・ノワールたちから繭を守る",
-      "description": "プイは、眠くて眠ってしまいそうだと言った。その場で眠りについたプイは、繭の姿になった。ル・ノワールたちが繭を狙い、四方から押し寄せてくる。プイを守り抜こう。",
-      "steps": [
+            "key": "Q5009",
+            "title": "前往餐庁内",
+            "description": "我們平安進入了阻隔在5F中的帷幕。在那之中能看到正在進食的龐大存在。總之先避開敵人，前往更深処叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往餐庁内"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "押し寄せるル・ノワールたちから繭を守る"
-        }
-      ]
-    },
-    {
-      "key": "Q5012",
-      "title": "黒い糸を倒す",
-      "description": "道を塞ぐ黒い糸を倒そう。",
-      "steps": [
+            "key": "Q5010",
+            "title": "从蜂擁而至的黑派中保護繭",
+            "description": "支咿説它太困了。原地睡下的支咿変成了繭的模様。訂上繭的黑派們从四面八方蜂擁而至，保護好支咿叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "从蜂擁而至的黑派中保護繭"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "黒い糸を倒す"
+            "key": "Q5012",
+            "title": "撃敗黑之絲",
+            "description": "打倒堵住去路的黑之絲叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "撃敗黑之絲"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

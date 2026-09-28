@@ -917,31 +917,31 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "鏡触覚",
-                    "abName": "道を失った心",
-                    "desc": "自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大2)\n[BeforeAttack] (2 + 最大共鳴数)だけ[Breath]を得る(最大8)\n[BeforeAttack] 自分の[Breath]回数が2増加\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "name": "鏡反射触覚",
+                    "abName": "迷失的心",
+                    "desc": "<color=#ffffff>自身</color>的[Breath]強度与主要<color=#ffffff>目標</color>的[Vibration]強度之和每有6級，使本技能的<color=#ffffff>拼点威力</color>+1(最多+2)\n[BeforeAttack] 使<color=#ffffff>自身</color>増加(2+最大<color=#7C5738>共鳴</color>数)級[Breath]強度(最多8級)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得2層[Breath]\n[EndSkill] 随机対攻撃的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加共計(1+最大<color=#7C5738>共鳴</color>数)層[EmpathicDistressAlly]，每次施加1層(最多5層)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [AttackDown]2を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         }
@@ -949,31 +949,31 @@
                 },
                 {
                     "level": 3,
-                    "name": "鏡触覚",
-                    "abName": "道を失った心",
-                    "desc": "自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大<style=\"highlight\">3</style>)\n[BeforeAttack] (<style=\"highlight\">3</style> + 最大共鳴数)だけ[Breath]を得る(最大8)\n[BeforeAttack] 自分の[Breath]回数が<style=\"highlight\">3</style>増加\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "name": "鏡反射触覚",
+                    "abName": "迷失的心",
+                    "desc": "<color=#ffffff>自身</color>的[Breath]強度与主要<color=#ffffff>目標</color>的[Vibration]強度之和每有6級，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">3</style>)\n[BeforeAttack] 使<color=#ffffff>自身</color>増加(<style=\"highlight\">3</style>+最大<color=#7C5738>共鳴</color>数)級[Breath]強度(最多8級)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">3</style>層[Breath]\n[EndSkill] 随机対攻撃的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加共計(1+最大<color=#7C5738>共鳴</color>数)層[EmpathicDistressAlly]，每次施加1層(最多5層)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">3</style>を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">3</style>級[Vibration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が<style=\"highlight\">2</style>増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">2</style>層[Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [AttackDown]2を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         }
@@ -981,31 +981,31 @@
                 },
                 {
                     "level": 4,
-                    "name": "鏡触覚",
-                    "abName": "道を失った心",
-                    "desc": "自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大<style=\"highlight\">4</style>)\n[BeforeAttack] (<style=\"highlight\">4</style> + 最大共鳴数)だけ[Breath]を得る(最大8)\n[BeforeAttack] 自分の[Breath]回数が<style=\"highlight\">4</style>増加\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "name": "鏡反射触覚",
+                    "abName": "迷失的心",
+                    "desc": "<color=#ffffff>自身</color>的[Breath]強度与主要<color=#ffffff>目標</color>的[Vibration]強度之和每有6級，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">4</style>)\n[BeforeAttack] 使<color=#ffffff>自身</color>増加(<style=\"highlight\">4</style>+最大<color=#7C5738>共鳴</color>数)級[Breath]強度(最多8級)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[Breath]\n[EndSkill] 随机対攻撃的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加共計(1+最大<color=#7C5738>共鳴</color>数)層[EmpathicDistressAlly]，每次施加1層(最多5層)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">4</style>を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">4</style>級[Vibration]強度"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が<style=\"highlight\">3</style>増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">3</style>層[Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [AttackDown]2を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         }
@@ -1018,9 +1018,9 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "鏡触覚",
-                    "abName": "道を失った心",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大2)\n[BeforeAttack] (2 + 最大共鳴数)だけ[Breath]を得る(最大10)\n[BeforeAttack] 自分の[Breath]回数が2増加\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -4(最大-12)\n[BeforeAttack] 自分の[Breath]回数が10以上なら、自分の[Breath]回数を4消耗し、メインターゲットへのクリティカル与ダメージ量 +20%\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "name": "鏡反射触覚",
+                    "abName": "迷失的心",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n<color=#ffffff>自身</color>的[Breath]強度与主要<color=#ffffff>目標</color>的[Vibration]強度之和每有6級，使本技能的<color=#ffffff>拼点威力</color>+1(最多+2)\n[BeforeAttack] 使<color=#ffffff>自身</color>増加(2+最大<color=#7C5738>共鳴</color>数)級[Breath]強度(最多10級)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得2層[Breath]\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-4(最多-12)\n[BeforeAttack] 若<color=#ffffff>自身</color>的[Breath]層数不低于10層，則消耗<color=#ffffff>自身</color>4層[Breath]并使本技能<color=#ffffff>暴撃</color>時対主要<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+20%\n[EndSkill] 随机対攻撃的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加共計(1+最大<color=#7C5738>共鳴</color>数)層[EmpathicDistressAlly]，每次施加1層(最多5層)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1028,13 +1028,13 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack]  若<color=#ffffff>目標</color>的[Vibration]層数不低于4層，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         },
@@ -1044,10 +1044,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack]  若<color=#ffffff>目標</color>的[Vibration]層数不低于4層，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         },
@@ -1057,10 +1057,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [AttackDown]3を付与"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         }
@@ -1068,9 +1068,9 @@
                 },
                 {
                     "level": 3,
-                    "name": "鏡触覚",
-                    "abName": "道を失った心",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大<style=\"highlight\">3</style>)\n[BeforeAttack] (<style=\"highlight\">3</style> + 最大共鳴数)だけ[Breath]を得る(最大10)\n[BeforeAttack] 自分の[Breath]回数が<style=\"highlight\">3</style>増加\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -4(最大-12)\n[BeforeAttack] 自分の[Breath]回数が10以上なら、自分の[Breath]回数を4消耗し、メインターゲットへのクリティカル与ダメージ量 +<style=\"highlight\">30</style>%\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "name": "鏡反射触覚",
+                    "abName": "迷失的心",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n<color=#ffffff>自身</color>的[Breath]強度与主要<color=#ffffff>目標</color>的[Vibration]強度之和每有6級，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">3</style>)\n[BeforeAttack] 使<color=#ffffff>自身</color>増加(<style=\"highlight\">3</style>+最大<color=#7C5738>共鳴</color>数)級[Breath]強度(最多10級)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">3</style>層[Breath]\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-4(最多-12)\n[BeforeAttack] 若<color=#ffffff>自身</color>的[Breath]層数不低于10層，則消耗<color=#ffffff>自身</color>4層[Breath]并使本技能<color=#ffffff>暴撃</color>時対主要<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+<style=\"highlight\">30</style>%\n[EndSkill] 随机対攻撃的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加共計(1+最大<color=#7C5738>共鳴</color>数)層[EmpathicDistressAlly]，每次施加1層(最多5層)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1078,13 +1078,13 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">4</style>を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">4</style>級[Vibration]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack]  若<color=#ffffff>目標</color>的[Vibration]層数不低于4層，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         },
@@ -1094,10 +1094,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack]  若<color=#ffffff>目標</color>的[Vibration]層数不低于4層，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         },
@@ -1107,13 +1107,13 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] [Vibration]回数が1増加</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]</style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [AttackDown]3を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[AttackDown]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -1121,9 +1121,9 @@
                 },
                 {
                     "level": 4,
-                    "name": "鏡触覚",
-                    "abName": "道を失った心",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の[Breath]威力とメインターゲットの[Vibration]威力の合計6につき、マッチ威力 +1(最大<style=\"highlight\">4</style>)\n[BeforeAttack] (<style=\"highlight\">4</style> + 最大共鳴数)だけ[Breath]を得る(最大10)\n[BeforeAttack] 自分の[Breath]回数が<style=\"highlight\">4</style>増加\n[BeforeAttack] 破壊されたコイン1枚につき、基本威力 -4(最大-12)\n[BeforeAttack] 自分の[Breath]回数が10以上なら、自分の[Breath]回数を4消耗し、メインターゲットへのクリティカル与ダメージ量 +<style=\"highlight\">40</style>%\n[EndSkill] 攻撃対象のうちランダムな敵へ、合計(1 + 最大共鳴数)の[EmpathicDistressAlly]を1ずつ分けて付与(最大5)",
+                    "name": "鏡反射触覚",
+                    "abName": "迷失的心",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n<color=#ffffff>自身</color>的[Breath]強度与主要<color=#ffffff>目標</color>的[Vibration]強度之和每有6級，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">4</style>)\n[BeforeAttack] 使<color=#ffffff>自身</color>増加(<style=\"highlight\">4</style>+最大<color=#7C5738>共鳴</color>数)級[Breath]強度(最多10級)\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[Breath]\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-4(最多-12)\n[BeforeAttack] 若<color=#ffffff>自身</color>的[Breath]層数不低于10層，則消耗<color=#ffffff>自身</color>4層[Breath]并使本技能<color=#ffffff>暴撃</color>時対主要<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+<style=\"highlight\">40</style>%\n[EndSkill] 随机対攻撃的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加共計(1+最大<color=#7C5738>共鳴</color>数)層[EmpathicDistressAlly]，每次施加1層(最多5層)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1131,13 +1131,13 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">5</style>を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">5</style>級[Vibration]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack]  若<color=#ffffff>目標</color>的[Vibration]層数不低于4層，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         },
@@ -1147,10 +1147,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対象の[Vibration]回数が4以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                    "desc": "[OnSucceedAttack]  若<color=#ffffff>目標</color>的[Vibration]層数不低于4層，則使其[VibrationExplosion]，并使其[Vibration]層数減少1層"
                                 }
                             ]
                         },
@@ -1160,13 +1160,13 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Vibration]回数が<style=\"highlight\">2</style>増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">2</style>層[Vibration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [AttackDown]3を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[AttackDown]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                                 }
                             ]
                         }

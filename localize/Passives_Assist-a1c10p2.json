@@ -1,67 +1,67 @@
 {
-  "dataList": [
-    {
-      "id": 40004101,
-      "name": "幼い赤き神",
-      "desc": "[Charge]効果を得るとき、代わりに[ChargeRouge]を得る\n\nステージ開始時、[ChargeRouge]威力1を得る\n\nターン開始時、自分の[ChargeRouge]威力が2以上なら、（自分の[ChargeRouge]威力 × 2）だけ自分の[ChargeRouge]回数が増加",
-      "summary": "[ChargeRouge]を得る",
-      "flavor": "幼いが、確かに神格を持っている。"
-    },
-    {
-      "id": 40004102,
-      "name": "脈動する本性",
-      "desc": "戦闘中、[Laceration]効果が発動するたびに、自分の[ChargeRouge]回数が1増加",
-      "summary": "[ChargeRouge]回数が増加",
-      "flavor": "どうして血を見るたびに、わたしの心臓は何度も高鳴るの…？"
-    },
-    {
-      "id": 40004103,
-      "name": "旅路",
-      "desc": "自分の[ChargeRouge]威力に応じて、以下の効果を全て得る\n- 1：自分の[ChargeRouge]回数1につき、与ダメージ量 +2%（最大20%）、対象の体力回復量 +10%（最大100%、小数点切り捨て）\n- 2：自分の[ChargeRouge]威力2につき、基本威力 +1\n- 3：ターン開始時、自分に[GourmandiseAlly]効果がなく、自分の[ChargeRouge]回数が15以上なら、[ChargeRouge]回数を全て消耗し、[GourmandiseAlly]3を得る\n- 4：スキルスロット数 +1\n- 5：ステージ開始時、[GourmandiseAlly]3を得て、全ての敵に[BloodyMucusAlly]3を付与",
-      "summary": "自分の[ChargeRouge]威力に応じて強化される",
-      "flavor": "彼らの背中を見ながら、一歩一歩、世界を、百貨店を知っていく。そして、自分についても。"
-    },
-    {
-      "id": 40004104,
-      "name": "救いの手",
-      "desc": "戦闘中、味方が混乱状態になると、その味方に「わたしの手を握って」を使用（1ターンにつき2回）"
-    },
-    {
-      "id": 40004105,
-      "name": "抑えの利かない身体",
-      "desc": "自分に[GourmandiseAlly]効果があれば、以下の効果を得る\n- 与ダメージ量の20%だけ体力を回復\n- スキル使用時、自分の[Laceration]回数が3増加\n- スキル的中時、[Laceration]1を得る",
-      "summary": "[Laceration]1を得る",
-      "flavor": "腕も足も何もかもが馴染みのないものだが、内側から始まったわずかな鼓動は、次第に狂ったように脈打とうとするばかりだ。"
-    },
-    {
-      "id": 40004107,
-      "name": "皮縫いの釘",
-      "desc": "攻撃スキルで敵を倒せなかったとき、その敵に「わたしが終わらせてあげる…」を使用（1ターンにつき1回）",
-      "flavor": "皮を縫うには、尖っているだけじゃない、太くて丈夫な釘が必要なんだって。それでも貫けなかったら、もう一度…！"
-    },
-    {
-      "id": 40004108,
-      "name": "運命離脱",
-      "desc": "このユニットが死亡すると戦闘敗北",
-      "flavor": "道を誤ることはあっても、流れに逆らったり逸脱したりすることは「それ」によって禁じられている。"
-    },
-    {
-      "id": 40004202,
-      "name": "運命離脱",
-      "desc": "このユニットが死亡時、戦闘に敗北",
-      "flavor": "道を誤ることはあっても、流れに逆らったり逸脱したりすることは「それ」によって禁じられている。"
-    },
-    {
-      "id": 40004203,
-      "name": "ル・ヴィスクー・アブジェクト（le Visqueux-Abject）",
-      "desc": "このユニットには、自分をメインターゲットに指定したスキルのダメージのみ適用され、それ以外のダメージを受けない\n\n戦闘に初めて登場したとき、戦場に[BuffetField]を生成\n\nターン開始時、[BuffetField]の範囲内の対象に以下の効果を適用\n- 味方（自分を含む）\n· 最大体力の5%だけ体力を回復\n· [Charge]回数4増加\n· [Protection]1を付与\n· 対象の味方がル・ルージュ所属なら、[Enhancement]2を付与\n· E.G.Oスキルダメージ量 +50%\n\n- 敵\n· [AttackDown]3を付与\n· [DefenseDown]3を付与\n· [BloodyMucusAlly]2を付与",
-      "flavor": "赤き神は目の前のものを摂取し、また摂取する。その結果、粘膜質の地帯が広がる。それは摂取の産物。自分から出たものだが、自分のものか否かの境界が曖昧になるアブジェクシオンであり、粘つきでもある。この上では自分のものが脈動し、そうでないものは溶け落ちる。境界の外にあるものは恐ろしいから。"
-    },
-    {
-      "id": 40004204,
-      "name": "ラ・ファン・ドゥ・ランファンス（La Fin de l'enfance）",
-      "desc": "ステージ開始時、[ChargeRouge]威力5を得る\n\nターン終了時、自分の[ChargeRouge]回数が15以上なら、「ラ・ノゼ（la nausée）」スキルをセット\n毎ターン開始時、[Aggro]20を得る",
-      "flavor": "幼年期がいつ終わるのか、誰が決めてくれるのか？赤い子は旅を通じて成長した。旅の経験を通じて何者かになろうとし、そうなりつつあると思っていたが、その過程は突然終わった。幼年期は、自ら幕を引けるものではなかった。突然、外から現実を突きつけられ強制的に、そしてせっかちに告げられる。もう終わりだと。"
-    }
-  ]
+    "dataList": [
+        {
+            "id": 40004101,
+            "name": "尚幼的赤紅之神",
+            "desc": "<color=#ffffff>自身</color>獲得[Charge]時，改為獲得[ChargeRouge]\n\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>増加1級[ChargeRouge]強度\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于2級，則使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的[ChargeRouge]強度×2)層[ChargeRouge]",
+            "summary": "獲得[ChargeRouge]",
+            "flavor": "雖尚年幼，却已擁有作為神的品格。"
+        },
+        {
+            "id": 40004102,
+            "name": "搏動的本性",
+            "desc": "戦斗中，每当触発[Laceration]效果時，使<color=#ffffff>自身</color>獲得1層[ChargeRouge]",
+            "summary": "獲得[ChargeRouge]層数",
+            "flavor": "為什么每次看到血，我的心臓都会跳个不停……？"
+        },
+        {
+            "id": 40004103,
+            "name": "旅程",
+            "desc": "根据<color=#ffffff>自身</color>的[ChargeRouge]強度，使<color=#ffffff>自身</color>相應獲得以下效果\n- 不低于1級：<color=#ffffff>自身</color>每帯有1層[ChargeRouge]，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+2%(最多+20%)，使<color=#ffffff>目標</color>恢復的<color=#61DA61>体力</color>+10%(最多+100%，向下取整)\n- 不低于2級：<color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>基礎威力</color>+1\n- 不低于3級：<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>未帯有[GourmandiseAlly]且<color=#ffffff>自身</color>的[ChargeRouge]層数不低于15層，則消耗所有[ChargeRouge]層数并使<color=#ffffff>自身</color>獲得3層[GourmandiseAlly]\n- 不低于4級：<color=#ffffff>行動槽</color>数+1\n- 不低于5級：<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得3層[GourmandiseAlly]并対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加3層[BloodyMucusAlly]",
+            "summary": "根据<color=#ffffff>自身</color>的[ChargeRouge]強度獲得強化",
+            "flavor": "看着他們的背影，一步一步了解這个世界，了解百貨店。也了解自己。"
+        },
+        {
+            "id": 40004104,
+            "name": "援助之手",
+            "desc": "戦斗中<color=#ffffff>友方単位</color>陷入混乱時，対其使用“握住我的手叭”(<color=#7C5738>每回合</color>最多2次)"
+        },
+        {
+            "id": 40004105,
+            "name": "失控的身体",
+            "desc": "若<color=#ffffff>自身</color>帯有[GourmandiseAlly]，則触発以下效果\n- 使<color=#ffffff>自身</color>恢復造成<color=#ffffff>傷害</color>量20%的<color=#61DA61>体力</color>\n- 使用技能時，対<color=#ffffff>自身</color>施加3層[Laceration]\n- 技能命中時，使<color=#ffffff>自身</color>増加1級[Laceration]強度",
+            "summary": "使<color=#ffffff>自身</color>増加1級[Laceration]強度",
+            "flavor": "手臂和腿以及之外的一切都很陌生，但从内側開始的跳動却逐漸向着瘋狂的搏動轉変。"
+        },
+        {
+            "id": 40004107,
+            "name": "縫制皮革用的釘子",
+            "desc": "攻撃技能未<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，対其使用“我将于此献上終結…”(<color=#7C5738>每回合</color>最多1次)",
+            "flavor": "縫制皮革用的釘子不僅要劬尖，也要足劬粗而結實。如果這様還不管用，就再試一次……！"
+        },
+        {
+            "id": 40004108,
+            "name": "脱离命運",
+            "desc": "<color=#ffffff>自身</color>陣亡時，戦斗失敗",
+            "flavor": "可以誤入鰭途，但逆着流向行事或是从中脱离，是被“它”所禁止的。"
+        },
+        {
+            "id": 40004202,
+            "name": "脱离命運",
+            "desc": "<color=#ffffff>自身</color>陣亡時，戦斗失敗",
+            "flavor": "可以誤入鰭途，但逆着流向行事或是从中脱离，是被“它”所禁止的。"
+        },
+        {
+            "id": 40004203,
+            "name": "粘稠-卑賎(le Visqueux-Abject)",
+            "desc": "僅受到以<color=#ffffff>自身</color>為主要<color=#ffffff>目標</color>的技能的<color=#ffffff>傷害</color>，而不会受到其他<color=#ffffff>傷害</color>\n\n<color=#ffffff>自身</color>在戦斗中首次登場時，生成[BuffetField]\n\n<color=#7C5738>回合開始</color>時，使処于[BuffetField]范圍的<color=#ffffff>目標</color>触発以下效果\n- <color=#ffffff>友方単位</color>(包括<color=#ffffff>自身</color>)\n· 恢復<color=#ffffff>自身</color><color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>\n· 獲得4層[Charge]\n· 獲得1層[Protection]\n· 若<color=#ffffff>目標</color><color=#ffffff>友方単位</color>属于紅派，則使其獲得2層[Enhancement]\n· E.G.O技能造成的<color=#ffffff>傷害</color>+50%\n\n- <color=#ffffff>敵方単位</color>\n· 施加3層[AttackDown]\n· 施加3層[DefenseDown]\n· 施加2層[BloodyMucusAlly]",
+            "flavor": "赤紅之神不断攝取、再度攝取眼前之物，其結果是黏膜質的区域不断延展。那便是攝取的産物。雖然是源于自己的事物，但其是否仍属于自己的界限変得模糊，既卑賎，也是粘稠之物。在這基礎上属于自己的会搏動，而不属于自己的部分則会溶解。在這界限之外的事物都令其恐惧。"
+        },
+        {
+            "id": 40004204,
+            "name": "童年的終結(La Fin de l'enfance)",
+            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>増加5級[ChargeRouge]強度\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于15層，則装備技能“惡心(la nausée)”\n<color=#7C5738>每回合</color>開始時，使<color=#ffffff>自身</color>的[Aggro]+20",
+            "flavor": "誰来决定幼年期何時結束？赤紅的孩子于旅程中得到了成長。旅程的經驗教会它認識自己想要成為什么様的人，并曾試圖向那方向成長，但那過程却戛然而止。幼年期并非能自己决定何時結束的東西。現實突然从外界涌入，急切而強制地向其宣告：它已經結束了。"
+        }
+    ]
 }

@@ -3306,22 +3306,22 @@
         },
         {
             "id": 1091701,
-            "name": "お直し室の花ばさみの音",
-            "desc": "ターン終了時、自分の[ChargeKhaki]回数だけ、次のターンにバリアを得る\n自分の[ChargeKhaki]威力が2/3/5以上なら、基本スキルの最終威力+1/+2/+3",
-            "summary": "基本スキルの最終威力が増加[TabExplain]"
+            "name": "改衣室飾花剪刀的声響",
+            "desc": "<color=#7C5738>回合結束</color>時，根据<color=#ffffff>自身</color>的[ChargeKhaki]層数，在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得相應的<color=#81BBE8>護盾</color>\n若<color=#ffffff>自身</color>的[ChargeKhaki]強度不低于2/3/5級，則使<color=#ffffff>自身</color>基礎技能的<color=#ffffff>最終威力</color>+1/+2/+3",
+            "summary": "基礎技能的<color=#ffffff>最終威力</color>増加[TabExplain]"
         },
         {
             "id": 1091702,
             "name": "漂流慣性",
-            "desc": "戦闘中、自分の[ChargeKhaki]回数を累計で10消耗するたびに[ChargeKhaki]威力を1得る\n\n自分以外の[NoirScissorShield]を持つ味方の攻撃終了時、対象へ「パターン起こし」を発動 (1ターンにつき1回)\n- [BeforeUse] 発動対象の[NoirScissorAlly]が2以上なら、代わりに「切り抜く」を発動 (1ターンにつき1回)",
-            "summary": "追加攻撃が発動"
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeKhaki]時，使<color=#ffffff>自身</color>増加1級[ChargeKhaki]強度\n\n除<color=#ffffff>自身</color>以外帯有[NoirScissorShield]的<color=#ffffff>友方単位</color>攻撃后，対<color=#ffffff>目標</color>使用“紙様制作”(<color=#7C5738>每回合</color>最多1次)\n- [BeforeUse] 若該<color=#ffffff>目標</color>的[NoirScissorAlly]層数不低于2層，則改為使用“剪下”(<color=#7C5738>每回合</color>最多1次)",
+            "summary": "触発額外攻撃"
         },
         {
             "id": 1091721,
-            "name": "アン、オー・ボン・スィゾー",
-            "desc": "速度が最も高い味方1名の斬撃基本スキルダメージ量+10%",
-            "summary": "追加斬撃ダメージ",
-            "flavor": "はさみの中でも、大切なただ一挺をあなたにも。"
+            "name": "単片剪刀",
+            "desc": "使<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color>的<color=#ffffff>斬撃</color>基礎技能造成的<color=#ffffff>傷害</color>+10%",
+            "summary": "額外<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>",
+            "flavor": "把剪刀中最珍貴的一把給袮。"
         }
     ]
 }

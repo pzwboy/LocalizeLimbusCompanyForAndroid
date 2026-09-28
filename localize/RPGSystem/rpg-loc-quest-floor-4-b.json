@@ -1,353 +1,353 @@
 {
-  "dataList": [
-    {
-      "key": "Q4001",
-      "title": "シューズフロアへ移動",
-      "description": "4階へ上がってきた。通路に沿ってシューズフロアへ向かおう。",
-      "steps": [
+    "dataList": [
         {
-          "index": 0,
-          "goalDescription1": "シューズフロアへ移動する"
-        }
-      ]
-    },
-    {
-      "key": "Q4002",
-      "title": "シューズフロアへ向かう",
-      "description": "私たちについてくるあの子どもに、プイという名前をつけた。まだ私たちを嫌がっているようにも見えるけど…ひとまず前と同じように、4階のシューズフロアへ行ってみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "シューズフロアへ向かう"
-        }
-      ]
-    },
-    {
-      "key": "Q4002A",
-      "title": "フォーレグを倒す",
-      "description": "",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": ""
-        }
-      ]
-    },
-    {
-      "key": "Q4003",
-      "title": "ワンレグを倒す",
-      "description": "",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": ""
-        }
-      ]
-    },
-    {
-      "key": "Q4003A",
-      "title": "ル・ルージュ シューズフロア NPC A",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "シューズフロアに残った者と話す"
-        }
-      ]
-    },
-    {
-      "key": "Q4003B",
-      "title": "家具フロアへ向かう",
-      "description": "ル・ルージュのシューズフロアで会ったドロテアは、家へ帰る方法を探したいと言って、心臓の欠片を手に入れてほしいと頼んできた。手を貸せば、5階へ行く方法を教えてくれるらしい。心臓の欠片を手に入れるため、家具フロアへ行こう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "家具フロアの幸せなクローゼットのところへ向かう"
-        }
-      ]
-    },
-    {
-      "key": "Q4004",
-      "title": "猫背の照明に話しかける",
-      "description": "家具フロアにいる幸せなクローゼットに話しかけたが、相変わらず何も言わない。私たちは、その身体からいくつかの品物を取り外した。家具フロアにいる猫背の照明のところへ行ってみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "猫背の照明に話しかける"
-        }
-      ]
-    },
-    {
-      "key": "Q4005",
-      "title": "猫背の照明の新しい服[未使用]",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "猫背の照明に服を届ける"
-        }
-      ]
-    },
-    {
-      "key": "Q4006",
-      "title": "幸せなクローゼットのところへ戻る",
-      "description": "猫背の照明に、幸せなクローゼットから持ってきた服を渡した。ほかの家具たちも我先にと、自分たちを飾る服を持ってきてほしいと頼んでくる。幸せなクローゼットのところへ戻ろう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "幸せなクローゼットのところへ戻る"
-        }
-      ]
-    },
-    {
-      "key": "Q4007",
-      "title": "家具たちに服を届ける",
-      "description": "今回も幸せなクローゼットは、持っているものを惜しみなく差し出してくれた。家具たちに服を届けよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "骨掛けに服を渡す",
-          "goalDescription2": "のんびりした皮のベッドに服を渡す",
-          "goalDescription3": "剥製の皮のカーテンに服を渡す",
-          "goalDescription4": "赤いクッションのスツールに服を渡す",
-          "goalDescription5": "皮膚のソファに服を渡す",
-          "goalDescription6": "双子のランプに服を渡す"
-        }
-      ]
-    },
-    {
-      "key": "Q4008",
-      "title": "幸せなクローゼットに心臓の欠片をもらえるか尋ねる",
-      "description": "家具たちの頼みは全て聞いた。心臓の欠片をもらえないか、幸せなクローゼットに聞いてみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "幸せなクローゼットに心臓の欠片をもらえるか尋ねる"
-        }
-      ]
-    },
-    {
-      "key": "Q4008A",
-      "title": "家具たちの襲撃",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "家具たちの襲撃を見守る"
-        }
-      ]
-    },
-    {
-      "key": "Q4013",
-      "title": "幸せなクローゼットの残骸を調べる",
-      "description": "家具たちは幸せなクローゼットを好き勝手に引き剥がしていき、ついには互いに争って壊れてしまった。幸せなクローゼットの残骸を調べよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "幸せなクローゼットの残骸を調べる"
-        }
-      ]
-    },
-    {
-      "key": "Q4021",
-      "title": "ル・ルージュのシューズフロア売り場へ向かう",
-      "description": "ル・ノワールのシューズフロアでの用事は終わった。下にあるル・ルージュのシューズフロアへ行ってみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "ル・ルージュのシューズフロア売り場へ向かう"
-        }
-      ]
-    },
-    {
-      "key": "Q4022",
-      "title": "ル・ルージュのシューズフロアへ戻る",
-      "description": "幸せなクローゼットから心臓の欠片を手に入れた。ル・ルージュのシューズフロアへ戻り、ドロテアに心臓を渡そう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "ル・ルージュのシューズフロアへ戻る"
-        }
-      ]
-    },
-    {
-      "key": "Q4023",
-      "title": "ドロテアについていく",
-      "description": "ドロテアに心臓の欠片を渡した。5階へ行く方法を教えてくれるという。案内に従ってついていこう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "ドロテアについていく"
-        }
-      ]
-    },
-    {
-      "key": "Q4023A",
-      "title": "壁に開いた穴",
-      "description": "壁に穴が開いた。近くで確かめてみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "開いた穴を確かめる"
-        }
-      ]
-    },
-    {
-      "key": "Q4023B",
-      "title": "壁にできた入口から中へ入る",
-      "description": "ドロテアが靴を打ち合わせると、壁にどこかへ通じる入口が現れた。中へ入ってみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "壁にできた入口から中へ入る"
-        }
-      ]
-    },
-    {
-      "key": "Q4023C",
-      "title": "幻想体を追う",
-      "description": "入ったのは、迷子保護センターという場所だった。幻想体が現れ、ドロテアを連れ去ってしまった。追いかけよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "幻想体を追う"
-        }
-      ]
-    },
-    {
-      "key": "Q4023D",
-      "title": "幻想体の残骸を調べる",
-      "description": "幻想体を倒した。残骸を調べてみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "幻想体の残骸を調べる"
-        }
-      ]
-    },
-    {
-      "key": "Q4023E",
-      "title": "幻想体の残骸を調べる",
-      "description": "一緒に連れてこられた者が倒れている。調べよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": ""
+            "key": "Q4001",
+            "title": "去往制鞋館",
+            "description": "我們上到了4F。沿路前往制鞋館叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "沿路去往制鞋館"
+                }
+            ]
         },
         {
-          "index": 1,
-          "goalDescription1": ""
-        }
-      ]
-    },
-    {
-      "key": "Q4024",
-      "title": "別の売り場へ行く",
-      "description": "プイは素敵な靴を手に入れた。4階には、まだ立ち寄っていない売り場が残っているみたいだ。まだ訪れていない売り場へ行ってみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "別の売り場へ行く",
-          "goalDescription2": "バッグフロアの別の店員と話す"
-        }
-      ]
-    },
-    {
-      "key": "Q4024A",
-      "title": "ル・ルージュ バッグフロアの壁を調べる",
-      "description": "壁を調べてみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "壁を調べる"
-        }
-      ]
-    },
-    {
-      "key": "Q4024B",
-      "title": "隠れていたもの",
-      "description": "壁の後ろに隠れていたものが、正体を現した。あれをどうするか、答えてあげよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "ルネをどうするか決める。"
-        }
-      ]
-    },
-    {
-      "key": "Q4024C",
-      "title": "ルネをどうするか決める。",
-      "description": "決まった処分が終わるのを見届けよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "ルネをどうするか決める。"
-        }
-      ]
-    },
-    {
-      "key": "Q4025",
-      "title": "別の売り場へ行く",
-      "description": "ル・ルージュ バッグフロアでの用事は済んだ。別の店へ行ってみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "別の売り場へ行く"
-        }
-      ]
-    },
-    {
-      "key": "Q4025A",
-      "title": "黄金の材料を集めてくる",
-      "description": "ル・ノワールのバッグフロアのデザイナーから、黄金の材料を集めてきてほしいと頼まれた。この者の頼みを聞けば、5階へ行くエスカレーターの場所を教えてくれるかもしれない。黄金の材料はマネキンから手に入る。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "黄金のボタンを手に入れる",
-          "goalDescription2": "黄金の歯を手に入れる",
-          "goalDescription3": "黄金の髪の毛を手に入れる"
-        }
-      ]
-    },
-    {
-      "key": "Q4025B",
-      "title": "ル・ノワール バッグフロアのデザイナーの元へ戻る",
-      "description": "黄金の材料を全て集めてきた。デザイナーの元へ戻り、話しかけてみよう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "ル・ノワール バッグフロアのデザイナーの元へ戻る"
+            "key": "Q4002",
+            "title": "前往制鞋館",
+            "description": "我們為跟来的孩子起名為支咿。雖然它似乎還有些害怕我們……但總之還是和上次一様，先前往4F的制鞋館叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往制鞋館"
+                }
+            ]
         },
         {
-          "index": 1,
-          "goalDescription1": "一つ目の傑作に話しかける",
-          "goalDescription2": "二つ目の傑作に話しかける",
-          "goalDescription3": "三つ目の傑作に話しかける"
-        }
-      ]
-    },
-    {
-      "key": "Q4025C",
-      "title": "デザイナーの選択",
-      "description": "材料は全て集まった。デザイナーの選択を見守ろう。",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "デザイナーの選択を見届ける"
+            "key": "Q4002A",
+            "title": "撃敗四脚人",
+            "description": "",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": ""
+                }
+            ]
         },
         {
-          "index": 1,
-          "goalDescription1": "デザイナーの選択を最後まで見届ける"
-        }
-      ]
-    },
-    {
-      "key": "Q4026",
-      "title": "5階へ行くエスカレーターに乗る",
-      "description": "シューズフロアでの用事は済んだ。5階へ行くエスカレーターへ向かおう。",
-      "steps": [
+            "key": "Q4003",
+            "title": "撃敗単脚人",
+            "description": "",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": ""
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "5階へ行くエスカレーターに乗る"
+            "key": "Q4003A",
+            "title": "紅派制鞋館NPC A",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "与制鞋館剩下的人交談"
+                }
+            ]
+        },
+        {
+            "key": "Q4003B",
+            "title": "前往家具館",
+            "description": "在紅派制鞋館遇到的多蘿西亞説他在尋找回家的方法，請求我們為他找到心臓碎片。只要帮他，他就会告訴我們前往5F的方法。為了得到心臓碎片，先前往家具館叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往家具館中快樂衣厨処"
+                }
+            ]
+        },
+        {
+            "key": "Q4004",
+            "title": "与駝背落地灯交談",
+            "description": "試着和家具館的快樂衣厨交談了，但它依然一句話都没説。我們从它身上取下了几件物品。去家具館的駝背落地灯那里叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "与駝背落地灯交談"
+                }
+            ]
+        },
+        {
+            "key": "Q4005",
+            "title": "駝背落地灯的新衣服[未使用]",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "把衣服送給駝背落地灯"
+                }
+            ]
+        },
+        {
+            "key": "Q4006",
+            "title": "回到快樂衣厨処",
+            "description": "将从快樂衣厨那里得到的衣服交給了駝背落地灯。随后其他家具也紛紛希望我們給他們拿去能装飾他們的衣服。回到快樂衣厨那辺叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "回到快樂衣厨処"
+                }
+            ]
+        },
+        {
+            "key": "Q4007",
+            "title": "将衣服帯給家具們",
+            "description": "這一次，快樂衣厨也毫无保留地送出了自己的東西。把衣服交給家具們叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "把衣服交給骨衣架",
+                    "goalDescription2": "把衣服交給舒服的皮床",
+                    "goalDescription3": "把衣服交給剥制皮窗帘",
+                    "goalDescription4": "把衣服交給紅色軟登",
+                    "goalDescription5": "把衣服交給人皮沙発",
+                    "goalDescription6": "把衣服交給双子台灯"
+                }
+            ]
+        },
+        {
+            "key": "Q4008",
+            "title": "詢問能否拿走快樂衣厨的心臓碎片",
+            "description": "満足了家具們的請求。去問問能否拿走快樂衣厨的心臓碎片叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "詢問能否拿走快樂衣厨的心臓碎片"
+                }
+            ]
+        },
+        {
+            "key": "Q4008A",
+            "title": "家具們的襲撃",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "目睹家具們的襲撃"
+                }
+            ]
+        },
+        {
+            "key": "Q4013",
+            "title": "調査快樂衣厨的残骸",
+            "description": "家具們肆意瓜分着快樂衣厨，最終発展到互相争搶并損坏的結局。調査快樂衣厨的残骸叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "調査快樂衣厨的残骸"
+                }
+            ]
+        },
+        {
+            "key": "Q4021",
+            "title": "前往紅派制鞋館店鋪",
+            "description": "在黑派制鞋館已經没有要做的事了。前往位于下方的紅派制鞋館看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往紅派制鞋館店鋪"
+                }
+            ]
+        },
+        {
+            "key": "Q4022",
+            "title": "回到紅派制鞋館処",
+            "description": "我們得到了快樂衣厨的心臓碎片。回到紅派制鞋館，将心臓交給多蘿西亞叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "回到紅派制鞋館処"
+                }
+            ]
+        },
+        {
+            "key": "Q4023",
+            "title": "跟随多蘿西亞",
+            "description": "我們将心臓碎片交給了多蘿西亞。他説要告訴我們前往5F的方法。跟着他走叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "跟随多蘿西亞"
+                }
+            ]
+        },
+        {
+            "key": "Q4023A",
+            "title": "牆壁上的洞",
+            "description": "牆壁上開了个洞。靠近看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "確認打開的洞。"
+                }
+            ]
+        },
+        {
+            "key": "Q4023B",
+            "title": "進入牆壁上打開的入口",
+            "description": "多蘿西亞敲了敲鞋跟，牆壁便出現了不知通往何処的入口。進去看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "進入牆壁上打開的入口"
+                }
+            ]
+        },
+        {
+            "key": "Q4023C",
+            "title": "追逐異想体",
+            "description": "我們来到了叫做走失儿童保護中心的場所。突然出現的異想体帯走了多蘿西亞。追上去叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "追逐異想体"
+                }
+            ]
+        },
+        {
+            "key": "Q4023D",
+            "title": "調査異想体的残骸",
+            "description": "我們打倒了異想体。調査它的残骸看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "調査異想体的残骸"
+                }
+            ]
+        },
+        {
+            "key": "Q4023E",
+            "title": "調査異想体的残骸",
+            "description": "一起被帯来的那人倒下了。調査看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": ""
+                },
+                {
+                    "index": 1,
+                    "goalDescription1": ""
+                }
+            ]
+        },
+        {
+            "key": "Q4024",
+            "title": "前往其他店鋪",
+            "description": "支咿得到了一双漂亮的鞋子。4F似乎還有尚未探索的店鋪。到還没去過的店鋪看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往其他店鋪",
+                    "goalDescription2": "与箱包館令外的店員交談"
+                }
+            ]
+        },
+        {
+            "key": "Q4024A",
+            "title": "調査紅派箱包館的牆壁",
+            "description": "調査牆壁叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "調査牆壁"
+                }
+            ]
+        },
+        {
+            "key": "Q4024B",
+            "title": "隠藏其中的東西",
+            "description": "藏在牆后的東西現身了。告訴他該怎么做叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "决定蕾涅該怎么做。"
+                }
+            ]
+        },
+        {
+            "key": "Q4024C",
+            "title": "决定蕾涅該怎么做。",
+            "description": "見証决定好的処理結束叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "决定蕾涅該怎么做。"
+                }
+            ]
+        },
+        {
+            "key": "Q4025",
+            "title": "前往其他店鋪",
+            "description": "在紅派箱包館已經没有要做的事了。去其他店鋪看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往其他店鋪"
+                }
+            ]
+        },
+        {
+            "key": "Q4025A",
+            "title": "收集黄金材料",
+            "description": "黑派箱包館的設計師請求我們收集黄金材料。只要答應他，他就会告訴我們前往5F的扶梯在那里。黄金材料可以从人台那里得到。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "收集黄金紐扣",
+                    "goalDescription2": "收集黄金牙歯",
+                    "goalDescription3": "黄金頭発"
+                }
+            ]
+        },
+        {
+            "key": "Q4025B",
+            "title": "回到黑派箱包館的設計師処",
+            "description": "我們收集到了黄金材料。回到設計師那里，与他交談看看叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "回到黑派箱包館的設計師処"
+                },
+                {
+                    "index": 1,
+                    "goalDescription1": "与第一分杰作交談",
+                    "goalDescription2": "与第二分杰作交談",
+                    "goalDescription3": "与第三分杰作交談"
+                }
+            ]
+        },
+        {
+            "key": "Q4025C",
+            "title": "設計師的選擇",
+            "description": "-",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "見証設計師的選擇"
+                },
+                {
+                    "index": 1,
+                    "goalDescription1": "見証完設計師的選擇"
+                }
+            ]
+        },
+        {
+            "key": "Q4026",
+            "title": "乘扶梯到5F",
+            "description": "在制鞋館已經没有要做的事了。前往通向5F的扶梯叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "乘扶梯到5F"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

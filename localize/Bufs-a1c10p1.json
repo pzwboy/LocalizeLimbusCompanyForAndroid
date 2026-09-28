@@ -6,7 +6,7 @@
             "desc": "- 最大値：3\n- 每帯有1層本效果，受到的<color=#ffffff>傷害</color>+5%",
             "summary": "",
             "undefined": "-",
-            "flavor": "由于没有遵守品牌的規定，因此為了維持品牌的方向性，可能会遭到制裁。"
+            "flavor": "由于没有遵守品牌的規定，為了維持品牌的方向性，可能会遭到制裁。"
         },
         {
             "id": "NoirBindArmor",
@@ -38,7 +38,7 @@
             "desc": "- 最大値：2\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得1層傷害強化 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n· 所有技能从最后一枚硬幣起，使(<color=#ffffff>自身</color>的搏動 強度)枚硬幣轉化為不可摧毀的硬幣 \n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
             "summary": "",
             "undefined": "-",
-            "flavor": "……可以的。"
+            "flavor": "……会實現的。"
         },
         {
             "id": "RisingMadnessRouge2nd",
@@ -54,7 +54,7 @@
             "desc": "- 最大値：2\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得1層傷害強化 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n· 所有技能从最后一枚硬幣起，使(<color=#ffffff>自身</color>的保存 強度)枚硬幣轉化為不可摧毀的硬幣 \n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
             "summary": "",
             "undefined": "-",
-            "flavor": "……可以的。"
+            "flavor": "……会實現的。"
         },
         {
             "id": "RisingMadnessNoir2nd",
@@ -153,7 +153,7 @@
         {
             "id": "UnresolvedFeelings",
             "name": "多層拼布",
-            "desc": "- 最大値：30\n- 使<color=#ffffff>自身</color>増加相当于本效果層数的防御等級\n- 受到帯有“感謝聆听”的<color=#ffffff>目標</color>攻撃時，使本效果層数減少相当于“感謝聆听”層数(<color=#7C5738>每回合</color>每名人格最多2次)\n- 技能“感謝…聆听…”拼点失敗時，使本效果層数減少5層",
+            "desc": "- 最大値：30\n- 使<color=#ffffff>自身</color>増加相当于本效果層数的防御等級\n- 受到帯有“感謝傾听”的<color=#ffffff>目標</color>攻撃時，使本效果層数減少相当于“感謝傾听”層数(<color=#7C5738>每回合</color>每名人格最多2次)\n- 技能“感謝…聆听…”拼点失敗時，使本效果層数減少5層",
             "summary": "",
             "flavor": "可自己却蒙在厚厚的被子里，不去听任何声音。"
         },
@@ -166,7 +166,7 @@
         },
         {
             "id": "ReliefSense",
-            "name": "感謝聆听",
+            "name": "感謝傾听",
             "desc": "- 最大値：3\n- <color=#7C5738>回合開始</color>時，本效果層数増加1層，并使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>\n- 使<color=#ffffff>自身</color>技能対本関峠頭目造成的<color=#ffffff>傷害</color>+(本效果層数×50)%，該技能攻撃后解除本效果\n- 若本效果層数為3層，則<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>无視多層拼布 的防御等級效果",
             "summary": "",
             "flavor": "感謝……聆听……"
@@ -174,7 +174,7 @@
         {
             "id": "HorribleTerror",
             "name": "可怕的重復播放",
-            "desc": "- 最大値：1\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>処于E.G.O侵蝕状態，則使<color=#ffffff>自身</color><color=#7C5738>本回合</color>対所有<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>-50%\n- <color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>受到現存<color=#61DA61>体力</color>50%的<color=#61DA61>体力</color><color=#ffffff>傷害</color>，随后解除本效果(向下取整，該效果不会使<color=#ffffff>自身</color>陷入混乱)",
+            "desc": "- 最大値：1\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>処于E.G.O侵蝕状態，則使<color=#ffffff>自身</color><color=#7C5738>本回合</color>対<color=#ffffff>全体</color><color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>-50%\n- <color=#7C5738>回合結束</color>時，<color=#ffffff>自身</color>受到現存<color=#61DA61>体力</color>50%的<color=#61DA61>体力</color><color=#ffffff>傷害</color>，随后解除本效果(向下取整，該效果不会使<color=#ffffff>自身</color>陷入混乱)",
             "summary": "",
             "flavor": "直到袮去听……去好好聆听百貨店的店内广播為止……一直……一直……聆听叭……"
         },
@@ -371,7 +371,7 @@
         {
             "id": "RougeThreeCocoonShield",
             "name": "信仰",
-            "desc": "- <color=#7C5738>回合開始</color>時，獲得相当于本效果層数的<color=#81BBE8>護盾</color>\n- <color=#81BBE8>護盾</color>減少時，本效果層数減少",
+            "desc": "- <color=#7C5738>回合開始</color>時，獲得相当于本效果層数的<color=#81BBE8>護盾</color>\n- <color=#81BBE8>護盾</color>減少時，本效果層数相應減少",
             "summary": "",
             "flavor": "“信仰，是袮所渴望之物的實体，袮所渴望之物的……”"
         },
@@ -381,7 +381,7 @@
             "desc": "- 最大値：2\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層\n- <color=#7C5738>回合開始</color>時，若本效果層数為0層，則触発以下效果\n· 使<color=#ffffff>自身</color>獲得1層傷害強化 并対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color>\n· 技能的所有硬幣轉化為不可摧毀的硬幣\n· <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使本效果層数恢復至最大値",
             "summary": "",
             "undefined": "-",
-            "flavor": "……可以的。"
+            "flavor": "……会實現的。"
         },
         {
             "id": "RisingMadnessSisyphe2nd",

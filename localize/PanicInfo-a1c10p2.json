@@ -1,42 +1,42 @@
 {
-  "dataList": [
-    {
-      "id": 1109,
-      "panicName": "忘れられない痛み",
-      "lowMoraleDescription": "[Protection]3を得る",
-      "panicDescription": "[Protection]5を得る",
-      "flavor": "…痛かった。引き裂かれた。でも今は守ってくれる。変だ。今がいい。それでも、また痛くなるのが怖い…。"
-    },
-    {
-      "id": 1113,
-      "panicName": "子を失ったもの",
-      "lowMoraleDescription": "スキル使用時、<color=#ff6000><mark=#ff000040><b><u>メインターゲットがプイなら、マッチ威力 +3, 基本威力 +2</u></b></mark></color>\n被撃時、[TangleBlackYarn]1を付与（スキルごとに3回）",
-      "panicDescription": "<color=#ff6000><mark=#ff000040><b><u>全攻撃対象をプイに指定</u></b></mark></color>\n戦闘開始時、スキルの全コインが<color=#ff6000><mark=#ff000040><b><u>破壊不能コイン</u></b></mark></color>に変更される\nスキル使用時、<color=#ff6000><mark=#ff000040><b><u>メインターゲットがプイなら、マッチ威力 +6, 基本威力 +4</u></b></mark></color>\n被撃時、[TangleBlackYarn]1を付与（スキルごとに6回）",
-      "flavor": "怒り、悲しみ、泣き叫ぶが、この感情は業報なのだろう。誕生は死と隣り合わせであり、大きな喪失を覚悟しなければならなかったことを知らぬまま、卵を抱き、抱き続けたことの業報。そこに善も悪もない。愚かさだけがある。"
-    },
-    {
-      "id": 1110,
-      "panicName": "手の震え",
-      "lowMoraleDescription": "被ダメージ量 +7.5%\n攻撃を受けるたびに、自分の[Vibration]回数が1増加（スキルごとに1回、1ターンにつき最大5）",
-      "panicDescription": "被ダメージ量 +15%\n攻撃を受けるたびに、自分の[Vibration]威力が1, [Vibration]回数が1増加（スキルごとに1回、1ターンにつき最大5）"
-    },
-    {
-      "id": 1115,
-      "panicName": "マシンジャム",
-      "lowMoraleDescription": "自分より速度が低い対象へのスキル与ダメージ量 -5%",
-      "panicDescription": "自分より速度が低い対象へのスキル与ダメージ量 -10%"
-    },
-    {
-      "id": 1112,
-      "panicName": "制御不能",
-      "lowMoraleDescription": "スキル最終威力 +1\nターン開始時、自分以外の全味方に[Reduction]1を付与",
-      "panicDescription": "スキル最終威力 +1\nターン開始時、自分以外の全味方に[Reduction]1, [AttackDmgDown]1を付与"
-    },
-    {
-      "id": 1111,
-      "panicName": "最初の殻の中へ…",
-      "lowMoraleDescription": "攻撃レベル -2, 防御レベル +2",
-      "panicDescription": "攻撃レベル -3, 防御レベル +4"
-    }
-  ]
+    "dataList": [
+        {
+            "id": 1109,
+            "panicName": "无法忘記的痛苦",
+            "lowMoraleDescription": "使自身獲得3層[Protection]",
+            "panicDescription": "使自身獲得5層[Protection]",
+            "flavor": "……好疼。他們撕裂了我，現在却又保護着我。好奇怪。我喜歓現在這様。可是又害怕会再疼起来……"
+        },
+        {
+            "id": 1113,
+            "panicName": "喪子之物",
+            "lowMoraleDescription": "- 使用技能時，<color=#ff6000><mark=#ff000040><b><u>若支咿為主要目標，則使自身的拼点威力+3，基礎威力+2</u></b></mark></color>\n- 受到攻撃時，対目標施加1層[TangleBlackYarn](每个技能最多3次)",
+            "panicDescription": "- <color=#ff6000><mark=#ff000040><b><u>所有攻撃指定支咿為目標</u></b></mark></color>\n- 戦斗開始時，使所有技能的硬幣轉化為<color=#ff6000><mark=#ff000040><b><u>不可摧毀的硬幣</u></b></mark></color>\n- 使用技能時，<color=#ff6000><mark=#ff000040><b><u>若支咿為主要目標，則使自身的拼点威力+6，基礎威力+4</u></b></mark></color>\n- 受到攻撃時，対目標施加1層[TangleBlackYarn](每个技能最多6次)",
+            "flavor": "憤怒、悲傷、哭喊着。這種感情就是所謂業叭。誕生与死亡緊緊相隣，這是在未曾做好承受巨大損失的覚悟的前提下，仍一直懐抱着卵的業报。這之中既没有善，也没有惡。有的只是愚昧。"
+        },
+        {
+            "id": 1110,
+            "panicName": "顫抖的双手",
+            "lowMoraleDescription": "- 受到的傷害+7.5%\n- 自身每次受到攻撃時，対自身施加1層[Vibration](每个技能最多1次，每回合最多5次)",
+            "panicDescription": "- 受到的傷害+15%\n- 自身每次受到攻撃時，使自身増加1級[Vibration]強度并対自身施加1層[Vibration](每个技能最多1次，每回合最多5次)"
+        },
+        {
+            "id": 1115,
+            "panicName": "堵塞的机器",
+            "lowMoraleDescription": "技能対速度値低于自身的目標造成的傷害-5%",
+            "panicDescription": "技能対速度値低于自身的目標造成的傷害-10%"
+        },
+        {
+            "id": 1112,
+            "panicName": "无法控制",
+            "lowMoraleDescription": "- 技能最終威力+1\n- 回合開始時，対除自身以外的全体友方単位施加1層[Reduction]",
+            "panicDescription": "- 技能最終威力+1\n- 回合開始時，対除自身以外的全体友方単位施加1層[Reduction]与1層[AttackDmgDown]"
+        },
+        {
+            "id": 1111,
+            "panicName": "回到最初的殻中…",
+            "lowMoraleDescription": "攻撃等級-2，防御等級+2",
+            "panicDescription": "攻撃等級-3，防御等級+4"
+        }
+    ]
 }
