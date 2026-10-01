@@ -3232,6 +3232,467 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 1031501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "釘刺されよ",
+                    "desc": "[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1\n[WhenUse] 自分と自分以外で[Charge]回数が最も少ないル・ノワール所属の味方人格1名の[Charge]回数が2増加 (1ターンにつき1回)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が4増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 2,
+                    "name": "釘刺されよ",
+                    "desc": "<style=\"highlight\">[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計4につき、最終威力 +1 (最大2)</style>\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、<style=\"highlight\">ダメージ量 +20%</style>\n[WhenUse] 自分と自分以外で[Charge]回数が最も少ないル・ノワール所属の味方人格1名の[Charge]回数が<style=\"highlight\">3</style>増加 (1ターンにつき1回)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "釘刺されよ",
+                    "desc": "[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計4につき、最終威力 +1 (最大<style=\"highlight\">3</style>)\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、ダメージ量 +<style=\"highlight\">40%</style>\n[WhenUse] 自分と自分以外で[Charge]回数が最も少ないル・ノワール所属の味方人格1名の[Charge]回数が<style=\"highlight\">4</style>増加 (1ターンにつき1回)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">6</style>増加"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1031502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "釘よ、生まれよ",
+                    "desc": "[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が6増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 2,
+                    "name": "釘よ、生まれよ",
+                    "desc": "<style=\"highlight\">[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計4につき、最終威力 +1 (最大2)</style>\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、<style=\"highlight\">ダメージ量 +20%</style>\n<style=\"highlight\">[BeforeAttack] 最大共鳴数1につき、最後のコインの最終威力 +1 (最大4)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">3</style>を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">7</style>増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "釘よ、生まれよ",
+                    "desc": "[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計4につき、最終威力 +1 (最大<style=\"highlight\">3</style>)\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、ダメージ量 +<style=\"highlight\">30%</style>\n[BeforeAttack] 最大共鳴数1につき、最後のコインの最終威力 +1 (最大4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">4</style>を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">8</style>増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1031503,
+            "levelList": [
+                {
+                    "level": 3,
+                    "name": "誕生を断たん！",
+                    "desc": "[StartBattle] [OathFieldDonQuixote]3を得る (1ターンにつき1回)\n[StartBattle] 自分と自分以外で最も速度が高いル・ノワール所属の味方人格1名に[AttackUp]2、[DefenseUp]2を付与 (1ターンにつき1回)\n[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計が6以上なら、コイン威力 +1\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、ダメージ量 +20%\n[BeforeAttack] 最大共鳴数1につき、最後のコインの最終威力 +1 (最大4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationFocusing]へ[Switch_Vibration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象の[NoirNailDonQuixote]が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "誕生を断たん！",
+                    "desc": "[StartBattle] [OathFieldDonQuixote]3を得る (1ターンにつき1回)\n[StartBattle] 自分と自分以外で最も速度が高いル・ノワール所属の味方人格1名に[AttackUp]2、[DefenseUp]2を付与 (1ターンにつき1回)\n[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計<style=\"highlight\">6につき</style>、コイン威力 +1 <style=\"highlight\">(最大2)</style>\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、ダメージ量 +<style=\"highlight\">40%</style>\n[BeforeAttack] 最大共鳴数1につき、最後のコインの最終威力 +1 (最大4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">4</style>を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationFocusing]へ[Switch_Vibration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象の[NoirNailDonQuixote]が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1031504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "黙示",
+                    "desc": "[StartBattle] [OathFieldDonQuixote]3を得る (1ターンにつき1回)\n[StartBattle] 自分と自分以外で精神力が最も低いル・ノワール所属の味方人格1名の精神力が4回復 (1ターンにつき1回)\n[StartBattle] 自分の[ChargeNoirAlly]回数が2増加 (1ターンにつき1回)\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が2増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "黙示",
+                    "desc": "[StartBattle] [OathFieldDonQuixote]3を得る (1ターンにつき1回)\n[StartBattle] 自分と自分以外で精神力が最も低いル・ノワール所属の味方人格1名の精神力が<style=\"highlight\">5</style>回復 (1ターンにつき1回)\n<style=\"highlight\">[StartBattle] 自分の[NoirShieldUpDonQuixote]が</style>\n<style=\"highlight\">- 100なら、代わりに「幾度も振り下ろし、誕生を断たん！」として発動する (1ターンにつき1回、この効果は一方攻撃でも発動する)</style>\n<style=\"highlight\">- 100未満なら、自分の最大体力の([NoirShieldUpDonQuixote]÷10)%だけバリアを得る (1ターンにつき1回)</style>\n[StartBattle] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">3</style>増加 (1ターンにつき1回)\n<style=\"highlight\">[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計が6以上なら、コイン威力 +1</style>\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、<style=\"highlight\">ダメージ量 +10%</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">3</style>増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "黙示",
+                    "desc": "[StartBattle] [OathFieldDonQuixote]3を得る (1ターンにつき1回)\n[StartBattle] 自分と自分以外で精神力が最も低いル・ノワール所属の味方人格1名の精神力が<style=\"highlight\">6</style>回復 (1ターンにつき1回)\n[StartBattle] 自分の[NoirShieldUpDonQuixote]が\n- 100なら、代わりに「幾度も振り下ろし、誕生を断たん！」として発動する (1ターンにつき1回、この効果は一方攻撃でも発動する)\n- 100未満なら、自分の最大体力の([NoirShieldUpDonQuixote]÷10)%だけバリアを得る (1ターンにつき1回)\n[StartBattle] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加 (1ターンにつき1回)\n[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計<style=\"highlight\">6につき</style>、コイン威力 +1 <style=\"highlight\">(最大2)</style>\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、ダメージ量 +<style=\"highlight\">20%</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1031505,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "審判！",
+                    "desc": "[CantDuel]\nこのスキルには下記の効果が適用される\n- 守備スキルを発動させない\n- 外部効果で再使用できない\n- このスキルが終了するまで対象の体力が1未満に減少しない\n[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計4につき、最終威力 +1 (最大2)\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、ダメージ量 +20%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "審判！",
+                    "desc": "[CantDuel]\nこのスキルには下記の効果が適用される\n- 守備スキルを発動させない\n- 外部効果で再使用できない\n- このスキルが終了するまで対象の体力が1未満に減少しない\n[WhenUse] 対象の[Vibration]威力と[NoirNailDonQuixote]の合計4につき、最終威力 +1 (最大<style=\"highlight\">3</style>)\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1、ダメージ量 +<style=\"highlight\">40%</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">4</style>を付与"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1031506,
+            "levelList": [
+                {
+                    "level": 3,
+                    "name": "幾度も振り下ろし、誕生を断たん！",
+                    "desc": "このスキルは守備スキルの代わりに発動しても攻撃スキルとして扱われ、守備威力の変更効果を受けず、攻撃威力の変更効果が適用される\n[StartBattle] 全てのル・ノワール所属の味方人格に[AttackUp]2、[DefenseUp]2を付与 (1ターンにつき1回)\n[WhenUse] 全攻撃対象の[Vibration]威力と[NoirNailDonQuixote]の合計が6以上なら、コイン威力 +1\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1\n[WhenUse] このスキルの攻撃加重値よりも少ない攻撃対象1につき、ダメージ量 +30% (集中戦闘の場合は部位で判定)\n[BeforeAttack] 最大共鳴数1につき、最後のコインの最終威力 +2 (最大8)\n[EndSkill] [NoirShieldUpDonQuixote]を全て消耗",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加 (コインごとに1回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationFocusing]へ[Switch_Vibration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象ごとに[NoirNailDonQuixote]の数値に応じて下記の効果を適用\n- [NoirNailDonQuixote]が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少\n- このコインの最終ダメージ量の([NoirNailDonQuixote]×1.5)%だけ怠惰ダメージ (最大45%)\n- 対象の[NoirNailDonQuixote]を全て消耗"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "幾度も振り下ろし、誕生を断たん！",
+                    "desc": "このスキルは守備スキルの代わりに発動しても攻撃スキルとして扱われ、守備威力の変更効果を受けず、攻撃威力の変更効果が適用される\n[StartBattle] 全てのル・ノワール所属の味方人格に[AttackUp]2、[DefenseUp]2を付与 (1ターンにつき1回)\n[WhenUse] 全攻撃対象の[Vibration]威力と[NoirNailDonQuixote]の合計<style=\"highlight\">6につき</style>、コイン威力 +1 <style=\"highlight\">(最大2)</style>\n[WhenUse] 自分の[ChargeNoirAlly]威力が3以上なら、コイン威力 +1\n[WhenUse] このスキルの攻撃加重値よりも少ない攻撃対象1につき、ダメージ量 +<style=\"highlight\">50%</style> (集中戦闘の場合は部位で判定)\n[BeforeAttack] 最大共鳴数1につき、最後のコインの最終威力 +2 (最大8)\n[EndSkill] [NoirShieldUpDonQuixote]を全て消耗",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">2</style>を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [NoirNailDonQuixote]1を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">2</style>を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加 (コインごとに1回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationFocusing]へ[Switch_Vibration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対象ごとに[NoirNailDonQuixote]の数値に応じて下記の効果を適用\n- [NoirNailDonQuixote]が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少\n- このコインの最終ダメージ量の([NoirNailDonQuixote]×<style=\"highlight\">3</style>)%だけ怠惰ダメージ (最大<style=\"highlight\">90%</style>)\n- 対象の[NoirNailDonQuixote]を全て消耗"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

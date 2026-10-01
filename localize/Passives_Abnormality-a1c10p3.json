@@ -1,0 +1,314 @@
+{
+  "dataList": [
+    {
+      "id": 148511,
+      "name": "…不可能だ！",
+      "desc": "ステージ開始時、ムルソーが[MeursaultBuffWarderFirstPhase]を得る\n\nターン開始時、[GoldenHideWarderFirstPhase]と[GoldenFabricWarderFirstPhase]がランダムな囚人に付与される",
+      "flavor": "「その停止と変化の表象は…神の権能であるはず…！」",
+      "summary": "ムルソーが[MeursaultBuffWarderFirstPhase]を得る\n毎ターン、ランダムな囚人に[GoldenHideWarderFirstPhase]、[GoldenFabricWarderFirstPhase]を付与"
+    },
+    {
+      "id": 148501,
+      "name": "神の代理人",
+      "desc": "[PanicChangeLock]の効果が適用され、\nターン終了時にパニック状態なら、精神力が30に変更される\n\nステージ開始時、\n- 体力が50%の状態で開<noparse>始</noparse>\n- [UnstableConnection]2を得る\n\n3ターン目になると強力なスキルを使用\n- そのターンの間、囚人から被撃するたびに[ParryingResultDown]1を得る (囚人ごとに1回)\n\n体力が1以下になるか、3ターン目が終了するとフェーズを変更",
+      "flavor": "道を外れた者たちを断罪する、黒き神の代理人。",
+      "summary": "3ターン目に強力なスキルを使用\n3ターン目の終了時にフェーズを変更"
+    },
+    {
+      "id": 148502,
+      "name": "神聖刑罰燭台",
+      "desc": "ターン開始時、<color=#ff6000><mark=#ff000040><b><u>刑罰の燭台を2つ召喚する</u></b></mark></color>\n- ターンが経過するたびに、ターン開始時に召喚する<color=#ff6000><mark=#ff000040><b><u>刑罰の燭台の数 +1</u></b></mark></color>\n- 刑罰の燭台は戦場に最大4つまで存在できる\n\n戦場の刑罰の燭台が破壊されるたびに、看守が[Vulnerable]1を得る\n\nスキル使用時\n- メインターゲットの<color=#ff6000><mark=#ff000040><b><u>速度が1</u></b></mark></color>なら、そのスキルの<color=#ff6000><mark=#ff000040><b><u>全コインが[SuperCoin]に変更され、最終威力 +2、ダメージ量 +100%</u></b></mark></color>\n- 戦場に刑罰の燭台がなければ、マッチ威力 -1",
+      "flavor": "百貨店の運命に逆らう罪人たちの頭上へと落ちる燭台。",
+      "summary": "毎ターン、刑罰の燭台を召喚。破壊時に[Vulnerable]を得る\nメインターゲットの速度が1なら、スキルが強化"
+    },
+    {
+      "id": 148503,
+      "name": "涙は布を濡らし",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]の効果で自分の精神力が減少しない代わりに</u></b></mark></color>、その数値だけ憂鬱ダメージを受ける\n囚人から被撃時、対象の囚人の[Sinking]回数が1増加 (囚人ごとに1ターンにつき最大2)",
+      "summary": "[Sinking]による精神力減少の代わりに憂鬱ダメージを受ける\n被撃時、攻撃者の[Sinking]回数が増加"
+    },
+    {
+      "id": 148504,
+      "name": "完璧保存",
+      "desc": "戦闘中、自分の[ChargeNoir]回数を\n累計10消耗するたびに[ChargeNoir]威力1を得る\n\nターン開始時、自分の[ChargeNoir]威力が3、[ChargeNoir]回数が10未満なら、自分の[ChargeNoir]回数が5増加\n\n[ChargeNoir]のターン終了時に回数が1減少する効果が発動しない",
+      "flavor": "シーシュポスシステム上、この保存は完璧に保存される。",
+      "summary": "[ChargeNoir]回数を累計で消耗すると[ChargeNoir]威力を得る\n[ChargeNoir]回数がターン終了時に減少しない"
+    },
+    {
+      "id": 152001,
+      "name": "刑罰的拘束",
+      "desc": "ターン終了時、次のターンに全ての囚人へ<color=#ff6000><mark=#ff000040><b><u>[Binding]2</u></b></mark></color>を付与\n- フェーズが移行すると、この効果は適用されない",
+      "flavor": "罪人よ、縛られよ。",
+      "summary": "次のターンに全ての囚人に[Binding]を付与"
+    },
+    {
+      "id": 152002,
+      "name": "沸き上がる罪悪",
+      "desc": "囚人のスキルによってサブターゲットに指定されたとき、そのスキルによる被ダメージ量 -50%\n\n死亡時、\n- 全属性のE.G.O資源 +1\n- 自分を最後に攻撃した囚人の精神力を5回復\n・その囚人に[Binding]があれば、代わりに10回復\n・効果の適用対象を判別できなければ、代わりに精神力が最も低い囚人に効果が発動",
+      "summary": "サブターゲットのとき、被ダメージ量が減少\n死亡時、E.G.O資源を獲得し、攻撃者の精神力を回復"
+    },
+    {
+      "id": 148611,
+      "name": "…不可能だ！",
+      "desc": "ターン開始時、[GoldenHideWarderSecondPhase]と[GoldenFabricWarderSecondPhase]が、ランダムな囚人に付与される",
+      "flavor": "「その停止と変化の表象は…神の権能であるはず…！」",
+      "summary": "毎ターン、ランダムな囚人に[GoldenHideWarderSecondPhase]、[GoldenFabricWarderSecondPhase]を付与"
+    },
+    {
+      "id": 148605,
+      "name": "告解道具",
+      "desc": "看守が自分のスキル効果で囚人に[ConfessionSecondPhase]を付与するとき、下記の効果が適用される\n- [RestrainingNailSecondPhase]、[ExecutionNailSecondPhase]、[CeremonialNail]、[MarkingNail]をまとめて<color=#ff6000><mark=#ff000040><b><u>[ConfessionSecondPhase]と呼ぶ</u></b></mark></color>\n- 看守が囚人に釘や金鎚の釘を付与するとき、<color=#ff6000><mark=#ff000040><b><u>最後に付与した効果を適用</u></b></mark></color>し、数値は合算する\n- <color=#ff6000><mark=#ff000040><b><u>金鎚の釘は釘に変更されない</u></b></mark></color>\n\n囚人に攻撃的中時、対象の囚人が保有する<color=#ff6000><mark=#ff000040><b><u>[ConfessionSecondPhase]1につき\nダメージ量 +3%</u></b></mark></color> (最大27%, 対象ごとに適用)\n\nターン開始時、看守の<color=#ff6000><mark=#ff000040><b><u>体力が50%以下</u></b></mark></color>なら、\nスキルで付与する全ての<color=#ff6000><mark=#ff000040><b><u>[ConfessionSecondPhase]付与量 +1</u></b></mark></color>",
+      "summary": "対象の[ConfessionSecondPhase]に応じてダメージ量が増加\n体力が50%以下なら[ConfessionSecondPhase]の付与量が増加"
+    },
+    {
+      "id": 148601,
+      "name": "保存の規律どおりに",
+      "desc": "[PanicChangeLock]の効果が適用され、\nターン終了時にパニック状態なら、精神力が30に変更される\n\n登場後、最初のターン開始時、\n- 精神力が45に変更される\n- [EncompassingVoiceSecondPhase]0、[LeaderVoiceSecondPhase]1を得る\n- 直前のフェーズの[ChargeNoir]威力と回数がそのまま維持される",
+      "summary": "[PanicChangeLock]\n直前のフェーズの[ChargeNoir]威力・回数を維持"
+    },
+    {
+      "id": 148602,
+      "name": "審判の日",
+      "desc": "ターン開始時に[SpreadingVoiceSecondPhase]があれば、\n行動パターンが変更され、<color=#ff6000><mark=#ff000040><b><u>強力なスキル「審判…！宣告…！断罪…！」</u></b></mark></color>を使用\n- そのターンの速度の最小値・最大値 +20\n- <color=#ff6000><mark=#ff000040><b><u>このパターンで看守がマッチに敗北</u></b></mark></color>すると、\n次のターンにパターンがさらに変更され、<color=#ff6000><mark=#ff000040><b><u>強力なスキル「死刑執行」</u></b></mark></color>を使用\n\n[SpreadingVoiceSecondPhase]/[EncompassingVoiceSecondPhase]が変更されるたびに、\n<color=#ff6000><mark=#ff000040><b><u>精神力が45回復</u></b></mark></color>し、<color=#ff6000><mark=#ff000040><b><u>[LeaderVoiceSecondPhase]1を得る</u></b></mark></color>\n\n体力が50%以下になるとそのターンが終了し(特定のスキルを除く)、混乱状態なら混乱を解除\n体力が1以下になると、フェーズを変更",
+      "flavor": "刑罰によっても贖罪せぬ者たちは…審判の日に死すべし。",
+      "summary": "[SpreadingVoiceSecondPhase]があれば強力なスキルを使用\nこのときマッチに敗北すると、次のターンに「死刑執行」を使用"
+    },
+    {
+      "id": 148603,
+      "name": "涙は布を濡らし、布は首を絞め",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]の効果で自分の精神力が減少しない代わりに</u></b></mark></color>、その数値だけ憂鬱ダメージを受ける\n囚人から被撃時、対象の囚人の[Sinking]回数が1増加 (囚人ごとに1ターンにつき最大2)\n\n[Breath]威力を20までしか得られない代わりに、<color=#ff6000><mark=#ff000040><b><u>超過して得る[Breath]威力の数値だけ精神力を回復</u></b></mark></color>",
+      "summary": "[Sinking]による精神力減少の代わりに憂鬱ダメージを受ける\n被撃時、攻撃者の[Sinking]回数が増加"
+    },
+    {
+      "id": 148604,
+      "name": "完璧保存",
+      "desc": "戦闘中、自分の[ChargeNoir]回数を\n累計10消耗するたびに[ChargeNoir]威力1を得る\n\nターン開始時、自分の[ChargeNoir]威力が5、[ChargeNoir]回数が10未満なら、自分の[ChargeNoir]回数が5増加\n\n[ChargeNoir]のターン終了時に回数が1減少する効果が適用されない\n\n自分の[ChargeNoir]威力が5/10以上なら、自分の[ChargeNoir]回数の最大値 +5/+10",
+      "flavor": "シーシュポスシステム上、この保存は完璧に保存される。",
+      "summary": "[ChargeNoir]回数を累計で消耗すると[ChargeNoir]威力を得る\n[ChargeNoir]回数がターン終了時に減少しない"
+    },
+    {
+      "id": 148711,
+      "name": "くそっ、そんなグリッチどうやって見つけたんだ。",
+      "desc": "ターン開始時、[GoldenHideWarderThirdPhase]と[GoldenFabricWarderThirdPhase]がランダムな囚人に付与される\n\n<color=#ff6000><mark=#ff000040><b><u>管理人が特定の行動を取った場合、\n司祭がランダムな囚人に最大体力に比例するダメージを与え、[GoldenNail]を付与</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>体力が50%未満になると、司祭がシステムに干渉し</u></b></mark></color>、\n<color=#ff6000><mark=#ff000040><b><u>自分の体力と精神力を全快し、マイナス効果を全て除去</u></b></mark></color>",
+      "flavor": "「システムが常に完璧とはいかないにせよ、これほどのバグが生じるとは思わなかったな。ちっ、保守チームを呼ばねばならんか。」",
+      "summary": "毎ターン、ランダムな囚人に[GoldenHideWarderThirdPhase]、[GoldenFabricWarderThirdPhase]を付与\n体力が50%未満になると完全回復し、マイナス効果を除去"
+    },
+    {
+      "id": 148705,
+      "name": "シーシュポスシステム保守ツール",
+      "desc": "司祭が自分のスキル効果で囚人に[ConfessionThirdPhase]を付与するとき、下記の効果が適用される\n- [RestrainingNailThirdPhase]、[ExecutionNailThirdPhase]、[GoldenNail]をまとめて<color=#ff6000><mark=#ff000040><b><u>[ConfessionThirdPhase]と呼ぶ</u></b></mark></color>\n- 司祭が囚人に釘を付与するとき、<color=#ff6000><mark=#ff000040><b><u>最後に付与した効果を適用</u></b></mark></color>し、数値は合算する\n- <color=#ff6000><mark=#ff000040><b><u>[RestrainingNailThirdPhase]、[ExecutionNailThirdPhase]は[GoldenNail]に変更されない</u></b></mark></color>\n\n囚人に攻撃的中時、対象の囚人が保有する<color=#ff6000><mark=#ff000040><b><u>[ConfessionThirdPhase]1につき\nダメージ量 +5%</u></b></mark></color> (最大45%, 対象ごとに適用)\n\nターン開始時、司祭の<color=#ff6000><mark=#ff000040><b><u>体力が50%以下</u></b></mark></color>なら、\nスキルで付与する全ての<color=#ff6000><mark=#ff000040><b><u>[ConfessionThirdPhase]の付与量 +1</u></b></mark></color>",
+      "flavor": "「マニュアルによれば…こういうときは、全て調整し直さなきゃならない。全部、すでに規定されていることなんだ。ここのマニュアルに書いてあることを見ても…ああ、そちらからは見えないか。」",
+      "summary": "対象の[ConfessionThirdPhase]に応じてダメージ量が増加\n体力が50%以下なら[ConfessionThirdPhase]の付与量が増加"
+    },
+    {
+      "id": 148701,
+      "name": "「保存の規律どおりに」",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>マッチ回数が10発以上</u></b></mark></color>になると、そのスキルの<color=#ff6000><mark=#ff000040><b><u>マッチ威力 +(マッチを行った回数)</u></b></mark></color>\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]の<color=#ff6000><mark=#ff000040><b><u>威力が最大50まで累積</u></b></mark></color>し、<color=#ff6000><mark=#ff000040><b><u>回数は最大15まで累積</u></b></mark></color>する\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]による被ダメージ量 -50%\n\n[PanicChangeLock]の効果が適用され、\n<color=#ff6000><mark=#ff000040><b><u>精神力が0未満に下がらない</u></b></mark></color>\n\n登場後、最初のターン開始時、\n- 精神力が45に変更される\n- [EncompassingVoiceThirdPhase]0、[LeaderVoiceThirdPhase]1を得る\n- 直前のフェーズの[ChargeNoir]威力と回数がそのまま維持される",
+      "summary": "マッチ回数が10発以上なら、マッチ威力が増加\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]による被ダメージ量が減少"
+    },
+    {
+      "id": 148702,
+      "name": "「審判の日」",
+      "desc": "ターン開始時に[SpreadingVoiceThirdPhase]があれば、\n行動パターンが変更され、<color=#ff6000><mark=#ff000040><b><u>強力なスキル「シーシュポスシステムを本当に壊す気か？」</u></b></mark></color>を使用\n- そのターンの速度の最小値・最大値 +20\n- <color=#ff6000><mark=#ff000040><b><u>このパターンで司祭がマッチに敗北</u></b></mark></color>すると、\n次のターンにパターンがさらに変更され、<color=#ff6000><mark=#ff000040><b><u>強力なスキル「強制退場」</u></b></mark></color>を使用\n\n[SpreadingVoiceThirdPhase]/[EncompassingVoiceThirdPhase]が変更されるたびに、\n<color=#ff6000><mark=#ff000040><b><u>精神力が45回復</u></b></mark></color>し、<color=#ff6000><mark=#ff000040><b><u>[LeaderVoiceThirdPhase]1を得る</u></b></mark></color>",
+      "flavor": "罰を受けても反省しなかったのなら、審判されなきゃ。死ぬほどにな。",
+      "summary": "[SpreadingVoiceThirdPhase]があれば強力なスキルを使用\nこのときマッチに敗北すると、次のターンに「強制退場」を使用"
+    },
+    {
+      "id": 148703,
+      "name": "涙は布を濡らし、布は首を絞め…言葉も出てこないな。",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]の効果で自分の精神力が減少しない代わりに</u></b></mark></color>、その数値だけ憂鬱ダメージを受ける\n囚人から被撃時、対象の囚人の[Sinking]回数が1増加 (囚人ごとに1ターンにつき最大2)\n\n[Breath]威力を20までしか得られない代わりに、<color=#ff6000><mark=#ff000040><b><u>超過して得る[Breath]威力の数値だけ精神力を回復</u></b></mark></color>\n\n囚人に[VibrationExplosion]時、対象の囚人に<color=#ff6000><mark=#ff000040><b><u>混乱区間がなければ</u></b></mark></color>、\n混乱区間前進の代わりに、対象の[Vibration]威力の半分だけ<color=#ff6000><mark=#ff000040><b><u>怠惰ダメージを与える</u></b></mark></color> (混乱した対象を除く。対象ごとに適用)",
+      "flavor": "「本当に『祈る』ことでもしなきゃいけないんじゃないか？」",
+      "summary": "被撃時、攻撃者の[Sinking]回数が増加\n[VibrationExplosion]時に混乱区間がなければ、怠惰ダメージ"
+    },
+    {
+      "id": 148704,
+      "name": "完璧保存",
+      "desc": "戦闘中、自分の[ChargeNoir]回数を\n累計10消耗するたびに[ChargeNoir]威力1を得る\n\nターン開始時、自分の[ChargeNoir]威力が10、[ChargeNoir]回数が10未満なら、自分の[ChargeNoir]回数が5増加\n\n[ChargeNoir]のターン終了時に回数が1減少する効果が適用されない\n\n自分の[ChargeNoir]威力が5/10以上なら、自分の[ChargeNoir]回数の最大値 +5/+10",
+      "flavor": "シーシュポスシステム上、この保存は完璧に保存される。",
+      "summary": "[ChargeNoir]回数を累計で消耗すると[ChargeNoir]威力を得る\n[ChargeNoir]回数がターン終了時に減少しない"
+    },
+    {
+      "id": 148706,
+      "name": "さあ、そろそろ退勤しようか",
+      "desc": "ターン終了時、[ChargeNoir]威力が10を超えていれば、\n超過した数値だけ[ChargeNoir]威力を消耗し、消耗した数値だけ[Dominion]を得る\n- このパッシブ効果で[Dominion]を全て消耗した後は、この効果は発動しない\n\n自分の体力が初めて<color=#ff6000><mark=#ff000040><b><u>33%以下になると、行動パターンが変更</u></b></mark></color>される\n- 保有する[Dominion]を全て消耗し、自分の<color=#ff6000><mark=#ff000040><b><u>最大体力の(25 + [Dominion]の数値)%だけ不揮発性バリアを得る</u></b></mark></color>\n- 消耗した[Dominion]の数値だけ、防御レベルが永続的に減少",
+      "flavor": "「何だかんだ言っても、シーシュポスシステムはN社に絶対に必要だ。このシステムが崩れれば…また野蛮な時代に戻らなきゃならないんだ。」\n\n「だからマニュアルどおり、君たちはこの百貨店から出られない。例外はないということだ。」",
+      "summary": "[ChargeNoir]威力の10を超えた分が[Dominion]になる\n体力が33%以下になると行動パターンを変更し、バリアを得る"
+    },
+    {
+      "id": 152201,
+      "name": "モーヴェーズ・フォワ(mauvaise foi)",
+      "desc": "戦闘中、自分の[ChargeKhaki]回数を累計10消耗するたびに[ChargeKhaki]威力1を得る\n- ターン終了時に[ChargeKhaki]回数が減少する効果が発動しない\n\n自分の[ChargeKhaki]回数だけ、ターン終了時に[Breath]威力を得る (最大10)\n自分の[ChargeKhaki]威力だけ、ターン終了時に[Breath]回数を得る (最大5)\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]による被ダメージ量 -60%\n- [Vibration]による混乱区間前進量 -60%\n\n同じ対象とのマッチ進行時、10マッチにつき自分のマッチ威力 +1",
+      "flavor": "自己欺瞞。\n世界から逃げる。恐怖と不安の世界、その場所を避けて逃げ、また逃げる。\n\n自らをその場に釘付けにすることで、舞台の上へ逃げる。舞台に立った役者は、役割に完全に没入する。自分を騙し、欺く。"
+    },
+    {
+      "id": 152202,
+      "name": "ワルツの拍子、覚えてる？",
+      "desc": "1回のマッチでマッチ回数が4発以上なら、マッチ4発につき、3発目のマッチで勝利した対象のダメージ量 +15% (最大3回)\n- そのマッチに勝利したスキルが1発目のマッチにも勝利していれば、最終威力 +1",
+      "flavor": "一緒に経験したでしょう。"
+    },
+    {
+      "id": 152203,
+      "name": "サルトル",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>3ターンごとにシーシュポス百貨店の設計図を3人召喚</color></mark></b></u>し、自分の最大体力だけバリアを得る\n- そのターンの間、混乱状態なら混乱を解除し、混乱状態にならない\n\n<color=#ff6000><mark color=#ff000040><b><u>シーシュポス百貨店の設計図を「捕捉」で倒したなら、[JeanneDesign]を得る</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>自分の[JeanneDesign]が3なら、[JeanneManager]に変更される</color></mark></b></u>\nシーシュポス百貨店の設計図を<color=#ff6000><mark color=#ff000040><b><u>自分の「捕捉」で1人も倒せなければ、</color></mark></b></u>次のターンに[Vulnerable]1を得る",
+      "flavor": "シーシュポスの塔にいる四人の巨人の一人。\n\nその中でもシーシュポスシステムの設計を担う建築家であり、裁断士。自らの観点どおりに積み上げていく役割、職業、あるいは何か。\n\nサルトリアルに裁断し、釘を刺し、縫い合わせて築き上げた、ジャンヌに吐き気を起こさせない場所。\n\nシーシュポス百貨店。"
+    },
+    {
+      "id": 152204,
+      "name": "私はね…。",
+      "desc": "ステージ開始時、精神力45で開始する\n\nムルソーが死亡すると、囚人が戦闘に敗北する\n\n<color=#ff6000><mark color=#ff000040><b><u>体力が50%以下なら、</color></mark></b></u>ダメージを受けず、フェーズを変更\n- フェーズ変更時、保有するマイナス効果のうち解除可能な効果を除去する",
+      "flavor": "あなたが外へ出ていかなければいいのに。\n\nマ・ピュス、私と一緒に次の舞台へ行きましょう。"
+    },
+    {
+      "id": 152301,
+      "name": "ワルツの経験。覚えてる？",
+      "desc": "このフェーズの間、ダメージを受けない\n\nターン開始時、自分が[JeannePartnerTwo]1、[JeannePathos]1を、ムルソーが[JeannePartner]1、[JeanneLogos]1を得る (戦闘につき1回)\n\n一方攻撃を受けるか、マッチ敗北時に「ちょっとした喧嘩もあったわね。」スキルが発動\n<color=#ff6000><mark color=#ff000040><b><u>ムルソーの上スロットに特定のスキルを生成する</color></mark></b></u>",
+      "flavor": "記憶の中のワルツを、もう一度経験するのよ。"
+    },
+    {
+      "id": 152302,
+      "name": "ラ・ノゼ(la nausée)",
+      "desc": "ムルソーが死亡すると、囚人が戦闘に敗北する\n\n<color=#ff6000><mark color=#ff000040><b><u>自分の[JeannePathos]が100なら、</color></mark></b></u>使用中のスキル終了時にフェーズを変更\n- フェーズ変更時、保有するマイナス効果のうち解除可能な効果を除去する",
+      "flavor": "めまいがするでしょう？でも、絶頂はこの次よ。"
+    },
+    {
+      "id": 152401,
+      "name": "ランフェール・セ・レゾートル (L'enfer, c'est les autres)",
+      "desc": "ジャンヌの体力が10%以下になったなら…。",
+      "flavor": "私たちはいつも、他人の視線に釘付けにされる地獄の中で生きているの。だから…あなたの感情を全て話してみて、ムル。判断はその後に下してもいいでしょう？"
+    },
+    {
+      "id": 152402,
+      "name": "視線：シーシュポス百貨店",
+      "desc": "精神力が45に固定される\n\nターン開始時、シーシュポスシステムの設計図 - ル・ルージュとシーシュポスシステムの設計図 - ル・ノワールがそれぞれ2人になるよう召喚する\n\nフェーズ変更後の2ターン目から、設計図1人を裁断士ジャンヌ・サルトルの姿に変更する\n- [Vulnerable]がない設計図を優先して変更\n- 前のターンに裁断士ジャンヌ・サルトルの状態になった設計図を除く\n- 混乱状態なら混乱を解除\n\n裁断士ジャンヌ・サルトルの状態になった場合、「この舞台だけは、全てが決まっているの。」スキルを使用する\n- 「この舞台だけは、全てが決まっているの。」とのマッチでムルソーのスキルが勝利した場合、次のターンからその設計図は毎ターン[Vulnerable]5を得る\n\n裁断士ジャンヌ・サルトルの姿が解除されるたびに、次のターンから設計図のうち1人がジャンヌの「権限：遮断」スキルを装着する\n- ジャンヌのスキルを装着する設計図は、累積して1人ずつ増加する\n\n設計図の死亡時、下記の効果を適用\n- ジャンヌの体力が5%減少する\n- 他の設計図が[JeanneBlueprint]1を得る\n- 次のターンに設計図のうち1人が、ジャンヌの「権限：遮断」スキルの代わりに「権限：<noparse>視線</noparse>」スキルを装着する",
+      "flavor": "ジャンヌにとっては、百貨店こそが自分が最も楽に認識できる世界だったの。\n\n中立であるべきル・カーキの業務を割り当てられたけれど、今見えるように…本当は誰よりも華やかに花開いて、舞台の上で情熱的に、ムル、あなたと踊りたかったのよ。\n\nでも…ジャンヌは無数の視線と、人の顔色という鎖に縛られて、華やかに花開くことができなかった。花開こうとする気持ちさえ、表に出せなかったの。\n\n私はジャンヌの吐き気をなくしてあげることはできないけど…投げ出されたこの世界で誰の顔色も窺わずに花開けるよう、自分らしくいられるように手伝ってあげるわ。熱中している間、少しの間だけでもめまいを忘れられるようにね。\n\nそしてこれは…ジャンヌだけでなく、都市の全ての人に必要なことよ。たとえ拒絶しても、必ず与えられるべき機会だと思うの。"
+    },
+    {
+      "id": 152501,
+      "name": "衣装の設計図",
+      "desc": "戦闘中、<color=#ff6000><mark color=#ff000040><b><u>最初の被撃</color></mark></b></u>前に、自分のターゲット指定にかかわらず、<color=#ff6000><mark color=#ff000040><b><u>装着した「百貨店の設計図」を使用する</color></mark></b></u> (1ターンにつき1回)\n\n基本スキルによる被ダメージ量 -50%\n\n<color=#ff6000><mark color=#ff000040><b><u>E.G.Oスキルによる被ダメージ量 +100%</color></mark></b></u>\n\n裁断士ジャンヌ・サルトルの「捕捉」スキルによる被撃時に死亡する",
+      "flavor": "これが百貨店の設計図。"
+    },
+    {
+      "id": 152502,
+      "name": "自我の設計図",
+      "desc": "囚人のスキルで死亡すると、E.G.O資源のうち数が最も少ない属性の資源を1個ずつ、計5個支給\n(最も少ない資源が2種類以上ある場合、ランダムに支給)",
+      "flavor": "設計されていない設計。"
+    },
+    {
+      "id": 152601,
+      "name": "パターン：シーシュポス百貨店",
+      "desc": "同じ対象とのマッチ時、マッチ10発ごとに自分のマッチ威力が1増加\n\n登場から1ターン後より、設計図のうち1人が<color=#ff6000><mark color=#ff000040><b><u>裁断士ジャンヌ・サルトルの状態に変更される</color></mark></b></u>\n- [Vulnerable]がない設計図を優先して変更\n- 前のターンに裁断士ジャンヌ・サルトルの状態になった設計図を除く\n- 混乱状態なら混乱を解除\n\n裁断士ジャンヌ・サルトルの状態になった場合、<color=#ff6000><mark color=#ff000040><b><u>「この舞台だけは、全てが決まっているの。」スキル</color></mark></b></u>を使用する\n- 「この舞台だけは、全てが決まっているの。」とのマッチで<color=#ff6000><mark color=#ff000040><b><u>ムルソーのスキルが勝利</color></mark></b></u>した場合、次のターンからその設計図は<color=#ff6000><mark color=#ff000040><b><u>毎ターン[Vulnerable]5を得る</color></mark></b></u>\n\n設計図の死亡時、下記の効果を適用\n- <color=#ff6000><mark color=#ff000040><b><u>ジャンヌの体力が5%減少する</color></mark></b></u>\n- 他の設計図が[JeanneBlueprint]1を得る"
+    },
+    {
+      "id": 152602,
+      "name": "代謝作用",
+      "desc": "戦闘中、自分の[ChargeRouge]回数を累計10消耗するたびに[ChargeRouge]威力1を得る\n\n自分のスキル効果で体力が減少するとき、1未満にならない",
+      "flavor": "摂取し、充電し、消耗し、再び摂取する。単純な繰り返しは渇望に起因する。"
+    },
+    {
+      "id": 152701,
+      "name": "保存",
+      "desc": "戦闘中、自分の[ChargeNoir]回数を累計10消耗するたびに[ChargeNoir]威力1を得る",
+      "flavor": "凝縮させて力を集め、固定する。変化させないことは、変化させることよりも大きな力を要するときがある。"
+    },
+    {
+      "id": 151701,
+      "name": "ラ・ジュイサンス・オートル(la jouissance Autre)",
+      "desc": "ターン終了時に[ChargeRouge]回数が減少しない\n戦闘で[Laceration]が発動するたびに、自分の[ChargeRouge]回数が1増加\nターン開始時、自分の[ChargeRouge]回数1につき精神力を2回復",
+      "flavor": "全身で感じながらも言葉にはできない鼓動、本性、その全ての脈動の総体。",
+      "summary": "脈動回数が増加"
+    },
+    {
+      "id": 151702,
+      "name": "レクスティミテ(l'extimité)",
+      "desc": "体力が50%減少した状態で戦闘開<noparse>始</noparse>\nステージ開始時、全ての敵に[BuffetScruple]を付与 (待機人数を含む)\n\nスキル使用時、対象が<color=#ff6000><mark=#ff000040><b><u>[BuffetScruple]を保有</u></b></mark></color>していれば、精神力が10減少",
+      "flavor": "…あなたたちは私の身体の一番外側にいながら、私の一番内側に居場所を占めている。",
+      "summary": "精神力が減少"
+    },
+    {
+      "id": 151703,
+      "name": "ル・モワ(le moi)",
+      "desc": "[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]の<color=#ff6000><mark=#ff000040><b><u>威力が最大50まで累積</u></b></mark></color>し、<color=#ff6000><mark=#ff000040><b><u>回数は最大15まで累積</u></b></mark></color>する\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]による体力・精神力への被ダメージ量 -50%\nパニック変更不可\nターン終了時にパニック状態なら精神力が0になる",
+      "flavor": "私。水に映った私の姿を見た。私は完全な身体を持っている…。"
+    },
+    {
+      "id": 151704,
+      "name": "プヴォワール・ドゥ・ラ・ヴィ(Pouvoirs de la vie)",
+      "desc": "味方がダメージによって混乱状態になると、対象の味方に「ル・マンク・ア・エートル(le manque-à-être)」を使用 (1ターンにつき1回)\n味方が死亡すると、次のターン開始時に[BuffetRevival]3を保有する赤き神の引きちぎられた肉片を召喚",
+      "flavor": "生まれさせるという暴力性。ル・ルージュの神は、誕生の権能を持つ。\n\n死ねば意識はどこへ行くのか？生まれる前、意識はどこから来るのか？\n\nそこへ送り出すことも、引きずり出すことも全て同じ暴力的な権能。"
+    },
+    {
+      "id": 151705,
+      "name": "ラ・ジュイサンス・ファリック(la jouissance phallique)",
+      "desc": "ターン開始時、自分に[BuffetRouge]がなく、自分の[ChargeRouge]回数が15以上なら[ChargeRouge]回数を全て消耗して[BuffetRouge]3を得る。消耗した[ChargeRouge]回数1につき精神力を2回復\n\n[BuffetRouge]がなく、自分の[ChargeRouge]回数が10以上なら、スキル使用時に[ChargeRouge]回数を10消耗してコイン威力 +2",
+      "flavor": "生の享楽を享受することには、条件が付く。条件が付く以上、この肉体的な快楽は必ず失敗する。限界と終わりがあるからだ。",
+      "summary": "脈動回数を消耗して、コイン威力が増加"
+    },
+    {
+      "id": 151706,
+      "name": "ラ・モワソン(la moisson)",
+      "desc": "攻撃終了時、メインターゲットの<color=#ff6000><mark=#ff000040><b><u>[BoneNail]が5以上</u></b></mark></color>なら、攻撃したメインターゲットに強力なスキルを使用",
+      "flavor": "押し出された付属器官は他人に突き刺さり、境界の外から私を繰り返し呼ぶ。\n\n生まれた場所へと再び戻りたいという衝動は、死の衝動なのか、生の衝動なのか。"
+    },
+    {
+      "id": 151707,
+      "name": "ル・ブゾワン(le besoin)",
+      "desc": "[ChargeRouge]回数を累計10消耗するたびに脈動威力が1増加\n\n自分の[ChargeRouge]威力に応じて、下記の効果を全て得る\n- 1：自分より速度の低い対象への与ダメージ量 +([ChargeRouge]威力 × 20)%\n- 2：スキルの最終威力 +1\n- 3：スキルで付与する[Laceration]の威力付与量 +1\n- 4：スキルのコイン威力 +1\n- 5：自分の[BuffetRouge]が減少しない",
+      "flavor": "生きているから。生まれてしまったから。\n呪いのように訪れる、肉体的で、必然的で、それゆえ運命的な欲望。",
+      "summary": "脈動威力に応じてスキルが強化"
+    },
+    {
+      "id": 151708,
+      "name": "答えを出すべき時",
+      "desc": "下記の条件のうち1つを満たすと行動パターンを変更\n- 現体力が最大体力の25%未満に下がる\n- [BuffetDream]3を保有",
+      "flavor": "私に教えて…連れていって…。"
+    },
+    {
+      "id": 152101,
+      "name": "空にするほど満たされん",
+      "desc": "戦闘中、自分の[ChargeRouge]回数を累計10消耗するたびに[ChargeRouge]威力1を得る\nスキル使用時、[ChargeRouge]威力が2/4以上なら、コイン威力 +1/+2\n\n失った体力10%につき、攻撃レベルが1増加(最大5)、与ダメージ量 +20%(最大100%)",
+      "summary": "コイン威力が増加"
+    },
+    {
+      "id": 152102,
+      "name": "遅き首を狙う鎌",
+      "desc": "自分より速度が低い対象を優先してターゲットに指定\nスキル使用時、対象より速度が高ければ、対象と自分の速度差だけ攻撃レベルが増加\nターン開始時、自分の[ChargeRouge]威力が2以上なら、強力なスキルを使用",
+      "flavor": "脈動する捕食者は遅き首を狙い、その差だけ致命的なダメージを与える。"
+    },
+    {
+      "id": 152103,
+      "name": "あの方の傍で冷めぬ脈動",
+      "desc": "戦場に赤き神[完熟]がいれば、ターン終了時に自分の[ChargeRouge]回数が減少しない\n\n被撃によって混乱状態になったとき、赤き神[完熟]のスキルで混乱状態を解除されると、自分を攻撃した対象にスキル「この鎌にて応え奉る！」で一方攻撃",
+      "flavor": "息が、鼓動が止まらない。止めたくても、止まらない。"
+    },
+    {
+      "id": 152104,
+      "name": "生の痕跡",
+      "desc": "死亡時、敵陣営に、数が最も少ないE.G.O資源の中からランダムな属性の資源を2個支給",
+      "flavor": "誰かが生きている、生きていた痕跡。"
+    },
+    {
+      "id": 152105,
+      "name": "肉に降り注ぐ恩寵",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>[BuffetRouge]があれば</u></b></mark></color>下記の効果が発動\n- スキルによる被ダメージ量 -50%\n- ターン開始時に精神力が全快し、[ChargeRouge]1を得る。自分の[ChargeRouge]回数が5増加",
+      "flavor": "全身でその権能を受け止める。"
+    },
+    {
+      "id": 151801,
+      "name": "再び生きる肉体",
+      "desc": "[BuffetRevival]の消滅時に本来の姿(ル・ルージュ 上級スタッフ)へ戻り、赤き神の引きちぎられた肉片の状態で残っていた体力10につき、精神力を5回復。[ChargeRouge]回数2を得る\n- 得た[ChargeRouge]回数が10以上なら、[ChargeRouge]回数を全て消耗し、消耗した数値5につき、次のターンに[BuffetRouge]1を得る"
+    },
+    {
+      "id": 151802,
+      "name": "地面にこびり付いた肉片",
+      "desc": "囚人はターゲットに指定できない"
+    },
+    {
+      "id": 151709,
+      "name": "押し退けることも、握ることもできぬ手",
+      "desc": "ターン開始時、戦場のル・ルージュ 上級スタッフ1人につき[Protection]2を得る\n- ル・ルージュ 上級スタッフが死亡するたびに[Protection]が2減少\n\n<color=#ff6000><mark=#ff000040><b><u>ル・ルージュ 上級スタッフが全員死亡した状態</u></b></mark></color>なら、下記の効果を適用\n- [Vulnerable]2を得る\n- スキル使用時、対象が[BuffetScruple]を保有していれば、コイン威力 -1",
+      "flavor": "手…まだ、握ってくれる…？",
+      "summary": "コイン威力が減少"
+    }
+  ]
+}

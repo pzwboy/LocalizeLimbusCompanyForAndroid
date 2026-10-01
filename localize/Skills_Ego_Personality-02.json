@@ -1082,6 +1082,216 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 2021111,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "穴(le trou)",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantDuel]\n戦闘で初めて使用時、精神力消耗量が5減少し、必要なE.G.O資源が憂鬱2, 傲慢2, 嫉妬2減少\n[BulletHole]が1以上なら、「ブーシェ」として発動\nこのスキルは敵に的中せず、守備スキルを発動させない。外部効果で再使用不可\n[EndSkill] [BulletHole]5を得る\n[EndSkill] [Breath]威力5を得る\n[EndSkill] [Breath]回数3を得る\n[EndSkill] [Charge]回数5を得る\n[EndSkill] [BlackWingHole]4を得る",
+                    "coinlist": [
+                        {}
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "穴(le trou)",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantDuel]\n戦闘で初めて使用時、精神力消耗量が5減少し、必要なE.G.O資源が憂鬱2, 傲慢2, 嫉妬2減少\n[BulletHole]が1以上なら、「ブーシェ」として発動\nこのスキルは敵に的中せず、守備スキルを発動させない。外部効果で再使用不可\n[EndSkill] [BulletHole]5を得る\n[EndSkill] [Breath]威力5を得る\n[EndSkill] [Breath]回数3を得る\n[EndSkill] [Charge]回数5を得る\n[EndSkill] [BlackWingHole]4を得る",
+                    "coinlist": [
+                        {}
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "穴(le trou)",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantDuel]\n戦闘で初めて使用時、精神力消耗量が5減少し、必要なE.G.O資源が憂鬱2, 傲慢2, 嫉妬2減少\n[BulletHole]が1以上なら、「ブーシェ」として発動\nこのスキルは敵に的中せず、守備スキルを発動させない。外部効果で再使用不可\n[EndSkill] [BulletHole]5を得る\n[EndSkill] [Breath]威力5を得る\n[EndSkill] [Breath]回数3を得る\n[EndSkill] [Charge]回数5を得る\n[EndSkill] [BlackWingHole]4を得る",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2021112,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "ブーシェ(boucher un trou)",
+                    "abName": "穴の開いた人",
+                    "desc": "このスキルは外部効果で再使用できない\n自分の([Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大5)\n自分の[BulletHole]1につき、マッチ威力 +2\n[BeforeAttack] [BulletHole]を全て消耗し、下記の効果を適用\n- 消耗量1につき、[Breath]威力2, [Breath]回数1, [Charge]回数2を得る\n- 消耗量1につき、ダメージ量 +8%\nこのスキルで[BulletHole]を5消耗したなら、精神力を5回復\n[EndSkill] [BulletHole]1を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "(消耗した[BulletHole]の数 - 1)だけこのコインを再使用 (最大4回)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]1を付与"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "ブーシェ(boucher un trou)",
+                    "abName": "穴の開いた人",
+                    "desc": "このスキルは外部効果で再使用できない\n<style=\"highlight\">このスキルの攻撃加重値よりも少ない攻撃対象1につき、ダメージ量 +5% (集中戦闘の場合は部位で判定)</style>\n自分の([Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">7</style>)\n自分の[BulletHole]1につき、マッチ威力 +2\n<style=\"highlight\">[BeforeAttack] 攻撃対象が1名なら、ダメージ量 +50% (集中戦闘の場合、本体を基準に判定)</style>\n[BeforeAttack] [BulletHole]を全て消耗し、下記の効果を適用\n- 消耗量1につき、[Breath]威力2, [Breath]回数1, [Charge]回数2を得る\n- 消耗量1につき、ダメージ量 +8%\nこのスキルで[BulletHole]を5消耗したなら、精神力を5回復\n[EndSkill] [BulletHole]1を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "(消耗した[BulletHole]の数 - 1)だけこのコインを再使用 (最大4回)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]1を付与<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "ブーシェ(boucher un trou)",
+                    "abName": "穴の開いた人",
+                    "desc": "このスキルは外部効果で再使用できない\nこのスキルの攻撃加重値よりも少ない攻撃対象1につき、ダメージ量 <style=\"highlight\">+10%</style> (集中戦闘の場合は部位で判定)\n自分の([Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">10</style>)\n自分の[BulletHole]1につき、マッチ威力 +2\n[BeforeAttack] 攻撃対象が1名なら、ダメージ量 <style=\"highlight\">+100%</style> (集中戦闘の場合、本体を基準に判定)\n[BeforeAttack] [BulletHole]を全て消耗し、下記の効果を適用\n- 消耗量1につき、[Breath]威力2, [Breath]回数1, [Charge]回数2を得る\n- 消耗量1につき、ダメージ量 +8%\n<style=\"highlight\">[EndSkill] 味方2+(最大共鳴数)名に[Breath]威力5, [Breath]回数2を付与 (最大7名)</style>\nこのスキルで[BulletHole]を5消耗したなら、精神力を5回復\n[EndSkill] [BulletHole]1を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "(消耗した[BulletHole]の数 - 1)だけこのコインを再使用 (最大4回)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]1を付与<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2021121,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の([Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大5)\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 自分の[Charge]回数のうち10を超える分を最大15まで消耗し、ダメージ量 +(消耗量 × 2)%\n[BeforeAttack] 自分の[BulletHole]が最大値なら、全て消耗し、次のターンに全ての味方へ下記の効果を適用\n- [AttackUp]1を付与\n- [AttackDmgUp]1を付与 (1ターンにつき1回)\n- [CriticalDamageUp]1を付与 (1ターンにつき1回)\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -3 (最大-9)\n[EndSkill] [BulletHole]1, [BlackWingHole]2を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が2増加"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]2を付与"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の([Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">7</style>)\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 自分の[Charge]回数のうち10を超える分を最大15まで消耗し、ダメージ量 +(消耗量 × <style=\"highlight\">3</style>)%\n[BeforeAttack] 自分の[BulletHole]が最大値なら、全て消耗し、次のターンに全ての味方へ下記の効果を適用\n- [AttackUp]1を付与\n- [AttackDmgUp]1を付与 (1ターンにつき1回)\n- [CriticalDamageUp]1を付与 (1ターンにつき1回)\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -3 (最大-9)\n[EndSkill] [BulletHole]1, [BlackWingHole]2を得る\n<style=\"highlight\">[EndSkill] ランダムな味方2+(最大共鳴数)名に[Breath]威力5, [Breath]回数2を付与 (最大7名)</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が2増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]2を付与<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\n自分の([Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">10</style>)\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 自分の[Charge]回数のうち10を超える分を最大15まで消耗し、ダメージ量 +(消耗量 × <style=\"highlight\">5</style>)%\n[BeforeAttack] 自分の[BulletHole]が最大値なら、全て消耗し、次のターンに全ての味方へ下記の効果を適用\n- [AttackUp]1を付与\n- [AttackDmgUp]1を付与 (1ターンにつき1回)\n- [CriticalDamageUp]1を付与 (1ターンにつき1回)\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -3 (最大-9)\n[EndSkill] [BulletHole]1, [BlackWingHole]2を得る\n[EndSkill] ランダムな味方2+(最大共鳴数)名に[Breath]威力5, [Breath]回数2, <style=\"highlight\">[BlackWingHole]2</style>を付与 (最大7名)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が2増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]2を付与<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

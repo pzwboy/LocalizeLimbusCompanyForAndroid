@@ -1033,6 +1033,382 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 2051011,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "スキル使用中に攻撃対象が死亡した場合、体力が最も低い攻撃対象を優先指定 (集中戦闘の場合は部位で判定)\n\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大5)\n自分の[BulletHole]1につき、マッチ威力 +2\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 精神力を(5-保有する[BulletHole]) × 3だけ消耗し、[BulletHole]を最大値まで得る\n\n[EndSkill] [BlackWingHole]2を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "このコインはメインターゲットにのみ的中する"
+                                },
+                                {
+                                    "desc": "[BulletHole]1を消耗"
+                                },
+                                {
+                                    "desc": "クリティカルダメージ量 +10%"
+                                },
+                                {
+                                    "desc": "このコインの初回使用時なら、\n- ダメージ量 +(自分の[Charge]回数 × 5)% (最大100%)\n- クリティカルダメージ量 +(自分の[Breath]威力 × 回数)% (最大100%)\n- このコインに限り、対象の貫通属性耐性を脆弱に変更する"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]1を付与"
+                                },
+                                {
+                                    "desc": "[EndCoin] [BulletHole]が1以上ならこのコインを再使用 (スキルにつき4回)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "クリティカルダメージ量 +30%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "スキル使用中に攻撃対象が死亡した場合、体力が最も低い攻撃対象を優先指定 (集中戦闘の場合は部位で判定)\n\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">7</style>)\n自分の[BulletHole]1につき、マッチ威力 +2\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 精神力を(5-保有する[BulletHole]) × 3だけ消耗し、[BulletHole]を最大値まで得る\n\n[EndSkill] [BlackWingHole]2を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "このコインはメインターゲットにのみ的中する<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[BulletHole]1を消耗<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "クリティカルダメージ量 <style=\"highlight\">+15%</style>"
+                                },
+                                {
+                                    "desc": "このコインの初回使用時なら、\n- ダメージ量 +(自分の[Charge]回数 × 5)% (最大100%)\n- クリティカルダメージ量 +(自分の[Breath]威力 × 回数)% (最大100%)\n- このコインに限り、対象の貫通属性耐性を脆弱に変更する<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]1を付与<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] 最後のコインの威力 +1</style>"
+                                },
+                                {
+                                    "desc": "[EndCoin] [BulletHole]が1以上ならこのコインを再使用 (スキルにつき4回)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "クリティカルダメージ量 <style=\"highlight\">+50%</style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnStartCoin] 攻撃対象が1名なら、ダメージ量 +50% (集中戦闘の場合、本体を基準に判定)</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "スキル使用中に攻撃対象が死亡した場合、体力が最も低い攻撃対象を優先指定 (集中戦闘の場合は部位で判定)\n\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">10</style>)\n自分の[BulletHole]1につき、マッチ威力 +2\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 精神力を(5-保有する[BulletHole]) × 3だけ消耗し、[BulletHole]を最大値まで得る\n\n[EndSkill] [BlackWingHole]2を得る",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "このコインはメインターゲットにのみ的中する<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[BulletHole]1を消耗<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "クリティカルダメージ量 <style=\"highlight\">+20%</style>"
+                                },
+                                {
+                                    "desc": "このコインの初回使用時なら、\n- ダメージ量 +(自分の[Charge]回数 × 5)% (最大100%)\n- クリティカルダメージ量 +(自分の[Breath]威力 × 回数)% (最大100%)\n- このコインに限り、対象の貫通属性耐性を脆弱に変更する<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] [PenetrateTakeDamageUp]1を付与 (スキルにつき1回)</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]1を付与<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 最後のコインの威力 +1<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[EndCoin] [BulletHole]が1以上ならこのコインを再使用 (スキルにつき4回)<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "クリティカルダメージ量 +50%<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] 攻撃対象が1名なら、ダメージ量 <style=\"highlight\">+100%</style> (集中戦闘の場合、本体を基準に判定)"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnStartCoin] 自分の[Charge]回数4につき、コイン威力 +1 (最大5)</style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2051021,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nこのスキルは守備スキルを発動させない (マッチ可能な守備を含む)\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大5)\n[BeforeAttack] 自分に[BulletHole]がないなら、[BulletHole]1を得る\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -2 (最大-4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] [BlackWingHole]5を得る"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] 自分の[Charge]回数が5増加"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] [Breath]5を得る"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "このコインの裏面確率は精神力に関係なく、(自分が保有する[BulletHole] × 20)%の確率で適用される"
+                                },
+                                {
+                                    "desc": "[CoinHead]\n- このコインは的中しない"
+                                },
+                                {
+                                    "desc": "- [EndCoin] [Breath]5を得る"
+                                },
+                                {
+                                    "desc": "- [EndCoin] 自分の[Breath]回数が3増加"
+                                },
+                                {
+                                    "desc": "- [EndCoin] [BulletHole]2を得る"
+                                },
+                                {
+                                    "desc": "- [EndCoin] このスキルで消耗したE.G.O資源の半分が返還される (小数点切り捨て)"
+                                },
+                                {
+                                    "desc": "[CoinTail]\n- ダメージ量 +(自分の充電回数 × 3)% (最大60%)"
+                                },
+                                {
+                                    "desc": "- クリティカルダメージ量 +70%"
+                                },
+                                {
+                                    "desc": "- [OnSucceedAttack] このコインの最終ダメージ量の10%分の貫通ダメージ"
+                                },
+                                {
+                                    "desc": "- [EndCoin] 自分の[BulletHole]を全て消耗"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]5を付与"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nこのスキルは守備スキルを発動させない (マッチ可能な守備を含む)\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">7</style>)\n\n<style=\"highlight\">[BeforeAttack] 攻撃対象が1名なら、ダメージ量 +100% (集中戦闘の場合、本体を基準に判定)</style>\n[BeforeAttack] 自分に[BulletHole]がないなら、[BulletHole]1を得る\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -2 (最大-4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] [BlackWingHole]5を得る<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] 自分の[Charge]回数が5増加<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] [Breath]5を得る<style=\"highlight\"></style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "このコインの裏面確率は精神力に関係なく、(自分が保有する[BulletHole] × 20)%の確率で適用される<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[CoinHead]\n- このコインは的中しない<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] [Breath]5を得る<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] 自分の[Breath]回数が3増加<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] [BulletHole]2を得る<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] このスキルで消耗したE.G.O資源の半分が返還される (小数点切り捨て)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[CoinTail]\n- ダメージ量 +(自分の充電回数 × <style=\"highlight\">4)% (最大80%)</style>"
+                                },
+                                {
+                                    "desc": "- クリティカルダメージ量 <style=\"highlight\">+100%</style>"
+                                },
+                                {
+                                    "desc": "- [OnSucceedAttack] このコインの最終ダメージ量の<style=\"highlight\">15%</style>分の貫通ダメージ"
+                                },
+                                {
+                                    "desc": "- [EndCoin] 自分の[BulletHole]を全て消耗<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]5を付与<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "name": "穴",
+                    "abName": "穴の開いた人",
+                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nこのスキルは守備スキルを発動させない (マッチ可能な守備を含む)\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">10</style>)\n\n[BeforeAttack] 攻撃対象が1名なら、ダメージ量 <style=\"highlight\">+200% (集中戦闘の場合、本体を基準に判定)\n[BeforeAttack] 最終威力 +(自分の[BulletHole]の値)</style>\n[BeforeAttack] 自分に[BulletHole]がないなら、[BulletHole]1を得る\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -2 (最大-4)\n<style=\"highlight\">[EnemyKill] 精神力を5回復</style>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] [BlackWingHole]5を得る<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] 自分の[Charge]回数が5増加<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnStartCoin] [Breath]5を得る<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 次のターンに[Binding]1を付与</style>"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "このコインの裏面確率は精神力に関係なく、(自分が保有する[BulletHole] × 20)%の確率で適用される<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[CoinHead]\n- このコインは的中しない<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] [Breath]5を得る<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] 自分の[Breath]回数が3増加<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">- [EndCoin] 自分に付与された解除可能なマイナス効果をランダムに1つ除去</style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] [BulletHole]2を得る<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] このスキルで消耗したE.G.O資源の半分が返還される (小数点切り捨て)<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[CoinTail]\n- ダメージ量 +(自分の充電回数 × <style=\"highlight\">5)% (最大100%)</style>"
+                                },
+                                {
+                                    "desc": "- クリティカルダメージ量 <style=\"highlight\">+130%</style>"
+                                },
+                                {
+                                    "desc": "- [OnSucceedAttack] このコインの最終ダメージ量の<style=\"highlight\">20%</style>分の貫通ダメージ"
+                                },
+                                {
+                                    "desc": "<style=\"highlight\">- [EnemyKill] 自分の体力最大値の5%分、体力を回復</style>"
+                                },
+                                {
+                                    "desc": "- [EndCoin] 自分の[BulletHole]を全て消耗<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]5を付与<style=\"highlight\"></style>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加<style=\"highlight\"></style>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

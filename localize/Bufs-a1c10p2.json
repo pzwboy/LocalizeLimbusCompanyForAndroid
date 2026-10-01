@@ -94,28 +94,28 @@
             "name": "漂流慣性",
             "desc": "- <color=#FCC700>特殊充能</color>\n- 最大層数：20\n- 本效果強度与層数的増減同様受普通充能 影響\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
             "summary": "",
-            "flavor": "漂流者即便不能左右潮流，也会鞏固潮流，并在潮流中完成自己的工作。"
+            "flavor": "漂流者即便不能左右流向，也会鞏固流向，并在流向中完成自己的工作。"
         },
         {
             "id": "FinishedFabric",
             "name": "裁剪過的面料",
             "desc": "- 最大値：30\n- 獲得或消耗充能 層数(包括<color=#FCC700>特殊充能</color>)的技能造成的<color=#ffffff>傷害</color>+(本效果層数)%(最多+30%)\n- <color=#7C5738>回合結束</color>時，本效果層数減少5層\n· 若<color=#7C5738>本回合</color><color=#ffffff>自身</color><color=#81BBE8>護盾</color>被破坏，則改為減少10層",
             "summary": "",
-            "flavor": "具有各自功能的不同面料，需要合适的裁剪才能発揮其應有的功能。"
+            "flavor": "具有各自功能的不同面料，需要适当的裁剪才能発揮其應有的功能。"
         },
         {
             "id": "LargeTailoringShears",
             "name": "飾花剪刀",
             "desc": "- 最大値：3\n- 対罪人造成的<color=#ffffff>傷害</color>+(5+本效果層数×5)%(最多+20%)\n- 対帯有修改対象 的罪人使用技能時，使<color=#ffffff>自身</color><color=#ffffff>拼点威力</color>増加相当于本效果層数的数値",
             "summary": "",
-            "flavor": "為了将其用于剪断于地下制成的最初的材料，剪刀被做得更加特別而巨大。這把一直剪裁着最初織成的布料的剪刀綻放花朶，是因其切断了根源而産生的自然現象。"
+            "flavor": "為了用它去剪断于地下制成的最初的材料，剪刀被做得更加特別而巨大。這把一直剪裁着最初織成的布料的剪刀綻放花朶，是其切断根源所産生的自然現象。"
         },
         {
             "id": "TailoringTarget",
             "name": "修改対象",
             "desc": "- 最小与最大<color=#7C5737>速度値</color>+5\n- <color=#7C5738>本回合</color>使用的首个技能<color=#ffffff>拼点威力</color>+3\n- <color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>装備了守備技能，則使<color=#ffffff>自身</color>受到来自改衣師安倪特的<color=#ffffff>傷害</color>-80%\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
             "summary": "",
-            "flavor": "并非根据人来修改衣服，而是依据衣服来修改人。在這里，人由衣服来决定。因此，将衣服保護起来而去修改人是維護价値、為顧客着想的選擇。"
+            "flavor": "并非根据人来修改衣服，而是依据衣服来修改人。在這里，人由衣服来决定。因此，将衣服保存起来而去修改人是維護价値、為顧客着想的選擇。"
         },
         {
             "id": "ScissorsMark",
@@ -129,7 +129,7 @@
             "name": "已被裁断",
             "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有6層本效果，対<color=#ffffff>自身</color>施加1層<color=#61DA61>体力</color>恢復降低 (最多5層)\n- 与“紙様制作”或“鏈式鎖辺”進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>減少相当于本效果層数的数値",
             "summary": "",
-            "flavor": "被裁剪過的布料即便再度縫合起来也只是拼布而已，无法再回到原来由綫連接的状態。"
+            "flavor": "被裁剪過的布料即便再度縫合起来也只是拼布而已，无法再回到原来由綫連接的布的状態。"
         },
         {
             "id": "ThirdTailor_LowMorale",
@@ -137,7 +137,7 @@
             "desc": "- 士气低落\n受到的<color=#ffffff>傷害</color>+7.5%\n<color=#ffffff>自身</color>每次受到攻撃時，対<color=#ffffff>自身</color>施加1層震顫 (每个技能最多1次，<color=#7C5738>每回合</color>最多5次)",
             "summary": "",
             "undefined": "-",
-            "flavor": "双手開始顫抖的話，剪刀也会随之不穏……不能在這様裁剪下去了……"
+            "flavor": "双手開始顫抖的話，剪刀也会随之不穏……不能再這様裁剪下去了……"
         },
         {
             "id": "ThirdTailor_Panic",
@@ -145,7 +145,7 @@
             "desc": "- 陷入恐慌\n受到的<color=#ffffff>傷害</color>+15%\n<color=#ffffff>自身</color>每次受到攻撃時，使<color=#ffffff>自身</color>増加1級震顫 強度并対<color=#ffffff>自身</color>施加1層震顫 (每个技能最多1次，<color=#7C5738>每回合</color>最多5次)",
             "summary": "",
             "undefined": "-",
-            "flavor": "双手開始顫抖的話，剪刀也会随之不穏……不能在這様裁剪下去了……"
+            "flavor": "双手開始顫抖的話，剪刀也会随之不穏……不能再這様裁剪下去了……"
         },
         {
             "id": "GoldenLeatherEnhance",
@@ -159,7 +159,7 @@
             "name": "漆黑之神的加護",
             "desc": "- 強度最大値：999\n- 層数基礎値：2\n- 不会陷入混乱\n- <color=#7C5738>回合開始</color>時，<color=#ffffff>部位</color>獲得相当于本效果層数的<color=#81BBE8>護盾</color>\n- 本效果視作“<color=#81BBE8>護盾</color>管理”效果\n- <color=#81BBE8>護盾</color>減少時，本效果層数相應減少\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
             "summary": "",
-            "flavor": "漆黑之神。漆黑的巨人。錘派的牧師。身負存續的権能的漆黑之神通過最直接的接触帯来的加護。錘子堅硬，而黑色吸收一切，使其静止。如同死亡的属性一般。"
+            "flavor": "漆黑之神。漆黑的巨人。錘之牧師。身負保存之権能的百貨店的漆黑之神通過最直接的接触帯来的加護。錘子堅硬，而黑色吸收一切，使其静止。如同死亡的属性一般。"
         },
         {
             "id": "NoirShieldPiece",

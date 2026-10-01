@@ -618,13 +618,25 @@
         },
         {
             "id": 2061011,
-            "name": "无人会傷害他人的都市",
+            "name": "无人会傷害他人的城市",
             "desc": "最大[Charge]層数+5\n\n消耗[Charge]層数或特殊[Charge]的3技能(不包括E.G.O技能)造成的<color=#ffffff>傷害</color>+10%\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color><color=#7C5738>本回合</color>未受到攻撃，則使<color=#ffffff>自身</color>恢復4点<color=#81BBE8>理智値</color>\n- 若<color=#ffffff>自身</color>擁有不低于2个減算硬幣基礎攻撃技能，則改為失去4点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点)"
         },
         {
             "id": 2091011,
             "name": "分裂的触覚",
             "desc": "<color=#ffffff>自身</color>増加[Breath]強度或獲得[Breath]層数時，使<color=#ffffff>自身</color>獲得1層[Breath](<color=#7C5738>每回合</color>最多2次)\n\n若<color=#ffffff>自身</color>為[PersonalityBreath]或[PersonalityVibration]，則使<color=#ffffff>自身</color><color=#ffffff>攻撃容量</color>為1的基礎技能或[WideAreaRampage]基礎技能造成的<color=#ffffff>傷害</color>+10%\n\n攻撃后，若<color=#ffffff>目標</color>陷入混乱或陣亡，則<color=#7C5738>下回合</color>随机使除該単位以外的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加共計該単位[Vibration]強度1/3的[Vibration]強度(向上取整，若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n- 該效果不会与E.G.O飾品“鏡反射触覚聯覚”的效果畳加"
+        },
+        {
+            "id": 2021111,
+            "name": "ル・トゥルー・ドゥ・ヴィダンジュ(le trou de vidange)",
+            "desc": "自分の[BulletHole]が5なら、「穴」E.G.Oスキル(覚醒、侵蝕)使用時にE.G.O資源を消耗しない\n\nターン開始時、[BulletHole]1、[BlackWingHole]1を得る\n\n味方が敵を倒すと、そのキャラクターの精神力を5回復し、次のターンに[Enhancement]1を付与 (1ターンにつき1回)\n\n[Charge]回数の最大値 +5\n\n自分の[Charge]回数の最大値を超えて[Charge]回数を得ると、超過した数値だけ[Breath]の威力または回数をランダムに得る (1ターンにつき最大6まで変換可能)",
+            "flavor": "穴は穿たれて生じるのではなく、欠如によって生じるもの。穴は満たされることを望むが、かえって溢れ出る。"
+        },
+        {
+            "id": 2051011,
+            "name": "レモラジー・アンテルヌ(l'hémorragie interne)",
+            "desc": "[AlwaysUseEGOPassive]\n自分の[BulletHole]が5なら、「穴」E.G.Oスキル(覚醒、侵蝕)使用時にE.G.O資源を消耗しない\n\nターン開始時、[BulletHole]1を得る\n\n[WhenUseEGOPassive]\nターン開始時、[BlackWingHole]1を得る\n\n自分が[Bullet]を累計3個消耗するか失うたびに精神力を5回復し、次のターンに[ResultEnhancement]1を得る (特殊[Bullet]を含む。1ターンにつき[Bullet]最大9個まで判定)",
+            "flavor": "他者の視線が私に突き刺さって穴を開け、あらゆるものを溢れ出させる。溢れ出たものは弾丸となり、再び君へ撃ち出されて穴を穿つ。"
         }
     ]
 }

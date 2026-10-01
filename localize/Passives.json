@@ -3322,6 +3322,46 @@
             "desc": "使<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color>的<color=#ffffff>斬撃</color>基礎技能造成的<color=#ffffff>傷害</color>+10%",
             "summary": "額外<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>",
             "flavor": "把剪刀中最珍貴的一把給袮。"
+        },
+        {
+            "id": 1031501,
+            "name": "黒き言約",
+            "desc": "戦闘終了時、自分に[OathFieldDonQuixote]があれば、次のターンに[Agility]1を得る\n\n自分の基本攻撃スキルでメインターゲットへの与ダメージ量 +(自分の[ChargeNoirAlly]威力 × 3)% (最大15%)",
+            "summary": "[OathFieldDonQuixote]があれば、次のターンに[Agility]を得る\n基本攻撃スキルでメインターゲットへの与ダメージ量が増加[TabExplain]",
+            "flavor": "あの方の声を聞いた。そして、あの方は約束された。この全てに意味があると。"
+        },
+        {
+            "id": 1031502,
+            "name": "マレウス・プロミッシオニス",
+            "desc": "ステージ初登場時、自分の[ChargeNoirAlly]回数が10増加し、自分以外のル・ノワール所属の味方人格の[Charge]回数が2増加\n\nスキル効果で[NoirNailDonQuixote]付与時、自分の[ChargeNoirAlly]回数が\n- 12以上なら、[NoirNailDonQuixote]の付与量 +1、自分の[ChargeNoirAlly]回数を4消耗\n- 12未満なら、自分の[ChargeNoirAlly]回数を2消耗\n- 足りなければ、代わりに[NoirNailDonQuixote]を付与しない\n- この効果によって、[NoirNailDonQuixote]を付与するスキルは[Charge]回数を消耗するスキルとして扱われる\n\n戦闘中、自分の[ChargeNoirAlly]回数を累計10消耗するたびに[ChargeNoirAlly]威力1を得る",
+            "summary": "[ChargeNoirAlly]回数とル・ノワール所属の味方の[Charge]回数が増加\n[NoirNailDonQuixote]の付与時に[ChargeNoirAlly]回数を消耗し、[ChargeNoirAlly]回数が一定以上なら付与量が増加\n[ChargeNoirAlly]回数を累計で消耗すると[ChargeNoirAlly]威力を得る",
+            "flavor": "金鎚は釘を刺す。金鎚が叩くのは釘だけだ。金鎚で打たれるものは釘なのだ。そう約束された。"
+        },
+        {
+            "id": 1031503,
+            "name": "保存の使命",
+            "desc": "ステージ初登場時、[NoirShieldUpDonQuixote]25を得る\n\n自分の[ChargeNoirAlly]回数を消耗するか、最大値を超えて得ると、(その数値 × 5)だけ[NoirShieldUpDonQuixote]を得る (1ターンにつき最大30)\n\nバリアがある味方人格の被撃時、自分が[NoirShieldUpDonQuixote]2を得る (1ターンにつき最大10)\n- その味方人格が[PersonalityCharge]なら、代わりに[NoirShieldUpDonQuixote]5を得る",
+            "summary": "[NoirShieldUpDonQuixote]を得る"
+        },
+        {
+            "id": 1031504,
+            "name": "神の意志と価値が我らと共にあらん…。",
+            "desc": "自分以外のル・ノワール所属の味方人格が敵へ攻撃を開始する前に、自分が「審判！」でメインターゲットを優先して一方攻撃する (1ターンにつき1回)\n\n基本スキルの最後のコイン開始時、(自分の[ChargeNoirAlly]威力 + 対象の[NoirNailDonQuixote]÷2)だけ、そのコインの最終威力が増加 (最大5)\n\n自分に[OathFieldDonQuixote]があれば、基本スキル1/2/3のマッチ威力 +1/+2/+3\n\n[NoirNailDonQuixote]がある対象に[VibrationExplosion]が発生すると、自分と、自分以外で[Charge]回数が最も少ない味方[PersonalityCharge]1名の[Charge]回数が2増加 (1ターンにつき2回)",
+            "summary": "ル・ノワール所属の味方が攻撃する前に「審判！」を使用\n基本スキルの最後のコインの最終威力が増加[TabExplain]\n[OathFieldDonQuixote]があれば、基本スキルのマッチ威力が増加[TabExplain]\n[NoirNailDonQuixote]がある対象に[VibrationExplosion]時、[Charge]回数が増加",
+            "flavor": "全てが不確かなこの世界で、我らを導き守るものはただ一つ、黒き神の御言葉。その御言葉が道となり、光となって我らを照らしたまえば、初めて我らに意味が与えられた。"
+        },
+        {
+            "id": 1031511,
+            "name": "黒き言約",
+            "desc": "戦闘終了時、自分に[OathFieldDonQuixote]があれば、次のターンに[Agility]2を得る\n\n自分の基本攻撃スキルでメインターゲットへの与ダメージ量 +(自分の[ChargeNoirAlly]威力 × 6)% (最大30%)",
+            "summary": "[OathFieldDonQuixote]があれば、次のターンに[Agility]を得る\n基本攻撃スキルでメインターゲットへの与ダメージ量が増加[TabExplain]",
+            "flavor": "あの方の声を聞いた。そして、あの方は約束された。この全てに意味があると。"
+        },
+        {
+            "id": 1031521,
+            "name": "陣形保存",
+            "desc": "戦闘開始時、戦場にいる味方[PersonalityCharge]1名につき、このターンに全ての味方[PersonalityCharge]の被ダメージ量 -2% (最小-10%)",
+            "summary": "味方の[PersonalityCharge]の被ダメージ量が減少"
         }
     ]
 }
