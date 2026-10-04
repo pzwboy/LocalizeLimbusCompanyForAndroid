@@ -1,58 +1,58 @@
 {
-  "dataList": [
-    {
-      "key": "Q5000_C2",
-      "title": "5階の奥へ向かう",
-      "description": "5階へ上がってきた。引き続き5階の奥へ進んでみよう。",
-      "steps": [
+    "dataList": [
         {
-          "index": 0,
-          "goalDescription1": "5階の奥へ向かう"
-        }
-      ]
-    },
-    {
-      "key": "Q5001_C2",
-      "title": "ビュッフェを阻む",
-      "description": "5階には、以前とは違って肥大化していないビュッフェがいた。ビュッフェは私たちに留まり続けてほしがっているが、そうはいかない。先へ進むためには、ビュッフェを倒さなければならない。",
-      "steps": [
+            "key": "Q5000_C2",
+            "title": "前往5F深処",
+            "description": "我們到5F了。継續前往5F深処叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往5F深処"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "ビュッフェを阻む"
-        }
-      ]
-    },
-    {
-      "key": "Q5002_C2",
-      "title": "5階の奥へ進む",
-      "description": "ル・ルージュの赤き神であったビュッフェ、そして同時に私たちの同行者でもあったプイはもう動かない。引き続き5階の奥へ進んでみよう。",
-      "steps": [
+            "key": "Q5001_C2",
+            "title": "阻止自助餐",
+            "description": "5F里有一个和之前不同、還没有変得巨大的自助餐。自助餐希望我們留下，但那様不行。為了継續前進，我們必須打倒自助餐。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "阻止自助餐"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "5階の奥へ進む"
-        }
-      ]
-    },
-    {
-      "key": "Q5003_C2",
-      "title": "6階へ向かう",
-      "description": "食事を終えると、6階へ向かう道が開けた。6階へ向かおう。",
-      "steps": [
+            "key": "Q5002_C2",
+            "title": "前往5F深処",
+            "description": "曾作為紅派的赤紅之神而存在的自助餐，同時也是与我們同行的支咿，此時已經一動不動了。継續前往5F深処叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往5F深処"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "6階へ向かう"
-        }
-      ]
-    },
-    {
-      "key": "Q5004T_C2",
-      "title": "ビュッフェ開戦信号",
-      "steps": [
+            "key": "Q5003_C2",
+            "title": "前往6F",
+            "description": "用餐結束后，通往6F的道路打開了。前往6F叭。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前往6F"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "ビュッフェ開戦"
+            "key": "Q5004T_C2",
+            "title": "与自助餐的開戦信号",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "与自助餐開戦"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

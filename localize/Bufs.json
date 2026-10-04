@@ -2125,7 +2125,7 @@
         {
             "id": "DefensiveStance",
             "name": "防御姿態",
-            "desc": "- 最大値：2\n-  本效果无法畳加，施加本效果時会改為将現存層数変為施加的層数\n- <color=#7C5738>回合結束</color>時本效果的層数減少1層\n- 単位獲得本效果時，<color=#7C5738>下回合</color>使其：\n· 使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為最小値\n· 獲得5層防御等級提升 \n· <color=#ffffff>自身</color>每个<color=#ffffff>行動槽</color>的挑釁値 +(10/<color=#ffffff>自身</color>的<color=#ffffff>行動槽</color>数)\n· 連接技能時，可无視<color=#7C5737>速度値</color>使攻撃<color=#ffffff>目標</color>改為<color=#ffffff>自身</color>(<color=#ffffff>集中遭遇戦</color>専属)\n· 拼点勝利時，使<color=#ffffff>目標</color>震顫引爆 \n· 不会因受到<color=#ffffff>傷害</color>而陷入混乱",
+            "desc": "- 最大値：2\n- 本效果无法畳加，施加本效果時会改為将現存層数変為施加的層数\n- <color=#7C5738>回合結束</color>時本效果的層数減少1層\n- 単位獲得本效果時，<color=#7C5738>下回合</color>使其：\n· 使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>固定為最小値\n· 獲得5層防御等級提升 \n· <color=#ffffff>自身</color>每个<color=#ffffff>行動槽</color>的挑釁値 +(10/<color=#ffffff>自身</color>的<color=#ffffff>行動槽</color>数)\n· 連接技能時，可无視<color=#7C5737>速度値</color>使攻撃<color=#ffffff>目標</color>改為<color=#ffffff>自身</color>(<color=#ffffff>集中遭遇戦</color>専属)\n· 拼点勝利時，使<color=#ffffff>目標</color>震顫引爆 \n· 不会因受到<color=#ffffff>傷害</color>而陷入混乱",
             "summary": ""
         },
         {
@@ -2532,7 +2532,7 @@
         {
             "id": "EntangledCurseTalisman",
             "name": "糾纏不休的咒符",
-            "desc": "- 最大値：10\n- <color=#7C5738>回合結束</color>時解除\n-  若本效果層数不低于10層，則<color=#ffffff>自身</color>受到不低于30点来自技能的<color=#ffffff>傷害</color>時，対<color=#ffffff>自身</color>施加1層破裂 ;受到相当于<color=#ffffff>自身</color>破裂 強度的<color=#A6FE00>暴食</color><color=#ffffff>傷害</color>(<color=#7C5738>每回合</color>最多1次)\n- 本效果解除時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加(本效果層数/4)層虚弱 (最多2層)\n※帯有本效果時，本效果層数不会額外獲得",
+            "desc": "- 最大値：10\n- <color=#7C5738>回合結束</color>時解除\n- 若本效果層数不低于10層，則<color=#ffffff>自身</color>受到不低于30点来自技能的<color=#ffffff>傷害</color>時，対<color=#ffffff>自身</color>施加1層破裂 ;受到相当于<color=#ffffff>自身</color>破裂 強度的<color=#A6FE00>暴食</color><color=#ffffff>傷害</color>(<color=#7C5738>每回合</color>最多1次)\n- 本效果解除時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加(本效果層数/4)層虚弱 (最多2層)\n※帯有本效果時，本效果層数不会額外獲得",
             "summary": "",
             "undefined": "-"
         },
@@ -4104,7 +4104,7 @@
         {
             "id": "ChargeRougeAlly",
             "name": "搏動",
-            "desc": "- <color=#FCC700>特殊充能</color>\n- 最大層数：20\n- 本效果強度与層数的増減同様受普通充能 影響\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+            "desc": "- 特殊充能\n- 最大層数：20\n- 本效果強度与層数的増減同様受普通充能 影響\n- 回合結束時，本效果的層数減少1層\n\n<color=#1aece7>累計消耗層数：{2}</color>",
             "summary": "",
             "undefined": "-"
         },
@@ -4201,62 +4201,62 @@
         },
         {
             "id": "BlackWingHoleFaust",
-            "name": "黒い傘",
-            "desc": "- 最大値 : 5",
+            "name": "黑之傘",
+            "desc": "- 最大値：5",
             "summary": ""
         },
         {
             "id": "BulletWoundHole",
-            "name": "銃創",
+            "name": "槍傷",
             "desc": "",
             "summary": ""
         },
         {
             "id": "BulletHole",
-            "name": "灰色の弾丸",
-            "desc": "- 特殊弾丸\n- 最大値 : 5\n- この弾丸は「穴」E.G.O以外の外部効果で得たり、数値が増加したりすることはない",
+            "name": "灰色子彈",
+            "desc": "- 特殊彈薬\n- 最大値：5\n- 本彈薬不会因除“空洞”E.G.O以外的外部效果獲得或増加",
             "summary": ""
         },
         {
             "id": "BlackWingHole",
-            "name": "黒い翼",
-            "desc": "- 最大値 : 12\n- ターン開始時、自分の充電回数が(数値÷4)だけ増加 (小数点切り捨て)\n- ターン開始時、数値4につき攻撃レベル増加1を得る\n- 自分が充電・呼吸を得るか消耗するスキルのダメージ量 +(数値)%",
+            "name": "黑之翼",
+            "desc": "- 最大値：12\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得(本效果層数/4)層充能 (向下取整)\n- <color=#7C5738>回合開始</color>時，每帯有4層本效果，使<color=#ffffff>自身</color>獲得1層攻撃等級提升 \n- 使<color=#ffffff>自身</color>獲得或消耗充能 或呼吸法 的技能造成的<color=#ffffff>傷害</color>+(本效果層数)%",
             "summary": ""
         },
         {
             "id": "OathFieldDonQuixote",
             "name": "保存神域",
-            "desc": "- 最大値 : 5\n- 全ての味方人格に下記の効果を付与\n・スキル使用時、各味方の最大体力の(ドンキホーテの保存威力 × 2)%だけバリアを得る (1ターンにつき1回、最大10%)\n\n- ル・ノワール所属の全ての味方人格に下記の効果を付与\n・攻撃レベル +(ドンキホーテの保存威力÷3) (小数点切り捨て、最大2)\n・防御レベル +(ドンキホーテの保存威力÷2) (小数点切り捨て、最大3)\n\n- 全ての敵に下記の効果を付与\n・速度の最小値・最大値 -1 (この効果で速度の最小値・最大値が1未満にならない)\n・振動爆発時に受ける混乱区間前進量 +10%\n・充電回数または特殊充電を消耗するスキルによる被ダメージ量 +10% (ル・ノワール所属の味方人格のスキルなら、代わりに2倍で適用)\n\n- ターン終了時に数値が1減少",
+            "desc": "- 最大値：5\n- 使<color=#ffffff>全体</color>友方人格獲得以下效果\n· 使用技能時，<color=#ffffff>友方単位</color>獲得其<color=#61DA61>体力</color>上限(堂吉訶德的保存 強度×2)%的<color=#81BBE8>護盾</color>(<color=#7C5738>每回合</color>最多1次，最多10%)\n\n- 使属于黑派的<color=#ffffff>全体</color>友方人格獲得以下效果\n· 攻撃等級+(堂吉訶德的保存 強度/3)(向下取整，最多+2)\n· 防御等級+(堂吉訶德的保存 強度/2)(向下取整，最多+3)\n\n- 対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加以下效果\n· 最小与最大<color=#7C5737>速度値</color>-1(該效果不会使最小与最大<color=#7C5737>速度値</color>低于1)\n· 受到震顫引爆時的<color=#ffffff>混乱閾値</color>前移量+10%\n· 受到来自消耗充能 層数或<color=#FCC700>特殊充能</color>的技能的<color=#ffffff>傷害</color>+10%(属于黑派的友方人格的技能改為+20%)\n\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
             "summary": "",
             "undefined": "-",
-            "flavor": "ル・ノワールが追求する保存の価値が保存される領域。保存するものを保存するための、あらゆるル・ノワール的な行動が、この領域の中で有益に保存される。この領域は永遠なる保存の領域であり、死へ限りなく近づこうとする衝動が刺激される領域である。"
+            "flavor": "黑派所追求的保存价値被保存的領域。所有為保存應被保存的事物而進行的黑派式的行為，都在這个領域中被妥善地保存着。這个領域既是永遠保存的領域，也是刺激想要无限接近死亡的冲動的領域。"
         },
         {
             "id": "NoirShieldUpDonQuixote",
-            "name": "黒き神の加護",
-            "desc": "- 最大値 : 100\n- ターン開始時、自分の最大体力の(数値÷5)%だけバリアを得る (小数点切り捨て)\n- 数値が25以上なら、基本攻撃スキル使用時に全コインが破壊不能コインになる\n- 数値が40以上なら、自分は混乱状態にならない (強制混乱を除く)",
+            "name": "漆黑之神的加護",
+            "desc": "- 最大値：100\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限(本效果層数/5)%的<color=#81BBE8>護盾</color>(向下取整)\n- 若本效果層数不低于25層，則<color=#ffffff>自身</color>使用基礎攻撃技能時，使該技能的所有硬幣轉化為不可摧毀的硬幣 \n- 若本效果層数不低于40層，則<color=#ffffff>自身</color>不会陷入混乱(不包括強制混乱)",
             "summary": "",
             "undefined": "-",
-            "flavor": "黒き神。黒き巨人。金鎚の司祭。保存の権能を司る百貨店の黒き神による、最も直接的な接触による加護。金鎚は硬く、黒色は全てを吸収して静止させる。まるで死の属性のように。"
+            "flavor": "漆黑之神。漆黑的巨人。錘之牧師。身負保存之権能的百貨店的漆黑之神通過最直接的接触帯来的加護。錘子堅硬，而黑色吸收一切，使其静止。如同死亡的属性一般。"
         },
         {
             "id": "NoirNailDonQuixote",
-            "name": "約束された釘",
-            "desc": "- 最大値 : 30\n- スキル効果で振動爆発時、この効果の数値1につき怠惰ダメージを1受ける (最大10、スキルにつき1回)\n- ターン終了時、数値が4以上なら、次のターンに束縛1を得る\n- ターン開始時、戦場にオートクチュール::ル・ノワール ブランドマネージャー ドンキホーテがいなければ、この効果は消滅",
+            "name": "約定之釘",
+            "desc": "- 最大値：30\n- 通過技能效果受到震顫引爆 時，每帯有1層本效果，対<color=#ffffff>自身</color>造成1点<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(最多10点，每个技能最多1次)\n- <color=#7C5738>回合結束</color>時，若本效果層数不低于4層，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層束縛 \n- <color=#7C5738>回合結束</color>時，若高級定制::黑派 品牌經理 堂吉訶德不在場，則解除本效果",
             "summary": "",
             "undefined": "-",
-            "flavor": "約束の金鎚は、必ず釘を打つと約束された。それゆえ、金鎚が振るわれるなら、そこに釘がなくとも釘がなければならない。"
+            "flavor": "約定之錘約定了一定要釘下釘子。因此，一旦錘子被揮出，那么即便那里没有釘子，也必須有釘子存在。"
         },
         {
             "id": "PersonalityCombustion",
-            "name": "火傷人格",
+            "name": "焼傷人格",
             "desc": "",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "PersonalityLaceration",
-            "name": "出血人格",
+            "name": "流血人格",
             "desc": "",
             "summary": "",
             "undefined": "-"
@@ -4270,22 +4270,22 @@
         },
         {
             "id": "PersonalitySinking",
-            "name": "沈潜人格",
+            "name": "沈淪人格",
             "desc": "",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "Tiphereth_Heads",
-            "name": "ティファレトの期待",
-            "desc": "- 全てのスキルコインが表面になる確率が100%に固定 (この効果は自分のスキル、パッシブ、他の効果より優先して適用される)\n- ターン終了時に消滅",
+            "name": "Tiphereth的期待",
+            "desc": "- <color=#ffffff>自身</color>所有技能的硬幣朝向正面的概率固定為100%(本效果優先于<color=#ffffff>自身</color>擁有的技能、被動或其他效果生效)\n- <color=#7C5738>回合結束</color>時解除",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "Tiphereth_Tails",
-            "name": "ティファレトの期待[鏡]",
-            "desc": "- 全てのスキルコインが裏面になる確率が100%に固定 (この効果は自分のスキル、パッシブ、他の効果より優先して適用される)\n- ターン終了時に消滅",
+            "name": "Tiphereth的期待[鏡]",
+            "desc": "- <color=#ffffff>自身</color>所有技能的硬幣朝向反面的概率固定為100%(本效果優先于<color=#ffffff>自身</color>擁有的技能、被動或其他效果生效)\n- <color=#7C5738>回合結束</color>時解除",
             "summary": "",
             "undefined": "-"
         }

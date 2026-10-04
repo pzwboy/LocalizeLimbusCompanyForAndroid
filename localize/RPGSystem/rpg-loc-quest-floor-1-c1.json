@@ -1,103 +1,103 @@
 {
-  "dataList": [
-    {
-      "key": "Q1000",
-      "title": "オープニング",
-      "description": "ロード直後にオープニング演出(S1001B)を再生するための非表示クエスト",
-      "steps": [
+    "dataList": [
         {
-          "index": 0
-        }
-      ]
-    },
-    {
-      "key": "Q1011",
-      "title": "ビューティーフロアで間もなく起こる状況を受け入れる",
-      "description": "結末は変わらなかった。これからどうすればいいのだろう？考えもなくトイレの外へ出てきた。間もなく起こる状況を受け入れ、急いでムルソーを探さなければならない。",
-      "steps": [
+            "key": "Q1000",
+            "title": "開場",
+            "description": "載入后立即播放開場演出（S1001B）的隠藏任務",
+            "steps": [
+                {
+                    "index": 0
+                }
+            ]
+        },
         {
-          "index": 0
-        }
-      ]
-    },
-    {
-      "key": "Q1012",
-      "title": "一行に合流",
-      "description": "クローマーとの遭遇カットシーン",
-      "steps": [
+            "key": "Q1011",
+            "title": "接受必然在美妝館発生之事",
+            "description": "結局并未改変。現在還能做什么捏？我决定先离開衛生間。經暦必然発生的事情，并尽快找到默尓索。",
+            "steps": [
+                {
+                    "index": 0
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "クローマーとの遭遇"
-        }
-      ]
-    },
-    {
-      "key": "Q1014",
-      "title": "???",
-      "description": "何かが隠されているようだ。",
-      "steps": [
+            "key": "Q1012",
+            "title": "一行人会合",
+            "description": "遭遇克羅默過場動画",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "遭遇克羅默"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "???"
-        }
-      ]
-    },
-    {
-      "key": "Q1015",
-      "title": "???",
-      "description": "何かが隠されているようだ。",
-      "steps": [
+            "key": "Q1014",
+            "title": "？？？",
+            "description": "似乎有什么藏在這里。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "？？？"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "???"
-        }
-      ]
-    },
-    {
-      "key": "Q1016",
-      "title": "???",
-      "description": "何かが隠されているようだ。",
-      "steps": [
+            "key": "Q1015",
+            "title": "？？？",
+            "description": "似乎有什么藏在這里。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "？？？"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "???"
-        }
-      ]
-    },
-    {
-      "key": "Q1017",
-      "title": "???",
-      "description": "何かが隠されているようだ。",
-      "steps": [
+            "key": "Q1016",
+            "title": "？？？",
+            "description": "似乎有什么藏在這里。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "？？？"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "???"
-        }
-      ]
-    },
-    {
-      "key": "Q1064",
-      "title": "2階へ",
-      "steps": [
+            "key": "Q1017",
+            "title": "？？？",
+            "description": "似乎有什么藏在這里。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "？？？"
+                }
+            ]
+        },
         {
-          "index": 0,
-          "goalDescription1": "2階に到着"
-        }
-      ]
-    },
-    {
-      "key": "Q1018",
-      "title": "???",
-      "description": "(隠し)釘を獲得した際の会話",
-      "steps": [
+            "key": "Q1064",
+            "title": "前往2F",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "到達2F"
+                }
+            ]
+        },
         {
-          "index": 0
+            "key": "Q1018",
+            "title": "？？？",
+            "description": "（隠藏）獲得尖釘時的対話",
+            "steps": [
+                {
+                    "index": 0
+                }
+            ]
+        },
+        {
+            "key": "Q1001",
+            "title": "任務1-開始"
         }
-      ]
-    },
-    {
-      "key": "Q1001",
-      "title": "クエスト1 - 開始"
-    }
-  ]
+    ]
 }

@@ -280,7 +280,7 @@
                 {
                     "level": 1,
                     "name": "処置",
-                    "desc": "[CantChangeTarget]\n直到本技能使用時，自身不会陷入混乱\n<color=#ff6000><mark color=#ff000040><b><u>自身每帯有1層[FutureEyeOn]，使本技能的基礎威力+1，造成的傷害+10%</color></mark></b></u>\n[WhenUse] 若目標現存体力不高于50%，則使本技能造成的傷害+100%\n[WhenUse] 若自身的理智値不低于0点，則生成1層望\n- 使本技能的基礎威力+4\n[WhenUse] 使自身獲得3層[Breath]\n[WinDuel] 使自身増加5級[Breath]強度\n[DefeatDuel] 使本技能造成的最終傷害-50%，且不会触発暴撃\n使本技能造成的傷害不会使目標陷入混乱\n[EnemyKill] 下回合随机対1名罪人施加[TeachersPrey]\n[EndSkill] 使自身[FullReload](每回合最多1次)\n[EndSkill] 若本技能生成了望，則消耗自身10点理智値",
+                    "desc": "[CantChangeTarget]\n直到使用本技能時，自身不会陷入混乱\n<color=#ff6000><mark color=#ff000040><b><u>自身每帯有1層[FutureEyeOn]，使本技能的基礎威力+1，造成的傷害+10%</color></mark></b></u>\n[WhenUse] 若目標現存体力不高于50%，則使本技能造成的傷害+100%\n[WhenUse] 若自身的理智値不低于0点，則生成1層望\n- 使本技能的基礎威力+4\n[WhenUse] 使自身獲得3層[Breath]\n[WinDuel] 使自身増加5級[Breath]強度\n[DefeatDuel] 使本技能造成的最終傷害-50%，且不会触発暴撃\n使本技能造成的傷害不会使目標陷入混乱\n[EnemyKill] 下回合随机対1名罪人施加[TeachersPrey]\n[EndSkill] 使自身[FullReload](每回合最多1次)\n[EndSkill] 若本技能生成了望，則消耗自身10点理智値",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -598,7 +598,7 @@
                 {
                     "level": 1,
                     "name": "請勿破坏展品",
-                    "desc": "[DuelCounter]\n[SupportProtect]専用技能\n直到本技能使用時，<color=#ffffff>自身</color>不会陷入混乱\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[Protection]\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "desc": "[DuelCounter]\n[SupportProtect]専用技能\n直到使用本技能時，<color=#ffffff>自身</color>不会陷入混乱\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[Protection]\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -868,7 +868,7 @@
                 {
                     "level": 1,
                     "name": "禁止破坏展品",
-                    "desc": "[DuelCounter]\n[SupportProtect]専用技能\n直到本技能使用時，<color=#ffffff>自身</color>不会陷入混乱\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[Protection]\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+                    "desc": "[DuelCounter]\n[SupportProtect]専用技能\n直到使用本技能時，<color=#ffffff>自身</color>不会陷入混乱\n[WhenUse] 使<color=#ffffff>自身</color>獲得1層[Protection]\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1",
                     "coinlist": [
                         {
                             "coindescs": [

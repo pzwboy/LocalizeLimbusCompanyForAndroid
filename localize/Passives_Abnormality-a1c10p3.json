@@ -1,314 +1,314 @@
 {
-  "dataList": [
-    {
-      "id": 148511,
-      "name": "…不可能だ！",
-      "desc": "ステージ開始時、ムルソーが[MeursaultBuffWarderFirstPhase]を得る\n\nターン開始時、[GoldenHideWarderFirstPhase]と[GoldenFabricWarderFirstPhase]がランダムな囚人に付与される",
-      "flavor": "「その停止と変化の表象は…神の権能であるはず…！」",
-      "summary": "ムルソーが[MeursaultBuffWarderFirstPhase]を得る\n毎ターン、ランダムな囚人に[GoldenHideWarderFirstPhase]、[GoldenFabricWarderFirstPhase]を付与"
-    },
-    {
-      "id": 148501,
-      "name": "神の代理人",
-      "desc": "[PanicChangeLock]の効果が適用され、\nターン終了時にパニック状態なら、精神力が30に変更される\n\nステージ開始時、\n- 体力が50%の状態で開<noparse>始</noparse>\n- [UnstableConnection]2を得る\n\n3ターン目になると強力なスキルを使用\n- そのターンの間、囚人から被撃するたびに[ParryingResultDown]1を得る (囚人ごとに1回)\n\n体力が1以下になるか、3ターン目が終了するとフェーズを変更",
-      "flavor": "道を外れた者たちを断罪する、黒き神の代理人。",
-      "summary": "3ターン目に強力なスキルを使用\n3ターン目の終了時にフェーズを変更"
-    },
-    {
-      "id": 148502,
-      "name": "神聖刑罰燭台",
-      "desc": "ターン開始時、<color=#ff6000><mark=#ff000040><b><u>刑罰の燭台を2つ召喚する</u></b></mark></color>\n- ターンが経過するたびに、ターン開始時に召喚する<color=#ff6000><mark=#ff000040><b><u>刑罰の燭台の数 +1</u></b></mark></color>\n- 刑罰の燭台は戦場に最大4つまで存在できる\n\n戦場の刑罰の燭台が破壊されるたびに、看守が[Vulnerable]1を得る\n\nスキル使用時\n- メインターゲットの<color=#ff6000><mark=#ff000040><b><u>速度が1</u></b></mark></color>なら、そのスキルの<color=#ff6000><mark=#ff000040><b><u>全コインが[SuperCoin]に変更され、最終威力 +2、ダメージ量 +100%</u></b></mark></color>\n- 戦場に刑罰の燭台がなければ、マッチ威力 -1",
-      "flavor": "百貨店の運命に逆らう罪人たちの頭上へと落ちる燭台。",
-      "summary": "毎ターン、刑罰の燭台を召喚。破壊時に[Vulnerable]を得る\nメインターゲットの速度が1なら、スキルが強化"
-    },
-    {
-      "id": 148503,
-      "name": "涙は布を濡らし",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]の効果で自分の精神力が減少しない代わりに</u></b></mark></color>、その数値だけ憂鬱ダメージを受ける\n囚人から被撃時、対象の囚人の[Sinking]回数が1増加 (囚人ごとに1ターンにつき最大2)",
-      "summary": "[Sinking]による精神力減少の代わりに憂鬱ダメージを受ける\n被撃時、攻撃者の[Sinking]回数が増加"
-    },
-    {
-      "id": 148504,
-      "name": "完璧保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を\n累計10消耗するたびに[ChargeNoir]威力1を得る\n\nターン開始時、自分の[ChargeNoir]威力が3、[ChargeNoir]回数が10未満なら、自分の[ChargeNoir]回数が5増加\n\n[ChargeNoir]のターン終了時に回数が1減少する効果が発動しない",
-      "flavor": "シーシュポスシステム上、この保存は完璧に保存される。",
-      "summary": "[ChargeNoir]回数を累計で消耗すると[ChargeNoir]威力を得る\n[ChargeNoir]回数がターン終了時に減少しない"
-    },
-    {
-      "id": 152001,
-      "name": "刑罰的拘束",
-      "desc": "ターン終了時、次のターンに全ての囚人へ<color=#ff6000><mark=#ff000040><b><u>[Binding]2</u></b></mark></color>を付与\n- フェーズが移行すると、この効果は適用されない",
-      "flavor": "罪人よ、縛られよ。",
-      "summary": "次のターンに全ての囚人に[Binding]を付与"
-    },
-    {
-      "id": 152002,
-      "name": "沸き上がる罪悪",
-      "desc": "囚人のスキルによってサブターゲットに指定されたとき、そのスキルによる被ダメージ量 -50%\n\n死亡時、\n- 全属性のE.G.O資源 +1\n- 自分を最後に攻撃した囚人の精神力を5回復\n・その囚人に[Binding]があれば、代わりに10回復\n・効果の適用対象を判別できなければ、代わりに精神力が最も低い囚人に効果が発動",
-      "summary": "サブターゲットのとき、被ダメージ量が減少\n死亡時、E.G.O資源を獲得し、攻撃者の精神力を回復"
-    },
-    {
-      "id": 148611,
-      "name": "…不可能だ！",
-      "desc": "ターン開始時、[GoldenHideWarderSecondPhase]と[GoldenFabricWarderSecondPhase]が、ランダムな囚人に付与される",
-      "flavor": "「その停止と変化の表象は…神の権能であるはず…！」",
-      "summary": "毎ターン、ランダムな囚人に[GoldenHideWarderSecondPhase]、[GoldenFabricWarderSecondPhase]を付与"
-    },
-    {
-      "id": 148605,
-      "name": "告解道具",
-      "desc": "看守が自分のスキル効果で囚人に[ConfessionSecondPhase]を付与するとき、下記の効果が適用される\n- [RestrainingNailSecondPhase]、[ExecutionNailSecondPhase]、[CeremonialNail]、[MarkingNail]をまとめて<color=#ff6000><mark=#ff000040><b><u>[ConfessionSecondPhase]と呼ぶ</u></b></mark></color>\n- 看守が囚人に釘や金鎚の釘を付与するとき、<color=#ff6000><mark=#ff000040><b><u>最後に付与した効果を適用</u></b></mark></color>し、数値は合算する\n- <color=#ff6000><mark=#ff000040><b><u>金鎚の釘は釘に変更されない</u></b></mark></color>\n\n囚人に攻撃的中時、対象の囚人が保有する<color=#ff6000><mark=#ff000040><b><u>[ConfessionSecondPhase]1につき\nダメージ量 +3%</u></b></mark></color> (最大27%, 対象ごとに適用)\n\nターン開始時、看守の<color=#ff6000><mark=#ff000040><b><u>体力が50%以下</u></b></mark></color>なら、\nスキルで付与する全ての<color=#ff6000><mark=#ff000040><b><u>[ConfessionSecondPhase]付与量 +1</u></b></mark></color>",
-      "summary": "対象の[ConfessionSecondPhase]に応じてダメージ量が増加\n体力が50%以下なら[ConfessionSecondPhase]の付与量が増加"
-    },
-    {
-      "id": 148601,
-      "name": "保存の規律どおりに",
-      "desc": "[PanicChangeLock]の効果が適用され、\nターン終了時にパニック状態なら、精神力が30に変更される\n\n登場後、最初のターン開始時、\n- 精神力が45に変更される\n- [EncompassingVoiceSecondPhase]0、[LeaderVoiceSecondPhase]1を得る\n- 直前のフェーズの[ChargeNoir]威力と回数がそのまま維持される",
-      "summary": "[PanicChangeLock]\n直前のフェーズの[ChargeNoir]威力・回数を維持"
-    },
-    {
-      "id": 148602,
-      "name": "審判の日",
-      "desc": "ターン開始時に[SpreadingVoiceSecondPhase]があれば、\n行動パターンが変更され、<color=#ff6000><mark=#ff000040><b><u>強力なスキル「審判…！宣告…！断罪…！」</u></b></mark></color>を使用\n- そのターンの速度の最小値・最大値 +20\n- <color=#ff6000><mark=#ff000040><b><u>このパターンで看守がマッチに敗北</u></b></mark></color>すると、\n次のターンにパターンがさらに変更され、<color=#ff6000><mark=#ff000040><b><u>強力なスキル「死刑執行」</u></b></mark></color>を使用\n\n[SpreadingVoiceSecondPhase]/[EncompassingVoiceSecondPhase]が変更されるたびに、\n<color=#ff6000><mark=#ff000040><b><u>精神力が45回復</u></b></mark></color>し、<color=#ff6000><mark=#ff000040><b><u>[LeaderVoiceSecondPhase]1を得る</u></b></mark></color>\n\n体力が50%以下になるとそのターンが終了し(特定のスキルを除く)、混乱状態なら混乱を解除\n体力が1以下になると、フェーズを変更",
-      "flavor": "刑罰によっても贖罪せぬ者たちは…審判の日に死すべし。",
-      "summary": "[SpreadingVoiceSecondPhase]があれば強力なスキルを使用\nこのときマッチに敗北すると、次のターンに「死刑執行」を使用"
-    },
-    {
-      "id": 148603,
-      "name": "涙は布を濡らし、布は首を絞め",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]の効果で自分の精神力が減少しない代わりに</u></b></mark></color>、その数値だけ憂鬱ダメージを受ける\n囚人から被撃時、対象の囚人の[Sinking]回数が1増加 (囚人ごとに1ターンにつき最大2)\n\n[Breath]威力を20までしか得られない代わりに、<color=#ff6000><mark=#ff000040><b><u>超過して得る[Breath]威力の数値だけ精神力を回復</u></b></mark></color>",
-      "summary": "[Sinking]による精神力減少の代わりに憂鬱ダメージを受ける\n被撃時、攻撃者の[Sinking]回数が増加"
-    },
-    {
-      "id": 148604,
-      "name": "完璧保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を\n累計10消耗するたびに[ChargeNoir]威力1を得る\n\nターン開始時、自分の[ChargeNoir]威力が5、[ChargeNoir]回数が10未満なら、自分の[ChargeNoir]回数が5増加\n\n[ChargeNoir]のターン終了時に回数が1減少する効果が適用されない\n\n自分の[ChargeNoir]威力が5/10以上なら、自分の[ChargeNoir]回数の最大値 +5/+10",
-      "flavor": "シーシュポスシステム上、この保存は完璧に保存される。",
-      "summary": "[ChargeNoir]回数を累計で消耗すると[ChargeNoir]威力を得る\n[ChargeNoir]回数がターン終了時に減少しない"
-    },
-    {
-      "id": 148711,
-      "name": "くそっ、そんなグリッチどうやって見つけたんだ。",
-      "desc": "ターン開始時、[GoldenHideWarderThirdPhase]と[GoldenFabricWarderThirdPhase]がランダムな囚人に付与される\n\n<color=#ff6000><mark=#ff000040><b><u>管理人が特定の行動を取った場合、\n司祭がランダムな囚人に最大体力に比例するダメージを与え、[GoldenNail]を付与</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>体力が50%未満になると、司祭がシステムに干渉し</u></b></mark></color>、\n<color=#ff6000><mark=#ff000040><b><u>自分の体力と精神力を全快し、マイナス効果を全て除去</u></b></mark></color>",
-      "flavor": "「システムが常に完璧とはいかないにせよ、これほどのバグが生じるとは思わなかったな。ちっ、保守チームを呼ばねばならんか。」",
-      "summary": "毎ターン、ランダムな囚人に[GoldenHideWarderThirdPhase]、[GoldenFabricWarderThirdPhase]を付与\n体力が50%未満になると完全回復し、マイナス効果を除去"
-    },
-    {
-      "id": 148705,
-      "name": "シーシュポスシステム保守ツール",
-      "desc": "司祭が自分のスキル効果で囚人に[ConfessionThirdPhase]を付与するとき、下記の効果が適用される\n- [RestrainingNailThirdPhase]、[ExecutionNailThirdPhase]、[GoldenNail]をまとめて<color=#ff6000><mark=#ff000040><b><u>[ConfessionThirdPhase]と呼ぶ</u></b></mark></color>\n- 司祭が囚人に釘を付与するとき、<color=#ff6000><mark=#ff000040><b><u>最後に付与した効果を適用</u></b></mark></color>し、数値は合算する\n- <color=#ff6000><mark=#ff000040><b><u>[RestrainingNailThirdPhase]、[ExecutionNailThirdPhase]は[GoldenNail]に変更されない</u></b></mark></color>\n\n囚人に攻撃的中時、対象の囚人が保有する<color=#ff6000><mark=#ff000040><b><u>[ConfessionThirdPhase]1につき\nダメージ量 +5%</u></b></mark></color> (最大45%, 対象ごとに適用)\n\nターン開始時、司祭の<color=#ff6000><mark=#ff000040><b><u>体力が50%以下</u></b></mark></color>なら、\nスキルで付与する全ての<color=#ff6000><mark=#ff000040><b><u>[ConfessionThirdPhase]の付与量 +1</u></b></mark></color>",
-      "flavor": "「マニュアルによれば…こういうときは、全て調整し直さなきゃならない。全部、すでに規定されていることなんだ。ここのマニュアルに書いてあることを見ても…ああ、そちらからは見えないか。」",
-      "summary": "対象の[ConfessionThirdPhase]に応じてダメージ量が増加\n体力が50%以下なら[ConfessionThirdPhase]の付与量が増加"
-    },
-    {
-      "id": 148701,
-      "name": "「保存の規律どおりに」",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>マッチ回数が10発以上</u></b></mark></color>になると、そのスキルの<color=#ff6000><mark=#ff000040><b><u>マッチ威力 +(マッチを行った回数)</u></b></mark></color>\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]の<color=#ff6000><mark=#ff000040><b><u>威力が最大50まで累積</u></b></mark></color>し、<color=#ff6000><mark=#ff000040><b><u>回数は最大15まで累積</u></b></mark></color>する\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]による被ダメージ量 -50%\n\n[PanicChangeLock]の効果が適用され、\n<color=#ff6000><mark=#ff000040><b><u>精神力が0未満に下がらない</u></b></mark></color>\n\n登場後、最初のターン開始時、\n- 精神力が45に変更される\n- [EncompassingVoiceThirdPhase]0、[LeaderVoiceThirdPhase]1を得る\n- 直前のフェーズの[ChargeNoir]威力と回数がそのまま維持される",
-      "summary": "マッチ回数が10発以上なら、マッチ威力が増加\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]による被ダメージ量が減少"
-    },
-    {
-      "id": 148702,
-      "name": "「審判の日」",
-      "desc": "ターン開始時に[SpreadingVoiceThirdPhase]があれば、\n行動パターンが変更され、<color=#ff6000><mark=#ff000040><b><u>強力なスキル「シーシュポスシステムを本当に壊す気か？」</u></b></mark></color>を使用\n- そのターンの速度の最小値・最大値 +20\n- <color=#ff6000><mark=#ff000040><b><u>このパターンで司祭がマッチに敗北</u></b></mark></color>すると、\n次のターンにパターンがさらに変更され、<color=#ff6000><mark=#ff000040><b><u>強力なスキル「強制退場」</u></b></mark></color>を使用\n\n[SpreadingVoiceThirdPhase]/[EncompassingVoiceThirdPhase]が変更されるたびに、\n<color=#ff6000><mark=#ff000040><b><u>精神力が45回復</u></b></mark></color>し、<color=#ff6000><mark=#ff000040><b><u>[LeaderVoiceThirdPhase]1を得る</u></b></mark></color>",
-      "flavor": "罰を受けても反省しなかったのなら、審判されなきゃ。死ぬほどにな。",
-      "summary": "[SpreadingVoiceThirdPhase]があれば強力なスキルを使用\nこのときマッチに敗北すると、次のターンに「強制退場」を使用"
-    },
-    {
-      "id": 148703,
-      "name": "涙は布を濡らし、布は首を絞め…言葉も出てこないな。",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]の効果で自分の精神力が減少しない代わりに</u></b></mark></color>、その数値だけ憂鬱ダメージを受ける\n囚人から被撃時、対象の囚人の[Sinking]回数が1増加 (囚人ごとに1ターンにつき最大2)\n\n[Breath]威力を20までしか得られない代わりに、<color=#ff6000><mark=#ff000040><b><u>超過して得る[Breath]威力の数値だけ精神力を回復</u></b></mark></color>\n\n囚人に[VibrationExplosion]時、対象の囚人に<color=#ff6000><mark=#ff000040><b><u>混乱区間がなければ</u></b></mark></color>、\n混乱区間前進の代わりに、対象の[Vibration]威力の半分だけ<color=#ff6000><mark=#ff000040><b><u>怠惰ダメージを与える</u></b></mark></color> (混乱した対象を除く。対象ごとに適用)",
-      "flavor": "「本当に『祈る』ことでもしなきゃいけないんじゃないか？」",
-      "summary": "被撃時、攻撃者の[Sinking]回数が増加\n[VibrationExplosion]時に混乱区間がなければ、怠惰ダメージ"
-    },
-    {
-      "id": 148704,
-      "name": "完璧保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を\n累計10消耗するたびに[ChargeNoir]威力1を得る\n\nターン開始時、自分の[ChargeNoir]威力が10、[ChargeNoir]回数が10未満なら、自分の[ChargeNoir]回数が5増加\n\n[ChargeNoir]のターン終了時に回数が1減少する効果が適用されない\n\n自分の[ChargeNoir]威力が5/10以上なら、自分の[ChargeNoir]回数の最大値 +5/+10",
-      "flavor": "シーシュポスシステム上、この保存は完璧に保存される。",
-      "summary": "[ChargeNoir]回数を累計で消耗すると[ChargeNoir]威力を得る\n[ChargeNoir]回数がターン終了時に減少しない"
-    },
-    {
-      "id": 148706,
-      "name": "さあ、そろそろ退勤しようか",
-      "desc": "ターン終了時、[ChargeNoir]威力が10を超えていれば、\n超過した数値だけ[ChargeNoir]威力を消耗し、消耗した数値だけ[Dominion]を得る\n- このパッシブ効果で[Dominion]を全て消耗した後は、この効果は発動しない\n\n自分の体力が初めて<color=#ff6000><mark=#ff000040><b><u>33%以下になると、行動パターンが変更</u></b></mark></color>される\n- 保有する[Dominion]を全て消耗し、自分の<color=#ff6000><mark=#ff000040><b><u>最大体力の(25 + [Dominion]の数値)%だけ不揮発性バリアを得る</u></b></mark></color>\n- 消耗した[Dominion]の数値だけ、防御レベルが永続的に減少",
-      "flavor": "「何だかんだ言っても、シーシュポスシステムはN社に絶対に必要だ。このシステムが崩れれば…また野蛮な時代に戻らなきゃならないんだ。」\n\n「だからマニュアルどおり、君たちはこの百貨店から出られない。例外はないということだ。」",
-      "summary": "[ChargeNoir]威力の10を超えた分が[Dominion]になる\n体力が33%以下になると行動パターンを変更し、バリアを得る"
-    },
-    {
-      "id": 152201,
-      "name": "モーヴェーズ・フォワ(mauvaise foi)",
-      "desc": "戦闘中、自分の[ChargeKhaki]回数を累計10消耗するたびに[ChargeKhaki]威力1を得る\n- ターン終了時に[ChargeKhaki]回数が減少する効果が発動しない\n\n自分の[ChargeKhaki]回数だけ、ターン終了時に[Breath]威力を得る (最大10)\n自分の[ChargeKhaki]威力だけ、ターン終了時に[Breath]回数を得る (最大5)\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]による被ダメージ量 -60%\n- [Vibration]による混乱区間前進量 -60%\n\n同じ対象とのマッチ進行時、10マッチにつき自分のマッチ威力 +1",
-      "flavor": "自己欺瞞。\n世界から逃げる。恐怖と不安の世界、その場所を避けて逃げ、また逃げる。\n\n自らをその場に釘付けにすることで、舞台の上へ逃げる。舞台に立った役者は、役割に完全に没入する。自分を騙し、欺く。"
-    },
-    {
-      "id": 152202,
-      "name": "ワルツの拍子、覚えてる？",
-      "desc": "1回のマッチでマッチ回数が4発以上なら、マッチ4発につき、3発目のマッチで勝利した対象のダメージ量 +15% (最大3回)\n- そのマッチに勝利したスキルが1発目のマッチにも勝利していれば、最終威力 +1",
-      "flavor": "一緒に経験したでしょう。"
-    },
-    {
-      "id": 152203,
-      "name": "サルトル",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>3ターンごとにシーシュポス百貨店の設計図を3人召喚</color></mark></b></u>し、自分の最大体力だけバリアを得る\n- そのターンの間、混乱状態なら混乱を解除し、混乱状態にならない\n\n<color=#ff6000><mark color=#ff000040><b><u>シーシュポス百貨店の設計図を「捕捉」で倒したなら、[JeanneDesign]を得る</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>自分の[JeanneDesign]が3なら、[JeanneManager]に変更される</color></mark></b></u>\nシーシュポス百貨店の設計図を<color=#ff6000><mark color=#ff000040><b><u>自分の「捕捉」で1人も倒せなければ、</color></mark></b></u>次のターンに[Vulnerable]1を得る",
-      "flavor": "シーシュポスの塔にいる四人の巨人の一人。\n\nその中でもシーシュポスシステムの設計を担う建築家であり、裁断士。自らの観点どおりに積み上げていく役割、職業、あるいは何か。\n\nサルトリアルに裁断し、釘を刺し、縫い合わせて築き上げた、ジャンヌに吐き気を起こさせない場所。\n\nシーシュポス百貨店。"
-    },
-    {
-      "id": 152204,
-      "name": "私はね…。",
-      "desc": "ステージ開始時、精神力45で開始する\n\nムルソーが死亡すると、囚人が戦闘に敗北する\n\n<color=#ff6000><mark color=#ff000040><b><u>体力が50%以下なら、</color></mark></b></u>ダメージを受けず、フェーズを変更\n- フェーズ変更時、保有するマイナス効果のうち解除可能な効果を除去する",
-      "flavor": "あなたが外へ出ていかなければいいのに。\n\nマ・ピュス、私と一緒に次の舞台へ行きましょう。"
-    },
-    {
-      "id": 152301,
-      "name": "ワルツの経験。覚えてる？",
-      "desc": "このフェーズの間、ダメージを受けない\n\nターン開始時、自分が[JeannePartnerTwo]1、[JeannePathos]1を、ムルソーが[JeannePartner]1、[JeanneLogos]1を得る (戦闘につき1回)\n\n一方攻撃を受けるか、マッチ敗北時に「ちょっとした喧嘩もあったわね。」スキルが発動\n<color=#ff6000><mark color=#ff000040><b><u>ムルソーの上スロットに特定のスキルを生成する</color></mark></b></u>",
-      "flavor": "記憶の中のワルツを、もう一度経験するのよ。"
-    },
-    {
-      "id": 152302,
-      "name": "ラ・ノゼ(la nausée)",
-      "desc": "ムルソーが死亡すると、囚人が戦闘に敗北する\n\n<color=#ff6000><mark color=#ff000040><b><u>自分の[JeannePathos]が100なら、</color></mark></b></u>使用中のスキル終了時にフェーズを変更\n- フェーズ変更時、保有するマイナス効果のうち解除可能な効果を除去する",
-      "flavor": "めまいがするでしょう？でも、絶頂はこの次よ。"
-    },
-    {
-      "id": 152401,
-      "name": "ランフェール・セ・レゾートル (L'enfer, c'est les autres)",
-      "desc": "ジャンヌの体力が10%以下になったなら…。",
-      "flavor": "私たちはいつも、他人の視線に釘付けにされる地獄の中で生きているの。だから…あなたの感情を全て話してみて、ムル。判断はその後に下してもいいでしょう？"
-    },
-    {
-      "id": 152402,
-      "name": "視線：シーシュポス百貨店",
-      "desc": "精神力が45に固定される\n\nターン開始時、シーシュポスシステムの設計図 - ル・ルージュとシーシュポスシステムの設計図 - ル・ノワールがそれぞれ2人になるよう召喚する\n\nフェーズ変更後の2ターン目から、設計図1人を裁断士ジャンヌ・サルトルの姿に変更する\n- [Vulnerable]がない設計図を優先して変更\n- 前のターンに裁断士ジャンヌ・サルトルの状態になった設計図を除く\n- 混乱状態なら混乱を解除\n\n裁断士ジャンヌ・サルトルの状態になった場合、「この舞台だけは、全てが決まっているの。」スキルを使用する\n- 「この舞台だけは、全てが決まっているの。」とのマッチでムルソーのスキルが勝利した場合、次のターンからその設計図は毎ターン[Vulnerable]5を得る\n\n裁断士ジャンヌ・サルトルの姿が解除されるたびに、次のターンから設計図のうち1人がジャンヌの「権限：遮断」スキルを装着する\n- ジャンヌのスキルを装着する設計図は、累積して1人ずつ増加する\n\n設計図の死亡時、下記の効果を適用\n- ジャンヌの体力が5%減少する\n- 他の設計図が[JeanneBlueprint]1を得る\n- 次のターンに設計図のうち1人が、ジャンヌの「権限：遮断」スキルの代わりに「権限：<noparse>視線</noparse>」スキルを装着する",
-      "flavor": "ジャンヌにとっては、百貨店こそが自分が最も楽に認識できる世界だったの。\n\n中立であるべきル・カーキの業務を割り当てられたけれど、今見えるように…本当は誰よりも華やかに花開いて、舞台の上で情熱的に、ムル、あなたと踊りたかったのよ。\n\nでも…ジャンヌは無数の視線と、人の顔色という鎖に縛られて、華やかに花開くことができなかった。花開こうとする気持ちさえ、表に出せなかったの。\n\n私はジャンヌの吐き気をなくしてあげることはできないけど…投げ出されたこの世界で誰の顔色も窺わずに花開けるよう、自分らしくいられるように手伝ってあげるわ。熱中している間、少しの間だけでもめまいを忘れられるようにね。\n\nそしてこれは…ジャンヌだけでなく、都市の全ての人に必要なことよ。たとえ拒絶しても、必ず与えられるべき機会だと思うの。"
-    },
-    {
-      "id": 152501,
-      "name": "衣装の設計図",
-      "desc": "戦闘中、<color=#ff6000><mark color=#ff000040><b><u>最初の被撃</color></mark></b></u>前に、自分のターゲット指定にかかわらず、<color=#ff6000><mark color=#ff000040><b><u>装着した「百貨店の設計図」を使用する</color></mark></b></u> (1ターンにつき1回)\n\n基本スキルによる被ダメージ量 -50%\n\n<color=#ff6000><mark color=#ff000040><b><u>E.G.Oスキルによる被ダメージ量 +100%</color></mark></b></u>\n\n裁断士ジャンヌ・サルトルの「捕捉」スキルによる被撃時に死亡する",
-      "flavor": "これが百貨店の設計図。"
-    },
-    {
-      "id": 152502,
-      "name": "自我の設計図",
-      "desc": "囚人のスキルで死亡すると、E.G.O資源のうち数が最も少ない属性の資源を1個ずつ、計5個支給\n(最も少ない資源が2種類以上ある場合、ランダムに支給)",
-      "flavor": "設計されていない設計。"
-    },
-    {
-      "id": 152601,
-      "name": "パターン：シーシュポス百貨店",
-      "desc": "同じ対象とのマッチ時、マッチ10発ごとに自分のマッチ威力が1増加\n\n登場から1ターン後より、設計図のうち1人が<color=#ff6000><mark color=#ff000040><b><u>裁断士ジャンヌ・サルトルの状態に変更される</color></mark></b></u>\n- [Vulnerable]がない設計図を優先して変更\n- 前のターンに裁断士ジャンヌ・サルトルの状態になった設計図を除く\n- 混乱状態なら混乱を解除\n\n裁断士ジャンヌ・サルトルの状態になった場合、<color=#ff6000><mark color=#ff000040><b><u>「この舞台だけは、全てが決まっているの。」スキル</color></mark></b></u>を使用する\n- 「この舞台だけは、全てが決まっているの。」とのマッチで<color=#ff6000><mark color=#ff000040><b><u>ムルソーのスキルが勝利</color></mark></b></u>した場合、次のターンからその設計図は<color=#ff6000><mark color=#ff000040><b><u>毎ターン[Vulnerable]5を得る</color></mark></b></u>\n\n設計図の死亡時、下記の効果を適用\n- <color=#ff6000><mark color=#ff000040><b><u>ジャンヌの体力が5%減少する</color></mark></b></u>\n- 他の設計図が[JeanneBlueprint]1を得る"
-    },
-    {
-      "id": 152602,
-      "name": "代謝作用",
-      "desc": "戦闘中、自分の[ChargeRouge]回数を累計10消耗するたびに[ChargeRouge]威力1を得る\n\n自分のスキル効果で体力が減少するとき、1未満にならない",
-      "flavor": "摂取し、充電し、消耗し、再び摂取する。単純な繰り返しは渇望に起因する。"
-    },
-    {
-      "id": 152701,
-      "name": "保存",
-      "desc": "戦闘中、自分の[ChargeNoir]回数を累計10消耗するたびに[ChargeNoir]威力1を得る",
-      "flavor": "凝縮させて力を集め、固定する。変化させないことは、変化させることよりも大きな力を要するときがある。"
-    },
-    {
-      "id": 151701,
-      "name": "ラ・ジュイサンス・オートル(la jouissance Autre)",
-      "desc": "ターン終了時に[ChargeRouge]回数が減少しない\n戦闘で[Laceration]が発動するたびに、自分の[ChargeRouge]回数が1増加\nターン開始時、自分の[ChargeRouge]回数1につき精神力を2回復",
-      "flavor": "全身で感じながらも言葉にはできない鼓動、本性、その全ての脈動の総体。",
-      "summary": "脈動回数が増加"
-    },
-    {
-      "id": 151702,
-      "name": "レクスティミテ(l'extimité)",
-      "desc": "体力が50%減少した状態で戦闘開<noparse>始</noparse>\nステージ開始時、全ての敵に[BuffetScruple]を付与 (待機人数を含む)\n\nスキル使用時、対象が<color=#ff6000><mark=#ff000040><b><u>[BuffetScruple]を保有</u></b></mark></color>していれば、精神力が10減少",
-      "flavor": "…あなたたちは私の身体の一番外側にいながら、私の一番内側に居場所を占めている。",
-      "summary": "精神力が減少"
-    },
-    {
-      "id": 151703,
-      "name": "ル・モワ(le moi)",
-      "desc": "[BuffetScruple]を持つ囚人が特定のスキルとのマッチに勝利すると\n<color=#ff6000><mark=#ff000040><b><u>赤き神が[BuffetDream]を1得る</u></b></mark></color>\n[BuffetDream]が5になるとパターンが変化し、変化後のパターンのスキルとのマッチに勝利すると戦闘勝利\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]の<color=#ff6000><mark=#ff000040><b><u>威力が最大50まで累積</u></b></mark></color>し、<color=#ff6000><mark=#ff000040><b><u>回数は最大15まで累積</u></b></mark></color>する\n[Combustion]、[Laceration]、[Vibration]、[Burst]、[Sinking]による体力・精神力への被ダメージ量 -50%\nパニック変更不可\nターン終了時にパニック状態なら精神力が0になる",
-      "flavor": "私。水に映った私の姿を見た。私は完全な身体を持っている…。"
-    },
-    {
-      "id": 151704,
-      "name": "プヴォワール・ドゥ・ラ・ヴィ(Pouvoirs de la vie)",
-      "desc": "味方がダメージによって混乱状態になると、対象の味方に「ル・マンク・ア・エートル(le manque-à-être)」を使用 (1ターンにつき1回)\n味方が死亡すると、次のターン開始時に[BuffetRevival]3を保有する赤き神の引きちぎられた肉片を召喚",
-      "flavor": "生まれさせるという暴力性。ル・ルージュの神は、誕生の権能を持つ。\n\n死ねば意識はどこへ行くのか？生まれる前、意識はどこから来るのか？\n\nそこへ送り出すことも、引きずり出すことも全て同じ暴力的な権能。"
-    },
-    {
-      "id": 151705,
-      "name": "ラ・ジュイサンス・ファリック(la jouissance phallique)",
-      "desc": "ターン開始時、自分に[BuffetRouge]がなく、自分の[ChargeRouge]回数が15以上なら[ChargeRouge]回数を全て消耗して[BuffetRouge]3を得る。消耗した[ChargeRouge]回数1につき精神力を2回復\n\n[BuffetRouge]がなく、自分の[ChargeRouge]回数が10以上なら、スキル使用時に[ChargeRouge]回数を10消耗してコイン威力 +2",
-      "flavor": "生の享楽を享受することには、条件が付く。条件が付く以上、この肉体的な快楽は必ず失敗する。限界と終わりがあるからだ。",
-      "summary": "脈動回数を消耗して、コイン威力が増加"
-    },
-    {
-      "id": 151706,
-      "name": "ラ・モワソン(la moisson)",
-      "desc": "攻撃終了時、メインターゲットの<color=#ff6000><mark=#ff000040><b><u>[BoneNail]が5以上</u></b></mark></color>なら、攻撃したメインターゲットに強力なスキルを使用",
-      "flavor": "押し出された付属器官は他人に突き刺さり、境界の外から私を繰り返し呼ぶ。\n\n生まれた場所へと再び戻りたいという衝動は、死の衝動なのか、生の衝動なのか。"
-    },
-    {
-      "id": 151707,
-      "name": "ル・ブゾワン(le besoin)",
-      "desc": "[ChargeRouge]回数を累計10消耗するたびに脈動威力が1増加\n\n自分の[ChargeRouge]威力に応じて、下記の効果を全て得る\n- 1：自分より速度の低い対象への与ダメージ量 +([ChargeRouge]威力 × 20)%\n- 2：スキルの最終威力 +1\n- 3：スキルで付与する[Laceration]の威力付与量 +1\n- 4：スキルのコイン威力 +1\n- 5：自分の[BuffetRouge]が減少しない",
-      "flavor": "生きているから。生まれてしまったから。\n呪いのように訪れる、肉体的で、必然的で、それゆえ運命的な欲望。",
-      "summary": "脈動威力に応じてスキルが強化"
-    },
-    {
-      "id": 151708,
-      "name": "答えを出すべき時",
-      "desc": "下記の条件のうち1つを満たすと行動パターンを変更\n- 現体力が最大体力の25%未満に下がる\n- [BuffetDream]3を保有",
-      "flavor": "私に教えて…連れていって…。"
-    },
-    {
-      "id": 152101,
-      "name": "空にするほど満たされん",
-      "desc": "戦闘中、自分の[ChargeRouge]回数を累計10消耗するたびに[ChargeRouge]威力1を得る\nスキル使用時、[ChargeRouge]威力が2/4以上なら、コイン威力 +1/+2\n\n失った体力10%につき、攻撃レベルが1増加(最大5)、与ダメージ量 +20%(最大100%)",
-      "summary": "コイン威力が増加"
-    },
-    {
-      "id": 152102,
-      "name": "遅き首を狙う鎌",
-      "desc": "自分より速度が低い対象を優先してターゲットに指定\nスキル使用時、対象より速度が高ければ、対象と自分の速度差だけ攻撃レベルが増加\nターン開始時、自分の[ChargeRouge]威力が2以上なら、強力なスキルを使用",
-      "flavor": "脈動する捕食者は遅き首を狙い、その差だけ致命的なダメージを与える。"
-    },
-    {
-      "id": 152103,
-      "name": "あの方の傍で冷めぬ脈動",
-      "desc": "戦場に赤き神[完熟]がいれば、ターン終了時に自分の[ChargeRouge]回数が減少しない\n\n被撃によって混乱状態になったとき、赤き神[完熟]のスキルで混乱状態を解除されると、自分を攻撃した対象にスキル「この鎌にて応え奉る！」で一方攻撃",
-      "flavor": "息が、鼓動が止まらない。止めたくても、止まらない。"
-    },
-    {
-      "id": 152104,
-      "name": "生の痕跡",
-      "desc": "死亡時、敵陣営に、数が最も少ないE.G.O資源の中からランダムな属性の資源を2個支給",
-      "flavor": "誰かが生きている、生きていた痕跡。"
-    },
-    {
-      "id": 152105,
-      "name": "肉に降り注ぐ恩寵",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>[BuffetRouge]があれば</u></b></mark></color>下記の効果が発動\n- スキルによる被ダメージ量 -50%\n- ターン開始時に精神力が全快し、[ChargeRouge]1を得る。自分の[ChargeRouge]回数が5増加",
-      "flavor": "全身でその権能を受け止める。"
-    },
-    {
-      "id": 151801,
-      "name": "再び生きる肉体",
-      "desc": "[BuffetRevival]の消滅時に本来の姿(ル・ルージュ 上級スタッフ)へ戻り、赤き神の引きちぎられた肉片の状態で残っていた体力10につき、精神力を5回復。[ChargeRouge]回数2を得る\n- 得た[ChargeRouge]回数が10以上なら、[ChargeRouge]回数を全て消耗し、消耗した数値5につき、次のターンに[BuffetRouge]1を得る"
-    },
-    {
-      "id": 151802,
-      "name": "地面にこびり付いた肉片",
-      "desc": "囚人はターゲットに指定できない"
-    },
-    {
-      "id": 151709,
-      "name": "押し退けることも、握ることもできぬ手",
-      "desc": "ターン開始時、戦場のル・ルージュ 上級スタッフ1人につき[Protection]2を得る\n- ル・ルージュ 上級スタッフが死亡するたびに[Protection]が2減少\n\n<color=#ff6000><mark=#ff000040><b><u>ル・ルージュ 上級スタッフが全員死亡した状態</u></b></mark></color>なら、下記の効果を適用\n- [Vulnerable]2を得る\n- スキル使用時、対象が[BuffetScruple]を保有していれば、コイン威力 -1",
-      "flavor": "手…まだ、握ってくれる…？",
-      "summary": "コイン威力が減少"
-    }
-  ]
+    "dataList": [
+        {
+            "id": 148511,
+            "name": "…不可能！",
+            "desc": "<color=#7C5737>関峠開始</color>時，使默尓索獲得[MeursaultBuffWarderFirstPhase]\n\n<color=#7C5738>回合開始</color>時，随机使罪人分別獲得[GoldenHideWarderFirstPhase]与[GoldenFabricWarderFirstPhase]",
+            "flavor": "“那停止与変化的表象……一定是神的権能……！”",
+            "summary": "使默尓索獲得[MeursaultBuffWarderFirstPhase]\n<color=#7C5738>每回合</color>随机使罪人分別獲得[GoldenHideWarderFirstPhase]与[GoldenFabricWarderFirstPhase]"
+        },
+        {
+            "id": 148501,
+            "name": "神之代理人",
+            "desc": "适用于[PanicChangeLock]效果，\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為30点\n\n<color=#7C5737>関峠開始</color>時，\n- 以50%的<color=#61DA61>体力</color>開始戦斗\n- 対<color=#ffffff>自身</color>施加2層[UnstableConnection]\n\n第3回合使用強力技能\n- 該回合受到罪人攻撃時，対<color=#ffffff>自身</color>施加1層[ParryingResultDown](每名罪人最多1次)\n\n<color=#ffffff>自身</color><color=#61DA61>体力</color>不高于1点或第3<color=#7C5738>回合結束</color>時，改変階段",
+            "flavor": "為偏离道路者們定罪的，漆黑之神的代理人。",
+            "summary": "第3回合使用強力技能\n第3<color=#7C5738>回合結束</color>時改変階段"
+        },
+        {
+            "id": 148502,
+            "name": "神圣刑罰蝕台",
+            "desc": "回合開始時，<color=#ff6000><mark=#ff000040><b><u>召喚2支刑罰之蝕台</u></b></mark></color>\n- 每經過1回合， <color=#ff6000><mark=#ff000040><b><u>召喚的刑罰之蝕台数+1</u></b></mark></color>\n- 場上最多存在4支刑罰之蝕台\n\n刑罰之蝕台被摧毀時，対看守施加1層[Vulnerable]\n\n使用技能時\n- 若主要目標的<color=#ff6000><mark=#ff000040><b><u>速度値為1</u></b></mark></color>，則使該技能的<color=#ff6000><mark=#ff000040><b><u>所有硬幣轉化為[SuperCoin]并使該技能的最終威力+2，造成的傷害+100%</u></b></mark></color>\n- 若場上没有刑罰之蝕台，則使自身的拼点威力-1",
+            "flavor": "从企圖忤逆百貨店命運的有罪之人頭頂落下的蝕台。",
+            "summary": "<color=#7C5738>每回合</color>召喚刑罰之蝕台，被破坏時対<color=#ffffff>自身</color>施加[Vulnerable]\n若主要<color=#ffffff>目標</color>的<color=#7C5737>速度値</color>為1，則使<color=#ffffff>自身</color>的技能獲得強化"
+        },
+        {
+            "id": 148503,
+            "name": "泪水浸湿布料",
+            "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]效果不会使自身減少理智値</u></b></mark></color>，\n而改為対自身造成相應的憂郁傷害\n\n受到来自罪人的攻撃時，対其施加1層[Sinking]\n(每回合每名罪人最多2次)",
+            "summary": "[Sinking]不会使<color=#ffffff>自身</color>減少<color=#81BBE8>理智値</color>，而改為造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>\n受到攻撃時，対攻撃者施加[Sinking]層数"
+        },
+        {
+            "id": 148504,
+            "name": "完美保存",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoir]時，\n使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeNoir]強度低于3級且[ChargeNoir]層数低于10層，\n則使<color=#ffffff>自身</color>獲得5層[ChargeNoir]\n\n[ChargeNoir]的<color=#7C5738>回合結束</color>時本效果層数減少1層效果不会触発",
+            "flavor": "在西西弗系統中，這種保存被完美地保存下来。",
+            "summary": "累計消耗[ChargeNoir]層数時，増加[ChargeNoir]強度\n[ChargeNoir]層数不会在<color=#7C5738>回合結束</color>時減少"
+        },
+        {
+            "id": 152001,
+            "name": "刑罰的拘束",
+            "desc": "回合結束時，下回合対全体罪人施加<color=#ff6000><mark=#ff000040><b><u>2層[Binding]</u></b></mark></color>\n- 階段改変時，該效果不会触発",
+            "flavor": "令有罪之人受縛。",
+            "summary": "<color=#7C5738>下回合</color>対<color=#ffffff>全体</color>罪人施加[Binding]"
+        },
+        {
+            "id": 152002,
+            "name": "燃焼的罪惡",
+            "desc": "罪人的技能指定<color=#ffffff>自身</color>為次要<color=#ffffff>目標</color>時，\n使<color=#ffffff>自身</color>受到来自該技能的<color=#ffffff>傷害</color>-50%\n\n陣亡時\n- 獲得所有属性的E.G.O資源資源各1个\n- 使最后攻撃<color=#ffffff>自身</color>的罪人恢復5点<color=#81BBE8>理智値</color>\n· 若該罪人帯有[Binding]，則改為恢復10点<color=#81BBE8>理智値</color>\n· 若无法判定生效<color=#ffffff>目標</color>，則改為使<color=#81BBE8>理智値</color>最低的罪人恢復",
+            "summary": "被指定為次要<color=#ffffff>目標</color>時，受到的<color=#ffffff>傷害</color>減少\n陣亡時，獲得E.G.O資源，使攻撃者恢復<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 148611,
+            "name": "…不可能！",
+            "desc": "<color=#7C5738>回合開始</color>時，随机使罪人分別獲得[GoldenHideWarderSecondPhase]与[GoldenFabricWarderSecondPhase]",
+            "flavor": "“那停止与変化的表象……一定是神的権能……！”",
+            "summary": "<color=#7C5738>每回合</color>随机使罪人分別獲得[GoldenHideWarderSecondPhase]与[GoldenFabricWarderSecondPhase]"
+        },
+        {
+            "id": 148605,
+            "name": "告解工具",
+            "desc": "看守通過其技能対罪人施加[ConfessionSecondPhase]時，\n触発以下效果\n- [RestrainingNailSecondPhase]、[ExecutionNailSecondPhase]、[CeremonialNail]与[MarkingNail]<color=#ff6000><mark=#ff000040><b><u>并称為[ConfessionSecondPhase]</u></b></mark></color>\n- 看守対罪人施加釘或錘之釘時，<color=#ff6000><mark=#ff000040><b><u>僅保留最后施加的效果</u></b></mark></color>，層数畳加計算\n- <color=#ff6000><mark=#ff000040><b><u>錘之釘不会轉化為釘</u></b></mark></color>\n\n罪人受到攻撃時，目標罪人每帯有<color=#ff6000><mark=#ff000040><b><u>1層[ConfessionSecondPhase]，\n使其受到的傷害+3%</u></b></mark></color>(最多+27%，每名目標分別判定)\n\n回合開始時，若看守的<color=#ff6000><mark=#ff000040><b><u>体力不高于50%</u></b></mark></color>，\n則令所有技能<color=#ff6000><mark=#ff000040><b><u>施加的[ConfessionSecondPhase]層数額外+1層</u></b></mark></color>",
+            "summary": "根据<color=#ffffff>目標</color>的[ConfessionSecondPhase]層数，相應使造成的<color=#ffffff>傷害</color>増加\n<color=#61DA61>体力</color>不高于50%時令施加的[ConfessionSecondPhase]層数増加"
+        },
+        {
+            "id": 148601,
+            "name": "依保存之規律所示",
+            "desc": "适用于[PanicChangeLock]效果，\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為30点\n\n登場后的首个<color=#7C5738>回合開始</color>時\n- 使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為45点\n- 使<color=#ffffff>自身</color>獲得0層[EncompassingVoiceSecondPhase]与1層[LeaderVoiceSecondPhase]\n- 保留上一階段的[ChargeNoir]強度与層数",
+            "summary": "[PanicChangeLock]\n保留上一階段的[ChargeNoir]強度与層数"
+        },
+        {
+            "id": 148602,
+            "name": "審判之日",
+            "desc": "回合開始時，若自身帯有[SpreadingVoiceSecondPhase]\n則改変自身模式并使用<color=#ff6000><mark=#ff000040><b><u>強力技能“審判…！宣告…！定罪…！”</u></b></mark></color>\n- 該回合使自身最小与最大速度値+20\n- <color=#ff6000><mark=#ff000040><b><u>若看守在該模式拼点失敗</u></b></mark></color>，\n則下回合改変自身模式并使用<color=#ff6000><mark=#ff000040><b><u>強力技能“死刑執行”</u></b></mark></color>\n\n[SpreadingVoiceSecondPhase]与[EncompassingVoiceSecondPhase]轉化時，\n使<color=#ff6000><mark=#ff000040><b><u>自身恢復45点理智値</u></b></mark></color>并<color=#ff6000><mark=#ff000040><b><u>獲得1層[LeaderVoiceSecondPhase]</u></b></mark></color>\n\n若体力不高于50%，\n則結束本回合(不包括特定技能)，若自身陷入混乱，則解除自身的混乱\n若体力不高于1点，則改変自身階段",
+            "flavor": "即便暦經刑罰也无法贖罪之人……将在審判之日死去。",
+            "summary": "帯有[SpreadingVoiceSecondPhase]時使用強力技能\n該模式拼点失敗時，<color=#7C5738>下回合</color>使用“死刑執行”"
+        },
+        {
+            "id": 148603,
+            "name": "泪水浸湿布料，布料絞住喉隆",
+            "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]效果不会使自身減少理智値</u></b></mark></color>，\n而改為対自身造成相應的憂郁傷害\n\n受到来自罪人的攻撃時，対其施加1層[Sinking]\n(每回合每名罪人最多2次)\n\n自身的[Breath]強度最多獲得至20級，\n<color=#ff6000><mark=#ff000040><b><u>増加超過20級的[Breath]強度改為使自身恢復相應的理智値</u></b></mark></color>",
+            "summary": "[Sinking]不会使<color=#ffffff>自身</color>減少<color=#81BBE8>理智値</color>，而改為造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>\n受到攻撃時，対攻撃者施加[Sinking]層数"
+        },
+        {
+            "id": 148604,
+            "name": "完美保存",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoir]時，\n使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeNoir]強度低于5級且[ChargeNoir]層数低于10層，\n則使<color=#ffffff>自身</color>獲得5層[ChargeNoir]\n\n[ChargeNoir]的<color=#7C5738>回合結束</color>時本效果層数減少1層效果不会触発\n\n若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于5/10級，則使<color=#ffffff>自身</color>的最大[ChargeNoir]層数+5/+10",
+            "flavor": "在西西弗系統中，這種保存被完美地保存下来。",
+            "summary": "累計消耗[ChargeNoir]層数時，増加[ChargeNoir]強度\n[ChargeNoir]層数不会在<color=#7C5738>回合結束</color>時減少"
+        },
+        {
+            "id": 148711,
+            "name": "媽的，袮們怎么找到這个故障的。",
+            "desc": "回合開始時，随机使罪人分別獲得[GoldenHideWarderThirdPhase]与[GoldenFabricWarderThirdPhase]\n\n<color=#ff6000><mark=#ff000040><b><u>經理進行特定行動時，\n牧師随机対罪人造成該罪人体力上限一定比例的傷害并施加[GoldenNail]</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>体力低于50%時牧師将干涉系統</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>使自身的体力与理智値恢復至最大値并解除自身所有負面状態</u></b></mark></color>",
+            "flavor": "“系統不可能一直保持完美，但我没想到会有這么大的故障。嘖，我得叫維修小隊来。”",
+            "summary": "<color=#7C5738>每回合</color>随机使罪人分別獲得[GoldenHideWarderThirdPhase]与[GoldenFabricWarderThirdPhase]\n<color=#61DA61>体力</color>低于50%時使<color=#ffffff>自身</color><color=#61DA61>体力</color>与<color=#81BBE8>理智値</color>恢復至最大値并解除負面状態"
+        },
+        {
+            "id": 148705,
+            "name": "西西弗系統維護工具",
+            "desc": "牧師通過其技能対罪人施加[ConfessionThirdPhase]時，\n触発以下效果\n- [RestrainingNailThirdPhase]、[ExecutionNailThirdPhase]与[GoldenNail]<color=#ff6000><mark=#ff000040><b><u>\n并称為[ConfessionThirdPhase]</u></b></mark></color>\n- 牧師対罪人施加釘，<color=#ff6000><mark=#ff000040><b><u>僅保留最后施加的效果</u></b></mark></color>，層数畳加計算\n- <color=#ff6000><mark=#ff000040><b><u>[RestrainingNailThirdPhase]与[ExecutionNailThirdPhase]不会轉化為[GoldenNail]</u></b></mark></color>\n\n罪人受到攻撃時，目標罪人每帯有<color=#ff6000><mark=#ff000040><b><u>1層[ConfessionThirdPhase]，\n使其受到的傷害+5%</u></b></mark></color>(最多+45%，每名目標分別判定)\n\n回合開始時，若牧師的<color=#ff6000><mark=#ff000040><b><u>体力不高于50%</u></b></mark></color>，\n則令所有技能<color=#ff6000><mark=#ff000040><b><u>施加的[ConfessionThirdPhase]層数額外+1層</u></b></mark></color>",
+            "flavor": "“根据手册……這種情况應該全部重新調整。全部都是已經規定好的事務。只要看手册上写着的……啊，袮那辺看不到手册来着。”",
+            "summary": "根据<color=#ffffff>目標</color>的[ConfessionThirdPhase]層数，相應使造成的<color=#ffffff>傷害</color>増加\n<color=#61DA61>体力</color>不高于50%時令施加的[ConfessionThirdPhase]層数増加"
+        },
+        {
+            "id": 148701,
+            "name": "“依保存之規律所示”",
+            "desc": "<color=#ff6000><mark=#ff000040><b><u>若自身的拼点次数不低于10次</u></b></mark></color>，則使該技能的<color=#ff6000><mark=#ff000040><b><u>拼点威力+(拼点次数)</u></b></mark></color>\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的<color=#ff6000><mark=#ff000040><b><u>強度最多累積到50級</u></b></mark></color>，<color=#ff6000><mark=#ff000040><b><u>層数最多累積到15層</u></b></mark></color>\n 受到的[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]傷害-50%\n\n适用于[PanicChangeLock]效果，\n<color=#ff6000><mark=#ff000040><b><u>自身的理智値不会低于0点</u></b></mark></color>\n\n登場后的首个回合開始時\n- 使自身的理智値変為45点\n- 使自身獲得0層[EncompassingVoiceThirdPhase]与1層[LeaderVoiceThirdPhase]\n- 保留上一階段的[ChargeNoir]強度与層数",
+            "summary": "拼点次数不低于10次時，<color=#ffffff>拼点威力</color>増加\n受到的[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]<color=#ffffff>傷害</color>減少"
+        },
+        {
+            "id": 148702,
+            "name": "“審判之日”",
+            "desc": "回合開始時，若自身帯有[SpreadingVoiceThirdPhase]，則改変自身模式并使用<color=#ff6000><mark=#ff000040><b><u>強力技能“袮真打算破坏掉西西弗系統麼？”</u></b></mark></color>\n- 該回合使自身最小与最大速度値+20\n- <color=#ff6000><mark=#ff000040><b><u>若牧師在該模式拼点失敗</u></b></mark></color>，\n則下回合改変自身模式并使用<color=#ff6000><mark=#ff000040><b><u>強力技能“強制退場”</u></b></mark></color>\n\n[SpreadingVoiceThirdPhase]与[EncompassingVoiceThirdPhase]轉化時，\n使<color=#ff6000><mark=#ff000040><b><u>自身恢復45点理智値</u></b></mark></color>并<color=#ff6000><mark=#ff000040><b><u>獲得1層[LeaderVoiceThirdPhase]</u></b></mark></color>",
+            "flavor": "若已受刑罰而仍不反省，則應受到審判。審判到死為止。",
+            "summary": "帯有[SpreadingVoiceThirdPhase]時使用強力技能\n該模式拼点失敗時，<color=#7C5738>下回合</color>使用“強制退場”"
+        },
+        {
+            "id": 148703,
+            "name": "泪水浸湿布料，布料絞住喉隆…我説不出話。",
+            "desc": "<color=#ff6000><mark=#ff000040><b><u>[Sinking]效果不会使自身減少理智値</u></b></mark></color>，\n而改為対自身造成相應的憂郁傷害\n\n受到来自罪人的攻撃時，対其施加1層[Sinking]\n(每回合每名罪人最多2次)\n\n自身的[Breath]強度最多獲得至20級，\n<color=#ff6000><mark=#ff000040><b><u>増加超過20級的[Breath]強度改為使自身恢復相應的理智値</u></b></mark></color>\n\n使罪人[VibrationExplosion]時，若目標罪人<color=#ff6000><mark=#ff000040><b><u>未帯有混乱閾値</u></b></mark></color>，\n則不会使其混乱閾値前移，而改為造成其[Vibration]強度一半的<color=#ff6000><mark=#ff000040><b><u>怠惰傷害</u></b></mark></color>(不包括陷入混乱的目標，每名目標分別判定)",
+            "flavor": "“這下袮真該‘祈祷’一下了叭？”",
+            "summary": "受到攻撃時，対攻撃者施加[Sinking]層数\n若使未帯有<color=#ffffff>混乱閾値</color><color=#ffffff>目標</color>[VibrationExplosion]，則造成<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
+        },
+        {
+            "id": 148704,
+            "name": "完美保存",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoir]時，\n使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeNoir]強度低于10級且[ChargeNoir]層数低于10層，\n則使<color=#ffffff>自身</color>獲得5層[ChargeNoir]\n\n[ChargeNoir]的<color=#7C5738>回合結束</color>時本效果層数減少1層效果不会触発\n\n若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于5/10級，則使<color=#ffffff>自身</color>的最大[ChargeNoir]層数+5/+10",
+            "flavor": "在西西弗系統中，這種保存被完美地保存下来。",
+            "summary": "累計消耗[ChargeNoir]層数時，増加[ChargeNoir]強度\n[ChargeNoir]層数不会在<color=#7C5738>回合結束</color>時減少"
+        },
+        {
+            "id": 148706,
+            "name": "好，該下班了",
+            "desc": "回合結束時，若自身的[ChargeNoir]強度高于10級，\n則消耗所有超過10級的[ChargeNoir]強度并使自身獲得(消耗的[ChargeNoir]強度)層[Dominion]\n- 通過本被動效果消耗所有[Dominion]后，該效果不会触発\n\n若現存体力首次<color=#ff6000><mark=#ff000040><b><u>不高于33%，則改変自身模式</u></b></mark></color>\n- 消耗所有[Dominion]并使自身<color=#ff6000><mark=#ff000040><b><u>獲得自身体力上限(25+消耗的[Dominion]層数)%的永久護盾</u></b></mark></color>\n- 使自身永久減少(消耗的[Dominion]層数)級防御等級",
+            "flavor": "“不管怎么説，西西弗系統対N公司而言有着絶対的必要性。這个系統一旦崩潰……我們就得回到野蛮時代去了。”\n\n“所以按照手册，袮們不能离開這家百貨店。絶无例外。”",
+            "summary": "使超過10級的[ChargeNoir]強度轉化為[Dominion]\n<color=#61DA61>体力</color>不高于33%時改変模式并獲得<color=#81BBE8>護盾</color>"
+        },
+        {
+            "id": 152201,
+            "name": "自欺(mauvaise foi)",
+            "desc": "在本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeKhaki]時，使<color=#ffffff>自身</color>増加1級[ChargeKhaki]強度\n- [ChargeKhaki]的<color=#7C5738>回合結束</color>時本效果層数減少效果不会触発\n\n<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>増加相当于<color=#ffffff>自身</color>[ChargeKhaki]層数的[Breath]強度(最多10級)\n<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>[ChargeKhaki]強度的[Breath](最多5層)\n\n受到的[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]<color=#ffffff>傷害</color>-60%\n- 受到来自[Vibration]的<color=#ffffff>混乱閾値</color>前移量-60%\n\n与同一<color=#ffffff>目標</color>進行拼点時，每拼点10次，使<color=#ffffff>自身</color><color=#ffffff>拼点威力</color>+1",
+            "flavor": "自我欺騙。\n逃离世界。為了躱避這充満恐怖和不安的世界，不断地逃砲。\n\n把自己釘在那个場所，并逃到了舞台上。站在舞台上的演員已<color=#7C5738>完全</color>沈浸于其角色，正在哄騙、欺瞞着自己。"
+        },
+        {
+            "id": 152202,
+            "name": "還記得華尓茲的節拍麼？",
+            "desc": "在同一拼点時，若拼点次数不低于4次，則每拼点4次，使第3次拼点勝利的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+15%(最多3次)\n- 若該拼点勝利的技能在第1次拼点時勝利，則使該技能的<color=#ffffff>最終威力</color>+1",
+            "flavor": "是我們共同的經驗哦。"
+        },
+        {
+            "id": 152203,
+            "name": "薩特",
+            "desc": "<color=#ff6000><mark color=#ff000040><b><u>每3回合，召喚3个西西弗百貨設計圖</color></mark></b></u>并使自身獲得相当于自身体力上限的護盾\n- 該回合自身陷入混乱時，解除自身的混乱，該回合自身不会陷入混乱\n\n<color=#ff6000><mark color=#ff000040><b><u>通過“捕捉”撃殺西西弗百貨設計圖時，使自身獲得[JeanneDesign]</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>若自身的[JeanneDesign]層数為3層，則使自身的[JeanneDesign]轉化為[JeanneManager]</color></mark></b></u>\n若自身<color=#ff6000><mark color=#ff000040><b><u>未通過“捕捉”撃殺</color></mark></b></u>西西弗百貨設計圖，則下回合対自身施加1層[Vulnerable] ",
+            "flavor": "西西弗塔中的四位巨人之一。\n\n在衆人中負責西西弗系統設計的建筑家兼裁縫。按照<color=#ffffff>自身</color>観点所積累起来的角色、職業，或者其他什么東西。\n\n一処不会使譲娜産生嘔吐感的，以裁縫式的手段剪裁、釘緊、縫合并堆砌起来的場所。\n\n西西弗百貨。"
+        },
+        {
+            "id": 152204,
+            "name": "我啊…",
+            "desc": "関峠開始時，以45点理智値開始戦斗\n\n默尓索陣亡時，罪人戦斗失敗\n\n<color=#ff6000><mark color=#ff000040><b><u>若体力不高于50%，</color></mark></b></u>則自身不会受到傷害并改変自身階段\n- 改変階段時，解除自身帯有的可解除的負面状態",
+            "flavor": "我不想譲袮再回到外面去。\n\n小可愛，和我一起去下个舞台叭。"
+        },
+        {
+            "id": 152301,
+            "name": "還記得華尓茲的經驗麼？",
+            "desc": "本階段内不会受到傷害\n\n回合開始時，使自身獲得1層[JeannePartnerTwo]与1層[JeannePathos]，使默尓索獲得1層[JeannePartner]与1層[JeanneLogos](每場戦斗最多1次)\n\n受到単方面攻撃，或拼点失敗時，使用技能“也発生過一点小争炒捏。”\n<color=#ff6000><mark color=#ff000040><b><u>在默尓索上方的行動槽生成特定技能</color></mark></b></u>",
+            "flavor": "譲我們来再度經驗記憶中的華尓茲叭。"
+        },
+        {
+            "id": 152302,
+            "name": "惡心(la nausée)",
+            "desc": "默尓索陣亡時，罪人戦斗失敗\n\n<color=#ff6000><mark color=#ff000040><b><u>若自身的[JeannePathos]層数為100層</color></mark></b></u>，則当前技能結束后進入下一階段\n- 改変階段時，解除自身帯有的可解除的負面状態",
+            "flavor": "感到暈眩麼？但下次到来的会是高潮哦。"
+        },
+        {
+            "id": 152401,
+            "name": "他人即地獄(L'enfer, c'est les autres)",
+            "desc": "若譲娜的<color=#61DA61>体力</color>不高于10%……",
+            "flavor": "我們一直生活在被他人視綫所釘住的地獄里。所以……把袮的感情都説出来叭，默尓。判断什么的之后再做也没関系叭？"
+        },
+        {
+            "id": 152402,
+            "name": "視綫：西西弗百貨",
+            "desc": "<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>固定為45点\n\n<color=#7C5738>回合開始</color>時，召喚“西西弗系統設計圖-紅派”与“西西弗系統設計圖-黑派”，直至各有2名在場\n\n从改変階段的第2回合起，使1个設計圖進入裁縫譲娜·薩特状態\n- 優先選取未帯有[Vulnerable]的設計圖\n- 不包括上一回合進入裁縫譲娜·薩特状態的設計圖\n- 若陷入混乱，則解除混乱\n\n進入裁縫譲娜·薩特状態時，使用技能“至少在這个舞台上，一切都已注定。”\n- 若默尓索的技能与“至少在這个舞台上，一切都已注定。”拼点勝利，則該設計圖从<color=#7C5738>下回合</color>起，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加5層[Vulnerable]\n\n裁縫譲娜·薩特状態解除時，<color=#7C5738>下回合</color>使1个設計圖装備譲娜的技能“権限：隔离”\n- 装備譲娜技能的設計圖数累計増加1个\n\n設計圖陣亡時，触発以下效果\n- 譲娜失去5%的<color=#61DA61>体力</color>\n- 使其他設計圖獲得1層[JeanneBlueprint]\n- <color=#7C5738>下回合</color>改為使1名設計圖装備“権限：視綫”而非“権限：隔离”",
+            "flavor": "対譲娜而言，百貨店才是他認知起来最輕松的世界。\n\n雖然他被分配的褐派工作本應保持中立，但正如袮現下所見……其實，他比任何人都更想如花般華麗地綻放，想在舞台上尽情地与袮——默尓——共舞。\n\n但譲娜被无数的視綫与眼色的枷鎖束縛着，无法華麗地綻放，連想要綻放的心情都没有表露出来。\n\n我雖然无法消除譲娜的嘔吐感……但我能帮助他在這被遺弃的世界中綻放，不必在意任何人的眼色，譲他能劬成為他自己。譲他在全身心投入其中時，能劬短暫地忘記那眩暈。\n\n而且，這……不僅対袮，対都市中的每个人而言都是必要的。即便会遭到拒絶，我也認為這是必須給予每个人的机会。"
+        },
+        {
+            "id": 152501,
+            "name": "服装設計圖",
+            "desc": "戦斗中，<color=#ff6000><mark color=#ff000040><b><u>自身首次受到攻撃前</color></mark></b></u>，无視自身的目標，<color=#ff6000><mark color=#ff000040><b><u>使用装備的“百貨店設計圖”</color></mark></b></u>(每回合最多1次)\n\n受到来自基礎技能的傷害-50%\n\n<color=#ff6000><mark color=#ff000040><b><u>受到来自E.G.O技能的傷害+100%</color></mark></b></u>\n\n被裁縫譲娜·薩特的技能“捕捉”命中時，自身陣亡",
+            "flavor": "這是百貨店的設計圖。"
+        },
+        {
+            "id": 152502,
+            "name": "自我的設計圖",
+            "desc": "被罪人的技能<color=#7C5738>撃殺</color>時，獲得5種持有量最少的E.G.O資源各1个\n(若持有量最少的資源不低于2種，則随机獲得)",
+            "flavor": "未設計的設計。"
+        },
+        {
+            "id": 152601,
+            "name": "紙様：西西弗百貨",
+            "desc": "与同一目標進行拼点時，每拼点10次，使自身拼点威力+1\n\n从自身在戦斗中登場的第二回合起，1个設計圖進入<color=#ff6000><mark color=#ff000040><b><u>裁縫譲娜·薩特状態</color></mark></b></u>\n- 優先選取未帯有[Vulnerable]的設計圖\n- 不包括上一回合進入裁縫譲娜·薩特状態的設計圖\n- 若陷入混乱，則解除混乱\n\n進入裁縫譲娜·薩特状態時，使用<color=#ff6000><mark color=#ff000040><b><u>技能“至少在這个舞台上，一切都已注定。”</color></mark></b></u>\n- 若<color=#ff6000><mark color=#ff000040><b><u>默尓索的技能与“至少在這个舞台上，一切都已注定。”拼点勝利</color></mark></b></u>，則該設計圖从下回合起，<color=#ff6000><mark color=#ff000040><b><u>每回合対自身施加5層[Vulnerable]</color></mark></b></u>\n\n設計圖陣亡時，触発以下效果\n- <color=#ff6000><mark color=#ff000040><b><u>譲娜失去5%的体力</color></mark></b></u>\n- 使其他設計圖獲得1層[JeanneBlueprint]"
+        },
+        {
+            "id": 152602,
+            "name": "代謝作用",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeRouge]時，使<color=#ffffff>自身</color>増加1級[ChargeRouge]強度\n\n通過<color=#ffffff>自身</color>的技能效果使<color=#ffffff>自身</color>的<color=#61DA61>体力</color>減少時，不会使<color=#ffffff>自身</color>的<color=#61DA61>体力</color>低于1点",
+            "flavor": "攝取、充能、消耗、再度攝取。這種単純的重復源于渴望。"
+        },
+        {
+            "id": 152701,
+            "name": "保存",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoir]時，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度",
+            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+        },
+        {
+            "id": 151701,
+            "name": "大他者中的享樂(la jouissance Autre)",
+            "desc": "<color=#7C5738>回合結束</color>時，[ChargeRouge]層数不会減少\n本場戦斗中，每当[Laceration]效果触発時，使<color=#ffffff>自身</color>獲得1層[ChargeRouge]\n<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有1層[ChargeRouge]，使<color=#ffffff>自身</color>恢復2点<color=#81BBE8>理智値</color>",
+            "flavor": "雖然全身都能感受到，但无法用語言表達的悸動、本性。所有搏動的總和。",
+            "summary": "獲得搏動 層数"
+        },
+        {
+            "id": 151702,
+            "name": "外密性(l'extimité)",
+            "desc": "関峠開始時，以50%的已失去体力開始戦斗\n関峠開始時，使全体敵方単位獲得[BuffetScruple](包括待命人員)\n\n使用技能時，<color=#ff6000><mark=#ff000040><b><u>若目標帯有[BuffetScruple]</u></b></mark></color>，則使自身失去10点理智値",
+            "flavor": "袮們在我身体的最外側，却又在我身体的最内部。",
+            "summary": "失去<color=#81BBE8>理智値</color>"
+        },
+        {
+            "id": 151703,
+            "name": "自我(le moi)",
+            "desc": "帯有[BuffetScruple]的罪人与特定技能拼点勝利時，<color=#ff6000><mark=#ff000040><b><u>対赤紅之神施加1層[BuffetDream]</u></b></mark></color>\n若赤紅之神的[BuffetDream]層数達到5層，則改変自身模式;与該模式下的技能拼点勝利時，戦斗勝利\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]<color=#ff6000><mark=#ff000040><b><u>強度最多累計到50級，層数最多累計到15層</u></b></mark></color>\n\n受到来自[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的体力与理智傷害-50%\n固定恐慌\n回合結束時，若自身陷入恐慌，則使自身的理智値変為0点",
+            "flavor": "我。我看到了水中倒映的我的模様。我已擁有完整的身体……"
+        },
+        {
+            "id": 151704,
+            "name": "生之権能(Pouvoirs de la vie)",
+            "desc": "若<color=#ffffff>友方単位</color>因受到<color=#ffffff>傷害</color>陷入混乱，則対其使用技能“存在的缺失(le manque-à-être)”(<color=#7C5738>每回合</color>最多1次)\n若<color=#ffffff>友方単位</color>陣亡，則<color=#7C5738>下回合</color>開始時召喚1个帯有3層[BuffetRevival]的赤紅之神被撕下的肉塊",
+            "flavor": "掌管誕生的暴力性。紅派的神，具有誕生之権能。\n\n死后意識会去往何処？在誕生之前，意識又是来自何方？\n\n把人送至彼処和把人从彼処拉回，都是<color=#7C5738>完全</color>相同的暴力権能。"
+        },
+        {
+            "id": 151705,
+            "name": "陽具享樂(la jouissance phallique)",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>未帯有[BuffetRouge]且[ChargeRouge]層数不低于15層，則消耗所有[ChargeRouge]層数并使<color=#ffffff>自身</color>獲得3層[BuffetRouge];每消耗1層[ChargeRouge]，使<color=#ffffff>自身</color>恢復2点<color=#81BBE8>理智値</color>\n\n若<color=#ffffff>自身</color>未帯有[BuffetRouge]且[ChargeRouge]層数不低于10層，則使用技能時消耗10層[ChargeRouge]并使該技能的<color=#ffffff>硬幣威力</color>+2",
+            "flavor": "享受生之樂趣是有条件的。只要存在条件，那么這種肉体上的快樂便必然走向失敗。因為其擁有極限与終点。",
+            "summary": "消耗搏動 層数，<color=#ffffff>硬幣威力</color>増加"
+        },
+        {
+            "id": 151706,
+            "name": "收獲(la moisson)",
+            "desc": "攻撃結束后，若主要目標的<color=#ff6000><mark=#ff000040><b><u>[BoneNail]層数不低于5層</u></b></mark></color>，則対自身攻撃的主要目標使用強力技能",
+            "flavor": "被排斥出去的附属器官刺入他人之中，在界限外反復呼喚着我。\n\n想要回到自己誕生之処的冲動，是死的冲動還是生的冲動捏。"
+        },
+        {
+            "id": 151707,
+            "name": "需要(le besoin)",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeRouge]時，使<color=#ffffff>自身</color>増加1級[ChargeRouge]強度\n\n根据<color=#ffffff>自身</color>的[ChargeRouge]強度，使<color=#ffffff>自身</color>獲得以下全部效果：\n- 不低于1級：若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeRouge]強度×20)%\n- 不低于2級：技能的<color=#ffffff>最終威力</color>+1\n- 不低于3級：技能増加的[Laceration]強度額外+1級\n- 不低于4級：技能的<color=#ffffff>硬幣威力</color>+1\n- 不低于5級：<color=#ffffff>自身</color>的[BuffetRouge]層数不会減少",
+            "flavor": "因為其尚活着。因為其已誕生。\n如同詛咒般到訪的，肉体性的、必然的，因此具有命運性的欲望。",
+            "summary": "根据<color=#ffffff>自身</color>的搏動 強度強化技能"
+        },
+        {
+            "id": 151708,
+            "name": "作出回答之時",
+            "desc": "満足以下条件之一時，改変<color=#ffffff>自身</color>模式\n- 現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的25%\n- <color=#ffffff>自身</color>帯有3層[BuffetDream]",
+            "flavor": "告訴我……帯我走……"
+        },
+        {
+            "id": 152101,
+            "name": "越空虚，便越満足",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeRouge]時，使<color=#ffffff>自身</color>増加1級[ChargeRouge]強度\n使用技能時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于2級/4級，則使<color=#ffffff>自身</color>的<color=#ffffff>硬幣威力</color>+1/+2\n\n每失去10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>的攻撃等級+1(最多+5)，造成的<color=#ffffff>傷害</color>+20%(最多+100%)",
+            "summary": "<color=#ffffff>硬幣威力</color>増加"
+        },
+        {
+            "id": 152102,
+            "name": "描准遅緩脖頸之鎌刀",
+            "desc": "優先指定<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>目標</color>\n使用技能時，若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>増加相当于<color=#7C5737>速度値</color>之差的攻撃等級\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于2級，則使用強力技能",
+            "flavor": "搏動着的捕食者描准遅緩的脖頸，速度的差距将造成致命的<color=#ffffff>傷害</color>。"
+        },
+        {
+            "id": 152103,
+            "name": "在那位身旁永不冷却的搏動",
+            "desc": "若赤紅之神在場，則<color=#7C5738>回合結束</color>時<color=#ffffff>自身</color>的[ChargeRouge]層数不会減少\n\n<color=#ffffff>自身</color>因受到攻撃陷入混乱時，若<color=#ffffff>自身</color>因赤紅之神的技能解除混乱，則使用“我将以此鎌刀回應！”対攻撃者進行単方面攻撃",
+            "flavor": "呼吸不止，搏動不止。即便想要停下，也无从止歇。"
+        },
+        {
+            "id": 152104,
+            "name": "生命的痕迹",
+            "desc": "<color=#ffffff>自身</color>陣亡時，随机獲得2个持有量最少的E.G.O資源",
+            "flavor": "某人活着、活過的痕迹。"
+        },
+        {
+            "id": 152105,
+            "name": "降于肉上之恩寵",
+            "desc": "<color=#ff6000><mark=#ff000040><b><u>若自身帯有[BuffetRouge]</u></b></mark></color>，則触発以下效果\n- 使自身受到来自技能的傷害-50%\n- 回合開始時，使自身理智値恢復至上限，使自身増加1級[ChargeRouge]強度并使自身獲得5層[ChargeRouge]",
+            "flavor": "以全身去承受那権能。"
+        },
+        {
+            "id": 151801,
+            "name": "重生的肉体",
+            "desc": "[BuffetRevival]解除時，恢復“紅派 高級工作人員”形態;<color=#ffffff>自身</color>在“赤紅之神被撕下的肉塊”形態下每剩余10点<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>;使<color=#ffffff>自身</color>獲得2層[ChargeRouge]\n- 若<color=#ffffff>自身</color>獲得了不低于10層[ChargeRouge]，則消耗所有[ChargeRouge]層数，每消耗5層[ChargeRouge]，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[BuffetRouge]"
+        },
+        {
+            "id": 151802,
+            "name": "黏附在地上的肉塊",
+            "desc": "罪人无法指定<color=#ffffff>自身</color>為<color=#ffffff>目標</color>"
+        },
+        {
+            "id": 151709,
+            "name": "无法推開，也无法握住的手",
+            "desc": "回合開始時，每有1名紅派 高級工作人員在場，使自身獲得2層[Protection]\n- 紅派 高級工作人員陣亡時，使自身失去2層[Protection]\n\n<color=#ff6000><mark=#ff000040><b><u>若全体紅派 高級工作人員均処于陣亡状態</u></b></mark></color>，則触発以下效果：\n- 対自身施加2層[Vulnerable]\n- 使用技能時，若目標帯有[BuffetScruple]，則使自身硬幣威力-1",
+            "flavor": "袮……還会握住我的手麼……？",
+            "summary": "<color=#ffffff>硬幣威力</color>減少"
+        }
+    ]
 }

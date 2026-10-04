@@ -3277,7 +3277,7 @@
         {
             "id": 1041604,
             "name": "保存",
-            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoirAlly]，\n使<color=#ffffff>自身</color>増加1級[ChargeNoirAlly]強度\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度低于3級，則消耗所有[ChargeNoirAlly]層数并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(消耗的[ChargeNoirAlly]層数×5)点<color=#81BBE8>護盾</color>\n\n若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級且<color=#ffffff>自身</color>的[ChargeNoirAlly]層数低于12層，則令<color=#ffffff>自身</color>的基礎技能獲得的[ChargeNoirAlly]層数額外+1層\n\n基礎攻撃技能使用時\n- 若<color=#ffffff>目標</color>的[Vibration]強度不低于6級，則使<color=#ffffff>自身</color>的<color=#ffffff>硬幣威力</color>+1\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n- 使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×2)%(最多+10%)\n· “三綫印花縫紉”与“単踏-多様定制時装”改為造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×4)%(最多+20%)",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoirAlly]時，\n使<color=#ffffff>自身</color>増加1級[ChargeNoirAlly]強度\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度低于3級，則消耗所有[ChargeNoirAlly]層数并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(消耗的[ChargeNoirAlly]層数×5)点<color=#81BBE8>護盾</color>\n\n若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級且<color=#ffffff>自身</color>的[ChargeNoirAlly]層数低于12層，則令<color=#ffffff>自身</color>的基礎技能獲得的[ChargeNoirAlly]層数額外+1層\n\n基礎攻撃技能使用時\n- 若<color=#ffffff>目標</color>的[Vibration]強度不低于6級，則使<color=#ffffff>自身</color>的<color=#ffffff>硬幣威力</color>+1\n- 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于3級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n- 使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×2)%(最多+10%)\n· “三綫印花縫紉”与“単踏-多様定制時装”改為造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×4)%(最多+20%)",
             "summary": "保存 層数低于一定値時，獲得的保存 層数増加\n基礎攻撃技能使用時，<color=#ffffff>硬幣威力</color>与造成的<color=#ffffff>傷害</color>増加"
         },
         {
@@ -3325,43 +3325,43 @@
         },
         {
             "id": 1031501,
-            "name": "黒き言約",
-            "desc": "戦闘終了時、自分に[OathFieldDonQuixote]があれば、次のターンに[Agility]1を得る\n\n自分の基本攻撃スキルでメインターゲットへの与ダメージ量 +(自分の[ChargeNoirAlly]威力 × 3)% (最大15%)",
-            "summary": "[OathFieldDonQuixote]があれば、次のターンに[Agility]を得る\n基本攻撃スキルでメインターゲットへの与ダメージ量が増加[TabExplain]",
-            "flavor": "あの方の声を聞いた。そして、あの方は約束された。この全てに意味があると。"
+            "name": "黑之誓約",
+            "desc": "<color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>帯有[OathFieldDonQuixote]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n使<color=#ffffff>自身</color>基礎攻撃技能対主要<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×3)%(最多+15%)",
+            "summary": "若激活[OathFieldDonQuixote]，則<color=#7C5738>下回合</color>獲得[Agility]\n基礎攻撃技能対主要<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>増加[TabExplain]",
+            "flavor": "我听見了那位的声音。其應許説，這一切都是有意義的。"
         },
         {
             "id": 1031502,
-            "name": "マレウス・プロミッシオニス",
-            "desc": "ステージ初登場時、自分の[ChargeNoirAlly]回数が10増加し、自分以外のル・ノワール所属の味方人格の[Charge]回数が2増加\n\nスキル効果で[NoirNailDonQuixote]付与時、自分の[ChargeNoirAlly]回数が\n- 12以上なら、[NoirNailDonQuixote]の付与量 +1、自分の[ChargeNoirAlly]回数を4消耗\n- 12未満なら、自分の[ChargeNoirAlly]回数を2消耗\n- 足りなければ、代わりに[NoirNailDonQuixote]を付与しない\n- この効果によって、[NoirNailDonQuixote]を付与するスキルは[Charge]回数を消耗するスキルとして扱われる\n\n戦闘中、自分の[ChargeNoirAlly]回数を累計10消耗するたびに[ChargeNoirAlly]威力1を得る",
-            "summary": "[ChargeNoirAlly]回数とル・ノワール所属の味方の[Charge]回数が増加\n[NoirNailDonQuixote]の付与時に[ChargeNoirAlly]回数を消耗し、[ChargeNoirAlly]回数が一定以上なら付与量が増加\n[ChargeNoirAlly]回数を累計で消耗すると[ChargeNoirAlly]威力を得る",
-            "flavor": "金鎚は釘を刺す。金鎚が叩くのは釘だけだ。金鎚で打たれるものは釘なのだ。そう約束された。"
+            "name": "約定之錘",
+            "desc": "<color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得10層[ChargeNoirAlly]并使除<color=#ffffff>自身</color>以外属于黑派的友方人格獲得2層[Charge]\n\n通過技能效果施加[NoirNailDonQuixote]時，若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数\n- 不低于12層，則令施加的[NoirNailDonQuixote]層数額外+1層并消耗<color=#ffffff>自身</color>4層[ChargeNoirAlly]\n- 低于12層，則消耗<color=#ffffff>自身</color>2層[ChargeNoirAlly]\n- 不足，則不会施加[NoirNailDonQuixote]\n- 通過該效果施加[NoirNailDonQuixote]的技能視作消耗[Charge]層数的技能\n\n本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoirAlly]時，使<color=#ffffff>自身</color>増加1級[ChargeNoirAlly]強度",
+            "summary": "獲得[ChargeNoirAlly]層数并使属于黑派的<color=#ffffff>友方単位</color>獲得[Charge]層数\n施加[NoirNailDonQuixote]時消耗[ChargeNoirAlly]層数，[ChargeNoirAlly]層数不低于一定値時施加量増加\n累計消耗[ChargeNoirAlly]層数時増加[ChargeNoirAlly]強度",
+            "flavor": "錘子釘釘子。這把錘子只釘釘子。被這把錘子釘的就是釘子。就是這様的約定。"
         },
         {
             "id": 1031503,
-            "name": "保存の使命",
-            "desc": "ステージ初登場時、[NoirShieldUpDonQuixote]25を得る\n\n自分の[ChargeNoirAlly]回数を消耗するか、最大値を超えて得ると、(その数値 × 5)だけ[NoirShieldUpDonQuixote]を得る (1ターンにつき最大30)\n\nバリアがある味方人格の被撃時、自分が[NoirShieldUpDonQuixote]2を得る (1ターンにつき最大10)\n- その味方人格が[PersonalityCharge]なら、代わりに[NoirShieldUpDonQuixote]5を得る",
-            "summary": "[NoirShieldUpDonQuixote]を得る"
+            "name": "保存的使命",
+            "desc": "<color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得25層[NoirShieldUpDonQuixote]\n\n<color=#ffffff>自身</color>消耗[ChargeNoirAlly]層数或獲得超過最大値的[ChargeNoirAlly]層数時， 使<color=#ffffff>自身</color>獲得(消耗或獲得的[ChargeNoirAlly]層数×5)層[NoirShieldUpDonQuixote](<color=#7C5738>每回合</color>最多30層)\n\n帯有<color=#81BBE8>護盾</color>的友方人格受到攻撃時，使<color=#ffffff>自身</color>獲得2層[NoirShieldUpDonQuixote](<color=#7C5738>每回合</color>最多10層)\n- 若該<color=#ffffff>友方単位</color>為[PersonalityCharge]，則改為獲得5層[NoirShieldUpDonQuixote]",
+            "summary": "獲得[NoirShieldUpDonQuixote]"
         },
         {
             "id": 1031504,
-            "name": "神の意志と価値が我らと共にあらん…。",
-            "desc": "自分以外のル・ノワール所属の味方人格が敵へ攻撃を開始する前に、自分が「審判！」でメインターゲットを優先して一方攻撃する (1ターンにつき1回)\n\n基本スキルの最後のコイン開始時、(自分の[ChargeNoirAlly]威力 + 対象の[NoirNailDonQuixote]÷2)だけ、そのコインの最終威力が増加 (最大5)\n\n自分に[OathFieldDonQuixote]があれば、基本スキル1/2/3のマッチ威力 +1/+2/+3\n\n[NoirNailDonQuixote]がある対象に[VibrationExplosion]が発生すると、自分と、自分以外で[Charge]回数が最も少ない味方[PersonalityCharge]1名の[Charge]回数が2増加 (1ターンにつき2回)",
-            "summary": "ル・ノワール所属の味方が攻撃する前に「審判！」を使用\n基本スキルの最後のコインの最終威力が増加[TabExplain]\n[OathFieldDonQuixote]があれば、基本スキルのマッチ威力が増加[TabExplain]\n[NoirNailDonQuixote]がある対象に[VibrationExplosion]時、[Charge]回数が増加",
-            "flavor": "全てが不確かなこの世界で、我らを導き守るものはただ一つ、黒き神の御言葉。その御言葉が道となり、光となって我らを照らしたまえば、初めて我らに意味が与えられた。"
+            "name": "神之旨意及价値与吾等同在…",
+            "desc": "除<color=#ffffff>自身</color>以外属于黑派的友方人格攻撃<color=#ffffff>敵方単位</color>前，<color=#ffffff>自身</color>優先使用“審判！”対主要<color=#ffffff>目標</color>進行単方面攻撃(<color=#7C5738>每回合</color>最多1次)\n\n基礎技能的最后一枚硬幣開始時，使該硬幣的<color=#ffffff>最終威力</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度+(<color=#ffffff>目標</color>的[NoirNailDonQuixote]層数/2))(最多+5)\n\n若<color=#ffffff>自身</color>帯有[OathFieldDonQuixote]，則使<color=#ffffff>自身</color>基礎1/2/3技能的<color=#ffffff>拼点威力</color>+1/+2/+3\n\n帯有[NoirNailDonQuixote]的<color=#ffffff>目標</color>受到[VibrationExplosion]時， 使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外[Charge]層数最低的1名友方[PersonalityCharge]獲得2層[Charge](<color=#7C5738>每回合</color>最多2次)",
+            "summary": "属于黑派的<color=#ffffff>友方単位</color>攻撃前使用“審判！”\n基礎技能最后一枚硬幣的<color=#ffffff>最終威力</color>増加[TabExplain]\n若激活[OathFieldDonQuixote]，則使基礎技能的<color=#ffffff>拼点威力</color>増加[TabExplain]\n帯有[NoirNailDonQuixote]的<color=#ffffff>目標</color>受到[VibrationExplosion]時，獲得[Charge]層数",
+            "flavor": "在一切都不確定的此世之間，引導并守護我等的事物僅有一件，即為漆黑之神的圣言;那圣言将成為道路、成為光照亮我等，于是我等才初次被賦予了意義。"
         },
         {
             "id": 1031511,
-            "name": "黒き言約",
-            "desc": "戦闘終了時、自分に[OathFieldDonQuixote]があれば、次のターンに[Agility]2を得る\n\n自分の基本攻撃スキルでメインターゲットへの与ダメージ量 +(自分の[ChargeNoirAlly]威力 × 6)% (最大30%)",
-            "summary": "[OathFieldDonQuixote]があれば、次のターンに[Agility]を得る\n基本攻撃スキルでメインターゲットへの与ダメージ量が増加[TabExplain]",
-            "flavor": "あの方の声を聞いた。そして、あの方は約束された。この全てに意味があると。"
+            "name": "黑之誓約",
+            "desc": "<color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>帯有[OathFieldDonQuixote]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility]\n\n使<color=#ffffff>自身</color>基礎攻撃技能対主要<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×6)%(最多+30%)",
+            "summary": "若激活[OathFieldDonQuixote]，則<color=#7C5738>下回合</color>獲得[Agility]\n基礎攻撃技能対主要<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>増加[TabExplain]",
+            "flavor": "我听見了那位的声音。其應許説，這一切都是有意義的。"
         },
         {
             "id": 1031521,
-            "name": "陣形保存",
-            "desc": "戦闘開始時、戦場にいる味方[PersonalityCharge]1名につき、このターンに全ての味方[PersonalityCharge]の被ダメージ量 -2% (最小-10%)",
-            "summary": "味方の[PersonalityCharge]の被ダメージ量が減少"
+            "name": "陣型保存",
+            "desc": "<color=#ffffff>戦斗開始</color>時，場上每有1名友方[PersonalityCharge]，使<color=#ffffff>全体</color>友方[PersonalityCharge]受到的<color=#ffffff>傷害</color>-2%(最多-10%)",
+            "summary": "友方[PersonalityCharge]受到的<color=#ffffff>傷害</color>減少"
         }
     ]
 }

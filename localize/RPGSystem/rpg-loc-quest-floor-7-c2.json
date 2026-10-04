@@ -1,29 +1,29 @@
 {
-  "dataList": [
-    {
-      "key": "Q7001_C2",
-      "title": "明るい部屋",
-      "description": "ムルソーは石を転がして頂上に辿り着き、石はまた転がり落ちる。そして、私たちがついに辿り着いたのは…百貨店の頂上だ。",
-      "steps": [
+    "dataList": [
         {
-          "index": 0,
-          "goalDescription1": "向かう。"
+            "key": "Q7001_C2",
+            "title": "明室",
+            "description": "默尓索将石頭推到頂，石頭又再度落下。我們終于抵達的……是百貨店的最頂部。",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "前進叭。"
+                },
+                {
+                    "index": 1,
+                    "goalDescription1": "随后坐下。"
+                }
+            ]
         },
         {
-          "index": 1,
-          "goalDescription1": "そして座る。"
+            "key": "Q7002_C2",
+            "title": "？？？",
+            "steps": [
+                {
+                    "index": 0,
+                    "goalDescription1": "？？？"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "key": "Q7002_C2",
-      "title": "???",
-      "steps": [
-        {
-          "index": 0,
-          "goalDescription1": "???"
-        }
-      ]
-    }
-  ]
+    ]
 }

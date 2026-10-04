@@ -1039,9 +1039,9 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "穴",
-                    "abName": "穴の開いた人",
-                    "desc": "スキル使用中に攻撃対象が死亡した場合、体力が最も低い攻撃対象を優先指定 (集中戦闘の場合は部位で判定)\n\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大5)\n自分の[BulletHole]1につき、マッチ威力 +2\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 精神力を(5-保有する[BulletHole]) × 3だけ消耗し、[BulletHole]を最大値まで得る\n\n[EndSkill] [BlackWingHole]2を得る",
+                    "name": "空洞",
+                    "abName": "空洞之人",
+                    "desc": "若<color=#ffffff>目標</color>在本技能使用中陣亡，則優先指定<color=#61DA61>体力</color>最低的攻撃<color=#ffffff>目標</color>(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n\n<color=#ffffff>自身</color>的[Breath]強度与[Charge]層数之和每有4点，使本技能的<color=#ffffff>拼点威力</color>+1(最多+5)\n<color=#ffffff>自身</color>每帯有1発[BulletHole]，使本技能的<color=#ffffff>拼点威力</color>+2\n\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得3層[Breath]与5層[Charge]\n[BeforeAttack] 消耗((5-<color=#ffffff>自身</color>的[BulletHole]数)×3)点<color=#81BBE8>理智値</color>并使<color=#ffffff>自身</color>的[BulletHole]数獲得至最大値\n\n[EndSkill] 使<color=#ffffff>自身</color>獲得2層[BlackWingHole]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1049,22 +1049,22 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "このコインはメインターゲットにのみ的中する"
+                                    "desc": "本硬幣僅命中主要<color=#ffffff>目標</color>"
                                 },
                                 {
-                                    "desc": "[BulletHole]1を消耗"
+                                    "desc": "消耗1発[BulletHole]"
                                 },
                                 {
-                                    "desc": "クリティカルダメージ量 +10%"
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+10%"
                                 },
                                 {
-                                    "desc": "このコインの初回使用時なら、\n- ダメージ量 +(自分の[Charge]回数 × 5)% (最大100%)\n- クリティカルダメージ量 +(自分の[Breath]威力 × 回数)% (最大100%)\n- このコインに限り、対象の貫通属性耐性を脆弱に変更する"
+                                    "desc": "首次使用本硬幣時，\n- 使本硬幣造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Charge]層数×5)%(最多+100%)\n- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Breath]強度×[Breath]層数)%(最多+100%)\n- 僅在使用本硬幣時，使<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>抗性変為致命"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]1を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度"
                                 },
                                 {
-                                    "desc": "[EndCoin] [BulletHole]が1以上ならこのコインを再使用 (スキルにつき4回)"
+                                    "desc": "[EndCoin] 若<color=#ffffff>自身</color>的[BulletHole]数不低于1発，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多4次)"
                                 }
                             ]
                         },
@@ -1074,10 +1074,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "クリティカルダメージ量 +30%"
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+30%"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
                                 }
                             ]
                         }
@@ -1085,9 +1085,9 @@
                 },
                 {
                     "level": 3,
-                    "name": "穴",
-                    "abName": "穴の開いた人",
-                    "desc": "スキル使用中に攻撃対象が死亡した場合、体力が最も低い攻撃対象を優先指定 (集中戦闘の場合は部位で判定)\n\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">7</style>)\n自分の[BulletHole]1につき、マッチ威力 +2\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 精神力を(5-保有する[BulletHole]) × 3だけ消耗し、[BulletHole]を最大値まで得る\n\n[EndSkill] [BlackWingHole]2を得る",
+                    "name": "空洞",
+                    "abName": "空洞之人",
+                    "desc": "若<color=#ffffff>目標</color>在本技能使用中陣亡，則優先指定<color=#61DA61>体力</color>最低的攻撃<color=#ffffff>目標</color>(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n\n<color=#ffffff>自身</color>的[Breath]強度与[Charge]層数之和每有4点，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">7</style>)\n<color=#ffffff>自身</color>每帯有1発[BulletHole]，使本技能的<color=#ffffff>拼点威力</color>+2\n\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得3層[Breath]与5層[Charge]\n[BeforeAttack] 消耗((5-<color=#ffffff>自身</color>的[BulletHole]数)×3)点<color=#81BBE8>理智値</color>并使<color=#ffffff>自身</color>的[BulletHole]数獲得至最大値\n\n[EndSkill] 使<color=#ffffff>自身</color>獲得2層[BlackWingHole]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1095,25 +1095,25 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "このコインはメインターゲットにのみ的中する<style=\"highlight\"></style>"
+                                    "desc": "本硬幣僅命中主要<color=#ffffff>目標</color><style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[BulletHole]1を消耗<style=\"highlight\"></style>"
+                                    "desc": "消耗1発[BulletHole]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "クリティカルダメージ量 <style=\"highlight\">+15%</style>"
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color><style=\"highlight\">+15%</style>"
                                 },
                                 {
-                                    "desc": "このコインの初回使用時なら、\n- ダメージ量 +(自分の[Charge]回数 × 5)% (最大100%)\n- クリティカルダメージ量 +(自分の[Breath]威力 × 回数)% (最大100%)\n- このコインに限り、対象の貫通属性耐性を脆弱に変更する<style=\"highlight\"></style>"
+                                    "desc": "首次使用本硬幣時，\n- 使本硬幣造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Charge]層数×5)%(最多+100%)\n- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Breath]強度×[Breath]層数)%(最多+100%)\n- 僅在使用本硬幣時，使<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>抗性変為致命<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] 最後のコインの威力 +1</style>"
+                                    "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] 使本技能最后一枚硬幣的威力+1</style>"
                                 },
                                 {
-                                    "desc": "[EndCoin] [BulletHole]が1以上ならこのコインを再使用 (スキルにつき4回)<style=\"highlight\"></style>"
+                                    "desc": "[EndCoin] 若<color=#ffffff>自身</color>的[BulletHole]数不低于1発，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多4次)<style=\"highlight\"></style>"
                                 }
                             ]
                         },
@@ -1123,13 +1123,13 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "クリティカルダメージ量 <style=\"highlight\">+50%</style>"
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color><style=\"highlight\">+50%</style>"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnStartCoin] 攻撃対象が1名なら、ダメージ量 +50% (集中戦闘の場合、本体を基準に判定)</style>"
+                                    "desc": "<style=\"highlight\">[OnStartCoin] 若僅指定1名攻撃<color=#ffffff>目標</color>，則使本硬幣造成的<color=#ffffff>傷害</color>+50%(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)</style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -1137,9 +1137,9 @@
                 },
                 {
                     "level": 4,
-                    "name": "穴",
-                    "abName": "穴の開いた人",
-                    "desc": "スキル使用中に攻撃対象が死亡した場合、体力が最も低い攻撃対象を優先指定 (集中戦闘の場合は部位で判定)\n\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">10</style>)\n自分の[BulletHole]1につき、マッチ威力 +2\n\n[BeforeAttack] 自分の[Breath]回数が3, [Charge]回数が5増加\n[BeforeAttack] 精神力を(5-保有する[BulletHole]) × 3だけ消耗し、[BulletHole]を最大値まで得る\n\n[EndSkill] [BlackWingHole]2を得る",
+                    "name": "空洞",
+                    "abName": "空洞之人",
+                    "desc": "若<color=#ffffff>目標</color>在本技能使用中陣亡，則優先指定<color=#61DA61>体力</color>最低的攻撃<color=#ffffff>目標</color>(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n\n<color=#ffffff>自身</color>的[Breath]強度与[Charge]層数之和每有4点，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">10</style>)\n<color=#ffffff>自身</color>每帯有1発[BulletHole]，使本技能的<color=#ffffff>拼点威力</color>+2\n\n[BeforeAttack] 使<color=#ffffff>自身</color>獲得3層[Breath]与5層[Charge]\n[BeforeAttack] 消耗((5-<color=#ffffff>自身</color>的[BulletHole]数)×3)点<color=#81BBE8>理智値</color>并使<color=#ffffff>自身</color>的[BulletHole]数獲得至最大値\n\n[EndSkill] 使<color=#ffffff>自身</color>獲得2層[BlackWingHole]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1147,28 +1147,28 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "このコインはメインターゲットにのみ的中する<style=\"highlight\"></style>"
+                                    "desc": "本硬幣僅命中主要<color=#ffffff>目標</color><style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[BulletHole]1を消耗<style=\"highlight\"></style>"
+                                    "desc": "消耗1発[BulletHole]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "クリティカルダメージ量 <style=\"highlight\">+20%</style>"
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color><style=\"highlight\">+20%</style>"
                                 },
                                 {
-                                    "desc": "このコインの初回使用時なら、\n- ダメージ量 +(自分の[Charge]回数 × 5)% (最大100%)\n- クリティカルダメージ量 +(自分の[Breath]威力 × 回数)% (最大100%)\n- このコインに限り、対象の貫通属性耐性を脆弱に変更する<style=\"highlight\"></style>"
+                                    "desc": "首次使用本硬幣時，\n- 使本硬幣造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Charge]層数×5)%(最多+100%)\n- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Breath]強度×[Breath]層数)%(最多+100%)\n- 僅在使用本硬幣時，使<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>抗性変為致命<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] [PenetrateTakeDamageUp]1を付与 (スキルにつき1回)</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[PenetrateTakeDamageUp](每个技能最多1次)</style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]1を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Sinking]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[CriticalOnSucceedAttack] 最後のコインの威力 +1<style=\"highlight\"></style>"
+                                    "desc": "[CriticalOnSucceedAttack] 使本技能最后一枚硬幣的威力+1<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[EndCoin] [BulletHole]が1以上ならこのコインを再使用 (スキルにつき4回)<style=\"highlight\"></style>"
+                                    "desc": "[EndCoin] 若<color=#ffffff>自身</color>的[BulletHole]数不低于1発，則<color=#ffffff>重復使用</color>本硬幣(每个技能最多4次)<style=\"highlight\"></style>"
                                 }
                             ]
                         },
@@ -1178,16 +1178,16 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "クリティカルダメージ量 +50%<style=\"highlight\"></style>"
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+50%<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] 攻撃対象が1名なら、ダメージ量 <style=\"highlight\">+100%</style> (集中戦闘の場合、本体を基準に判定)"
+                                    "desc": "[OnStartCoin] 若僅指定1名攻撃<color=#ffffff>目標</color>，則使本硬幣造成的<color=#ffffff>傷害</color><style=\"highlight\">+100%</style>(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnStartCoin] 自分の[Charge]回数4につき、コイン威力 +1 (最大5)</style>"
+                                    "desc": "<style=\"highlight\">[OnStartCoin] <color=#ffffff>自身</color>每帯有4層[Charge]，使本硬幣的<color=#ffffff>硬幣威力</color>+1(最多+5)</style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -1200,9 +1200,9 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "穴",
-                    "abName": "穴の開いた人",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nこのスキルは守備スキルを発動させない (マッチ可能な守備を含む)\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大5)\n[BeforeAttack] 自分に[BulletHole]がないなら、[BulletHole]1を得る\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -2 (最大-4)",
+                    "name": "空洞",
+                    "abName": "空洞之人",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n本技能不会触発守備技能(包括可拼点守備技能)\n<color=#ffffff>自身</color>的[Breath]強度与[Charge]層数之和每有4点，使本技能的<color=#ffffff>拼点威力</color>+1(最多+5)\n[BeforeAttack] 若<color=#ffffff>自身</color>未帯有[BulletHole]，則使<color=#ffffff>自身</color>獲得1発[BulletHole]\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-2(最多-4)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1210,13 +1210,13 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] [BlackWingHole]5を得る"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>獲得5層[BlackWingHole]"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] 自分の[Charge]回数が5増加"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>獲得5層[Charge]"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] [Breath]5を得る"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>増加5級[Breath]強度"
                                 }
                             ]
                         },
@@ -1226,40 +1226,40 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "このコインの裏面確率は精神力に関係なく、(自分が保有する[BulletHole] × 20)%の確率で適用される"
+                                    "desc": "本硬幣有(<color=#ffffff>自身</color>的[BulletHole]数×20)%的概率朝向反面，不受<color=#ffffff>自身</color><color=#81BBE8>理智値</color>影響"
                                 },
                                 {
-                                    "desc": "[CoinHead]\n- このコインは的中しない"
+                                    "desc": "[CoinHead]\n- 本硬幣不会命中"
                                 },
                                 {
-                                    "desc": "- [EndCoin] [Breath]5を得る"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>増加5級[Breath]強度"
                                 },
                                 {
-                                    "desc": "- [EndCoin] 自分の[Breath]回数が3増加"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>獲得3層[Breath]"
                                 },
                                 {
-                                    "desc": "- [EndCoin] [BulletHole]2を得る"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>獲得2発[BulletHole]"
                                 },
                                 {
-                                    "desc": "- [EndCoin] このスキルで消耗したE.G.O資源の半分が返還される (小数点切り捨て)"
+                                    "desc": "- [EndCoin] 返還本技能消耗的E.G.O資源的一半(向下取整)"
                                 },
                                 {
-                                    "desc": "[CoinTail]\n- ダメージ量 +(自分の充電回数 × 3)% (最大60%)"
+                                    "desc": "[CoinTail]\n- 使本硬幣造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的充能 層数×3)%(最多+60%)"
                                 },
                                 {
-                                    "desc": "- クリティカルダメージ量 +70%"
+                                    "desc": "- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+70%"
                                 },
                                 {
-                                    "desc": "- [OnSucceedAttack] このコインの最終ダメージ量の10%分の貫通ダメージ"
+                                    "desc": "- [OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量10%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] 自分の[BulletHole]を全て消耗"
+                                    "desc": "- [EndCoin] 消耗<color=#ffffff>自身</color>所有[BulletHole]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]5を付与"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Sinking]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]"
                                 }
                             ]
                         }
@@ -1267,9 +1267,9 @@
                 },
                 {
                     "level": 3,
-                    "name": "穴",
-                    "abName": "穴の開いた人",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nこのスキルは守備スキルを発動させない (マッチ可能な守備を含む)\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">7</style>)\n\n<style=\"highlight\">[BeforeAttack] 攻撃対象が1名なら、ダメージ量 +100% (集中戦闘の場合、本体を基準に判定)</style>\n[BeforeAttack] 自分に[BulletHole]がないなら、[BulletHole]1を得る\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -2 (最大-4)",
+                    "name": "空洞",
+                    "abName": "空洞之人",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n本技能不会触発守備技能(包括可拼点守備技能)\n<color=#ffffff>自身</color>的[Breath]強度与[Charge]層数之和每有4点，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">7</style>)\n\n<style=\"highlight\">[BeforeAttack] 僅指定1名攻撃<color=#ffffff>目標</color>時，使本技能造成的<color=#ffffff>傷害</color>+100%(若是<color=#ffffff>集中遭遇戦</color>，則改為以本体判定)</style>\n[BeforeAttack] 若<color=#ffffff>自身</color>未帯有[BulletHole]，則使<color=#ffffff>自身</color>獲得1発[BulletHole]\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-2(最多-4)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1277,13 +1277,13 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] [BlackWingHole]5を得る<style=\"highlight\"></style>"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>獲得5層[BlackWingHole]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] 自分の[Charge]回数が5増加<style=\"highlight\"></style>"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>獲得5層[Charge]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] [Breath]5を得る<style=\"highlight\"></style>"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>増加5級[Breath]強度<style=\"highlight\"></style>"
                                 }
                             ]
                         },
@@ -1293,40 +1293,40 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "このコインの裏面確率は精神力に関係なく、(自分が保有する[BulletHole] × 20)%の確率で適用される<style=\"highlight\"></style>"
+                                    "desc": "本硬幣有(<color=#ffffff>自身</color>的[BulletHole]数×20)%的概率朝向反面，不受<color=#ffffff>自身</color><color=#81BBE8>理智値</color>影響<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[CoinHead]\n- このコインは的中しない<style=\"highlight\"></style>"
+                                    "desc": "[CoinHead]\n- 本硬幣不会命中<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] [Breath]5を得る<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>増加5級[Breath]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] 自分の[Breath]回数が3増加<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>獲得3層[Breath]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] [BulletHole]2を得る<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>獲得2発[BulletHole]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] このスキルで消耗したE.G.O資源の半分が返還される (小数点切り捨て)<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 返還本技能消耗的E.G.O資源的一半(向下取整)<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[CoinTail]\n- ダメージ量 +(自分の充電回数 × <style=\"highlight\">4)% (最大80%)</style>"
+                                    "desc": "[CoinTail]\n- 使本硬幣造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的充能 層数×<style=\"highlight\">4)%(最多+80%)</style>"
                                 },
                                 {
-                                    "desc": "- クリティカルダメージ量 <style=\"highlight\">+100%</style>"
+                                    "desc": "- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color><style=\"highlight\">+100%</style>"
                                 },
                                 {
-                                    "desc": "- [OnSucceedAttack] このコインの最終ダメージ量の<style=\"highlight\">15%</style>分の貫通ダメージ"
+                                    "desc": "- [OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量<style=\"highlight\">15%</style>的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] 自分の[BulletHole]を全て消耗<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 消耗<color=#ffffff>自身</color>所有[BulletHole]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]5を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Sinking]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]<style=\"highlight\"></style>"
                                 }
                             ]
                         }
@@ -1334,9 +1334,9 @@
                 },
                 {
                     "level": 4,
-                    "name": "穴",
-                    "abName": "穴の開いた人",
-                    "desc": "[CantIdentify]\nランダムな対象を攻撃\nこのスキルは守備スキルを発動させない (マッチ可能な守備を含む)\n(自分の[Breath]威力 + [Charge]回数)4につき、マッチ威力 +1 (最大<style=\"highlight\">10</style>)\n\n[BeforeAttack] 攻撃対象が1名なら、ダメージ量 <style=\"highlight\">+200% (集中戦闘の場合、本体を基準に判定)\n[BeforeAttack] 最終威力 +(自分の[BulletHole]の値)</style>\n[BeforeAttack] 自分に[BulletHole]がないなら、[BulletHole]1を得る\n[BeforeAttack] 破壊されたコイン数1枚につき基本威力 -2 (最大-4)\n<style=\"highlight\">[EnemyKill] 精神力を5回復</style>",
+                    "name": "空洞",
+                    "abName": "空洞之人",
+                    "desc": "[CantIdentify]\n随机指定<color=#ffffff>目標</color>\n本技能不会触発守備技能(包括可拼点守備技能)\n<color=#ffffff>自身</color>的[Breath]強度与[Charge]層数之和每有4点，使本技能的<color=#ffffff>拼点威力</color>+1(最多+<style=\"highlight\">10</style>)\n\n[BeforeAttack] 僅指定1名攻撃<color=#ffffff>目標</color>時，使本技能造成的<color=#ffffff>傷害</color><style=\"highlight\">+200%(若是<color=#ffffff>集中遭遇戦</color>，則改為以本体判定)\n[BeforeAttack] 使本技能的<color=#ffffff>最終威力</color>+(<color=#ffffff>自身</color>的[BulletHole]数)</style>\n[BeforeAttack] 若<color=#ffffff>自身</color>未帯有[BulletHole]，則使<color=#ffffff>自身</color>獲得1発[BulletHole]\n[BeforeAttack] 本技能每有1枚硬幣被摧毀，使本技能的<color=#ffffff>基礎威力</color>-2(最多-4)\n<style=\"highlight\">[EnemyKill] 使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color></style>",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1344,16 +1344,16 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] [BlackWingHole]5を得る<style=\"highlight\"></style>"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>獲得5層[BlackWingHole]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] 自分の[Charge]回数が5増加<style=\"highlight\"></style>"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>獲得5層[Charge]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnStartCoin] [Breath]5を得る<style=\"highlight\"></style>"
+                                    "desc": "[OnStartCoin] 使<color=#ffffff>自身</color>増加5級[Breath]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">[OnSucceedAttack] 次のターンに[Binding]1を付与</style>"
+                                    "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Binding]</style>"
                                 }
                             ]
                         },
@@ -1363,46 +1363,46 @@
                                     "desc": "[SuperCoin]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "このコインの裏面確率は精神力に関係なく、(自分が保有する[BulletHole] × 20)%の確率で適用される<style=\"highlight\"></style>"
+                                    "desc": "本硬幣有(<color=#ffffff>自身</color>的[BulletHole]数×20)%的概率朝向反面，不受<color=#ffffff>自身</color><color=#81BBE8>理智値</color>影響<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[CoinHead]\n- このコインは的中しない<style=\"highlight\"></style>"
+                                    "desc": "[CoinHead]\n- 本硬幣不会命中<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] [Breath]5を得る<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>増加5級[Breath]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] 自分の[Breath]回数が3増加<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>獲得3層[Breath]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">- [EndCoin] 自分に付与された解除可能なマイナス効果をランダムに1つ除去</style>"
+                                    "desc": "<style=\"highlight\">- [EndCoin] 随机解除<color=#ffffff>自身</color>帯有的1種可解除的負面状態</style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] [BulletHole]2を得る<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 使<color=#ffffff>自身</color>獲得2発[BulletHole]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] このスキルで消耗したE.G.O資源の半分が返還される (小数点切り捨て)<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 返還本技能消耗的E.G.O資源的一半(向下取整)<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[CoinTail]\n- ダメージ量 +(自分の充電回数 × <style=\"highlight\">5)% (最大100%)</style>"
+                                    "desc": "[CoinTail]\n- 使本硬幣造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的充能 層数×<style=\"highlight\">5)%(最多+100%)</style>"
                                 },
                                 {
-                                    "desc": "- クリティカルダメージ量 <style=\"highlight\">+130%</style>"
+                                    "desc": "- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color><style=\"highlight\">+130%</style>"
                                 },
                                 {
-                                    "desc": "- [OnSucceedAttack] このコインの最終ダメージ量の<style=\"highlight\">20%</style>分の貫通ダメージ"
+                                    "desc": "- [OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量<style=\"highlight\">20%</style>的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                                 },
                                 {
-                                    "desc": "<style=\"highlight\">- [EnemyKill] 自分の体力最大値の5%分、体力を回復</style>"
+                                    "desc": "<style=\"highlight\">- [EnemyKill] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color></style>"
                                 },
                                 {
-                                    "desc": "- [EndCoin] 自分の[BulletHole]を全て消耗<style=\"highlight\"></style>"
+                                    "desc": "- [EndCoin] 消耗<color=#ffffff>自身</color>所有[BulletHole]<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]5を付与<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Sinking]強度<style=\"highlight\"></style>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] [Sinking]回数が3増加<style=\"highlight\"></style>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Sinking]<style=\"highlight\"></style>"
                                 }
                             ]
                         }
