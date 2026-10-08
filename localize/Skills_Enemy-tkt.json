@@ -11,7 +11,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>目標</color>的[Vibration]層数，対<color=#ffffff>自身</color>施加相應層数的[Vibration]"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>自身</color>施加層数相当于<color=#ffffff>目標</color>[Vibration]層数的[Vibration]"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
@@ -76,7 +76,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>的[Vibration]層数，対<color=#ffffff>目標</color>施加相應層数的[Vibration]"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加層数相当于<color=#ffffff>自身</color>[Vibration]層数的[Vibration]"
                                 }
                             ]
                         },
@@ -121,7 +121,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>目標</color>的[Vibration]強度，使<color=#ffffff>自身</color>増加相應的[Vibration]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加相当于<color=#ffffff>目標</color>[Vibration]強度的[Vibration]強度"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Vibration]強度"
@@ -186,7 +186,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>的[Vibration]強度，使<color=#ffffff>目標</color>増加相應的[Vibration]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于<color=#ffffff>自身</color>[Vibration]強度的[Vibration]強度"
                                 }
                             ]
                         },
@@ -340,7 +340,7 @@
                 {
                     "level": 1,
                     "name": "做好覚悟了？",
-                    "desc": "優先指定帯有[VibrationCollapse]的<color=#ffffff>目標</color>\n[WhenUse] 根据<color=#ffffff>自身</color>帯有的[Vibration]層数，対除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加相應層数的[Vibration]\n[WhenUse] 使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的[Vibration][Switch_Vibration]為[VibrationDistribution]",
+                    "desc": "優先指定帯有[VibrationCollapse]的<color=#ffffff>目標</color>\n[WhenUse] 対除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加層数相当于<color=#ffffff>自身</color>[Vibration]層数的[Vibration]\n[WhenUse] 使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的[Vibration][Switch_Vibration]為[VibrationDistribution]",
                     "coinlist": [
                         {},
                         {},

@@ -74,14 +74,14 @@
         {
             "id": 132003,
             "name": "燃焼的火種",
-            "desc": "根据<color=#ffffff>自身</color>帯有的[MRcAiBa]層数，将相應数量的非<color=#FE0100>暴怒</color>技能轉化為<color=#FE0100>暴怒</color>技能",
+            "desc": "根据<color=#ffffff>自身</color>帯有的[MRcAiBa]層数，使相應数量的非<color=#FE0100>暴怒</color>技能轉化為<color=#FE0100>暴怒</color>技能",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": 132004,
             "name": "噛合的紅焰",
-            "desc": "根据<color=#ffffff>自身</color>帯有的[MRcAiBa]層数，将相應数量的非<color=#FE0100>暴怒</color>技能轉化為<color=#FE0100>暴怒</color>技能\n\n技能命中時，使<color=#ffffff>目標</color>増加(紅焰蛾<color=#7C5738>本回合</color>使用的<color=#FE0100>暴怒</color>技能数)級[Combustion]強度\n\n技能命中時，使<color=#ffffff>自身</color>恢復(紅焰蛾<color=#7C5738>本回合</color>使用的<color=#FE0100>暴怒</color>技能数×2)点<color=#61DA61>体力</color>",
+            "desc": "根据<color=#ffffff>自身</color>帯有的[MRcAiBa]層数，使相應数量的非<color=#FE0100>暴怒</color>技能轉化為<color=#FE0100>暴怒</color>技能\n\n技能命中時，使<color=#ffffff>目標</color>増加(紅焰蛾<color=#7C5738>本回合</color>使用的<color=#FE0100>暴怒</color>技能数)級[Combustion]強度\n\n技能命中時，使<color=#ffffff>自身</color>恢復(紅焰蛾<color=#7C5738>本回合</color>使用的<color=#FE0100>暴怒</color>技能数×2)点<color=#61DA61>体力</color>",
             "summary": "",
             "undefined": "-"
         },
@@ -102,7 +102,7 @@
         {
             "id": 132501,
             "name": "由終端所傳達的指令",
-            "desc": "関峠開始時，使自身獲得体力上限20%的護盾(該護盾在本場戦斗期間維持)\n\n回合開始時\n- 根据自身的[UnlockBuff_Base]階段，使自身獲得[IndexPrescript_Base_2nd]\n- <color=#ff6000><mark=#ff000040><b><u>随机対1名敵方単位施加[IndexPrescriptTargetToPersonality]并優先攻撃該単位</u></b></mark></color>(不包括特定階段)\n\n自身每帯有1層[BlessingOfIndexPrescriptEnemy]，使自身対[IndexPrescriptTargetToPersonality]造成的傷害+2.5%(最多+20%)\n- 若自身的[BlessingOfIndexPrescriptEnemy]層数為9層，則改為対全体目標造成的傷害+30%",
+            "desc": "関峠開始時，使自身獲得体力上限20%的護盾(該護盾在本場戦斗期間維持)\n\n回合開始時\n- 根据自身的[UnlockBuff_Base]階段，相應使自身獲得[IndexPrescript_Base_2nd]\n- <color=#ff6000><mark=#ff000040><b><u>随机対1名敵方単位施加[IndexPrescriptTargetToPersonality]并優先攻撃該単位</u></b></mark></color>(不包括特定階段)\n\n自身每帯有1層[BlessingOfIndexPrescriptEnemy]，使自身対[IndexPrescriptTargetToPersonality]造成的傷害+2.5%(最多+20%)\n- 若自身的[BlessingOfIndexPrescriptEnemy]層数為9層，則改為対全体目標造成的傷害+30%",
             "summary": "",
             "undefined": "-"
         },

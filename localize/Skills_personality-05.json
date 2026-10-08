@@ -761,7 +761,7 @@
                 {
                     "level": 1,
                     "name": "学習時間",
-                    "desc": "[StartBattle] 根据<color=#ffffff>自身</color>帯有的[KnowledgeExplored]層数，使<color=#ffffff>自身</color>獲得相應層数的[KnowledgeTraining]\n[WhenUse] 按技能級別由低到高[Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能",
+                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>[KnowledgeExplored]層数的[KnowledgeTraining]\n[WhenUse] 按技能級別由低到高[Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能",
                     "coinlist": [
                         {},
                         {
@@ -776,7 +776,7 @@
                 {
                     "level": 2,
                     "name": "学習時間",
-                    "desc": "<style=\"highlight\"><color=#ffffff>自身</color>每帯有1層[KnowledgeExplored]，使本技能造成的<color=#ffffff>傷害</color>+3%(最多+9%)</style>\n[StartBattle] 根据<color=#ffffff>自身</color>帯有的[KnowledgeExplored]層数，<style=\"highlight\">随机使1名<color=#ffffff>友方単位</color></style>与<color=#ffffff>自身</color>獲得相應層数的[KnowledgeTraining]<style=\"highlight\">(優先适用于能劬[Discard]技能且[KnowledgeTraining]層数最低的<color=#ffffff>友方単位</color>)</style>\n[WhenUse] 按技能級別由低到高[Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>目標</color>的[Sinking]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1</style>",
+                    "desc": "<style=\"highlight\"><color=#ffffff>自身</color>每帯有1層[KnowledgeExplored]，使本技能造成的<color=#ffffff>傷害</color>+3%(最多+9%)</style>\n[StartBattle] <style=\"highlight\">随机使1名<color=#ffffff>友方単位</color></style>与<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>[KnowledgeExplored]層数的[KnowledgeTraining]<style=\"highlight\">(優先适用于能劬[Discard]技能且[KnowledgeTraining]層数最低的<color=#ffffff>友方単位</color>)</style>\n[WhenUse] 按技能級別由低到高[Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>目標</color>的[Sinking]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1</style>",
                     "coinlist": [
                         {},
                         {
@@ -791,7 +791,7 @@
                 {
                     "level": 4,
                     "name": "学習時間",
-                    "desc": "<color=#ffffff>自身</color>每帯有1層[KnowledgeExplored]，使本技能造成的<color=#ffffff>傷害</color><style=\"highlight\">+5%</style>(最多+<style=\"highlight\">15%</style>)\n[StartBattle] 根据<color=#ffffff>自身</color>帯有的[KnowledgeExplored]層数，随机使<style=\"highlight\">2</style>名<color=#ffffff>友方単位</color>与<color=#ffffff>自身</color>獲得相應層数的[KnowledgeTraining](優先适用于能劬[Discard]技能且[KnowledgeTraining]層数最低的<color=#ffffff>友方単位</color>)\n[WhenUse] 按技能級別由低到高[Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能\n<style=\"highlight\">[WhenUse] <color=#ffffff>目標</color>每帯有6級[Sinking]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>",
+                    "desc": "<color=#ffffff>自身</color>每帯有1層[KnowledgeExplored]，使本技能造成的<color=#ffffff>傷害</color><style=\"highlight\">+5%</style>(最多+<style=\"highlight\">15%</style>)\n[StartBattle] 随机使<style=\"highlight\">2</style>名<color=#ffffff>友方単位</color>与<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>[KnowledgeExplored]層数的[KnowledgeTraining](優先适用于能劬[Discard]技能且[KnowledgeTraining]層数最低的<color=#ffffff>友方単位</color>)\n[WhenUse] 按技能級別由低到高[Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能\n<style=\"highlight\">[WhenUse] <color=#ffffff>目標</color>每帯有6級[Sinking]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>",
                     "coinlist": [
                         {},
                         {

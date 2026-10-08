@@ -632,7 +632,7 @@
                 {
                     "level": 1,
                     "name": "“是‘于神面前悔改叭’来着叭？”",
-                    "desc": "使<color=#ff6000><mark=#ff000040><b><u>帯有的[GoldenFabricWarderThirdPhase]罪人</u></b></mark></color>在連接技能時以装備本技能的行動槽為主要目標的技能造成的傷害+100%(若該技能為E.G.O技能，則改為造成的傷害+200%)\n[EndBattle] 若自身的[EncompassingVoiceThirdPhase]層数低于100層，則使自身獲得至100層[EncompassingVoiceThirdPhase]\n- 每獲得1層[EncompassingVoiceThirdPhase]，使牧師的理智値減少1点(最多45点)",
+                    "desc": "使<color=#ff6000><mark=#ff000040><b><u>帯有[GoldenFabricWarderThirdPhase]的罪人</u></b></mark></color>在連接技能時以装備本技能的行動槽為主要目標的技能造成的傷害+100%(若該技能為E.G.O技能，則改為造成的傷害+200%)\n[EndBattle] 若自身的[EncompassingVoiceThirdPhase]層数低于100層，則使自身獲得至100層[EncompassingVoiceThirdPhase]\n- 每獲得1層[EncompassingVoiceThirdPhase]，使牧師的理智値減少1点(最多45点)",
                     "coinlist": [
                         {
                             "coindescs": []
@@ -1625,7 +1625,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "請求(la demande)",
+                    "name": "要求(la demande)",
                     "desc": "[CantDuel]\n[CantChangeTarget]\n本技能不会触発<color=#ffffff>目標</color>的守備技能\n[WhenUse] 解除主要<color=#ffffff>目標</color>所有[BoneNail]\n[WhenUse] 主要<color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[EndSkill] 解除主要<color=#ffffff>目標</color>的[BuffetScruple]",
                     "coinlist": [
                         {
@@ -1659,7 +1659,7 @@
                 {
                     "level": 1,
                     "name": "父親之名(le Nom-du-Père)",
-                    "desc": "[StartBattle] 若自身<color=#ff6000><mark=#ff000040><b><u>帯有[BuffetRouge]</u></b></mark></color>，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] 主要目標每帯有4級[Laceration]強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 若<color=#ff6000><mark=#ff000040><b><u>主要目標帯有[BuffetScruple]</u></b></mark></color>，則使本技能的攻撃容量-2\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱\n[EndSkill] 解除目標的[BuffetScruple]",
+                    "desc": "[StartBattle] 若自身<color=#ff6000><mark=#ff000040><b><u>帯有[BuffetRouge]</u></b></mark></color>，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] 主要目標每帯有4級[Laceration]強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 若<color=#ff6000><mark=#ff000040><b><u>主要目標帯有[BuffetScruple]</u></b></mark></color>，則使本技能的攻撃容量-2\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱\n[EndSkill] 解除主要目標的[BuffetScruple]",
                     "coinlist": [
                         {
                             "coindescs": [

@@ -321,7 +321,7 @@
                 {
                     "level": 1,
                     "name": "硬血強化打撃",
-                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，根据<color=#ffffff>自身</color>帯有的[HardenedBlood]層数，額外使<color=#ffffff>目標</color>増加[Burst]強度\n[EndSkill] 消耗所有[HardenedBlood]与[BloodyHand]",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，額外使<color=#ffffff>目標</color>増加相当于<color=#ffffff>自身</color>[HardenedBlood]層数的[Burst]強度\n[EndSkill] 消耗所有[HardenedBlood]与[BloodyHand]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -430,7 +430,7 @@
                 {
                     "level": 1,
                     "name": "硬血強化打撃",
-                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，根据<color=#ffffff>自身</color>帯有的[HardenedBlood]層数，額外使<color=#ffffff>目標</color>増加[Burst]強度\n[EndSkill] 消耗所有[HardenedBlood]与[BloodyHand]",
+                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+1\n[WhenUse] 通過本技能效果施加[Laceration]時，額外使<color=#ffffff>目標</color>増加相当于<color=#ffffff>自身</color>[HardenedBlood]層数的[Burst]強度\n[EndSkill] 消耗所有[HardenedBlood]与[BloodyHand]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -798,7 +798,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>的[HardenedBlood]層数，使<color=#ffffff>目標</color>増加相應的[Laceration]強度与[Burst]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于<color=#ffffff>自身</color>[HardenedBlood]層数的[Laceration]強度与[Burst]強度"
                                 }
                             ]
                         },
@@ -895,7 +895,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>的[HardenedBlood]層数，使<color=#ffffff>目標</color>増加相應的[Laceration]強度与[Burst]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于<color=#ffffff>自身</color>[HardenedBlood]層数的[Laceration]強度与[Burst]強度"
                                 }
                             ]
                         },
@@ -1022,7 +1022,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>的[HardenedBlood]層数，使<color=#ffffff>目標</color>増加相應的[Laceration]強度与[Burst]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于<color=#ffffff>自身</color>[HardenedBlood]層数的[Laceration]強度与[Burst]強度"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[FestivalFever]層数×4)%的<color=#61DA61>体力</color>(最多40%)"
@@ -1148,7 +1148,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 根据<color=#ffffff>自身</color>的[HardenedBlood]層数，使<color=#ffffff>目標</color>増加相應的[Laceration]強度与[Burst]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加相当于<color=#ffffff>自身</color>[HardenedBlood]層数的[Laceration]強度与[Burst]強度"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[FestivalFever]層数×4)%的<color=#61DA61>体力</color>(最多40%)"

@@ -573,7 +573,7 @@
         {
             "id": 1070501,
             "name": "泪雨",
-            "desc": "<color=#ffffff>戦斗開始</color>時，消耗1層沈淪 ，并根据沈淪 強度失去相應的<color=#81BBE8>理智値</color>。\n受到攻撃前，根据<color=#ffffff>自身</color>帯有的沈淪 強度，獲得相應層数的守護 。(<color=#7C5738>每回合</color>最多獲得5層)\n受到攻撃時，<color=#7C5738>下回合</color>獲得1層<color=#ffffff>打撃</color>傷害強化 。(<color=#7C5738>每回合</color>最多獲得3層)"
+            "desc": "<color=#ffffff>戦斗開始</color>時，消耗1層沈淪 ，并根据<color=#ffffff>自身</color>的沈淪 強度使<color=#ffffff>自身</color>失去相應的<color=#81BBE8>理智値</color>。\n受到攻撃前，使<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>沈淪 強度的守護 。(<color=#7C5738>每回合</color>最多獲得5層)\n受到攻撃時，<color=#7C5738>下回合</color>獲得1層<color=#ffffff>打撃</color>傷害強化 。(<color=#7C5738>每回合</color>最多3層)"
         },
         {
             "id": 1070521,
@@ -1680,12 +1680,12 @@
         {
             "id": 1081001,
             "name": "冲撃抵消巨剣",
-            "desc": "<color=#ffffff>戦斗開始</color>時，根据<color=#ffffff>自身</color>帯有的[Vibration]層数，使<color=#ffffff>自身</color>獲得相應層数的[DefenseUp](最多5層)"
+            "desc": "<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>[Vibration]層数的[DefenseUp](最多5層)"
         },
         {
             "id": 1081011,
             "name": "冲撃抵消巨剣",
-            "desc": "<color=#ffffff>戦斗開始</color>時，根据<color=#ffffff>自身</color>帯有的[Vibration]層数，使<color=#ffffff>自身</color>獲得相應層数的[DefenseUp](最多5層)\n- 若<color=#ffffff>自身</color>帯有[DefensiveStance]，則使以上效果獲得的[DefenseUp]層数変為2倍。"
+            "desc": "<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>[Vibration]層数的[DefenseUp](最多5層)\n- 若<color=#ffffff>自身</color>帯有[DefensiveStance]，則使以上效果獲得的[DefenseUp]層数変為2倍。"
         },
         {
             "id": 1081021,
@@ -1695,7 +1695,7 @@
         {
             "id": 1101001,
             "name": "開始保護任務",
-            "desc": "<color=#ffffff>戦斗開始</color>時，根据<color=#ffffff>自身</color>帯有的震顫 層数，獲得相應層数的[DefenseUp](最多5層)"
+            "desc": "<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>自身</color>獲得層数相当于<color=#ffffff>自身</color>震顫 層数的[DefenseUp](最多5層)"
         },
         {
             "id": 1101021,
@@ -2280,7 +2280,7 @@
             "id": 1091311,
             "name": "正義之魔法少女/絶望騎士",
             "desc": "処于[BlessingAlly]状態時\n- 受到来自攻撃的<color=#61DA61>体力</color><color=#ffffff>傷害</color>-(<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>/2)%(最多-20%)\n<style=\"highlight\">- 若<color=#ffffff>戦斗開始</color>時<color=#ffffff>自身</color>的[ProtectiveSword]層数不低于3層，則使<color=#ffffff>自身</color>獲得1層[Protection]\n- 若<color=#ffffff>戦斗開始</color>時<color=#ffffff>自身</color>的[ProtectiveSword]為5層，則改為使<color=#ffffff>自身</color>獲得2層[Protection]与1層[ParryingResultUp]</style>\n\n処于[DespairAlly]状態時\n- 基礎技能造成的<color=#ffffff>傷害</color>+(-<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>/2)%(最多+20%)\n<style=\"highlight\">- 若<color=#ffffff>戦斗開始</color>時<color=#ffffff>自身</color>的[PenetratingSword]層数不低于3層，則使<color=#ffffff>自身</color>獲得1層[AttackDmgUp]\n- 若<color=#ffffff>戦斗開始</color>時<color=#ffffff>自身</color>的[PenetratingSword]層数為5層，則改為使<color=#ffffff>自身</color>獲得2層[AttackDmgUp]与1層[ResultEnhancement]</style>",
-            "summary": "処于[BlessingAlly]状態時，受到的<color=#ffffff>傷害</color>減少;根据<color=#ffffff>自身</color>的[ProtectiveSword]層数使<color=#ffffff>自身</color>獲得[Protection]与[ParryingResultUp]\n処于[DespairAlly]状態時，造成的<color=#ffffff>傷害</color>増加;根据<color=#ffffff>自身</color>的[PenetratingSword]層数使<color=#ffffff>自身</color>獲得[AttackDmgUp]与[ResultEnhancement]"
+            "summary": "処于[BlessingAlly]状態時，受到的<color=#ffffff>傷害</color>減少;根据<color=#ffffff>自身</color>的[ProtectiveSword]層数相應使<color=#ffffff>自身</color>獲得[Protection]与[ParryingResultUp]\n処于[DespairAlly]状態時，造成的<color=#ffffff>傷害</color>増加;根据<color=#ffffff>自身</color>的[PenetratingSword]層数相應使<color=#ffffff>自身</color>獲得[AttackDmgUp]与[ResultEnhancement]"
         },
         {
             "id": 1091321,
@@ -2607,7 +2607,7 @@
         {
             "id": 1021402,
             "name": "由紙条所傳達的指令",
-            "desc": "<color=#7C5738>回合開始</color>時\n- 根据<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数，使<color=#ffffff>自身</color>獲得[IndexPrescriptFaust_0]/[IndexPrescriptFaust_1]/[IndexPrescriptFaust_2]/[IndexPrescriptFaust_3]\n- 随机対1名<color=#ffffff>敵方単位</color>施加[IndexPrescriptTargetToEnemy](若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)\n- 使儀表盤上<color=#ffffff>自身</color>的基礎攻撃技能獲得[IndexPrescriptTargetMarkToEnemy](每个<color=#ffffff>行動槽</color>最多1个，最多2个技能)\n· 若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数不低于6層，則該效果優先适用于3技能\n- <color=#ffffff>自身</color>陷入混乱、无法行動、陷入恐慌或E.G.O侵蝕時，以上所有效果与執行[IndexPrescript_Base]的判定不会生效",
+            "desc": "<color=#7C5738>回合開始</color>時\n- 根据<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数，相應使<color=#ffffff>自身</color>獲得[IndexPrescriptFaust_0]/[IndexPrescriptFaust_1]/[IndexPrescriptFaust_2]/[IndexPrescriptFaust_3]\n- 随机対1名<color=#ffffff>敵方単位</color>施加[IndexPrescriptTargetToEnemy](若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)\n- 使儀表盤上<color=#ffffff>自身</color>的基礎攻撃技能獲得[IndexPrescriptTargetMarkToEnemy](每个<color=#ffffff>行動槽</color>最多1个，最多2个技能)\n· 若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数不低于6層，則該效果優先适用于3技能\n- <color=#ffffff>自身</color>陷入混乱、无法行動、陷入恐慌或E.G.O侵蝕時，以上所有效果与執行[IndexPrescript_Base]的判定不会生效",
             "summary": "獲得指令\n随机対<color=#ffffff>敵方単位</color>施加指令対象\n随机使<color=#ffffff>自身</color>的基礎攻撃技能獲得指令的印記"
         },
         {
@@ -2620,7 +2620,7 @@
             "id": 1021401,
             "name": "苦行之刃",
             "desc": "<color=#ffffff>自身</color>每帯有1層[BlessingOfIndexPrescriptAlly]，使<color=#ffffff>自身</color>被[IndexPrescriptTargetMarkToEnemy]標記的技能造成的<color=#ffffff>傷害</color>+2%(最多+16%)\n- 若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数為9層，則改為使<color=#ffffff>自身</color>基礎技能造成的<color=#ffffff>傷害</color>+20%\n\n<color=#ffffff>自身</color>基礎技能命中帯有[IndexPrescriptTargetToEnemy]的<color=#ffffff>敵方単位</color>時，\n使<color=#ffffff>自身</color>増加1級[Breath]強度并使該<color=#ffffff>敵方単位</color>増加1級[Sinking]強度(<color=#7C5738>每回合</color>最多1次)\n- <color=#ffffff>自身</color>每帯有3層[BlessingOfIndexPrescriptAlly]，使該效果<color=#7C5738>每回合</color>可触発的次数+1(最多+2)\n\n若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数為9層，則令<color=#ffffff>自身</color>基礎技能増加的[Sinking]強度与[Breath]強度額外+1級",
-            "summary": "根据<color=#ffffff>自身</color>的指令加護 層数，使<color=#ffffff>自身</color>被指令的印記 標記的技能造成的<color=#ffffff>傷害</color>増加\n命中時，使<color=#ffffff>自身</color>増加呼吸法 強度，使<color=#ffffff>目標</color>増加沈淪 強度"
+            "summary": "根据<color=#ffffff>自身</color>的指令加護 層数，相應使<color=#ffffff>自身</color>被指令的印記 標記的技能造成的<color=#ffffff>傷害</color>増加\n命中時，使<color=#ffffff>自身</color>増加呼吸法 強度，使<color=#ffffff>目標</color>増加沈淪 強度"
         },
         {
             "id": 1021421,
@@ -2631,7 +2631,7 @@
         {
             "id": 1031402,
             "name": "由終端所傳達的指令",
-            "desc": "<color=#7C5738>回合開始</color>時\n- 根据<color=#ffffff>自身</color>的[UnlockBuff_Base]階段，使<color=#ffffff>自身</color>獲得[IndexPrescriptDon_0]/[IndexPrescriptDon_1]/[IndexPrescriptDon_2]/[IndexPrescriptDon_3]\n- 随机対1名<color=#ffffff>敵方単位</color>施加[IndexPrescriptTargetToEnemy](若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)\n- 使儀表盤上<color=#ffffff>自身</color>的基礎攻撃技能獲得[IndexPrescriptTargetMarkToEnemy](每个<color=#ffffff>行動槽</color>最多1个，最多2个技能)\n· 若<color=#ffffff>自身</color>的[UnlockBuff_Base]階段不低于2，則該效果優先适用于3技能\n- <color=#ffffff>自身</color>陷入混乱、无法行動、陷入恐慌或E.G.O侵蝕時，以上所有效果与執行[IndexPrescript_Base_2nd]的判定不会生效\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>帯有[UnlockBuffAlly_3]，則使<color=#ffffff>自身</color>獲得[Blandishment_Shin]",
+            "desc": "<color=#7C5738>回合開始</color>時\n- 根据<color=#ffffff>自身</color>的[UnlockBuff_Base]階段，相應使<color=#ffffff>自身</color>獲得[IndexPrescriptDon_0]/[IndexPrescriptDon_1]/[IndexPrescriptDon_2]/[IndexPrescriptDon_3]\n- 随机対1名<color=#ffffff>敵方単位</color>施加[IndexPrescriptTargetToEnemy](若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)\n- 使儀表盤上<color=#ffffff>自身</color>的基礎攻撃技能獲得[IndexPrescriptTargetMarkToEnemy](每个<color=#ffffff>行動槽</color>最多1个，最多2个技能)\n· 若<color=#ffffff>自身</color>的[UnlockBuff_Base]階段不低于2，則該效果優先适用于3技能\n- <color=#ffffff>自身</color>陷入混乱、无法行動、陷入恐慌或E.G.O侵蝕時，以上所有效果与執行[IndexPrescript_Base_2nd]的判定不会生效\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>帯有[UnlockBuffAlly_3]，則使<color=#ffffff>自身</color>獲得[Blandishment_Shin]",
             "summary": "獲得指令\n随机対<color=#ffffff>敵方単位</color>施加指令対象\n随机使<color=#ffffff>自身</color>的基礎攻撃技能獲得指令的印記"
         },
         {
@@ -2649,7 +2649,7 @@
             "id": 1031401,
             "name": "魔法滴滴大人果真明白吾之心愿捏！",
             "desc": "<color=#ffffff>自身</color>每帯有1層[BlessingOfIndexPrescriptAlly]，使<color=#ffffff>自身</color>被[IndexPrescriptTargetMarkToEnemy]標記的技能造成的<color=#ffffff>傷害</color>+2%(最多+16%)\n- 若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数為9層，則改為使<color=#ffffff>自身</color>基礎技能造成的<color=#ffffff>傷害</color>+20%\n\n<color=#ffffff>自身</color>基礎技能命中帯有[IndexPrescriptTargetToEnemy]的<color=#ffffff>敵方単位</color>時，\n使<color=#ffffff>自身</color>恢復3点<color=#81BBE8>理智値</color>(每个技能最多1次，<color=#7C5738>每回合</color>最多2次)\n- 根据<color=#ffffff>自身</color>的[UnlockBuff_Base]階段，使<color=#ffffff>自身</color>額外恢復相應的<color=#81BBE8>理智値</color>",
-            "summary": "根据<color=#ffffff>自身</color>的指令加護 層数，使<color=#ffffff>自身</color>被指令的印記 標記的技能造成的<color=#ffffff>傷害</color>増加\n命中時，使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>"
+            "summary": "根据<color=#ffffff>自身</color>的指令加護 層数，相應使<color=#ffffff>自身</color>被指令的印記 標記的技能造成的<color=#ffffff>傷害</color>増加\n命中時，使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>"
         },
         {
             "id": 1031421,
@@ -2720,7 +2720,7 @@
         {
             "id": 1011502,
             "name": "由終端所傳達的指令",
-            "desc": "<color=#7C5738>回合開始</color>時\n- 根据<color=#ffffff>自身</color>的[UnlockBuff_Base]階段，使<color=#ffffff>自身</color>獲得[IndexPrescriptYi_0]/[IndexPrescriptYi_1]/[IndexPrescriptYi_2]/[IndexPrescriptYi_3]\n- 随机対1名<color=#ffffff>敵方単位</color>施加[IndexPrescriptTargetToEnemy](若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)\n- 使儀表盤上<color=#ffffff>自身</color>的基礎攻撃技能獲得[IndexPrescriptTargetMarkToEnemy](每个<color=#ffffff>行動槽</color>最多1个，最多2个技能)\n· 若<color=#ffffff>自身</color>的[UnlockBuff_Base]階段不低于2，則該效果優先适用于3技能(優先強化技能)\n- <color=#ffffff>自身</color>陷入混乱、无法行動[TabExplain]、陷入恐慌或E.G.O侵蝕時，以上所有效果与執行[IndexPrescript_Base_2nd]的判定不会生效",
+            "desc": "<color=#7C5738>回合開始</color>時\n- 根据<color=#ffffff>自身</color>的[UnlockBuff_Base]階段，相應使<color=#ffffff>自身</color>獲得[IndexPrescriptYi_0]/[IndexPrescriptYi_1]/[IndexPrescriptYi_2]/[IndexPrescriptYi_3]\n- 随机対1名<color=#ffffff>敵方単位</color>施加[IndexPrescriptTargetToEnemy](若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)\n- 使儀表盤上<color=#ffffff>自身</color>的基礎攻撃技能獲得[IndexPrescriptTargetMarkToEnemy](每个<color=#ffffff>行動槽</color>最多1个，最多2个技能)\n· 若<color=#ffffff>自身</color>的[UnlockBuff_Base]階段不低于2，則該效果優先适用于3技能(優先強化技能)\n- <color=#ffffff>自身</color>陷入混乱、无法行動[TabExplain]、陷入恐慌或E.G.O侵蝕時，以上所有效果与執行[IndexPrescript_Base_2nd]的判定不会生效",
             "summary": "執行指令時，使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>并獲得指令加護 \n執行失敗時，対<color=#ffffff>自身</color>施加業 "
         },
         {
@@ -2751,13 +2751,13 @@
             "id": 1011501,
             "name": "倣造的一生",
             "desc": "<color=#ffffff>自身</color>每帯有1層[BlessingOfIndexPrescriptAlly]，使<color=#ffffff>自身</color>帯有[IndexPrescriptTargetMarkToEnemy]的技能造成的<color=#ffffff>傷害</color>+2%(最多+16%)\n- 若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数為9層，則改為使<color=#ffffff>自身</color>基礎技能造成的<color=#ffffff>傷害</color>+20%\n\n<color=#ffffff>自身</color>基礎攻撃技能的[SuperCoin]命中時，使<color=#ffffff>自身</color>獲得1層[StackYisangSpecialSkill]\n- 攻撃后，使<color=#ffffff>自身</color>獲得(剩余的[SuperCoin]数)層[StackYisangSpecialSkill]",
-            "summary": "根据<color=#ffffff>自身</color>的指令加護 層数，\n使<color=#ffffff>自身</color>被指令的印記 標記的技能造成的<color=#ffffff>傷害</color>増加\n命中時，使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>\n満足条件時，使<color=#ffffff>自身</color>獲得[StackYisangSpecialSkill]"
+            "summary": "根据<color=#ffffff>自身</color>的指令加護 層数，\n相應使<color=#ffffff>自身</color>被指令的印記 標記的技能造成的<color=#ffffff>傷害</color>増加\n命中時，使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>\n満足条件時，使<color=#ffffff>自身</color>獲得[StackYisangSpecialSkill]"
         },
         {
             "id": 1011511,
             "name": "倣造的一生",
             "desc": "<color=#ffffff>自身</color>每帯有1層[BlessingOfIndexPrescriptAlly]，使<color=#ffffff>自身</color>帯有[IndexPrescriptTargetMarkToEnemy]的技能造成的<color=#ffffff>傷害</color>+2%(最多+16%)\n- 若<color=#ffffff>自身</color>的[BlessingOfIndexPrescriptAlly]層数為9層，則改為使<color=#ffffff>自身</color>基礎技能造成的<color=#ffffff>傷害</color>+20%\n\n<color=#ffffff>自身</color>基礎攻撃技能的[SuperCoin]命中時，使<color=#ffffff>自身</color>獲得1層[StackYisangSpecialSkill]\n- 攻撃后，使<color=#ffffff>自身</color>獲得(剩余的[SuperCoin]数)層[StackYisangSpecialSkill]\n<style=\"highlight\">- “Furioso-Replica”攻撃后，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(剩余的[SuperCoin]数/2)層[StackYisangSpecialSkill](向下取整)</style>\n\n<style=\"highlight\"><color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>的[StackYisangSpecialSkill]層数達到9層，\n且<color=#7C5738>下回合</color>開始時儀表盤上不存在<color=#ffffff>自身</color>的3技能，則使<color=#ffffff>自身</color>的1个基礎技能轉化為3技能(優先轉化位于儀表盤最左側<color=#ffffff>行動槽</color>下方一行的技能)</style>",
-            "summary": "根据<color=#ffffff>自身</color>的指令加護 層数，\n使<color=#ffffff>自身</color>被指令的印記 標記的技能造成的<color=#ffffff>傷害</color>増加\n命中時，使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>\n満足条件時，使<color=#ffffff>自身</color>獲得[StackYisangSpecialSkill]"
+            "summary": "根据<color=#ffffff>自身</color>的指令加護 層数，\n相應使<color=#ffffff>自身</color>被指令的印記 標記的技能造成的<color=#ffffff>傷害</color>増加\n命中時，使<color=#ffffff>自身</color>恢復<color=#81BBE8>理智値</color>\n満足条件時，使<color=#ffffff>自身</color>獲得[StackYisangSpecialSkill]"
         },
         {
             "id": 1011521,
@@ -3335,7 +3335,7 @@
             "name": "約定之錘",
             "desc": "<color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得10層[ChargeNoirAlly]并使除<color=#ffffff>自身</color>以外属于黑派的友方人格獲得2層[Charge]\n\n通過技能效果施加[NoirNailDonQuixote]時，若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数\n- 不低于12層，則令施加的[NoirNailDonQuixote]層数額外+1層并消耗<color=#ffffff>自身</color>4層[ChargeNoirAlly]\n- 低于12層，則消耗<color=#ffffff>自身</color>2層[ChargeNoirAlly]\n- 不足，則不会施加[NoirNailDonQuixote]\n- 通過該效果施加[NoirNailDonQuixote]的技能視作消耗[Charge]層数的技能\n\n本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoirAlly]時，使<color=#ffffff>自身</color>増加1級[ChargeNoirAlly]強度",
             "summary": "獲得[ChargeNoirAlly]層数并使属于黑派的<color=#ffffff>友方単位</color>獲得[Charge]層数\n施加[NoirNailDonQuixote]時消耗[ChargeNoirAlly]層数，[ChargeNoirAlly]層数不低于一定値時施加量増加\n累計消耗[ChargeNoirAlly]層数時増加[ChargeNoirAlly]強度",
-            "flavor": "錘子釘釘子。這把錘子只釘釘子。被這把錘子釘的就是釘子。就是這様的約定。"
+            "flavor": "用錘子去釘釘子。錘子只釘釘子。被錘子釘的就是釘子。就是這様的約定。"
         },
         {
             "id": 1031503,

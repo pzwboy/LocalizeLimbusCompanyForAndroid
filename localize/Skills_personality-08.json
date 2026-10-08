@@ -1884,7 +1884,7 @@
                 {
                     "level": 1,
                     "name": "花札洗切",
-                    "desc": "[DuelCounter]\n[StartBattle] [Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能(<color=#7C5738>每回合</color>最多1次)\n[StartBattle] 若本技能装備于<color=#ffffff>自身</color>最左側的<color=#ffffff>行動槽</color>，則<color=#7C5738>下回合</color>根据<color=#ffffff>自身</color>持有的基礎攻撃技能使<color=#ffffff>自身</color>的組札轉化為随机一種対應的組札(<color=#7C5738>每回合</color>最多1次，不包含与<color=#ffffff>自身</color>組札相同的組札)",
+                    "desc": "[DuelCounter]\n[StartBattle] [Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能(<color=#7C5738>每回合</color>最多1次)\n[StartBattle] 若本技能装備于<color=#ffffff>自身</color>最左側的<color=#ffffff>行動槽</color>，則<color=#7C5738>下回合</color>根据<color=#ffffff>自身</color>擁有的基礎攻撃技能使<color=#ffffff>自身</color>的組札轉化為随机一種対應的組札(<color=#7C5738>每回合</color>最多1次，不包含与<color=#ffffff>自身</color>組札相同的組札)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1905,7 +1905,7 @@
                 {
                     "level": 4,
                     "name": "花札洗切",
-                    "desc": "[DuelCounter]\n[StartBattle] [Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能(<color=#7C5738>每回合</color>最多1次)\n[StartBattle] 若本技能装備于<color=#ffffff>自身</color>最左側的<color=#ffffff>行動槽</color>，則<color=#7C5738>下回合</color>根据<color=#ffffff>自身</color>持有的基礎攻撃技能使<color=#ffffff>自身</color>的組札轉化為随机一種対應的組札(<color=#7C5738>每回合</color>最多1次，不包含与<color=#ffffff>自身</color>組札相同的組札)\n<style=\"highlight\">[StartBattle] 以50%的概率使<color=#ffffff>自身</color>増加1級[HanafudaCombo]強度(<color=#7C5738>每回合</color>最多1次)</style>\n<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>每帯有2級[HanafudaCombo]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>",
+                    "desc": "[DuelCounter]\n[StartBattle] [Discard]<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的2个技能(<color=#7C5738>每回合</color>最多1次)\n[StartBattle] 若本技能装備于<color=#ffffff>自身</color>最左側的<color=#ffffff>行動槽</color>，則<color=#7C5738>下回合</color>根据<color=#ffffff>自身</color>擁有的基礎攻撃技能使<color=#ffffff>自身</color>的組札轉化為随机一種対應的組札(<color=#7C5738>每回合</color>最多1次，不包含与<color=#ffffff>自身</color>組札相同的組札)\n<style=\"highlight\">[StartBattle] 以50%的概率使<color=#ffffff>自身</color>増加1級[HanafudaCombo]強度(<color=#7C5738>每回合</color>最多1次)</style>\n<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>每帯有2級[HanafudaCombo]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1931,7 +1931,7 @@
                 {
                     "level": 1,
                     "name": "光斬",
-                    "desc": "[CantDuel]\n本技能不会触発守備技能，且不会因外部效果而<color=#ffffff>重復使用</color>\n\n[WhenUse] 若<color=#ffffff>自身</color>的[HanafudaCombo]強度低于3級，則取消本技能，并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Enhancement]\n[WhenUse] 若<color=#ffffff>自身</color>的[HanafudaCombo]強度不低于3級，則根据其強度触発以下效果：\n- 每1級，使本技能造成的<color=#ffffff>傷害</color>+10%\n- 不低于4級，使本技能的<color=#ffffff>基礎威力</color>+1\n- 5級，最后一枚<color=#ffffff>重復使用</color>的硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少1層\n[EndSkillAll] 解除<color=#ffffff>自身</color>所有[HanafudaCombo]\n[EndSkillAll] <color=#7C5738>下回合</color>根据<color=#ffffff>自身</color>持有的基礎攻撃技能，使<color=#ffffff>自身</color>的組札轉化為随机一種対應的組札(<color=#7C5738>每回合</color>最多1次)\n[EndSkillAll] 根据本技能未使用的硬幣数，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相應的[HanafudaCombo]強度",
+                    "desc": "[CantDuel]\n本技能不会触発守備技能，且不会因外部效果而<color=#ffffff>重復使用</color>\n\n[WhenUse] 若<color=#ffffff>自身</color>的[HanafudaCombo]強度低于3級，則取消本技能，并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Enhancement]\n[WhenUse] 若<color=#ffffff>自身</color>的[HanafudaCombo]強度不低于3級，則根据其強度触発以下效果：\n- 每1級，使本技能造成的<color=#ffffff>傷害</color>+10%\n- 不低于4級，使本技能的<color=#ffffff>基礎威力</color>+1\n- 5級，最后一枚<color=#ffffff>重復使用</color>的硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少1層\n[EndSkillAll] 解除<color=#ffffff>自身</color>所有[HanafudaCombo]\n[EndSkillAll] <color=#7C5738>下回合</color>根据<color=#ffffff>自身</color>擁有的基礎攻撃技能，使<color=#ffffff>自身</color>的組札轉化為随机一種対應的組札(<color=#7C5738>每回合</color>最多1次)\n[EndSkillAll] 根据本技能未使用的硬幣数，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相應的[HanafudaCombo]強度",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1951,7 +1951,7 @@
                 {
                     "level": 4,
                     "name": "光斬",
-                    "desc": "[CantDuel]\n本技能不会触発守備技能，且不会因外部效果而<color=#ffffff>重復使用</color>\n\n[WhenUse] 若<color=#ffffff>自身</color>的[HanafudaCombo]強度低于3級，則取消本技能，并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Enhancement]\n[WhenUse] 若<color=#ffffff>自身</color>的[HanafudaCombo]強度不低于3級，則根据其強度触発以下效果：\n- 每1級，使本技能造成的<color=#ffffff>傷害</color>+10%\n- 不低于4級，使本技能的<color=#ffffff>基礎威力</color>+1\n- 5級，最后一枚<color=#ffffff>重復使用</color>的硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其減少1層[Vibration]\n[EndSkillAll] 解除<color=#ffffff>自身</color>所有[HanafudaCombo]\n[EndSkillAll] <color=#7C5738>下回合</color>根据<color=#ffffff>自身</color>持有的基礎攻撃技能，使<color=#ffffff>自身</color>的組札轉化為随机一種対應的組札(<color=#7C5738>每回合</color>最多1次)\n[EndSkillAll] 根据本技能未使用的硬幣数，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相應的[HanafudaCombo]強度<style=\"highlight\"></style>",
+                    "desc": "[CantDuel]\n本技能不会触発守備技能，且不会因外部效果而<color=#ffffff>重復使用</color>\n\n[WhenUse] 若<color=#ffffff>自身</color>的[HanafudaCombo]強度低于3級，則取消本技能，并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Enhancement]\n[WhenUse] 若<color=#ffffff>自身</color>的[HanafudaCombo]強度不低于3級，則根据其強度触発以下效果：\n- 每1級，使本技能造成的<color=#ffffff>傷害</color>+10%\n- 不低于4級，使本技能的<color=#ffffff>基礎威力</color>+1\n- 5級，最后一枚<color=#ffffff>重復使用</color>的硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其減少1層[Vibration]\n[EndSkillAll] 解除<color=#ffffff>自身</color>所有[HanafudaCombo]\n[EndSkillAll] <color=#7C5738>下回合</color>根据<color=#ffffff>自身</color>擁有的基礎攻撃技能，使<color=#ffffff>自身</color>的組札轉化為随机一種対應的組札(<color=#7C5738>每回合</color>最多1次)\n[EndSkillAll] 根据本技能未使用的硬幣数，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相應的[HanafudaCombo]強度<style=\"highlight\"></style>",
                     "coinlist": [
                         {
                             "coindescs": [
