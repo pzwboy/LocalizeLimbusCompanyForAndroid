@@ -1,344 +1,344 @@
 {
-    "dataList": [
-        {
-            "id": 962201,
-            "name": "損坏的手段",
-            "desc": "手臂<color=#ffffff>部位</color>被破坏后，<color=#7C5738>每回合</color>対手臂<color=#ffffff>部位</color>施加1層[Reduction]"
-        },
-        {
-            "id": 962202,
-            "name": "施加折射的沈淪",
-            "desc": "<color=#ffffff>自身</color>被増加[Sinking]強度或施加[Sinking]層数時，額外使<color=#ffffff>自身</color>増加1級[Sinking]強度并対<color=#ffffff>自身</color>施加1層[Sinking](不适用于巡回[TabExplain]效果)"
-        },
-        {
-            "id": 962301,
-            "name": "回現的過去",
-            "desc": "若<color=#ffffff>自身</color>的[AccumulatedPast]層数不低于50層，且本体<color=#61DA61>体力</color>不高于80%，則在<color=#7C5738>回合結束</color>時消耗50層[AccumulatedPast]，并使本体恢復200点<color=#61DA61>体力</color>。"
-        },
-        {
-            "id": 962302,
-            "name": "消逝的過去",
-            "desc": "躯干<color=#ffffff>部位</color>被破坏后，消耗所有[AccumulatedPast]\n躯干<color=#ffffff>部位</color>被破坏后，使躯干<color=#ffffff>部位</color>在本場戦斗中獲得以下效果\n- <color=#7C5738>本回合</color>起使所有罪孼抗性変為0.5\n- <color=#7C5738>下回合</color>起使所有物理抗性変為0.5"
-        },
-        {
-            "id": 962303,
-            "name": "被破坏的排气口",
-            "desc": "蒸汽槍<color=#ffffff>部位</color>被破坏時，消耗所有<color=#ffffff>部位</color>的[Breath]強度\n蒸汽槍<color=#ffffff>部位</color>被破坏后，使<color=#ffffff>自身</color>増加[Breath]強度時，対<color=#ffffff>自身</color>施加1層[Vulnerable]\n蒸汽槍<color=#ffffff>部位</color>被破坏后，<color=#ffffff>自身</color>使用攻撃技能時，使<color=#ffffff>自身</color>失去1級[Breath]強度"
-        },
-        {
-            "id": 962304,
-            "name": "折射的焼傷与流血",
-            "desc": "[Combustion]和[Laceration]強度最多累積到30級\n[Combustion]和[Laceration]層数最多累積到5層"
-        },
-        {
-            "id": 962305,
-            "name": "施加折射的沈淪",
-            "desc": "<color=#ffffff>自身</color>被増加[Sinking]強度或施加[Sinking]層数時，額外使<color=#ffffff>自身</color>増加1級[Sinking]強度并対<color=#ffffff>自身</color>施加1層[Sinking](不适用于巡回[TabExplain]效果)"
-        },
-        {
-            "id": 962306,
-            "name": "蒸汽泄漏",
-            "desc": "蒸汽槍<color=#ffffff>部位</color>受到攻撃時，使<color=#ffffff>自身</color>失去1級[Breath]強度与1層[Breath]"
-        },
-        {
-            "id": 962307,
-            "name": "重畳的過去",
-            "desc": "<color=#7C5738>每回合</color>，<color=#ffffff>自身</color>每帯有80層[AccumulatedPast]，使<color=#ffffff>自身</color>獲得1層[Enhancement]。\n若<color=#ffffff>自身</color>的[AccumulatedPast]層数不低于80層，則額外獲得1个<color=#ffffff>行動槽</color>。"
-        },
-        {
-            "id": 962308,
-            "name": "節拍器",
-            "desc": "[AccumulatedPast]層数為奇数時，対<color=#ffffff>自身</color>施加3層[Vulnerable]并使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]\n層数為偶数時，使<color=#ffffff>自身</color>獲得3層[Protection]并対<color=#ffffff>自身</color>施加3層[AttackDmgDown]"
-        },
-        {
-            "id": 962401,
-            "name": "損坏的傘",
-            "desc": "躯干<color=#ffffff>部位</color>被破坏后，<color=#7C5738>每回合</color>対躯干<color=#ffffff>部位</color>施加1層[AttackDmgDown]"
-        },
-        {
-            "id": 962402,
-            "name": "磨損殆尽的傘",
-            "desc": "頭部被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加1層[AttackDmgDown]"
-        },
-        {
-            "id": 962403,
-            "name": "最后的爭扎",
-            "desc": "剩余15%<color=#61DA61>体力</color>時，触発以下效果，\n- <color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加10層[Binding]与1層[Reduction]\n- 新召喚的旧傘<color=#61DA61>体力</color>増加30%\n- <color=#7C5738>每回合</color>使用技能“尋找某物的哭声”或“哀求的哭声”"
-        },
-        {
-            "id": 962404,
-            "name": "虚栄的心",
-            "desc": "首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層[WaveFoxUmbrella]。(最多6層)\n獲得[WaveFoxUmbrella]時，額外獲得層数相当于巡回数的[WaveFoxUmbrella]\n根据帯有的[WaveFoxUmbrella]層数，獲得相應層数的[Protection]\n技能“等待”位于<color=#ffffff>行動槽</color>時，根据[WaveFoxUmbrella]層数，召喚相應数量的旧傘"
-        },
-        {
-            "id": 962405,
-            "name": "折射的破裂与沈淪",
-            "desc": "[Burst]与[Sinking]的強度最多累積到30級\n[Burst]与[Sinking]的層数最多累積到5層"
-        },
-        {
-            "id": 962406,
-            "name": "施加折射的流血",
-            "desc": "<color=#ffffff>自身</color>被増加[Laceration]強度或施加[Laceration]層数時，額外使<color=#ffffff>自身</color>増加1級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration](不适用于巡回[TabExplain]效果)"
-        },
-        {
-            "id": 962501,
-            "name": "被舍弃的旧傘",
-            "desc": "人格的技能結束時，若<color=#ffffff>自身</color>陣亡，則使該人格恢復10点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>使該人格獲得2層[Agility]\n\n<color=#ffffff>自身</color>陣亡時，対流浪狐狸的所有<color=#ffffff>部位</color>施加1層[ShardOfUmbrella]与2層[Binding]"
-        },
-        {
-            "id": 961801,
-            "name": "黄金時間",
-            "desc": "<color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>為6%~24%，則立即使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限80%的本体<color=#61DA61>体力</color>与<color=#ffffff>部位</color><color=#61DA61>体力</color>。解除<color=#ffffff>自身</color>的混乱。(每場戦斗最多1次)"
-        },
-        {
-            "id": 961802,
-            "name": "時間逆行反冲",
-            "desc": "激活黄金時間后，<color=#7C5738>回合開始</color>時対<color=#ffffff>自身</color>施加2層[Vulnerable]"
-        },
-        {
-            "id": 961803,
-            "name": "過度充能",
-            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[Charge]層数不低于5層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]"
-        },
-        {
-            "id": 961804,
-            "name": "折射的破裂与沈淪",
-            "desc": "[Burst]与[Sinking]的強度最多累積到30級\n[Burst]与[Sinking]的層数最多累積到5層"
-        },
-        {
-            "id": 961805,
-            "name": "施加折射的焼傷",
-            "desc": "<color=#ffffff>自身</color>被増加[Combustion]強度或施加[Combustion]層数時，額外使<color=#ffffff>自身</color>増加1級[Combustion]強度并対<color=#ffffff>自身</color>施加1層[Combustion](不适用于巡回[TabExplain]效果)"
-        },
-        {
-            "id": 962001,
-            "name": "魅惑",
-            "desc": "対<color=#7C5737>速度値</color>最低的<color=#ffffff>敵方単位</color>施加[FairyCharm]\n根据巡回数相應増加[FairyCharm]人数\n精霊<color=#ffffff>部位</color>再生時増加[FairyCharm]人数"
-        },
-        {
-            "id": 962002,
-            "name": "顕露的深渊",
-            "desc": "精霊<color=#ffffff>部位</color>被破坏后，露出躯干\n躯干再次隠藏時，移除所有増益与減益效果"
-        },
-        {
-            "id": 962003,
-            "name": "領先的誘餌",
-            "desc": "精霊<color=#ffffff>部位</color>受到攻撃也不会消耗本体的<color=#61DA61>体力</color>\n根据已[FairyCharm]人数相應増加攻撃的<color=#ffffff>行動槽</color>数"
-        },
-        {
-            "id": 962004,
-            "name": "損毀的根系",
-            "desc": "躯干<color=#ffffff>部位</color>被破坏時\n- 精霊<color=#ffffff>部位</color>再生時，以60%的<color=#61DA61>体力</color>再生\n- 技能使本体恢復的<color=#61DA61>体力</color>+20点"
-        },
-        {
-            "id": 962005,
-            "name": "進化的誘餌",
-            "desc": "精霊<color=#ffffff>部位</color>每次再生時，其<color=#61DA61>体力</color>上限増加30%"
-        },
-        {
-            "id": 962006,
-            "name": "折射的破裂与沈淪",
-            "desc": "[Burst]与[Sinking]的強度最多累積到30級\n[Burst]与[Sinking]的層数最多累積到5層"
-        },
-        {
-            "id": 962007,
-            "name": "精霊粉末",
-            "desc": "精霊陣亡時，<color=#7C5738>下回合</color>使<color=#ffffff>全体</color>人格増加5級[Breath]強度并使<color=#ffffff>全体</color>人格獲得2層[Breath]"
-        },
-        {
-            "id": 962101,
-            "name": "衰退的生命力",
-            "desc": "使用防御技能后若消耗了全部<color=#81BBE8>護盾</color>，則<color=#7C5738>下回合</color>対所有<color=#ffffff>部位</color>施加3層[AttackDown]与3層[Vulnerable]"
-        },
-        {
-            "id": 962102,
-            "name": "堅硬的甲殻",
-            "desc": "頭部未被破坏時，<color=#7C5738>每回合</color>使躯干獲得3層[Protection]"
-        },
-        {
-            "id": 962103,
-            "name": "自体発電",
-            "desc": "首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得3層[SelfCharge]\n每当巡回数増加時，相應使<color=#ffffff>自身</color>額外獲得1層[SelfCharge](最多8層)"
-        },
-        {
-            "id": 962104,
-            "name": "鮮活的神經",
-            "desc": "本単位垂死時，取消<color=#7C5738>本回合</color>的所有技能。\n触発以上效果時，使<color=#ffffff>自身</color>獲得10層[SelfCharge]"
-        },
-        {
-            "id": 962105,
-            "name": "折射的流血与震顫",
-            "desc": "[Laceration]和[Vibration]強度最多累積到30級\n[Laceration]和[Vibration]層数最多累積到5層"
-        },
-        {
-            "id": 962106,
-            "name": "折射的充能",
-            "desc": "攻撃命中時，若<color=#ffffff>目標</color>帯有[Charge]，則使<color=#ffffff>目標</color>失去1層[Charge]并使<color=#ffffff>自身</color>獲得1層[SelfCharge](<color=#7C5738>每回合</color>最多3次，包括<color=#FCC700>特殊充能</color>，不包括固定強度的<color=#FCC700>特殊充能</color>)"
-        },
-        {
-            "id": 960101,
-            "name": "深入記憶的強化肉体",
-            "desc": "左臂<color=#ffffff>部位</color>被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加4層[Reduction]"
-        },
-        {
-            "id": 960102,
-            "name": "誘人的精霊酒",
-            "desc": "<color=#7C5738>回合開始</color>時，若精霊酒在場，則対所有<color=#ffffff>部位</color>施加5層[Binding]"
-        },
-        {
-            "id": 960201,
-            "name": "精霊酒",
-            "desc": "<color=#61DA61>体力</color>為0点時，<color=#7C5738>下回合</color>随机対3名人格施加5層[TipsinessRail]并対其他人格施加5層[ParryingResultDown]\n\n<color=#7C5738>回合結束</color>時，若精霊酒不在場，則<color=#7C5738>下回合</color>使紳士精霊恢復其<color=#61DA61>体力</color>上限10%的本体<color=#61DA61>体力</color>并使其獲得2層[Enhancement]，2層[Agility]与2層[Protection]"
-        },
-        {
-            "id": 960301,
-            "name": "棄失的手段",
-            "desc": "左臂<color=#ffffff>部位</color>被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加4層[Reduction]"
-        },
-        {
-            "id": 960302,
-            "name": "受損的緑陰",
-            "desc": "頭部被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加5層[DefenseDown]"
-        },
-        {
-            "id": 960401,
-            "name": "汚染的叶子",
-            "desc": "長腿精霊与紳士精霊獲得以下效果\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[Enhancement]\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]与1層[AttackDmgUp](獲得的層数<color=#7C5738>每回合</color>額外+1層)"
-        },
-        {
-            "id": 960501,
-            "name": "次元逃逸",
-            "desc": "从第2回合起，每一定回合，随机召喚4个次元并躱進次元\n- <color=#ffffff>自身</color>所有<color=#ffffff>部位</color>陷入混乱時，<color=#7C5738>下回合</color>触発該效果\n- 躱進次元時，<color=#ffffff>自身</color>不会陷入混乱"
-        },
-        {
-            "id": 960502,
-            "name": "脱离受困次元",
-            "desc": "所有次元被破坏時，<color=#7C5738>下回合</color>会主動撕開次元并出場。\n随后失去5層[Charge]并使所有<color=#ffffff>部位</color>的<color=#ffffff>混乱閾値</color>前移30。"
-        },
-        {
-            "id": 960503,
-            "name": "修復次元折射刃",
-            "desc": "刀刃<color=#ffffff>部位</color>被破坏時，使<color=#ffffff>自身</color>失去5層[Charge]\n<color=#7C5738>下回合</color>結束時消耗2層[Charge]并使被破坏的刀刃<color=#ffffff>部位</color>恢復\n\n若刀刃<color=#ffffff>部位</color>被破坏，則<color=#7C5738>每回合</color>開始対<color=#ffffff>自身</color>施加2層[AttackDown]"
-        },
-        {
-            "id": 960504,
-            "name": "試圖強行突破次元-抑制力部分解除",
-            "desc": "本体<color=#61DA61>体力</color>不高于60%時，結束<color=#7C5738>本回合</color>并改変<color=#ffffff>自身</color>模式\n- 禁用被動“次元逃逸[TabExplain]”\n- 禁用被動“脱离受困次元”\n- 若双臂未被破坏，則每一定回合使用強力技能"
-        },
-        {
-            "id": 960601,
-            "name": "血流成河的次元",
-            "desc": "若穿過血流成河的次元，造成的<color=#ffffff>傷害</color>+10%"
-        },
-        {
-            "id": 960701,
-            "name": "劇毒沸騰的次元",
-            "desc": "若穿過劇毒沸騰的次元，則使本体<color=#61DA61>体力</color>上限増加20%"
-        },
-        {
-            "id": 960801,
-            "name": "震顫不止的次元",
-            "desc": "若穿過震顫不止的次元，最小与最大<color=#7C5737>速度値</color>+1"
-        },
-        {
-            "id": 960901,
-            "name": "電流涌動的次元",
-            "desc": "若穿過電流涌動的次元，<color=#ffffff>硬幣威力</color>+1"
-        },
-        {
-            "id": 961001,
-            "name": "永遠的枷鎖",
-            "desc": "<color=#61DA61>体力</color>上限増加(巡回数×5)%\n造成的<color=#ffffff>傷害</color>減少(巡回数×5)%"
-        },
-        {
-            "id": 961002,
-            "name": "損坏的告示牌",
-            "desc": "告示牌<color=#ffffff>部位</color>被破坏后，玫瑰的<color=#61DA61>体力</color>上限-20%"
-        },
-        {
-            "id": 961003,
-            "name": "四散的肉塊",
-            "desc": "血肉<color=#ffffff>部位</color>被破坏后，本体的<color=#61DA61>体力</color>上限-20%"
-        },
-        {
-            "id": 961004,
-            "name": "匯為一体的藤蔓",
-            "desc": "<color=#7C5738>撃殺</color>玫瑰時，使本体与血肉<color=#ffffff>部位</color>失去30点<color=#61DA61>体力</color>\n- 此后本場戦斗中対應罪孼属性的抗性増加0.1(可畳加)"
-        },
-        {
-            "id": 961007,
-            "name": "罪孼纏身的荊棘",
-            "desc": "<color=#7C5738>每回合</color>，每有1名罪人帯有[PrepareSinRose]，使所有<color=#ffffff>部位</color>獲得1層[Protection]与4層[DefenseUp]"
-        },
-        {
-            "id": 961005,
-            "name": "盛放的罪孼",
-            "desc": "[BloomingRose]層数為4層時，本場戦斗中将獲得[EnhanceRose]"
-        },
-        {
-            "id": 961006,
-            "name": "綻于藤蔓的玫瑰",
-            "desc": "玫瑰告示牌本体陣亡時，<color=#ffffff>自身</color>陣亡"
-        },
-        {
-            "id": 961101,
-            "name": "憎惡",
-            "desc": "受到攻撃時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp]并対<color=#ffffff>自身</color>施加1層[DefenseDown]"
-        },
-        {
-            "id": 961102,
-            "name": "余火",
-            "desc": "陣亡時，対<color=#ffffff>目標</color>造成相当于<color=#ffffff>自身</color>受到<color=#ffffff>傷害</color>量的<color=#ffffff>傷害</color>，并使<color=#ffffff>目標</color>増加5級[Combustion]強度"
-        },
-        {
-            "id": 961104,
-            "name": "噴涌的暴怒",
-            "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Combustion]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Combustion]"
-        },
-        {
-            "id": 961203,
-            "name": "揺曳的色欲",
-            "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Laceration]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Laceration]"
-        },
-        {
-            "id": 961301,
-            "name": "无力",
-            "desc": "受到攻撃時，<color=#7C5738>下回合</color>若<color=#ffffff>自身</color>未陷入混乱，則使<color=#ffffff>自身</color>獲得5層[Protection]"
-        },
-        {
-            "id": 961303,
-            "name": "粉碎的怠惰",
-            "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Vibration]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Vibration]"
-        },
-        {
-            "id": 961401,
-            "name": "飢餓",
-            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color><color=#7C5738>本回合</color>未造成<color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層[BurstVulnerable]"
-        },
-        {
-            "id": 961403,
-            "name": "滋生的暴食",
-            "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Burst]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Burst]"
-        },
-        {
-            "id": 961502,
-            "name": "自我破坏",
-            "desc": "<color=#ffffff>自身</color>受到攻撃時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的<color=#1BC7F0>憂郁</color>抗性変為脆弱(1.5)并使<color=#ffffff>自身</color>獲得5層[Protection]"
-        },
-        {
-            "id": 961504,
-            "name": "揺曳的憂郁",
-            "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Sinking]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Sinking]"
-        },
-        {
-            "id": 961604,
-            "name": "膨脹的傲慢",
-            "desc": "<color=#7C5738>回合開始</color>時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Breath]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>獲得4層[Breath]"
-        },
-        {
-            "id": 961704,
-            "name": "刺眼的嫉炉",
-            "desc": "<color=#7C5738>回合開始</color>時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果獲得的[Charge]層数額外+1層\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>獲得4層[Charge]"
-        }
-    ]
+  "dataList": [
+    {
+      "id": 962201,
+      "name": "損坏的手段",
+      "desc": "手臂<color=#ffffff>部位</color>被破坏后，<color=#7C5738>每回合</color>対手臂<color=#ffffff>部位</color>施加1層[Reduction]"
+    },
+    {
+      "id": 962202,
+      "name": "施加折射的沈淪",
+      "desc": "<color=#ffffff>自身</color>被増加[Sinking]強度或施加[Sinking]層数時，額外使<color=#ffffff>自身</color>増加1級[Sinking]強度并対<color=#ffffff>自身</color>施加1層[Sinking](不适用于巡回[TabExplain]效果)"
+    },
+    {
+      "id": 962301,
+      "name": "回現的過去",
+      "desc": "若<color=#ffffff>自身</color>的[AccumulatedPast]層数不低于50層，且本体<color=#61DA61>体力</color>不高于80%，則在<color=#7C5738>回合結束</color>時消耗50層[AccumulatedPast]，并使本体恢復200点<color=#61DA61>体力</color>。"
+    },
+    {
+      "id": 962302,
+      "name": "消逝的過去",
+      "desc": "躯干<color=#ffffff>部位</color>被破坏后，消耗所有[AccumulatedPast]\n躯干<color=#ffffff>部位</color>被破坏后，使躯干<color=#ffffff>部位</color>在本場戦斗中獲得以下效果\n- <color=#7C5738>本回合</color>起使所有罪孼抗性変為0.5\n- <color=#7C5738>下回合</color>起使所有物理抗性変為0.5"
+    },
+    {
+      "id": 962303,
+      "name": "被破坏的排气口",
+      "desc": "蒸汽槍<color=#ffffff>部位</color>被破坏時，消耗所有<color=#ffffff>部位</color>的[Breath]強度\n蒸汽槍<color=#ffffff>部位</color>被破坏后，使<color=#ffffff>自身</color>増加[Breath]強度時，対<color=#ffffff>自身</color>施加1層[Vulnerable]\n蒸汽槍<color=#ffffff>部位</color>被破坏后，<color=#ffffff>自身</color>使用攻撃技能時，使<color=#ffffff>自身</color>失去1級[Breath]強度"
+    },
+    {
+      "id": 962304,
+      "name": "折射的焼傷与流血",
+      "desc": "[Combustion]和[Laceration]強度最多累積到30級\n[Combustion]和[Laceration]層数最多累積到5層"
+    },
+    {
+      "id": 962305,
+      "name": "施加折射的沈淪",
+      "desc": "<color=#ffffff>自身</color>被増加[Sinking]強度或施加[Sinking]層数時，額外使<color=#ffffff>自身</color>増加1級[Sinking]強度并対<color=#ffffff>自身</color>施加1層[Sinking](不适用于巡回[TabExplain]效果)"
+    },
+    {
+      "id": 962306,
+      "name": "蒸汽泄漏",
+      "desc": "蒸汽槍<color=#ffffff>部位</color>受到攻撃時，使<color=#ffffff>自身</color>失去1級[Breath]強度与1層[Breath]"
+    },
+    {
+      "id": 962307,
+      "name": "重畳的過去",
+      "desc": "<color=#7C5738>每回合</color>，<color=#ffffff>自身</color>每帯有80層[AccumulatedPast]，使<color=#ffffff>自身</color>獲得1層[Enhancement]。\n若<color=#ffffff>自身</color>的[AccumulatedPast]層数不低于80層，則額外獲得1个<color=#ffffff>行動槽</color>。"
+    },
+    {
+      "id": 962308,
+      "name": "節拍器",
+      "desc": "[AccumulatedPast]層数為奇数時，対<color=#ffffff>自身</color>施加3層[Vulnerable]并使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]\n層数為偶数時，使<color=#ffffff>自身</color>獲得3層[Protection]并対<color=#ffffff>自身</color>施加3層[AttackDmgDown]"
+    },
+    {
+      "id": 962401,
+      "name": "損坏的傘",
+      "desc": "躯干<color=#ffffff>部位</color>被破坏后，<color=#7C5738>每回合</color>対躯干<color=#ffffff>部位</color>施加1層[AttackDmgDown]"
+    },
+    {
+      "id": 962402,
+      "name": "磨損殆尽的傘",
+      "desc": "頭部被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加1層[AttackDmgDown]"
+    },
+    {
+      "id": 962403,
+      "name": "最后的爭扎",
+      "desc": "剩余15%<color=#61DA61>体力</color>時，触発以下效果，\n- <color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加10層[Binding]与1層[Reduction]\n- 新召喚的旧傘<color=#61DA61>体力</color>増加30%\n- <color=#7C5738>每回合</color>使用技能“尋找某物的哭声”或“哀求的哭声”"
+    },
+    {
+      "id": 962404,
+      "name": "虚栄的心",
+      "desc": "首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層[WaveFoxUmbrella]。(最多6層)\n獲得[WaveFoxUmbrella]時，額外獲得層数相当于巡回数的[WaveFoxUmbrella]\n根据帯有的[WaveFoxUmbrella]層数，獲得相應層数的[Protection]\n技能“等待”位于<color=#ffffff>行動槽</color>時，根据[WaveFoxUmbrella]層数，召喚相應数量的旧傘"
+    },
+    {
+      "id": 962405,
+      "name": "折射的破裂与沈淪",
+      "desc": "[Burst]与[Sinking]的強度最多累積到30級\n[Burst]与[Sinking]的層数最多累積到5層"
+    },
+    {
+      "id": 962406,
+      "name": "施加折射的流血",
+      "desc": "<color=#ffffff>自身</color>被増加[Laceration]強度或施加[Laceration]層数時，額外使<color=#ffffff>自身</color>増加1級[Laceration]強度并対<color=#ffffff>自身</color>施加1層[Laceration](不适用于巡回[TabExplain]效果)"
+    },
+    {
+      "id": 962501,
+      "name": "被舍弃的旧傘",
+      "desc": "人格的技能結束時，若<color=#ffffff>自身</color>陣亡，則使該人格恢復10点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>使該人格獲得2層[Agility]\n\n<color=#ffffff>自身</color>陣亡時，対流浪狐狸的所有<color=#ffffff>部位</color>施加1層[ShardOfUmbrella]与2層[Binding]"
+    },
+    {
+      "id": 961801,
+      "name": "黄金時間",
+      "desc": "<color=#7C5738>回合結束</color>時，若現存<color=#61DA61>体力</color>為6%~24%，則立即使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限80%的本体<color=#61DA61>体力</color>与<color=#ffffff>部位</color><color=#61DA61>体力</color>。解除<color=#ffffff>自身</color>的混乱。(每場戦斗最多1次)"
+    },
+    {
+      "id": 961802,
+      "name": "時間逆行反冲",
+      "desc": "激活黄金時間后，<color=#7C5738>回合開始</color>時対<color=#ffffff>自身</color>施加2層[Vulnerable]"
+    },
+    {
+      "id": 961803,
+      "name": "過度充能",
+      "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[Charge]層数不低于5層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得3層[AttackDmgUp]"
+    },
+    {
+      "id": 961804,
+      "name": "折射的破裂与沈淪",
+      "desc": "[Burst]与[Sinking]的強度最多累積到30級\n[Burst]与[Sinking]的層数最多累積到5層"
+    },
+    {
+      "id": 961805,
+      "name": "施加折射的焼傷",
+      "desc": "<color=#ffffff>自身</color>被増加[Combustion]強度或施加[Combustion]層数時，額外使<color=#ffffff>自身</color>増加1級[Combustion]強度并対<color=#ffffff>自身</color>施加1層[Combustion](不适用于巡回[TabExplain]效果)"
+    },
+    {
+      "id": 962001,
+      "name": "魅惑",
+      "desc": "対<color=#7C5737>速度値</color>最低的<color=#ffffff>敵方単位</color>施加[FairyCharm]\n根据巡回数相應増加[FairyCharm]人数\n精霊<color=#ffffff>部位</color>再生時増加[FairyCharm]人数"
+    },
+    {
+      "id": 962002,
+      "name": "顕露的深渊",
+      "desc": "精霊<color=#ffffff>部位</color>被破坏后，露出躯干\n躯干再次隠藏時，移除所有増益与減益效果"
+    },
+    {
+      "id": 962003,
+      "name": "領先的誘餌",
+      "desc": "精霊<color=#ffffff>部位</color>受到攻撃也不会消耗本体的<color=#61DA61>体力</color>\n根据已[FairyCharm]人数相應増加攻撃的<color=#ffffff>行動槽</color>数"
+    },
+    {
+      "id": 962004,
+      "name": "損毀的根系",
+      "desc": "躯干<color=#ffffff>部位</color>被破坏時\n- 精霊<color=#ffffff>部位</color>再生時，以60%的<color=#61DA61>体力</color>再生\n- 技能使本体恢復的<color=#61DA61>体力</color>+20点"
+    },
+    {
+      "id": 962005,
+      "name": "進化的誘餌",
+      "desc": "精霊<color=#ffffff>部位</color>每次再生時，其<color=#61DA61>体力</color>上限増加30%"
+    },
+    {
+      "id": 962006,
+      "name": "折射的破裂与沈淪",
+      "desc": "[Burst]与[Sinking]的強度最多累積到30級\n[Burst]与[Sinking]的層数最多累積到5層"
+    },
+    {
+      "id": 962007,
+      "name": "精霊粉末",
+      "desc": "精霊陣亡時，<color=#7C5738>下回合</color>使<color=#ffffff>全体</color>人格増加5級[Breath]強度并使<color=#ffffff>全体</color>人格獲得2層[Breath]"
+    },
+    {
+      "id": 962101,
+      "name": "衰退的生命力",
+      "desc": "使用防御技能后若消耗了全部<color=#81BBE8>護盾</color>，則<color=#7C5738>下回合</color>対所有<color=#ffffff>部位</color>施加3層[AttackDown]与3層[Vulnerable]"
+    },
+    {
+      "id": 962102,
+      "name": "堅硬的甲殻",
+      "desc": "頭部未被破坏時，<color=#7C5738>每回合</color>使躯干獲得3層[Protection]"
+    },
+    {
+      "id": 962103,
+      "name": "自体発電",
+      "desc": "首个<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得3層[SelfCharge]\n每当巡回数増加時，相應使<color=#ffffff>自身</color>額外獲得1層[SelfCharge](最多8層)"
+    },
+    {
+      "id": 962104,
+      "name": "鮮活的神經",
+      "desc": "本単位垂死時，取消<color=#7C5738>本回合</color>的所有技能。\n触発以上效果時，使<color=#ffffff>自身</color>獲得10層[SelfCharge]"
+    },
+    {
+      "id": 962105,
+      "name": "折射的流血与震顫",
+      "desc": "[Laceration]和[Vibration]強度最多累積到30級\n[Laceration]和[Vibration]層数最多累積到5層"
+    },
+    {
+      "id": 962106,
+      "name": "折射的充能",
+      "desc": "攻撃命中時，若<color=#ffffff>目標</color>帯有[Charge]，則使<color=#ffffff>目標</color>失去1層[Charge]并使<color=#ffffff>自身</color>獲得1層[SelfCharge](<color=#7C5738>每回合</color>最多3次，包括<color=#FCC700>特殊充能</color>，不包括固定強度的<color=#FCC700>特殊充能</color>)"
+    },
+    {
+      "id": 960101,
+      "name": "深入記憶的強化肉体",
+      "desc": "左臂<color=#ffffff>部位</color>被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加4層[Reduction]"
+    },
+    {
+      "id": 960102,
+      "name": "誘人的精霊酒",
+      "desc": "<color=#7C5738>回合開始</color>時，若精霊酒在場，則対所有<color=#ffffff>部位</color>施加5層[Binding]"
+    },
+    {
+      "id": 960201,
+      "name": "精霊酒",
+      "desc": "<color=#61DA61>体力</color>為0点時，<color=#7C5738>下回合</color>随机対3名人格施加5層[TipsinessRail]并対其他人格施加5層[ParryingResultDown]\n\n<color=#7C5738>回合結束</color>時，若精霊酒不在場，則<color=#7C5738>下回合</color>使紳士精霊恢復其<color=#61DA61>体力</color>上限10%的本体<color=#61DA61>体力</color>并使其獲得2層[Enhancement]，2層[Agility]与2層[Protection]"
+    },
+    {
+      "id": 960301,
+      "name": "棄失的手段",
+      "desc": "左臂<color=#ffffff>部位</color>被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加4層[Reduction]"
+    },
+    {
+      "id": 960302,
+      "name": "受損的緑陰",
+      "desc": "頭部被破坏后，<color=#7C5738>每回合</color>対<color=#ffffff>自身</color>施加5層[DefenseDown]"
+    },
+    {
+      "id": 960401,
+      "name": "汚染的叶子",
+      "desc": "長腿精霊与紳士精霊獲得以下效果\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[Enhancement]\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement]与1層[AttackDmgUp](獲得的層数<color=#7C5738>每回合</color>額外+1層)"
+    },
+    {
+      "id": 960501,
+      "name": "次元逃逸",
+      "desc": "从第2回合起，每一定回合，随机召喚4个次元并躱進次元\n- <color=#ffffff>自身</color>所有<color=#ffffff>部位</color>陷入混乱時，<color=#7C5738>下回合</color>触発該效果\n- 躱進次元時，<color=#ffffff>自身</color>不会陷入混乱"
+    },
+    {
+      "id": 960502,
+      "name": "脱离受困次元",
+      "desc": "所有次元被破坏時，<color=#7C5738>下回合</color>会主動撕開次元并出場。\n随后失去5層[Charge]并使所有<color=#ffffff>部位</color>的<color=#ffffff>混乱閾値</color>前移30。"
+    },
+    {
+      "id": 960503,
+      "name": "修復次元折射刃",
+      "desc": "刀刃<color=#ffffff>部位</color>被破坏時，使<color=#ffffff>自身</color>失去5層[Charge]\n<color=#7C5738>下回合</color>結束時消耗2層[Charge]并使被破坏的刀刃<color=#ffffff>部位</color>恢復\n\n若刀刃<color=#ffffff>部位</color>被破坏，則<color=#7C5738>每回合</color>開始対<color=#ffffff>自身</color>施加2層[AttackDown]"
+    },
+    {
+      "id": 960504,
+      "name": "試圖強行突破次元-抑制力部分解除",
+      "desc": "本体<color=#61DA61>体力</color>不高于60%時，結束<color=#7C5738>本回合</color>并改変<color=#ffffff>自身</color>模式\n- 禁用被動“次元逃逸[TabExplain]”\n- 禁用被動“脱离受困次元”\n- 若双臂未被破坏，則每一定回合使用強力技能"
+    },
+    {
+      "id": 960601,
+      "name": "血流成河的次元",
+      "desc": "若穿過血流成河的次元，造成的<color=#ffffff>傷害</color>+10%"
+    },
+    {
+      "id": 960701,
+      "name": "劇毒沸騰的次元",
+      "desc": "若穿過劇毒沸騰的次元，則使本体<color=#61DA61>体力</color>上限増加20%"
+    },
+    {
+      "id": 960801,
+      "name": "震顫不止的次元",
+      "desc": "若穿過震顫不止的次元，最小与最大<color=#7C5737>速度値</color>+1"
+    },
+    {
+      "id": 960901,
+      "name": "電流涌動的次元",
+      "desc": "若穿過電流涌動的次元，<color=#ffffff>硬幣威力</color>+1"
+    },
+    {
+      "id": 961001,
+      "name": "永遠的枷鎖",
+      "desc": "<color=#61DA61>体力</color>上限増加(巡回数×5)%\n造成的<color=#ffffff>傷害</color>減少(巡回数×5)%"
+    },
+    {
+      "id": 961002,
+      "name": "損坏的告示牌",
+      "desc": "告示牌<color=#ffffff>部位</color>被破坏后，玫瑰的<color=#61DA61>体力</color>上限-20%"
+    },
+    {
+      "id": 961003,
+      "name": "四散的肉塊",
+      "desc": "血肉<color=#ffffff>部位</color>被破坏后，本体的<color=#61DA61>体力</color>上限-20%"
+    },
+    {
+      "id": 961004,
+      "name": "匯為一体的藤蔓",
+      "desc": "<color=#7C5738>撃殺</color>玫瑰時，使本体与血肉<color=#ffffff>部位</color>失去30点<color=#61DA61>体力</color>\n- 此后本場戦斗中対應罪孼属性的抗性増加0.1(可畳加)"
+    },
+    {
+      "id": 961007,
+      "name": "罪孼纏身的荊棘",
+      "desc": "<color=#7C5738>每回合</color>，每有1名罪人帯有[PrepareSinRose]，使所有<color=#ffffff>部位</color>獲得1層[Protection]与4層[DefenseUp]"
+    },
+    {
+      "id": 961005,
+      "name": "盛放的罪孼",
+      "desc": "[BloomingRose]層数為4層時，本場戦斗中将獲得[EnhanceRose]"
+    },
+    {
+      "id": 961006,
+      "name": "綻于藤蔓的玫瑰",
+      "desc": "玫瑰告示牌本体陣亡時，<color=#ffffff>自身</color>陣亡"
+    },
+    {
+      "id": 961101,
+      "name": "憎惡",
+      "desc": "受到攻撃時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[AttackUp]并対<color=#ffffff>自身</color>施加1層[DefenseDown]"
+    },
+    {
+      "id": 961102,
+      "name": "余火",
+      "desc": "陣亡時，対<color=#ffffff>目標</color>造成相当于<color=#ffffff>自身</color>受到<color=#ffffff>傷害</color>量的<color=#ffffff>傷害</color>，并使<color=#ffffff>目標</color>増加5級[Combustion]強度"
+    },
+    {
+      "id": 961104,
+      "name": "噴涌的暴怒",
+      "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Combustion]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Combustion]"
+    },
+    {
+      "id": 961203,
+      "name": "揺曳的色欲",
+      "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Laceration]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Laceration]"
+    },
+    {
+      "id": 961301,
+      "name": "无力",
+      "desc": "受到攻撃時，<color=#7C5738>下回合</color>若<color=#ffffff>自身</color>未陷入混乱，則使<color=#ffffff>自身</color>獲得5層[Protection]"
+    },
+    {
+      "id": 961303,
+      "name": "粉碎的怠惰",
+      "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Vibration]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Vibration]"
+    },
+    {
+      "id": 961401,
+      "name": "飢餓",
+      "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color><color=#7C5738>本回合</color>未造成<color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層[BurstVulnerable]"
+    },
+    {
+      "id": 961403,
+      "name": "滋生的暴食",
+      "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Burst]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Burst]"
+    },
+    {
+      "id": 961502,
+      "name": "自我破坏",
+      "desc": "<color=#ffffff>自身</color>受到攻撃時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>的<color=#1BC7F0>憂郁</color>抗性変為脆弱(1.5)并使<color=#ffffff>自身</color>獲得5層[Protection]"
+    },
+    {
+      "id": 961504,
+      "name": "揺曳的憂郁",
+      "desc": "若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Sinking]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則対<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加4層[Sinking]"
+    },
+    {
+      "id": 961604,
+      "name": "膨脹的傲慢",
+      "desc": "<color=#7C5738>回合開始</color>時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果増加的[Breath]強度額外+1級\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>獲得4層[Breath]"
+    },
+    {
+      "id": 961704,
+      "name": "刺眼的嫉炉",
+      "desc": "<color=#7C5738>回合開始</color>時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則令<color=#ffffff>自身</color>技能效果獲得的[Charge]層数額外+1層\n陣亡時若<color=#ffffff>自身</color>帯有[EnhanceRose]，則使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>獲得4層[Charge]"
+    }
+  ]
 }

@@ -1,319 +1,319 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "key": "Q-3000",
+      "title": "收集皮革",
+      "description": "作為請管制員制作黄金寿衣的代价，需要給它8張皮革。\n把散落在百貨店各処的皮革都收集過来叭。",
+      "steps": [
         {
-            "key": "Q-3000",
-            "title": "收集皮革",
-            "description": "作為請管制員制作黄金寿衣的代价，需要給它8張皮革。\n把散落在百貨店各処的皮革都收集過来叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "B2F的3張皮革",
-                    "goalDescription2": "B1F的皮革",
-                    "goalDescription3": "1F的皮革",
-                    "goalDescription4": "2F的皮革",
-                    "goalDescription5": "3F的皮革",
-                    "goalDescription6": "4F的皮革"
-                }
-            ]
-        },
-        {
-            "key": "Q-3010",
-            "title": "收集黄金皮革",
-            "description": "我們見到了B3F的管制員。据管制員所説，想要用黄金皮革制作衣服，就需要收集我們途經之処的黄金皮革。那人将黄金皮革分布的地点都告訴了我們。去收集黄金皮革叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "收集調色板的黄金松脂",
-                    "goalDescription2": "收集B2F楼層經理的黄金皮革",
-                    "goalDescription3": "收集裁縫之王的黄金皮革",
-                    "goalDescription4": "收集副主厨的黄金皮革",
-                    "goalDescription5": "收集1F尸山中的黄金皮革",
-                    "goalDescription6": "收集4F牆壁裂隙中的黄金皮革",
-                    "goalDescription7": "收集紅派品牌總監尸体中的黄金皮革",
-                    "goalDescription8": "收集3F楼層經理的黄金皮革"
-                }
-            ]
-        },
-        {
-            "key": "Q-3011",
-            "title": "收集皮革-B1F",
-            "description": "管制員需要的八張皮革之一，位于B1F的那張。\n需要从美食广場的副主厨那里得到。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往B1F的美食广場",
-                    "goalDescription2": "收集副主厨的黄金皮革（4/8）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3012",
-            "title": "收集皮革-1F",
-            "description": "管制員需要的八張皮革之一，位于1F的那張。\n需要在尸山中找到。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "找到藏在尸山中的黄金皮革（5/8）",
-                    "goalDescription2": "收集尸山中的黄金皮革（5/8）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3013",
-            "title": "收集皮革-2F",
-            "description": "管制員需要的八張皮革之一，位于2F的那張。\n需要从品牌總監那里得到。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "找到紅派品牌總監的黄金皮革（7/8）",
-                    "goalDescription2": "收集紅派品牌總監尸体中的黄金皮革（7/8）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3014",
-            "title": "收集皮革-3F",
-            "description": "管制員需要的八張皮革之一，位于3F的那張。\n需要从3F的楼層經理那里得到。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往3F楼層經理的房間",
-                    "goalDescription2": "收集3F楼層經理的黄金皮革（8/8）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3015",
-            "title": "收集皮革-4F",
-            "description": "管制員需要的八張皮革之一，位于4F的那張。\n需要从解構派留下的水泥堆里找到。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "找到牆壁裂隙中的黄金皮革（6/8）",
-                    "goalDescription2": "收集牆壁裂隙中的黄金皮革（6/8）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3006",
-            "title": "回到管制員処",
-            "description": "終于集斉了8張黄金皮革。回到B3F将集斉的黄金皮革交給它，為支咿制作黄金皮革的衣服叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "回到管制員処"
-                }
-            ]
-        },
-        {
-            "key": "Q-3003",
-            "title": "前往鞣制室",
-            "description": "我們集斉了8張黄金皮革。為了制作合身的衣服需要好几道工序，首先貌似需要量尺寸。為了量尺寸，我們去找鞣制室里名為制革匠的那人叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往鞣制室"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "撃敗襲来的敵人，堅持到紙様准備完成"
-                },
-                {
-                    "index": 2,
-                    "goalDescription1": "与制革匠交談"
-                }
-            ]
-        },
-        {
-            "key": "Q-3004",
-            "title": "前往切割室",
-            "description": "為支咿量好尺寸，准備完紙様后。只剩下切割和縫制工作了。前往切割室叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往切割室"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "撃敗襲来的敵人，堅持到切割工作完成"
-                },
-                {
-                    "index": 2,
-                    "goalDescription1": "査看切割机"
-                }
-            ]
-        },
-        {
-            "key": "Q-3007",
-            "title": "結束縫制",
-            "description": "切割工作結束了。之后只要譲養育者完成縫制，黄金皮革的衣服就制作完成了。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往養育者処"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "撃敗襲来的敵人，堅持到養育者完成縫制"
-                }
-            ]
-        },
-        {
-            "key": "Q-3001",
-            "title": "从管制員那里得到完成的黄金寿衣",
-            "description": "工序似乎都完成了。从管制員那里取走做好的衣服叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "从管制員那里得到完成的黄金寿衣"
-                }
-            ]
-        },
-        {
-            "key": "Q-3005",
-            "title": "撃敗管制員",
-            "description": "管制員雖然做好了黄金皮革的衣服。但却因不舍得交出来而攻撃我們。撃敗管制員，拿走黄金皮革的衣服叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "撃敗管制員"
-                }
-            ]
-        },
-        {
-            "key": "Q-3002",
-            "title": "前往5F",
-            "description": "支咿穿上了管制員制成的黄金皮革的衣服。但吃掉咯紐的事似乎譲它的心情不太好。現在前往5F叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往5F"
-                }
-            ]
-        },
-        {
-            "key": "Q-3010A",
-            "title": "（内部）獲得調色板的黄金松脂信号",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "獲得調色板的黄金松脂（内部信号）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3010B",
-            "title": "（内部）獲得楼層經理皮革信号",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "獲得楼層經理皮革（内部信号）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3010S",
-            "title": "（内部）油灰切換防御信号",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "油灰切換防御（内部信号）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3011S",
-            "title": "（内部）黄金皮革下単信号",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "黄金皮革下単（内部信号）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3011T",
-            "title": "（内部）鍬開戦信号",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "鍬開戦（内部信号）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3011H1",
-            "title": "（内部）鍬打撃1",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "鍬打撃1（内部信号）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3011H2",
-            "title": "（内部）鍬打撃2",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "鍬打撃2（内部）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3011H3",
-            "title": "（内部）鍬打撃3",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "鍬打撃3（内部信号）"
-                }
-            ]
-        },
-        {
-            "key": "Q-3003A",
-            "title": "鞣制室的工作",
-            "description": "",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "見証鞣制室的工作"
-                }
-            ]
-        },
-        {
-            "key": "Q-3003B",
-            "title": "切割室的工作",
-            "description": "",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "見証切割室的工作"
-                }
-            ]
-        },
-        {
-            "key": "Q-3003C",
-            "title": "戸外广場的工作",
-            "description": "",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "見証戸外广場的工作"
-                }
-            ]
-        },
-        {
-            "key": "Q-3011R",
-            "title": "再次和副主厨交涉",
-            "description": "用手臂作為交易籌碼，代价太大了。回到B1F美食广場的副主厨那里，以其他籌碼交易黄金皮革叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "再次和副主厨交涉"
-                }
-            ]
+          "index": 0,
+          "goalDescription1": "B2F的3張皮革",
+          "goalDescription2": "B1F的皮革",
+          "goalDescription3": "1F的皮革",
+          "goalDescription4": "2F的皮革",
+          "goalDescription5": "3F的皮革",
+          "goalDescription6": "4F的皮革"
         }
-    ]
+      ]
+    },
+    {
+      "key": "Q-3010",
+      "title": "收集黄金皮革",
+      "description": "我們見到了B3F的管制員。据管制員所説，想要用黄金皮革制作衣服，就需要收集我們途經之処的黄金皮革。那人将黄金皮革分布的地点都告訴了我們。去收集黄金皮革叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "收集調色板的黄金松脂",
+          "goalDescription2": "收集B2F楼層經理的黄金皮革",
+          "goalDescription3": "收集裁縫之王的黄金皮革",
+          "goalDescription4": "收集副主厨的黄金皮革",
+          "goalDescription5": "收集1F尸山中的黄金皮革",
+          "goalDescription6": "收集4F牆壁裂隙中的黄金皮革",
+          "goalDescription7": "收集紅派品牌總監尸体中的黄金皮革",
+          "goalDescription8": "收集3F楼層經理的黄金皮革"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011",
+      "title": "收集皮革-B1F",
+      "description": "管制員需要的八張皮革之一，位于B1F的那張。\n需要从美食广場的副主厨那里得到。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往B1F的美食广場",
+          "goalDescription2": "收集副主厨的黄金皮革（4/8）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3012",
+      "title": "收集皮革-1F",
+      "description": "管制員需要的八張皮革之一，位于1F的那張。\n需要在尸山中找到。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "找到藏在尸山中的黄金皮革（5/8）",
+          "goalDescription2": "收集尸山中的黄金皮革（5/8）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3013",
+      "title": "收集皮革-2F",
+      "description": "管制員需要的八張皮革之一，位于2F的那張。\n需要从品牌總監那里得到。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "找到紅派品牌總監的黄金皮革（7/8）",
+          "goalDescription2": "收集紅派品牌總監尸体中的黄金皮革（7/8）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3014",
+      "title": "收集皮革-3F",
+      "description": "管制員需要的八張皮革之一，位于3F的那張。\n需要从3F的楼層經理那里得到。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往3F楼層經理的房間",
+          "goalDescription2": "收集3F楼層經理的黄金皮革（8/8）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3015",
+      "title": "收集皮革-4F",
+      "description": "管制員需要的八張皮革之一，位于4F的那張。\n需要从解構派留下的水泥堆里找到。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "找到牆壁裂隙中的黄金皮革（6/8）",
+          "goalDescription2": "收集牆壁裂隙中的黄金皮革（6/8）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3006",
+      "title": "回到管制員処",
+      "description": "終于集斉了8張黄金皮革。回到B3F将集斉的黄金皮革交給它，為支咿制作黄金皮革的衣服叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "回到管制員処"
+        }
+      ]
+    },
+    {
+      "key": "Q-3003",
+      "title": "前往鞣制室",
+      "description": "我們集斉了8張黄金皮革。為了制作合身的衣服需要好几道工序，首先貌似需要量尺寸。為了量尺寸，我們去找鞣制室里名為制革匠的那人叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往鞣制室"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "撃敗襲来的敵人，堅持到紙様准備完成"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "与制革匠交談"
+        }
+      ]
+    },
+    {
+      "key": "Q-3004",
+      "title": "前往切割室",
+      "description": "為支咿量好尺寸，准備完紙様后。只剩下切割和縫制工作了。前往切割室叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往切割室"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "撃敗襲来的敵人，堅持到切割工作完成"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "査看切割机"
+        }
+      ]
+    },
+    {
+      "key": "Q-3007",
+      "title": "結束縫制",
+      "description": "切割工作結束了。之后只要譲養育者完成縫制，黄金皮革的衣服就制作完成了。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往養育者処"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "撃敗襲来的敵人，堅持到養育者完成縫制"
+        }
+      ]
+    },
+    {
+      "key": "Q-3001",
+      "title": "从管制員那里得到完成的黄金寿衣",
+      "description": "工序似乎都完成了。从管制員那里取走做好的衣服叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从管制員那里得到完成的黄金寿衣"
+        }
+      ]
+    },
+    {
+      "key": "Q-3005",
+      "title": "撃敗管制員",
+      "description": "管制員雖然做好了黄金皮革的衣服。但却因不舍得交出来而攻撃我們。撃敗管制員，拿走黄金皮革的衣服叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "撃敗管制員"
+        }
+      ]
+    },
+    {
+      "key": "Q-3002",
+      "title": "前往5F",
+      "description": "支咿穿上了管制員制成的黄金皮革的衣服。但吃掉咯紐的事似乎譲它的心情不太好。現在前往5F叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往5F"
+        }
+      ]
+    },
+    {
+      "key": "Q-3010A",
+      "title": "（内部）獲得調色板的黄金松脂信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "獲得調色板的黄金松脂（内部信号）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3010B",
+      "title": "（内部）獲得楼層經理皮革信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "獲得楼層經理皮革（内部信号）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3010S",
+      "title": "（内部）油灰切換防御信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "油灰切換防御（内部信号）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011S",
+      "title": "（内部）黄金皮革下単信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "黄金皮革下単（内部信号）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011T",
+      "title": "（内部）鍬開戦信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "鍬開戦（内部信号）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011H1",
+      "title": "（内部）鍬打撃1",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "鍬打撃1（内部信号）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011H2",
+      "title": "（内部）鍬打撃2",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "鍬打撃2（内部）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011H3",
+      "title": "（内部）鍬打撃3",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "鍬打撃3（内部信号）"
+        }
+      ]
+    },
+    {
+      "key": "Q-3003A",
+      "title": "鞣制室的工作",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "見証鞣制室的工作"
+        }
+      ]
+    },
+    {
+      "key": "Q-3003B",
+      "title": "切割室的工作",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "見証切割室的工作"
+        }
+      ]
+    },
+    {
+      "key": "Q-3003C",
+      "title": "戸外广場的工作",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "見証戸外广場的工作"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011R",
+      "title": "再次和副主厨交涉",
+      "description": "用手臂作為交易籌碼，代价太大了。回到B1F美食广場的副主厨那里，以其他籌碼交易黄金皮革叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "再次和副主厨交涉"
+        }
+      ]
+    }
+  ]
 }

@@ -1,256 +1,256 @@
 {
-    "dataList": [
-        {
-            "id": 150301,
-            "name": "无法停止的慟哭",
-            "desc": "関峠開始時，自身陷入恐慌\n\n若自身陷入恐慌，則獲得以下效果：\n- <color=#ff6000><mark color=#ff000040><b><u>所有攻撃指定支咿為目標</color></mark></b></u>\n- 使用技能時，若支咿為主要目標，則使自身拼点威力与基礎威力増加\n- 戦斗開始時，使所有硬幣轉化為[SuperCoin]",
-            "flavor": "古老之物的孩子們，一个也不剩了。"
-        },
-        {
-            "id": 150302,
-            "name": "纏結的黑之絲",
-            "desc": "自身的技能、士气低落与陷入恐慌效果会対敵方単位施加[TangleBlackYarn]\n※ [TangleBlackYarn]<color=#ff6000><mark color=#ff000040><b><u>可通過使用守備技能或自身的特定技能減少層数</color></mark></b></u>\n\n受到攻撃時，触発以下效果\n- 対自身施加1層[SickBlackYarn]\n- 若命中自身的技能為<color=#ff6000><mark color=#ff000040><b><u>斬撃技能</color></mark></b></u>，則対自身額外施加1層[SickBlackYarn]\n- 受到<color=#ff6000><mark color=#ff000040><b><u>攻撃容量不低于5</color></mark></b></u>的技能攻撃時，下回合対自身施加[HeavyBlackYarn](每回合最多1次)",
-            "flavor": "纏繞在它身体上的這些黑色絲綫，从前并不存在。幸運的是，在時代更替時，這些絲綫纏繞在了古老之物身上，正因為身体被絲綫纏繞，它才得以在百貨店時代存活下来。現在，那些黑色的絲綫正在解開。\n\n在水族館時代之前，曾有過广場時代、防空洞時代、法庭時代等多个時代，尽管它們的名称与形式各不相同，但它們使西西弗系統維持運轉的本質是相同的。 \n\n每当時代更替，人們便以人類的姿態重新适應発生変化的世界，承受着西西弗中的時代直至今日。\n\n現在，這団纏結的絲綫已并非只是兩个時代間的纏結，而是所有沈積的時代間的纏結。"
-        },
-        {
-            "id": 150303,
-            "name": "到古老海洋中去",
-            "desc": "若有部位<color=#ff6000><mark color=#ff000040><b><u>陷入混乱</color></mark></b></u>，則<color=#ff6000><mark color=#ff000040><b><u>移除其他部位的1条混乱閾値并結束本回合</color></mark></b></u>\n随后，下回合使所有部位獲得[HideBlackYarn]\n\n<color=#ff6000><mark color=#ff000040><b><u>若[HideBlackYarn]因受到攻撃而解除</color></mark></b></u>，則\n- 対自身施加10層[SickBlackYarn]\n- 若施加[SickBlackYarn]層数超過最大値，則本回合与下回合対自身施加3層易損 \n\n回合結束時，若[HideBlackYarn]解除，則\n- 対自身施加(7-剩余[HideBlackYarn]強度)層[SickBlackYarn]\n- 下回合使自身獲得1層[AngryBlackYarn]",
-            "flavor": "曾于現今已然消失的時代的海洋中，再自然不過地暢游。"
-        },
-        {
-            "id": 150304,
-            "name": "未干的水汽",
-            "desc": "受到[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的<color=#61DA61>体力</color><color=#ffffff>傷害</color>、理智<color=#ffffff>傷害</color>与<color=#ffffff>混乱閾値</color>前移量-50%\n\n<color=#ffffff>自身</color>的恐慌類型不会改変。<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点",
-            "flavor": "西西弗水族館雖然已然消失，但其身体上仍留有尚未変為絲綫的微茫的水汽。"
-        },
-        {
-            "id": 150101,
-            "name": "由土塑造的人偶",
-            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至上限\n\n本体与<color=#ffffff>部位</color>不会受到[Combustion]与[Laceration]<color=#ffffff>傷害</color>",
-            "flavor": "陶瓷般的肌膚由土而生。"
-        },
-        {
-            "id": 150102,
-            "name": "不凋花",
-            "desc": "戦斗開始時，使自身獲得1層[AlriunePetal]\n\n若自身陷入混乱，則\n- 下回合対自身施加2層[Vulnerable]\n- 使罪人与援助単位恢復20点理智値\n- 自身解除混乱的回合開始時，使自身的[AlriunePetal]層数重置為1層\n\n回合開始時，若没有敵方単位帯有[FlowerLaurelWreath]，<color=#ff6000><mark color=#ff000040><b><u>則装備技能“芳香的月桂冠”</color></mark></b></u>\n- 若自身本回合装備了“心懐帰于泥土的愿望”，則下回合装備“芳香的月桂冠”\n\n<color=#ff6000><mark color=#ff000040><b><u>受到未帯有[FlowerLaurelWreath]的敵方単位的技能傷害-50%</color></mark></b></u>\n<color=#ff6000><mark color=#ff000040><b><u>受到帯有[FlowerLaurelWreath]的敵方単位的技能傷害+150%</color></mark></b></u>",
-            "flavor": "花朶枯萎。而后再次綻放。"
-        },
-        {
-            "id": 150103,
-            "name": "立春",
-            "desc": "若敵方単位陷入混乱，則対其造成20点理智傷害\n\n回合開始時，<color=#ff6000><mark color=#ff000040><b><u>若有目標陷入混乱或侵蝕，則対其使用“与所有渴望生的事物一同帰于墳墓”</color></mark></b></u>(每回合最多2次，優先指定速度値最低的敵方単位，不包括援助単位)\n\n若該技能撃殺了目標，則下回合召喚1个“生于泥土之人”\n- 若場上已有4名“生于泥土之人”，則該效果不会触発",
-            "flavor": "春暖花開"
-        },
-        {
-            "id": 150201,
-            "name": "自泥土中来",
-            "desc": "自身不会受到[Combustion]与[Laceration]傷害\n\n<color=#ff6000><mark color=#ff000040><b><u>受到[Vibration]的混乱閾値前移量+100%</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>若自身陷入混乱，則自身陣亡</color></mark></b></u>",
-            "flavor": "到泥土中去"
-        },
-        {
-            "id": 151901,
-            "name": "超高速縫紉",
-            "desc": "若目標的<color=#ff6000><mark color=#ff000040><b><u>速度値低于自身，則使自身的拼点威力+3</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>自身使用了消耗[ChargeKhaki]層数的技能的回合結束時，若自身的[ChargeKhaki]層数不低于11層</color></mark></b></u>，則使用強力技能\n\n若現存体力不高于50%，則使用強力技能(每場戦斗最多1次)",
-            "summary": "若<color=#ffffff>目標</color>的<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>，則使<color=#ffffff>自身</color><color=#ffffff>拼点威力</color>増加",
-            "flavor": "姐姐每分鐘可以縫一万針奥"
-        },
-        {
-            "id": 151902,
-            "name": "固定縫紉",
-            "desc": "対陷入混乱或无法行動的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+40%",
-            "flavor": "没有比縫紉静止之物更簡単的事了"
-        },
-        {
-            "id": 151903,
-            "name": "多彩縫紉",
-            "desc": "若<color=#ffffff>自身</color>帯有[SpreadingDye]，則<color=#ffffff>自身</color>技能命中時対<color=#ffffff>目標</color>施加1層[StickyDye]\n\n使帯有[ThreadDye]的<color=#ffffff>目標</color>獲得以下效果：\n- 令其技能増加的[Laceration]強度与施加的[Laceration]層数額外+(其[ThreadDye]強度)\n- 通過以上效果施加[StickyDye]時，随机対除被施加[StickyDye]的<color=#ffffff>目標</color>以外的1名帯有[ThreadDye]的<color=#ffffff>敵方単位</color>施加1層[StickyDye]\n\n<color=#ffffff>自身</color>的技能不会対帯有[Inactible]的<color=#ffffff>目標</color>施加[ThreadDye]",
-            "flavor": "姐姐負責縫布，我同時上色。"
-        },
-        {
-            "id": 151904,
-            "name": "調整針数調節装置",
-            "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至上限，恢復45点<color=#81BBE8>理智値</color>\n\n本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeKhaki]時，使<color=#ffffff>自身</color>増加1級[ChargeKhaki]強度"
-        },
-        {
-            "id": 149501,
-            "name": "修改",
-            "desc": "回合開始時，対上回合中対自身<color=#ff6000><mark=#ff000040><b><u>造成最高傷害的罪人施加1層[TailoringTarget]</u></b></mark></color>，并使用技能“紙様制作”\n- 若帯有[TailoringTarget]的罪人<color=#ff6000><mark=#ff000040><b><u>帯有9層[ScissorsMark]</u></b></mark></color>，則“紙様制作”改為使用<color=#ff6000><mark=#ff000040><b><u>“鏈式鎖辺”</u></b></mark></color>\n\n自身受到罪人攻撃時，\n- 対該罪人施加1層[ScissorsMark](每名罪人每回合最多5層)\n- 使自身獲得1層[ChargeKhaki](每名罪人每回合最多5層)\n\n<color=#ff6000><mark=#ff000040><b><u>自身受到帯有[TailoringTarget]的罪人攻撃時，使自身獲得3層[ResultEnhancement](每回合最多9層)</u></b></mark></color>",
-            "flavor": "据説衣服是通過修改来完成的。既然衣服不是為自己量身定制，那就需要通過修改来使它适合自己。\n\n而且也并非只有衣服如此。从外面得到的東西，只有修改后再穿在身上，才能穿起来符合自己的心意。"
-        },
-        {
-            "id": 149503,
-            "name": "裁剪",
-            "desc": "関峠開始時，或在自身解除混乱的回合開始時，\n使自身獲得30層[FinishedFabric]\n\n适用于[PanicChangeLock]效果，\n回合結束時，若自身陷入恐慌，則使自身的理智値変為30点\n\n回合開始時，\n- <color=#ff6000><mark=#ff000040><b><u>獲得自身体力上限(自身的[FinishedFabric]層数)%的護盾</u></b></mark></color>(最多30%)\n- 使自身恢復相当于自身[FinishedFabric]層数的理智値",
-            "flavor": "裁剪是将面料按照紙様裁剪。如果説修改是使衣服変得合身的過程，那么裁剪就是使面料変得合身的過程。\n\n因此，対于面料而言，裁剪就像修補之于衣服那様。被裁剪過一次的面料将保留其性質，被改衣師釘成那件他中意的衣服。"
-        },
-        {
-            "id": 149504,
-            "name": "永不停歇的剪刀",
-            "desc": "改衣師安倪特<color=#ff6000><mark=#ff000040><b><u>受到罪人攻撃時，使改衣師安倪特的混乱閾値前移相当于体力上限0.8%的数値</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>若自身陷入混乱，\n則失去所有護盾、[FinishedFabric]与[LargeTailoringShears]，并対自身施加3層[Vulnerable]</u></b></mark></color>\n\n回合開始時，若現存体力不高于60%，\n- 每失去20%的体力，使自身獲得1層[ResultEnhancement]与1層[SlashDamageUp](分別最多3層)\n- 使“鑲辺”的最后1枚硬幣与“裁剪”的第2枚硬幣轉化為[SuperCoin]",
-            "flavor": "以修改為价値而制作出的身体，双手為永不休止的修改与剪裁不停揮舞。\n\n即便身体損毀，修改与剪裁的過程仍无法停止。明明做着分离事物的工作，却不能将自己从工作中分离出来。"
-        },
-        {
-            "id": 149505,
-            "name": "漂流慣性",
-            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeKhaki]時，使<color=#ffffff>自身</color>増加1級[ChargeKhaki]強度\n\n若<color=#ffffff>自身</color>的[ChargeKhaki]強度不低于3級/5級，則使<color=#ffffff>自身</color>的最大[ChargeKhaki]層数+5/+10",
-            "flavor": "随着百貨店時代創造出的价値而漂流，并被那慣性裹挟。慣性越強，漂流越无法停止。"
-        },
-        {
-            "id": 150601,
-            "name": "保存",
-            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoir]時，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n最大[ChargeNoir]層数+10"
-        },
-        {
-            "id": 150602,
-            "name": "約定之錘",
-            "desc": "<color=#ffffff>自身</color>的攻撃命中時，或<color=#ffffff>自身</color>受到攻撃時，使<color=#ffffff>自身</color>獲得1層[ChargeNoir]",
-            "flavor": "用錘子去釘釘子。這把錘子只釘釘子。被這把錘子釘的就是釘子。就是這様的約定。"
-        },
-        {
-            "id": 150603,
-            "name": "陣型保存",
-            "desc": "属于黑派的<color=#ffffff>友方単位</color>等級大幅提升\n\n場上每有1名属于黑派的<color=#ffffff>友方単位</color>，使<color=#ffffff>全体</color>属于黑派的<color=#ffffff>友方単位</color>受到的<color=#ffffff>傷害</color>-5%\n属于黑派的<color=#ffffff>友方単位</color>陣亡時，本場戦斗中対<color=#ffffff>全体</color>属于黑派的<color=#ffffff>友方単位</color>施加1層[NoirSquareCollapse](包括新登場的単位)",
-            "flavor": "每个人都堅守在自己的崗位上工作，他們的身影聚集在一起形成一个陣型，這陣型又成為保存着整体的圖像。因此每个人都要在各自的崗位上，忠實地履行自己的職責。"
-        },
-        {
-            "id": 150401,
-            "name": "黑派面料",
-            "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]\n\n<color=#7C5738>回合開始</color>時，獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>[NoirBindArmor]層数)%的<color=#81BBE8>護盾</color>\n\n陷入混乱時，失去所有[NoirBindArmor]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>解除混乱，則使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]",
-            "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
-        },
-        {
-            "id": 150402,
-            "name": "保存",
-            "desc": "根据<color=#ffffff>自身</color>本場戦斗中累計消耗的[ChargeNoir]層数，相應触発以下效果：\n- 每累計消耗3層，使<color=#ffffff>自身</color>獲得1層[NoirBindArmor]\n- 每累計消耗10層，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級，則使<color=#ffffff>自身</color>的最大[ChargeNoir]層数+5",
-            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
-        },
-        {
-            "id": 150403,
-            "name": "品質保存",
-            "desc": "若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>時受到<color=#ffffff>敵方単位</color>攻撃，則使<color=#ffffff>自身</color>獲得1層[ChargeNoir]\n\n若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于10層，則使用強力技能",
-            "flavor": "商品的品質應厳格管理与保存。"
-        },
-        {
-            "id": 150404,
-            "name": "面料密度差",
-            "desc": "若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級/5級，則令<color=#ffffff>自身</color>増加的[Vibration]強度額外+1/+2級\n\n使用技能時，若<color=#ffffff>自身</color>的防御等級高于<color=#ffffff>目標</color>，則每<color=#7C5738>相差</color>1級，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+3%(最多+30%)\n- 若<color=#ffffff>自身</color>的防御等級高于<color=#ffffff>目標</color>至少5級，則使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+1",
-            "flavor": "黑派能劬圧扁比自己面料柔軟的事物。"
-        },
-        {
-            "id": 150501,
-            "name": "黑派面料",
-            "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]\n\n<color=#7C5738>回合開始</color>時，獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>[NoirBindArmor]層数)%的<color=#81BBE8>護盾</color>\n\n陷入混乱時，失去所有[NoirBindArmor]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>解除混乱，則使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]",
-            "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
-        },
-        {
-            "id": 150502,
-            "name": "保存",
-            "desc": "根据<color=#ffffff>自身</color>本場戦斗中累計消耗的[ChargeNoir]層数，相應触発以下效果：\n- 每累計消耗3層，使<color=#ffffff>自身</color>獲得1層[NoirBindArmor]\n- 每累計消耗10層，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級，則使<color=#ffffff>自身</color>的最大[ChargeNoir]層数+5",
-            "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
-        },
-        {
-            "id": 150503,
-            "name": "驗收保存",
-            "desc": "若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于10層，則使用強力技能",
-            "flavor": "為了確保品質所進行的驗收過程中，不應対商品的保存産生損害。"
-        },
-        {
-            "id": 150504,
-            "name": "面料密度差",
-            "desc": "若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級/5級，則令<color=#ffffff>自身</color>増加的[Vibration]強度額外+1/+2級\n\n使用攻撃技能時，若<color=#ffffff>自身</color>的防御等級高于<color=#ffffff>目標</color>，則每<color=#7C5738>相差</color>1級，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+3%(最多+30%)\n- 若<color=#ffffff>自身</color>的防御等級高于<color=#ffffff>目標</color>至少5級，則使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+1",
-            "flavor": "黑派能劬圧扁比自己面料柔軟的事物。"
-        },
-        {
-            "id": 148801,
-            "name": "原罪的生皮批発",
-            "desc": "回合開始時，若有不低于2名鞣制罪犯在場，則使自身獲得額外行動槽\n回合結束時，<color=#ff6000><mark=#ff000040><b><u>每有1名鞣制罪犯在場</u></b></mark></color>，下回合使自身獲得1層[AttackDmgUp]",
-            "flavor": "剥下罪犯的皮，把附着在上面的罪削去，只批発他們的皮。"
-        },
-        {
-            "id": 148802,
-            "name": "准備再次鞣制",
-            "desc": "若有<color=#61DA61>体力</color>不高于80%的除<color=#ffffff>自身</color>以外的<color=#ffffff>友方単位</color>在場，則獲得額外的<color=#ffffff>行動槽</color>",
-            "flavor": "制革厂回收被罪再度汚染的皮革，并再度将其鞣制。"
-        },
-        {
-            "id": 148803,
-            "name": "原罪皮革鞣制 満負荷運行",
-            "desc": "若本体<color=#61DA61>体力</color>不高于<color=#61DA61>体力</color>上限的50%，則結束<color=#7C5738>本回合</color>并改変模式，使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>本場戦斗中獲得[RestrictFailed]",
-            "flavor": "皮革需求驟増。生皮批発困難。原罪皮革曾經是一種并不起眼的皮革，但以某个季度為契机，対原罪皮革的需求驟増，价格也随之水漲船高。以前廉价、廃弃的皮革，現在連其表面的傷痕也被包装成品味来吸引消費。"
-        },
-        {
-            "id": 148804,
-            "name": "制革厂規則",
-            "desc": "从第2回合起，<color=#7C5738>每回合</color>開始時，随机対3名<color=#ffffff>敵方単位</color>施加1層以下效果\n- [RestrictMob]\n- [RestrictBoss]\n- [RestrictTier1]\n- [RestrictDef]\n\n違反規則時，対<color=#ffffff>目標</color>施加1層[RestrictDenied]",
-            "flavor": "肉塊与皮革的区分是在厳格的鞣制程序与規則下進行的。"
-        },
-        {
-            "id": 149101,
-            "name": "鞣制罪犯",
-            "desc": "<color=#ffffff>自身</color>陣亡時，本場戦斗中管制員永久減少1級防御等級"
-        },
-        {
-            "id": 150604,
-            "name": "戦斗継續",
-            "desc": "<color=#7C5737>関峠開始</color>時，以80%的<color=#61DA61>体力</color>与45点<color=#81BBE8>理智値</color>開始戦斗"
-        },
-        {
-            "id": 151001,
-            "name": "縫紉開始",
-            "desc": "<color=#7C5738>回合開始</color>時，随机対2名<color=#ffffff>敵方単位</color>施加[NiddleExpected]"
-        },
-        {
-            "id": 151002,
-            "name": "手工縫制",
-            "desc": "每有1名針族在場，使<color=#ffffff>自身</color>技能的<color=#ffffff>最終威力</color>+1",
-            "flavor": "于手工縫制而言，熟練工匠的数量就是生命。"
-        },
-        {
-            "id": 151003,
-            "name": "堵上耳朶也能听見的投訴",
-            "desc": "每到3的倍数回合，会听見繭的悲鳴\n進入第2階段后，繭的悲鳴<color=#7C5738>每回合</color>持續\n\n在听見繭的悲鳴的回合，<color=#ffffff>自身</color>免疫无法行動状態\n\n若<color=#ffffff>自身</color>的<color=#61DA61>体力</color>降至<color=#ffffff>混乱閾値</color>之下，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層[Vulnerable]",
-            "flavor": "从繭里傳来了声音。\n“80支2股以下不算是面料。” “紐扣眼為什么不是横的？”\n“是旧式織机織出来的天竺布麼？” “布辺的顔色為什么不是紅色？”\n“這个没做防縮水工藝捏。” “Super150以下的都是廉价面料叭。”\n“袮説Super等級只代表綫的粗細？直径和支数都不一様，怎么連這个都不知道。”\n“肯定会用Union Special給下擺做処理叭？” “這个是硬化過的麼？啊，還是説是布辺？”\n“仔細看去，針脚太均雲了，是用了机器叭？” “不是純手工縫制就算不上定做。”\n“啊，這不是米蘭式扣眼啊。” “支数得超過200才能叫襯衫面料叭。”\n“啊，从外面能看見縫綫捏。” “能看到兩列縫綫捏。淘汰。”\n“縫分怎么処理成這様。” “得超過3股才行。”"
-        },
-        {
-            "id": 149604,
-            "name": "沐浴着刺眼的陽光",
-            "desc": "受陽光影響，<color=#ffffff>自身</color>等級提升\n\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得[GoldenLeatherEnhance]",
-            "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
-        },
-        {
-            "id": 148805,
-            "name": "戦斗継續",
-            "desc": "<color=#7C5737>関峠開始</color>時，以90%的<color=#61DA61>体力</color>与45点<color=#81BBE8>理智値</color>開始戦斗"
-        },
-        {
-            "id": 148305,
-            "name": "沐浴着刺眼的陽光",
-            "desc": "沐浴着刺眼的陽光，<color=#ffffff>自身</color>等級提升\n\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>増加2級[ChargeNoir]強度并獲得15層[ChargeNoir]\n\n以30点<color=#81BBE8>理智値</color>与1000点永久<color=#81BBE8>護盾</color>開始戦斗",
-            "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
-        },
-        {
-            "id": 1590001,
-            "name": "沐浴着刺眼的陽光",
-            "desc": "受陽光影響，<color=#ffffff>自身</color>等級提升",
-            "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
-        },
-        {
-            "id": 149608,
-            "name": "堵上耳朶也能听見的投訴",
-            "desc": "繭的悲鳴<color=#7C5738>每回合</color>持續\n免疫无法行動状態"
-        },
-        {
-            "id": 151101,
-            "name": "沐浴着刺眼的陽光",
-            "desc": "沐浴着刺眼的陽光，<color=#ffffff>自身</color>等級提升\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得[SapsareeGold]",
-            "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
-        },
-        {
-            "id": 151201,
-            "name": "沐浴着刺眼的陽光",
-            "desc": "沐浴着刺眼的陽光，<color=#ffffff>自身</color>等級提升\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至上限，并獲得[GoldenManager]",
-            "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
-        }
-    ]
+  "dataList": [
+    {
+      "id": 150301,
+      "name": "无法停止的慟哭",
+      "desc": "関峠開始時，自身陷入恐慌\n\n若自身陷入恐慌，則獲得以下效果：\n- <color=#ff6000><mark color=#ff000040><b><u>所有攻撃指定支咿為目標</color></mark></b></u>\n- 使用技能時，若支咿為主要目標，則使自身拼点威力与基礎威力増加\n- 戦斗開始時，使所有硬幣轉化為[SuperCoin]",
+      "flavor": "古老之物的孩子們，一个也不剩了。"
+    },
+    {
+      "id": 150302,
+      "name": "纏結的黑之絲",
+      "desc": "自身的技能、士气低落与陷入恐慌效果会対敵方単位施加[TangleBlackYarn]\n※ [TangleBlackYarn]<color=#ff6000><mark color=#ff000040><b><u>可通過使用守備技能或自身的特定技能減少層数</color></mark></b></u>\n\n受到攻撃時，触発以下效果\n- 対自身施加1層[SickBlackYarn]\n- 若命中自身的技能為<color=#ff6000><mark color=#ff000040><b><u>斬撃技能</color></mark></b></u>，則対自身額外施加1層[SickBlackYarn]\n- 受到<color=#ff6000><mark color=#ff000040><b><u>攻撃容量不低于5</color></mark></b></u>的技能攻撃時，下回合対自身施加[HeavyBlackYarn](每回合最多1次)",
+      "flavor": "纏繞在它身体上的這些黑色絲綫，从前并不存在。幸運的是，在時代更替時，這些絲綫纏繞在了古老之物身上，正因為身体被絲綫纏繞，它才得以在百貨店時代存活下来。現在，那些黑色的絲綫正在解開。\n\n在水族館時代之前，曾有過广場時代、防空洞時代、法庭時代等多个時代，尽管它們的名称与形式各不相同，但它們使西西弗系統維持運轉的本質是相同的。 \n\n每当時代更替，人們便以人類的姿態重新适應発生変化的世界，承受着西西弗中的時代直至今日。\n\n現在，這団纏結的絲綫已并非只是兩个時代間的纏結，而是所有沈積的時代間的纏結。"
+    },
+    {
+      "id": 150303,
+      "name": "到古老海洋中去",
+      "desc": "若有部位<color=#ff6000><mark color=#ff000040><b><u>陷入混乱</color></mark></b></u>，則<color=#ff6000><mark color=#ff000040><b><u>移除其他部位的1条混乱閾値并結束本回合</color></mark></b></u>\n随后，下回合使所有部位獲得[HideBlackYarn]\n\n<color=#ff6000><mark color=#ff000040><b><u>若[HideBlackYarn]因受到攻撃而解除</color></mark></b></u>，則\n- 対自身施加10層[SickBlackYarn]\n- 若施加[SickBlackYarn]層数超過最大値，則本回合与下回合対自身施加3層易損 \n\n回合結束時，若[HideBlackYarn]解除，則\n- 対自身施加(7-剩余[HideBlackYarn]強度)層[SickBlackYarn]\n- 下回合使自身獲得1層[AngryBlackYarn]",
+      "flavor": "曾于現今已然消失的時代的海洋中，再自然不過地暢游。"
+    },
+    {
+      "id": 150304,
+      "name": "未干的水汽",
+      "desc": "受到[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的<color=#61DA61>体力</color><color=#ffffff>傷害</color>、理智<color=#ffffff>傷害</color>与<color=#ffffff>混乱閾値</color>前移量-50%\n\n<color=#ffffff>自身</color>的恐慌類型不会改変。<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>恢復為0点",
+      "flavor": "西西弗水族館雖然已然消失，但其身体上仍留有尚未変為絲綫的微茫的水汽。"
+    },
+    {
+      "id": 150101,
+      "name": "由土塑造的人偶",
+      "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至上限\n\n本体与<color=#ffffff>部位</color>不会受到[Combustion]与[Laceration]<color=#ffffff>傷害</color>",
+      "flavor": "陶瓷般的肌膚由土而生。"
+    },
+    {
+      "id": 150102,
+      "name": "不凋花",
+      "desc": "戦斗開始時，使自身獲得1層[AlriunePetal]\n\n若自身陷入混乱，則\n- 下回合対自身施加2層[Vulnerable]\n- 使罪人与援助単位恢復20点理智値\n- 自身解除混乱的回合開始時，使自身的[AlriunePetal]層数重置為1層\n\n回合開始時，若没有敵方単位帯有[FlowerLaurelWreath]，<color=#ff6000><mark color=#ff000040><b><u>則装備技能“芳香的月桂冠”</color></mark></b></u>\n- 若自身本回合装備了“心懐帰于泥土的愿望”，則下回合装備“芳香的月桂冠”\n\n<color=#ff6000><mark color=#ff000040><b><u>受到未帯有[FlowerLaurelWreath]的敵方単位的技能傷害-50%</color></mark></b></u>\n<color=#ff6000><mark color=#ff000040><b><u>受到帯有[FlowerLaurelWreath]的敵方単位的技能傷害+150%</color></mark></b></u>",
+      "flavor": "花朶枯萎。而后再次綻放。"
+    },
+    {
+      "id": 150103,
+      "name": "立春",
+      "desc": "若敵方単位陷入混乱，則対其造成20点理智傷害\n\n回合開始時，<color=#ff6000><mark color=#ff000040><b><u>若有目標陷入混乱或侵蝕，則対其使用“与所有渴望生的事物一同帰于墳墓”</color></mark></b></u>(每回合最多2次，優先指定速度値最低的敵方単位，不包括援助単位)\n\n若該技能撃殺了目標，則下回合召喚1个“生于泥土之人”\n- 若場上已有4名“生于泥土之人”，則該效果不会触発",
+      "flavor": "春暖花開"
+    },
+    {
+      "id": 150201,
+      "name": "自泥土中来",
+      "desc": "自身不会受到[Combustion]与[Laceration]傷害\n\n<color=#ff6000><mark color=#ff000040><b><u>受到[Vibration]的混乱閾値前移量+100%</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>若自身陷入混乱，則自身陣亡</color></mark></b></u>",
+      "flavor": "到泥土中去"
+    },
+    {
+      "id": 151901,
+      "name": "超高速縫紉",
+      "desc": "若目標的<color=#ff6000><mark color=#ff000040><b><u>速度値低于自身，則使自身的拼点威力+3</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>自身使用了消耗[ChargeKhaki]層数的技能的回合結束時，若自身的[ChargeKhaki]層数不低于11層</color></mark></b></u>，則使用強力技能\n\n若現存体力不高于50%，則使用強力技能(每場戦斗最多1次)",
+      "summary": "若<color=#ffffff>目標</color>的<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>，則使<color=#ffffff>自身</color><color=#ffffff>拼点威力</color>増加",
+      "flavor": "姐姐每分鐘可以縫一万針奥"
+    },
+    {
+      "id": 151902,
+      "name": "固定縫紉",
+      "desc": "対陷入混乱或无法行動的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+40%",
+      "flavor": "没有比縫紉静止之物更簡単的事了"
+    },
+    {
+      "id": 151903,
+      "name": "多彩縫紉",
+      "desc": "若<color=#ffffff>自身</color>帯有[SpreadingDye]，則<color=#ffffff>自身</color>技能命中時対<color=#ffffff>目標</color>施加1層[StickyDye]\n\n使帯有[ThreadDye]的<color=#ffffff>目標</color>獲得以下效果：\n- 令其技能増加的[Laceration]強度与施加的[Laceration]層数額外+(其[ThreadDye]強度)\n- 通過以上效果施加[StickyDye]時，随机対除被施加[StickyDye]的<color=#ffffff>目標</color>以外的1名帯有[ThreadDye]的<color=#ffffff>敵方単位</color>施加1層[StickyDye]\n\n<color=#ffffff>自身</color>的技能不会対帯有[Inactible]的<color=#ffffff>目標</color>施加[ThreadDye]",
+      "flavor": "姐姐負責縫布，我同時上色。"
+    },
+    {
+      "id": 151904,
+      "name": "調整針数調節装置",
+      "desc": "<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至上限，恢復45点<color=#81BBE8>理智値</color>\n\n本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeKhaki]時，使<color=#ffffff>自身</color>増加1級[ChargeKhaki]強度"
+    },
+    {
+      "id": 149501,
+      "name": "修改",
+      "desc": "回合開始時，対上回合中対自身<color=#ff6000><mark=#ff000040><b><u>造成最高傷害的罪人施加1層[TailoringTarget]</u></b></mark></color>，并使用技能“紙様制作”\n- 若帯有[TailoringTarget]的罪人<color=#ff6000><mark=#ff000040><b><u>帯有9層[ScissorsMark]</u></b></mark></color>，則“紙様制作”改為使用<color=#ff6000><mark=#ff000040><b><u>“鏈式鎖辺”</u></b></mark></color>\n\n自身受到罪人攻撃時，\n- 対該罪人施加1層[ScissorsMark](每名罪人每回合最多5層)\n- 使自身獲得1層[ChargeKhaki](每名罪人每回合最多5層)\n\n<color=#ff6000><mark=#ff000040><b><u>自身受到帯有[TailoringTarget]的罪人攻撃時，使自身獲得3層[ResultEnhancement](每回合最多9層)</u></b></mark></color>",
+      "flavor": "据説衣服是通過修改来完成的。既然衣服不是為自己量身定制，那就需要通過修改来使它适合自己。\n\n而且也并非只有衣服如此。从外面得到的東西，只有修改后再穿在身上，才能穿起来符合自己的心意。"
+    },
+    {
+      "id": 149503,
+      "name": "裁剪",
+      "desc": "関峠開始時，或在自身解除混乱的回合開始時，\n使自身獲得30層[FinishedFabric]\n\n适用于[PanicChangeLock]效果，\n回合結束時，若自身陷入恐慌，則使自身的理智値変為30点\n\n回合開始時，\n- <color=#ff6000><mark=#ff000040><b><u>獲得自身体力上限(自身的[FinishedFabric]層数)%的護盾</u></b></mark></color>(最多30%)\n- 使自身恢復相当于自身[FinishedFabric]層数的理智値",
+      "flavor": "裁剪是将面料按照紙様裁剪。如果説修改是使衣服変得合身的過程，那么裁剪就是使面料変得合身的過程。\n\n因此，対于面料而言，裁剪就像修補之于衣服那様。被裁剪過一次的面料将保留其性質，被改衣師釘成那件他中意的衣服。"
+    },
+    {
+      "id": 149504,
+      "name": "永不停歇的剪刀",
+      "desc": "改衣師安倪特<color=#ff6000><mark=#ff000040><b><u>受到罪人攻撃時，使改衣師安倪特的混乱閾値前移相当于体力上限0.8%的数値</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>若自身陷入混乱，\n則失去所有護盾、[FinishedFabric]与[LargeTailoringShears]，并対自身施加3層[Vulnerable]</u></b></mark></color>\n\n回合開始時，若現存体力不高于60%，\n- 每失去20%的体力，使自身獲得1層[ResultEnhancement]与1層[SlashDamageUp](分別最多3層)\n- 使“鑲辺”的最后1枚硬幣与“裁剪”的第2枚硬幣轉化為[SuperCoin]",
+      "flavor": "以修改為价値而制作出的身体，双手為永不休止的修改与剪裁不停揮舞。\n\n即便身体損毀，修改与剪裁的過程仍无法停止。明明做着分离事物的工作，却不能将自己从工作中分离出来。"
+    },
+    {
+      "id": 149505,
+      "name": "漂流慣性",
+      "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeKhaki]時，使<color=#ffffff>自身</color>増加1級[ChargeKhaki]強度\n\n若<color=#ffffff>自身</color>的[ChargeKhaki]強度不低于3級/5級，則使<color=#ffffff>自身</color>的最大[ChargeKhaki]層数+5/+10",
+      "flavor": "随着百貨店時代創造出的价値而漂流，并被那慣性裹挟。慣性越強，漂流越无法停止。"
+    },
+    {
+      "id": 150601,
+      "name": "保存",
+      "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoir]時，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n最大[ChargeNoir]層数+10"
+    },
+    {
+      "id": 150602,
+      "name": "約定之錘",
+      "desc": "<color=#ffffff>自身</color>的攻撃命中時，或<color=#ffffff>自身</color>受到攻撃時，使<color=#ffffff>自身</color>獲得1層[ChargeNoir]",
+      "flavor": "用錘子去釘釘子。這把錘子只釘釘子。被這把錘子釘的就是釘子。就是這様的約定。"
+    },
+    {
+      "id": 150603,
+      "name": "陣型保存",
+      "desc": "属于黑派的<color=#ffffff>友方単位</color>等級大幅提升\n\n場上每有1名属于黑派的<color=#ffffff>友方単位</color>，使<color=#ffffff>全体</color>属于黑派的<color=#ffffff>友方単位</color>受到的<color=#ffffff>傷害</color>-5%\n属于黑派的<color=#ffffff>友方単位</color>陣亡時，本場戦斗中対<color=#ffffff>全体</color>属于黑派的<color=#ffffff>友方単位</color>施加1層[NoirSquareCollapse](包括新登場的単位)",
+      "flavor": "每个人都堅守在自己的崗位上工作，他們的身影聚集在一起形成一个陣型，這陣型又成為保存着整体的圖像。因此每个人都要在各自的崗位上，忠實地履行自己的職責。"
+    },
+    {
+      "id": 150401,
+      "name": "黑派面料",
+      "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]\n\n<color=#7C5738>回合開始</color>時，獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>[NoirBindArmor]層数)%的<color=#81BBE8>護盾</color>\n\n陷入混乱時，失去所有[NoirBindArmor]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>解除混乱，則使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]",
+      "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
+    },
+    {
+      "id": 150402,
+      "name": "保存",
+      "desc": "根据<color=#ffffff>自身</color>本場戦斗中累計消耗的[ChargeNoir]層数，相應触発以下效果：\n- 每累計消耗3層，使<color=#ffffff>自身</color>獲得1層[NoirBindArmor]\n- 每累計消耗10層，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級，則使<color=#ffffff>自身</color>的最大[ChargeNoir]層数+5",
+      "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+    },
+    {
+      "id": 150403,
+      "name": "品質保存",
+      "desc": "若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>時受到<color=#ffffff>敵方単位</color>攻撃，則使<color=#ffffff>自身</color>獲得1層[ChargeNoir]\n\n若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于10層，則使用強力技能",
+      "flavor": "商品的品質應厳格管理与保存。"
+    },
+    {
+      "id": 150404,
+      "name": "面料密度差",
+      "desc": "若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級/5級，則令<color=#ffffff>自身</color>増加的[Vibration]強度額外+1/+2級\n\n使用技能時，若<color=#ffffff>自身</color>的防御等級高于<color=#ffffff>目標</color>，則每<color=#7C5738>相差</color>1級，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+3%(最多+30%)\n- 若<color=#ffffff>自身</color>的防御等級高于<color=#ffffff>目標</color>至少5級，則使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+1",
+      "flavor": "黑派能劬圧扁比自己面料柔軟的事物。"
+    },
+    {
+      "id": 150501,
+      "name": "黑派面料",
+      "desc": "戦斗中首次登場時，使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]\n\n<color=#7C5738>回合開始</color>時，獲得<color=#ffffff>自身</color><color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>[NoirBindArmor]層数)%的<color=#81BBE8>護盾</color>\n\n陷入混乱時，失去所有[NoirBindArmor]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>解除混乱，則使<color=#ffffff>自身</color>獲得5層[NoirBindArmor]",
+      "flavor": "黑派面料通過如同鎧甲般堅固穏定的形態来修飾客人們的体型。"
+    },
+    {
+      "id": 150502,
+      "name": "保存",
+      "desc": "根据<color=#ffffff>自身</color>本場戦斗中累計消耗的[ChargeNoir]層数，相應触発以下效果：\n- 每累計消耗3層，使<color=#ffffff>自身</color>獲得1層[NoirBindArmor]\n- 每累計消耗10層，使<color=#ffffff>自身</color>増加1級[ChargeNoir]強度\n\n若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級，則使<color=#ffffff>自身</color>的最大[ChargeNoir]層数+5",
+      "flavor": "将力量凝聚、集中，并加以固定。有時不改変比改変需要更大的力量。"
+    },
+    {
+      "id": 150503,
+      "name": "驗收保存",
+      "desc": "若<color=#ffffff>自身</color>的[ChargeNoir]層数不低于10層，則使用強力技能",
+      "flavor": "為了確保品質所進行的驗收過程中，不應対商品的保存産生損害。"
+    },
+    {
+      "id": 150504,
+      "name": "面料密度差",
+      "desc": "若<color=#ffffff>自身</color>的[ChargeNoir]強度不低于3級/5級，則令<color=#ffffff>自身</color>増加的[Vibration]強度額外+1/+2級\n\n使用攻撃技能時，若<color=#ffffff>自身</color>的防御等級高于<color=#ffffff>目標</color>，則每<color=#7C5738>相差</color>1級，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+3%(最多+30%)\n- 若<color=#ffffff>自身</color>的防御等級高于<color=#ffffff>目標</color>至少5級，則使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+1",
+      "flavor": "黑派能劬圧扁比自己面料柔軟的事物。"
+    },
+    {
+      "id": 148801,
+      "name": "原罪的生皮批発",
+      "desc": "回合開始時，若有不低于2名鞣制罪犯在場，則使自身獲得額外行動槽\n回合結束時，<color=#ff6000><mark=#ff000040><b><u>每有1名鞣制罪犯在場</u></b></mark></color>，下回合使自身獲得1層[AttackDmgUp]",
+      "flavor": "剥下罪犯的皮，把附着在上面的罪削去，只批発他們的皮。"
+    },
+    {
+      "id": 148802,
+      "name": "准備再次鞣制",
+      "desc": "若有<color=#61DA61>体力</color>不高于80%的除<color=#ffffff>自身</color>以外的<color=#ffffff>友方単位</color>在場，則獲得額外的<color=#ffffff>行動槽</color>",
+      "flavor": "制革厂回收被罪再度汚染的皮革，并再度将其鞣制。"
+    },
+    {
+      "id": 148803,
+      "name": "原罪皮革鞣制 満負荷運行",
+      "desc": "若本体<color=#61DA61>体力</color>不高于<color=#61DA61>体力</color>上限的50%，則結束<color=#7C5738>本回合</color>并改変模式，使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>本場戦斗中獲得[RestrictFailed]",
+      "flavor": "皮革需求驟増。生皮批発困難。原罪皮革曾經是一種并不起眼的皮革，但以某个季度為契机，対原罪皮革的需求驟増，价格也随之水漲船高。以前廉价、廃弃的皮革，現在連其表面的傷痕也被包装成品味来吸引消費。"
+    },
+    {
+      "id": 148804,
+      "name": "制革厂規則",
+      "desc": "从第2回合起，<color=#7C5738>每回合</color>開始時，随机対3名<color=#ffffff>敵方単位</color>施加1層以下效果\n- [RestrictMob]\n- [RestrictBoss]\n- [RestrictTier1]\n- [RestrictDef]\n\n違反規則時，対<color=#ffffff>目標</color>施加1層[RestrictDenied]",
+      "flavor": "肉塊与皮革的区分是在厳格的鞣制程序与規則下進行的。"
+    },
+    {
+      "id": 149101,
+      "name": "鞣制罪犯",
+      "desc": "<color=#ffffff>自身</color>陣亡時，本場戦斗中管制員永久減少1級防御等級"
+    },
+    {
+      "id": 150604,
+      "name": "戦斗継續",
+      "desc": "<color=#7C5737>関峠開始</color>時，以80%的<color=#61DA61>体力</color>与45点<color=#81BBE8>理智値</color>開始戦斗"
+    },
+    {
+      "id": 151001,
+      "name": "縫紉開始",
+      "desc": "<color=#7C5738>回合開始</color>時，随机対2名<color=#ffffff>敵方単位</color>施加[NiddleExpected]"
+    },
+    {
+      "id": 151002,
+      "name": "手工縫制",
+      "desc": "每有1名針族在場，使<color=#ffffff>自身</color>技能的<color=#ffffff>最終威力</color>+1",
+      "flavor": "于手工縫制而言，熟練工匠的数量就是生命。"
+    },
+    {
+      "id": 151003,
+      "name": "堵上耳朶也能听見的投訴",
+      "desc": "每到3的倍数回合，会听見繭的悲鳴\n進入第2階段后，繭的悲鳴<color=#7C5738>每回合</color>持續\n\n在听見繭的悲鳴的回合，<color=#ffffff>自身</color>免疫无法行動状態\n\n若<color=#ffffff>自身</color>的<color=#61DA61>体力</color>降至<color=#ffffff>混乱閾値</color>之下，則<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層[Vulnerable]",
+      "flavor": "从繭里傳来了声音。\n“80支2股以下不算是面料。” “紐扣眼為什么不是横的？”\n“是旧式織机織出来的天竺布麼？” “布辺的顔色為什么不是紅色？”\n“這个没做防縮水工藝捏。” “Super150以下的都是廉价面料叭。”\n“袮説Super等級只代表綫的粗細？直径和支数都不一様，怎么連這个都不知道。”\n“肯定会用Union Special給下擺做処理叭？” “這个是硬化過的麼？啊，還是説是布辺？”\n“仔細看去，針脚太均雲了，是用了机器叭？” “不是純手工縫制就算不上量身定制。”\n“啊，這不是米蘭式扣眼啊。” “支数得超過200才能叫襯衫面料叭。”\n“啊，从外面能看見縫綫捏。” “能看到兩列縫綫捏。淘汰。”\n“縫分怎么処理成這様。” “得超過3股才行。”"
+    },
+    {
+      "id": 149604,
+      "name": "沐浴着刺眼的陽光",
+      "desc": "受陽光影響，<color=#ffffff>自身</color>等級提升\n\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得[GoldenLeatherEnhance]",
+      "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
+    },
+    {
+      "id": 148805,
+      "name": "戦斗継續",
+      "desc": "<color=#7C5737>関峠開始</color>時，以90%的<color=#61DA61>体力</color>与45点<color=#81BBE8>理智値</color>開始戦斗"
+    },
+    {
+      "id": 148305,
+      "name": "沐浴着刺眼的陽光",
+      "desc": "沐浴着刺眼的陽光，<color=#ffffff>自身</color>等級提升\n\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>増加2級[ChargeNoir]強度并獲得15層[ChargeNoir]\n\n以30点<color=#81BBE8>理智値</color>与1000点永久<color=#81BBE8>護盾</color>開始戦斗",
+      "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
+    },
+    {
+      "id": 1590001,
+      "name": "沐浴着刺眼的陽光",
+      "desc": "受陽光影響，<color=#ffffff>自身</color>等級提升",
+      "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
+    },
+    {
+      "id": 149608,
+      "name": "堵上耳朶也能听見的投訴",
+      "desc": "繭的悲鳴<color=#7C5738>每回合</color>持續\n免疫无法行動状態"
+    },
+    {
+      "id": 151101,
+      "name": "沐浴着刺眼的陽光",
+      "desc": "沐浴着刺眼的陽光，<color=#ffffff>自身</color>等級提升\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color>獲得[SapsareeGold]",
+      "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
+    },
+    {
+      "id": 151201,
+      "name": "沐浴着刺眼的陽光",
+      "desc": "沐浴着刺眼的陽光，<color=#ffffff>自身</color>等級提升\n<color=#7C5737>関峠開始</color>時，使<color=#ffffff>自身</color><color=#61DA61>体力</color>恢復至上限，并獲得[GoldenManager]",
+      "flavor": "対側耳傾听太陽温暖之人而言，陽光会顕得更加灼熱、刺眼且強烈。"
+    }
+  ]
 }

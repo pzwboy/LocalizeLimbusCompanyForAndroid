@@ -2,119 +2,119 @@
   "dataList": [
     {
       "id": 9284,
-      "name": "流行遅れのル・ルージュの服",
-      "desc": "味方が基本攻撃スキルのスキル効果・コイン効果で体力を回復時、50%だけ追加で回復する (ターンにつき3回、小数点<noparse>切り捨て</noparse>)\n\n[オートクチュール::ル・ルージュ ブティーク イシュメール専用効果]\nオートクチュール::ル・ルージュ 赤き神 シンクレアが自分と共に戦場にいるなら、ターン開始時に[RougeIshmaelCocoon]1を得て[RougeIshmaelCocoon]状態になる (戦闘につき1回)\n- 「<noparse>試着室</noparse>の中へ…」のパッシブ効果のうち、「この戦闘で体力が0になるダメージを受けたとき、そのダメージを受けず、即座に[RougeIshmaelCocoon]2を得て[RougeIshmaelCocoon]になる (戦闘ごとに1回)」の効果が発動したなら、専用効果は発動しない\n- 専用効果発動時、「<noparse>試着室</noparse>の中へ…」のパッシブ効果のうち、「この戦闘で体力が0になるダメージを受けたとき、そのダメージを受けず、即座に[RougeIshmaelCocoon]2を得て[RougeIshmaelCocoon]になる (戦闘ごとに1回)」の効果は発動しない",
+      "name": "過時的紅派服飾",
+      "desc": "<color=#ffffff>友方単位</color>通過基礎攻撃技能的技能或<color=#ffffff>硬幣效果</color>恢復<color=#61DA61>体力</color>時，使恢復的<color=#61DA61>体力</color>+50%(<color=#7C5738>每回合</color>最多3次，向下取整)\n\n[高級定制::紅派精品店 以實瑪利専属]\n若高級定制::紅派 赤紅之神 辛克莱与<color=#ffffff>自身</color>同時在場，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得1層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)\n- 若被動“進入<noparse>更衣室</noparse>…”的“本場戦斗中，<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，无視該<color=#ffffff>傷害</color>，并立即使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)”效果触発，則専属效果不会触発\n- 若専属效果触発，則被動的“進入<noparse>更衣室</noparse>…”的“本場戦斗中，<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，无視該<color=#ffffff>傷害</color>，并立即使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)”效果不会触発",
       "simpleDesc": [
         {
           "abilityID": 9284,
-          "simpleDesc": "即座に[RougeIshmaelCocoon]状態になる"
+          "simpleDesc": "立即進入[RougeIshmaelCocoon]状態"
         },
         {
           "abilityID": 92841,
-          "simpleDesc": "体力を追加で回復"
+          "simpleDesc": "額外恢復<color=#61DA61>体力</color>"
         }
       ]
     },
     {
       "id": 9285,
       "name": "炭酸飲料",
-      "desc": "このターンに自分のスキル効果・コイン効果で体力回復を1回以上試みた囚人は、次のターンにスキルでの与ダメージ量 +10%、(このターンに試みた回復数値の合計 ÷ 10)だけ[AttackUp]を得る (最大6、小数点<noparse>切り捨て</noparse>)\n\n戦場に同じ所属の人格がいるなら、自分を除く同じ所属の人格が上記の効果で得た[AttackUp]の半分だけ[AttackUp]を得る (最小1、ターンにつき最大3まで獲得、小数点<noparse>切り捨て</noparse>)",
+      "desc": "<color=#7C5738>本回合</color>不低于1次試圖通過<color=#ffffff>自身</color>的技能或<color=#ffffff>硬幣效果</color>恢復<color=#61DA61>体力</color>的罪人在<color=#7C5738>下回合</color>使其技能造成的<color=#ffffff>傷害</color>+10%并獲得(該回合試圖恢復量/10)層[AttackUp](最多6層，向下取整)\n\n若場上有与<color=#ffffff>自身</color>属于同一陣営的人格，則使<color=#ffffff>自身</color>獲得層数相当于除<color=#ffffff>自身</color>以外与<color=#ffffff>自身</color>属于同一陣営的人格通過以上效果獲得的[AttackUp]層数一半的[AttackUp](最少1層，<color=#7C5738>每回合</color>最多3層，向下取整)",
       "simpleDesc": [
         {
           "abilityID": 9285,
-          "simpleDesc": "ダメージ量増加[TabExplain]、[AttackUp]を得る"
+          "simpleDesc": "造成的<color=#ffffff>傷害</color>増加[TabExplain]，獲得[AttackUp]"
         }
       ]
     },
     {
       "id": 9286,
-      "name": "ル・ノワールのメゾンスラックス",
-      "desc": "[Charge]威力が2以上の味方が[VibrationExplosion]時、下記の効果を適用\n- (自分の[Charge]威力 × 回数)だけ嫉妬ダメージを与える (スキルにつき2回、1回につき最大100)\n- 上記の効果で嫉妬ダメージを2回与えたなら、次のターンに対象へ[Binding]3を付与\n\n味方がスキルで[VibrationExplosion]時、[VibrationExplosion]ごとに(自分の[Charge]威力 ÷ 3)だけ、次のターンに[AttackUp]を得る (ターンにつき最大5、小数点切り捨て)",
+      "name": "黑派品牌世家休閑庫",
+      "desc": "[Charge]強度不低于2級的<color=#ffffff>友方単位</color>触発[VibrationExplosion]時，触発以下效果\n- 対<color=#ffffff>目標</color>造成(<color=#ffffff>自身</color>的[Charge]強度与層数之積)点<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>(每个技能最多2次，每次最多100点)\n- 若通過以上效果造成了2次<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[Binding]\n\n<color=#ffffff>友方単位</color>通過技能触発[VibrationExplosion]時，<color=#7C5738>下回合</color>使其獲得(其[Charge]強度/3)層[AttackUp](<color=#7C5738>每回合</color>最多5層，向下取整)",
       "simpleDesc": [
         {
           "abilityID": 9286,
-          "simpleDesc": "嫉妬ダメージを与えて[Binding]を付与"
+          "simpleDesc": "造成<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>并施加[Binding]"
         },
         {
           "abilityID": 92861,
-          "simpleDesc": "[AttackUp]を得る"
+          "simpleDesc": "獲得[AttackUp]"
         }
       ]
     },
     {
       "id": 9287,
-      "name": "ル・ノワールのメリージェーン",
-      "desc": "戦闘開始時、バリアを最も多く保有する人格は、攻撃的中時に現在のバリアの50%だけ怠惰ダメージを与える (スキルにつき2回、1回につき最大100、小数点<noparse>切り捨て</noparse>)\n- バリアの数値が同じ人格が2名以上いるなら、編成順に適用\n\n[PersonalityCharge]なら、代わりにバリアの100%だけ怠惰ダメージを与える (スキルにつき3回、1回につき最大100、小数点<noparse>切り捨て</noparse>)",
+      "name": "黑派瑪麗珍鞋",
+      "desc": "<color=#ffffff>戦斗開始</color>時帯有的<color=#81BBE8>護盾</color>最高的人格攻撃命中時，対<color=#ffffff>目標</color>造成相当于該人格現存<color=#81BBE8>護盾</color>50%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(每个技能最多2次，每次最多100点，向下取整)\n- 若帯有的<color=#81BBE8>護盾</color>相同的人格不低于2名，則按編隊順序适用\n\n若該人格為[PersonalityCharge]，則改為造成相当于其<color=#81BBE8>護盾</color>100%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(每个技能最多3次，每次最多100点，向下取整)",
       "simpleDesc": [
         {
           "abilityID": 9287,
-          "simpleDesc": "バリアに比例して怠惰ダメージを与える"
+          "simpleDesc": "根据<color=#81BBE8>護盾</color>相應造成<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
         }
       ]
     },
     {
       "id": 9288,
-      "name": "裁縫の王の待ち針",
-      "desc": "ターン開始時、[SewingKingMark]のある敵がいないなら、ランダムな敵に[SewingKingMark]を付与 (集中戦闘の場合、部位で判定)",
+      "name": "裁縫之王的直針",
+      "desc": "<color=#7C5738>回合開始</color>時，若没有<color=#ffffff>敵方単位</color>帯有[SewingKingMark]，則随机対1名<color=#ffffff>敵方単位</color>施加[SewingKingMark](若是<color=#ffffff>集中遭遇戦</color>，則以<color=#ffffff>部位</color>判定)",
       "simpleDesc": [
         {
           "abilityID": 9288,
-          "simpleDesc": "[SewingKingMark]を付与、死亡時に固定ダメージを与える"
+          "simpleDesc": "施加[SewingKingMark]，陣亡時造成固定<color=#ffffff>傷害</color>"
         }
       ]
     },
     {
       "id": 9289,
       "name": "軟骨",
-      "desc": "[Charge]回数または特殊[Charge]を消耗するスキルのダメージ量 +(自分の[Charge]威力 × 2)% (最大10%)\n\nターン終了時、このターンに[Charge]回数または特殊[Charge]を消耗したなら、次のターンに[Agility]1を得る\n\n対象の速度が自分より低いなら、マッチ威力 +1\n- 自分がシーシュポス所属なら、代わりに最終威力 +1",
+      "desc": "消耗[Charge]層数或特殊[Charge]的技能造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Charge]強度×2)%(最多+10%)\n\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>消耗了[Charge]層数或特殊[Charge]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>目標</color>的<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1\n- 若<color=#ffffff>自身</color>属于西西弗，則改為<color=#ffffff>最終威力</color>+1",
       "simpleDesc": [
         {
           "abilityID": 9289,
-          "simpleDesc": "ダメージ量、マッチ威力または最終威力増加[TabExplain]、[Agility]を得る"
+          "simpleDesc": "造成的<color=#ffffff>傷害</color>，<color=#ffffff>拼点威力</color>与<color=#ffffff>最終威力</color>増加[TabExplain]，獲得[Agility]"
         }
       ]
     },
     {
       "id": 9290,
-      "name": "毛布",
-      "desc": "このターンに守備スキルを装着した人格は、敵の攻撃による被ダメージ量 -20%\n- 戦闘終了時、自分が[PersonalityCharge]なら、次のターンに[AttackUp]2を得る\n- 戦闘終了時、自分がシーシュポス所属なら、次のターンに[ResultEnhancement]1を得る",
+      "name": "毛毯",
+      "desc": "<color=#7C5738>本回合</color>装備了守備技能的人格受到来自<color=#ffffff>敵方単位</color>攻撃的<color=#ffffff>傷害</color>-20%\n- <color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>為[PersonalityCharge]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[AttackUp]\n- <color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>属于西西弗，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement]",
       "simpleDesc": [
         {
           "abilityID": 9290,
-          "simpleDesc": "被ダメージ量減少[TabExplain]、[AttackUp]または[ResultEnhancement]を得る"
+          "simpleDesc": "受到的<color=#ffffff>傷害</color>減少[TabExplain]，獲得[AttackUp]或[ResultEnhancement]"
         }
       ]
     },
     {
       "id": 9291,
-      "name": "花ばさみ",
-      "desc": "[編成順1番人格専用効果]\n\nシーシュポス所属人格または[PersonalityCharge]の基本スキルの最終コイン的中時、メインターゲットにそのコインの最終ダメージ量の5%だけ斬撃ダメージを与える (スキルにつき1回)",
+      "name": "飾花剪刀",
+      "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量5%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
       "simpleDesc": [
         {
           "abilityID": 9291,
-          "simpleDesc": "メインターゲットに斬撃ダメージ[TabExplain]"
+          "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
         }
       ]
     },
     {
       "id": 19291,
-      "name": "花ばさみ+",
-      "desc": "[編成順1番人格専用効果]\n\nシーシュポス所属人格または[PersonalityCharge]の基本スキルの最終コイン的中時、メインターゲットにそのコインの最終ダメージ量の<style=\"upgradeHighlight\">10%</style>だけ斬撃ダメージを与える (スキルにつき1回)",
+      "name": "飾花剪刀+",
+      "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量<style=\"upgradeHighlight\">10%</style>的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
       "simpleDesc": [
         {
           "abilityID": 19291,
-          "simpleDesc": "メインターゲットに斬撃ダメージ[TabExplain]"
+          "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
         }
       ]
     },
     {
       "id": 29291,
-      "name": "花ばさみ++",
-      "desc": "[編成順1番人格専用効果]\n\nシーシュポス所属人格または[PersonalityCharge]の基本スキルの最終コイン的中時、メインターゲットにそのコインの最終ダメージ量の<style=\"upgradeHighlight\">15%</style>だけ斬撃ダメージを与える (スキルにつき1回)",
+      "name": "飾花剪刀++",
+      "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量<style=\"upgradeHighlight\">15%</style>的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
       "simpleDesc": [
         {
           "abilityID": 29291,
-          "simpleDesc": "メインターゲットに斬撃ダメージ[TabExplain]"
+          "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
         }
       ]
     }

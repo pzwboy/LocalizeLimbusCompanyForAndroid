@@ -1,180 +1,180 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "key": "Q-2000",
+      "title": "不顕示-抵達B2F",
+      "steps": [
         {
-            "key": "Q-2000",
-            "title": "不顕示-抵達B2F",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "進入B2F紡織厂用"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "紡織厂過場動画"
-                }
-            ]
+          "index": 0,
+          "goalDescription1": "進入B2F紡織厂用"
         },
         {
-            "key": "Q-2000A",
-            "title": "不顕示-針族対話部分",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "排隊的針族的対話"
-                }
-            ]
-        },
-        {
-            "key": "Q-2001",
-            "title": "探索B2F",
-            "description": "我們抵達了B2F。能看到緊湊排隊等候黄金染料的隊伍。和上次与我們交易過的名為裸体的人交談看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "与裸体交談"
-                }
-            ]
-        },
-        {
-            "key": "Q-2002",
-            "title": "与裸体交談",
-            "description": "我們抵達了B2F。能看到緊湊排隊等候黄金染料的隊伍。和上次与我們交易過的名為裸体的人交談看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "与裸体交談"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "撃退襲来的黑派"
-                },
-                {
-                    "index": 2,
-                    "goalDescription1": "戦后整理現状"
-                }
-            ]
-        },
-        {
-            "key": "Q-2003",
-            "title": "前往染色室",
-            "description": "黑派襲撃了我們。總之需要先找到前往地下深処的方法。向染色室的調色板詢問如何向下叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往染色室"
-                }
-            ]
-        },
-        {
-            "key": "Q-2004",
-            "title": "前往染色室",
-            "description": "黑派襲撃了我們。總之需要先找到前往地下深処的方法。向染色室的調色板詢問如何向下叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往染色室"
-                }
-            ]
-        },
-        {
-            "key": "Q-2004A",
-            "title": "前往綫団之巢",
-            "description": "調色板似乎想要B2F楼層經理擁有的多彩的綫団。答應調色板的請求，前往綫団之巢叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往綫団之巢"
-                }
-            ]
-        },
-        {
-            "key": "Q-2005",
-            "title": "撃敗黑派們",
-            "description": "",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "撃敗黑派們"
-                }
-            ]
-        },
-        {
-            "key": "Q-2006",
-            "title": "撃敗黑派們 2",
-            "description": "黑派們堵住了去路。撃敗他們，継續前進叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "継續撃敗黑派們"
-                }
-            ]
-        },
-        {
-            "key": "Q-2007",
-            "title": "継續前往綫団之巢",
-            "description": "撃敗了堵住道路的所有黑派。前往綫団之巢叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "継續前往綫団之巢"
-                }
-            ]
-        },
-        {
-            "key": "Q-2008",
-            "title": "与B2F楼層經理交談",
-            "description": "我們抵達了綫団之巢。和B2F楼層經理交談看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "与B2F楼層經理交談"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "撃敗B2F楼層經理"
-                },
-                {
-                    "index": 2,
-                    "goalDescription1": "獲得多彩的綫団"
-                }
-            ]
-        },
-        {
-            "key": "Q-2009",
-            "title": "将綫団交給調色板",
-            "description": "我們从B2F楼層經理那里得到了多彩的綫団。現在回到染色室，把綫団交給調色板叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "将綫団交給調色板"
-                }
-            ]
-        },
-        {
-            "key": "Q-2010",
-            "title": "前往通向B3F的扶梯",
-            "description": "調色板遵守約定，告訴了我們通往B3F的扶梯在那里。去通往B3F的扶梯看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往通向B3F的扶梯"
-                }
-            ]
-        },
-        {
-            "key": "Q-2010A",
-            "title": "前往B3F",
-            "description": "我們抵達了前往B3F的扶梯。前往B3F叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往B3F"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "探索B3F"
-                }
-            ]
+          "index": 1,
+          "goalDescription1": "紡織厂過場動画"
         }
-    ]
+      ]
+    },
+    {
+      "key": "Q-2000A",
+      "title": "不顕示-針族対話部分",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "排隊的針族的対話"
+        }
+      ]
+    },
+    {
+      "key": "Q-2001",
+      "title": "探索B2F",
+      "description": "我們抵達了B2F。能看到緊湊排隊等候黄金染料的隊伍。和上次与我們交易過的名為裸体的人交談看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与裸体交談"
+        }
+      ]
+    },
+    {
+      "key": "Q-2002",
+      "title": "与裸体交談",
+      "description": "我們抵達了B2F。能看到緊湊排隊等候黄金染料的隊伍。和上次与我們交易過的名為裸体的人交談看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与裸体交談"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "撃退襲来的黑派"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "戦后整理現状"
+        }
+      ]
+    },
+    {
+      "key": "Q-2003",
+      "title": "前往染色室",
+      "description": "黑派襲撃了我們。總之需要先找到前往地下深処的方法。向染色室的調色板詢問如何向下叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往染色室"
+        }
+      ]
+    },
+    {
+      "key": "Q-2004",
+      "title": "前往染色室",
+      "description": "黑派襲撃了我們。總之需要先找到前往地下深処的方法。向染色室的調色板詢問如何向下叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往染色室"
+        }
+      ]
+    },
+    {
+      "key": "Q-2004A",
+      "title": "前往綫団之巢",
+      "description": "調色板似乎想要B2F楼層經理擁有的多彩的綫団。答應調色板的請求，前往綫団之巢叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往綫団之巢"
+        }
+      ]
+    },
+    {
+      "key": "Q-2005",
+      "title": "撃敗黑派們",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "撃敗黑派們"
+        }
+      ]
+    },
+    {
+      "key": "Q-2006",
+      "title": "撃敗黑派們 2",
+      "description": "黑派們堵住了去路。撃敗他們，継續前進叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "継續撃敗黑派們"
+        }
+      ]
+    },
+    {
+      "key": "Q-2007",
+      "title": "継續前往綫団之巢",
+      "description": "撃敗了堵住道路的所有黑派。前往綫団之巢叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "継續前往綫団之巢"
+        }
+      ]
+    },
+    {
+      "key": "Q-2008",
+      "title": "与B2F楼層經理交談",
+      "description": "我們抵達了綫団之巢。和B2F楼層經理交談看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与B2F楼層經理交談"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "撃敗B2F楼層經理"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "獲得多彩的綫団"
+        }
+      ]
+    },
+    {
+      "key": "Q-2009",
+      "title": "将綫団交給調色板",
+      "description": "我們从B2F楼層經理那里得到了多彩的綫団。現在回到染色室，把綫団交給調色板叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "将綫団交給調色板"
+        }
+      ]
+    },
+    {
+      "key": "Q-2010",
+      "title": "前往通向B3F的扶梯",
+      "description": "調色板遵守約定，告訴了我們通往B3F的扶梯在那里。去通往B3F的扶梯看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往通向B3F的扶梯"
+        }
+      ]
+    },
+    {
+      "key": "Q-2010A",
+      "title": "前往B3F",
+      "description": "我們抵達了前往B3F的扶梯。前往B3F叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往B3F"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "探索B3F"
+        }
+      ]
+    }
+  ]
 }

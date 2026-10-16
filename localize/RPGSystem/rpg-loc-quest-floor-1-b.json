@@ -1,110 +1,110 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "key": "Q1000",
+      "title": "開場",
+      "description": "載入后立即播放開場演出（S1001B）的隠藏任務",
+      "steps": [
         {
-            "key": "Q1000",
-            "title": "開場",
-            "description": "載入后立即播放開場演出（S1001B）的隠藏任務",
-            "steps": [
-                {
-                    "index": 0
-                }
-            ]
-        },
-        {
-            "key": "Q1001",
-            "title": "任務1-開始",
-            "description": "返回衛生間"
-        },
-        {
-            "key": "Q1011",
-            "title": "探索百貨店",
-            "description": "不対勁。我們再一次回到了衛生間。大家似乎什么都不記得了，而默尓索也不見踪影。這一切不可能全是梦。先在百貨店里四処看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "探索百貨店"
-                }
-            ]
-        },
-        {
-            "key": "Q1013",
-            "title": "前往快銷服飾館",
-            "description": "幸好這一切似乎不是梦。先継續前進，找到在某処的默尓索叭。也許他就在之前的那家店里？",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往快銷服飾館"
-                }
-            ]
-        },
-        {
-            "key": "Q1021",
-            "title": "尋找默尓索",
-            "description": "默尓索應該就在這附近。找到默尓索并与他対話叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "与默尓索対話"
-                }
-            ]
-        },
-        {
-            "key": "Q1022",
-            "title": "人台退場",
-            "description": "想帯默尓索一起走的話，就得先答應快銷服飾館的含羞草的請求。敢緊撃敗那些人台，离開這里叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "去尋找人台"
-                }
-            ]
-        },
-        {
-            "key": "Q1023",
-            "title": "人台退場2",
-            "description": "没有必要再継續対話了。快譲人台們退場叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "譲人台退場"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "回去找含羞草"
-                }
-            ]
-        },
-        {
-            "key": "Q1031",
-            "title": "离開1F",
-            "description": "事態進展比上次更加順利。想要得到不同的結果，当務之急就是离開1F。敢緊离開快銷服飾館，去下一家店鋪叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "离開快銷服飾館"
-                }
-            ]
-        },
-        {
-            "key": "Q1064",
-            "title": "乘扶梯到2F",
-            "description": "我們遇到了上次与我們搭過話的，名為杜布瓦的人。不過没時間多聊，敢快去下一層叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "乘扶梯到2F"
-                }
-            ]
-        },
-        {
-            "key": "Q1012S",
-            "title": "（内部）1F客人位置輪換通知",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "遭遇克羅默（内部信号）"
-                }
-            ]
+          "index": 0
         }
-    ]
+      ]
+    },
+    {
+      "key": "Q1001",
+      "title": "任務1-開始",
+      "description": "返回衛生間"
+    },
+    {
+      "key": "Q1011",
+      "title": "探索百貨店",
+      "description": "不対勁。我們再一次回到了衛生間。大家似乎什么都不記得了，而默尓索也不見踪影。這一切不可能全是梦。先在百貨店里四処看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "探索百貨店"
+        }
+      ]
+    },
+    {
+      "key": "Q1013",
+      "title": "前往快銷服飾館",
+      "description": "幸好這一切似乎不是梦。先継續前進，找到在某処的默尓索叭。也許他就在之前的那家店里？",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往快銷服飾館"
+        }
+      ]
+    },
+    {
+      "key": "Q1021",
+      "title": "尋找默尓索",
+      "description": "默尓索應該就在這附近。找到默尓索并与他対話叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与默尓索交談"
+        }
+      ]
+    },
+    {
+      "key": "Q1022",
+      "title": "人台退場",
+      "description": "想帯默尓索一起走的話，就得先答應快銷服飾館的含羞草的請求。敢緊撃敗那些人台，离開這里叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "去尋找人台"
+        }
+      ]
+    },
+    {
+      "key": "Q1023",
+      "title": "人台退場2",
+      "description": "没有必要再継續対話了。快譲人台們退場叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "譲人台退場"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "回去找含羞草"
+        }
+      ]
+    },
+    {
+      "key": "Q1031",
+      "title": "离開1F",
+      "description": "事態進展比上次更加順利。想要得到不同的結果，当務之急就是离開1F。敢緊离開快銷服飾館，去下一家店鋪叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "离開快銷服飾館"
+        }
+      ]
+    },
+    {
+      "key": "Q1064",
+      "title": "乘扶梯到2F",
+      "description": "我們遇到了上次与我們搭過話的，名為杜布瓦的人。不過没時間多聊，敢快去下一層叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "乘扶梯到2F"
+        }
+      ]
+    },
+    {
+      "key": "Q1012S",
+      "title": "（内部）1F客人位置輪換通知",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "遭遇克羅默（内部信号）"
+        }
+      ]
+    }
+  ]
 }

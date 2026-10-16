@@ -1,548 +1,548 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "id": 40004101,
+      "levelList": [
         {
-            "id": 40004101,
-            "levelList": [
+          "level": 1,
+          "name": "赤紅之釘",
+          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "赤紅之釘",
-                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
                 },
                 {
-                    "level": 2,
-                    "name": "赤紅之釘",
-                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "使本硬幣対未帯有<color=#81BBE8>理智値</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+50%"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>失去10点<color=#81BBE8>理智値</color>"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 3,
-                    "name": "赤紅之釘",
-                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>高于<color=#ffffff>目標</color>，或<color=#ffffff>目標</color>未帯有<color=#81BBE8>理智値</color>，則使本技能的<color=#ffffff>硬幣威力</color>+1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "使本硬幣対未帯有<color=#81BBE8>理智値</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+50%"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>失去10点<color=#81BBE8>理智値</color>"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
                 }
-            ]
+              ]
+            }
+          ]
         },
         {
-            "id": 40004102,
-            "levelList": [
+          "level": 2,
+          "name": "赤紅之釘",
+          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "离我遠点",
-                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
                 },
                 {
-                    "level": 2,
-                    "name": "离我遠点",
-                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
                 },
                 {
-                    "level": 3,
-                    "name": "离我遠点",
-                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
                 }
-            ]
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "使本硬幣対未帯有<color=#81BBE8>理智値</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>失去10点<color=#81BBE8>理智値</color>"
+                }
+              ]
+            }
+          ]
         },
         {
-            "id": 40004103,
-            "levelList": [
+          "level": 3,
+          "name": "赤紅之釘",
+          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>高于<color=#ffffff>目標</color>，或<color=#ffffff>目標</color>未帯有<color=#81BBE8>理智値</color>，則使本技能的<color=#ffffff>硬幣威力</color>+1",
+          "coinlist": [
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "加油",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得1層[ParryingResultUp]"
-                                },
-                                {
-                                    "desc": "[EndCoin] <color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，使<color=#ffffff>目標</color>獲得1層[AttackUp](最多5層)"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
                 },
                 {
-                    "level": 2,
-                    "name": "加油",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得1層[ParryingResultUp]"
-                                },
-                                {
-                                    "desc": "[EndCoin] <color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，使<color=#ffffff>目標</color>獲得1層[AttackUp](最多5層)"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
                 },
                 {
-                    "level": 3,
-                    "name": "加油",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n[EndSkill] 若<color=#ffffff>自身</color>帯有[GourmandiseAlly]且<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能命中的<color=#ffffff>全体</color><color=#ffffff>目標</color>獲得1層[SkillPowerUp]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得1層[ParryingResultUp]"
-                                },
-                                {
-                                    "desc": "[EndCoin] <color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，使<color=#ffffff>目標</color>獲得1層[AttackUp](最多5層)"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "加油",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n[EndSkill] 若<color=#ffffff>自身</color>帯有[GourmandiseAlly]且<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能命中的<color=#ffffff>全体</color><color=#ffffff>目標</color>獲得1層[SkillPowerUp]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得1層[SkillPowerUp]"
-                                },
-                                {
-                                    "desc": "[EndCoin] <color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，<color=#7C5738>本回合</color>与<color=#7C5738>下回合</color>使<color=#ffffff>目標</color>獲得1層[AttackUp](最多5層)"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
                 }
-            ]
-        },
-        {
-            "id": 40004104,
-            "levelList": [
+              ]
+            },
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "不要覚得疼痛",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復(本技能<color=#ffffff>最終威力</color>×2)点<color=#61DA61>体力</color>\n- 若<color=#ffffff>目標</color>属于紅派，則改為使其<color=#61DA61>体力</color>減少并使<color=#ffffff>自身</color>恢復相應的<color=#61DA61>体力</color>(不会因該效果而陷入混乱或使<color=#61DA61>体力</color>低于1点)"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "使本硬幣対未帯有<color=#81BBE8>理智値</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>+50%"
                 },
                 {
-                    "level": 2,
-                    "name": "不要覚得疼痛",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于3級，則使本技能的<color=#ffffff>攻撃容量</color>+2",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復(本技能<color=#ffffff>最終威力</color>×2)点<color=#61DA61>体力</color>\n- 若<color=#ffffff>目標</color>属于紅派，則改為使其<color=#61DA61>体力</color>減少并使<color=#ffffff>自身</color>恢復相應的<color=#61DA61>体力</color>(不会因該效果而陷入混乱或使<color=#61DA61>体力</color>低于1点)"
-                                },
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復相当于本技能<color=#ffffff>最終威力</color>的<color=#81BBE8>理智値</color>\n- 若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為最大値，則随机解除其帯有的1種可解除的負面状態"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>失去10点<color=#81BBE8>理智値</color>"
                 },
                 {
-                    "level": 3,
-                    "name": "不要覚得疼痛",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于3級，則使本技能的<color=#ffffff>攻撃容量</color>+4",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復(本技能<color=#ffffff>最終威力</color>×2)点<color=#61DA61>体力</color>\n- 額外使<color=#ffffff>目標</color>恢復其<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[ChargeRouge]強度×2)%的<color=#61DA61>体力</color>\n- 若<color=#ffffff>目標</color>属于紅派，則改為使其<color=#61DA61>体力</color>減少并使<color=#ffffff>自身</color>恢復相應的<color=#61DA61>体力</color>(不会因該效果而陷入混乱或使<color=#61DA61>体力</color>低于1点)"
-                                },
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復相当于本技能<color=#ffffff>最終威力</color>的<color=#81BBE8>理智値</color>\n- 額外使<color=#ffffff>目標</color>恢復(<color=#ffffff>自身</color>的[ChargeRouge]強度×3)点<color=#81BBE8>理智値</color>\n- 若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為最大値，則随机解除其帯有的1種可解除的負面状態"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
                 }
-            ]
-        },
-        {
-            "id": 40004105,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "握住我的手叭",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] <color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加5層[Binding]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 解除<color=#ffffff>目標</color>的混乱"
-                                },
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復相当于本技能<color=#ffffff>最終威力</color>的<color=#61DA61>体力</color>"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "握住我的手叭",
-                    "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndCoin] 解除<color=#ffffff>目標</color>的混乱"
-                                },
-                                {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復相当于本技能<color=#ffffff>最終威力</color>的<color=#61DA61>体力</color>"
-                                },
-                                {
-                                    "desc": "[EndCoin] <color=#7C5738>下回合</color>使<color=#ffffff>目標</color>獲得其<color=#61DA61>体力</color>上限50%的<color=#81BBE8>護盾</color>"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 40004106,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "赤紅之釘的洗礼",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能的<color=#ffffff>攻撃容量</color>+2，<color=#ffffff>硬幣威力</color>+2",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "赤紅之釘的洗礼",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能的<color=#ffffff>攻撃容量</color>+2，<color=#ffffff>硬幣威力</color>+2\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 3,
-                    "name": "赤紅之釘的洗礼",
-                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能的<color=#ffffff>攻撃容量</color>+2，<color=#ffffff>硬幣威力</color>+2\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于5級，則触発以下效果\n- 使本技能的<color=#ffffff>攻撃容量</color>+2\n- 使本技能的<color=#ffffff>硬幣威力</color>+(<color=#ffffff>自身</color>的[ChargeRouge]強度-3)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 40004107,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "我将于此献上終結…",
-                    "desc": "[CantDuel]\n<color=#ffffff>目標</color>每失去1%的<color=#61DA61>体力</color>，使本技能造成的<color=#ffffff>傷害</color>+0.5%(最多+30%)\n[WhenUse] 若<color=#ffffff>自身</color>帯有[GourmandiseAlly]，則使本技能的<color=#ffffff>攻撃容量</color>+1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Binding]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>帯有[GourmandiseAlly]，則<color=#ffffff>重復使用</color>本硬幣(最多1次)"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 40004201,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "惡心(la nausée)",
-                    "desc": "[StartBattle] 消耗<color=#ffffff>自身</color>所有[ChargeRouge]層数并使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限(消耗的[ChargeRouge]層数)%的<color=#61DA61>体力</color>",
-                    "flavor": "在成神的過程中必然会經暦的感覚。有人感到眩暈，有人感到惡心，有人発作，有人欺瞞，也有人拒絶。世上的一切都令人眩目、恐慌、混沌不堪。為了承受這一切，為了守護住那些尚未在那界限上変得模糊的，属于自己的事物，它愿意為此嘔吐出余下的任何東西。",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": ""
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 40004202,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "紅洞(le Trou rouge)",
-                    "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得4層[ChargeRouge]",
-                    "flavor": "這是一个赤紅色的空洞。雖然緊閉着，但作為一个空洞，它懐有无限的飢餓，渴望其空洞最終被填満。正如其所被期待的那様，也正如其被生下的目的。",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": ""
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 40004102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "离我遠点",
+          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "离我遠点",
+          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "离我遠点",
+          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly](最多2層)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "加油",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得1層[ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] <color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，使<color=#ffffff>目標</color>獲得1層[AttackUp](最多5層)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "加油",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得1層[ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] <color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，使<color=#ffffff>目標</color>獲得1層[AttackUp](最多5層)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "加油",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n[EndSkill] 若<color=#ffffff>自身</color>帯有[GourmandiseAlly]且<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能命中的<color=#ffffff>全体</color><color=#ffffff>目標</color>獲得1層[SkillPowerUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得1層[ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] <color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，使<color=#ffffff>目標</color>獲得1層[AttackUp](最多5層)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "加油",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n[EndSkill] 若<color=#ffffff>自身</color>帯有[GourmandiseAlly]且<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能命中的<color=#ffffff>全体</color><color=#ffffff>目標</color>獲得1層[SkillPowerUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得1層[SkillPowerUp]"
+                },
+                {
+                  "desc": "[EndCoin] <color=#ffffff>自身</color>每帯有1級[ChargeRouge]強度，<color=#7C5738>本回合</color>与<color=#7C5738>下回合</color>使<color=#ffffff>目標</color>獲得1層[AttackUp](最多5層)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "不要覚得疼痛",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復(本技能<color=#ffffff>最終威力</color>×2)点<color=#61DA61>体力</color>\n- 若<color=#ffffff>目標</color>属于紅派，則改為使其<color=#61DA61>体力</color>減少并使<color=#ffffff>自身</color>恢復相應的<color=#61DA61>体力</color>(不会因該效果而陷入混乱或使<color=#61DA61>体力</color>低于1点)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "不要覚得疼痛",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于3級，則使本技能的<color=#ffffff>攻撃容量</color>+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復(本技能<color=#ffffff>最終威力</color>×2)点<color=#61DA61>体力</color>\n- 若<color=#ffffff>目標</color>属于紅派，則改為使其<color=#61DA61>体力</color>減少并使<color=#ffffff>自身</color>恢復相應的<color=#61DA61>体力</color>(不会因該效果而陷入混乱或使<color=#61DA61>体力</color>低于1点)"
+                },
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復相当于本技能<color=#ffffff>最終威力</color>的<color=#81BBE8>理智値</color>\n- 若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為最大値，則随机解除其帯有的1種可解除的負面状態"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "不要覚得疼痛",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于3級，則使本技能的<color=#ffffff>攻撃容量</color>+4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復(本技能<color=#ffffff>最終威力</color>×2)点<color=#61DA61>体力</color>\n- 額外使<color=#ffffff>目標</color>恢復其<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[ChargeRouge]強度×2)%的<color=#61DA61>体力</color>\n- 若<color=#ffffff>目標</color>属于紅派，則改為使其<color=#61DA61>体力</color>減少并使<color=#ffffff>自身</color>恢復相應的<color=#61DA61>体力</color>(不会因該效果而陷入混乱或使<color=#61DA61>体力</color>低于1点)"
+                },
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復相当于本技能<color=#ffffff>最終威力</color>的<color=#81BBE8>理智値</color>\n- 額外使<color=#ffffff>目標</color>恢復(<color=#ffffff>自身</color>的[ChargeRouge]強度×3)点<color=#81BBE8>理智値</color>\n- 若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為最大値，則随机解除其帯有的1種可解除的負面状態"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "握住我的手叭",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] <color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加5層[Binding]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 解除<color=#ffffff>目標</color>的混乱"
+                },
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復相当于本技能<color=#ffffff>最終威力</color>的<color=#61DA61>体力</color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "握住我的手叭",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 解除<color=#ffffff>目標</color>的混乱"
+                },
+                {
+                  "desc": "[EndCoin] 使<color=#ffffff>目標</color>恢復相当于本技能<color=#ffffff>最終威力</color>的<color=#61DA61>体力</color>"
+                },
+                {
+                  "desc": "[EndCoin] <color=#7C5738>下回合</color>使<color=#ffffff>目標</color>獲得其<color=#61DA61>体力</color>上限50%的<color=#81BBE8>護盾</color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "赤紅之釘的洗礼",
+          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能的<color=#ffffff>攻撃容量</color>+2，<color=#ffffff>硬幣威力</color>+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "赤紅之釘的洗礼",
+          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能的<color=#ffffff>攻撃容量</color>+2，<color=#ffffff>硬幣威力</color>+2\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "赤紅之釘的洗礼",
+          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗最多10層[ChargeRouge]并使本技能的<color=#ffffff>攻撃容量</color>+2，<color=#ffffff>硬幣威力</color>+2\n[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>基礎威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于5級，則触発以下效果\n- 使本技能的<color=#ffffff>攻撃容量</color>+2\n- 使本技能的<color=#ffffff>硬幣威力</color>+(<color=#ffffff>自身</color>的[ChargeRouge]強度-3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BuffetGold]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我将于此献上終結…",
+          "desc": "[CantDuel]\n<color=#ffffff>目標</color>每失去1%的<color=#61DA61>体力</color>，使本技能造成的<color=#ffffff>傷害</color>+0.5%(最多+30%)\n[WhenUse] 若<color=#ffffff>自身</color>帯有[GourmandiseAlly]，則使本技能的<color=#ffffff>攻撃容量</color>+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[Binding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若<color=#ffffff>自身</color>帯有[GourmandiseAlly]，則<color=#ffffff>重復使用</color>本硬幣(最多1次)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "惡心(la nausée)",
+          "desc": "[StartBattle] 消耗<color=#ffffff>自身</color>所有[ChargeRouge]層数并使包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復其<color=#61DA61>体力</color>上限(消耗的[ChargeRouge]層数)%的<color=#61DA61>体力</color>",
+          "flavor": "在成神的過程中必然会經暦的感覚。有人感到眩暈，有人感到惡心，有人発作，有人欺瞞，也有人拒絶。世上的一切都令人眩目、恐慌、混沌不堪。為了承受這一切，為了守護住那些尚未在那界限上変得模糊的，属于自己的事物，它愿意為此嘔吐出余下的任何東西。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "紅洞(le Trou rouge)",
+          "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得4層[ChargeRouge]",
+          "flavor": "這是一个赤紅色的空洞。雖然緊閉着，但作為一个空洞，它懐有无限的飢餓，渴望其空洞最終被填満。正如其所被期待的那様，也正如其被生下的目的。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

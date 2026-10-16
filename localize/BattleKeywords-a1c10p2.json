@@ -1,402 +1,402 @@
 {
-    "dataList": [
-        {
-            "id": "TangleBlackYarn",
-            "name": "纏結",
-            "desc": "- 最大値：30\n- 每帯有1層本效果，使自身受到的傷害+1%\n- 每帯有10層本效果，使自身的基礎威力-1\n- 回合結束時，每帯有3層本效果，下回合対自身施加1層束縛 (最多10層)\n- <color=#ff6000><mark color=#ff000040><b><u>使用守備技能時</color></mark></b></u>，使本效果層数減少一半(向上取整)",
-            "summary": "",
-            "flavor": "百貨店是由綫与針所交織而成的縫制出的世界。如今，即便是来自大海的東西，其身体也会化為綫，黑色的水逐漸交織為黑色的綫。"
-        },
-        {
-            "id": "SickBlackYarn",
-            "name": "被撕裂的黑之絲碎屑",
-            "desc": "- 最大値：50\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+1%\n- <color=#7C5738>回合開始</color>時，每帯有25層本效果，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
-            "summary": "",
-            "flavor": "每当从黑之絲中迸出的綫頭破裂時，就会散発出一種雖然腥臭，却令人懐念的眼泪的气味。"
-        },
-        {
-            "id": "HeavyBlackYarn",
-            "name": "成団的黑之絲",
-            "desc": "- 最大値：5\n- 獲得相当于本效果層数的<color=#ffffff>行動槽</color>容量(每个<color=#ffffff>部位</color>分別計算)\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+10%",
-            "summary": "",
-            "flavor": "黑色是死亡与重量的圖像。就像含有黑色海水的水汽会変得愈発沈重一様，黑之絲団成一団也会産生同様的效果。它懐抱着一切，凝固而沈静地停止。"
-        },
-        {
-            "id": "HideBlackYarn",
-            "name": "黑水之池",
-            "desc": "- 強度最大値：6\n- 層数最大値：2\n- <color=#ff6000><mark color=#ff000040><b><u>受到攻撃時，本效果強度減少1級</color></mark></b></u>(每个技能最多1次)\n- 回合結束時，本效果層数減少1層\n- <color=#ff6000><mark color=#ff000040><b><u>若本效果強度或層数変為0，則解除本效果</color></mark></b></u>\n- 不会陷入混乱\n- 単方面攻撃時，造成的傷害+100%\n- 受到的傷害-100%",
-            "summary": "",
-            "flavor": "如今其并非大海，也并非水族館。雖然只是一池積水，但由于那之中寄宿着深邃的思念，已然積讃了足劬的悲傷，足以令人暫時藏身其中。"
-        },
-        {
-            "id": "AngryBlackYarn",
-            "name": "古老捕食者的本能",
-            "desc": "- 每有1个<color=#ffffff>部位</color>帯有本效果，使所有<color=#ffffff>部位</color><color=#ffffff>拼点威力</color>+2\n- <color=#ffffff>目標</color>每帯有3層纏結 ，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+5%(最多+50%)\n- <color=#7C5738>回合結束</color>時解除",
-            "summary": "",
-            "flavor": "每个水族館都有捕食者。就像百貨店的楼層經理那様。現今的捕食者是魚的形態，但在過去的西西弗系統中，水族館内没有魚形態的物種。居于水族館内的人們，精神上是魚，而外表却是人。"
-        },
-        {
-            "id": "BlackYarn_LowMorale",
-            "name": "喪子之物",
-            "desc": "- 士气低落\n- 使用技能時，若支咿為主要<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+3，<color=#ffffff>基礎威力</color>+2\n- 受到攻撃時，対<color=#ffffff>目標</color>施加1層纏結 (每个技能最多3次)",
-            "summary": ""
-        },
-        {
-            "id": "BlackYarn_Panic",
-            "name": "喪子之物",
-            "desc": "- 陷入恐慌\n- 所有攻撃指定支咿為<color=#ffffff>目標</color>\n- 使用技能時，若支咿為主要<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+6，<color=#ffffff>基礎威力</color>+4\n- <color=#ffffff>戦斗開始</color>時，使所有技能的硬幣轉化為不可摧毀的硬幣\n- 受到攻撃時，対<color=#ffffff>目標</color>施加1層纏結 (每个技能最多6次)",
-            "summary": ""
-        },
-        {
-            "id": "FlowerLaurelWreath",
-            "name": "贖罪的月桂冠",
-            "desc": "- 移除自身所有混乱閾値\n- 拼点威力+2\n- 受到来自沈淪 的理智傷害-50%(向下取整)\n- 回合結束時，使自身恢復10点理智値，下回合使自身獲得5層迅捷 \n- <color=#ff6000><mark color=#ff000040><b><u>拼点勝利時，使包括自身和援助単位在内的全体友方単位恢復5点理智値</color></mark></b></u>",
-            "summary": "",
-            "flavor": "那告悔罪惡的身姿，綻放于花香之下"
-        },
-        {
-            "id": "AlriuneSillage",
-            "name": "余香",
-            "desc": "- 最大値：30\n- <color=#7C5738>回合結束</color>時，受到相当于本效果層数的理智<color=#ffffff>傷害</color>\n- 若<color=#ffffff>自身</color>受到沈淪 <color=#ffffff>傷害</color>，則対<color=#ffffff>自身</color>施加1層本效果\n- 受到震顫引爆 時，随机対除<color=#ffffff>自身</color>以外的3名<color=#ffffff>友方単位</color>施加1~2層余香 \n- 若本效果層数為最大値，則使<color=#ffffff>自身</color>増加2級震顫 強度，使<color=#ffffff>自身</color>震顫引爆 ，受到相当于<color=#ffffff>自身</color>沈淪 強度的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>并解除<color=#ffffff>自身</color>的余香 。<color=#7C5738>本回合</color>内<color=#ffffff>自身</color>不会被施加余香 \n- <color=#ffffff>自身</color>陣亡時，将<color=#ffffff>自身</color>余香 層数的一半随机施加給<color=#ffffff>全体</color><color=#ffffff>友方単位</color>(向下取整)",
-            "summary": "",
-            "flavor": "那香气即為懐念。懐念即為涌上心頭的思念。"
-        },
-        {
-            "id": "AlriunePetal",
-            "name": "花瓣",
-            "desc": "- 最大値：3\n- <color=#ff6000><mark color=#ff000040><b><u>若本效果層数為3層，則該回合使用強力技能</color></mark></b></u>\n- 対陷入混乱的目標造成的傷害+(自身的花瓣 層数×10)%\n- 回合結束時，本效果層数増加1層",
-            "summary": "",
-            "flavor": "一片花瓣、兩片花瓣。然后是三片。"
-        },
-        {
-            "id": "ThreadDye",
-            "name": "染色絲",
-            "desc": "- 最大値：3\n- 帯有本效果時不能獲得迅捷 \n- 回合結束時，移除下回合将獲得的迅捷 \n- 回合結束時，下回合対自身施加層数相当于本效果層数的束縛 ，随后本效果層数減少1層\n- <color=#ff6000><mark color=#ff000040><b><u>若本效果層数為最大値，則本回合与下回合自身无法行動，随后解除本效果</color></mark></b></u>",
-            "summary": "",
-            "flavor": "綫也将像釘子一様，将袮固定住。用既定的顔色。"
-        },
-        {
-            "id": "SpreadingDye",
-            "name": "高光媒介剤",
-            "desc": "- 若<color=#ffffff>目標</color>帯有束縛 ，則令<color=#ffffff>自身</color>増加的流血 強度与施加的流血 層数額外+1\n- 使用技能時，若主要<color=#ffffff>目標</color>帯有染色絲 或瀝青染料 ，則使該技能的<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+20%",
-            "summary": "",
-            "flavor": "大部分染料都有既定的顔色。\n但此人的染料没有固定的色彩。\n被粗糙地涂抹着，僅靠純粹的光綫反射与折射顕露出多彩的顔色。"
-        },
-        {
-            "id": "StickyDye",
-            "name": "瀝青染料",
-            "desc": "- 最大値：1\n- 最小与最大<color=#7C5737>速度値</color>-1(最低1)",
-            "summary": "",
-            "flavor": "由于被這種染料黏附，連梛步都很困難。"
-        },
-        {
-            "id": "ChargeKhaki",
-            "name": "漂流慣性",
-            "desc": "- <color=#FCC700>特殊充能</color>\n- 最大層数：20\n- 本效果強度与層数的増減同様受普通充能 影響\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
-            "summary": "",
-            "flavor": "漂流者即便不能左右流向，也会鞏固流向，并在流向中完成自己的工作。"
-        },
-        {
-            "id": "FinishedFabric",
-            "name": "裁剪過的面料",
-            "desc": "- 最大値：30\n- 獲得或消耗充能 層数(包括<color=#FCC700>特殊充能</color>)的技能造成的<color=#ffffff>傷害</color>+(本效果層数)%(最多+30%)\n- <color=#7C5738>回合結束</color>時，本效果層数減少5層\n· 若<color=#7C5738>本回合</color><color=#ffffff>自身</color><color=#81BBE8>護盾</color>被破坏，則改為減少10層",
-            "summary": "",
-            "flavor": "具有各自功能的不同面料，需要适当的裁剪才能発揮其應有的功能。"
-        },
-        {
-            "id": "LargeTailoringShears",
-            "name": "飾花剪刀",
-            "desc": "- 最大値：3\n- 対罪人造成的<color=#ffffff>傷害</color>+(5+本效果層数×5)%(最多+20%)\n- 対帯有修改対象 的罪人使用技能時，使<color=#ffffff>自身</color><color=#ffffff>拼点威力</color>増加相当于本效果層数的数値",
-            "summary": "",
-            "flavor": "為了用它去剪断于地下制成的最初的材料，剪刀被做得更加特別而巨大。這把一直剪裁着最初織成的布料的剪刀綻放花朶，是其切断根源所産生的自然現象。"
-        },
-        {
-            "id": "TailoringTarget",
-            "name": "修改対象",
-            "desc": "- 最小与最大<color=#7C5737>速度値</color>+5\n- <color=#7C5738>本回合</color>使用的首个技能<color=#ffffff>拼点威力</color>+3\n- <color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>装備了守備技能，則使<color=#ffffff>自身</color>受到来自改衣師安倪特的<color=#ffffff>傷害</color>-80%\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
-            "summary": "",
-            "flavor": "并非根据人来修改衣服，而是依据衣服来修改人。在這里，人由衣服来决定。因此，将衣服保存起来而去修改人是維護价値、為顧客着想的選擇。"
-        },
-        {
-            "id": "ScissorsMark",
-            "name": "裁切標記",
-            "desc": "- 最大値：9\n- 減少相当于本效果層数的防御等級",
-            "summary": "",
-            "flavor": "将布料或木材等按尺寸裁切所用的標記。"
-        },
-        {
-            "id": "DamagedFabric",
-            "name": "已被裁断",
-            "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有6層本效果，対<color=#ffffff>自身</color>施加1層<color=#61DA61>体力</color>恢復降低 (最多5層)\n- 与“紙様制作”或“鏈式鎖辺”進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>減少相当于本效果層数的数値",
-            "summary": "",
-            "flavor": "被裁剪過的布料即便再度縫合起来也只是拼布而已，无法再回到原来由綫連接的布的状態。"
-        },
-        {
-            "id": "ThirdTailor_LowMorale",
-            "name": "顫抖的双手",
-            "desc": "- 士气低落\n受到的<color=#ffffff>傷害</color>+7.5%\n<color=#ffffff>自身</color>每次受到攻撃時，対<color=#ffffff>自身</color>施加1層震顫 (每个技能最多1次，<color=#7C5738>每回合</color>最多5次)",
-            "summary": "",
-            "undefined": "-",
-            "flavor": "双手開始顫抖的話，剪刀也会随之不穏……不能再這様裁剪下去了……"
-        },
-        {
-            "id": "ThirdTailor_Panic",
-            "name": "顫抖的双手",
-            "desc": "- 陷入恐慌\n受到的<color=#ffffff>傷害</color>+15%\n<color=#ffffff>自身</color>每次受到攻撃時，使<color=#ffffff>自身</color>増加1級震顫 強度并対<color=#ffffff>自身</color>施加1層震顫 (每个技能最多1次，<color=#7C5738>每回合</color>最多5次)",
-            "summary": "",
-            "undefined": "-",
-            "flavor": "双手開始顫抖的話，剪刀也会随之不穏……不能再這様裁剪下去了……"
-        },
-        {
-            "id": "GoldenLeatherEnhance",
-            "name": "沐浴着刺眼的陽光[裁縫之王]",
-            "desc": "<color=#ffffff>目標</color>每帯有3層針釘 ，使<color=#ffffff>自身</color>技能的<color=#ffffff>最終威力</color>+1(最多+3)",
-            "summary": "",
-            "flavor": "“可以不去听哦。只要自己不去听就好了。只要按袮的愿望去做就好。不必否定袮自己哦。”"
-        },
-        {
-            "id": "NoirShieldUp",
-            "name": "漆黑之神的加護",
-            "desc": "- 強度最大値：999\n- 層数基礎値：2\n- 不会陷入混乱\n- <color=#7C5738>回合開始</color>時，<color=#ffffff>部位</color>獲得相当于本效果層数的<color=#81BBE8>護盾</color>\n- 本效果視作“<color=#81BBE8>護盾</color>管理”效果\n- <color=#81BBE8>護盾</color>減少時，本效果層数相應減少\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
-            "summary": "",
-            "flavor": "漆黑之神。漆黑的巨人。錘之牧師。身負保存之権能的百貨店的漆黑之神通過最直接的接触帯来的加護。錘子堅硬，而黑色吸收一切，使其静止。如同死亡的属性一般。"
-        },
-        {
-            "id": "NoirShieldPiece",
-            "name": "默示刑罰",
-            "desc": "- 最大値：2\n- 受到的<color=#ffffff>傷害</color>-10%\n- 若本效果層数為2層，則使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>-2",
-            "summary": "",
-            "flavor": "如同有假想出的重量的碎片圧在身体上一般。以相似的方式重現出的巨人的刑罰。根据誓約所言，相当于身負沈重的石塊，不断向着高処默然攀登的刑罰。"
-        },
-        {
-            "id": "VibrationResonance",
-            "name": "保存抵消",
-            "desc": "- 最大値：2\n- 受到来自震顫引爆 的<color=#ffffff>傷害</color>与<color=#ffffff>混乱閾値</color>前移量-90%\n- 造成的<color=#ffffff>傷害</color>+20%\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
-            "summary": "",
-            "flavor": "与一切企圖保存的行動相対的反向波動，会動揺保存其本身，使其无法成立。"
-        },
-        {
-            "id": "NoirField",
-            "name": "保存神域",
-            "desc": "- 最大値：2\n- <color=#7C5738>回合開始</color>時，每失去20%<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>獲得1層威力提升 与1層傷害強化 (分別最多獲得3層)\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color>属于黑派的<color=#ffffff>友方単位</color>技能<color=#ffffff>最終威力</color>増加相当于本效果層数的数値\n\n- 若本效果層数不低于1層，則<color=#7C5738>回合開始</color>時，対包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color>属于黑派的<color=#ffffff>友方単位</color>触発以下效果\n· 恢復10点<color=#81BBE8>理智値</color>\n· 攻撃威力+2\n· 防御等級+2\n\n- 若本效果層数不低于2層，則<color=#7C5738>回合開始</color>時，対<color=#ffffff>全体</color>不属于黑派的<color=#ffffff>敵方単位</color>触発以下效果\n· 最大<color=#7C5737>速度値</color>-1\n· 攻撃等級-6\n· 防御等級-2",
-            "summary": "",
-            "flavor": "黑派所追求的保存价値被保存的領域。所有為保存應被保存的事物而進行的黑派式的行為，都在這个領域中被妥善地保存着。這个領域既是永遠保存的領域，也是刺激想要无限接近死亡的冲動的領域。"
-        },
-        {
-            "id": "NoirSquareCollapse",
-            "name": "陣型瓦解",
-            "desc": "- 最大値：10\n- 減少相当于本效果層数的防御等級",
-            "summary": "",
-            "flavor": "当相信每个人都会在自己的位置上忠誠地履行各自職責的信念崩榻時，便有懐疑自裂隙中萌発出来。"
-        },
-        {
-            "id": "NoirNail",
-            "name": "約定之釘",
-            "desc": "- 最大値：3\n- <color=#ffffff>自身</color>受到震顫引爆 時，\n· 受到相当于<color=#ffffff>自身</color>震顫 強度的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>\n· 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n· 本效果層数減少1層",
-            "summary": "",
-            "flavor": "約定之錘約定了一定要釘下釘子。因此，一旦錘子被揮出，那么即便那里没有釘子，也必須有釘子存在。"
-        },
-        {
-            "id": "BuffetField",
-            "name": "嘔吐物(Le Vomissement)",
-            "desc": "- 在戦斗中登場后，嘔吐物(Le Vomissement) 的影響范圍每2<color=#7C5738>回合開始</color>時拡大\n· 第1階段：支咿\n· 第2階段：<color=#ffffff>全体</color>友方罪人\n· 第3階段：<color=#ffffff>全体</color><color=#ffffff>目標</color>",
-            "flavor": "為了延續生命、為了成長而呑食殆尽的東西。使外在的東西変成我的東西，并再度噴薄而出，使我的東西変成了外在的東西。這是重復的、拡展的，也是枯竭的。",
-            "summary": ""
-        },
-        {
-            "id": "BuffetField_0",
-            "name": "嘔吐物(Le Vomissement)",
-            "desc": "- 在戦斗中登場后，嘔吐物(Le Vomissement) 的影響范圍每2<color=#7C5738>回合開始</color>時拡大",
-            "flavor": "為了延續生命、為了成長而呑食殆尽的東西。使外在的東西変成我的東西，并再度噴薄而出，使我的東西変成了外在的東西。這是重復的、拡展的，也是枯竭的。",
-            "summary": ""
-        },
-        {
-            "id": "BuffetField_1",
-            "name": "嘔吐物(Le Vomissement)",
-            "desc": "- 在戦斗中登場后，嘔吐物(Le Vomissement) 的影響范圍每2<color=#7C5738>回合開始</color>時拡大",
-            "flavor": "為了延續生命、為了成長而呑食殆尽的東西。使外在的東西変成我的東西，并再度噴薄而出，使我的東西変成了外在的東西。這是重復的、拡展的，也是枯竭的。",
-            "summary": ""
-        },
-        {
-            "id": "BuffetField_2",
-            "name": "嘔吐物(Le Vomissement)",
-            "desc": "- 在戦斗中登場后，嘔吐物(Le Vomissement) 的影響范圍每2<color=#7C5738>回合開始</color>時拡大",
-            "flavor": "為了延續生命、為了成長而呑食殆尽的東西。使外在的東西変成我的東西，并再度噴薄而出，使我的東西変成了外在的東西。這是重復的、拡展的，也是枯竭的。",
-            "summary": ""
-        },
-        {
-            "id": "GourmandiseAlly",
-            "name": "狂暴",
-            "desc": "- <color=#ffffff>基礎威力</color>+1，使技能的所有硬幣轉化為不可摧毀的硬幣\n- <color=#ffffff>自身</color>每帯有3級流血 強度，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+5%(最多+30%)，使<color=#ffffff>目標</color>恢復的<color=#61DA61>体力</color>+10%(最多+100%，向下取整)\n- 不会陷入混乱，受到的流血 <color=#ffffff>傷害</color>-90%(不包括強制混乱)\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
-            "summary": "強化<color=#ffffff>自身</color>的技能"
-        },
-        {
-            "id": "BloodyMucusAlly",
-            "name": "洗礼[赤紅]",
-            "desc": "- 最大値：3\n- 使用攻撃技能時，対<color=#ffffff>自身</color>施加層数相当于本效果層数的流血 (每个技能最多1次)\n- 使用守備技能時，本效果層数減少1層\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
-            "summary": ""
-        },
-        {
-            "id": "BuffetGold",
-            "name": "黄金啓示",
-            "desc": "- 最大値：5\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+5%\n- 若本效果層数為最大値，則<color=#ffffff>自身</color>帯有流血 時受到的<color=#ffffff>傷害</color>+10%",
-            "summary": "",
-            "flavor": "黄金色的光芒引導着孩子。下一个該去<color=#ffffff>傷害</color>誰捏。即便受到了那様的誘導，孩子還是会認為是自己的選擇。"
-        },
-        {
-            "id": "BuffetShoes",
-            "name": "粉色瑪麗珍鞋",
-            "desc": "- 最小与最大<color=#7C5737>速度値</color>+3",
-            "summary": "",
-            "flavor": "鞋子麼……謝謝袮。穿上這个的話，想去那里都可以麼？我想……一起去旅行。"
-        },
-        {
-            "id": "BuffetGoldenClothes",
-            "name": "黄金寿衣",
-            "desc": "- 防御等級+10\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱并使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限50%的<color=#61DA61>体力</color>(每場戦斗最多1次)",
-            "summary": "",
-            "flavor": "孩子披上了大人的衣服。因為穿上的并非其他什么衣服，而是由某人的死亡而做成的皮衣，因此可以向大人更進一步。"
-        },
-        {
-            "id": "Buffet_LowMorale",
-            "name": "无法忘記的痛苦",
-            "desc": "- 士气低落\n- 使<color=#ffffff>自身</color>獲得3層守護 ",
-            "summary": ""
-        },
-        {
-            "id": "Buffet_Panic",
-            "name": "无法忘記的痛苦",
-            "desc": "- 陷入恐慌\n- 使<color=#ffffff>自身</color>獲得5層守護 ",
-            "summary": ""
-        },
-        {
-            "id": "RestrictMob",
-            "name": "規則：禁止損傷生皮",
-            "desc": "<color=#ffffff>戦斗開始</color>時，若鞣制罪犯被攻撃技能指定為<color=#ffffff>目標</color>，則解除本效果，并対<color=#ffffff>自身</color>施加1層違反制革厂規則 \n<color=#7C5738>回合結束</color>時，本效果解除",
-            "summary": ""
-        },
-        {
-            "id": "RestrictBoss",
-            "name": "規則：禁止催促鞣制",
-            "desc": "<color=#ffffff>戦斗開始</color>時，若管制員被攻撃技能指定為<color=#ffffff>目標</color>，則解除本效果，并対<color=#ffffff>自身</color>施加1層違反制革厂規則 \n<color=#7C5738>回合結束</color>時，本效果解除",
-            "summary": ""
-        },
-        {
-            "id": "RestrictTier1",
-            "name": "規則：禁止攻撃性態度",
-            "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>装備了攻撃技能，則解除本效果，并対<color=#ffffff>自身</color>施加1層違反制革厂規則 (不包括E.G.O技能)\n<color=#7C5738>回合結束</color>時，本效果解除",
-            "summary": ""
-        },
-        {
-            "id": "RestrictDef",
-            "name": "規則：禁止防御性態度",
-            "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>装備了守備技能，則解除本效果，并対<color=#ffffff>自身</color>施加1層違反制革厂規則 \n<color=#7C5738>回合結束</color>時，本效果解除",
-            "summary": ""
-        },
-        {
-            "id": "RestrictDenied",
-            "name": "違反制革厂規則",
-            "desc": "最大値：1\n受到来自管制員的<color=#ffffff>傷害</color>+30%\n<color=#ffffff>自身</color>攻撃后，管制員対該単位使用技能“懲罰 抛光 完成”，随后解除本效果",
-            "summary": "",
-            "flavor": "其対象為，違反此世界既定規則的有罪之人。"
-        },
-        {
-            "id": "B3FreshMob",
-            "name": "没有褶皺的皮革",
-            "desc": "最大値：1\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得20点<color=#81BBE8>護盾</color>\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層守護 \n<color=#7C5738>回合結束</color>時解除",
-            "summary": "",
-            "flavor": "処理時請務必小心。若在試穿皮衣時弯曲身体，就会使皮革産生褶皺，導致价値下降。"
-        },
-        {
-            "id": "RestrictFailed",
-            "name": "規則瓦解",
-            "desc": "攻撃等級+3\n防御等級-3",
-            "summary": "",
-            "flavor": "袮明白規則与法則的区別麼？"
-        },
-        {
-            "id": "targetDye_LowMorale",
-            "name": "堵塞的机器",
-            "desc": "技能対<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>-5%",
-            "summary": "",
-            "undefined": "-"
-        },
-        {
-            "id": "targetDye_Panic",
-            "name": "堵塞的机器",
-            "desc": "技能対<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>-10%",
-            "summary": "",
-            "undefined": "-",
-            "flavor": "能固定比自己更快的東西麼？"
-        },
-        {
-            "id": "RouteBOneLeg",
-            "name": "원레그 B루트 강화",
-            "desc": "- 基礎攻撃等級+25\n- 基礎防御等級+25",
-            "summary": "",
-            "undefined": "-"
-        },
-        {
-            "id": "SapsareeGold",
-            "name": "沐浴着刺眼的陽光[副主厨]",
-            "desc": "- 使用技能時，<color=#ffffff>目標</color>每帯有1層火辣辣醤 ，使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>+1(最多+3)\n- <color=#ffffff>自身</color>的技能<color=#7C5738>撃殺</color><color=#ffffff>友方単位</color>時，使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>",
-            "summary": "",
-            "flavor": "“我説副主厨的心很暖暖奥。我説肚肚里現在充満自信奥！”"
-        },
-        {
-            "id": "GoldenManager",
-            "name": "沐浴着刺眼的陽光[3F 楼層經理]",
-            "desc": "- <color=#ffffff>目標</color>每帯有1層戒心 ，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+5%(最多+50%)\n- 対<color=#81BBE8>理智値</color>不高于0点的<color=#ffffff>目標</color>使用技能時，使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+3",
-            "summary": "",
-            "flavor": "陽光雖然熾熱，但却无法擺脱這些布料，心向着被窩之中……被窩之中……"
-        },
-        {
-            "id": "SisyphusSapphire",
-            "name": "藍宝石",
-            "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+2層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)\n- <color=#ffffff>拼点威力</color>+1\n- <color=#ffffff>最終威力</color>+1",
-            "summary": ""
-        },
-        {
-            "id": "SisyphusOnyx",
-            "name": "縞瑪瑙",
-            "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+2層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)\n- <color=#ffffff>拼点威力</color>+2\n- <color=#ffffff>最終威力</color>+1",
-            "summary": ""
-        },
-        {
-            "id": "SisyphusDiamond",
-            "name": "鑽石",
-            "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+2層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)\n- <color=#ffffff>拼点威力</color>+2\n- <color=#ffffff>最終威力</color>+1\n- 造成的<color=#ffffff>傷害</color>+10%",
-            "summary": ""
-        },
-        {
-            "id": "OutOfControl_LowMorale",
-            "name": "无法控制",
-            "desc": "- 士气低落\n技能<color=#ffffff>最終威力</color>+1\n<color=#7C5738>回合開始</color>時，対除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加1層虚弱 ",
-            "summary": "",
-            "undefined": "-",
-            "flavor": ""
-        },
-        {
-            "id": "OutOfControl_Panic",
-            "name": "无法控制",
-            "desc": "- 陷入恐慌\n技能<color=#ffffff>最終威力</color>+1\n<color=#7C5738>回合開始</color>時，対除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加1層虚弱 与1層<color=#ffffff>傷害</color>弱化 ",
-            "summary": "",
-            "undefined": "-",
-            "flavor": ""
-        },
-        {
-            "id": "LaNoirSuperior_LowMorale",
-            "name": "回到最初的殻中…",
-            "desc": "- 士气低落\n攻撃等級-2\n防御等級+2",
-            "summary": "",
-            "undefined": "-"
-        },
-        {
-            "id": "LaNoirSuperior_Panic",
-            "name": "回到最初的殻中…",
-            "desc": "- 陷入恐慌\n攻撃等級-3\n防御等級+4",
-            "summary": "",
-            "undefined": "-"
-        }
-    ]
+  "dataList": [
+    {
+      "id": "TangleBlackYarn",
+      "name": "纏結",
+      "desc": "- 最大値：30\n- 每帯有1層本效果，使自身受到的傷害+1%\n- 每帯有10層本效果，使自身的基礎威力-1\n- 回合結束時，每帯有3層本效果，下回合対自身施加1層束縛 (最多10層)\n- <color=#ff6000><mark color=#ff000040><b><u>使用守備技能時</color></mark></b></u>，使本效果層数減少一半(向上取整)",
+      "summary": "",
+      "flavor": "百貨店是由綫与針所交織而成的縫制出的世界。如今，即便是来自大海的東西，其身体也会化為綫，黑色的水逐漸交織為黑色的綫。"
+    },
+    {
+      "id": "SickBlackYarn",
+      "name": "被撕裂的黑之絲碎屑",
+      "desc": "- 最大値：50\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+1%\n- <color=#7C5738>回合開始</color>時，每帯有25層本效果，対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> ",
+      "summary": "",
+      "flavor": "每当从黑之絲中迸出的綫頭破裂時，就会散発出一種雖然腥臭，却令人懐念的眼泪的气味。"
+    },
+    {
+      "id": "HeavyBlackYarn",
+      "name": "成団的黑之絲",
+      "desc": "- 最大値：5\n- 獲得相当于本效果層数的<color=#ffffff>行動槽</color>容量(每个<color=#ffffff>部位</color>分別計算)\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+10%",
+      "summary": "",
+      "flavor": "黑色是死亡与重量的圖像。就像含有黑色海水的水汽会変得愈発沈重一様，黑之絲団成一団也会産生同様的效果。它懐抱着一切，凝固而沈静地停止。"
+    },
+    {
+      "id": "HideBlackYarn",
+      "name": "黑水之池",
+      "desc": "- 強度最大値：6\n- 層数最大値：2\n- <color=#ff6000><mark color=#ff000040><b><u>受到攻撃時，本效果強度減少1級</color></mark></b></u>(每个技能最多1次)\n- 回合結束時，本效果層数減少1層\n- <color=#ff6000><mark color=#ff000040><b><u>若本效果強度或層数変為0，則解除本效果</color></mark></b></u>\n- 不会陷入混乱\n- 単方面攻撃時，造成的傷害+100%\n- 受到的傷害-100%",
+      "summary": "",
+      "flavor": "如今其并非大海，也并非水族館。雖然只是一池積水，但由于那之中寄宿着深邃的思念，已然積讃了足劬的悲傷，足以令人暫時藏身其中。"
+    },
+    {
+      "id": "AngryBlackYarn",
+      "name": "古老捕食者的本能",
+      "desc": "- 每有1个<color=#ffffff>部位</color>帯有本效果，使所有<color=#ffffff>部位</color><color=#ffffff>拼点威力</color>+2\n- <color=#ffffff>目標</color>每帯有3層纏結 ，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+5%(最多+50%)\n- <color=#7C5738>回合結束</color>時解除",
+      "summary": "",
+      "flavor": "每个水族館都有捕食者。就像百貨店的楼層經理那様。現今的捕食者是魚的形態，但在過去的西西弗系統中，水族館内没有魚形態的物種。居于水族館内的人們，精神上是魚，而外表却是人。"
+    },
+    {
+      "id": "BlackYarn_LowMorale",
+      "name": "喪子之物",
+      "desc": "- 士气低落\n- 使用技能時，若支咿為主要<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+3，<color=#ffffff>基礎威力</color>+2\n- 受到攻撃時，対<color=#ffffff>目標</color>施加1層纏結 (每个技能最多3次)",
+      "summary": ""
+    },
+    {
+      "id": "BlackYarn_Panic",
+      "name": "喪子之物",
+      "desc": "- 陷入恐慌\n- 所有攻撃指定支咿為<color=#ffffff>目標</color>\n- 使用技能時，若支咿為主要<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+6，<color=#ffffff>基礎威力</color>+4\n- <color=#ffffff>戦斗開始</color>時，使所有技能的硬幣轉化為不可摧毀的硬幣\n- 受到攻撃時，対<color=#ffffff>目標</color>施加1層纏結 (每个技能最多6次)",
+      "summary": ""
+    },
+    {
+      "id": "FlowerLaurelWreath",
+      "name": "贖罪的月桂冠",
+      "desc": "- 移除自身所有混乱閾値\n- 拼点威力+2\n- 受到来自沈淪 的理智傷害-50%(向下取整)\n- 回合結束時，使自身恢復10点理智値，下回合使自身獲得5層迅捷 \n- <color=#ff6000><mark color=#ff000040><b><u>拼点勝利時，使包括自身和援助単位在内的全体友方単位恢復5点理智値</color></mark></b></u>",
+      "summary": "",
+      "flavor": "那告悔罪惡的身姿，綻放于花香之下"
+    },
+    {
+      "id": "AlriuneSillage",
+      "name": "余香",
+      "desc": "- 最大値：30\n- <color=#7C5738>回合結束</color>時，受到相当于本效果層数的理智<color=#ffffff>傷害</color>\n- 若<color=#ffffff>自身</color>受到沈淪 <color=#ffffff>傷害</color>，則対<color=#ffffff>自身</color>施加1層本效果\n- 受到震顫引爆 時，随机対除<color=#ffffff>自身</color>以外的3名<color=#ffffff>友方単位</color>施加1~2層余香 \n- 若本效果層数為最大値，則使<color=#ffffff>自身</color>増加2級震顫 強度，使<color=#ffffff>自身</color>震顫引爆 ，受到相当于<color=#ffffff>自身</color>沈淪 強度的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>并解除<color=#ffffff>自身</color>的余香 。<color=#7C5738>本回合</color>内<color=#ffffff>自身</color>不会被施加余香 \n- <color=#ffffff>自身</color>陣亡時，将<color=#ffffff>自身</color>余香 層数的一半随机施加給<color=#ffffff>全体</color><color=#ffffff>友方単位</color>(向下取整)",
+      "summary": "",
+      "flavor": "那香气即為懐念。懐念即為涌上心頭的思念。"
+    },
+    {
+      "id": "AlriunePetal",
+      "name": "花瓣",
+      "desc": "- 最大値：3\n- <color=#ff6000><mark color=#ff000040><b><u>若本效果層数為3層，則該回合使用強力技能</color></mark></b></u>\n- 対陷入混乱的目標造成的傷害+(自身的花瓣 層数×10)%\n- 回合結束時，本效果層数増加1層",
+      "summary": "",
+      "flavor": "一片花瓣、兩片花瓣。然后是三片。"
+    },
+    {
+      "id": "ThreadDye",
+      "name": "染色絲",
+      "desc": "- 最大値：3\n- 帯有本效果時不能獲得迅捷 \n- 回合結束時，移除下回合将獲得的迅捷 \n- 回合結束時，下回合対自身施加層数相当于本效果層数的束縛 ，随后本效果層数減少1層\n- <color=#ff6000><mark color=#ff000040><b><u>若本效果層数為最大値，則本回合与下回合自身无法行動，随后解除本效果</color></mark></b></u>",
+      "summary": "",
+      "flavor": "綫也将像釘子一様，将袮固定住。用既定的顔色。"
+    },
+    {
+      "id": "SpreadingDye",
+      "name": "高光媒介剤",
+      "desc": "- 若<color=#ffffff>目標</color>帯有束縛 ，則令<color=#ffffff>自身</color>増加的流血 強度与施加的流血 層数額外+1\n- 使用技能時，若主要<color=#ffffff>目標</color>帯有染色絲 或瀝青染料 ，則使該技能的<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+20%",
+      "summary": "",
+      "flavor": "大部分染料都有既定的顔色。\n但此人的染料没有固定的色彩。\n被粗糙地涂抹着，僅靠純粹的光綫反射与折射顕露出多彩的顔色。"
+    },
+    {
+      "id": "StickyDye",
+      "name": "瀝青染料",
+      "desc": "- 最大値：1\n- 最小与最大<color=#7C5737>速度値</color>-1(最低1)",
+      "summary": "",
+      "flavor": "由于被這種染料黏附，連梛步都很困難。"
+    },
+    {
+      "id": "ChargeKhaki",
+      "name": "漂流慣性",
+      "desc": "- <color=#FCC700>特殊充能</color>\n- 最大層数：20\n- 本效果強度与層数的増減同様受普通充能 影響\n- <color=#7C5738>回合結束</color>時，本效果的層数減少1層",
+      "summary": "",
+      "flavor": "漂流者即便不能左右流向，也会鞏固流向，并在流向中完成自己的工作。"
+    },
+    {
+      "id": "FinishedFabric",
+      "name": "裁剪過的面料",
+      "desc": "- 最大値：30\n- 獲得或消耗充能 層数(包括<color=#FCC700>特殊充能</color>)的技能造成的<color=#ffffff>傷害</color>+(本效果層数)%(最多+30%)\n- <color=#7C5738>回合結束</color>時，本效果層数減少5層\n· 若<color=#7C5738>本回合</color><color=#ffffff>自身</color><color=#81BBE8>護盾</color>被破坏，則改為減少10層",
+      "summary": "",
+      "flavor": "具有各自功能的不同面料，需要适当的裁剪才能発揮其應有的功能。"
+    },
+    {
+      "id": "LargeTailoringShears",
+      "name": "飾花剪刀",
+      "desc": "- 最大値：3\n- 対罪人造成的<color=#ffffff>傷害</color>+(5+本效果層数×5)%(最多+20%)\n- 対帯有修改対象 的罪人使用技能時，使<color=#ffffff>自身</color><color=#ffffff>拼点威力</color>増加相当于本效果層数的数値",
+      "summary": "",
+      "flavor": "為了用它去剪断于地下制成的最初的材料，剪刀被做得更加特別而巨大。這把一直剪裁着最初織成的布料的剪刀綻放花朶，是其切断根源所産生的自然現象。"
+    },
+    {
+      "id": "TailoringTarget",
+      "name": "修改対象",
+      "desc": "- 最小与最大<color=#7C5737>速度値</color>+5\n- <color=#7C5738>本回合</color>使用的首个技能<color=#ffffff>拼点威力</color>+3\n- <color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>装備了守備技能，則使<color=#ffffff>自身</color>受到来自改衣師安倪特的<color=#ffffff>傷害</color>-80%\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+      "summary": "",
+      "flavor": "并非根据人来修改衣服，而是依据衣服来修改人。在這里，人由衣服来决定。因此，将衣服保存起来而去修改人是維護价値、為顧客着想的選擇。"
+    },
+    {
+      "id": "ScissorsMark",
+      "name": "裁切標記",
+      "desc": "- 最大値：9\n- 減少相当于本效果層数的防御等級",
+      "summary": "",
+      "flavor": "将布料或木材等按尺寸裁切所用的標記。"
+    },
+    {
+      "id": "DamagedFabric",
+      "name": "已被裁断",
+      "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有6層本效果，対<color=#ffffff>自身</color>施加1層<color=#61DA61>体力</color>恢復降低 (最多5層)\n- 与“紙様制作”或“鏈式鎖辺”進行拼点時，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>減少相当于本效果層数的数値",
+      "summary": "",
+      "flavor": "被裁剪過的布料即便再度縫合起来也只是拼布而已，无法再回到原来由綫連接的布的状態。"
+    },
+    {
+      "id": "ThirdTailor_LowMorale",
+      "name": "顫抖的双手",
+      "desc": "- 士气低落\n受到的<color=#ffffff>傷害</color>+7.5%\n<color=#ffffff>自身</color>每次受到攻撃時，対<color=#ffffff>自身</color>施加1層震顫 (每个技能最多1次，<color=#7C5738>每回合</color>最多5次)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "双手開始顫抖的話，剪刀也会随之不穏……不能再這様裁剪下去了……"
+    },
+    {
+      "id": "ThirdTailor_Panic",
+      "name": "顫抖的双手",
+      "desc": "- 陷入恐慌\n受到的<color=#ffffff>傷害</color>+15%\n<color=#ffffff>自身</color>每次受到攻撃時，使<color=#ffffff>自身</color>増加1級震顫 強度并対<color=#ffffff>自身</color>施加1層震顫 (每个技能最多1次，<color=#7C5738>每回合</color>最多5次)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "双手開始顫抖的話，剪刀也会随之不穏……不能再這様裁剪下去了……"
+    },
+    {
+      "id": "GoldenLeatherEnhance",
+      "name": "沐浴着刺眼的陽光[裁縫之王]",
+      "desc": "<color=#ffffff>目標</color>每帯有3層針釘 ，使<color=#ffffff>自身</color>技能的<color=#ffffff>最終威力</color>+1(最多+3)",
+      "summary": "",
+      "flavor": "“可以不去听哦。只要自己不去听就好了。只要按袮的愿望去做就好。不必否定袮自己哦。”"
+    },
+    {
+      "id": "NoirShieldUp",
+      "name": "漆黑之神的加護",
+      "desc": "- 強度最大値：999\n- 層数基礎値：2\n- 不会陷入混乱\n- <color=#7C5738>回合開始</color>時，<color=#ffffff>部位</color>獲得相当于本效果層数的<color=#81BBE8>護盾</color>\n- 本效果視作“<color=#81BBE8>護盾</color>管理”效果\n- <color=#81BBE8>護盾</color>減少時，本效果層数相應減少\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+      "summary": "",
+      "flavor": "漆黑之神。漆黑的巨人。錘之牧師。身負保存之権能的百貨店的漆黑之神通過最直接的接触帯来的加護。錘子堅硬，而黑色吸收一切，使其静止。如同死亡的属性一般。"
+    },
+    {
+      "id": "NoirShieldPiece",
+      "name": "默示刑罰",
+      "desc": "- 最大値：2\n- 受到的<color=#ffffff>傷害</color>-10%\n- 若本效果層数為2層，則使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>-2",
+      "summary": "",
+      "flavor": "如同有假想出的重量的碎片圧在身体上一般。以相似的方式重現出的巨人的刑罰。根据誓約所言，相当于身負沈重的石塊，不断向着高処默然攀登的刑罰。"
+    },
+    {
+      "id": "VibrationResonance",
+      "name": "保存抵消",
+      "desc": "- 最大値：2\n- 受到来自震顫引爆 的<color=#ffffff>傷害</color>与<color=#ffffff>混乱閾値</color>前移量-90%\n- 造成的<color=#ffffff>傷害</color>+20%\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+      "summary": "",
+      "flavor": "与一切企圖保存的行動相対的反向波動，会動揺保存其本身，使其无法成立。"
+    },
+    {
+      "id": "NoirField",
+      "name": "保存神域",
+      "desc": "- 最大値：2\n- <color=#7C5738>回合開始</color>時，每失去20%<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>獲得1層威力提升 与1層傷害強化 (分別最多獲得3層)\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>全体</color>属于黑派的<color=#ffffff>友方単位</color>技能<color=#ffffff>最終威力</color>増加相当于本效果層数的数値\n\n- 若本效果層数不低于1層，則<color=#7C5738>回合開始</color>時，対包括<color=#ffffff>自身</color>在内的<color=#ffffff>全体</color>属于黑派的<color=#ffffff>友方単位</color>触発以下效果\n· 恢復10点<color=#81BBE8>理智値</color>\n· 攻撃威力+2\n· 防御等級+2\n\n- 若本效果層数不低于2層，則<color=#7C5738>回合開始</color>時，対<color=#ffffff>全体</color>不属于黑派的<color=#ffffff>敵方単位</color>触発以下效果\n· 最大<color=#7C5737>速度値</color>-1\n· 攻撃等級-6\n· 防御等級-2",
+      "summary": "",
+      "flavor": "黑派所追求的保存价値被保存的領域。所有為保存應被保存的事物而進行的黑派式的行為，都在這个領域中被妥善地保存着。這个領域既是永遠保存的領域，也是刺激想要无限接近死亡的冲動的領域。"
+    },
+    {
+      "id": "NoirSquareCollapse",
+      "name": "陣型瓦解",
+      "desc": "- 最大値：10\n- 減少相当于本效果層数的防御等級",
+      "summary": "",
+      "flavor": "当相信每个人都会在自己的位置上忠誠地履行各自職責的信念崩榻時，便有懐疑自裂隙中萌発出来。"
+    },
+    {
+      "id": "NoirNail",
+      "name": "約定之釘",
+      "desc": "- 最大値：3\n- <color=#ffffff>自身</color>受到震顫引爆 時，\n· 受到相当于<color=#ffffff>自身</color>震顫 強度的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>\n· 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n· 本效果層数減少1層",
+      "summary": "",
+      "flavor": "約定之錘約定了一定要釘下釘子。因此，一旦錘子被揮出，那么即便那里没有釘子，也必須有釘子存在。"
+    },
+    {
+      "id": "BuffetField",
+      "name": "嘔吐物(Le Vomissement)",
+      "desc": "- 在戦斗中登場后，嘔吐物(Le Vomissement) 的影響范圍每2<color=#7C5738>回合開始</color>時拡大\n· 第1階段：支咿\n· 第2階段：<color=#ffffff>全体</color>友方罪人\n· 第3階段：<color=#ffffff>全体</color><color=#ffffff>目標</color>",
+      "flavor": "為了延續生命、為了成長而呑食殆尽的東西。使外在的東西変成我的東西，并再度噴薄而出，使我的東西変成了外在的東西。這是重復的、拡展的，也是枯竭的。",
+      "summary": ""
+    },
+    {
+      "id": "BuffetField_0",
+      "name": "嘔吐物(Le Vomissement)",
+      "desc": "- 在戦斗中登場后，嘔吐物(Le Vomissement) 的影響范圍每2<color=#7C5738>回合開始</color>時拡大",
+      "flavor": "為了延續生命、為了成長而呑食殆尽的東西。使外在的東西変成我的東西，并再度噴薄而出，使我的東西変成了外在的東西。這是重復的、拡展的，也是枯竭的。",
+      "summary": ""
+    },
+    {
+      "id": "BuffetField_1",
+      "name": "嘔吐物(Le Vomissement)",
+      "desc": "- 在戦斗中登場后，嘔吐物(Le Vomissement) 的影響范圍每2<color=#7C5738>回合開始</color>時拡大",
+      "flavor": "為了延續生命、為了成長而呑食殆尽的東西。使外在的東西変成我的東西，并再度噴薄而出，使我的東西変成了外在的東西。這是重復的、拡展的，也是枯竭的。",
+      "summary": ""
+    },
+    {
+      "id": "BuffetField_2",
+      "name": "嘔吐物(Le Vomissement)",
+      "desc": "- 在戦斗中登場后，嘔吐物(Le Vomissement) 的影響范圍每2<color=#7C5738>回合開始</color>時拡大",
+      "flavor": "為了延續生命、為了成長而呑食殆尽的東西。使外在的東西変成我的東西，并再度噴薄而出，使我的東西変成了外在的東西。這是重復的、拡展的，也是枯竭的。",
+      "summary": ""
+    },
+    {
+      "id": "GourmandiseAlly",
+      "name": "狂暴",
+      "desc": "- <color=#ffffff>基礎威力</color>+1，使技能的所有硬幣轉化為不可摧毀的硬幣\n- <color=#ffffff>自身</color>每帯有3級流血 強度，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+5%(最多+30%)，使<color=#ffffff>目標</color>恢復的<color=#61DA61>体力</color>+10%(最多+100%，向下取整)\n- 不会陷入混乱，受到的流血 <color=#ffffff>傷害</color>-90%(不包括強制混乱)\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+      "summary": "強化<color=#ffffff>自身</color>的技能"
+    },
+    {
+      "id": "BloodyMucusAlly",
+      "name": "洗礼[赤紅]",
+      "desc": "- 最大値：3\n- 使用攻撃技能時，対<color=#ffffff>自身</color>施加層数相当于本效果層数的流血 (每个技能最多1次)\n- 使用守備技能時，本效果層数減少1層\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+      "summary": ""
+    },
+    {
+      "id": "BuffetGold",
+      "name": "黄金啓示",
+      "desc": "- 最大値：5\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+5%\n- 若本效果層数為最大値，則<color=#ffffff>自身</color>帯有流血 時受到的<color=#ffffff>傷害</color>+10%",
+      "summary": "",
+      "flavor": "黄金色的光芒引導着孩子。下一个該去<color=#ffffff>傷害</color>誰捏。即便受到了那様的誘導，孩子還是会認為是自己的選擇。"
+    },
+    {
+      "id": "BuffetShoes",
+      "name": "粉色瑪麗珍鞋",
+      "desc": "- 最小与最大<color=#7C5737>速度値</color>+3",
+      "summary": "",
+      "flavor": "鞋子麼……謝謝袮。穿上這个的話，想去那里都可以麼？我想……一起去旅行。"
+    },
+    {
+      "id": "BuffetGoldenClothes",
+      "name": "黄金寿衣",
+      "desc": "- 防御等級+10\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱并使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限50%的<color=#61DA61>体力</color>(每場戦斗最多1次)",
+      "summary": "",
+      "flavor": "孩子披上了大人的衣服。因為穿上的并非其他什么衣服，而是由某人的死亡而做成的皮衣，因此可以向大人更進一步。"
+    },
+    {
+      "id": "Buffet_LowMorale",
+      "name": "无法忘記的痛苦",
+      "desc": "- 士气低落\n- 使<color=#ffffff>自身</color>獲得3層守護 ",
+      "summary": ""
+    },
+    {
+      "id": "Buffet_Panic",
+      "name": "无法忘記的痛苦",
+      "desc": "- 陷入恐慌\n- 使<color=#ffffff>自身</color>獲得5層守護 ",
+      "summary": ""
+    },
+    {
+      "id": "RestrictMob",
+      "name": "規則：禁止損傷生皮",
+      "desc": "<color=#ffffff>戦斗開始</color>時，若鞣制罪犯被攻撃技能指定為<color=#ffffff>目標</color>，則解除本效果，并対<color=#ffffff>自身</color>施加1層違反制革厂規則 \n<color=#7C5738>回合結束</color>時，本效果解除",
+      "summary": ""
+    },
+    {
+      "id": "RestrictBoss",
+      "name": "規則：禁止催促鞣制",
+      "desc": "<color=#ffffff>戦斗開始</color>時，若管制員被攻撃技能指定為<color=#ffffff>目標</color>，則解除本效果，并対<color=#ffffff>自身</color>施加1層違反制革厂規則 \n<color=#7C5738>回合結束</color>時，本效果解除",
+      "summary": ""
+    },
+    {
+      "id": "RestrictTier1",
+      "name": "規則：禁止攻撃性態度",
+      "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>装備了攻撃技能，則解除本效果，并対<color=#ffffff>自身</color>施加1層違反制革厂規則 (不包括E.G.O技能)\n<color=#7C5738>回合結束</color>時，本效果解除",
+      "summary": ""
+    },
+    {
+      "id": "RestrictDef",
+      "name": "規則：禁止防御性態度",
+      "desc": "<color=#ffffff>戦斗開始</color>時，若<color=#ffffff>自身</color>装備了守備技能，則解除本效果，并対<color=#ffffff>自身</color>施加1層違反制革厂規則 \n<color=#7C5738>回合結束</color>時，本效果解除",
+      "summary": ""
+    },
+    {
+      "id": "RestrictDenied",
+      "name": "違反制革厂規則",
+      "desc": "最大値：1\n受到来自管制員的<color=#ffffff>傷害</color>+30%\n<color=#ffffff>自身</color>攻撃后，管制員対該単位使用技能“懲罰 抛光 完成”，随后解除本效果",
+      "summary": "",
+      "flavor": "其対象為，違反此世界既定規則的有罪之人。"
+    },
+    {
+      "id": "B3FreshMob",
+      "name": "没有褶皺的皮革",
+      "desc": "最大値：1\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得20点<color=#81BBE8>護盾</color>\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層守護 \n<color=#7C5738>回合結束</color>時解除",
+      "summary": "",
+      "flavor": "処理時請務必小心。若在試穿皮衣時弯曲身体，就会使皮革産生褶皺，導致价値下降。"
+    },
+    {
+      "id": "RestrictFailed",
+      "name": "規則瓦解",
+      "desc": "攻撃等級+3\n防御等級-3",
+      "summary": "",
+      "flavor": "袮明白規則与法則的区別麼？"
+    },
+    {
+      "id": "targetDye_LowMorale",
+      "name": "堵塞的机器",
+      "desc": "技能対<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>-5%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "targetDye_Panic",
+      "name": "堵塞的机器",
+      "desc": "技能対<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>目標</color>造成的<color=#ffffff>傷害</color>-10%",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "能固定比自己更快的東西麼？"
+    },
+    {
+      "id": "RouteBOneLeg",
+      "name": "원레그 B루트 강화",
+      "desc": "- 基礎攻撃等級+25\n- 基礎防御等級+25",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SapsareeGold",
+      "name": "沐浴着刺眼的陽光[副主厨]",
+      "desc": "- 使用技能時，<color=#ffffff>目標</color>每帯有1層火辣辣醤 ，使<color=#ffffff>自身</color>的<color=#ffffff>最終威力</color>+1(最多+3)\n- <color=#ffffff>自身</color>的技能<color=#7C5738>撃殺</color><color=#ffffff>友方単位</color>時，使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>",
+      "summary": "",
+      "flavor": "“我説副主厨的心很暖暖奥。我説肚肚里現在充満自信奥！”"
+    },
+    {
+      "id": "GoldenManager",
+      "name": "沐浴着刺眼的陽光[3F 楼層經理]",
+      "desc": "- <color=#ffffff>目標</color>每帯有1層戒心 ，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+5%(最多+50%)\n- 対<color=#81BBE8>理智値</color>不高于0点的<color=#ffffff>目標</color>使用技能時，使<color=#ffffff>自身</color>的<color=#ffffff>基礎威力</color>+3",
+      "summary": "",
+      "flavor": "陽光雖然熾熱，但却无法擺脱這些布料，心向着被窩之中……被窩之中……"
+    },
+    {
+      "id": "SisyphusSapphire",
+      "name": "藍宝石",
+      "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+2層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)\n- <color=#ffffff>拼点威力</color>+1\n- <color=#ffffff>最終威力</color>+1",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusOnyx",
+      "name": "縞瑪瑙",
+      "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+2層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)\n- <color=#ffffff>拼点威力</color>+2\n- <color=#ffffff>最終威力</color>+1",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusDiamond",
+      "name": "鑽石",
+      "desc": "- 技能使<color=#ffffff>敵方単位</color>増加的焼傷 、流血 、震顫 、破裂 与沈淪 強度額外+1級\n- 獲得的充能 与呼吸法 層数額外+2層\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得10層充能 (每場戦斗最多1次)\n- <color=#ffffff>拼点威力</color>+2\n- <color=#ffffff>最終威力</color>+1\n- 造成的<color=#ffffff>傷害</color>+10%",
+      "summary": ""
+    },
+    {
+      "id": "OutOfControl_LowMorale",
+      "name": "无法控制",
+      "desc": "- 士气低落\n技能<color=#ffffff>最終威力</color>+1\n<color=#7C5738>回合開始</color>時，対除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加1層虚弱 ",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "OutOfControl_Panic",
+      "name": "无法控制",
+      "desc": "- 陷入恐慌\n技能<color=#ffffff>最終威力</color>+1\n<color=#7C5738>回合開始</color>時，対除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>施加1層虚弱 与1層<color=#ffffff>傷害</color>弱化 ",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "LaNoirSuperior_LowMorale",
+      "name": "回到最初的殻中…",
+      "desc": "- 士气低落\n攻撃等級-2\n防御等級+2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LaNoirSuperior_Panic",
+      "name": "回到最初的殻中…",
+      "desc": "- 陷入恐慌\n攻撃等級-3\n防御等級+4",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
 }

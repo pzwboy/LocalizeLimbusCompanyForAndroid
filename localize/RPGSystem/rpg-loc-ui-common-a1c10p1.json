@@ -1,564 +1,564 @@
 {
-    "dataList": [
-        {
-            "key": "ReturnToMainUiScene",
-            "text": "要返回玻璃窗麼？\n<color=#ff0000>返回玻璃窗后，現有的探索進度可能会棄失。</color>\n\n※ 探索進度会在任務完成/楼層移動/区域移動時進行自動保存。\n請在返回玻璃窗前確認保存状態。"
-        },
-        {
-            "key": "AskToMoveFloor",
-            "text": "要移動至{0}F麼？"
-        },
-        {
-            "key": "MoveFloorUiDesc",
-            "text": "要移動至那一層？"
-        },
-        {
-            "key": "FloorMoveUnboughtConfirmDesc",
-            "text": "本層還有未購買的道具。\n要移動到其他楼層麼？"
-        },
-        {
-            "key": "FloorMoveUnboughtDontShowAgain",
-            "text": "不再顕示此彈窗"
-        },
-        {
-            "key": "DialogueSkipConfirmDesc",
-            "text": "要跳過劇情麼？"
-        },
-        {
-            "key": "DialogueSkipDontShowAgain",
-            "text": "不再顕示此彈窗"
-        },
-        {
-            "key": "AccumulatedExp",
-            "text": "当前累計消費的眼球数量"
-        },
-        {
-            "key": "RemainExpToNextLevel",
-            "text": "到下一評級還有"
-        },
-        {
-            "key": "ItemFilterAll",
-            "text": "全部"
-        },
-        {
-            "key": "ItemFilterKeyItem",
-            "text": "任務"
-        },
-        {
-            "key": "ItemFilterSurvival",
-            "text": "生存"
-        },
-        {
-            "key": "ItemFilterBasicAttack",
-            "text": "基礎攻撃"
-        },
-        {
-            "key": "ItemFilterAdditionalAttack",
-            "text": "額外攻撃"
-        },
-        {
-            "key": "ItemFilterPrisonerEffect",
-            "text": "罪人效果"
-        },
-        {
-            "key": "ItemFilterEtc",
-            "text": "雑項"
-        },
-        {
-            "key": "Item_QuestMark",
-            "text": "重要道具"
-        },
-        {
-            "key": "Item_Suffix_Disabled",
-            "text": "{0}（无效）"
-        },
-        {
-            "key": "rpg_quest_tag_dialogue",
-            "text": "対話"
-        },
-        {
-            "key": "rpg_quest_tag_battle",
-            "text": "戦斗"
-        },
-        {
-            "key": "rpg_quest_tag_hunt",
-            "text": "狩猟"
-        },
-        {
-            "key": "rpg_quest_tag_gather",
-            "text": "收集"
-        },
-        {
-            "key": "rpg_quest_tag_shop",
-            "text": "商店"
-        },
-        {
-            "key": "rpg_quest_tag_move",
-            "text": "移動"
-        },
-        {
-            "key": "Common_Ok",
-            "text": "確認"
-        },
-        {
-            "key": "Quest_Tag_Progress",
-            "text": "進度"
-        },
-        {
-            "key": "Quest_Tag_Reward",
-            "text": "奨励"
-        },
-        {
-            "key": "Shop_Title",
-            "text": "商店"
-        },
-        {
-            "key": "Shop_Category_All",
-            "text": "全部"
-        },
-        {
-            "key": "Shop_Category_Artifact",
-            "text": "造物"
-        },
-        {
-            "key": "Shop_Category_Etc",
-            "text": "雑項"
-        },
-        {
-            "key": "Shop_Button_Buy",
-            "text": "購買"
-        },
-        {
-            "key": "Shop_SelectedItem_None",
-            "text": "請選擇要購買的道具。"
-        },
-        {
-            "key": "Shop_Item_Stock",
-            "text": "剩余"
-        },
-        {
-            "key": "Shop_Item_Owned",
-            "text": "已擁有"
-        },
-        {
-            "key": "Shop_Item_NotForSale",
-            "text": "不可購買"
-        },
-        {
-            "key": "Shop_Empty_Item_List",
-            "text": "没有顕示的商品。"
-        },
-        {
-            "key": "Log_ItemAcquired",
-            "text": "獲得道具：{0} x{1}"
-        },
-        {
-            "key": "Log_ItemAcquiredKeyItem",
-            "text": "獲得道具：<color=#{2}>{0} x{1}</color>"
-        },
-        {
-            "key": "Log_CurrencyEarned",
-            "text": "獲得{0}枚眼球"
-        },
-        {
-            "key": "Log_Purchased",
-            "text": "購買：{0} x{1} (花費{2})"
-        },
-        {
-            "key": "Log_PurchasedKeyItem",
-            "text": "購買：<color=#{3}>{0} x{1}</color> (花費{2})"
-        },
-        {
-            "key": "Log_NpcInteracted",
-            "text": "結束対話。"
-        },
-        {
-            "key": "Log_ProjectileRemoved",
-            "text": "移除的投射物：{0}"
-        },
-        {
-            "key": "Log_ChoiceSelected",
-            "text": "選擇：{0}"
-        },
-        {
-            "key": "Log_QuestAcquired",
-            "text": "<color=#{1}>任務開始：{0}</color>"
-        },
-        {
-            "key": "Log_QuestCompleted",
-            "text": "任務完成：{0}"
-        },
-        {
-            "key": "Log_QuestGoalProgress",
-            "text": "目標進度：{0}"
-        },
-        {
-            "key": "Log_BattleResultSync",
-            "text": "戦斗結果反饋（{0}）：HP {1}/{2}，MP {3}/{4}"
-        },
-        {
-            "key": "Log_BattleDefeatHp",
-            "text": "戦斗失敗：HP {0}"
-        },
-        {
-            "key": "Log_CheatVitals",
-            "text": "Cheat: {0}"
-        },
-        {
-            "key": "Log_EventEffectVitals",
-            "text": "事件效果：{0}"
-        },
-        {
-            "key": "Log_RecruitFullRecover",
-            "text": "同伴加入（{0}）：体力/理智値全部恢復"
-        },
-        {
-            "key": "Log_VitalsNoChange",
-            "text": "无変化"
-        },
-        {
-            "key": "Log_NpcDefeated",
-            "text": "{0}被撃敗"
-        },
-        {
-            "key": "Log_PlayerDead",
-            "text": "玩家陣亡"
-        },
-        {
-            "key": "Log_BattleEntered",
-            "text": "進入戦斗"
-        },
-        {
-            "key": "Log_BattleWin",
-            "text": "戦斗勝利"
-        },
-        {
-            "key": "Log_BattleLose",
-            "text": "戦斗失敗"
-        },
-        {
-            "key": "Log_RestSpotHealed",
-            "text": "体力已全部恢復"
-        },
-        {
-            "key": "Log_EscapeBlocked",
-            "text": "現在不能从這里出去。"
-        },
-        {
-            "key": "Log_WardenAppeared",
-            "text": "一股冰冷的不祥之感正逐漸迫近而来。"
-        },
-        {
-            "key": "Log_SuicideBlocked",
-            "text": "這様是逃不掉的。"
-        },
-        {
-            "key": "ProgressPopup_Title",
-            "text": "西西弗百貨"
-        },
-        {
-            "key": "ProgressPopup_Suicide",
-            "text": "返回\n泉"
-        },
-        {
-            "key": "ProgressPopup_EnemyAttackIndication",
-            "text": "顕示敵人的攻撃預兆"
-        },
-        {
-            "key": "ProgressPopup_MyAttackIndication",
-            "text": "顕示自己的攻撃范圍"
-        },
-        {
-            "key": "ProgressPopup_Restore",
-            "text": "恢復存档"
-        },
-        {
-            "key": "RestorePopup_Title",
-            "text": "恢復存档"
-        },
-        {
-            "key": "RestorePopup_Checking",
-            "text": "確認中……"
-        },
-        {
-            "key": "RestorePopup_FoundNoQuest",
-            "text": "有可以恢復的自動存档点。"
-        },
-        {
-            "key": "RestoreCompare_ColCurrent",
-            "text": "最終存档"
-        },
-        {
-            "key": "RestoreCompare_ColBackup",
-            "text": "恢復"
-        },
-        {
-            "key": "RestoreCompare_NoQuest",
-            "text": "无"
-        },
-        {
-            "key": "RestoreCompare_Unknown",
-            "text": "无法確認"
-        },
-        {
-            "key": "RestoreCompare_SavedAt",
-            "text": "存档時間：{0}"
-        },
-        {
-            "key": "RestorePopup_None",
-            "text": "没有可以恢復的自動存档点。"
-        },
-        {
-            "key": "RestorePopup_LoadFailed",
-            "text": "无法確認自動存档的信息。"
-        },
-        {
-            "key": "RestorePopup_Confirm",
-            "text": "此地点之后的進度将会棄失。无法復原。\n要恢復存档麼？"
-        },
-        {
-            "key": "RestorePopup_Running",
-            "text": "恢復中……"
-        },
-        {
-            "key": "RestorePopup_NeedRestart",
-            "text": "已恢復。之后的進度将不会被保存，請重啓游戯。"
-        },
-        {
-            "key": "RestorePopup_Close",
-            "text": "関閉"
-        },
-        {
-            "key": "Inventory_Empty",
-            "text": "没有持有的道具。"
-        },
-        {
-            "key": "Inventory_NotSelected",
-            "text": "未選擇道具。"
-        },
-        {
-            "key": "LogPopup_Title",
-            "text": "所有記録"
-        },
-        {
-            "key": "LogPopup_Tab_Story",
-            "text": "劇情記録"
-        },
-        {
-            "key": "LogPopup_Tab_System",
-            "text": "系統記録"
-        },
-        {
-            "key": "Setting_Tab_Sisyphus",
-            "text": "西西弗"
-        },
-        {
-            "key": "Setting_Sisyphus_UiSetting",
-            "text": "UI設置"
-        },
-        {
-            "key": "Setting_Sisyphus_KeyManual",
-            "text": "快捷鍵指南"
-        },
-        {
-            "key": "Setting_Sisyphus_CensorDeadscene",
-            "text": "死亡場景遮當"
-        },
-        {
-            "key": "Setting_Sisyphus_LightMode",
-            "text": "光照模式"
-        },
-        {
-            "key": "Setting_Sisyphus_Brightness",
-            "text": "亮度調整"
-        },
-        {
-            "key": "Setting_Sisyphus_BrightnessCeiling",
-            "text": "亮度上限"
-        },
-        {
-            "key": "Setting_Sisyphus_MoveAssist",
-            "text": "移動方向修正"
-        },
-        {
-            "key": "Setting_Sisyphus_RunStartDelay",
-            "text": "奔砲緩冲時間"
-        },
-        {
-            "key": "Setting_Sisyphus_VirtualPadWalkStart",
-            "text": "行走触発半径"
-        },
-        {
-            "key": "Setting_Sisyphus_VirtualPadRunKeep",
-            "text": "奔砲維持半径"
-        },
-        {
-            "key": "Setting_Sisyphus_VirtualPadRunStart",
-            "text": "奔砲触発半径"
-        },
-        {
-            "key": "Setting_Sisyphus_TurnAssist",
-            "text": "移動轉向輔助"
-        },
-        {
-            "key": "Setting_Sisyphus_VirtualPadMode",
-            "text": "虚擬揺杆模式"
-        },
-        {
-            "key": "Setting_Sisyphus_VirtualPadModeFixed",
-            "text": "固定"
-        },
-        {
-            "key": "Setting_Sisyphus_VirtualPadModeFloating",
-            "text": "可動"
-        },
-        {
-            "key": "Setting_Sisyphus_RunStartDelayValue",
-            "text": "{0}秒"
-        },
-        {
-            "key": "Setting_Sisyphus_Move",
-            "text": "移動"
-        },
-        {
-            "key": "Setting_Sisyphus_Interaction",
-            "text": "交互"
-        },
-        {
-            "key": "Setting_Sisyphus_Quest",
-            "text": "日志：任務"
-        },
-        {
-            "key": "Setting_Sisyphus_GauntletSuicide",
-            "text": "返回泉"
-        },
-        {
-            "key": "Setting_Sisyphus_Attack",
-            "text": "攻撃"
-        },
-        {
-            "key": "Setting_Sisyphus_Guard",
-            "text": "防御"
-        },
-        {
-            "key": "Setting_Sisyphus_Dodge",
-            "text": "閃避"
-        },
-        {
-            "key": "Setting_Sisyphus_Run",
-            "text": "奔砲"
-        },
-        {
-            "key": "Setting_Sisyphus_LockedNeedItem",
-            "text": "※ 未解鎖，需要購買道具"
-        },
-        {
-            "key": "Setting_Sisyphus_LanternToggle",
-            "text": "灯 ON/OFF"
-        },
-        {
-            "key": "Setting_Sisyphus_CloseWindowOrSetting",
-            "text": "関閉当前窗口 / 設置"
-        },
-        {
-            "key": "Setting_Sisyphus_Inventory",
-            "text": "背包"
-        },
-        {
-            "key": "Setting_Sisyphus_DialogueNext",
-            "text": "継續 · 選擇選項"
-        },
-        {
-            "key": "Setting_Sisyphus_DialogueChoice",
-            "text": "選擇対話選項"
-        },
-        {
-            "key": "Setting_Sisyphus_DialogueSkip",
-            "text": "跳過対話"
-        },
-        {
-            "key": "Setting_Sisyphus_FullLog",
-            "text": "所有記録"
-        },
-        {
-            "key": "Setting_Sisyphus_CreditFastForward",
-            "text": "快進制作人員名単"
-        },
-        {
-            "key": "Setting_Sisyphus_CreditSkip",
-            "text": "跳過制作人員名単"
-        },
-        {
-            "key": "Setting_Sisyphus_QuestNavigation",
-            "text": "任務引導箭頭"
-        },
-        {
-            "key": "Setting_Sisyphus_TabDefault",
-            "text": "快捷鍵"
-        },
-        {
-            "key": "Setting_Sisyphus_TabMobile",
-            "text": "按鈕"
-        },
-        {
-            "key": "WardenBigNail",
-            "text": "看守的長釘"
-        },
-        {
-            "key": "FormationUI_AskToBack",
-            "text": "通過返回功能离開戦斗将視為失敗。"
-        },
-        {
-            "key": "Setting_Sisyphus_Manual",
-            "text": "指南"
-        },
-        {
-            "key": "Setting_Sisyphus_BattleStatus",
-            "text": "陰影界情况"
-        },
-        {
-            "key": "TheaterTitle",
-            "text": "電影院"
-        },
-        {
-            "key": "SettingTitle",
-            "text": "設置"
-        },
-        {
-            "key": "Setting_Sisyphus_MobileMenu",
-            "text": "菜単"
-        },
-        {
-            "key": "Setting_Sisyphus_MobileAutoAttack",
-            "text": "自動攻撃"
-        },
-        {
-            "key": "Setting_Sisyphus_MobileInteraction",
-            "text": "交互"
-        },
-        {
-            "key": "Setting_Sisyphus_MobileQuestNavigation",
-            "text": "箭頭"
-        },
-        {
-            "key": "Setting_Sisyphus_MobileLantern",
-            "text": "灯"
-        },
-        {
-            "key": "Setting_Sisyphus_MobileUnlockNotice",
-            "text": "以※標記的功能需要購入道具才能解鎖。"
-        },
-        {
-            "key": "Rpg_Menu_Status_Ego_Resources_Owned",
-            "text": "現有E.G.O資源"
-        },
-        {
-            "key": "Rpg_Menu_Status_Character_Mental_Status",
-            "text": "罪人的当前理智値"
-        },
-        {
-            "key": "Rpg_Move_Floor_Ui_Current_Floor",
-            "text": "当前楼層"
-        }
-    ]
+  "dataList": [
+    {
+      "key": "ReturnToMainUiScene",
+      "text": "要返回玻璃窗麼？\n<color=#ff0000>返回玻璃窗后，現有的探索進度可能会棄失。</color>\n\n※ 探索進度会在任務完成/楼層移動/区域移動時進行自動保存。\n請在返回玻璃窗前確認保存状態。"
+    },
+    {
+      "key": "AskToMoveFloor",
+      "text": "要移動至{0}F麼？"
+    },
+    {
+      "key": "MoveFloorUiDesc",
+      "text": "要移動至那一層？"
+    },
+    {
+      "key": "FloorMoveUnboughtConfirmDesc",
+      "text": "本層還有未購買的道具。\n要移動到其他楼層麼？"
+    },
+    {
+      "key": "FloorMoveUnboughtDontShowAgain",
+      "text": "不再顕示此彈窗"
+    },
+    {
+      "key": "DialogueSkipConfirmDesc",
+      "text": "要跳過劇情麼？"
+    },
+    {
+      "key": "DialogueSkipDontShowAgain",
+      "text": "不再顕示此彈窗"
+    },
+    {
+      "key": "AccumulatedExp",
+      "text": "当前累計消費的眼球数量"
+    },
+    {
+      "key": "RemainExpToNextLevel",
+      "text": "到下一評級還有"
+    },
+    {
+      "key": "ItemFilterAll",
+      "text": "全部"
+    },
+    {
+      "key": "ItemFilterKeyItem",
+      "text": "任務"
+    },
+    {
+      "key": "ItemFilterSurvival",
+      "text": "生存"
+    },
+    {
+      "key": "ItemFilterBasicAttack",
+      "text": "基礎攻撃"
+    },
+    {
+      "key": "ItemFilterAdditionalAttack",
+      "text": "額外攻撃"
+    },
+    {
+      "key": "ItemFilterPrisonerEffect",
+      "text": "罪人效果"
+    },
+    {
+      "key": "ItemFilterEtc",
+      "text": "雑項"
+    },
+    {
+      "key": "Item_QuestMark",
+      "text": "重要道具"
+    },
+    {
+      "key": "Item_Suffix_Disabled",
+      "text": "{0}（无效）"
+    },
+    {
+      "key": "rpg_quest_tag_dialogue",
+      "text": "対話"
+    },
+    {
+      "key": "rpg_quest_tag_battle",
+      "text": "戦斗"
+    },
+    {
+      "key": "rpg_quest_tag_hunt",
+      "text": "狩猟"
+    },
+    {
+      "key": "rpg_quest_tag_gather",
+      "text": "收集"
+    },
+    {
+      "key": "rpg_quest_tag_shop",
+      "text": "商店"
+    },
+    {
+      "key": "rpg_quest_tag_move",
+      "text": "移動"
+    },
+    {
+      "key": "Common_Ok",
+      "text": "確認"
+    },
+    {
+      "key": "Quest_Tag_Progress",
+      "text": "進度"
+    },
+    {
+      "key": "Quest_Tag_Reward",
+      "text": "奨励"
+    },
+    {
+      "key": "Shop_Title",
+      "text": "商店"
+    },
+    {
+      "key": "Shop_Category_All",
+      "text": "全部"
+    },
+    {
+      "key": "Shop_Category_Artifact",
+      "text": "造物"
+    },
+    {
+      "key": "Shop_Category_Etc",
+      "text": "雑項"
+    },
+    {
+      "key": "Shop_Button_Buy",
+      "text": "購買"
+    },
+    {
+      "key": "Shop_SelectedItem_None",
+      "text": "請選擇要購買的道具。"
+    },
+    {
+      "key": "Shop_Item_Stock",
+      "text": "剩余"
+    },
+    {
+      "key": "Shop_Item_Owned",
+      "text": "已擁有"
+    },
+    {
+      "key": "Shop_Item_NotForSale",
+      "text": "不可購買"
+    },
+    {
+      "key": "Shop_Empty_Item_List",
+      "text": "没有顕示的商品。"
+    },
+    {
+      "key": "Log_ItemAcquired",
+      "text": "獲得道具：{0} x{1}"
+    },
+    {
+      "key": "Log_ItemAcquiredKeyItem",
+      "text": "獲得道具：<color=#{2}>{0} x{1}</color>"
+    },
+    {
+      "key": "Log_CurrencyEarned",
+      "text": "獲得{0}枚眼球"
+    },
+    {
+      "key": "Log_Purchased",
+      "text": "購買：{0} x{1} (花費{2})"
+    },
+    {
+      "key": "Log_PurchasedKeyItem",
+      "text": "購買：<color=#{3}>{0} x{1}</color> (花費{2})"
+    },
+    {
+      "key": "Log_NpcInteracted",
+      "text": "結束対話。"
+    },
+    {
+      "key": "Log_ProjectileRemoved",
+      "text": "移除的投射物：{0}"
+    },
+    {
+      "key": "Log_ChoiceSelected",
+      "text": "選擇：{0}"
+    },
+    {
+      "key": "Log_QuestAcquired",
+      "text": "<color=#{1}>任務開始：{0}</color>"
+    },
+    {
+      "key": "Log_QuestCompleted",
+      "text": "任務完成：{0}"
+    },
+    {
+      "key": "Log_QuestGoalProgress",
+      "text": "目標進度：{0}"
+    },
+    {
+      "key": "Log_BattleResultSync",
+      "text": "戦斗結果反饋（{0}）：HP {1}/{2}，MP {3}/{4}"
+    },
+    {
+      "key": "Log_BattleDefeatHp",
+      "text": "戦斗失敗：HP {0}"
+    },
+    {
+      "key": "Log_CheatVitals",
+      "text": "Cheat: {0}"
+    },
+    {
+      "key": "Log_EventEffectVitals",
+      "text": "事件效果：{0}"
+    },
+    {
+      "key": "Log_RecruitFullRecover",
+      "text": "同伴加入（{0}）：体力/理智値全部恢復"
+    },
+    {
+      "key": "Log_VitalsNoChange",
+      "text": "无変化"
+    },
+    {
+      "key": "Log_NpcDefeated",
+      "text": "{0}被撃敗"
+    },
+    {
+      "key": "Log_PlayerDead",
+      "text": "玩家陣亡"
+    },
+    {
+      "key": "Log_BattleEntered",
+      "text": "進入戦斗"
+    },
+    {
+      "key": "Log_BattleWin",
+      "text": "戦斗勝利"
+    },
+    {
+      "key": "Log_BattleLose",
+      "text": "戦斗失敗"
+    },
+    {
+      "key": "Log_RestSpotHealed",
+      "text": "体力已全部恢復"
+    },
+    {
+      "key": "Log_EscapeBlocked",
+      "text": "現在不能从這里出去。"
+    },
+    {
+      "key": "Log_WardenAppeared",
+      "text": "一股冰冷的不祥之感正逐漸迫近而来。"
+    },
+    {
+      "key": "Log_SuicideBlocked",
+      "text": "這様是逃不掉的。"
+    },
+    {
+      "key": "ProgressPopup_Title",
+      "text": "西西弗百貨"
+    },
+    {
+      "key": "ProgressPopup_Suicide",
+      "text": "返回\n泉"
+    },
+    {
+      "key": "ProgressPopup_EnemyAttackIndication",
+      "text": "顕示敵人的攻撃預兆"
+    },
+    {
+      "key": "ProgressPopup_MyAttackIndication",
+      "text": "顕示自己的攻撃范圍"
+    },
+    {
+      "key": "ProgressPopup_Restore",
+      "text": "恢復存档"
+    },
+    {
+      "key": "RestorePopup_Title",
+      "text": "恢復存档"
+    },
+    {
+      "key": "RestorePopup_Checking",
+      "text": "確認中……"
+    },
+    {
+      "key": "RestorePopup_FoundNoQuest",
+      "text": "有可以恢復的自動存档点。"
+    },
+    {
+      "key": "RestoreCompare_ColCurrent",
+      "text": "最終存档"
+    },
+    {
+      "key": "RestoreCompare_ColBackup",
+      "text": "恢復"
+    },
+    {
+      "key": "RestoreCompare_NoQuest",
+      "text": "无"
+    },
+    {
+      "key": "RestoreCompare_Unknown",
+      "text": "无法確認"
+    },
+    {
+      "key": "RestoreCompare_SavedAt",
+      "text": "存档時間：{0}"
+    },
+    {
+      "key": "RestorePopup_None",
+      "text": "没有可以恢復的自動存档点。"
+    },
+    {
+      "key": "RestorePopup_LoadFailed",
+      "text": "无法確認自動存档的信息。"
+    },
+    {
+      "key": "RestorePopup_Confirm",
+      "text": "此地点之后的進度将会棄失。无法復原。\n要恢復存档麼？"
+    },
+    {
+      "key": "RestorePopup_Running",
+      "text": "恢復中……"
+    },
+    {
+      "key": "RestorePopup_NeedRestart",
+      "text": "已恢復。之后的進度将不会被保存，請重啓游戯。"
+    },
+    {
+      "key": "RestorePopup_Close",
+      "text": "関閉"
+    },
+    {
+      "key": "Inventory_Empty",
+      "text": "没有持有的道具。"
+    },
+    {
+      "key": "Inventory_NotSelected",
+      "text": "未選擇道具。"
+    },
+    {
+      "key": "LogPopup_Title",
+      "text": "所有記録"
+    },
+    {
+      "key": "LogPopup_Tab_Story",
+      "text": "劇情記録"
+    },
+    {
+      "key": "LogPopup_Tab_System",
+      "text": "系統記録"
+    },
+    {
+      "key": "Setting_Tab_Sisyphus",
+      "text": "西西弗"
+    },
+    {
+      "key": "Setting_Sisyphus_UiSetting",
+      "text": "UI設置"
+    },
+    {
+      "key": "Setting_Sisyphus_KeyManual",
+      "text": "快捷鍵指南"
+    },
+    {
+      "key": "Setting_Sisyphus_CensorDeadscene",
+      "text": "死亡場景遮當"
+    },
+    {
+      "key": "Setting_Sisyphus_LightMode",
+      "text": "光照模式"
+    },
+    {
+      "key": "Setting_Sisyphus_Brightness",
+      "text": "亮度調整"
+    },
+    {
+      "key": "Setting_Sisyphus_BrightnessCeiling",
+      "text": "亮度上限"
+    },
+    {
+      "key": "Setting_Sisyphus_MoveAssist",
+      "text": "移動方向修正"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelay",
+      "text": "奔砲緩冲時間"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadWalkStart",
+      "text": "行走触発半径"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunKeep",
+      "text": "奔砲維持半径"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunStart",
+      "text": "奔砲触発半径"
+    },
+    {
+      "key": "Setting_Sisyphus_TurnAssist",
+      "text": "移動轉向輔助"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadMode",
+      "text": "虚擬揺杆模式"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadModeFixed",
+      "text": "固定"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadModeFloating",
+      "text": "可動"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelayValue",
+      "text": "{0}秒"
+    },
+    {
+      "key": "Setting_Sisyphus_Move",
+      "text": "移動"
+    },
+    {
+      "key": "Setting_Sisyphus_Interaction",
+      "text": "交互"
+    },
+    {
+      "key": "Setting_Sisyphus_Quest",
+      "text": "日志：任務"
+    },
+    {
+      "key": "Setting_Sisyphus_GauntletSuicide",
+      "text": "返回泉"
+    },
+    {
+      "key": "Setting_Sisyphus_Attack",
+      "text": "攻撃"
+    },
+    {
+      "key": "Setting_Sisyphus_Guard",
+      "text": "防御"
+    },
+    {
+      "key": "Setting_Sisyphus_Dodge",
+      "text": "閃避"
+    },
+    {
+      "key": "Setting_Sisyphus_Run",
+      "text": "奔砲"
+    },
+    {
+      "key": "Setting_Sisyphus_LockedNeedItem",
+      "text": "※ 未解鎖，需要購買道具"
+    },
+    {
+      "key": "Setting_Sisyphus_LanternToggle",
+      "text": "灯 ON/OFF"
+    },
+    {
+      "key": "Setting_Sisyphus_CloseWindowOrSetting",
+      "text": "関閉当前窗口 / 設置"
+    },
+    {
+      "key": "Setting_Sisyphus_Inventory",
+      "text": "背包"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueNext",
+      "text": "継續 · 選擇選項"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueChoice",
+      "text": "選擇対話選項"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueSkip",
+      "text": "跳過対話"
+    },
+    {
+      "key": "Setting_Sisyphus_FullLog",
+      "text": "所有記録"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditFastForward",
+      "text": "快進制作人員名単"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditSkip",
+      "text": "跳過制作人員名単"
+    },
+    {
+      "key": "Setting_Sisyphus_QuestNavigation",
+      "text": "任務引導箭頭"
+    },
+    {
+      "key": "Setting_Sisyphus_TabDefault",
+      "text": "快捷鍵"
+    },
+    {
+      "key": "Setting_Sisyphus_TabMobile",
+      "text": "按鈕"
+    },
+    {
+      "key": "WardenBigNail",
+      "text": "看守的長釘"
+    },
+    {
+      "key": "FormationUI_AskToBack",
+      "text": "通過返回功能离開戦斗将視為失敗。"
+    },
+    {
+      "key": "Setting_Sisyphus_Manual",
+      "text": "指南"
+    },
+    {
+      "key": "Setting_Sisyphus_BattleStatus",
+      "text": "陰影界情况"
+    },
+    {
+      "key": "TheaterTitle",
+      "text": "電影院"
+    },
+    {
+      "key": "SettingTitle",
+      "text": "設置"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileMenu",
+      "text": "菜単"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileAutoAttack",
+      "text": "自動攻撃"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileInteraction",
+      "text": "交互"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileQuestNavigation",
+      "text": "箭頭"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileLantern",
+      "text": "灯"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileUnlockNotice",
+      "text": "以※標記的功能需要購入道具才能解鎖。"
+    },
+    {
+      "key": "Rpg_Menu_Status_Ego_Resources_Owned",
+      "text": "現有E.G.O資源"
+    },
+    {
+      "key": "Rpg_Menu_Status_Character_Mental_Status",
+      "text": "罪人的当前理智値"
+    },
+    {
+      "key": "Rpg_Move_Floor_Ui_Current_Floor",
+      "text": "当前楼層"
+    }
+  ]
 }

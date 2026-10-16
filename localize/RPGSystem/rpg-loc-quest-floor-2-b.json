@@ -1,115 +1,115 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "key": "Q2001",
+      "title": "快速探索2F",
+      "description": "我們又一次来到了2F。和上次一様，没辦法立刻進入。總之先迅速査看四周叭。",
+      "steps": [
         {
-            "key": "Q2001",
-            "title": "快速探索2F",
-            "description": "我們又一次来到了2F。和上次一様，没辦法立刻進入。總之先迅速査看四周叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "探索2F"
-                }
-            ]
-        },
-        {
-            "key": "Q2003",
-            "title": "進入奢侈品館",
-            "description": "看守大門的人不在了。是情况変了麼？進去看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "進入奢侈品館"
-                }
-            ]
-        },
-        {
-            "key": "Q2004",
-            "title": "進入奢侈品館 2",
-            "description": "奢侈品館里満是黑派的尸体。進入更深処看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "進入奢侈品館深処"
-                }
-            ]
-        },
-        {
-            "key": "Q2005",
-            "title": "進入奢侈品館 3",
-            "description": "和上次一様，看到了紅派建造的入口。進去看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "从入口進入奢侈品館"
-                }
-            ]
-        },
-        {
-            "key": "Q2008",
-            "title": "観察揺籃",
-            "description": "紅派的品牌總監説，揺籃中沈睡的東西即将蘇醒，所以想請求我們待在它身辺。先到揺籃前看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "観察揺籃"
-                },
-                {
-                    "index": 1,
-                    "goalDescription1": "把碎片靠近揺籃"
-                },
-                {
-                    "index": 2,
-                    "goalDescription1": "譲揺籃吃掉碎片"
-                },
-                {
-                    "index": 3,
-                    "goalDescription1": "救出揺籃里的孩子"
-                }
-            ]
-        },
-        {
-            "key": "Q2008A",
-            "title": "与从揺籃里出来的孩子交談",
-            "description": "从揺籃里出来的是个小孩子模様的生物。与其交談看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "与从揺籃里出来的孩子交談"
-                }
-            ]
-        },
-        {
-            "key": "Q2008B",
-            "title": "抓住逃砲的孩子",
-            "description": "从揺籃里出来的孩子一看到我們就開始逃砲。抓住后再与其交談看看叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "抓住从揺籃里砲出来的東西"
-                }
-            ]
-        },
-        {
-            "key": "Q2009",
-            "title": "离開奢侈品館",
-            "description": "从揺籃里出来的孩子貌似開始跟着我們了。雖然似乎因為害怕而和我們保持着距离……總之先离開奢侈品館叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "离開奢侈品館"
-                }
-            ]
-        },
-        {
-            "key": "Q2010",
-            "title": "前往4F",
-            "description": "獲得了不可動揺者的脊椎。由于不清楚后面会発生什么，所以能獲取的東西最好還是都入手比較好。在這一層已經没有需要做的事了，前往4F叭。",
-            "steps": [
-                {
-                    "index": 0,
-                    "goalDescription1": "前往4F"
-                }
-            ]
+          "index": 0,
+          "goalDescription1": "探索2F"
         }
-    ]
+      ]
+    },
+    {
+      "key": "Q2003",
+      "title": "進入奢侈品館",
+      "description": "看守大門的人不在了。是情况変了麼？進去看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "進入奢侈品館"
+        }
+      ]
+    },
+    {
+      "key": "Q2004",
+      "title": "進入奢侈品館 2",
+      "description": "奢侈品館里満是黑派的尸体。進入更深処看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "進入奢侈品館深処"
+        }
+      ]
+    },
+    {
+      "key": "Q2005",
+      "title": "進入奢侈品館 3",
+      "description": "和上次一様，看到了紅派建造的入口。進去看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从入口進入奢侈品館"
+        }
+      ]
+    },
+    {
+      "key": "Q2008",
+      "title": "観察揺籃",
+      "description": "紅派的品牌總監説，揺籃中沈睡的東西即将蘇醒，所以想請求我們待在它身辺。先到揺籃前看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "観察揺籃"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "把碎片靠近揺籃"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "譲揺籃吃掉碎片"
+        },
+        {
+          "index": 3,
+          "goalDescription1": "救出揺籃里的孩子"
+        }
+      ]
+    },
+    {
+      "key": "Q2008A",
+      "title": "与从揺籃里出来的孩子交談",
+      "description": "从揺籃里出来的是个小孩子模様的生物。与其交談看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与从揺籃里出来的孩子交談"
+        }
+      ]
+    },
+    {
+      "key": "Q2008B",
+      "title": "抓住逃砲的孩子",
+      "description": "从揺籃里出来的孩子一看到我們就開始逃砲。抓住后再与其交談看看叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "抓住从揺籃里砲出来的東西"
+        }
+      ]
+    },
+    {
+      "key": "Q2009",
+      "title": "离開奢侈品館",
+      "description": "从揺籃里出来的孩子貌似開始跟着我們了。雖然似乎因為害怕而和我們保持着距离……總之先离開奢侈品館叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "离開奢侈品館"
+        }
+      ]
+    },
+    {
+      "key": "Q2010",
+      "title": "前往4F",
+      "description": "獲得了不可動揺者的脊椎。由于不清楚后面会発生什么，所以能獲取的東西最好還是都入手比較好。在這一層已經没有需要做的事了，前往4F叭。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往4F"
+        }
+      ]
+    }
+  ]
 }
