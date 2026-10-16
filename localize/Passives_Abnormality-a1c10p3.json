@@ -214,7 +214,7 @@
         {
             "id": 151701,
             "name": "大他者中的享樂(la jouissance Autre)",
-            "desc": "<color=#7C5738>回合結束</color>時，[ChargeRouge]層数不会減少\n本場戦斗中，每当[Laceration]效果触発時，使<color=#ffffff>自身</color>獲得1層[ChargeRouge]\n<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有1層[ChargeRouge]，使<color=#ffffff>自身</color>恢復2点<color=#81BBE8>理智値</color>",
+            "desc": "<color=#7C5738>回合結束</color>時，[ChargeRouge]層数不会減少\n本場戦斗中，每当造成[Laceration]<color=#ffffff>傷害</color>時，使<color=#ffffff>自身</color>獲得1層[ChargeRouge]\n<color=#7C5738>回合開始</color>時，<color=#ffffff>自身</color>每帯有1層[ChargeRouge]，使<color=#ffffff>自身</color>恢復2点<color=#81BBE8>理智値</color>",
             "flavor": "雖然全身都能感受到，但无法用語言表達的悸動、本性。所有搏動的總和。",
             "summary": "獲得搏動 層数"
         },
@@ -228,26 +228,26 @@
         {
             "id": 151703,
             "name": "自我(le moi)",
-            "desc": "帯有[BuffetScruple]的罪人与特定技能拼点勝利時，<color=#ff6000><mark=#ff000040><b><u>対赤紅之神施加1層[BuffetDream]</u></b></mark></color>\n若赤紅之神的[BuffetDream]層数達到5層，則改変自身模式;与該模式下的技能拼点勝利時，戦斗勝利\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]<color=#ff6000><mark=#ff000040><b><u>強度最多累計到50級，層数最多累計到15層</u></b></mark></color>\n\n受到来自[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的体力与理智傷害-50%\n固定恐慌\n回合結束時，若自身陷入恐慌，則使自身的理智値変為0点",
+            "desc": "帯有[BuffetScruple]的罪人与特定技能拼点勝利時，<color=#ff6000><mark=#ff000040><b><u>対赤紅之神施加1層[BuffetDream]</u></b></mark></color>\n若赤紅之神的[BuffetDream]層数達到5層，則改変自身模式;与該模式下的技能拼点勝利時，戦斗勝利\n\n[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]強度最多累計到50級，層数最多累計到15層\n\n受到来自[Combustion]、[Laceration]、[Vibration]、[Burst]与[Sinking]的体力与理智傷害-50%\n固定恐慌\n回合結束時，若自身陷入恐慌，則使自身的理智値変為0点",
             "flavor": "我。我看到了水中倒映的我的模様。我已擁有完整的身体……"
         },
         {
             "id": 151704,
             "name": "生之権能(Pouvoirs de la vie)",
-            "desc": "若<color=#ffffff>友方単位</color>因受到<color=#ffffff>傷害</color>陷入混乱，則対其使用技能“存在的缺失(le manque-à-être)”(<color=#7C5738>每回合</color>最多1次)\n若<color=#ffffff>友方単位</color>陣亡，則<color=#7C5738>下回合</color>開始時召喚1个帯有3層[BuffetRevival]的赤紅之神被撕下的肉塊",
+            "desc": "若友方単位因受到傷害陷入混乱，\n<color=#ff6000><mark=#ff000040><b><u>則解除該友方単位的混乱，并対其使用技能“存在的缺失(le manque-à-être)”，令其進行援護攻撃</u></b></mark></color>(每回合最多1次)\n\n若友方単位陣亡，則下回合開始時召喚1个帯有3層[BuffetRevival]的赤紅之神被撕下的肉塊",
             "flavor": "掌管誕生的暴力性。紅派的神，具有誕生之権能。\n\n死后意識会去往何処？在誕生之前，意識又是来自何方？\n\n把人送至彼処和把人从彼処拉回，都是<color=#7C5738>完全</color>相同的暴力権能。"
         },
         {
             "id": 151705,
             "name": "陽具享樂(la jouissance phallique)",
-            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>未帯有[BuffetRouge]且[ChargeRouge]層数不低于15層，則消耗所有[ChargeRouge]層数并使<color=#ffffff>自身</color>獲得3層[BuffetRouge];每消耗1層[ChargeRouge]，使<color=#ffffff>自身</color>恢復2点<color=#81BBE8>理智値</color>\n\n若<color=#ffffff>自身</color>未帯有[BuffetRouge]且[ChargeRouge]層数不低于10層，則使用技能時消耗10層[ChargeRouge]并使該技能的<color=#ffffff>硬幣威力</color>+2",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>未帯有[BuffetRouge]且[ChargeRouge]層数不低于15層，則消耗所有[ChargeRouge]層数并使<color=#ffffff>自身</color>獲得[BuffetRouge]層数至最大値;每消耗1層[ChargeRouge]，使<color=#ffffff>自身</color>恢復2点<color=#81BBE8>理智値</color>\n\n若使用技能時<color=#ffffff>自身</color>未帯有[BuffetRouge]且[ChargeRouge]層数不低于10層，則消耗10層[ChargeRouge]并使該技能的<color=#ffffff>硬幣威力</color>+1",
             "flavor": "享受生之樂趣是有条件的。只要存在条件，那么這種肉体上的快樂便必然走向失敗。因為其擁有極限与終点。",
             "summary": "消耗搏動 層数，<color=#ffffff>硬幣威力</color>増加"
         },
         {
             "id": 151706,
             "name": "收獲(la moisson)",
-            "desc": "攻撃結束后，若主要目標的<color=#ff6000><mark=#ff000040><b><u>[BoneNail]層数不低于5層</u></b></mark></color>，則対自身攻撃的主要目標使用強力技能",
+            "desc": "攻撃結束后，若主要目標的<color=#ff6000><mark=#ff000040><b><u>[BoneNail]層数不低于5層</u></b></mark></color>，\n則対主要目標使用<color=#ff6000><mark=#ff000040><b><u>“要求(la demande)”</u></b></mark></color>",
             "flavor": "被排斥出去的附属器官刺入他人之中，在界限外反復呼喚着我。\n\n想要回到自己誕生之処的冲動，是死的冲動還是生的冲動捏。"
         },
         {
@@ -260,19 +260,19 @@
         {
             "id": 151708,
             "name": "作出回答之時",
-            "desc": "満足以下条件之一時，改変<color=#ffffff>自身</color>模式\n- 現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的25%\n- <color=#ffffff>自身</color>帯有3層[BuffetDream]",
+            "desc": "満足以下条件之一時，改変自身模式\n- <color=#ff6000><mark=#ff000040><b><u>自身帯有3層[BuffetDream]</u></b></mark></color>\n- 現存体力低于体力上限的25%",
             "flavor": "告訴我……帯我走……"
         },
         {
             "id": 152101,
             "name": "越空虚，便越満足",
-            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeRouge]時，使<color=#ffffff>自身</color>増加1級[ChargeRouge]強度\n使用技能時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于2級/4級，則使<color=#ffffff>自身</color>的<color=#ffffff>硬幣威力</color>+1/+2\n\n每失去10%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>的攻撃等級+1(最多+5)，造成的<color=#ffffff>傷害</color>+20%(最多+100%)",
+            "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeRouge]時，使<color=#ffffff>自身</color>増加1級[ChargeRouge]強度\n使用技能時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于3級，則使<color=#ffffff>自身</color>的<color=#ffffff>硬幣威力</color>+1\n\n每失去20%的<color=#61DA61>体力</color>，使<color=#ffffff>自身</color>的攻撃等級+1(最多+3)，造成的<color=#ffffff>傷害</color>+20%(最多+60%)",
             "summary": "<color=#ffffff>硬幣威力</color>増加"
         },
         {
             "id": 152102,
             "name": "描准遅緩脖頸之鎌刀",
-            "desc": "優先指定<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>目標</color>\n使用技能時，若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>増加相当于<color=#7C5737>速度値</color>之差的攻撃等級\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于2級，則使用強力技能",
+            "desc": "優先指定<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>的<color=#ffffff>目標</color>\n使用技能時，若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>高于<color=#ffffff>目標</color>，則使<color=#ffffff>自身</color>増加相当于<color=#7C5737>速度値</color>之差的攻撃等級\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[ChargeRouge]強度不低于3級，則使用強力技能",
             "flavor": "搏動着的捕食者描准遅緩的脖頸，速度的差距将造成致命的<color=#ffffff>傷害</color>。"
         },
         {
@@ -306,7 +306,7 @@
         {
             "id": 151709,
             "name": "无法推開，也无法握住的手",
-            "desc": "回合開始時，每有1名紅派 高級工作人員在場，使自身獲得2層[Protection]\n- 紅派 高級工作人員陣亡時，使自身失去2層[Protection]\n\n<color=#ff6000><mark=#ff000040><b><u>若全体紅派 高級工作人員均処于陣亡状態</u></b></mark></color>，則触発以下效果：\n- 対自身施加2層[Vulnerable]\n- 使用技能時，若目標帯有[BuffetScruple]，則使自身硬幣威力-1",
+            "desc": "回合開始時，每有1名紅派 高級工作人員在場，使自身獲得2層[Protection]\n- 紅派 高級工作人員陣亡時，使自身失去2層[Protection]\n\n<color=#ff6000><mark=#ff000040><b><u>若全体紅派 高級工作人員均処于陣亡状態</u></b></mark></color>，則触発以下效果：\n- 対自身施加2層[Vulnerable]\n- 使用技能時，<color=#ff6000><mark=#ff000040><b><u>若目標帯有[BuffetScruple]，則使自身硬幣威力-1</u></b></mark></color>",
             "flavor": "袮……還会握住我的手麼……？",
             "summary": "<color=#ffffff>硬幣威力</color>減少"
         }

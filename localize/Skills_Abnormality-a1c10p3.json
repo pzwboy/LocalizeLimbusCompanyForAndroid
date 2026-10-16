@@ -1445,7 +1445,7 @@
                 {
                     "level": 1,
                     "name": "自我排泄(je m'expulse)",
-                    "desc": "[WhenUse] 若主要目標的[Laceration]強度不低于6級，則使本技能的硬幣威力+1\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若主要目標未帯有[Laceration]，則使本技能的所有硬幣轉化為[SuperCoin]</u></b></mark></color>\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱",
+                    "desc": "[WhenUse] 若主要目標的[Laceration]強度不低于6級，則使本技能的硬幣威力+1\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若主要目標未帯有[Laceration]，</u></b></mark></color>則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱",
                     "flavor": "排泄。",
                     "coinlist": [
                         {
@@ -1458,7 +1458,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                                 }
                             ]
                         }
@@ -1472,7 +1472,7 @@
                 {
                     "level": 1,
                     "name": "自我嘔吐(je me crache)",
-                    "desc": "[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>基礎威力</color>+2\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)",
+                    "desc": "[WhenUse] 若目標的[Laceration]強度不低于6級，則使本技能的基礎威力+2\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>自身每帯有2級[ChargeRouge]強度，使本技能的攻撃容量+1</u></b></mark></color>(最多+2)",
                     "flavor": "嘔吐。",
                     "coinlist": [
                         {
@@ -1495,7 +1495,7 @@
                 {
                     "level": 1,
                     "name": "自我卑賎化(je m'abjecte)",
-                    "desc": "[WhenUse] 主要<color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRouge]強度，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)",
+                    "desc": "[WhenUse] 主要目標每帯有4級[Laceration]強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>自身每帯有2級[ChargeRouge]強度，使本技能的攻撃容量+1</u></b></mark></color>(最多+2)",
                     "flavor": "抛出去。",
                     "coinlist": [
                         {
@@ -1536,10 +1536,10 @@
                                     "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得10層[ChargeRouge]"
                                 },
                                 {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>減少50%并使其獲得5層[AttackUp]"
+                                    "desc": "[EndCoin] 使目標現存体力減少50%并使其<color=#ff6000><mark=#ff000040><b><u>獲得5層[AttackUp]</u></b></mark></color>"
                                 },
                                 {
-                                    "desc": "[EndCoin] 使<color=#ffffff>目標</color>獲得3層[BuffetRouge]"
+                                    "desc": "[EndCoin] <color=#ff6000><mark=#ff000040><b><u>使目標獲得3層[BuffetRouge]</u></b></mark></color>"
                                 }
                             ]
                         }
@@ -1578,7 +1578,7 @@
                 {
                     "level": 1,
                     "name": "享樂(la jouissance)",
-                    "desc": "直到使用本技能時，自身不会陷入混乱\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>場上每有1名紅派 高級工作人員，使自身恢復15点理智値并使本技能的拼点威力+2</u></b></mark></color>\n[WhenUse] 若全体紅派 高級工作人員均<color=#ff6000><mark=#ff000040><b><u>処于陣亡状態</u></b></mark></color>，則使本技能的拼点威力-3\n[DefeatDuel] 使本技能造成的傷害-80%，本技能造成的傷害不会使目標陷入混乱，<color=#ff6000><mark=#ff000040><b><u>并対自身施加1層[BuffetDream]</u></b></mark></color>\n[EndSkill] 使主要目標的[BuffetScruple]轉化為[BuffetResolve]",
+                    "desc": "可无視速度値与本技能拼点\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>場上每有1名紅派 高級工作人員，使自身恢復15点理智値并使本技能的拼点威力+2</u></b></mark></color>\n[WhenUse] 若全体紅派 高級工作人員均<color=#ff6000><mark=#ff000040><b><u>処于陣亡状態</u></b></mark></color>，則使本技能的拼点威力-3\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>対自身施加1層[BuffetDream]。</u></b></mark></color>使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱，\n[EndSkill] 使主要目標的[BuffetScruple]轉化為[BuffetResolve]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1596,7 +1596,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                                 },
                                 {
                                     "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
@@ -1609,7 +1609,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                                 },
                                 {
                                     "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Laceration]3次并使其[Laceration]層数減少3層"
@@ -1680,7 +1680,7 @@
                                     "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BoneNail]"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BoneNail]"
                                 }
                             ]
                         },
@@ -1690,7 +1690,7 @@
                                     "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BoneNail]"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[BoneNail]"
                                 }
                             ]
                         }
@@ -1704,7 +1704,7 @@
                 {
                     "level": 1,
                     "name": "閹割(la castration)",
-                    "desc": "可无視速度値与本技能拼点\n直到使用本技能時，自身不会陷入混乱\n\n[WhenUse] 若<color=#ff6000><mark=#ff000040><b><u>自身的[BuffetDream]層数低于5層，則使本技能的所有硬幣轉化為[SuperCoin]</u></b></mark></color>\n[WhenUse] 若<color=#ff6000><mark=#ff000040><b><u>主要目標帯有[BuffetScruple]</u></b></mark></color>，則使本技能的硬幣威力-3\n[WhenUse] 主要目標每帯有6級[Laceration]強度，使本技能的最終威力+2(最多+6)\n[DefeatDuel] 使本技能造成的傷害-80%，本技能造成的傷害不会使目標陷入混乱，<color=#ff6000><mark=#ff000040><b><u>并対自身施加1層[BuffetDream]</u></b></mark></color>",
+                    "desc": "可无視速度値与本技能拼点\n直到使用本技能時，自身不会陷入混乱\n\n[WhenUse] 若<color=#ff6000><mark=#ff000040><b><u>自身的[BuffetDream]層数低于5層，則使本技能的所有硬幣轉化為[SuperCoin]</u></b></mark></color>\n[WhenUse] 若<color=#ff6000><mark=#ff000040><b><u>主要目標帯有[BuffetScruple]</u></b></mark></color>，則使本技能的硬幣威力-3\n[WhenUse] 主要目標每帯有4級[Laceration]強度，使本技能的最終威力+1(最多+3)\n[DefeatDuel] 使本技能造成的傷害-95%，本技能造成的傷害不会使目標陷入混乱，<color=#ff6000><mark=#ff000040><b><u>并対自身施加1層[BuffetDream]</u></b></mark></color>",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1756,7 +1756,7 @@
                 {
                     "level": 1,
                     "name": "一元特征(le trait unaire)",
-                    "desc": "[DuelCounter]\n[WhenUse] 主要<color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>全体</color><color=#ffffff>敵方単位</color>每帯有總計5層[BoneNail]，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+4)",
+                    "desc": "[DuelCounter]\n[WhenUse] 若目標的[Laceration]強度不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 全体敵方単位<color=#ff6000><mark=#ff000040><b><u>每帯有總計5層[BoneNail]，使本技能的攻撃容量+1</u></b></mark></color>(最多+3)\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1774,7 +1774,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                                 }
                             ]
                         },
@@ -1787,10 +1787,10 @@
                                     "desc": "<color=#ff6000><mark=#ff000040><b><u>消耗全体敵方単位所有[BoneNail]</u></b></mark></color>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(消耗的[BoneNail]層数×10)%的<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>"
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(消耗的[BoneNail]層数×5)%的<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 每消耗4層[BoneNail]，対<color=#ffffff>目標</color>施加1層[Laceration](最多5層)"
+                                    "desc": "[OnSucceedAttack] 每消耗4層[BoneNail]，対<color=#ffffff>目標</color>施加1層[Laceration](最多3層)"
                                 }
                             ]
                         }
@@ -1804,7 +1804,7 @@
                 {
                     "level": 1,
                     "name": "脱离(Dégagé)",
-                    "desc": "[WhenUse] 目標每帯有4級[Laceration]強度，使本技能的最終威力+1(最多+2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若目標未帯有[Laceration]，則使本技能的所有硬幣轉化為[SuperCoin]</u></b></mark></color>\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱",
+                    "desc": "[WhenUse] 目標每帯有4級[Laceration]強度，使本技能的最終威力+1(最多+2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若目標未帯有[Laceration]</u></b></mark></color>，則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1829,7 +1829,7 @@
                 {
                     "level": 1,
                     "name": "結扣点(le point de capiton)",
-                    "desc": "[WhenUse] 目標每帯有4級[Laceration]強度，使本技能的最終威力+1(最多+3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若目標未帯有[Laceration]，則使本技能的所有硬幣轉化為[SuperCoin]</u></b></mark></color>\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱",
+                    "desc": "[WhenUse] 目標每帯有4級[Laceration]強度，使本技能的最終威力+1(最多+3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若目標未帯有[Laceration]</u></b></mark></color>，則使本技能的所有硬幣轉化為[SuperCoin]\n[DefeatDuel] 使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1867,7 +1867,7 @@
                 {
                     "level": 1,
                     "name": "享樂(la jouissance)",
-                    "desc": "直到使用本技能時，自身不会陷入混乱\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>若主要目標帯有[BuffetScruple]</u></b></mark></color>，則使自身失去10点理智値并使本技能的硬幣威力-2\n[DefeatDuel] 使本技能造成的傷害-80%，本技能造成的傷害不会使目標陷入混乱，<color=#ff6000><mark=#ff000040><b><u>并対自身施加1層[BuffetDream]</u></b></mark></color>\n[EndSkill] 使主要目標的[BuffetScruple]轉化為[BuffetResolve]",
+                    "desc": "可无視速度値与本技能拼点\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>若主要目標帯有[BuffetScruple]</u></b></mark></color>，則使自身失去20点理智値并使本技能的硬幣威力-3\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>対自身施加1層[BuffetDream]。</u></b></mark></color>使本技能造成的傷害-80%，且本技能造成的傷害不会使目標陷入混乱，\n[EndSkill] 使主要目標的[BuffetScruple]轉化為[BuffetResolve]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1885,7 +1885,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                                 },
                                 {
                                     "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
@@ -1898,7 +1898,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Laceration]強度"
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                                 },
                                 {
                                     "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Laceration]3次并使其[Laceration]層数減少3層"
@@ -2025,7 +2025,7 @@
                 {
                     "level": 1,
                     "name": "懐抱胸前，双手奉上！",
-                    "desc": "[StartBattle] 若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的50%，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗10層[ChargeRouge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "desc": "[StartBattle] 若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的50%，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗10層[ChargeRouge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -2067,7 +2067,7 @@
                 {
                     "level": 1,
                     "name": "我等将尽数将其呑食！",
-                    "desc": "[StartBattle] 若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的50%，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗10層[ChargeRouge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WinDuel] 使<color=#ffffff>自身</color>獲得10層[ChargeRouge]\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-80%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "desc": "[StartBattle] 若現存<color=#61DA61>体力</color>低于<color=#61DA61>体力</color>上限的50%，則使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗10層[ChargeRouge]并使本技能的<color=#ffffff>硬幣威力</color>+1\n[WinDuel] 使<color=#ffffff>自身</color>獲得10層[ChargeRouge]\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-80%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
                     "coinlist": [
                         {
                             "coindescs": [

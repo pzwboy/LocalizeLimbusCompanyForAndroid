@@ -304,7 +304,7 @@
         {
             "id": "BoneNail",
             "name": "卑賎之物(l'abject)",
-            "desc": "- 最大値：5\n- 每帯有1層本效果，<color=#7C5737>速度値</color>-1\n- 每帯有1層本效果，受到的流血 <color=#ffffff>傷害</color>+20%(向下取整)\n- 使用基礎攻撃技能時，対<color=#ffffff>自身</color>施加(本效果層数×2)層流血",
+            "desc": "- 最大値：5\n- 每帯有1層本效果，<color=#7C5737>速度値</color>-1\n- 每帯有1層本效果，受到的流血 <color=#ffffff>傷害</color>+20%(向下取整)\n- 使用基礎攻撃技能時，対<color=#ffffff>自身</color>施加層数相当于本效果層数的流血 ",
             "summary": "",
             "flavor": "投擲出去的附属器官。被自助餐排斥、嘔吐、傾瀉而出的東西。\n\n雖然从自己的身体中排出，但既然已經到了外界，便不再是属于自己的東西。然而，即便它被刺入他人身体中，也并非就成了対方的東西。"
         },
@@ -367,28 +367,28 @@
         {
             "id": "BuffetRouge",
             "name": "狂暴[欲望]",
-            "desc": "- 最大値：3\n- 最小与最大<color=#7C5737>速度値</color>+1\n- 每帯有1層本效果，<color=#ffffff>拼点威力</color>+1\n- 受到的流血 <color=#ffffff>傷害</color>-50%\n- 不会因流血 <color=#ffffff>傷害</color>而陣亡\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
+            "desc": "- 最大値：3\n- 最小与最大<color=#7C5737>速度値</color>+1\n- 受到的流血 <color=#ffffff>傷害</color>-50%\n- 不会因流血 <color=#ffffff>傷害</color>而陣亡\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
             "summary": "",
             "flavor": "絶対不会満足。因為這并非我的欲望，我却錯以為它是我的。\n\n這是自袮而生的，从袮之中噴薄而出的欲望。"
         },
         {
             "id": "BuffetScruple",
             "name": "支咿的經驗",
-            "desc": "- 最小与最大<color=#7C5737>速度値</color>+3\n- 受到来自赤紅之神[成熟]的最終<color=#ffffff>傷害</color>-50%",
+            "desc": "- 最小与最大<color=#7C5737>速度値</color>+3\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>\n- 受到来自赤紅之神[成熟]的最終<color=#ffffff>傷害</color>-75%",
             "summary": "",
             "flavor": "我們確實曾与支咿同行。\n\n犹豫開始于心中浮現。"
         },
         {
             "id": "BuffetResolve",
             "name": "决断",
-            "desc": "- 最大値：1\n- 対赤紅之神[成熟]造成的<color=#ffffff>傷害</color>与受到来自赤紅之神[成熟]的<color=#ffffff>傷害</color>+30%\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>",
+            "desc": "- 最大値：1\n- 対赤紅之神[成熟]造成的<color=#ffffff>傷害</color>+30%\n- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>",
             "summary": "",
             "flavor": "“作為經理，看来我必須做出選擇了叭。”\n“確實如此。”\n“……”\n“……”\n“……我决定了。”"
         },
         {
             "id": "MeursaultBuffetEnd",
             "name": "嵌釘者",
-            "desc": "- 最小与最大<color=#7C5737>速度値</color>+3\n- 使用技能時，獲得2个対應属性的E.G.O資源(<color=#7C5738>每回合</color>最多2次)\n- 无法撤退",
+            "desc": "- 最小与最大<color=#7C5737>速度値</color>+3\n- <color=#ffffff>最終威力</color>+3\n- 使用技能時，獲得2个対應属性的E.G.O資源(<color=#7C5738>每回合</color>最多2次)\n- 无法撤退",
             "summary": ""
         },
         {

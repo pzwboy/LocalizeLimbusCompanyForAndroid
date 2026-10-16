@@ -1,0 +1,122 @@
+{
+  "dataList": [
+    {
+      "id": 9284,
+      "name": "流行遅れのル・ルージュの服",
+      "desc": "味方が基本攻撃スキルのスキル効果・コイン効果で体力を回復時、50%だけ追加で回復する (ターンにつき3回、小数点<noparse>切り捨て</noparse>)\n\n[オートクチュール::ル・ルージュ ブティーク イシュメール専用効果]\nオートクチュール::ル・ルージュ 赤き神 シンクレアが自分と共に戦場にいるなら、ターン開始時に[RougeIshmaelCocoon]1を得て[RougeIshmaelCocoon]状態になる (戦闘につき1回)\n- 「<noparse>試着室</noparse>の中へ…」のパッシブ効果のうち、「この戦闘で体力が0になるダメージを受けたとき、そのダメージを受けず、即座に[RougeIshmaelCocoon]2を得て[RougeIshmaelCocoon]になる (戦闘ごとに1回)」の効果が発動したなら、専用効果は発動しない\n- 専用効果発動時、「<noparse>試着室</noparse>の中へ…」のパッシブ効果のうち、「この戦闘で体力が0になるダメージを受けたとき、そのダメージを受けず、即座に[RougeIshmaelCocoon]2を得て[RougeIshmaelCocoon]になる (戦闘ごとに1回)」の効果は発動しない",
+      "simpleDesc": [
+        {
+          "abilityID": 9284,
+          "simpleDesc": "即座に[RougeIshmaelCocoon]状態になる"
+        },
+        {
+          "abilityID": 92841,
+          "simpleDesc": "体力を追加で回復"
+        }
+      ]
+    },
+    {
+      "id": 9285,
+      "name": "炭酸飲料",
+      "desc": "このターンに自分のスキル効果・コイン効果で体力回復を1回以上試みた囚人は、次のターンにスキルでの与ダメージ量 +10%、(このターンに試みた回復数値の合計 ÷ 10)だけ[AttackUp]を得る (最大6、小数点<noparse>切り捨て</noparse>)\n\n戦場に同じ所属の人格がいるなら、自分を除く同じ所属の人格が上記の効果で得た[AttackUp]の半分だけ[AttackUp]を得る (最小1、ターンにつき最大3まで獲得、小数点<noparse>切り捨て</noparse>)",
+      "simpleDesc": [
+        {
+          "abilityID": 9285,
+          "simpleDesc": "ダメージ量増加[TabExplain]、[AttackUp]を得る"
+        }
+      ]
+    },
+    {
+      "id": 9286,
+      "name": "ル・ノワールのメゾンスラックス",
+      "desc": "[Charge]威力が2以上の味方が[VibrationExplosion]時、下記の効果を適用\n- (自分の[Charge]威力 × 回数)だけ嫉妬ダメージを与える (スキルにつき2回、1回につき最大100)\n- 上記の効果で嫉妬ダメージを2回与えたなら、次のターンに対象へ[Binding]3を付与\n\n味方がスキルで[VibrationExplosion]時、[VibrationExplosion]ごとに(自分の[Charge]威力 ÷ 3)だけ、次のターンに[AttackUp]を得る (ターンにつき最大5、小数点切り捨て)",
+      "simpleDesc": [
+        {
+          "abilityID": 9286,
+          "simpleDesc": "嫉妬ダメージを与えて[Binding]を付与"
+        },
+        {
+          "abilityID": 92861,
+          "simpleDesc": "[AttackUp]を得る"
+        }
+      ]
+    },
+    {
+      "id": 9287,
+      "name": "ル・ノワールのメリージェーン",
+      "desc": "戦闘開始時、バリアを最も多く保有する人格は、攻撃的中時に現在のバリアの50%だけ怠惰ダメージを与える (スキルにつき2回、1回につき最大100、小数点<noparse>切り捨て</noparse>)\n- バリアの数値が同じ人格が2名以上いるなら、編成順に適用\n\n[PersonalityCharge]なら、代わりにバリアの100%だけ怠惰ダメージを与える (スキルにつき3回、1回につき最大100、小数点<noparse>切り捨て</noparse>)",
+      "simpleDesc": [
+        {
+          "abilityID": 9287,
+          "simpleDesc": "バリアに比例して怠惰ダメージを与える"
+        }
+      ]
+    },
+    {
+      "id": 9288,
+      "name": "裁縫の王の待ち針",
+      "desc": "ターン開始時、[SewingKingMark]のある敵がいないなら、ランダムな敵に[SewingKingMark]を付与 (集中戦闘の場合、部位で判定)",
+      "simpleDesc": [
+        {
+          "abilityID": 9288,
+          "simpleDesc": "[SewingKingMark]を付与、死亡時に固定ダメージを与える"
+        }
+      ]
+    },
+    {
+      "id": 9289,
+      "name": "軟骨",
+      "desc": "[Charge]回数または特殊[Charge]を消耗するスキルのダメージ量 +(自分の[Charge]威力 × 2)% (最大10%)\n\nターン終了時、このターンに[Charge]回数または特殊[Charge]を消耗したなら、次のターンに[Agility]1を得る\n\n対象の速度が自分より低いなら、マッチ威力 +1\n- 自分がシーシュポス所属なら、代わりに最終威力 +1",
+      "simpleDesc": [
+        {
+          "abilityID": 9289,
+          "simpleDesc": "ダメージ量、マッチ威力または最終威力増加[TabExplain]、[Agility]を得る"
+        }
+      ]
+    },
+    {
+      "id": 9290,
+      "name": "毛布",
+      "desc": "このターンに守備スキルを装着した人格は、敵の攻撃による被ダメージ量 -20%\n- 戦闘終了時、自分が[PersonalityCharge]なら、次のターンに[AttackUp]2を得る\n- 戦闘終了時、自分がシーシュポス所属なら、次のターンに[ResultEnhancement]1を得る",
+      "simpleDesc": [
+        {
+          "abilityID": 9290,
+          "simpleDesc": "被ダメージ量減少[TabExplain]、[AttackUp]または[ResultEnhancement]を得る"
+        }
+      ]
+    },
+    {
+      "id": 9291,
+      "name": "花ばさみ",
+      "desc": "[編成順1番人格専用効果]\n\nシーシュポス所属人格または[PersonalityCharge]の基本スキルの最終コイン的中時、メインターゲットにそのコインの最終ダメージ量の5%だけ斬撃ダメージを与える (スキルにつき1回)",
+      "simpleDesc": [
+        {
+          "abilityID": 9291,
+          "simpleDesc": "メインターゲットに斬撃ダメージ[TabExplain]"
+        }
+      ]
+    },
+    {
+      "id": 19291,
+      "name": "花ばさみ+",
+      "desc": "[編成順1番人格専用効果]\n\nシーシュポス所属人格または[PersonalityCharge]の基本スキルの最終コイン的中時、メインターゲットにそのコインの最終ダメージ量の<style=\"upgradeHighlight\">10%</style>だけ斬撃ダメージを与える (スキルにつき1回)",
+      "simpleDesc": [
+        {
+          "abilityID": 19291,
+          "simpleDesc": "メインターゲットに斬撃ダメージ[TabExplain]"
+        }
+      ]
+    },
+    {
+      "id": 29291,
+      "name": "花ばさみ++",
+      "desc": "[編成順1番人格専用効果]\n\nシーシュポス所属人格または[PersonalityCharge]の基本スキルの最終コイン的中時、メインターゲットにそのコインの最終ダメージ量の<style=\"upgradeHighlight\">15%</style>だけ斬撃ダメージを与える (スキルにつき1回)",
+      "simpleDesc": [
+        {
+          "abilityID": 29291,
+          "simpleDesc": "メインターゲットに斬撃ダメージ[TabExplain]"
+        }
+      ]
+    }
+  ]
+}

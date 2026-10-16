@@ -3264,13 +3264,13 @@
         },
         {
             "id": 1041602,
-            "name": "黑派 華達捏面料",
+            "name": "黑派 華達尼面料",
             "desc": "<color=#ffffff>自身</color>在戦斗中登場時，使<color=#ffffff>自身</color>獲得25層[NoirSuitAlly]\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirSuitAlly]層数与[RealisationAlly]層数之和/5)%的<color=#81BBE8>護盾</color>",
             "summary": "獲得<color=#81BBE8>護盾</color>"
         },
         {
             "id": 1041603,
-            "name": "黑派 華達捏面料",
+            "name": "黑派 華達尼面料",
             "desc": "<color=#ffffff>自身</color>在戦斗中登場時，使<color=#ffffff>自身</color>獲得25層[NoirSuitAlly]\n\n<color=#7C5738>回合開始</color>時，\n- 使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[NoirSuitAlly]層数与[RealisationAlly]層数之和/5)%的<color=#81BBE8>護盾</color>\n- 若<color=#ffffff>自身</color>帯有[RealisationAlly]，則使“三綫印花縫紉”轉化為“単踏-多様定制時装”",
             "summary": "獲得<color=#81BBE8>護盾</color>"
         },
@@ -3362,6 +3362,41 @@
             "name": "陣型保存",
             "desc": "<color=#ffffff>戦斗開始</color>時，場上每有1名友方[PersonalityCharge]，使<color=#ffffff>全体</color>友方[PersonalityCharge]受到的<color=#ffffff>傷害</color>-2%(最多-10%)",
             "summary": "友方[PersonalityCharge]受到的<color=#ffffff>傷害</color>減少"
+        },
+        {
+            "id": 1101602,
+            "name": "ラ・ジュイサンス・ファリック(la jouissance phallique)",
+            "desc": "[Laceration]発動時、自分の[ChargeRougeAlly]回数が1増加 (1ターンにつき最大10回)\n\n戦闘終了時、[BuffetSinclair]状態でなく、自分の[ChargeRougeAlly]回数が15以上なら、\n[ChargeRougeAlly]回数を全て消耗して、次のターンに[BuffetSinclair]3を得る\n- 精神力を(15を超えて消耗した回数 × 3)だけ回復 (最大15)\n\n[BuffetSinclair]消滅時、自分の[ChargeRougeAlly]回数を全て消耗して(消耗した回数×2)だけ体力を回復\n\n戦闘中に消耗した自分の[ChargeRougeAlly]回数の累計10につき、[ChargeRougeAlly]威力1を得る\n\n基本攻撃スキルとマッチ可能反撃スキルが、[Charge]回数を得るスキルとして扱われる",
+            "summary": "[Laceration]発動時、自分の[ChargeRougeAlly]回数が増加"
+        },
+        {
+            "id": 1101603,
+            "name": "幼年期の終り(la Fin de l'enfance)",
+            "desc": "以下の条件に応じて[HungrySinclair]を得る (1ターンにつき最大50)\n- 自分の[ChargeRougeAlly]回数消耗時、消耗した回数だけ得る\n- 自分の基本スキルで自分以外の味方の体力を回復すると、実際の回復量だけ得る\n- 味方の体力減少量の累計10につき1を得る\n- 自分以外のル・ルージュ所属の味方人格の基本攻撃的中時、2を得る\n- ターン終了時、自分以外のル・ルージュ所属の味方人格1名につき5を得る\n\nターン終了時、[TransformSinclair]がなく[HungrySinclair]が100以上なら、\n次のターン開始時、最も左にあるスロットの下段のスキルを「ラ・ヴォラシテ(la voracité)」に変更\n\n今回の戦闘で「ラ・ヴォラシテ(la voracité)」または「ラ・カストラシオン(la castration)」を初めて装着したときの戦闘開始時、[BuffetThirst]と[TransformSinclair]を得て、自分の混乱区間を除去\n- 装着していた基本スキルを[TransformSinclair]専用スキルに変更\n- 味方を指定していた基本スキルは、ランダムな敵へ一方攻撃\n- この効果で発動したスキルの攻撃終了時、[HungrySinclair]を全て消耗\n\nターン終了時、[TransformSinclair]があり、[HungrySinclair]が150なら、\n次のターン開始時、操作スロットに「ラ・ヴォラシテ(la voracité)」がない場合、基本スキル1つを「ラ・ヴォラシテ(la voracité)」に変更 (最も左にあるスロットの下段のスキルを優先)",
+            "summary": "条件に応じて[HungrySinclair]を得る",
+            "flavor": "幼年期の終りは誰が定めるのか？\n\n赤い子供は独り、旅路についた。記憶を辿り、懐かしみながら一人歩き、孤独に幼年期を見送る。"
+        },
+        {
+            "id": 1101604,
+            "name": "ラ・モワソン(la moisson)",
+            "desc": "自分の基本スキルの効果で味方の体力を消耗する際、その効果で対象が混乱したり、体力が1未満に減少することはない\n\n色欲共鳴が3以上なら、戦闘終了時に自分以外の味方(色欲共鳴 ÷ 3)名へ、次のターンに[BuffetThirst]を付与 (小数点切り上げ)\n- ル・ルージュ所属の味方を優先。編成順に付与\n\n味方に[SupportAlly]スキル使用時、行動可能なル・ルージュ所属の味方のうち、現体力が最も高い1名に[BuffetFriendShield]1を付与 (1ターンにつき1回)\n自分以外の味方の[PersonalityCharge]の基本攻撃終了時、メインターゲットが死亡していなければ、その敵に「ジュ・ヴゼド(je vous aide)」を使用 (1ターンにつき1回)",
+            "summary": "味方に[SupportAlly]スキル使用時、味方に[BuffetFriendShield]を付与\n色欲共鳴に応じて、味方に次のターンに[BuffetThirst]を付与"
+        },
+        {
+            "id": 1101614,
+            "name": "ラ・モワソン(la moisson)",
+            "desc": "自分の基本スキルの効果で味方の体力を消耗する際、その効果で対象が混乱したり、体力が1未満に減少することはない\n\n色欲共鳴が3以上なら、戦闘終了時に自分以外の味方(色欲共鳴 ÷ 3)名へ、次のターンに[BuffetThirst]を付与 (小数点切り上げ)\n- ル・ルージュ所属の味方を優先。編成順に付与\n- 自分に[TransformSinclair]があれば、付与対象の味方の人数 +1 (最大4名)\n\n自分に[TransformSinclair]がなければ、\n- 味方に[SupportAlly]スキル使用時、行動可能なル・ルージュ所属の味方のうち、現体力が最も高い1名に[BuffetFriendShield]1を付与 (1ターンにつき1回)\n- 自分以外の味方の[PersonalityCharge]の基本攻撃終了時、メインターゲットが死亡していなければ、その敵に「ジュ・ヴゼド(je vous aide)」を使用 (1ターンにつき1回)\n\n自分に[TransformSinclair]があれば、\n- [RougeFamilySinclair]を得る\n- 現在の戦闘場所で[DinnerField]を有効化\n- ターン終了時、次のターンに[BuffetThirst]を得る\n- 戦闘開始時、行動可能なル・ルージュ所属の味方のうち、現体力が最も高い1名に[BuffetFriendShield]を付与\n- 敵への基本攻撃スキルの攻撃終了時、メインターゲットの[BoneNailSinclair]の数値が5なら、「ラ・ドゥマンド(la demande)」を使用 (1ターンにつき1回)",
+            "summary": "味方に[SupportAlly]スキル使用時、味方に[BuffetFriendShield]を付与\n色欲共鳴に応じて、味方に次のターンに[BuffetThirst]を付与"
+        },
+        {
+            "id": 1101611,
+            "name": "レ・プヴォワール・ドゥ・ラ・ヴィ(les pouvoirs de la vie)",
+            "desc": "ル・ルージュ所属の味方がダメージで混乱すると、その味方に「ル・マンク・ア・エートル(le manque-à-être)」を使用 (1ターンにつき1回、強制混乱を除く)\n\n自分に[TransformSinclair]がなければ、\n- ル・ルージュ所属でない味方がダメージで混乱すると、その味方に「ル・マンク・ア・エートル(le manque-à-être)」を使用 (戦闘につき1回、強制混乱を除く)\n\n自分に[TransformSinclair]があれば、\n- 自分以外のル・ルージュ所属の味方人格が体力0になるダメージを受けたとき、体力が1未満に減少せず、最大体力の50%だけ体力を回復 (小数点切り上げ、人格ごとに戦闘につき1回)"
+        },
+        {
+            "id": 1101621,
+            "name": "暴食",
+            "desc": "戦闘開始時、体力が最も低い味方1名に[AttackUp]2を付与\nその味方は攻撃スキル終了時、自分の最大体力の5%だけ体力を回復 (最小1、1ターンにつき1回)"
         }
     ]
 }
