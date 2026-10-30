@@ -3148,20 +3148,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "経糸がどうだの緯糸がこうだの",
-          "desc": "[WhenUse] 自分の[ChargeRougeAlly]回数が5未満なら、体力最大値の2 × (5 - 現在の[ChargeRougeAlly]回数)%だけ体力を消耗し、[ChargeRougeAlly]回数が5に増加",
+          "name": "經紗要如何，緯紗就這様",
+          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于5層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限2×(5-現存[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至5層[ChargeRougeAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得4層[ChargeRougeAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]"
                 }
               ]
             },
@@ -3172,36 +3172,36 @@
         },
         {
           "level": 2,
-          "name": "経糸がどうだの緯糸がこうだの",
-          "desc": "<style=\"highlight\">自分の[ChargeRougeAlly]威力2につき、最終威力 +1 (最大2)</style>\n[WhenUse] 自分の[ChargeRougeAlly]回数が5未満なら、体力最大値の2 × (5 - 現在の[ChargeRougeAlly]回数)%だけ体力を消耗し、[ChargeRougeAlly]回数が5に増加",
+          "name": "經紗要如何，緯紗就這様",
+          "desc": "<style=\"highlight\"><color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)</style>\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于5層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限2x(5-現存[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至5層[ChargeRougeAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得4層[ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値だけ[NiddlePinAlly]を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加層数相当于<color=#ffffff>自身</color>[NeedlekinAlly]層数的[NiddlePinAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)</style>"
                 }
               ]
             }
@@ -3209,36 +3209,36 @@
         },
         {
           "level": 4,
-          "name": "経糸がどうだの緯糸がこうだの",
-          "desc": "自分の[ChargeRougeAlly]威力2につき、最終威力 +1 (最大2)\n[WhenUse] 自分の[ChargeRougeAlly]回数が5未満なら、体力最大値の2 × (5 - 現在の[ChargeRougeAlly]回数)%だけ体力を消耗し、[ChargeRougeAlly]回数が5に増加\n<style=\"highlight\">[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1</style>",
+          "name": "經紗要如何，緯紗就這様",
+          "desc": "<color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于5層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限2x(5-現存[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至5層[ChargeRougeAlly]\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が4増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得4層[ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)"
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)"
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値だけ[NiddlePinAlly]を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加層数相当于<color=#ffffff>自身</color>[NeedlekinAlly]層数的[NiddlePinAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)"
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3252,42 +3252,42 @@
         {
           "level": 1,
           "name": "針数！針数！針数！",
-          "desc": "[WhenUse] 自分の[ChargeRougeAlly]回数が10未満なら、体力最大値の2 × (10 - 現在の[ChargeRougeAlly]回数)%だけ体力を消耗し、[ChargeRougeAlly]回数が10に増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を7消耗し、最終威力 +2",
+          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于10層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限2×(10-現存[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至10層[ChargeRougeAlly]\n[WhenUse] 消耗<color=#ffffff>自身</color>7層[ChargeRougeAlly]并使本技能的<color=#ffffff>最終威力</color>+2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                 }
               ]
             }
@@ -3296,57 +3296,57 @@
         {
           "level": 2,
           "name": "針数！針数！針数！",
-          "desc": "<style=\"highlight\">自分の[ChargeRougeAlly]威力2につき、最終威力 +1 (最大2)</style>\n[WhenUse] 自分の[ChargeRougeAlly]回数が10未満なら、体力最大値の2 × (10 - 現在の[ChargeRougeAlly]回数)%だけ体力を消耗し、[ChargeRougeAlly]回数が10に増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を7消耗し、最終威力 +2",
+          "desc": "<style=\"highlight\"><color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)</style>\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于10層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限2×(10-現存[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至10層[ChargeRougeAlly]\n[WhenUse] 消耗<color=#ffffff>自身</color>7層[ChargeRougeAlly]并使本技能的<color=#ffffff>最終威力</color>+2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値だけ[NiddlePinAlly]を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加層数相当于<color=#ffffff>自身</color>[NeedlekinAlly]層数的[NiddlePinAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)</style>"
                 }
               ]
             }
@@ -3355,57 +3355,57 @@
         {
           "level": 4,
           "name": "針数！針数！針数！",
-          "desc": "自分の[ChargeRougeAlly]威力2につき、最終威力 +1 (最大2)\n[WhenUse] 自分の[ChargeRougeAlly]回数が10未満なら、体力最大値の2 × (10 - 現在の[ChargeRougeAlly]回数)%だけ体力を消耗し、[ChargeRougeAlly]回数が10に増加\n[WhenUse] 自分の[ChargeRougeAlly]回数を7消耗し、最終威力 +2\n<style=\"highlight\">[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1</style>",
+          "desc": "<color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRougeAlly]層数低于10層，則消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限2×(10-現存[ChargeRougeAlly]層数)%的<color=#61DA61>体力</color>并使<color=#ffffff>自身</color>獲得至10層[ChargeRougeAlly]\n[WhenUse] 消耗<color=#ffffff>自身</color>7層[ChargeRougeAlly]并使本技能的<color=#ffffff>最終威力</color>+2\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>目標</color>的[Laceration]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)"
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)"
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeRougeAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)"
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値だけ[NiddlePinAlly]を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加層数相当于<color=#ffffff>自身</color>[NeedlekinAlly]層数的[NiddlePinAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[NeedlekinAlly]の数値1につき、このコインの最終ダメージ量の1%だけ貫通ダメージ (最低1)"
+                  "desc": "[OnSucceedAttack] <color=#ffffff>自身</color>每帯有1層[NeedlekinAlly]，対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量1%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最少1点)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3418,36 +3418,36 @@
       "levelList": [
         {
           "level": 3,
-          "name": "ピックステッチをわざと目立つように縫ったのかって！？同じように縫い潰してやる！",
-          "desc": "[WhenUse] 自分の[NiddlePinGather]15につき、攻撃加重値 +1 (最大2)\n[WhenUse] 対象数がこのスキルの加重値を1下回るごとに、ダメージ量 +30% (集中戦闘の場合は部位で判定)\n[WhenUse] 自分の[ChargeRougeAlly]回数を最大20まで消耗\n- 消耗量7につき、コイン威力 +1 (最大2)\n- 消耗量1につき、このスキルのダメージ量 +2%\n[EndSkill] ([NiddlePinGather]で増加した攻撃加重値 × 15)だけ自分の[NiddlePinGather]を消耗",
+          "name": "袮説我故意把挑針縫得很顕眼？！那就給袮也縫成一様的！",
+          "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有15層[NiddlePinGather]，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n[WhenUse] 本技能的<color=#ffffff>攻撃容量</color>高于攻撃<color=#ffffff>目標</color>数時，每高于1点，使本技能造成的<color=#ffffff>傷害</color>+30%(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n[WhenUse] 消耗<color=#ffffff>自身</color>最多20層[ChargeRougeAlly]并触発以下效果\n- 每消耗7層[ChargeRougeAlly]，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n- 每消耗1層[ChargeRougeAlly]，使本技能造成的<color=#ffffff>傷害</color>+2%\n[EndSkill] 消耗<color=#ffffff>自身</color>(通過[NiddlePinGather]増加的<color=#ffffff>攻撃容量</color>×15)層[NiddlePinGather]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が3増加 (スキルにつき1回)"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeRougeAlly](每个技能最多1次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が3増加 (スキルにつき1回)"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeRougeAlly](每个技能最多1次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [NiddlePinAlly]3を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[NiddlePinAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 各対象の[NiddlePinAlly]が5以上なら、対象の[NiddlePinAlly]を5消耗し、次のターンにその対象へ[NiddlePinnedAlly]を付与"
+                  "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[NiddlePinAlly]層数不低于5層，則消耗其5層[NiddlePinAlly]并在<color=#7C5738>下回合</color>対其施加[NiddlePinnedAlly]"
                 }
               ]
             }
@@ -3455,39 +3455,39 @@
         },
         {
           "level": 4,
-          "name": "ピックステッチをわざと目立つように縫ったのかって！？同じように縫い潰してやる！",
-          "desc": "<style=\"highlight\">自分の[ChargeRougeAlly]威力2につき、最終威力 +1 (最大2)</style>\n[WhenUse] 自分の[NiddlePinGather]15につき、攻撃加重値 +1 (最大2)\n[WhenUse] 対象数がこのスキルの加重値を1下回るごとに、ダメージ量 +30% (集中戦闘の場合は部位で判定)\n[WhenUse] 自分の[ChargeRougeAlly]回数を最大20まで消耗\n- 消耗量7につき、コイン威力 +1 (最大2)\n- 消耗量1につき、このスキルのダメージ量 +2%\n[EndSkill] ([NiddlePinGather]で増加した攻撃加重値 × 15)だけ自分の[NiddlePinGather]を消耗",
+          "name": "袮説我故意把挑針縫得很顕眼？！那就給袮也縫成一様的！",
+          "desc": "<style=\"highlight\"><color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)</style>\n[WhenUse] <color=#ffffff>自身</color>每帯有15層[NiddlePinGather]，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n[WhenUse] 本技能的<color=#ffffff>攻撃容量</color>高于攻撃<color=#ffffff>目標</color>数時，每高于1点，使本技能造成的<color=#ffffff>傷害</color>+30%(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n[WhenUse] 消耗<color=#ffffff>自身</color>最多20層[ChargeRougeAlly]并触発以下效果\n- 每消耗7層[ChargeRougeAlly]，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n- 每消耗1層[ChargeRougeAlly]，使本技能造成的<color=#ffffff>傷害</color>+2%\n[EndSkill] 消耗<color=#ffffff>自身</color>(通過[NiddlePinGather]増加的<color=#ffffff>攻撃容量</color>×15)層[NiddlePinGather]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が3増加 (スキルにつき1回)"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeRougeAlly](每个技能最多1次)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が3増加 (スキルにつき1回)"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeRougeAlly](每个技能最多1次)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Laceration]強度<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [NiddlePinAlly]3を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[NiddlePinAlly]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 次のターンに[PenetrateTakeDamageUp]1を付与</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[PenetrateTakeDamageUp]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 各対象の[NiddlePinAlly]が5以上なら、対象の[NiddlePinAlly]を5消耗し、次のターンにその対象へ[NiddlePinnedAlly]を付与"
+                  "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>的[NiddlePinAlly]層数不低于5層，則消耗其5層[NiddlePinAlly]并在<color=#7C5738>下回合</color>対其施加[NiddlePinnedAlly]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3500,13 +3500,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "ギリッ…",
-          "desc": "[DuelCounter]\n[StartBattle] 自分の体力最大値の20%を消耗し、次のターンに[Enhancement]1を得る (1ターンにつき1回)",
+          "name": "咬牙…",
+          "desc": "[DuelCounter]\n[StartBattle] 消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Enhancement](<color=#7C5738>每回合</color>最多1次)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [NiddlePinAlly]2を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[NiddlePinAlly]"
                 }
               ]
             }
@@ -3514,13 +3514,13 @@
         },
         {
           "level": 4,
-          "name": "ギリッ…",
-          "desc": "[DuelCounter]\n[StartBattle] 自分の体力最大値の20%を消耗し、次のターンに<style=\"highlight\">[Enhancement]2、[ChargeRougeAlly]回数5</style>を得る (1ターンにつき1回)\n<style=\"highlight\">[WhenUse] 自分の[ChargeRougeAlly]威力2につき、最終威力 +1 (最大2)</style>",
+          "name": "咬牙…",
+          "desc": "[DuelCounter]\n[StartBattle] 消耗<color=#ffffff>自身</color><color=#61DA61>体力</color>上限20%的<color=#61DA61>体力</color>并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得<style=\"highlight\">2層[Enhancement]与5層[ChargeRougeAlly]</style>(<color=#7C5738>每回合</color>最多1次)\n<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>每帯有2級[ChargeRougeAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [NiddlePinAlly]2を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[NiddlePinAlly]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3533,36 +3533,36 @@
       "levelList": [
         {
           "level": 2,
-          "name": "脇線の外側に縫い目が2本見えたらダブルニードル。失格！",
-          "desc": "[WideAreaRampage]\nこのスキルの的中時、自分の体力最大値の8%を回復\n[WhenUse] 自分の[NeedlekinAlly]を全て消耗し、次のターンに自分と自分以外のランダムな味方2名へ[PenetrateDamageUp]1を付与\n- ル・ルージュ所属を優先して適用 (編成順)",
+          "name": "側縫外側能看到兩根縫綫的話就是双針。淘汰！",
+          "desc": "[WideAreaRampage]\n本技能命中時，使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限8%的<color=#61DA61>体力</color>\n[WhenUse] 消耗<color=#ffffff>自身</color>所有[NeedlekinAlly]并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>与除<color=#ffffff>自身</color>以外的2名<color=#ffffff>友方単位</color>獲得1層[PenetrateDamageUp]\n- 優先指定属于紅派的<color=#ffffff>友方単位</color>(按編隊順序)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が1増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NiddlePinAlly]2を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[NiddlePinAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が1増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NiddlePinAlly]2を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[NiddlePinAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeRougeAlly]回数が1増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得1層[ChargeRougeAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NiddlePinAlly]2を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[NiddlePinAlly]"
                 }
               ]
             }

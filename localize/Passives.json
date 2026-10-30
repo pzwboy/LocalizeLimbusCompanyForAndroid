@@ -3400,48 +3400,48 @@
     },
     {
       "id": 1071702,
-      "name": "今でも聞こえてくる気がするクレーム",
-      "desc": "戦闘中、自分の[ChargeRougeAlly]回数を累計で10消耗するたびに[ChargeRougeAlly]威力1を得る\n\nターン開始時、戦場に味方のオートクチュール::ル・ルージュ 赤き神 シンクレア人格がいるなら、[HowlingCocoonAlly]が1増加\n\nターン開始時、自分の[HowlingCocoonAlly]が最大値であるか、味方のオートクチュール::ル・ルージュ 赤き神 シンクレア人格に[TransformSinclair]があれば、\n[HowlingCocoonAlly]を[HowlingCocoonTwoAlly]に変更し、味方のオートクチュール::ル・ルージュ 赤き神 シンクレア人格が下記の効果を得る\n- [RougeFamilySinclair]1を得る\n- 「ラ・ドゥマンド(la demande)」のスキルコイン的中時、[ChargeRougeAlly]回数1を得て、自分の体力最大値の5%だけ回復"
+      "name": "似乎仍回蕩在耳辺的投訴",
+      "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeRougeAlly]時，使<color=#ffffff>自身</color>増加1級[ChargeRougeAlly]強度\n\n<color=#7C5738>回合開始</color>時，若友方高級定制::紅派 赤紅之神 辛克莱人格在場，則使<color=#ffffff>自身</color>獲得1層[HowlingCocoonAlly]\n\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的[HowlingCocoonAlly]層数為最大値，或友方高級定制::紅派 赤紅之神 辛克莱人格帯有[TransformSinclair]，\n則使<color=#ffffff>自身</color>的[HowlingCocoonAlly]轉化為[HowlingCocoonTwoAlly]并使友方高級定制::紅派 赤紅之神 辛克莱人格獲得以下效果\n- 獲得1層[RougeFamilySinclair]\n- 技能“要求(la demande)”的硬幣命中時，使<color=#ffffff>自身</color>獲得1層[ChargeRougeAlly]并恢復<color=#61DA61>体力</color>上限5%的<color=#61DA61>体力</color>"
     },
     {
       "id": 1071703,
-      "name": "ハンドメイド / ハンドステッチでやれ！！！",
-      "desc": "自分の体力減少量が体力最大値の3%に相当するごとに、[ChargeRougeAlly]回数1を得る (ターンにつき最大20)\n\n自分の体力減少量が体力最大値の1.5%に相当するごとに、[NiddlePinGather]1を得る\n\n自分の基本スキルの体力減少効果では混乱せず、体力が1未満に減少しない (体力が1の場合、基本スキルの効果のうち体力消耗で発動する効果を受けられる)"
+      "name": "手工制作/給我手工縫制！！！",
+      "desc": "每当<color=#ffffff>自身</color>失去<color=#61DA61>体力</color>上限3%的<color=#61DA61>体力</color>時，使<color=#ffffff>自身</color>獲得1層[ChargeRougeAlly](<color=#7C5738>每回合</color>最多20層)\n\n每当<color=#ffffff>自身</color>失去<color=#61DA61>体力</color>上限1.5%的<color=#61DA61>体力</color>時，使<color=#ffffff>自身</color>獲得1層[NiddlePinGather]\n\n<color=#ffffff>自身</color>基礎技能的<color=#61DA61>体力</color>減少效果不会使<color=#ffffff>自身</color>陷入混乱或<color=#61DA61>体力</color>低于1点(<color=#ffffff>自身</color><color=#61DA61>体力</color>為1点時，<color=#ffffff>自身</color>基礎技能消耗<color=#61DA61>体力</color>的效果也可触発)"
     },
     {
       "id": 1071701,
-      "name": "ステッチが均一すぎるだと？手縫いのピックステッチじゃないだと？集合！！！",
-      "desc": "ターン終了時、[NeedlekinAlly]1を得る"
+      "name": "袮説縫綫太整斉了？袮説不是手工縫制？集合！！！",
+      "desc": "<color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得1層[NeedlekinAlly]"
     },
     {
       "id": 1071721,
-      "name": "1インチあたりの針数は20以上で！！！",
-      "desc": "速度が最も高い味方1名の基本攻撃スキル的中時、[Laceration]2を付与 (1ターンにつき1回)\n\n- 該当する味方がル・ルージュ所属なら、[NiddlePinAlly]1を追加で付与"
+      "name": "每英寸的針数要在20以上！！！",
+      "desc": "<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color>基礎攻撃技能命中時，使<color=#ffffff>目標</color>増加2級[Laceration]強度(<color=#7C5738>每回合</color>最多1次)\n- 若該<color=#ffffff>友方単位</color>属于紅派，則額外対<color=#ffffff>目標</color>施加1層[NiddlePinAlly]"
     },
     {
       "id": 1061701,
-      "name": "ル・ノワール ウーステッド生地",
-      "desc": "自分の[ChargeNoirAlly]威力1につき、守備スキルのマッチ威力 +1 (最大5)\n\n[NoirBindArmorAlly]が8以上なら、「警告放送」で[ChargeNoirAlly]回数を消耗した後、そのスキルの終了時に消耗した[ChargeNoirAlly]回数だけ自分の[ChargeNoirAlly]回数が増加 (1ターンにつき1回)"
+      "name": "黑派 精紡面料",
+      "desc": "<color=#ffffff>自身</color>每帯有1級[ChargeNoirAlly]強度，使<color=#ffffff>自身</color>守備技能的<color=#ffffff>拼点威力</color>+1(最多+5)\n\n若<color=#ffffff>自身</color>的[NoirBindArmorAlly]層数不低于8層，則<color=#ffffff>自身</color>通過“警告广播”消耗[ChargeNoirAlly]層数后，該技能結束時使<color=#ffffff>自身</color>獲得層数相当于消耗的[ChargeNoirAlly]層数的[ChargeNoirAlly](<color=#7C5738>每回合</color>最多1次)"
     },
     {
       "id": 1061702,
-      "name": "傾聴していただかないと、ね？",
-      "desc": "戦闘中、自分の[ChargeNoirAlly]回数を累計で10消耗するたびに[ChargeNoirAlly]1を得る\n\n[ReadyToListenHonglu]は1ターンにつき1のみ得られる\n- [TimeToListenHonglu]があれば、[ReadyToListenHonglu]は得られない\n\n自分の[ReadyToListenHonglu]が2なら、ターン終了時に全て消耗して次のターンに下記の効果を適用\n- [TimeToListenHonglu]2を得る\n- 全ての戦場にいる敵へ[WarinessHonglu]2を付与 (1ターンにつき1回、集中戦闘の場合は部位で判定)"
+      "name": "要認真傾听才行呀？",
+      "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoirAlly]時，使<color=#ffffff>自身</color>増加1級[ChargeNoirAlly]強度\n\n<color=#ffffff>自身</color><color=#7C5738>每回合</color>最多獲得1層[ReadyToListenHonglu]\n- 若<color=#ffffff>自身</color>帯有[TimeToListenHonglu]，則不会獲得[ReadyToListenHonglu]\n\n若<color=#ffffff>自身</color>的[ReadyToListenHonglu]層数為2層，則<color=#7C5738>回合結束</color>時消耗所有[ReadyToListenHonglu]并触発以下效果\n- 使<color=#ffffff>自身</color>獲得2層[TimeToListenHonglu]\n- 対場上的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加2層[WarinessHonglu](<color=#7C5738>每回合</color>最多1次;若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)"
     },
     {
       "id": 1061721,
-      "name": "毛布を掛けてあげる",
-      "desc": "このターン中、[SupportProtect]専用スキルを最初に使用した人格が、そのスキルの使用時に[Protection]1を得る (1ターンにつき1回)"
+      "name": "為宁裹上毛毯",
+      "desc": "使<color=#7C5738>本回合</color>首个使用[SupportProtect]専用技能的人格在使用該技能時獲得1層[Protection](<color=#7C5738>每回合</color>最多1次)"
     },
     {
       "id": 1071713,
-      "name": "ハンドメイド / ハンドステッチでやれ！！！",
-      "desc": "自分の体力減少量が体力最大値の3%に相当するごとに、[ChargeRougeAlly]回数1を得る (ターンにつき最大20)\n\n自分の体力減少量が体力最大値の1.5%に相当するごとに、[NiddlePinGather]1を得る\n\n自分の基本スキルの体力減少効果では混乱せず、体力が1未満に減少しない (体力が1の場合、基本スキルの効果のうち体力消耗で発動する効果を受けられる)\n\n自分の[NeedlekinAlly]が3のとき、自分の攻撃スキル終了時にランダムな敵へ「脇線の外側に縫い目が2本見えたらダブルニードル。失格！」スキルを使用"
+      "name": "手工制作/給我手工縫制！！！",
+      "desc": "每当<color=#ffffff>自身</color>失去<color=#61DA61>体力</color>上限3%的<color=#61DA61>体力</color>時，使<color=#ffffff>自身</color>獲得1層[ChargeRougeAlly](<color=#7C5738>每回合</color>最多20層)\n\n每当<color=#ffffff>自身</color>失去<color=#61DA61>体力</color>上限1.5%的<color=#61DA61>体力</color>時，使<color=#ffffff>自身</color>獲得1層[NiddlePinGather]\n\n<color=#ffffff>自身</color>基礎技能的<color=#61DA61>体力</color>減少效果不会使<color=#ffffff>自身</color>陷入混乱或<color=#61DA61>体力</color>低于1点(<color=#ffffff>自身</color><color=#61DA61>体力</color>為1点時，<color=#ffffff>自身</color>基礎技能消耗<color=#61DA61>体力</color>的效果也可触発)\n\n若<color=#ffffff>自身</color>的[NeedlekinAlly]層数為3層，則<color=#ffffff>自身</color>攻撃技能結束時，随机対1名<color=#ffffff>敵方単位</color>使用技能“側縫外側能看到兩根縫綫的話就是双針。淘汰！”"
     },
     {
       "id": 1061712,
-      "name": "傾聴していただかないと、ね？",
-      "desc": "戦闘中、自分の[ChargeNoirAlly]回数を累計で10消耗するたびに[ChargeNoirAlly]1を得る\n\n[ReadyToListenHonglu]は1ターンにつき1のみ得られる\n- [TimeToListenHonglu]があれば、[ReadyToListenHonglu]は得られない\n\n自分の[ReadyToListenHonglu]が2なら、ターン終了時に全て消耗して次のターンに下記の効果を適用\n- [TimeToListenHonglu]2を得る\n- 全ての戦場にいる敵へ[WarinessHonglu]2を付与 (1ターンにつき1回、集中戦闘の場合は部位で判定)\n<style=\"highlight\">- 「案内放送」の使用前効果の使用回数を初期化</style>"
+      "name": "要認真傾听才行呀？",
+      "desc": "本場戦斗中，每当<color=#ffffff>自身</color>累計消耗10層[ChargeNoirAlly]時，使<color=#ffffff>自身</color>増加1級[ChargeNoirAlly]強度\n\n<color=#ffffff>自身</color><color=#7C5738>每回合</color>最多獲得1層[ReadyToListenHonglu]\n- 若<color=#ffffff>自身</color>帯有[TimeToListenHonglu]，則不会獲得[ReadyToListenHonglu]\n\n若<color=#ffffff>自身</color>的[ReadyToListenHonglu]層数為2層，則<color=#7C5738>回合結束</color>時消耗所有[ReadyToListenHonglu]并触発以下效果\n- 使<color=#ffffff>自身</color>獲得2層[TimeToListenHonglu]\n- 対場上的<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>施加2層[WarinessHonglu](<color=#7C5738>每回合</color>最多1次;若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n<style=\"highlight\">- 重置“店内广播”使用前效果的使用次数</style>"
     }
   ]
 }

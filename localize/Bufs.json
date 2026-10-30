@@ -4175,7 +4175,7 @@
       "desc": "- 最大値：2\n- 每帯有1層本效果，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+7%",
       "summary": "",
       "undefined": "-",
-      "flavor": "為了用它去剪断于地下制成的最初的材料，剪刀被做得更加特別而巨大。這把一直剪裁着最初織成的布料的剪刀綻放花朶，是其切断根源所産生的自然現象。"
+      "flavor": "為了用它去剪断于地下制成的最初的材料，剪刀被做得更加特別且巨大。這把一直剪裁着最初織成的布料的剪刀綻放花朶，是其切断根源所産生的自然現象。"
     },
     {
       "id": "SupportAlly",
@@ -4357,72 +4357,72 @@
     },
     {
       "id": "NiddlePinGather",
-      "name": "小さく尖った釘",
-      "desc": "- 最大値 : 30",
+      "name": "小而尖的釘子",
+      "desc": "- 最大値：30",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "NiddlePinAlly",
       "name": "針釘",
-      "desc": "- 特殊出血\n- 最大値 : 10\n- ターン終了時、数値が1減少\n\n- この効果の数値が減少するとき、減少量1につき効果保有者の出血威力が1増加し、色欲ダメージを3受ける\n\n- 戦場に敵のオートクチュール::ル・ルージュ 赤き神 シンクレア人格がいる場合、ターン終了時にこの効果の保有者がラブジェクト(l'abject)を1得る",
+      "desc": "- <color=#E40302>特殊流血</color>\n- 最大値：10\n- <color=#7C5738>回合結束</color>時，本效果層数減少1層\n\n- 本效果層数減少時，每減少1層本效果，使<color=#ffffff>自身</color>増加1級流血 強度并受到3点<color=#FE6E00>色欲</color><color=#ffffff>傷害</color>\n\n- 若敵方高級定制::紅派 赤紅之神 辛克莱人格在場，則<color=#7C5738>回合結束</color>時対<color=#ffffff>自身</color>施加1層卑賎之物(l'abject) ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "NiddlePinnedAlly",
-      "name": "剥製状態",
-      "desc": "- 最大値 : 1\n- スキル最終威力 -1\n- 自分が攻撃スキルを使用するとき、自分の出血が発動し、出血回数が1減少(スキルにつき1回)\n- ターン終了時、次のターンに出血回数2、威力減少1、束縛2を得る\n- ターン終了時に消滅",
+      "name": "標本化",
+      "desc": "- 最大値：1\n- 技能的<color=#ffffff>最終威力</color>-1\n- <color=#ffffff>自身</color>使用攻撃技能時，触発<color=#ffffff>自身</color>的流血 ，并使<color=#ffffff>自身</color>的流血 層数減少1層(每个技能最多1次)\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加2層流血 ，1層威力降低 与2層束縛 \n- <color=#7C5738>回合結束</color>時解除",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "NeedlekinAlly",
-      "name": "針っ子",
-      "desc": "- 最大値 : 3\n- 数値1につき攻撃レベル +1",
+      "name": "針族",
+      "desc": "- 最大値：3\n- 每帯有1層本效果，使<color=#ffffff>自身</color>攻撃等級+1",
       "summary": "",
       "undefined": "-",
-      "flavor": "しじゅかに！しじゅかに！"
+      "flavor": "按静！按静！"
     },
     {
       "id": "HowlingCocoonAlly",
-      "name": "繭の泣き声 - 微弱",
-      "desc": "- 最大値 : 5\n- 基本スキル最終威力 +1\n- 基本スキル的中時、最大体力の3%分の体力を回復(ターンにつき5回)\n\n- ターン開始時、味方のオートクチュール::ル・ルージュ 赤き神 シンクレアが戦場にいない場合、この効果が消滅",
+      "name": "繭的悲鳴-微弱",
+      "desc": "- 最大値：5\n- 基礎技能的<color=#ffffff>最終威力</color>+1\n- 基礎技能命中時，使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限3%的<color=#61DA61>体力</color>(<color=#7C5738>每回合</color>最多5次)\n\n- <color=#7C5738>回合開始</color>時，若友方高級定制::紅派 赤紅之神 辛克莱人格不在場，則解除本效果",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HowlingCocoonTwoAlly",
-      "name": "繭の泣き声 - 悪性",
-      "desc": "- 最大値 : 1\n- 基本スキル最終威力 +1\n- 基本スキルダメージ量 +10%\n- 基本スキル的中時、最大体力の6%分の体力を回復(ターンにつき5回)\n\n- ターン開始時、味方のオートクチュール::ル・ルージュ 赤き神 シンクレアが戦場にいない場合、この効果が消滅",
+      "name": "繭的悲鳴-惡性",
+      "desc": "- 最大値：1\n- 基礎技能的<color=#ffffff>最終威力</color>+1\n- 基礎技能造成的<color=#ffffff>傷害</color>+10%\n- 基礎技能命中時，使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限6%的<color=#61DA61>体力</color>(<color=#7C5738>每回合</color>最多5次)\n\n- <color=#7C5738>回合開始</color>時，若友方高級定制::紅派 赤紅之神 辛克莱人格不在場，則解除本效果",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "NoirBindArmorAlly",
-      "name": "ル・ノワール ウーステッド生地コート",
-      "desc": "- 最大値 : 15\n- 数値5につき、攻撃レベル +1、防御レベル +1\n- バリアがある状態で被弾時、1増加(ターンにつき最大5)\n- ターン終了時、次のターンに(数値×5)分のバリアを得て数値が1減少",
+      "name": "黑派 精紡大衣",
+      "desc": "- 最大値：15\n- 每帯有5層本效果，使<color=#ffffff>自身</color>攻撃等級+1，防御等級+1\n- 若<color=#ffffff>自身</color>帯有<color=#81BBE8>護盾</color>時受到攻撃，則使<color=#ffffff>自身</color>獲得1層本效果(<color=#7C5738>每回合</color>最多5層)\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得(本效果層数×5)点<color=#81BBE8>護盾</color>并使本效果層数減少1層",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ReadyToListenHonglu",
-      "name": "朗読の準備",
-      "desc": "- 最大値 : 2\n- ターン終了時、次のターンに数値分の保護を得る\n- ターン終了時に最大値の場合、全て消耗し、次のターンに傾聴の時間を2得る\n- ターンにつき最大1のみ獲得可能\n- 傾聴の時間がある場合、朗読の準備は得られない",
+      "name": "朗読准備",
+      "desc": "- 最大値：2\n- <color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得層数相当于本效果層数的守護 \n- <color=#7C5738>回合結束</color>時，若本效果層数為最大値，則消耗所有本效果并在<color=#7C5738>下回合</color>獲得2層傾听的時刻 \n- <color=#7C5738>每回合</color>最多獲得1層本效果\n- 若<color=#ffffff>自身</color>帯有傾听的時刻 ，則<color=#ffffff>自身</color>不会獲得朗読准備 ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeToListenHonglu",
-      "name": "傾聴の時間",
-      "desc": "- 最大値 : 2\n- 自分の基本スキルの基本威力 +1\n- 戦闘開始時、最も左のスロットに加算コインスキルを装着した人格の精神力を4回復、減算コインスキルを装着した人格の精神力を4減少(囚人ごとにターンにつき1回)\n・この効果で対象の精神力は-40未満に減少しない\n- 戦闘開始時、加算コインスキルを装着した人格の精神力が40以上、または減算コインスキルを装着した人格の精神力が-40以下の場合、その人格に怠惰ダメージ量増加1を付与(囚人ごとにターンにつき1回)\n・その人格がル・ノワール所属の場合、追加で基本威力増加1を付与\n- ターン終了時、1減少",
+      "name": "傾听的時刻",
+      "desc": "- 最大値：2\n- <color=#ffffff>自身</color>基礎技能的<color=#ffffff>基礎威力</color>+1\n- <color=#ffffff>戦斗開始</color>時，使在最左側<color=#ffffff>行動槽</color>装備了加算硬幣技能的人格恢復4点<color=#81BBE8>理智値</color>，装備了減算硬幣技能的人格失去4点<color=#81BBE8>理智値</color>(每名罪人<color=#7C5738>每回合</color>最多1次)\n· 該效果不会使<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>低于-40点\n- <color=#ffffff>戦斗開始</color>時，若装備了加算硬幣技能的人格<color=#81BBE8>理智値</color>不低于40点或装備了減算硬幣技能的人格<color=#81BBE8>理智値</color>不高于-40点，則使其獲得1層<color=#FED233>怠惰</color>傷害強化 (每名罪人<color=#7C5738>每回合</color>最多1次)\n· 若該人格属于黑派，則額外使其獲得1層<color=#ffffff>基礎威力</color>提升 \n- <color=#7C5738>回合結束</color>時，本效果層数減少1層",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WarinessHonglu",
-      "name": "傾聴の刑罰",
-      "desc": "- 最大値 : 2\n- 数値分、攻撃レベル -1\n- 傾聴の時間を保有した人格がいる場合、ル・ノワール所属の人格から受けるダメージ量 +(数値×10)%\n- 傾聴の時間を保有した人格がいる場合、ターン終了時に1減少 (この効果を付与した人格が退却・死亡した場合、消滅)",
+      "name": "傾听的刑罰",
+      "desc": "- 最大値：2\n- 每帯有1層本效果，使<color=#ffffff>自身</color>攻撃等級-1\n- 若有人格帯有傾听的時刻 ，則使<color=#ffffff>自身</color>受到来自属于黑派的人格的<color=#ffffff>傷害</color>+(本效果層数×10)%\n- 若有人格帯有傾听的時刻 ，則<color=#7C5738>回合結束</color>時本效果層数減少1層(若施加本效果的人格撤退或陣亡，則解除本效果)",
       "summary": "",
       "undefined": "-"
     }

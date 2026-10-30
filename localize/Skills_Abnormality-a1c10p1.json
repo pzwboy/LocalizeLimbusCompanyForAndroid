@@ -404,7 +404,7 @@
           "level": 1,
           "name": "我説這就是人家的招牌奥",
           "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有2層[SapsareeYammi]，使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若主要<color=#ffffff>目標</color>帯有[SapsareeSpices]，則使本技能的<color=#ffffff>最終威力</color>+3\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-80%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[SapsareeYammi]",
-          "flavor": "通過掌握這項技術，最終升職為副主厨。",
+          "flavor": "据説他通過掌握這項技藝，最終升職為副主厨。",
           "coinlist": [
             {
               "coindescs": [
@@ -808,7 +808,7 @@
           "level": 1,
           "name": "感謝…聆听…",
           "desc": "[CantChangeTarget]\n- 帯有的[ReliefSense]層数与本技能指定的罪人相同的罪人可无視<color=#7C5737>速度値</color>将本技能的<color=#ffffff>目標</color>変更為<color=#ffffff>自身</color>\n優先指定[ReliefSense]層数最高的<color=#ffffff>目標</color>\n[DefeatDuel] 使<color=#ffffff>自身</color>受到来自与本技能拼点的技能的<color=#ffffff>傷害</color>+150%\n[EndSkill] 解除<color=#ffffff>目標</color>所有[ReliefSense]",
-          "flavor": "魅惑有許多種類。其結果和過程都有所不同。但，受魅惑的状態是相同的。即敞開心扉，毫无防備的状態。",
+          "flavor": "魅惑有許多種類。其結果和過程都有所不同。但，受魅惑的状態是相同的。即敞開心扉、毫无防備的状態。",
           "coinlist": [
             {
               "coindescs": [
@@ -1702,7 +1702,7 @@
         {
           "level": 1,
           "name": "袮説縫綫太整斉了？袮説不是手工縫制？集合！！！",
-          "desc": "[StartBattle] <color=#7C5738>下回合</color>召喚3名針族",
+          "desc": "[StartBattle] <color=#7C5738>下回合</color>召喚3名針族[TabExplain]",
           "coinlist": []
         }
       ]
@@ -1732,7 +1732,7 @@
         {
           "level": 1,
           "name": "側縫外側能看到兩根縫綫的話就是双針。淘汰！",
-          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>每有1名針族在場，使本技能造成的傷害+50%\n · 若場上没有針族，則取消本技能</u></b></mark></color>\n\n[EndSkill] 撃殺所有針族\n · 每撃殺1名針族，下回合使自身獲得1層[Enhancement]",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>每有1名針族[TabExplain]在場，使本技能造成的傷害+50%\n · 若場上没有針族[TabExplain]，則取消本技能</u></b></mark></color>\n\n[EndSkill] 撃殺所有針族[TabExplain]\n · 每撃殺1名針族[TabExplain]，下回合使自身獲得1層[Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -2003,7 +2003,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "又餓…又冷…又痛…！",
+          "name": "好餓…好冷…好痛…！",
           "desc": "優先指定<color=#61DA61>体力</color>最低的<color=#ffffff>目標</color>為主要<color=#ffffff>目標</color>\n<color=#ffffff>目標</color>每失去1%<color=#61DA61>体力</color>，使本技能造成的<color=#ffffff>傷害</color>+1%(最多+30%)\n[WhenUse] 主要<color=#ffffff>目標</color>每帯有6級[Laceration]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] 若主要<color=#ffffff>目標</color>現存<color=#61DA61>体力</color>低于50%，則使本技能的<color=#ffffff>基礎威力</color>+2\n[WhenUse] 若<color=#ffffff>自身</color>的[ChargeRouge]層数不低于10層，則消耗<color=#ffffff>自身</color>所有[ChargeRouge]層数并使本技能的<color=#ffffff>硬幣威力</color>+2，<color=#ffffff>攻撃容量</color>+2\n[DefeatDuel] 使本技能造成的<color=#ffffff>傷害</color>-95%，且本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
           "coinlist": [
             {
@@ -2089,7 +2089,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "肚子…空空…",
+          "name": "肚子…餓了…",
           "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Laceration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WinDuel] 使<color=#ffffff>自身</color>獲得3層[ChargeRouge]",
           "coinlist": [
             {

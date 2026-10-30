@@ -3652,20 +3652,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "耳を傾けてください",
+          "name": "請側耳傾听",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が2増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                 }
               ]
             }
@@ -3673,20 +3673,20 @@
         },
         {
           "level": 2,
-          "name": "耳を傾けてください",
-          "desc": "<style=\"highlight\">[WhenUse] 自分の[ChargeNoirAlly]回数を3消耗し、コイン威力 +1 (最大2)</style>",
+          "name": "請側耳傾听",
+          "desc": "<style=\"highlight\">[WhenUse] 消耗<color=#ffffff>自身</color>3層[ChargeNoirAlly]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">3</style>増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">3</style>層[ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                 }
               ]
             }
@@ -3694,20 +3694,20 @@
         },
         {
           "level": 4,
-          "name": "耳を傾けてください",
-          "desc": "<style=\"highlight\">自分の[ChargeNoirAlly]威力2につき、ダメージ量 +5% (最大10%)</style>\n[WhenUse] 自分の[ChargeNoirAlly]回数を3消耗し、コイン威力 +1 (最大2)\n<style=\"highlight\">[EndSkillAll] 自分の[ChargeNoirAlly]回数が10未満なら、自分の[ChargeNoirAlly]回数が3増加</style>",
+          "name": "請側耳傾听",
+          "desc": "<style=\"highlight\"><color=#ffffff>自身</color>每帯有2級[ChargeNoirAlly]強度，使本技能造成的<color=#ffffff>傷害</color>+5%(最多+10%)</style>\n[WhenUse] 消耗<color=#ffffff>自身</color>3層[ChargeNoirAlly]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n<style=\"highlight\">[EndSkillAll] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]層数低于10層，則使<color=#ffffff>自身</color>獲得3層[ChargeNoirAlly]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">3</style>を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">3</style>級[Vibration]強度"
                 }
               ]
             }
@@ -3720,32 +3720,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "リピート再生のリピート",
+          "name": "重復播放的重復",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が3増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得3層[ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "自分に[TimeToListenHonglu]があれば、このコインを1回再使用 (スキルにつき1回)"
+                  "desc": "若<color=#ffffff>自身</color>帯有[TimeToListenHonglu]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [WarinessHonglu]1を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WarinessHonglu]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] 精神力ダメージ3"
+                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成3点理智<color=#ffffff>傷害</color>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] 次のターンに[AmberResistDown]1を付与 (1ターンにつき1回)"
+                  "desc": "[ReUseOnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[AmberResistDown](<color=#7C5738>每回合</color>最多1次)"
                 }
               ]
             }
@@ -3753,32 +3753,32 @@
         },
         {
           "level": 2,
-          "name": "リピート再生のリピート",
-          "desc": "<style=\"highlight\">[WhenUse] 自分の[ChargeNoirAlly]回数を3消耗し、コイン威力 +1 (最大2)</style>",
+          "name": "重復播放的重復",
+          "desc": "<style=\"highlight\">[WhenUse] 消耗<color=#ffffff>自身</color>3層[ChargeNoirAlly]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が<style=\"highlight\">3</style>増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加<style=\"highlight\">3</style>層[Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "自分に[TimeToListenHonglu]があれば、このコインを1回再使用 (スキルにつき1回)"
+                  "desc": "若<color=#ffffff>自身</color>帯有[TimeToListenHonglu]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [WarinessHonglu]1を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WarinessHonglu]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] 精神力ダメージ3"
+                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成3点理智<color=#ffffff>傷害</color>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] 次のターンに[AmberResistDown]1を付与 (1ターンにつき1回)"
+                  "desc": "[ReUseOnSucceedAttack] <color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[AmberResistDown](<color=#7C5738>每回合</color>最多1次)"
                 }
               ]
             }
@@ -3786,32 +3786,32 @@
         },
         {
           "level": 4,
-          "name": "リピート再生のリピート",
-          "desc": "<style=\"highlight\">自分の[ChargeNoirAlly]威力2につき、ダメージ量 +10% (最大20%)</style>\n[WhenUse] 自分の[ChargeNoirAlly]回数を3消耗し、コイン威力 +1 (最大2)",
+          "name": "重復播放的重復",
+          "desc": "<style=\"highlight\"><color=#ffffff>自身</color>每帯有2級[ChargeNoirAlly]強度，使本技能造成的<color=#ffffff>傷害</color>+10%(最多+20%)</style>\n[WhenUse] 消耗<color=#ffffff>自身</color>3層[ChargeNoirAlly]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">5</style>増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">5</style>層[ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "自分に[TimeToListenHonglu]があれば、このコインを1回再使用 (スキルにつき1回)"
+                  "desc": "若<color=#ffffff>自身</color>帯有[TimeToListenHonglu]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [WarinessHonglu]1を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WarinessHonglu]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] 精神力ダメージ3"
+                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成3点理智<color=#ffffff>傷害</color>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] <style=\"highlight\">このターンと</style>次のターンに[AmberResistDown]1を付与 (1ターンにつき1回)"
+                  "desc": "[ReUseOnSucceedAttack] <style=\"highlight\"><color=#7C5738>本回合</color>与</style><color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加1層[AmberResistDown](<color=#7C5738>每回合</color>最多1次)"
                 }
               ]
             }
@@ -3824,39 +3824,39 @@
       "levelList": [
         {
           "level": 3,
-          "name": "おぞましいリピート再生",
-          "desc": "自分の[ChargeNoirAlly]威力2につき、ダメージ量 +10% (最大30%)\n[WhenUse] (自分の[ChargeNoirAlly]威力 × 2)だけ[NoirBindArmorAlly]を得る (スキルにつき最大10)\n[WhenUse] 自分の[ChargeNoirAlly]回数を5消耗し、コイン威力 +1 (最大3)\n[EndSkill] 自分に[TimeToListenHonglu]がなければ、[ReadyToListenHonglu]1を得る (1ターンにつき1回)",
+          "name": "可怕的重復播放",
+          "desc": "<color=#ffffff>自身</color>每帯有2級[ChargeNoirAlly]強度，使本技能造成的<color=#ffffff>傷害</color>+10%(最多+30%)\n[WhenUse] 使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×2)層[NoirBindArmorAlly](每个技能最多10層)\n[WhenUse] 消耗<color=#ffffff>自身</color>5層[ChargeNoirAlly]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+3)\n[EndSkill] 若<color=#ffffff>自身</color>未帯有[TimeToListenHonglu]，則使<color=#ffffff>自身</color>獲得1層[ReadyToListenHonglu](<color=#7C5738>每回合</color>最多1次)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]、対象の[Vibration]回数が1減少"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "自分に[TimeToListenHonglu]があれば、このコインを1回再使用 (スキルにつき1回)"
+                  "desc": "若<color=#ffffff>自身</color>帯有[TimeToListenHonglu]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [WarinessHonglu]1を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WarinessHonglu]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] 精神力ダメージ5"
+                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成5点理智<color=#ffffff>傷害</color>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] このコインの最終ダメージ量の20%だけ怠惰ダメージ"
+                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量20%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
                 }
               ]
             }
@@ -3864,42 +3864,42 @@
         },
         {
           "level": 4,
-          "name": "おぞましいリピート再生",
-          "desc": "自分の[ChargeNoirAlly]威力2につき、ダメージ量 +10% (最大30%)\n[WhenUse] (自分の[ChargeNoirAlly]威力 × <style=\"highlight\">3</style>)だけ[NoirBindArmorAlly]を得る (スキルにつき最大<style=\"highlight\">15</style>)\n[WhenUse] 自分の[ChargeNoirAlly]回数を5消耗し、コイン威力 +1 (最大3)\n[EndSkill] 自分に[TimeToListenHonglu]がなければ、[ReadyToListenHonglu]1を得る (1ターンにつき1回)",
+          "name": "可怕的重復播放",
+          "desc": "<color=#ffffff>自身</color>每帯有2級[ChargeNoirAlly]強度，使本技能造成的<color=#ffffff>傷害</color>+10%(最多+30%)\n[WhenUse] 使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×<style=\"highlight\">3</style>)層[NoirBindArmorAlly](每个技能最多<style=\"highlight\">15</style>層)\n[WhenUse] 消耗<color=#ffffff>自身</color>5層[ChargeNoirAlly]并使本技能的<color=#ffffff>硬幣威力</color>+1(最多+3)\n[EndSkill] 若<color=#ffffff>自身</color>未帯有[TimeToListenHonglu]，則使<color=#ffffff>自身</color>獲得1層[ReadyToListenHonglu](<color=#7C5738>每回合</color>最多1次)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]3を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Vibration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]、対象の[Vibration]回数が1減少"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "自分に[TimeToListenHonglu]があれば、このコインを1回再使用 (スキルにつき1回)"
+                  "desc": "若<color=#ffffff>自身</color>帯有[TimeToListenHonglu]，則<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多1次)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] 自分の[ChargeNoirAlly]威力が2以上なら、[VibrationExplosion]、対象の[Vibration]回数が1減少</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 若<color=#ffffff>自身</color>的[ChargeNoirAlly]強度不低于2級，則使<color=#ffffff>目標</color>[VibrationExplosion]，并使<color=#ffffff>目標</color>的[Vibration]層数減少1層</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [WarinessHonglu]1を付与<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WarinessHonglu]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] 精神力ダメージ5<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成5点理智<color=#ffffff>傷害</color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] このコインの最終ダメージ量の<style=\"highlight\">30%</style>だけ怠惰ダメージ"
+                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量<style=\"highlight\">30%</style>的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
                 }
               ]
             }
@@ -3912,20 +3912,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "案内放送",
-          "desc": "[DuelCounter]\n[StartBattle] 自分に[SupportProtect]がなければ、[SupportProtect]1を得る\n[WhenUse] 自分の[ChargeNoirAlly]威力だけ[NoirBindArmorAlly]を得る (スキルにつき最大5)\n[WhenUse] 自分の[ChargeNoirAlly]回数が2増加",
+          "name": "店内广播",
+          "desc": "[DuelCounter]\n[StartBattle] 若<color=#ffffff>自身</color>未帯有[SupportProtect]，則使<color=#ffffff>自身</color>獲得1層[SupportProtect]\n[WhenUse] 使<color=#ffffff>自身</color>獲得(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度)層[NoirBindArmorAlly](每个技能最多5層)\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
                 }
               ]
             }
@@ -3933,20 +3933,20 @@
         },
         {
           "level": 4,
-          "name": "案内放送",
-          "desc": "[DuelCounter]\n<style=\"highlight\">自分の[ChargeNoirAlly]威力2につき、ダメージ量 +25% (最大75%)</style>\n[StartBattle] 自分に[SupportProtect]がなければ、[SupportProtect]1を得る\n<style=\"highlight\">[BeforeUse] [TimeToListenHonglu]を保有していれば、「<noparse>おぞましいリピート再生</noparse>」として発動 (戦闘につき1回)\n[WhenUse] 自分の[ChargeNoirAlly]威力3につき、コイン威力 +1 (最大2)</style>\n[WhenUse] <style=\"highlight\">(自分の[ChargeNoirAlly]威力 × 3)</style>だけ[NoirBindArmorAlly]を得る (スキルにつき最大<style=\"highlight\">15</style>)\n[WhenUse] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加",
+          "name": "店内广播",
+          "desc": "[DuelCounter]\n<style=\"highlight\"><color=#ffffff>自身</color>每帯有2級[ChargeNoirAlly]強度，使本技能造成的<color=#ffffff>傷害</color>+25%(最多+75%)</style>\n[StartBattle] 若<color=#ffffff>自身</color>未帯有[SupportProtect]，則使<color=#ffffff>自身</color>獲得1層[SupportProtect]\n<style=\"highlight\">[BeforeUse] 若<color=#ffffff>自身</color>帯有[TimeToListenHonglu]，則改為使用“可怕的重復播放”(每場戦斗最多1次)\n[WhenUse] <color=#ffffff>自身</color>每帯有3級[ChargeNoirAlly]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>\n[WhenUse] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">(<color=#ffffff>自身</color>的[ChargeNoirAlly]強度×3)</style>層[NoirBindArmorAlly](每个技能最多<style=\"highlight\">15</style>層)\n[WhenUse] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[ChargeNoirAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">2</style>を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加<style=\"highlight\">2</style>級[Vibration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
                 }
               ]
             }
@@ -3959,8 +3959,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "警告放送",
-          "desc": "[CanDuelGuard]\n[SupportProtect]専用スキル\n[WhenUse] 自分の[ChargeNoirAlly]回数を6消耗し、次のターンに[SupportProtect]1を得る (1ターンにつき1回)\n[WhenUse] 自分に[TimeToListenHonglu]がなければ、[ReadyToListenHonglu]1を得る (1ターンにつき1回)\n[WinDuel] 自分の[ChargeNoirAlly]回数が2増加\n[WinDuel] [VibrationExplosion]、対象の[Vibration]回数が1減少",
+          "name": "警告广播",
+          "desc": "[CanDuelGuard]\n[SupportProtect]専用技能\n[WhenUse] 消耗<color=#ffffff>自身</color>6層[ChargeNoirAlly]并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[SupportProtect](<color=#7C5738>每回合</color>最多1次)\n[WhenUse] 若<color=#ffffff>自身</color>未帯有[TimeToListenHonglu]，則使<color=#ffffff>自身</color>獲得1層[ReadyToListenHonglu](<color=#7C5738>每回合</color>最多1次)\n[WinDuel] 使<color=#ffffff>自身</color>獲得2層[ChargeNoirAlly]\n[WinDuel] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層",
           "coinlist": [
             {
               "coindescs": [
@@ -3973,8 +3973,8 @@
         },
         {
           "level": 4,
-          "name": "警告放送",
-          "desc": "[CanDuelGuard]\n[SupportProtect]専用スキル\n<style=\"highlight\">自分の[ChargeNoirAlly]威力2につき、最終威力 +1 (最大3)</style>\n[WhenUse] 自分の[ChargeNoirAlly]回数を6消耗し、次のターンに[SupportProtect]1を得る (1ターンにつき1回)\n[WhenUse] 自分に[TimeToListenHonglu]がなければ、[ReadyToListenHonglu]1を得る (1ターンにつき1回)\n[WinDuel] 自分の[ChargeNoirAlly]回数が<style=\"highlight\">4</style>増加\n[WinDuel] [VibrationExplosion]、対象の[Vibration]回数が1減少",
+          "name": "警告广播",
+          "desc": "[CanDuelGuard]\n[SupportProtect]専用技能\n<style=\"highlight\"><color=#ffffff>自身</color>每帯有2級[ChargeNoirAlly]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)</style>\n[WhenUse] 消耗<color=#ffffff>自身</color>6層[ChargeNoirAlly]并在<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[SupportProtect](<color=#7C5738>每回合</color>最多1次)\n[WhenUse] 若<color=#ffffff>自身</color>未帯有[TimeToListenHonglu]，則使<color=#ffffff>自身</color>獲得1層[ReadyToListenHonglu](<color=#7C5738>每回合</color>最多1次)\n[WinDuel] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">4</style>層[ChargeNoirAlly]\n[WinDuel] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層",
           "coinlist": [
             {
               "coindescs": [
