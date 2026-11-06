@@ -116,7 +116,7 @@
     {
       "id": 9432,
       "name": "宅邸模型八音盒",
-      "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱，<color=#7C5738>下回合</color>開始時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級[Sinking]強度并対其施加4層[Sinking](每場戦斗最多1次;不包括強制混乱;若是<color=#ffffff>集中遭遇戦</color>，則改為所有<color=#ffffff>部位</color>)\n\n<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，対[Sinking]層数最低的1名<color=#ffffff>敵方単位</color>施加2層[Sinking](<color=#7C5738>每回合</color>最多3次;若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)",
+      "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱，<color=#7C5738>下回合</color>開始時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級[Sinking]強度并対其施加4層[Sinking](每場戦斗最多1次;不包括強制混乱;若是<color=#ffffff>集中遭遇戦</color>，則改為所有<color=#ffffff>部位</color>)\n- 每編入2名属于呼嘯山庄或埃德加家族的人格，該效果每場戦斗可額外触発1次(每場戦斗最多触発4次，包括待命人員)\n\n<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，対[Sinking]層数最低的1名<color=#ffffff>敵方単位</color>施加2層[Sinking](<color=#7C5738>每回合</color>最多3次;若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)",
       "simpleDesc": [
         {
           "abilityID": 9432,
@@ -176,7 +176,7 @@
     {
       "id": 9436,
       "name": "折射玻璃管",
-      "desc": "常規遭遇戦中，命中[Sinking]強度与[Sinking]層数之和不低于10点的<color=#ffffff>敵方単位</color>時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為-45点，\n則対其造成(其[Sinking]強度/2)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n\n<color=#ffffff>集中遭遇戦</color>中，命中[Sinking]強度与[Sinking]層数之和不低于10点的<color=#ffffff>敵方単位</color>時，\n対<color=#ffffff>目標</color>造成(其[Sinking]強度/2)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n\n若命中<color=#ffffff>敵方単位</color>的技能為施加[Sinking](包括施加[Sinking]層数与特殊<noparse>沈淪</noparse>)的技能，則改為其造成(其[Sinking]強度)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>，而非([Sinking]強度/2)点\n(适用于<color=#7C5738>每回合</color>首个攻撃命中的施加[Sinking]的技能)",
+      "desc": "命中帯有<color=#81BBE8>理智値</color>的<color=#ffffff>敵方単位</color>時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為-45点，則対其造成相当于其[Sinking]強度的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>\n\n<color=#ffffff>集中遭遇戦</color>中，命中[Sinking]強度与[Sinking]層数之和不低于10点的<color=#ffffff>敵方単位</color>時，\n対<color=#ffffff>目標</color>造成(其[Sinking]強度/2)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n\n若命中<color=#ffffff>敵方単位</color>的技能為施加[Sinking](包括施加[Sinking]層数与特殊<noparse>沈淪</noparse>)的技能，則改為其造成(其[Sinking]強度)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>，而非([Sinking]強度/2)点\n(适用于<color=#7C5738>每回合</color>首个攻撃命中的施加[Sinking]的技能)",
       "simpleDesc": [
         {
           "abilityID": 9436,

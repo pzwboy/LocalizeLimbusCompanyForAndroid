@@ -338,7 +338,7 @@
     {
       "id": 9226,
       "name": "某人的青刀",
-      "desc": "<color=#ffffff>戦斗開始</color>時，使帯有<color=#81BBE8>護盾</color>的<color=#ffffff>友方単位</color>獲得1層[CriticalDamageUp]\n<color=#ffffff>友方単位</color>的技能<color=#ffffff>暴撃</color>命中時，<color=#7C5738>下回合</color>使該<color=#ffffff>友方単位</color>獲得(<color=#ffffff>自身</color>的[Breath]強度/5)点<color=#81BBE8>護盾</color>(最多15点)",
+      "desc": "<color=#ffffff>戦斗開始</color>時，使帯有<color=#81BBE8>護盾</color>的<color=#ffffff>友方単位</color>獲得1層[CriticalDamageUp]\n<color=#ffffff>友方単位</color>的技能<color=#ffffff>暴撃</color>命中時，<color=#7C5738>下回合</color>使其獲得(其[Breath]強度/5)点<color=#81BBE8>護盾</color>(最多15点)\n\n[蜘蛛巢 小指 子輩 辛克莱専属]\n<color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>的[Breath]層数不低于30層，則消耗10層[Breath]并棄弃<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的1个技能(<color=#7C5738>每回合</color>最多1次)\nE.G.O飾品“桶装烈酒”的“<color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>的[Breath]強度不低于40級，則消耗15級[Breath]強度并棄弃<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>中級別最低的1个技能”效果不会対<color=#ffffff>自身</color>生效",
       "simpleDesc": [
         {
           "abilityID": 9226,
@@ -347,6 +347,10 @@
         {
           "abilityID": 92261,
           "simpleDesc": "獲得<color=#81BBE8>護盾</color>"
+        },
+        {
+          "abilityID": 92262,
+          "simpleDesc": "蜘蛛巢 小指 子輩 辛克莱専属"
         }
       ]
     },
