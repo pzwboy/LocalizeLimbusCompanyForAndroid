@@ -1,0 +1,1294 @@
+{
+  "dataList": [
+    {
+      "id": 158001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "依頼処理",
+          "desc": "[BeforeAttack] 精神力が10回復\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 次のターンに[ResultEnhancement]1を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "黎明の閃光",
+          "desc": "[WhenUse] 自分の[DawnOfficeStigmaSOne]が15以上なら、スキルの2コイン目が[SuperCoin]として1枚追加される",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "茜さす剣",
+          "desc": "[WhenUse] 自分の[DawnOfficeStigmaSOne]が15以上なら、以下の効果を適用\n- スキルの3コイン目が[SuperCoin]として1枚追加される\n- 追加されたコインの的中時に[VibrationExplosion]。[Vibration]回数が1減少",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "夜明けを裂く剣",
+          "desc": "[WhenUse] 自分の[DawnOfficeStigmaSOne]10につき最終威力+1、ダメージ量+10%\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion]。[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Combustion]が1回発動、[Combustion]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "明け方",
+          "desc": "[WhenUse] 指定された対象1名につきダメージ量+20% (最大60%)\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない\n[EndSkill] 最大体力の(全ターゲットの[Combustion]威力の合計×2)%分、体力を回復 (最大30%)\n[EndSkill] 自分の[DawnOfficeStigmaSOne]と[Combustion]を全て消耗",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]5を付与"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 2回[VibrationExplosion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Combustion]が2回発動"
+                }
+              ]
+            }
+          ],
+          "flavor": "煙戦争の激しかった幾つもの戦場のうちの一つ。そこで、ある決戦兵器に残された一対の翅を空間ごと溶断し、夜明けの終わりを告げた技。\n\n「はぁ…死ぬところだったな…。」\n「おい。あの怪物を…倒してくれる…かね？」"
+        }
+      ]
+    },
+    {
+      "id": 158006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "守護者",
+          "desc": "[CanDuelGuard]\n[StartBattle] [SupportProtect]1を得る\n[StartBattle] 自分の最大体力の20%分、バリアを得る\n[StartBattle] [Combustion]を持つ敵の数だけ[Protection]を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "陽炎",
+          "desc": "[DuelCounter]\n[SupportProtect]専用スキル\n[WhenUse] [DawnOfficeStigmaSOne]5を得る\n[WhenUse] 全味方の精神力が6増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が1増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "依頼処理",
+          "desc": "[BeforeAttack] 精神力が10回復\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 次のターンに[PlusCoinValueUp]1を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "蝶斬り",
+          "desc": "[WhenUse] [DawnOfficeStigmaYOne]6を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "自分の[DawnOfficeStigmaYOne]10につき、このコインを1回再使用 (スキルにつき最大2回)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "射出",
+          "desc": "[WhenUse] [DawnOfficeStigmaYOne]8を得る\n[WhenUse] 自分の[DawnOfficeStigmaYOne]10につき最終威力+1\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion]。[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Combustion]が1回発動、[Combustion]回数が1減少"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "自分の[DawnOfficeStigmaYOne]10につき、このコインを1回再使用 (スキルにつき最大2回)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion]。[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Combustion]が1回発動、[Combustion]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "射出 - 正午",
+          "desc": "[WideAreaRampage]\n[WhenUse] 指定されたターゲット1名につきダメージ量+20% (最大60%)\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない\n[BeforeAttack] 全対象を[VibrationIgnition]へ[Switch_Vibration]\n[EndSkill] 最大体力の(全ターゲットの[Combustion]威力の合計)分、体力を回復 (最大15%)\n[EndSkill] 最大体力の(自分の[Combustion]威力)分、体力を回復 (最大15%)\n[EndSkill] 自分の[DawnOfficeStigmaYOne]と[Combustion]を全て消耗",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "自分の[DawnOfficeStigmaYOne]10につき、このコインを1回再使用 (スキルにつき最大2回)"
+                },
+                {
+                  "desc": "- 再使用時、このコインは全ての攻撃対象に的中する"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack]"
+                },
+                {
+                  "desc": "- [UnBrokenCoinOnSucceedAttack] 2回[VibrationExplosion]"
+                },
+                {
+                  "desc": "- [UnBrokenCoinOnSucceedAttack] 対象の[Combustion]が2回発動"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "烙印",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>ターン開始時に保有していた自分の[DawnOfficeStigmaYOne]10につき、被撃時にこのスキルを1回再使用 (最大2回)</color></mark></b></u>\n[StartBattle] [DawnOfficeStigmaYOne]2につき最終威力+1 (最大5)\n[StartBattle] [Combustion]を持つ敵の数だけ[DefenseUp]を得る\n[WhenUse] 自分の[DawnOfficeStigmaYOne]10につきマイナス効果の付与量+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が1増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連携",
+          "desc": "[WhenUse] 自分の[DawnOfficeStigmaYOne]1につきダメージ量+2%、10につき最終威力+1 (最大3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が1増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "依頼処理",
+          "desc": "[BeforeAttack] 自分の精神力が20回復\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 次のターンに[ResultEnhancement]1を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "茜さす剣",
+          "desc": "[WhenUse] 対象の[Combustion]4につき最終威力+1 (最大3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "烙印",
+          "desc": "[WhenUse] 対象の[Combustion]4につき最終威力+1 (最大2)\n[BeforeAttack] 精神力が15回復\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion]5を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Combustion]が2回発動、[Combustion]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "回避",
+          "desc": "[WhenUse] 対象の[Combustion]4につき最終威力+1 (最大3)\n<color=#ff6000><mark color=#ff000040><b><u>[OnSucceedEvade] 自分の最大体力の15%分回復</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "快速突き",
+          "desc": "[WhenUse] 自分の[WalpuTenWedgeOffice]が3なら、マッチ威力+1\n[WinDuel] 自分の[Breath]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] [Vibration]回数が1増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "閃光の槍",
+          "desc": "[WhenUse] 自分の[WalpuTenWedgeOffice]が3なら、マッチ威力+2\n[WinDuel] 自分の[Breath]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]3を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "貫く",
+          "desc": "ダメージ量+(<color=#ff6000><mark color=#ff000040><b><u>対象の現在の体力の割合</color></mark></b></u>-50)% (最大50%、最小0%)\nクリティカルダメージ量+(自分の[Breath]威力と対象の[Vibration]威力の合計×2.5)% (最大50%)\n[WhenUse] 自分の[WalpuTenWedgeOffice]が3なら、マッチ威力+6\n[WinDuel] [Breath]2を得て、自分の[Breath]回数が3増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>対象が[Switch_Vibration]または[FusionVibration]状態なら、</color></mark></b></u>このコインのダメージ量 +50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [PenetrateTakeDamageUp]2を付与 (1ターンにつき1回)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少 (スキルにつき1回)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "楔形陣展開",
+          "desc": "このスキルの攻撃加重値に対して攻撃対象数が1少ないごとに、ダメージ量+30%\n[WhenUse]\n- 自分の[Breath]回数が3増加\n- 自分を除く、<color=#ff6000><mark color=#ff000040><b><u>行動可能な楔事務所所属の味方の数だけ攻撃加重値が増加</color></mark></b></u> (最大2)\n[EndSkill]\n- 自分の[WalpuTenComboWedge]25を消耗\n- (使用できなかったコインの枚数×5)だけ、次のターンに[WalpuTenComboWedge]を得る\n- 自分を除く楔事務所所属の味方に、次のターンに[PenetrateResultUp]1を付与",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ComboSkill] : 楔事務所フィクサーパメラ"
+                },
+                {
+                  "desc": "- ダメージ量+30%"
+                },
+                {
+                  "desc": "- 最後のコイン的中時、[VibrationExplosion]。[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ComboSkill] : 楔事務所フィクサーパメリ"
+                },
+                {
+                  "desc": "- ダメージ量+30%"
+                },
+                {
+                  "desc": "- 最後のコイン的中時、[VibrationExplosion]。[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "クリティカルダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "息を整える",
+          "desc": "[WhenUse] 自分の[Breath]威力3につき、コイン威力+1 (最大2)\n[OnSucceedEvade]\n- [Breath]2を得る (1ターンにつき3回)\n- 次のターンに[Agility]2を得る (1ターンにつき1回)\n[EndBattle] 次のターンに[PenetrateResultUp]1、[PenetrateDamageUp]1を得る (1ターンにつき1回)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "下がっていろ",
+          "desc": "[DuelCounter]\n援護防御専用スキル\n[WhenUse] 自分の失った体力20%につき、マッチ威力+1 (最大4)\n[WhenUse]\n- [SupportProtect]した対象の味方と自分の精神力が5回復\n- 最大体力の15%分、バリアを得る (1ターンにつき1回)\n- [Protection]2を得る (1ターンにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "激突",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力+1 (最大3)\n[WhenUse] [Breath]2を得る\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: 楔事務所フィクサーパメラ</color></mark></b></u> (1ターンにつき1回)\n- [WalpuTenBattleFieldKnow]1を得る\n- 最後のコインを再使用 (スキルにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "自分の[WalpuTenBattleFieldKnow]1につき、ダメージ量+5% (最大20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [WalpuTenWedgeMarkSilver]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "勢いに乗って",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力+1\n[WhenUse] [Breath]3を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "自分の[WalpuTenBattleFieldKnow]1につき、ダメージ量+5% (最大20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "荒れ槍",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力+1\n[WhenUse] [Breath]2を得る\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: 楔事務所フィクサーパメラ</color></mark></b></u> (1ターンにつき1回)\n- [WalpuTenBattleFieldKnow]1を得る\n- ダメージ量+30%",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]4を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "自分の[WalpuTenBattleFieldKnow]1につき、ダメージ量+10% (最大40%)"
+                },
+                {
+                  "desc": "対象の[Vibration]威力1につき、ダメージ量+2% (最大20%)"
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>対象が[Switch_Vibration]または[FusionVibration]状態なら</color></mark></b></u>、ダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 2回[VibrationExplosion]。対象の[Vibration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "素早く、確実に貫いてやろう",
+          "desc": "対象の[WalpuTenWedgeMarkSilver]1につき、マッチ威力+1 (最大5)\n[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力+1\n[WhenUse] [Breath]2を得る\n[WhenUse] 全てのコインが[SuperCoin]になる\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: 楔事務所フィクサーパメラ</color></mark></b></u> (1ターンにつき1回)\n- [WalpuTenBattleFieldKnow]1を得る\n- ダメージ量+30%\n[EndSkill] 対象の[WalpuTenWedgeMarkSilver]を全て消耗",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]4を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "自分の[WalpuTenBattleFieldKnow]1につき、ダメージ量+10% (最大40%)"
+                },
+                {
+                  "desc": "対象の[Vibration]威力1につき、ダメージ量+2% (最大40%)"
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>対象が[Switch_Vibration]または[FusionVibration]状態なら</color></mark></b></u>、ダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] このコインを再使用 (スキルにつき1回)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] このコインの最終ダメージ量の(対象の[WalpuTenWedgeMarkSilver]×10)%分、貫通ダメージを与える (最大50%)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 2回[VibrationExplosion]。対象の[Vibration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "息を整える",
+          "desc": "[WhenUse] 自分の[Breath]威力が6以上なら、コイン威力+1\n[OnSucceedEvade] [Breath]2を得る (スキルにつき1回)\n[OnSucceedEvade] 次のターンに[Agility]1を得る (1ターンにつき1回)\n[EndBattle] 次のターンに[PenetrateResultUp]1を得る (1ターンにつき1回)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "激突",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力+1 (最大3)\n[WhenUse] [Breath]4を得る\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: 楔事務所フィクサーパメリ</color></mark></b></u> (1ターンにつき1回)\n- [WalpuTenBattleFieldKnow]1を得る\n- 最後のコインを再使用 (スキルにつき1回)\n[WinDuel] 次のターンに[PenetrateDamageUp]1を得る (1ターンにつき1回)\n[BeforeAttack] 自分の[WalpuTenBattleFieldKnow]1につき、最後のコインの最終威力+1 (最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [WalpuTenWedgeMarkGold]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "隙を狙う",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力+1 (最大3)\n[WhenUse] [Breath]3を得る\n[WinDuel] 対象に[Vibration]1を付与して[VibrationExplosion]。対象の[Vibration]回数が1減少\n[BeforeAttack] 自分の[WalpuTenBattleFieldKnow]1につき、最後のコインの最終威力+1 (最大3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "荒れ槍",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力+1\n[WhenUse] [Breath]2を得る\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: 楔事務所フィクサーパメリ</color></mark></b></u> (1ターンにつき1回)\n- [WalpuTenBattleFieldKnow]1を得る\n- ダメージ量+40%\n[WinDuel] 対象に[Vibration]2を付与して[VibrationExplosion]。対象の[Vibration]回数が1減少\n[BeforeAttack] 自分の[WalpuTenBattleFieldKnow]1につき、最後のコインの最終威力+1 (最大4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]4を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "対象の[Vibration]威力1につき、ダメージ量+2% (最大20%)"
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>対象が[Switch_Vibration]または[FusionVibration]状態なら</color></mark></b></u>、ダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "隙を与えず、確実に貫いてみせよう",
+          "desc": "対象の[WalpuTenWedgeMarkGold]1につき、マッチ威力+1 (最大5)\n[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力+1\n[WhenUse] [Breath]2を得る\n[WhenUse] 全てのコインが[SuperCoin]になる\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: 楔事務所フィクサーパメリ</color></mark></b></u> (1ターンにつき1回)\n- [WalpuTenBattleFieldKnow]1を得る\n- ダメージ量+30%\n[WinDuel] 対象に[Vibration]4を付与して[VibrationExplosion]\n[BeforeAttack] 自分の[WalpuTenBattleFieldKnow]と対象の[WalpuTenWedgeMarkGold]の合計1につき、最後のコインの最終威力+1 (最大8)\n[EndSkill] 対象の[WalpuTenWedgeMarkGold]を全て消耗",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]4を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "対象の[Vibration]威力1につき、ダメージ量+2% (最大40%)"
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>対象が[Switch_Vibration]または[FusionVibration]状態なら</color></mark></b></u>、ダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 2回[VibrationExplosion]。対象の[Vibration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "息を整える",
+          "desc": "[WhenUse] 自分の[Breath]威力が6以上なら、コイン威力+1\n[OnSucceedEvade] [Breath]3を得る (スキルにつき1回)\n[OnSucceedEvade] 次のターンに[Agility]1を得る (1ターンにつき1回)\n[EndBattle] 次のターンに[PenetrateResultUp]1を得る (1ターンにつき1回)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "後悔",
+          "desc": "[WhenUse] 対象の[Combustion]4につき最終威力+2 (最大4)\n[BeforeAttack] <color=#ff6000><mark color=#ff000040><b><u>自分の精神力が20/40以上なら</color></mark></b></u>、ダメージ量+50%/+100%\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion]5を付与"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Vibration]を5付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Combustion]が2回発動、[Combustion]回数が2減少"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 2回[VibrationExplosion]、[Vibration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "物憂い夕焼け",
+          "desc": "[WhenUse] 自分の精神力が40以上なら、次のターンに[ParryingResultUp]1を得る\n[BeforeAttack] 精神力が10回復",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]4を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "羽の盾",
+          "desc": "[WhenUse] [Protection]2を得る\n- <color=#ff6000><mark color=#ff000040><b><u>対象に[Combustion]があれば</color></mark></b></u>、追加で2を得る\n[WhenUse] 自分の精神力が30以上なら、次のターンに[DefenseUp]2を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が3増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ギラギラ燃える剣",
+          "desc": "[WhenUse] 対象の[Combustion]6につき最終威力+1 (最大2)\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない\n[BeforeAttack] 自分の精神力が40/45以上なら、攻撃加重値+1/+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]6を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [PhilipWax]3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "猛烈な突進",
+          "desc": "[WhenUse] 対象の[Combustion]6につき最終威力+1 (最大2)\n[BeforeAttack] 対象の[Combustion]2につきダメージ量+2% (最大30%)\n[EndSkill] 1コイン目の再使用回数だけ精神力が減少",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]4を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] このコインを再使用 (スキルにつき最大2回)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 対象の[Combustion]回数が2増加"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [PhilipWax]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "燃えたぎる一撃",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>速度に関係なく、このスキルとマッチできる</color></mark></b></u>\nこのスキルを装着したターンに<color=#ff6000><mark color=#ff000040><b><u>攻撃スキルで被撃時、[ResultReduction]2を得る</color></mark></b></u> (スキルにつき1回。1ターンにつき最大3回)\n[WhenUse] メインターゲットの[Combustion]4につき最終威力+2 (最大4)\n[BeforeAttack] 自分の精神力が20/40以上なら、ダメージ量+50%/+100%\n[DefeatDuel]\n- ダメージ量-80%\n- このスキルのダメージで対象は混乱しない\n[EndSkill] このターンを終了",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]10を付与"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Combustion]が2回発動、[Combustion]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

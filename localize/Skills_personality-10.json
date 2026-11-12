@@ -3187,6 +3187,393 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "激突",
+          "desc": "[WhenUse] [Breath]1を得る\n[ComboSkill] : <noparse>楔事務所</noparse>フィクサードンキホーテのスキルと共鳴時、以下の効果が発動 (ターンにつき1回)\n- [WhenUse] マッチ威力 +1\n- [WhenUse] [BattleFieldKnow]1を得る\n- [WhenUse] 最後のコインを1回再使用",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]1を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [WedgeMarkYellow]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "激突",
+          "desc": "<style=\"highlight\">[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力 +1 (最大2)</style>\n[WhenUse] [Breath]<style=\"highlight\">2</style>を得る\n[ComboSkill] : <noparse>楔事務所</noparse>フィクサードンキホーテのスキルと共鳴時、以下の効果が発動 (ターンにつき1回)\n- [WhenUse] マッチ威力 +<style=\"highlight\">2</style>\n- [WhenUse] [BattleFieldKnow]1を得る\n- [WhenUse] 最後のコインを1回再使用",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]<style=\"highlight\">2</style>を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [WedgeMarkYellow]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "激突",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力 +1 (最大<style=\"highlight\">3</style>)\n[WhenUse] [Breath]2を得る\n[ComboSkill] : <noparse>楔事務所</noparse>フィクサードンキホーテのスキルと共鳴時、以下の効果が発動 (ターンにつき1回)\n- [WhenUse] マッチ威力 +2\n- [WhenUse] [BattleFieldKnow]1を得る\n- [WhenUse] 最後のコインを1回再使用",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] [WedgeMarkYellow]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "勢いに乗って",
+          "desc": "[WhenUse] [Breath]2を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]1を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "勢いに乗って",
+          "desc": "<style=\"highlight\">[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1</style>\n[WhenUse] [Breath]<style=\"highlight\">3</style>を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]<style=\"highlight\">2</style>を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">自分の[BattleFieldKnow]1につき、ダメージ量 +5% (最大15%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "勢いに乗って",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1\n[WhenUse] [Breath]3を得る<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "自分の[BattleFieldKnow]1につき、ダメージ量 +5% (最大<style=\"highlight\">20%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "荒れ槍",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1\n[WhenUse] [Breath]2を得る\n[ComboSkill] : <noparse>楔事務所</noparse>フィクサードンキホーテのスキルと共鳴時、以下の効果が発動 (ターンにつき1回)\n- [WhenUse] マッチ威力 +1\n- [WhenUse] [BattleFieldKnow]1を得る\n- [WhenUse] ダメージ量 +20%",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]4を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "自分の[BattleFieldKnow]1につき、ダメージ量 +10% (最大40%)"
+                },
+                {
+                  "desc": "対象が[Switch_Vibration]または[FusionVibration]状態なら、ダメージ量 +20%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "荒れ槍",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1\n[WhenUse] [Breath]2を得る\n[ComboSkill] : <noparse>楔事務所</noparse>フィクサードンキホーテのスキルと共鳴時、以下の効果が発動 (ターンにつき1回)\n- [WhenUse] マッチ威力 +<style=\"highlight\">3</style>\n- [WhenUse] [BattleFieldKnow]1を得る\n- [WhenUse] ダメージ量 +<style=\"highlight\">30%</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]4を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "自分の[BattleFieldKnow]1につき、ダメージ量 +10% (最大40%)"
+                },
+                {
+                  "desc": "対象が[Switch_Vibration]または[FusionVibration]状態なら、ダメージ量 +<style=\"highlight\">30%</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "息を整える",
+          "desc": "[WhenUse] 自分の[Breath]威力が6以上なら、コイン威力 +1\n[OnSucceedEvade] [Breath]1を得る (ターンにつき3回)\n[OnBattleEnd] 今回のターンにスキル効果で[BattleFieldKnow]を得られなかったなら、[BattleFieldKnow]1を得る (ターンにつき1回)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "息を整える",
+          "desc": "<style=\"highlight\">[StartBattle] 対象の[WedgeMarkYellow]が4以上なら、代わりに「素早く、確実に貫いてやろう」として発動 (ターンにつき1回、この効果は一方攻撃でも発動する)</style>\n[WhenUse] 自分の[Breath]威力が6以上なら、コイン威力 +1\n[OnSucceedEvade] [Breath]<style=\"highlight\">2</style>を得る (ターンにつき3回)\n[OnBattleEnd] 今回のターンにスキル効果で[BattleFieldKnow]を得られなかったなら、[BattleFieldKnow]1を得る (ターンにつき1回)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "息を整える",
+          "desc": "[StartBattle] 対象の[WedgeMarkYellow]が4以上なら、代わりに「素早く、確実に貫いてやろう」として発動 (ターンにつき1回、この効果は一方攻撃でも発動する)\n[WhenUse] 自分の[Breath]威力が6以上なら、コイン威力 +1\n[OnSucceedEvade] [Breath]2を得る (ターンにつき3回)\n<style=\"highlight\">[OnSucceedEvade] 次のターンに[Agility]1を得る (ターンにつき1回)</style>\n[OnBattleEnd] 今回のターンにスキル効果で[BattleFieldKnow]を得られなかったなら、[BattleFieldKnow]1を得る (ターンにつき1回)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101705,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "素早く、確実に貫いてやろう",
+          "desc": "このスキルは守備スキルの代わりに発動しても攻撃スキルとして扱われ、守備威力変更効果を受けず、攻撃威力変更効果が適用される\n対象の[WedgeMarkYellow]2につき、マッチ威力 +1 (最大4)\n[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1\n[WhenUse] [Breath]2を得る\n[ComboSkill] : <noparse>楔事務所</noparse>フィクサードンキホーテのスキルと共鳴時、以下の効果が発動 (ターンにつき1回)\n- [WhenUse] マッチ威力 +1\n- [WhenUse] [BattleFieldKnow]1を得る\n- [WhenUse] ダメージ量 +20%\n[EndSkill] 対象の[WedgeMarkYellow]が全て消滅\n[EndSkill] 味方の<noparse>楔事務所</noparse>代表ウーティス人格の[ComboWedge]が3増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Breath]4を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "自分の[BattleFieldKnow]1につき、ダメージ量 +10% (最大40%)",
+                  "summary": "[BattleFieldKnow]に比例してダメージ量が増加"
+                },
+                {
+                  "desc": "対象が[Switch_Vibration]または[FusionVibration]状態なら、ダメージ量 +30%",
+                  "summary": "ダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] このコインを再使用 (スキルにつき1回)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]",
+                  "summary": "[ReUseOnSucceedAttack] [VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] このコインの最終ダメージ量の(対象の[WedgeMarkYellow] × 4)%分の貫通ダメージ (最大32%)",
+                  "summary": "[ReUseOnSucceedAttack] 対象の[WedgeMarkYellow]に比例して貫通ダメージ"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 2回[VibrationExplosion]。対象の[Vibration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "素早く、確実に貫いてやろう",
+          "desc": "このスキルは守備スキルの代わりに発動しても攻撃スキルとして扱われ、守備威力変更効果を受けず、攻撃威力変更効果が適用される\n対象の[WedgeMarkYellow]2につき、マッチ威力 +1 (最大4)\n[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1\n[WhenUse] [Breath]2を得る\n[ComboSkill] : <noparse>楔事務所</noparse>フィクサードンキホーテのスキルと共鳴時、以下の効果が発動 (ターンにつき1回)\n- [WhenUse] マッチ威力 +<style=\"highlight\">3</style>\n- [WhenUse] [BattleFieldKnow]1を得る\n- [WhenUse] ダメージ量 +<style=\"highlight\">30%</style>\n[EndSkill] 対象の[WedgeMarkYellow]が全て消滅\n[EndSkill] 味方の<noparse>楔事務所</noparse>代表ウーティス人格の[ComboWedge]が3増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Breath]4を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "自分の[BattleFieldKnow]1につき、ダメージ量 +10% (最大40%)",
+                  "summary": "[BattleFieldKnow]に比例してダメージ量が増加"
+                },
+                {
+                  "desc": "対象が[Switch_Vibration]または[FusionVibration]状態なら、ダメージ量 +30%",
+                  "summary": "ダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] このコインを再使用 (スキルにつき1回)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]",
+                  "summary": "[ReUseOnSucceedAttack] [VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] このコインの最終ダメージ量の(対象の[WedgeMarkYellow] × 4)%分の貫通ダメージ (最大32%)",
+                  "summary": "[ReUseOnSucceedAttack] 対象の[WedgeMarkYellow]に比例して貫通ダメージ"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 2回[VibrationExplosion]。対象の[Vibration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

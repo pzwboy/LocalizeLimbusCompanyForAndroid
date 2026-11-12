@@ -1,0 +1,103 @@
+{
+  "dataList": [
+    {
+      "id": 9292,
+      "name": "ロールモデル",
+      "desc": "フィクサー人格を2人以上編成した場合、味方フィクサーのうち編成順が最も遅い1名に下記の効果が発動 (待機人員を含まない)\n- ステージ初登場時、[Emulation]を得る\n\n戦場の味方フィクサー人格2人につき、ターン開始時に味方フィクサーの精神力を2回復\n\nフィクサーであり、かつ所属が同じ人格が3人以上なら下記の効果を適用\n- [Emulation]を保有する味方の基本攻撃スキルのダメージ量 +(戦場の味方フィクサーの数 × 3)% (最大15%)\n\nフィクサーであり、かつ所属がそれぞれ異なる人格が3人以上なら下記の効果を適用\n- [Emulation]を保有する味方が基本攻撃スキル使用時、[Enhancement]1を得る (1ターンにつき2回)\n- [Emulation]を保有する味方が基本攻撃スキル的中時、[Vulnerable]1を付与 (1ターンにつき2回。集中戦闘では部位ごとに判定)",
+      "simpleDesc": [
+        {
+          "abilityID": 9292,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9293,
+      "name": "心を込めて分けた薬材",
+      "desc": "[ComboSkill]効果を持つスキル、または味方のスキル・パッシブ効果によって追加発動した攻撃スキルの与ダメージ量 +10%\n- 上記の効果が発動するたびに与ダメージ量が追加で+2% (最大10%)\n- [ComboSkill]効果を持つスキルの場合、使用するたびに[AttackDmgUp]1を得る (人格ごとに最大2)\n- 該当する味方が<noparse>夜明事務所</noparse>または<noparse>楔事務所</noparse>所属なら、[Enhancement]1を得る (人格ごとに最大2)",
+      "simpleDesc": [
+        {
+          "abilityID": 9293,
+          "simpleDesc": "<noparse>ダメージ量増加</noparse>、[AttackDmgUp]を得る。条件を満たすと[Enhancement]を得る"
+        }
+      ]
+    },
+    {
+      "id": 9294,
+      "name": "見窄らしい矜持",
+      "desc": "ステージ開始時、ランダムな味方1名に[CursedBlessing]を付与\n[CursedBlessing]を保有する人格が生存した状態で戦闘に6回勝利すると、該当E.G.Oギフトが変更される (騎士の矜持)\n{0}\n",
+      "simpleDesc": [
+        {
+          "abilityID": 9294,
+          "simpleDesc": "[CursedBlessing]を付与"
+        }
+      ]
+    },
+    {
+      "id": 9295,
+      "name": "騎士の矜持",
+      "desc": "[編成順1番専用効果]\n全混乱区間を除去。ステージ開始時に[BeyondDespair]を付与。",
+      "simpleDesc": [
+        {
+          "abilityID": 9295,
+          "simpleDesc": "[BeyondDespair]を付与"
+        }
+      ]
+    },
+    {
+      "id": 9296,
+      "name": "悲痛の宿った剣",
+      "desc": "[Sinking]威力または回数、特殊[Sinking]を付与する貫通属性の基本スキルの最終威力 +1\n\n味方のスキル的中時、対象の精神力が-20以下なら対象の[Sinking]威力分の憂鬱ダメージ (スキルにつき1回)\n- 貫通スキルなら、対象の([Sinking]回数 ÷ 2)だけ追加の固定ダメージ (スキルにつき1回)\n\n[ロボトミーE.G.O::<noparse>涙で研ぎ澄まされた剣</noparse>ロージャ専用効果]\n攻撃加重値が1で[Charge]を消耗する基本スキルで敵に最終コイン的中時、最終ダメージ量の(消耗した[Charge]威力)%分の傲慢ダメージを全ての敵に与える (特殊[Charge]を含む)\n\n[<noparse>涙で研ぎ澄まされた剣</noparse>ホンルE.G.Oスキル専用効果]\nE.G.Oスキルの最終威力 +1",
+      "simpleDesc": [
+        {
+          "abilityID": 9296,
+          "simpleDesc": "スキル最終威力が増加、憂鬱ダメージ、対象の精神力が低い場合は固定ダメージ"
+        }
+      ]
+    },
+    {
+      "id": 9297,
+      "name": "白いクラバット",
+      "desc": "ターン開始時、<noparse>楔事務所</noparse>所属人格が3人以上なら発動 (編成人員を基準とする)\n\n[<noparse>楔事務所</noparse>代表ウーティス専用効果]\n- 上記の条件を初めて満たしたターンの開始時、[ComboWedge]20を得る\n- 「楔形陣展開」「…総員、激突用意。」「夜明けの後に貫き来る楔」使用時、次のターンに[ComboWedgeDawn]1を得る (1ターンにつき2回)\n- 「楔形陣展開」を使用した場合、次のターン開始時に該当スキルで消耗した[ComboWedge]の半分を取り戻す (1ターンにつき1回、小数点以下切り捨て)",
+      "simpleDesc": [
+        {
+          "abilityID": 9297,
+          "simpleDesc": "[ComboWedge]または[ComboWedgeDawn]を得る"
+        }
+      ]
+    },
+    {
+      "id": 9298,
+      "name": "黒いトリコーン",
+      "desc": "マッチ進行時、マッチのたびに敵へ[Vibration]2を付与 (スキルにつき3回)\n\n味方の基本攻撃スキルが敵にクリティカル的中時、メインターゲットに[Vibration]があれば、[VibrationExplosion]。対象の[Vibration]回数が1減少 (スキルにつき1回)\n- 敵が[Switch_Vibration]状態なら、与クリティカルダメージ量 +10%\n- 敵が[VibrationNesting]状態なら、重複した状態1つにつきクリティカルダメージ量が追加で+5%増加 (最大25%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9298,
+          "simpleDesc": "マッチ進行時に[Vibration]を付与\n条件を満たすと[VibrationExplosion]、スキルのクリティカルダメージ量が増加"
+        }
+      ]
+    },
+    {
+      "id": 9299,
+      "name": "身体適応用装置",
+      "desc": "[VibrationCollapse]を保有する敵へ[VibrationExplosion]時、各対象へ与えたダメージ量の(各対象の減少した防御レベルの数値)%分の怠惰ダメージを与える (最大15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9299,
+          "simpleDesc": "怠惰ダメージ"
+        }
+      ]
+    },
+    {
+      "id": 9300,
+      "name": "折れた穂先",
+      "desc": "貫通の基本攻撃スキルでクリティカルダメージを与えた場合、攻撃終了時に対象へ[EmbeddedSpearhead]を付与 (人格ごとに1ターンにつき1回、集中戦闘では部位ごとに判定)",
+      "simpleDesc": [
+        {
+          "abilityID": 9300,
+          "simpleDesc": "[EmbeddedSpearhead]を付与"
+        }
+      ]
+    }
+  ]
+}

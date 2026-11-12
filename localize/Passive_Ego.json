@@ -637,6 +637,24 @@
       "name": "内出血(l'hémorragie interne)",
       "desc": "[AlwaysUseEGOPassive]\n若<color=#ffffff>自身</color>的[BulletHole]数為5発，則<color=#ffffff>自身</color>的“空洞”E.G.O技能(覚醒、侵蝕)使用時不会消耗E.G.O資源\n\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1発[BulletHole]\n\n[WhenUseEGOPassive]\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[BlackWingHole]\n\n每当<color=#ffffff>自身</color>累計消耗或失去3発[Bullet]時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>并在<color=#7C5738>下回合</color>獲得1層[ResultEnhancement](包括特殊[Bullet];<color=#7C5738>每回合</color>最多計入9発[Bullet])",
       "flavor": "他人之視綫刺穿我的身体，形成空洞，使一切溢出。溢出之物化作子彈又再次射向袮，刺出空洞。"
+    },
+    {
+      "id": 2061111,
+      "name": "絶望の中で",
+      "desc": "自分の1.5を超える物理耐性が1.5に調整される (混乱状態を除く)\n自分が混乱状態なら、被ダメージ量 -30% (強制混乱を含む)\n\n自分の[DespairKnightEGOMind]が999なら、「<noparse>涙で研ぎ澄まされた剣</noparse>」E.G.Oスキル(覚醒・侵蝕)使用時にE.G.O資源を消耗しない\n\n自分を含む味方が受けたダメージ分の[DespairKnightEGOMind]を得る (バリアへのダメージを含む)\n味方死亡時、[DespairKnightEGOSword]1を得る (ターンにつき1回)\n[DespairKnightEGOProtect]を保有する味方死亡時、[DespairKnightEGOSword]1を得る (ターンにつき1回)\n\n死亡状態の味方2名につき、自分の攻撃レベル +1、防御レベル -1 (最大5)",
+      "summary": "耐性強化、被ダメージ量減少。"
+    },
+    {
+      "id": 50001,
+      "name": "マジカル・アルカナ",
+      "desc": "魔法少女人格または魔法少女E.G.Oの出撃人数が一定数以上なら、下記の効果が発動 (人格・E.G.Oの重複適用可能)\n(2) 味方の魔法少女人格または魔法少女E.G.Oのスキルダメージ量 +10%",
+      "summary": "(2) 魔法少女人格・EGOのスキルダメージ量 +10%"
+    },
+    {
+      "id": 50002,
+      "name": "マジカル・アルカナ",
+      "desc": "(3) 全味方のマイナスコインスキルダメージ量 +10%\n「<noparse>涙で研ぎ澄まされた剣</noparse>」E.G.Oスキルでメインターゲットの敵への攻撃終了時、[DespairKnightEGOAlly]1を付与 (ターンにつき1回)",
+      "summary": "(3) 全味方のマイナスコインスキルダメージ量 +10%、「<noparse>涙で研ぎ澄まされた剣</noparse>」の攻撃終了時、[DespairKnightEGOAlly]1を付与"
     }
   ]
 }

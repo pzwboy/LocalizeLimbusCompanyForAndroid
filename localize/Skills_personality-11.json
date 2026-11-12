@@ -3209,6 +3209,450 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1111601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "快速突き",
+          "desc": "[WhenUse] 自分の[Breath]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] [Vibration]回数が1増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "快速突き",
+          "desc": "<style=\"highlight\">[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1</style>\n[WhenUse] 自分の[Breath]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] [Vibration]回数が1増加<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "快速突き",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1\n<style=\"highlight\">[WhenUse] 自分の[WedgeOffice]が3なら、最終威力 +1</style>\n[WhenUse] 自分の[Breath]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] [Vibration]回数が1増加<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "閃光の槍",
+          "desc": "[StartBattle] 自分を含む味方の全楔事務所[TabExplain]所属人格に[PenetrateDamageUp]1を付与 (ターンにつき1回)\n[WhenUse] このスキルスロットの選択していないスキルが「快速突き」なら捨てる\n[WhenUse] 自分の[Breath]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]3を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "閃光の槍",
+          "desc": "[StartBattle] 自分を含む味方の全楔事務所[TabExplain]所属人格に[PenetrateDamageUp]1を付与 (ターンにつき1回)\n[WhenUse] このスキルスロットの選択していないスキルが「快速突き」なら捨てる\n<style=\"highlight\">[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1</style>\n<style=\"highlight\">[WhenUse] 自分の[WedgeOffice]1につき、最終威力 +1 (最大3)</style>\n[WhenUse] 自分の[Breath]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]3を得る<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "閃光の槍",
+          "desc": "[StartBattle] 自分を含む味方の全楔事務所[TabExplain]所属人格に[PenetrateDamageUp]1を付与 (ターンにつき1回)\n[WhenUse] このスキルスロットの選択していないスキルが「快速突き」なら捨てる\n[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計6<style=\"highlight\">につき、コイン威力 +1 (最大2)</style>\n[WhenUse] 自分の[WedgeOffice]1につき、最終威力 +1 (最大3)\n[WhenUse] 自分の[Breath]回数が<style=\"highlight\">3</style>増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Breath]3を得る<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "貫く",
+          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力 +1 (最大3)\n[WhenUse] [Breath]2を得る\n[WhenUse] 自分の[Breath]回数が3増加\n\n[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- [WhenUse] [ComboWedgeDawn]1を得る (スキルにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "対象が[Switch_Vibration]または[FusionVibration]状態なら、このコインのダメージ量 +50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- ダメージ量 +30%\n- [OnSucceedAttack] [Vibration]回数が2増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "貫く",
+          "desc": "<style=\"highlight\">[WhenUse] ダメージ量 +(対象の[Vibration]威力 × [Vibration]回数)% (最大100%)</style>\n<style=\"highlight\">[WhenUse] クリティカルダメージ量 +(自分の[Breath]威力 × [Breath]回数)% (最大100%)</style>\n[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力 +1 (最大<style=\"highlight\">5</style>)\n<style=\"highlight\">[WhenUse] 自分の[WedgeOffice]が3なら、マッチ威力 +6</style>\n[WhenUse] [Breath]2を得る\n[WhenUse] 自分の[Breath]回数が3増加\n\n[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- [WhenUse] [ComboWedgeDawn]1を得る (スキルにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "対象が[Switch_Vibration]または[FusionVibration]状態なら、このコインのダメージ量 +50%<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [PenetrateTakeDamageUp]2を付与 (ターンにつき1回)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- ダメージ量 +30%\n- [OnSucceedAttack] [Vibration]回数が2増加<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "息を整える",
+          "desc": "[StartBattle] [SupportProtect]1を得る (ターンにつき2回)\n[OnSucceedEvade]\n- [Breath]2を得る (ターンにつき3回)\n- 次のターンに[Agility]2を得る (ターンにつき1回)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "息を整える",
+          "desc": "[StartBattle] [SupportProtect]1を得る (ターンにつき2回)\n<style=\"highlight\">[WhenUse] 自分の[Breath]威力3につき、コイン威力 +1 (最大2)</style>\n[OnSucceedEvade]\n- [Breath]2を得る (ターンにつき3回)\n- 次のターンに[Agility]2を得る (ターンにつき1回)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111605,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "楔形陣展開",
+          "desc": "[CantDuel]\n[WhenUse] 自分の[Breath]威力が8以上なら、コイン威力 +1\n[WhenUse] 対象の[Vibration]威力が8以上なら、最終威力 +1\n[WhenUse] 自分の[Breath]回数が3増加\n[EndSkill]\n- 自分の[ComboWedge]を25消耗\n- 自分以外の味方の楔事務所[TabExplain]所属人格へ次のターンに[PenetrateResultUp]1を付与\n- [ComboWedgeDawn]1を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                },
+                {
+                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサードンキホーテ\n- ダメージ量 +30%\n- 最後のコイン的中時、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサーシンクレア\n- ダメージ量 +30%\n- 最後のコイン的中時、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "クリティカルダメージ量 +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "…総員、激突用意。",
+          "desc": "[WhenUse] 自分の[Breath]威力8につき、コイン威力 +1 (最大2)\n[WhenUse] 対象の[Vibration]威力8につき、最終威力 +1 (最大2)\n[WhenUse]\n- 自分の[Breath]回数が3増加\n- 自分以外の行動可能な味方の楔事務所[TabExplain]所属人格数分、攻撃加重値が増加 (最大2)\n[WhenUse] このスキルの攻撃加重値に対して攻撃対象数が1少ないごとに、ダメージ量 +30% (集中戦闘の場合は部位で判定)\n[EndSkill]\n- 自分の[ComboWedgeDawn]を全て消耗",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationCollapse]へ[FusionVibration]"
+                },
+                {
+                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]フィクサーファウスト\n- ダメージ量 +20%\n- [OnSucceedAttack] [Combustion]3を付与\n- [OnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                },
+                {
+                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサードンキホーテ\n- クリティカルダメージ量 +20%\n- [OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサーシンクレア\n- クリティカルダメージ量 +20%\n- [OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- ダメージ量 +20%\n- [OnSucceedAttack] [Combustion]2を付与\n- [OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少\n- [OnSucceedAttack] 対象の[Combustion]が発動。対象の[Combustion]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111608,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "夜明けの後に貫き来る楔",
+          "desc": "[WhenUse] 自分の[Breath]威力8につき、コイン威力 +1 (最大2)\n[WhenUse] 対象の[Vibration]威力8につき、最終威力 +1 (最大2)\n[WhenUse]\n- 自分の[Breath]回数が3増加\n- 自分以外の行動可能な味方の楔事務所[TabExplain]所属人格数分、攻撃加重値が増加 (最大2)\n[WhenUse] このスキルの攻撃加重値に対して攻撃対象数が1少ないごとに、ダメージ量 +30% (集中戦闘の場合は部位で判定)\n[WinDuel] [VibrationCollapse]で[FusionVibration]\n[EndSkill]\n- 自分の[ComboWedgeDawn]を全て消耗",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                },
+                {
+                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]フィクサーファウスト\n- ダメージ量 +20%\n- [OnSucceedAttack] [Combustion]3を付与\n- [OnSucceedAttack] [VibrationIgnition]で[Switch_Vibration]"
+                },
+                {
+                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- ダメージ量 +20%\n- [OnSucceedAttack] [Combustion]2を付与\n- [OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少\n- [OnSucceedAttack] 対象の[Combustion]が発動。対象の[Combustion]回数が1減少"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                },
+                {
+                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサードンキホーテ\n- クリティカルダメージ量 +20%\n- [OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサーシンクレア\n- クリティカルダメージ量 +20%\n- [OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "クリティカルダメージ量 +100%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "下がっていろ",
+          "desc": "[DuelCounter]\n[SupportProtect]専用スキル\n[WhenUse] 自分の失った体力20%につき、マッチ威力 +1 (最大4)\n[WhenUse]\n- [SupportProtect]した対象の味方と自分の精神力を5回復\n- 最大体力の15%分のバリアを得る (ターンにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
