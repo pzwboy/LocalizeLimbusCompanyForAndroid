@@ -2,141 +2,141 @@
   "dataList": [
     {
       "id": 158001,
-      "name": "夜明事務所 - 守護者",
-      "desc": "ターン開始時、残り体力の割合が最も低い味方に[Protection]2を付与\n\n<color=#ff6000><mark color=#ff000040><b><u>自分の残り体力が30%以下なら、</color></mark></b></u>同じ所属の味方のスキル3的中時、対象の敵へスキル「黎明の閃光」を使用 (1ターンにつき1回)"
+      "name": "黎明事務所-守護者",
+      "desc": "回合開始時，使現存体力比例最低的友方単位獲得2層[Protection]\n\n<color=#ff6000><mark color=#ff000040><b><u>若現存体力不高于30%，</color></mark></b></u>則与自身属于同一陣営的友方単位3技能命中時，対目標敵方単位使用技能“黎明閃光”(每回合最多1次)"
     },
     {
       "id": 158002,
-      "name": "モルゲンフォイア[スティグマ工房]",
-      "desc": "ステージ初登場時、[DawnOfficeStigmaSOne]0を得る\n\n以下の条件を満たすと[DawnOfficeStigmaSOne]を得る\n- 基本スキル的中時に3を得る (スキルにつき1回)\n・パッシブ「<noparse>夜明事務所</noparse> - 守護者」によって使用する「黎明の閃光」なら、追加で1を得る\n・対象に[Combustion]があれば、追加で1を得る\n- (自分が保有する[Combustion]の発動によるダメージ÷2)だけ得る\n\n[DawnOfficeStigmaSOne]が30なら、強力なスキルを使用\n\n<color=#ff6000><mark color=#ff000040><b><u>自分のスキル的中時、対象に[Combustion]があれば、そのスキルの最後のコインの最終ダメージ量の30%分、対象の混乱区間を前進</color></mark></b></u>\n- 破壊されたコインでは、この効果は発動しない",
-      "flavor": "A+級の工房武器。駆け出しのフィクサーだった頃から、煙戦争、そしてその後に至るまで。夜明頃のフィクサーの手で振るわれてきた剣。夜明頃のフィクサーが実績を積むたび、スティグマ工房の名声は高まっていき、その見返りとしてスティグマ工房は何度も彼のためにこの剣へ改良を施した。積み重ねられた貫禄を宿すように、この剣もまた鍛え直され、改良されてきた。そうしてかつてはS級という評価を受けた武器だったが、夜明頃のフィクサーが第一線から退いて次世代を教える間に、モルゲンフォイアの熱もまた、必然的に冷めていき、刃先は鈍っていった。"
+      "name": "晨炎[烙印工坊]",
+      "desc": "在関峠中首次登場時，使自身獲得0層[DawnOfficeStigmaSOne]\n\n満足以下条件時，使自身獲得[DawnOfficeStigmaSOne]\n- 基礎技能命中時，獲得3層[DawnOfficeStigmaSOne](每个技能最多1次)\n· 若該技能為通過<noparse>黎明事務所</noparse>-守護者使用的“黎明閃光”，則使自身額外獲得1層[DawnOfficeStigmaSOne]\n· 若目標帯有[Combustion]，則使自身額外獲得1層[DawnOfficeStigmaSOne]\n- 使自身獲得(通過触発自身的[Combustion]受到的傷害/2)層[DawnOfficeStigmaSOne]\n\n若自身的[DawnOfficeStigmaSOne]層数為30層，則使用強力技能\n\n<color=#ff6000><mark color=#ff000040><b><u>自身技能命中時，若目標帯有[Combustion]，則使目標的混乱閾値前移該技能最后一枚硬幣最終傷害量30%的数値</color></mark></b></u>\n- 被摧毀的硬幣不会触発該效果",
+      "flavor": "A+級的工坊武器。从成為收尾人后的第一次工作起，到烟霾戦争以及那之后，這把剣一直在黎明時分的收尾人手中揮舞着。随着黎明時分的收尾人的業績不断積累，烙印工坊的名声也随之水漲船高。作為回报，烙印工坊曾一次又一次地為他改良這把剣。正如他一路不断積讃的資暦一般，這把剣也被不断地鍛造和改進。因而其曾一度被評級為S級武器，但随着黎明時分的收尾人从一綫退下，開始教導下一代，晨炎的熱度也不可避免地逐漸冷却，其剣刃的鋒芒也慢慢変鈍。"
     },
     {
       "id": 158003,
-      "name": "スティグマ工房の武器",
-      "desc": "自分のスキルで[Combustion]を付与するとき、付与する[Combustion]威力と回数の数値+1\n- 自分のスキルが的中した敵の[Combustion]回数が3未満なら、対象の[Combustion]回数が1増加"
+      "name": "烙印工造",
+      "desc": "<color=#ffffff>自身</color>通過技能施加[Combustion]時，令増加的[Combustion]強度与施加的[Combustion]層数額外+1\n- 若<color=#ffffff>自身</color>技能命中的<color=#ffffff>敵方単位</color>的[Combustion]層数低于3層，則対其施加1層[Combustion]"
     },
     {
       "id": 158004,
-      "name": "夜明頃のフィクサー",
-      "desc": "全囚人の精神力が20回復 (戦闘につき1回。マイナスコインを持つ人格には減少として適用)\n\n[Combustion]効果で受けるダメージ量-50% (小数点以下切り捨て)\n- 体力が50%未満なら効果が強化され、[Combustion]効果で受けるダメージ量-75%\n\n[PanicChangeLock]効果が適用され、ターン終了時にパニック状態なら精神力が45に変更される"
+      "name": "黎明時分的收尾人",
+      "desc": "使<color=#ffffff>全体</color>罪人恢復20点<color=#81BBE8>理智値</color>(每場戦斗最多1次，減算硬幣人格改為失去<color=#81BBE8>理智値</color>)\n\n受到的[Combustion]<color=#ffffff>傷害</color>-50%(向下取整)\n- 若現存<color=#61DA61>体力</color>低于50%，則改為受到的[Combustion]<color=#ffffff>傷害</color>-75%\n\n适用于[PanicChangeLock]效果，<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為45点 "
     },
     {
       "id": 158101,
-      "name": "夜明事務所 - 先輩",
-      "desc": "ターン開始時、速度が速い味方に[ParryingResultUp]2を付与\n- 速度が同じなら、フィリップ、サルヴァドール、ユナの順で付与\n\n<color=#ff6000><mark color=#ff000040><b><u>自分の残り体力が30%以下なら、</color></mark></b></u>同じ所属の味方のスキル3的中時、対象の敵へスキル「<noparse>連携</noparse>」を使用 (1ターンにつき1回)"
+      "name": "黎明事務所-前輩",
+      "desc": "回合開始時，使速度値最高的友方単位獲得2層[ParryingResultUp]\n- 速度値相同時，按菲利普、薩尓瓦多、尤娜的順序獲得\n\n<color=#ff6000><mark color=#ff000040><b><u>若現存体力不高于30%，</color></mark></b></u>則与自身属于同一陣営的友方単位3技能命中時，対目標敵方単位使用技能“<noparse>聯合</noparse>”(每回合最多1次)"
     },
     {
       "id": 158102,
-      "name": "フォイヤファルター[スティグマ工房]",
-      "desc": "ステージ初登場時、[DawnOfficeStigmaYOne]0を得る\n\n以下の条件を満たすと[DawnOfficeStigmaYOne]を得る\n- 基本スキル的中時に3を得る (スキルにつき1回)\n・パッシブ「<noparse>夜明事務所</noparse> - 先輩」によって使用する「<noparse>連携</noparse>」なら、追加で1を得る\n・対象に[Combustion]があれば、追加で1を得る\n- (自分が保有する[Combustion]の発動によるダメージ÷2)だけ得る\n\n<color=#ff6000><mark color=#ff000040><b><u>[DawnOfficeStigmaYOne]が30なら、強力なスキルを使用</color></mark></b></u>",
-      "flavor": "キャリーケースまたは楽器ケースのような見た目のこの武器を使う理由は明確だ。第一に、日常へ溶け込むためである。戦闘で扱いづらく複雑なタイプの武器は、かえってその非効率性ゆえに武器として認識されない確率が高い。\n第二に、キャリーケースという形状そのものがもたらす収納力である。そのため、内部に物を収納できる形状の武器はヂェーヴィチ協会で積極的に使用されている。\n\nただし、こうした長所がある一方で、工房装備を扱う者たちの間での評価は芳しくない。この武器を扱うために費やした時間を他の武器へ注いでいたなら、もっと強くなっていただろうとか、格好ばかりつけている今時のフィクサーたちが使う装備だ…といった言葉をしばしば聞くことがある。\n\nこのような扱いの難しい装備を持つ人物に出会ったとき、その人物が高ランクフィクサー、あるいは役職の高い組織員であるということは…逆説的にも、違った意味を持つ。そのため工房では、この装備の名称はキャリーケースではなく棺、コフィンと呼ばれている。そして棺には、決まって蝶がつくものである。"
+      "name": "炎蝶[烙印工坊]",
+      "desc": "在関峠中首次登場時，使自身獲得0層[DawnOfficeStigmaYOne]\n\n満足以下条件時，使自身獲得[DawnOfficeStigmaYOne]\n- 基礎技能命中時，獲得3層[DawnOfficeStigmaYOne](每个技能最多1次)\n· 若該技能為通過<noparse>黎明事務所</noparse>-前輩使用的“<noparse>聯合</noparse>”，則使自身額外獲得1層[DawnOfficeStigmaYOne]\n· 若目標帯有[Combustion]，則使自身額外獲得1層[DawnOfficeStigmaYOne]\n- 使自身獲得(通過触発自身的[Combustion]受到的傷害/2)層[DawnOfficeStigmaYOne]\n\n<color=#ff6000><mark color=#ff000040><b><u>若自身的[DawnOfficeStigmaYOne]層数為30層，則使用強力技能</color></mark></b></u>",
+      "flavor": "使用這種外観上像是行李箱或是樂器盒的武器的縁由十分明確。其一，是為了能劬融入日常。在戦斗中難以運用、構造復雑的武器，反而有大概率因其低效性而不被認定為武器。\n其二，行李箱的外形本身具備儲物能力。因而，外形可收納物品的武器被九協会广泛使用。\n不過，尽管其擁有這些優点，但在使用工坊装備的人們之間的風評却不是很好。若把掌握這件武器所花的時間投入到其他武器上，應該能変得更強;這是那些只会刷帥的收尾人才会使用的装備……經常能听到這様的論断。\n若遇到持有這種難以運用的装備之人，而那人身分為高階收尾人，或是身居高位的帮派成員……這一点反而会具有別様的意義。因此，在工坊中，這類装備的名称并不叫行李箱，而是被称之為棺。而棺中，向来会有蝴蝶相随。"
     },
     {
       "id": 158103,
-      "name": "スティグマ工房の武器",
-      "desc": "自分のスキルで[Combustion]を付与するとき、付与する[Combustion]威力と回数の数値+1\n- 自分のスキルが的中した敵の[Combustion]回数が3未満なら、対象の[Combustion]回数が1増加"
+      "name": "烙印工造",
+      "desc": "<color=#ffffff>自身</color>通過技能施加[Combustion]時，令増加的[Combustion]強度与施加的[Combustion]層数額外+1\n- 若<color=#ffffff>自身</color>技能命中的<color=#ffffff>敵方単位</color>的[Combustion]層数低于3層，則対其施加1層[Combustion]"
     },
     {
       "id": 158104,
-      "name": "孤独なフィクサー",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>ターン終了時、他の味方がいなければ[LoneFixer]を得る</color></mark></b></u>\n\n[Combustion]効果で受けるダメージ量-50% (小数点以下切り捨て)\n- 体力が50%未満なら効果が強化され、[Combustion]効果で受けるダメージ量-75%\n\n[PanicChangeLock]効果が適用され、ターン終了時にパニック状態なら精神力が45に変更される",
-      "flavor": "「孤独って何だか分かる？大切だった人が遠くへ行ってしまって、もう一緒にお昼を食べられないってこと。私にとっては、それが孤独だったの。できることなら…フィリップには、孤独なんて分かる日が来なければいいな。」"
+      "name": "孤独的收尾人",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>回合結束時，若没有其他友方単位，則使自身獲得[LoneFixer]</color></mark></b></u>\n\n受到的[Combustion]傷害-50%(向下取整)\n- 若現存体力低于50%，則改為受到的[Combustion]傷害-75%\n\n适用于[PanicChangeLock]效果，回合結束時，若自身陷入恐慌，則使自身的理智値変為45点",
+      "flavor": "“袮知道什么是孤独麼？重要的人去了很遠的地方，再也不能一起吃午飯了……于我而言，那就是孤独。若是可以的話……菲利普，希望袮能劬理解孤独的那一天永遠不会到来。”"
     },
     {
       "id": 158201,
-      "name": "スティグマ工房の武器",
-      "desc": "自分のスキルで[Combustion]を付与するとき、付与する[Combustion]威力と回数の数値+1\n- 自分のスキルが的中した敵の[Combustion]回数が3未満なら、対象の[Combustion]回数が1増加"
+      "name": "烙印工造",
+      "desc": "<color=#ffffff>自身</color>通過技能施加[Combustion]時，令増加的[Combustion]強度与施加的[Combustion]層数額外+1\n- 若<color=#ffffff>自身</color>技能命中的<color=#ffffff>敵方単位</color>的[Combustion]層数低于3層，則対其施加1層[Combustion]"
     },
     {
       "id": 158202,
       "name": "激情",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>自分の精神力が20/40以上なら、</color></mark></b></u>コイン威力がそれぞれ1/2増加"
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>若自身的理智値不低于20/40点，</color></mark></b></u>則使自身的硬幣威力+1/2"
     },
     {
       "id": 158203,
-      "name": "夜明事務所 - 新入り",
-      "desc": "[Combustion]効果で受けるダメージ量-40% (小数点以下切り捨て)\n\n[PanicChangeLock]効果が適用され、ターン終了時にパニック状態なら精神力が45に変更される\n\n体力が0になると…"
+      "name": "黎明事務所-新人",
+      "desc": "受到的[Combustion]<color=#ffffff>傷害</color>-40%(向下取整)\n\n适用于[PanicChangeLock]效果，<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為45点\n\n若現存<color=#61DA61>体力</color>為0点…"
     },
     {
       "id": 158301,
       "name": "不屈",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>今回の戦闘で体力が0になるダメージを受けたとき、</color></mark></b></u>以下の効果が発動 (戦闘につき1回)\n- そのダメージを受けず、そのターンの間は体力が1未満に減少しない\n- ターン終了時、最大体力の50%分体力を回復\n- この効果が発動したなら、今回の戦闘中は受けるダメージ量-20%"
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>本場戦斗中，自身受到使自身体力降至0点的傷害時，</color></mark></b></u>触発以下效果(每場戦斗最多1次)\n- 无視該傷害，該回合自身的体力不会低于1点\n- 回合結束時，使自身恢復体力上限50%的体力\n- 該效果触発后，本場戦斗中使自身受到的傷害-20%"
     },
     {
       "id": 158302,
-      "name": "楔事務所",
-      "desc": "ステージ初登場時、以下の効果を適用\n- 精神力が45回復\n- 楔事務所所属の全味方に[WalpuTenWedgeOffice]3を付与\n\nターン開始時、<color=#ff6000><mark color=#ff000040><b><u>混乱状態の味方がいるなら</color></mark></b></u>楔事務所代表オスカーが[SupportProtect]2を得る (自分を除く)\n<color=#ff6000><mark color=#ff000040><b><u>戦闘中に味方が混乱すると</color></mark></b></u>、楔事務所代表オスカーが[SupportProtect]1を得る (1ターンにつき1回。常時確認)\n- 上記2つの効果で[SupportProtect]を得るとき、楔事務所代表オスカーが混乱状態なら混乱を解除 (強制混乱を除く)"
+      "name": "楔子事務所",
+      "desc": "自身在関峠中首次登場時，触発以下效果\n- 使自身恢復45点理智値\n- 使属于楔子事務所的全体友方人格獲得3層[WalpuTenWedgeOffice]\n\n回合開始時，<color=#ff6000><mark color=#ff000040><b><u>若有友方単位陷入混乱</color></mark></b></u>，則使楔子事務所[TabExplain] 代表 奥斯峠獲得2層[SupportProtect](不包括自身)\n<color=#ff6000><mark color=#ff000040><b><u>戦斗中友方単位陷入混乱時</color></mark></b></u>，使楔子事務所[TabExplain] 代表 奥斯峠獲得1層[SupportProtect](每回合最多1次，持續判定)\n- 通過以上2種效果獲得[SupportProtect]時，若楔子事務所[TabExplain] 代表 奥斯峠陷入混乱，則解除其混乱(不包括強制混乱)"
     },
     {
       "id": 158303,
-      "name": "楔の援護",
-      "desc": "自分を含む味方が以下の条件を満たすと、[WalpuTenComboWedge]1を得る (条件ごとに、キャラクター1名につき1ターンに1回)\nそのキャラクターが楔事務所所属なら、代わりに[WalpuTenComboWedge]2を得る\n- スキル使用時\n- マッチ勝利時\n- 自分の基本スキルで[VibrationExplosion]が発生したとき",
-      "flavor": "ほとんどのフィクサー事務所は、協力して互いの不足を補い合う。\n中でも息の合う事務所同士は、より多くの情報を交換し、信頼を積み重ねて兄弟のように付き合うこともある。"
+      "name": "楔之援護",
+      "desc": "包括<color=#ffffff>自身</color>在内的<color=#ffffff>友方単位</color>満足以下条件時，使<color=#ffffff>自身</color>獲得1層[WalpuTenComboWedge](每種条件每名<color=#ffffff>友方単位</color><color=#7C5738>每回合</color>最多1次)\n若該単位属于楔子事務所，則改為獲得2層[WalpuTenComboWedge]\n- 使用技能時\n- 拼点勝利時\n- 通過<color=#ffffff>自身</color>的技能触発[VibrationExplosion]時",
+      "flavor": "大部分收尾人事務所間都会相互協力，弥補彼此的不足。\n其中配合更默契的事務所間会交換更多的信息，積累信頼，如兄弟般相処。"
     },
     {
       "id": 158304,
       "name": "楔式槍術",
-      "desc": "[VibrationExplosion]による混乱区間前進量+10%\nターン開始時、[PenetrateResultUp]、[PenetrateDamageUp]1を得る\n\n<color=#ff6000><mark color=#ff000040><b><u>現在の体力の割合が50%以上、またはバリアを持つ対象に与えるダメージ量+20%</color></mark></b></u>\n\n基本スキルでダメージを与えるとき、対象の防御レベルが的中したスキルの攻撃レベルより高ければ、数値の差1につきダメージ量+2% (最大30%)",
-      "flavor": "槍の穂先を鋭く研ぐだけでは貫通力を高めるにも限界があり、特許を取得した合金や遺跡で発見される素材で作った槍は、大抵の事務所の数年分の予算に匹敵する。一方、周囲に流れる風を武器に纏わせる技術は、扱う工房が多く、かかる費用に比して貫通力も優れている。\n\n楔事務所の槍も、こうした技術を扱う工房で作られた。回転を積極的に織り交ぜる楔事務所の槍術と相まって、これまで数多くの敵を貫いてきた。"
+      "desc": "[VibrationExplosion]造成的混乱閾値前移量+10%\n回合開始時，使自身獲得1層[PenetrateResultUp]与1層[PenetrateDamageUp]\n\n<color=#ff6000><mark color=#ff000040><b><u>対現存体力不低于50%或帯有護盾的目標造成的傷害+20%</color></mark></b></u>\n\n基礎技能造成傷害時，若目標的防御等級高于該技能的攻撃等級，則每相差1級，使該技能造成的傷害+2%(最多+30%)",
+      "flavor": "僅靠鋒利的槍尖来提高穿透力的效果有限，而用具有専利的合金或廃墟中発現的材料制作的槍，需要花上一家普通事務所几年分的預算。相反的是，使用以周圍流動的風来包裹武器的技術的工坊很多，就其花費的費用而言，穿透力也相当優秀。\n\n楔子事務所的長槍也是在使用這種技術的工坊中制作的。与楔子事務所積極穿插旋轉的槍術相結合，至今已貫穿了无数的敵人。"
     },
     {
       "id": 158401,
-      "name": "楔打ち",
-      "desc": "以下の条件のいずれかを満たすと、[WalpuTenBattleFieldKnow]1を得る (1ターンにつき1回)\n- 戦闘中に敵が死亡するか、混乱状態になった場合\n- <color=#ff6000><mark color=#ff000040><b><u>マイナス効果が4種類以上ある対象への攻撃的中時</color></mark></b></u>\n- [WalpuTenWedgeMarkSilver]がある対象への攻撃的中時\n\n貫通スキルで最後のコイン的中時、メインターゲットに[WalpuTenWedgeMarkGold]1を付与 (スキルにつき1回)"
+      "name": "刺入楔子",
+      "desc": "満足以下条件時，使自身獲得1層[WalpuTenBattleFieldKnow](每回合最多1次)\n- 戦斗中敵方単位陣亡或陷入混乱時\n- <color=#ff6000><mark color=#ff000040><b><u>攻撃命中帯有的負面状態数不少于4種的目標時</color></mark></b></u>\n- 攻撃命中帯有[WalpuTenWedgeMarkSilver]的目標時\n\n突刺技能的最后一枚硬幣命中時，対主要目標施加1層[WalpuTenWedgeMarkGold](每个技能最多1次)"
     },
     {
       "id": 158402,
-      "name": "都市の狩人",
-      "desc": "ステージ初登場時、精神力が45回復\n\nターン終了時、自分の[Breath]威力が10以上なら、次のターンに[Agility]1を得る\n\n自分の[Breath]威力が20を超過したなら、基本スキルで与えるクリティカルダメージ量+(超過した数値)% (最大25%)",
-      "flavor": "都市の夜の街路には、いつも卑劣で野蛮な連中がひしめいている。\n一発逆転を狙うネズミから、復讐を夢見る裏路地の住民、利権を争う組織や指、そして掃除屋に至るまで。\nそのため、夜に行われる依頼は大抵報酬が高いにもかかわらず、不人気だ。\nしかし、そんな深夜の依頼を好機と捉える者たちもいる。\n優れた状況判断能力と、禍根を残さない迅速で抜かりのない後始末。\nこの二つを武器に、楔事務所はそのたびに生き残り、高額な報酬を手にしてきた。"
+      "name": "都市猟手",
+      "desc": "<color=#ffffff>自身</color>在関峠中首次登場時，使<color=#ffffff>自身</color>恢復45点<color=#81BBE8>理智値</color>\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[Breath]強度不低于10級，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>自身</color>的[Breath]強度不低于20級，則使<color=#ffffff>自身</color>基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(溢出[Breath]強度)%(最多+25%)",
+      "flavor": "都市夜晚的街道上，總是充斥着卑劣与野蛮的家夥。\n从伺机一舉翻盤的耗子、梦想復仇的后巷居民，到争権奪利的帮派、手指以及清道夫。\n因此，在夜晚進行的委托雖然报酬更高，却更不受歓迎。\n但也有将深夜的委托視為机遇的人。\n優秀的情勢判断能力，以及不留禍根的迅速且厳密的事后收尾。\n凭借這兩種武器，楔子事務所每次都能生存下来，并獲得了高額的报酬。"
     },
     {
       "id": 158501,
-      "name": "楔打ち",
-      "desc": "マッチ開始時、[WalpuTenBattleFieldKnow]1を得る (1ターンにつき1回)\n\n貫通スキルで最後のコイン的中時、メインターゲットに[WalpuTenWedgeMarkSilver]1を付与 (スキルにつき1回)"
+      "name": "刺入楔子",
+      "desc": "拼点開始時，使<color=#ffffff>自身</color>獲得1層[WalpuTenBattleFieldKnow](<color=#7C5738>每回合</color>最多1次)\n\n<color=#ffffff>突刺</color>技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>施加1層[WalpuTenWedgeMarkSilver](每个技能最多1次)"
     },
     {
       "id": 158502,
-      "name": "都市の狩人",
-      "desc": "ステージ初登場時、精神力が45回復\n\nターン終了時、自分の[Breath]威力が10以上なら、次のターンに[Agility]1を得る\n\n自分の[Breath]威力が20を超過したなら、基本スキルで与えるクリティカルダメージ量+(超過した数値)% (最大25%)",
-      "flavor": "都市の夜の街路には、いつも卑劣で野蛮な連中がひしめいている。\n一発逆転を狙うネズミから、復讐を夢見る裏路地の住民、利権を争う組織や指、そして掃除屋に至るまで。\nそのため、夜に行われる依頼は大抵報酬が高いにもかかわらず、不人気だ。\nしかし、そんな深夜の依頼を好機と捉える者たちもいる。\n優れた状況判断能力と、禍根を残さない迅速で抜かりのない後始末。\nこの二つを武器に、楔事務所はそのたびに生き残り、高額な報酬を手にしてきた。"
+      "name": "都市猟手",
+      "desc": "<color=#ffffff>自身</color>在関峠中首次登場時，使<color=#ffffff>自身</color>恢復45点<color=#81BBE8>理智値</color>\n\n<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>的[Breath]強度不低于10級，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>自身</color>的[Breath]強度不低于20級，則使<color=#ffffff>自身</color>基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(溢出[Breath]強度)%(最多+25%)",
+      "flavor": "都市夜晚的街道上，總是充斥着卑劣与野蛮的家夥。\n从伺机一舉翻盤的耗子、梦想復仇的后巷居民，到争権奪利的帮派、手指以及清道夫。\n因此，在夜晚進行的委托雖然报酬更高，却更不受歓迎。\n但也有将深夜的委托視為机遇的人。\n優秀的情勢判断能力，以及不留禍根的迅速且厳密的事后收尾。\n凭借這兩種武器，楔子事務所每次都能生存下来，并獲得了高額的报酬。"
     },
     {
       "id": 158601,
-      "name": "スティグマ工房の武器",
-      "desc": "自分のスキルで[Combustion]を付与するとき、付与する[Combustion]威力と回数の数値+1\n- 自分のスキルが的中した敵の[Combustion]回数が3未満なら、対象の[Combustion]回数が1増加"
+      "name": "烙印工造",
+      "desc": "<color=#ffffff>自身</color>通過技能施加[Combustion]時，令増加的[Combustion]強度与施加的[Combustion]層数額外+1\n- 若<color=#ffffff>自身</color>技能命中的<color=#ffffff>敵方単位</color>的[Combustion]層数低于3層，則対其施加1層[Combustion]"
     },
     {
       "id": 158602,
       "name": "激情",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>自分の精神力が20/40以上なら</color></mark></b></u>、コイン威力がそれぞれ1/2増加\n\n<color=#ff6000><mark color=#ff000040><b><u>体力が50%以下なら</color></mark></b></u>、最終威力+1"
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>若自身的理智値不低于20/40点，</color></mark></b></u>則使自身的硬幣威力+1/2\n\n<color=#ff6000><mark color=#ff000040><b><u>若現存体力不高于50%</color></mark></b></u>，則使自身的最終威力+1"
     },
     {
       "id": 158603,
-      "name": "夜明事務所 - 新入り",
-      "desc": "ステージ初登場時、精神力が45回復\n[Combustion]効果で受けるダメージ量-40% (小数点以下切り捨て)\n\n[PanicChangeLock]効果が適用され、ターン終了時にパニック状態なら精神力が45に変更される\n\n体力が10になると…"
+      "name": "黎明事務所-新人",
+      "desc": "<color=#ffffff>自身</color>在関峠中首次登場時，使<color=#ffffff>自身</color>恢復45点<color=#81BBE8>理智値</color>\n受到的[Combustion]<color=#ffffff>傷害</color>-40%(向下取整)\n\n适用于[PanicChangeLock]效果，<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為45点\n\n若現存<color=#61DA61>体力</color>為10点…"
     },
     {
       "id": 158701,
       "name": "激情",
-      "desc": "ターン終了時、混乱状態でなければ全ての敵に[Combustion]2を付与\n\n<color=#ff6000><mark color=#ff000040><b><u>自分の精神力が20/40/45以上なら</color></mark></b></u>、最終威力がそれぞれ1/2/3増加\n\n<color=#ff6000><mark color=#ff000040><b><u>自分の体力が50%以下なら</color></mark></b></u>、最終威力+1"
+      "desc": "回合結束時，若自身陷入混乱，則使全体敵方単位増加2級[Combustion]強度\n\n<color=#ff6000><mark color=#ff000040><b><u>若自身的理智値不低于20/40/45点，</color></mark></b></u>則使自身的硬幣威力+1/2/3\n\n<color=#ff6000><mark color=#ff000040><b><u>若現存体力不高于50%</color></mark></b></u>，則使自身的最終威力+1"
     },
     {
       "id": 158702,
-      "name": "不安定な自我の殻",
-      "desc": "被撃時に攻撃者へ[Combustion]を付与する[PhilipShield]状態と、攻撃的中時に対象へ[Combustion]を付与する[PhilipSword]状態を繰り返す\n\n[PhilipReady]が0なら、「燃えたぎる一撃」を使用\n- そのターン終了後、次のターンに再び[PhilipReady]4を得る"
+      "name": "不穏定的自我外殻",
+      "desc": "在受到攻撃時使攻撃者増加[Combustion]強度的[PhilipShield]状態与攻撃命中時使<color=#ffffff>目標</color>増加[Combustion]強度的[PhilipSword]状態間轉換\n\n若<color=#ffffff>自身</color>的[PhilipReady]層数為0層，則使用“爆炎一撃”\n- 該<color=#7C5738>回合結束</color>后，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>再次獲得4層[PhilipReady]"
     },
     {
       "id": 158703,
-      "name": "不安定開花E.G.O::蜜蝋の翼",
-      "desc": "ステージ初登場時に精神力45で開始し、[PhilipPower]を得る\n\n[Combustion]効果で受けるダメージ量-50% (小数点以下切り捨て)\n- 体力が50%未満なら効果が強化され、[Combustion]効果で受けるダメージ量-75%\n\n[PanicChangeLock]効果が適用され、ターン終了時にパニック状態なら精神力が45に変更される",
-      "flavor": "飛び立つ空をまだ定められずにいる、中途半端な翼。"
+      "name": "不穏定綻放E.G.O::蝋翼",
+      "desc": "在関峠中首次登場時<color=#81BBE8>理智値</color>為45点并獲得[PhilipPower]\n\n受到的[Combustion]<color=#ffffff>傷害</color>-50%(向下取整)\n- 若現存<color=#61DA61>体力</color>低于50%，則改為受到的[Combustion]<color=#ffffff>傷害</color>-75%\n\n适用于[PanicChangeLock]效果，<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入恐慌，則使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>変為45点",
+      "flavor": "尚未確定所敖翔的天空的、半成型的翅膀。"
     },
     {
       "id": 158704,
-      "name": "定められた結末",
-      "desc": "体力が10になると…"
+      "name": "既定的結局",
+      "desc": "若現存<color=#61DA61>体力</color>為10点…"
     }
   ]
 }

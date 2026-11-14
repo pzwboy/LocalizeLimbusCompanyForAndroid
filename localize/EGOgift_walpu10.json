@@ -2,8 +2,8 @@
   "dataList": [
     {
       "id": 9292,
-      "name": "ロールモデル",
-      "desc": "フィクサー人格を2人以上編成した場合、味方フィクサーのうち編成順が最も遅い1名に下記の効果が発動 (待機人員を含まない)\n- ステージ初登場時、[Emulation]を得る\n\n戦場の味方フィクサー人格2人につき、ターン開始時に味方フィクサーの精神力を2回復\n\nフィクサーであり、かつ所属が同じ人格が3人以上なら下記の効果を適用\n- [Emulation]を保有する味方の基本攻撃スキルのダメージ量 +(戦場の味方フィクサーの数 × 3)% (最大15%)\n\nフィクサーであり、かつ所属がそれぞれ異なる人格が3人以上なら下記の効果を適用\n- [Emulation]を保有する味方が基本攻撃スキル使用時、[Enhancement]1を得る (1ターンにつき2回)\n- [Emulation]を保有する味方が基本攻撃スキル的中時、[Vulnerable]1を付与 (1ターンにつき2回。集中戦闘では部位ごとに判定)",
+      "name": "榜様",
+      "desc": "若編入的属于收尾人的人格不低于2名，則使編入的属于收尾人的<color=#ffffff>友方単位</color>中最后編入的1名<color=#ffffff>友方単位</color>獲得以下效果(不包括待命人員)\n- <color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得[Emulation]\n\n場上每有2名属于收尾人的友方人格，<color=#7C5738>回合開始</color>時使属于收尾人的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復2点<color=#81BBE8>理智値</color>\n\n若有不低于3名属于同一陣営且属于收尾人的人格，則触発以下效果\n- 使帯有[Emulation]的<color=#ffffff>友方単位</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+(場上属于收尾人的<color=#ffffff>友方単位</color>数×3)%(最多+15%)\n\n若有不低于3名属于不同陣営且属于收尾人的人格，則触発以下效果\n- 帯有[Emulation]的<color=#ffffff>友方単位</color>使用基礎攻撃技能時，使其獲得1層[Enhancement](<color=#7C5738>每回合</color>最多2次)\n- 帯有[Emulation]的<color=#ffffff>友方単位</color>基礎攻撃技能命中時，対<color=#ffffff>目標</color>施加1層[Vulnerable](<color=#7C5738>每回合</color>最多2次;若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)",
       "simpleDesc": [
         {
           "abilityID": 9292,
@@ -13,89 +13,89 @@
     },
     {
       "id": 9293,
-      "name": "心を込めて分けた薬材",
-      "desc": "[ComboSkill]効果を持つスキル、または味方のスキル・パッシブ効果によって追加発動した攻撃スキルの与ダメージ量 +10%\n- 上記の効果が発動するたびに与ダメージ量が追加で+2% (最大10%)\n- [ComboSkill]効果を持つスキルの場合、使用するたびに[AttackDmgUp]1を得る (人格ごとに最大2)\n- 該当する味方が<noparse>夜明事務所</noparse>または<noparse>楔事務所</noparse>所属なら、[Enhancement]1を得る (人格ごとに最大2)",
+      "name": "精心分類的薬材",
+      "desc": "使帯有[ComboSkill]效果的技能或通過<color=#ffffff>友方単位</color>的技能或被動效果額外使用的攻撃技能造成的<color=#ffffff>傷害</color>+10%\n- 每触発一次該效果，使造成的<color=#ffffff>傷害</color>額外+2%(最多額外+10%)\n- 使用帯有[ComboSkill]效果的技能時，使<color=#ffffff>自身</color>獲得1層[AttackDmgUp](每名人格最多2次)\n- 若該<color=#ffffff>友方単位</color>属于<noparse>黎明事務所</noparse>或<noparse>楔子事務所</noparse>，則使其獲得1層[Enhancement](每名人格最多2次)",
       "simpleDesc": [
         {
           "abilityID": 9293,
-          "simpleDesc": "<noparse>ダメージ量増加</noparse>、[AttackDmgUp]を得る。条件を満たすと[Enhancement]を得る"
+          "simpleDesc": "<noparse>造成的<color=#ffffff>傷害</color>増加</noparse>，獲得[AttackDmgUp]。満足条件時獲得[Enhancement]"
         }
       ]
     },
     {
       "id": 9294,
-      "name": "見窄らしい矜持",
-      "desc": "ステージ開始時、ランダムな味方1名に[CursedBlessing]を付与\n[CursedBlessing]を保有する人格が生存した状態で戦闘に6回勝利すると、該当E.G.Oギフトが変更される (騎士の矜持)\n{0}\n",
+      "name": "空洞的自尊",
+      "desc": "<color=#7C5737>関峠開始</color>時，随机対1名<color=#ffffff>友方単位</color>施加[CursedBlessing]\n本E.G.O飾品在6場帯有[CursedBlessing]的人格存活的情况下戦斗勝利后轉化(騎士的自尊)\n{0}",
       "simpleDesc": [
         {
           "abilityID": 9294,
-          "simpleDesc": "[CursedBlessing]を付与"
+          "simpleDesc": "施加[CursedBlessing]"
         }
       ]
     },
     {
       "id": 9295,
-      "name": "騎士の矜持",
-      "desc": "[編成順1番専用効果]\n全混乱区間を除去。ステージ開始時に[BeyondDespair]を付与。",
+      "name": "騎士的自尊",
+      "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n移除<color=#ffffff>自身</color>所有<color=#ffffff>混乱閾値</color>，<color=#7C5737>関峠開始</color>時使<color=#ffffff>自身</color>獲得[BeyondDespair]",
       "simpleDesc": [
         {
           "abilityID": 9295,
-          "simpleDesc": "[BeyondDespair]を付与"
+          "simpleDesc": "獲得[BeyondDespair]"
         }
       ]
     },
     {
       "id": 9296,
-      "name": "悲痛の宿った剣",
-      "desc": "[Sinking]威力または回数、特殊[Sinking]を付与する貫通属性の基本スキルの最終威力 +1\n\n味方のスキル的中時、対象の精神力が-20以下なら対象の[Sinking]威力分の憂鬱ダメージ (スキルにつき1回)\n- 貫通スキルなら、対象の([Sinking]回数 ÷ 2)だけ追加の固定ダメージ (スキルにつき1回)\n\n[ロボトミーE.G.O::<noparse>涙で研ぎ澄まされた剣</noparse>ロージャ専用効果]\n攻撃加重値が1で[Charge]を消耗する基本スキルで敵に最終コイン的中時、最終ダメージ量の(消耗した[Charge]威力)%分の傲慢ダメージを全ての敵に与える (特殊[Charge]を含む)\n\n[<noparse>涙で研ぎ澄まされた剣</noparse>ホンルE.G.Oスキル専用効果]\nE.G.Oスキルの最終威力 +1",
+      "name": "充盈悲痛之剣",
+      "desc": "使増加[Sinking]強度，施加[Sinking]層数或施加特殊[Sinking]的<color=#ffffff>突刺</color>基礎技能的<color=#ffffff>最終威力</color>+1\n\n<color=#ffffff>友方単位</color>的技能命中時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于-20点，則対<color=#ffffff>目標</color>造成相当于其[Sinking]強度的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n- 若該技能為<color=#ffffff>突刺</color>技能，則対<color=#ffffff>目標</color>額外造成(其[Sinking]強度/2)点固定<color=#ffffff>傷害</color>(每个技能最多1次)\n\n[脳叶公司E.G.O::<noparse>泪鋒之剣</noparse> 羅佳専属]\n<color=#ffffff>攻撃容量</color>為1且消耗[Charge]的基礎技能最后一枚硬幣命中<color=#ffffff>敵方単位</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成最終<color=#ffffff>傷害</color>量(消耗的[Charge]層数)%的<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>(包括特殊[Charge])\n\n[<noparse>泪鋒之剣</noparse> 鴻璐 E.G.O技能専属]\nE.G.O技能的<color=#ffffff>最終威力</color>+1",
       "simpleDesc": [
         {
           "abilityID": 9296,
-          "simpleDesc": "スキル最終威力が増加、憂鬱ダメージ、対象の精神力が低い場合は固定ダメージ"
+          "simpleDesc": "技能的<color=#ffffff>最終威力</color>増加，造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>，<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>較低時造成固定<color=#ffffff>傷害</color>"
         }
       ]
     },
     {
       "id": 9297,
-      "name": "白いクラバット",
-      "desc": "ターン開始時、<noparse>楔事務所</noparse>所属人格が3人以上なら発動 (編成人員を基準とする)\n\n[<noparse>楔事務所</noparse>代表ウーティス専用効果]\n- 上記の条件を初めて満たしたターンの開始時、[ComboWedge]20を得る\n- 「楔形陣展開」「…総員、激突用意。」「夜明けの後に貫き来る楔」使用時、次のターンに[ComboWedgeDawn]1を得る (1ターンにつき2回)\n- 「楔形陣展開」を使用した場合、次のターン開始時に該当スキルで消耗した[ComboWedge]の半分を取り戻す (1ターンにつき1回、小数点以下切り捨て)",
+      "name": "白色領巾",
+      "desc": "<color=#7C5738>回合開始</color>時，若属于<noparse>楔子事務所</noparse>的人格不低于3名，則触発該效果(以編隊人員為基准)\n\n[<noparse>楔子事務所</noparse> 代表 奥提斯専属]\n- 首次満足以上条件的<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得20層[ComboWedge]\n- 使用“展開楔形陣勢”、“…全員，做好交鋒准備。”或“黎明后貫穿而来之楔”時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ComboWedgeDawn](<color=#7C5738>每回合</color>最多2次)\n- 使用“展開楔形陣勢”時，<color=#7C5738>下回合</color>開始時使<color=#ffffff>自身</color>獲得該技能消耗量一半的[ComboWedge](<color=#7C5738>每回合</color>最多1次，向下取整)",
       "simpleDesc": [
         {
           "abilityID": 9297,
-          "simpleDesc": "[ComboWedge]または[ComboWedgeDawn]を得る"
+          "simpleDesc": "獲得[ComboWedge]或[ComboWedgeDawn]"
         }
       ]
     },
     {
       "id": 9298,
-      "name": "黒いトリコーン",
-      "desc": "マッチ進行時、マッチのたびに敵へ[Vibration]2を付与 (スキルにつき3回)\n\n味方の基本攻撃スキルが敵にクリティカル的中時、メインターゲットに[Vibration]があれば、[VibrationExplosion]。対象の[Vibration]回数が1減少 (スキルにつき1回)\n- 敵が[Switch_Vibration]状態なら、与クリティカルダメージ量 +10%\n- 敵が[VibrationNesting]状態なら、重複した状態1つにつきクリティカルダメージ量が追加で+5%増加 (最大25%)",
+      "name": "黑色三角帽",
+      "desc": "進行拼点時，每次拼点使<color=#ffffff>敵方単位</color>増加2級[Vibration]強度(每个技能最多3次)\n\n<color=#ffffff>友方単位</color>的基礎攻撃技能<color=#ffffff>暴撃</color>命中<color=#ffffff>敵方単位</color>時，若主要<color=#ffffff>目標</color>帯有[Vibration]，則使主要<color=#ffffff>目標</color>[VibrationExplosion]，并使主要<color=#ffffff>目標</color>的[Vibration]層数減少1層(每个技能最多1次)\n- 若<color=#ffffff>敵方単位</color>処于[Switch_Vibration]状態，則使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+10%\n- 若<color=#ffffff>敵方単位</color>処于[VibrationNesting]状態，則每畳加1種状態，使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+5%(最多+25%)",
       "simpleDesc": [
         {
           "abilityID": 9298,
-          "simpleDesc": "マッチ進行時に[Vibration]を付与\n条件を満たすと[VibrationExplosion]、スキルのクリティカルダメージ量が増加"
+          "simpleDesc": "進行拼点時施加震顫 \n満足条件時触発震顫引爆 ，技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加"
         }
       ]
     },
     {
       "id": 9299,
-      "name": "身体適応用装置",
-      "desc": "[VibrationCollapse]を保有する敵へ[VibrationExplosion]時、各対象へ与えたダメージ量の(各対象の減少した防御レベルの数値)%分の怠惰ダメージを与える (最大15%)",
+      "name": "身体适應用装置",
+      "desc": "使帯有[VibrationCollapse]的<color=#ffffff>敵方単位</color>[VibrationExplosion]時，対每个<color=#ffffff>目標</color>造成<color=#ffffff>傷害</color>量(其防御等級減少量)%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(最多15%)",
       "simpleDesc": [
         {
           "abilityID": 9299,
-          "simpleDesc": "怠惰ダメージ"
+          "simpleDesc": "造成<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
         }
       ]
     },
     {
       "id": 9300,
-      "name": "折れた穂先",
-      "desc": "貫通の基本攻撃スキルでクリティカルダメージを与えた場合、攻撃終了時に対象へ[EmbeddedSpearhead]を付与 (人格ごとに1ターンにつき1回、集中戦闘では部位ごとに判定)",
+      "name": "折断的槍尖",
+      "desc": "<color=#ffffff>突刺</color>基礎攻撃技能造成<color=#ffffff>暴撃</color><color=#ffffff>傷害</color>時，攻撃結束后対<color=#ffffff>目標</color>施加[EmbeddedSpearhead](每名人格<color=#7C5738>每回合</color>最多1次;若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)",
       "simpleDesc": [
         {
           "abilityID": 9300,
-          "simpleDesc": "[EmbeddedSpearhead]を付与"
+          "simpleDesc": "施加[EmbeddedSpearhead]"
         }
       ]
     }

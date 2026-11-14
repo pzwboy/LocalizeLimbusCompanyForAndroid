@@ -1415,7 +1415,7 @@
     },
     {
       "id": 1100921,
-      "name": "熾熱之刃",
+      "name": "燃焼之剣",
       "desc": "第1順位的<color=#ffffff>友方単位</color>正面命中時，令其対<color=#ffffff>目標</color>施加1層[Combustion](<color=#7C5738>每回合</color>最多4次)",
       "summary": "正面命中時，対<color=#ffffff>目標</color>施加1層[Combustion]"
     },
@@ -3446,114 +3446,114 @@
     {
       "id": 1111601,
       "name": "楔式槍術",
-      "desc": "自分のスキルによる[VibrationExplosion]の混乱区間前進量 +10%\n戦闘開始時、[PenetrateResultUp]、[PenetrateDamageUp]1を得る",
-      "flavor": "槍の穂先を鋭く研ぐだけでは貫通力を高めるにも限界があり、特許を取得した合金や遺跡で発見される素材で作った槍は、大抵の事務所の数年分の予算に匹敵する。一方、周囲に流れる風を武器に纏わせる技術は、扱う工房が多く、かかる費用に比して貫通力も優れている。\n楔事務所の槍も、こうした技術を扱う工房で作られた。回転を積極的に織り交ぜる楔事務所の槍術と相まって、これまで数多くの敵を貫いてきた。"
+      "desc": "使<color=#ffffff>自身</color>技能通過[VibrationExplosion]造成的<color=#ffffff>混乱閾値</color>前移量+10%\n<color=#ffffff>戦斗開始</color>時，使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp]与1層[PenetrateDamageUp]",
+      "flavor": "僅靠鋒利的槍尖来提高穿透力的效果有限，而用具有専利的合金或廃墟中発現的材料制作的槍，需要花上一家普通事務所几年分的預算。相反的是，使用以周圍流動的風来包裹武器的技術的工坊很多，就其花費的費用而言，穿透力也相当優秀。\n楔子事務所的長槍也是在使用這種技術的工坊中制作的。与楔子事務所積極穿插旋轉的槍術相結合，至今已貫穿了无数的敵人。"
     },
     {
       "id": 1111602,
       "name": "不屈",
-      "desc": "今回の戦闘で体力が0になるダメージを受けたとき、以下の効果が発動 (戦闘につき1回)\n- 該当ダメージを受けず、そのターン中は体力が1未満に減少しない\n- ターン終了時、最大体力の50%分体力を回復\n- 今回の戦闘中、被ダメージ量 -20%",
-      "summary": "体力が0になるダメージを受けると、体力が1未満に減少しない"
+      "desc": "本場戦斗中，<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，触発以下效果(每場戦斗最多1次)\n- 无視該<color=#ffffff>傷害</color>，該回合<color=#ffffff>自身</color>的<color=#61DA61>体力</color>不会低于1点\n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限50%的<color=#61DA61>体力</color>\n- 本場戦斗中，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>-20%",
+      "summary": "受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，<color=#61DA61>体力</color>不会低于1点"
     },
     {
       "id": 1111603,
-      "name": "楔事務所",
-      "desc": "ターン開始時、自分を含め戦場にいる味方の楔事務所[TabExplain]所属人格が2名以上なら、味方の全楔事務所[TabExplain]所属人格へ該当人数分の[WedgeOffice]を付与",
-      "summary": "[WedgeOffice]を付与"
+      "name": "楔子事務所",
+      "desc": "<color=#7C5738>回合開始</color>時，若場上包括<color=#ffffff>自身</color>在内属于楔子事務所[TabExplain]的友方人格不低于2名，則使属于楔子事務所[TabExplain]的<color=#ffffff>全体</color>友方人格獲得層数相当于該人格数的[WedgeOffice]",
+      "summary": "獲得[WedgeOffice]"
     },
     {
       "id": 1111604,
-      "name": "楔の援護",
-      "desc": "自分を含む味方人格がスキル使用時、[ComboWedge]1を得る (人格ごとにターンにつき1回)\n自分を含む味方の楔事務所[TabExplain]または夜明事務所[TabExplain]所属人格がマッチ勝利時、[ComboWedge]2を得る (人格ごとにターンにつき1回)\n\n自分の攻撃終了時、自分が保有する[ComboWedge]が25以上なら、「楔形陣展開」を使用 (ターンにつき1回)",
-      "summary": "保有する[ComboWedge]が25以上なら、「楔形陣展開」を使用",
-      "flavor": "ほとんどのフィクサー事務所は、協力して互いの不足を補い合う。\n中でも息の合う事務所同士は、より多くの情報を交換し、信頼を積み重ねて兄弟のように付き合うこともある。"
+      "name": "楔之援護",
+      "desc": "包括<color=#ffffff>自身</color>在内的友方人格使用技能時，使<color=#ffffff>自身</color>獲得1層[ComboWedge](每名人格<color=#7C5738>每回合</color>最多1次)\n包括<color=#ffffff>自身</color>在内属于楔子事務所[TabExplain]或黎明事務所[TabExplain]的友方人格拼点勝利時，使<color=#ffffff>自身</color>獲得2層[ComboWedge](每名人格<color=#7C5738>每回合</color>最多1次)\n\n<color=#ffffff>自身</color>攻撃后，若<color=#ffffff>自身</color>的[ComboWedge]層数不低于25層，則使用“展開楔形陣勢”(<color=#7C5738>每回合</color>最多1次)",
+      "summary": "<color=#ffffff>自身</color>的[ComboWedge]層数不低于25層時，使用“展開楔形陣勢”",
+      "flavor": "大部分收尾人事務所間都会相互協力，弥補彼此的不足。\n其中配合更默契的事務所間会交換更多的信息，積累信頼，如兄弟般相処。"
     },
     {
       "id": 1111605,
-      "name": "夜明けの楔",
-      "desc": "味方の夜明事務所[TabExplain]代表グレゴール人格が「明け方」スキル使用時、以下の効果を適用\n- [ComboSkill] : 楔事務所代表ウーティス\n· [WhenUse] ダメージ量 +30%\n· [WhenUse] 味方の楔事務所代表ウーティス人格の[ComboWedgeDawn]が1増加\n\nターン開始時、自分が保有する[ComboWedgeDawn]の数値に応じて、基本スキル1つを以下のスキルのいずれかに変更\n- [ComboWedgeDawn]が4なら「…総員、激突用意。」\n- [ComboWedgeDawn]が5なら「夜明けの後に貫き来る楔」\n(一番左のスロットの下のスキルを優先して変更。変更後のスキルを既に保有している場合、新たに変更せず、そのスキルを数値に応じたスキルに置き換える)",
-      "summary": "夜明事務所[TabExplain]代表グレゴールの「明け方」スキルを強化"
+      "name": "黎明之楔",
+      "desc": "友方黎明事務所[TabExplain] 代表 格里高尓人格使用技能“黎明将至”時，触発以下效果\n- [ComboSkill]：楔子事務所[TabExplain] 代表 奥提斯\n· [WhenUse] 使本技能造成的<color=#ffffff>傷害</color>+30%\n· [WhenUse] 使友方楔子事務所[TabExplain] 代表 奥提斯人格獲得1層[ComboWedgeDawn]\n\n<color=#7C5738>回合開始</color>時，根据<color=#ffffff>自身</color>的[ComboWedgeDawn]層数，相應使<color=#ffffff>自身</color>的1个基礎技能轉化為以下的1个技能\n· 若<color=#ffffff>自身</color>的[ComboWedgeDawn]層数不低于4層，則轉化為“…全員，做好交鋒准備。”\n· 若<color=#ffffff>自身</color>的[ComboWedgeDawn]層数不低于5層，則轉化為“黎明后貫穿而来之楔”\n(優先轉化儀表盤上位于最左側<color=#ffffff>行動槽</color>下方一行的技能。擁有轉化后的技能時，不会触発新的轉化，而改為使該技能替換為符合[ComboWedgeDawn]層数的技能)",
+      "summary": "強化黎明事務所[TabExplain] 代表 格里高尓的技能“黎明将至”"
     },
     {
       "id": 1111621,
-      "name": "加速ランス",
-      "desc": "全味方の貫通スキルダメージ量 +5%"
+      "name": "加速長槍",
+      "desc": "使<color=#ffffff>全体</color><color=#ffffff>友方単位</color><color=#ffffff>突刺</color>技能造成的<color=#ffffff>傷害</color>+5%"
     },
     {
       "id": 1031601,
-      "name": "都市の狩人",
-      "desc": "戦闘終了時、自分の[Breath]威力が10以上なら、次のターンに[Agility]1を得る\n\n自分の[Breath]威力が20を超過したなら、基本スキルによるクリティカルダメージ量 +(超過した数値)% (最大15%)",
-      "summary": "[Breath]威力が一定数値以上なら、次のターンに[Agility]を得る\n[Breath]威力が一定数値を超過すると、基本スキルによるクリティカルダメージ量が増加[TabExplain]",
-      "flavor": "都市の夜の街路には、いつも卑劣で野蛮な連中がひしめいている。\n一発逆転を狙うネズミから、復讐を夢見る裏路地の住民、利権を争う組織や指、そして掃除屋に至るまで。\nそのため、夜に行われる依頼は大抵報酬が高いにもかかわらず、不人気だ。\nしかし、そんな深夜の依頼を好機と捉える者たちもいる。\n優れた状況判断能力と、禍根を残さない迅速で抜かりのない後始末。\nこの二つを武器に、楔事務所はそのたびに生き残り、高額な報酬を手にしてきた。"
+      "name": "都市猟手",
+      "desc": "<color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>的[Breath]強度不低于10級，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>自身</color>的[Breath]強度不低于20級，則使<color=#ffffff>自身</color>基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(溢出[Breath]強度)%(最多+15%)",
+      "summary": "[Breath]強度不低于一定値時，<color=#7C5738>下回合</color>獲得[Agility]\n[Breath]強度高于一定値時，使基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加[TabExplain]",
+      "flavor": "都市夜晚的街道上，總是充斥着卑劣与野蛮的家夥。\n从伺机一舉翻盤的耗子、梦想復仇的后巷居民，到争権奪利的帮派、手指以及清道夫。\n因此，在夜晚進行的委托雖然报酬更高，却更不受歓迎。\n但也有将深夜的委托視為机遇的人。\n優秀的情勢判断能力，以及不留禍根的迅速且厳密的事后收尾。\n凭借這兩種武器，楔子事務所每次都能生存下来，并獲得了高額的报酬。"
     },
     {
       "id": 1031602,
-      "name": "シンクレア君！我が動きに合わせたまえ！！",
-      "desc": "編成画面で\n- <noparse>楔事務所</noparse>フィクサードンキホーテを編成すると、シンクレアの人格が自動で<noparse>楔事務所</noparse>フィクサーシンクレアとして編成される\n- <noparse>楔事務所</noparse>フィクサーシンクレアが編成解除されると、ドンキホーテの人格が自動で<noparse>楔事務所</noparse>フィクサー以外で最後に編成した人格として編成される (編成画面に入った時点ですでに<noparse>楔事務所</noparse>フィクサー人格として編成されていた場合、編成解除時にLCB囚人ドンキホーテとして編成される)\n\nターン開始時から戦闘開始前までに、自分の速度が味方の<noparse>楔事務所</noparse>フィクサーシンクレア人格の速度より遅ければ、速度が同じになるように自分の速度が増加する (どちらか一方でも精神力が-45、または速度固定効果がある場合、この効果は発動しない)",
-      "summary": "編成時、シンクレアの人格が自動で共に編成される\n自分の速度がシンクレアより遅ければ、速度が同じになるように増加"
+      "name": "辛克莱！配合吾之動作！！",
+      "desc": "在編隊界面中\n- 編入<noparse>楔子事務所</noparse> 收尾人 堂吉訶德時，自動将辛克莱的人格編入為<noparse>楔子事務所</noparse> 收尾人 辛克莱\n- 当<noparse>楔子事務所</noparse> 收尾人 辛克莱被移出編隊時，自動将堂吉訶德的人格編入為除<noparse>楔子事務所</noparse> 收尾人以外的最近編入的人格(若進入編隊界面時已編入<noparse>楔子事務所</noparse> 收尾人人格，則移出編隊時編入LCB 罪人 堂吉訶德)\n\n从<color=#7C5738>回合開始</color>時到<color=#ffffff>戦斗開始</color>前，若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>低于友方<noparse>楔子事務所</noparse> 收尾人 辛克莱人格的<color=#7C5737>速度値</color>，則使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>増加至<color=#7C5737>速度値</color>相同(在任何一方<color=#81BBE8>理智値</color>為-45点或受固定<color=#7C5737>速度値</color>的效果影響時，該效果不会生效)",
+      "summary": "編入時，同時自動編入辛克莱的人格\n若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>低于辛克莱的<color=#7C5737>速度値</color>，則使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>増加至<color=#7C5737>速度値</color>相同"
     },
     {
       "id": 1031603,
-      "name": "楔打ち",
-      "desc": "ターン開始時、[BattleFieldKnow]1を得る\n\n以下の条件のいずれかを満たすと、メインターゲットに[WedgeMarkYellow]1を付与 (ターンにつき1回)\n- メインターゲットに攻撃スキルの最後のコイン的中時\n- 自分の回避スキルで攻撃者のスキルの全コインの回避に成功したとき",
-      "summary": "ターン開始時、[BattleFieldKnow]を得る\n条件を満たすと、メインターゲットに[WedgeMarkYellow]を付与"
+      "name": "刺入楔子",
+      "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[BattleFieldKnow]\n\n満足以下条件時，対主要<color=#ffffff>目標</color>施加1層[WedgeMarkYellow](<color=#7C5738>每回合</color>最多1次)\n- 対主要<color=#ffffff>目標</color>使用的攻撃技能的最后一枚硬幣命中時\n- <color=#ffffff>自身</color>的閃避技能成功閃避攻撃者技能的所有硬幣時",
+      "summary": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得[BattleFieldKnow]\n満足条件時，対主要<color=#ffffff>目標</color>施加[WedgeMarkYellow]"
     },
     {
       "id": 1031604,
-      "name": "夜明けに背を預け合って",
-      "desc": "味方の<noparse>夜明事務所</noparse>フィクサーファウスト人格が「正午の解体」スキル使用時、該当スキルの1コイン目が以下の効果を得る (ターンにつき1回)\n- [ComboSkill] : <noparse>楔事務所</noparse>フィクサードンキホーテ\n· [OnSucceedAttack] [Combustion]2を付与、[Combustion]回数が2増加\n· [OnSucceedAttack] [Vibration]2を付与\n· [OnSucceedAttack] [WedgeMarkYellow]1を付与\n· [OnSucceedAttack] 味方の<noparse>楔事務所</noparse>代表ウーティス人格の[ComboWedgeDawn]が1増加",
-      "summary": "「連」発動時、「正午の解体」の1コイン目的中時に[Combustion]、[Vibration]、[WedgeMarkYellow]を付与、[Combustion]回数が増加、ウーティスの[ComboWedgeDawn]が増加"
+      "name": "与黎明相依",
+      "desc": "友方<noparse>黎明事務所</noparse> 收尾人 浮士德 人格使用技能“正午的解体”時，使該技能的第1枚硬幣獲得以下效果(<color=#7C5738>每回合</color>最多1次)\n- [ComboSkill]：<noparse>楔子事務所</noparse> 收尾人 堂吉訶德\n· [OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度并対其施加2層[Combustion]\n· [OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度\n· [OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WedgeMarkYellow]\n· [OnSucceedAttack] 使友方<noparse>楔子事務所</noparse> 代表 奥提斯人格獲得1層[ComboWedgeDawn]",
+      "summary": "触発連 時，“正午的解体”的第1枚硬幣命中時使<color=#ffffff>目標</color>増加[Combustion]強度与[Vibration]強度并対其施加[WedgeMarkYellow]層数与[Combustion]層数，使奥提斯獲得[ComboWedgeDawn]"
     },
     {
       "id": 1031611,
-      "name": "都市の狩人",
-      "desc": "戦闘終了時、自分の[Breath]威力が10以上なら、次のターンに[Agility]1を得る\n\n自分の[Breath]威力が20を超過したなら、基本スキルによるクリティカルダメージ量 +(超過した数値)% (最大25%)",
-      "summary": "[Breath]威力が一定数値以上なら、次のターンに[Agility]を得る\n[Breath]威力が一定数値を超過すると、基本スキルによるクリティカルダメージ量が増加[TabExplain]",
-      "flavor": "都市の夜の街路には、いつも卑劣で野蛮な連中がひしめいている。\n一発逆転を狙うネズミから、復讐を夢見る裏路地の住民、利権を争う組織や指、そして掃除屋に至るまで。\nそのため、夜に行われる依頼は大抵報酬が高いにもかかわらず、不人気だ。\nしかし、そんな深夜の依頼を好機と捉える者たちもいる。\n優れた状況判断能力と、禍根を残さない迅速で抜かりのない後始末。\nこの二つを武器に、楔事務所はそのたびに生き残り、高額な報酬を手にしてきた。"
+      "name": "都市猟手",
+      "desc": "<color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>的[Breath]強度不低于10級，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>自身</color>的[Breath]強度不低于20級，則使<color=#ffffff>自身</color>基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(溢出[Breath]強度)%(最多+25%)",
+      "summary": "[Breath]強度不低于一定値時，<color=#7C5738>下回合</color>獲得[Agility]\n[Breath]強度高于一定値時，使基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加[TabExplain]",
+      "flavor": "都市夜晚的街道上，總是充斥着卑劣与野蛮的家夥。\n从伺机一舉翻盤的耗子、梦想復仇的后巷居民，到争権奪利的帮派、手指以及清道夫。\n因此，在夜晚進行的委托雖然报酬更高，却更不受歓迎。\n但也有将深夜的委托視為机遇的人。\n優秀的情勢判断能力，以及不留禍根的迅速且厳密的事后收尾。\n凭借這兩種武器，楔子事務所每次都能生存下来，并獲得了高額的报酬。"
     },
     {
       "id": 1031621,
       "name": "事前偵察",
-      "desc": "速度が最も速い味方1名がマッチを行うスキル使用時、マッチ対象に[Vibration]威力3を付与 (ターンにつき1回、集中戦闘の場合は部位で判定)",
-      "summary": "速度が最も速い味方がマッチを行うスキル使用時、対象に[Vibration]威力を付与"
+      "desc": "<color=#7C5737>速度値</color>最高的1名<color=#ffffff>友方単位</color>使用技能進行拼点時，使拼点<color=#ffffff>目標</color>増加3級[Vibration]強度(<color=#7C5738>每回合</color>最多1次，若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)",
+      "summary": "<color=#7C5737>速度値</color>最高的<color=#ffffff>友方単位</color>使用技能進行拼点時，使<color=#ffffff>目標</color>増加[Vibration]強度"
     },
     {
       "id": 1101701,
-      "name": "都市の狩人",
-      "desc": "戦闘終了時、自分の[Breath]威力が10以上なら、次のターンに[Agility]1を得る\n\n自分の[Breath]威力が20を超過したなら、基本スキルによるクリティカルダメージ量 +(超過した数値)% (最大15%)",
-      "summary": "[Breath]威力が一定数値以上なら、次のターンに[Agility]を得る\n[Breath]威力が一定数値を超過すると、基本スキルによるクリティカルダメージ量が増加[TabExplain]",
-      "flavor": "都市の夜の街路には、いつも卑劣で野蛮な連中がひしめいている。\n一発逆転を狙うネズミから、復讐を夢見る裏路地の住民、利権を争う組織や指、そして掃除屋に至るまで。\nそのため、夜に行われる依頼は大抵報酬が高いにもかかわらず、不人気だ。\nしかし、そんな深夜の依頼を好機と捉える者たちもいる。\n優れた状況判断能力と、禍根を残さない迅速で抜かりのない後始末。\nこの二つを武器に、楔事務所はそのたびに生き残り、高額な報酬を手にしてきた。"
+      "name": "都市猟手",
+      "desc": "<color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>的[Breath]強度不低于10級，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>自身</color>的[Breath]強度不低于20級，則使<color=#ffffff>自身</color>基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(溢出[Breath]強度)%(最多+15%)",
+      "summary": "[Breath]強度不低于一定値時，<color=#7C5738>下回合</color>獲得[Agility]\n[Breath]強度高于一定値時，使基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加[TabExplain]",
+      "flavor": "都市夜晚的街道上，總是充斥着卑劣与野蛮的家夥。\n从伺机一舉翻盤的耗子、梦想復仇的后巷居民，到争権奪利的帮派、手指以及清道夫。\n因此，在夜晚進行的委托雖然报酬更高，却更不受歓迎。\n但也有将深夜的委托視為机遇的人。\n優秀的情勢判断能力，以及不留禍根的迅速且厳密的事后收尾。\n凭借這兩種武器，楔子事務所每次都能生存下来，并獲得了高額的报酬。"
     },
     {
       "id": 1101702,
-      "name": "ドンキホーテさん…集中してくださいよ。",
-      "desc": "編成画面で\n- <noparse>楔事務所</noparse>フィクサーシンクレアを編成すると、ドンキホーテの人格が自動で<noparse>楔事務所</noparse>フィクサードンキホーテとして編成される\n- <noparse>楔事務所</noparse>フィクサードンキホーテが編成解除されると、シンクレアの人格が自動で<noparse>楔事務所</noparse>フィクサー以外で最後に編成した人格として編成される (編成画面に入った時点ですでに<noparse>楔事務所</noparse>フィクサー人格として編成されていた場合、編成解除時にLCB囚人シンクレアとして編成される)\n\nターン開始時から戦闘開始前までに、自分の速度が味方の<noparse>楔事務所</noparse>フィクサードンキホーテ人格の速度より遅ければ、速度が同じになるように自分の速度が増加する (どちらか一方でも精神力が-45、または速度固定効果がある場合、この効果は発動しない)",
-      "summary": "編成時、ドンキホーテの人格が自動で共に編成される\n自分の速度がドンキホーテより遅ければ、速度が同じになるように増加"
+      "name": "堂吉訶德小姐……専心一点。",
+      "desc": "在編隊界面中\n- 編入<noparse>楔子事務所</noparse> 收尾人 辛克莱時，自動将堂吉訶德的人格編入為<noparse>楔子事務所</noparse> 收尾人 堂吉訶德\n- 当<noparse>楔子事務所</noparse> 收尾人 堂吉訶德被移出編隊時，自動将辛克莱的人格編入為除<noparse>楔子事務所</noparse> 收尾人以外的最近編入的人格(若進入編隊界面時已編入<noparse>楔子事務所</noparse> 收尾人人格，則移出編隊時編入LCB 罪人 辛克莱)\n\n从<color=#7C5738>回合開始</color>時到<color=#ffffff>戦斗開始</color>前，若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>低于友方<noparse>楔子事務所</noparse> 收尾人 堂吉訶德人格的<color=#7C5737>速度値</color>，則使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>増加至<color=#7C5737>速度値</color>相同(在任何一方<color=#81BBE8>理智値</color>為-45点或受固定<color=#7C5737>速度値</color>的效果影響時，該效果不会生效)",
+      "summary": "編入時，同時自動編入堂吉訶德的人格\n若<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>低于堂吉訶德的<color=#7C5737>速度値</color>，則使<color=#ffffff>自身</color>的<color=#7C5737>速度値</color>増加至<color=#7C5737>速度値</color>相同"
     },
     {
       "id": 1101703,
-      "name": "楔打ち",
-      "desc": "ターン開始時、[BattleFieldKnow]1を得る\n\n以下の条件のいずれかを満たすと、メインターゲットに[WedgeMarkGreen]1を付与 (ターンにつき1回)\n- メインターゲットに攻撃スキルの最後のコイン的中時\n- 自分の回避スキルで攻撃者のスキルの全コインの回避に成功したとき",
-      "summary": "ターン開始時、[BattleFieldKnow]を得る\n条件を満たすと、メインターゲットに[WedgeMarkGreen]を付与"
+      "name": "刺入楔子",
+      "desc": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得1層[BattleFieldKnow]\n\n満足以下条件時，対主要<color=#ffffff>目標</color>施加1層[WedgeMarkGreen](<color=#7C5738>每回合</color>最多1次)\n- 対主要<color=#ffffff>目標</color>使用的攻撃技能的最后一枚硬幣命中時\n- <color=#ffffff>自身</color>的閃避技能成功閃避攻撃者技能的所有硬幣時",
+      "summary": "<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得[BattleFieldKnow]\n満足条件時，対主要<color=#ffffff>目標</color>施加[WedgeMarkGreen]"
     },
     {
       "id": 1101704,
-      "name": "夜明けに背を預け合って",
-      "desc": "味方の<noparse>夜明事務所</noparse>フィクサーファウスト人格が「正午の解体」スキル使用時、該当スキルの2コイン目が以下の効果を得る (ターンにつき1回)\n- [ComboSkill] : <noparse>楔事務所</noparse>フィクサーシンクレア\n· [OnSucceedAttack] [Combustion]2を付与、[Combustion]回数が2増加\n· [OnSucceedAttack] [Vibration]2を付与\n· [OnSucceedAttack] [WedgeMarkGreen]1を付与\n· [OnSucceedAttack] 味方の<noparse>楔事務所</noparse>代表ウーティス人格の[ComboWedgeDawn]が1増加",
-      "summary": "「連」発動時、「正午の解体」の2コイン目的中時に[Combustion]、[Vibration]、[WedgeMarkGreen]を付与、[Combustion]回数が増加、ウーティスの[ComboWedgeDawn]が増加"
+      "name": "与黎明相依",
+      "desc": "友方<noparse>黎明事務所</noparse> 收尾人 浮士德 人格使用技能“正午的解体”時，使該技能的第2枚硬幣獲得以下效果(<color=#7C5738>每回合</color>最多1次)\n- [ComboSkill]：<noparse>楔子事務所</noparse> 收尾人 辛克莱\n· [OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度并対其施加2層[Combustion]\n· [OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度\n· [OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WedgeMarkGreen]\n· [OnSucceedAttack] 使友方<noparse>楔子事務所</noparse> 代表 奥提斯人格獲得1層[ComboWedgeDawn]",
+      "summary": "触発連 時，“正午的解体”的第2枚硬幣命中時使<color=#ffffff>目標</color>増加[Combustion]強度与[Vibration]強度并対其施加[WedgeMarkGreen]層数与[Combustion]層数，使奥提斯獲得[ComboWedgeDawn]"
     },
     {
       "id": 1101711,
-      "name": "都市の狩人",
-      "desc": "戦闘終了時、自分の[Breath]威力が10以上なら、次のターンに[Agility]1を得る\n\n自分の[Breath]威力が20を超過したなら、基本スキルによるクリティカルダメージ量 +(超過した数値)% (最大25%)",
-      "summary": "[Breath]威力が一定数値以上なら、次のターンに[Agility]を得る\n[Breath]威力が一定数値を超過すると、基本スキルによるクリティカルダメージ量が増加[TabExplain]",
-      "flavor": "都市の夜の街路には、いつも卑劣で野蛮な連中がひしめいている。\n一発逆転を狙うネズミから、復讐を夢見る裏路地の住民、利権を争う組織や指、そして掃除屋に至るまで。\nそのため、夜に行われる依頼は大抵報酬が高いにもかかわらず、不人気だ。\nしかし、そんな深夜の依頼を好機と捉える者たちもいる。\n優れた状況判断能力と、禍根を残さない迅速で抜かりのない後始末。\nこの二つを武器に、楔事務所はそのたびに生き残り、高額な報酬を手にしてきた。"
+      "name": "都市猟手",
+      "desc": "<color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>的[Breath]強度不低于10級，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>自身</color>的[Breath]強度不低于20級，則使<color=#ffffff>自身</color>基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(溢出[Breath]強度)%(最多+25%)",
+      "summary": "[Breath]強度不低于一定値時，<color=#7C5738>下回合</color>獲得[Agility]\n[Breath]強度高于一定値時，使基礎技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加[TabExplain]",
+      "flavor": "都市夜晚的街道上，總是充斥着卑劣与野蛮的家夥。\n从伺机一舉翻盤的耗子、梦想復仇的后巷居民，到争権奪利的帮派、手指以及清道夫。\n因此，在夜晚進行的委托雖然报酬更高，却更不受歓迎。\n但也有将深夜的委托視為机遇的人。\n優秀的情勢判断能力，以及不留禍根的迅速且厳密的事后收尾。\n凭借這兩種武器，楔子事務所每次都能生存下来，并獲得了高額的报酬。"
     },
     {
       "id": 1101721,
-      "name": "歩調を合わせる",
-      "desc": "ターン終了時、速度が最も遅い味方人格1名へ次のターンに[Agility]1を付与 (フィクサーへ優先付与)\n- 該当味方人格がフィクサーなら、代わりに次のターンに[Agility]1、[AttackUp]1を付与",
-      "summary": "速度が最も遅い味方へ次のターンに[Agility]を付与\n該当味方がフィクサーなら、代わりに次のターンに[Agility]、[AttackUp]を付与"
+      "name": "配合步調",
+      "desc": "<color=#7C5738>回合結束</color>時，<color=#7C5738>下回合</color>使<color=#7C5737>速度値</color>最低的1名友方人格獲得1層[Agility](優先使属于收尾人的人格獲得)\n- 若該友方人格属于收尾人，則改為<color=#7C5738>下回合</color>使其獲得1層[Agility]与1層[AttackUp]",
+      "summary": "<color=#7C5738>下回合</color>使<color=#7C5737>速度値</color>最低的<color=#ffffff>友方単位</color>獲得[Agility]\n若該<color=#ffffff>友方単位</color>属于收尾人，則改為使其獲得[Agility]与[AttackUp]"
     }
   ]
 }

@@ -640,21 +640,21 @@
     },
     {
       "id": 2061111,
-      "name": "絶望の中で",
-      "desc": "自分の1.5を超える物理耐性が1.5に調整される (混乱状態を除く)\n自分が混乱状態なら、被ダメージ量 -30% (強制混乱を含む)\n\n自分の[DespairKnightEGOMind]が999なら、「<noparse>涙で研ぎ澄まされた剣</noparse>」E.G.Oスキル(覚醒・侵蝕)使用時にE.G.O資源を消耗しない\n\n自分を含む味方が受けたダメージ分の[DespairKnightEGOMind]を得る (バリアへのダメージを含む)\n味方死亡時、[DespairKnightEGOSword]1を得る (ターンにつき1回)\n[DespairKnightEGOProtect]を保有する味方死亡時、[DespairKnightEGOSword]1を得る (ターンにつき1回)\n\n死亡状態の味方2名につき、自分の攻撃レベル +1、防御レベル -1 (最大5)",
-      "summary": "耐性強化、被ダメージ量減少。"
+      "name": "于絶望之中",
+      "desc": "使<color=#ffffff>自身</color>高于1.5的物理抗性変為1.5(不包括陷入混乱)\n若<color=#ffffff>自身</color>陷入混乱，則使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>-30%(包括強制混乱)\n\n若<color=#ffffff>自身</color>的[DespairKnightEGOMind]層数為999層，則<color=#ffffff>自身</color>的“泪鋒之剣”E.G.O技能(覚醒、侵蝕)使用時不会消耗E.G.O資源\n\n包括<color=#ffffff>自身</color>在内的<color=#ffffff>友方単位</color>受到<color=#ffffff>傷害</color>時，使<color=#ffffff>自身</color>獲得層数相当于受到<color=#ffffff>傷害</color>量的[DespairKnightEGOMind](包括<color=#81BBE8>護盾</color>受到的<color=#ffffff>傷害</color>)\n<color=#ffffff>友方単位</color>陣亡時，使<color=#ffffff>自身</color>獲得1層[DespairKnightEGOSword](<color=#7C5738>每回合</color>最多1次)\n帯有[DespairKnightEGOProtect]的<color=#ffffff>友方単位</color>陣亡時，使<color=#ffffff>自身</color>獲得1層[DespairKnightEGOSword](<color=#7C5738>每回合</color>最多1次)\n\n每有2名処于陣亡状態的<color=#ffffff>友方単位</color>，使<color=#ffffff>自身</color>的攻撃等級+1，防御等級-1(分別最多+5，-5)",
+      "summary": "抗性強化，受到的<color=#ffffff>傷害</color>減少"
     },
     {
       "id": 50001,
-      "name": "マジカル・アルカナ",
-      "desc": "魔法少女人格または魔法少女E.G.Oの出撃人数が一定数以上なら、下記の効果が発動 (人格・E.G.Oの重複適用可能)\n(2) 味方の魔法少女人格または魔法少女E.G.Oのスキルダメージ量 +10%",
-      "summary": "(2) 魔法少女人格・EGOのスキルダメージ量 +10%"
+      "name": "魔法阿峠納",
+      "desc": "参戦的属于魔法少女的人格与属于魔法少女的E.G.O不低于一定量時，触発以下效果(人格与E.G.O可重復适用)\n(2)属于魔法少女的友方人格与属于魔法少女的E.G.O的技能造成的<color=#ffffff>傷害</color>+10%",
+      "summary": "(2)属于魔法少女的人格与E.G.O的技能造成的<color=#ffffff>傷害</color>+10%"
     },
     {
       "id": 50002,
-      "name": "マジカル・アルカナ",
-      "desc": "(3) 全味方のマイナスコインスキルダメージ量 +10%\n「<noparse>涙で研ぎ澄まされた剣</noparse>」E.G.Oスキルでメインターゲットの敵への攻撃終了時、[DespairKnightEGOAlly]1を付与 (ターンにつき1回)",
-      "summary": "(3) 全味方のマイナスコインスキルダメージ量 +10%、「<noparse>涙で研ぎ澄まされた剣</noparse>」の攻撃終了時、[DespairKnightEGOAlly]1を付与"
+      "name": "魔法阿峠納",
+      "desc": "(3)使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的減算硬幣技能造成的<color=#ffffff>傷害</color>+10%\n“泪鋒之剣”E.G.O技能攻撃為主要<color=#ffffff>目標</color>的<color=#ffffff>敵方単位</color>后，対其施加1層[DespairKnightEGOAlly](<color=#7C5738>每回合</color>最多1次)",
+      "summary": "(3)使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的減算硬幣技能造成的<color=#ffffff>傷害</color>+10%，“泪鋒之剣”攻撃后，対<color=#ffffff>目標</color>施加1層[DespairKnightEGOAlly]"
     }
   ]
 }

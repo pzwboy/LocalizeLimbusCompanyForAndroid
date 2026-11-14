@@ -3215,27 +3215,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "快速突き",
-          "desc": "[WhenUse] 自分の[Breath]回数が2増加",
+          "name": "快速突刺",
+          "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] [Vibration]回数が1増加"
+                  "desc": "[CriticalOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
                 }
               ]
             }
@@ -3243,27 +3243,27 @@
         },
         {
           "level": 2,
-          "name": "快速突き",
-          "desc": "<style=\"highlight\">[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1</style>\n[WhenUse] 自分の[Breath]回数が2増加",
+          "name": "快速突刺",
+          "desc": "<style=\"highlight\">[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1</style>\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Breath]2を得る<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] [Vibration]回数が1増加<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3271,27 +3271,27 @@
         },
         {
           "level": 4,
-          "name": "快速突き",
-          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1\n<style=\"highlight\">[WhenUse] 自分の[WedgeOffice]が3なら、最終威力 +1</style>\n[WhenUse] 自分の[Breath]回数が2増加",
+          "name": "快速突刺",
+          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>自身</color>的[WedgeOffice]層数為3層，則使本技能的<color=#ffffff>最終威力</color>+1</style>\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Breath]2を得る<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] [Vibration]回数が1増加<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3304,23 +3304,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "閃光の槍",
-          "desc": "[StartBattle] 自分を含む味方の全楔事務所[TabExplain]所属人格に[PenetrateDamageUp]1を付与 (ターンにつき1回)\n[WhenUse] このスキルスロットの選択していないスキルが「快速突き」なら捨てる\n[WhenUse] 自分の[Breath]回数が2増加",
+          "name": "閃光之槍",
+          "desc": "[StartBattle] 使包括<color=#ffffff>自身</color>在内的属于楔子事務所[TabExplain]的<color=#ffffff>全体</color>友方人格獲得1層[PenetrateDamageUp](<color=#7C5738>每回合</color>最多1次)\n[WhenUse] 若同一<color=#ffffff>行動槽</color>的令一个技能為“快速<color=#ffffff>突刺</color>”，則棄弃 該技能\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Breath]3を得る"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加1層[Vibration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 }
               ]
             }
@@ -3328,23 +3328,23 @@
         },
         {
           "level": 2,
-          "name": "閃光の槍",
-          "desc": "[StartBattle] 自分を含む味方の全楔事務所[TabExplain]所属人格に[PenetrateDamageUp]1を付与 (ターンにつき1回)\n[WhenUse] このスキルスロットの選択していないスキルが「快速突き」なら捨てる\n<style=\"highlight\">[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計が6以上なら、コイン威力 +1</style>\n<style=\"highlight\">[WhenUse] 自分の[WedgeOffice]1につき、最終威力 +1 (最大3)</style>\n[WhenUse] 自分の[Breath]回数が2増加",
+          "name": "閃光之槍",
+          "desc": "[StartBattle] 使包括<color=#ffffff>自身</color>在内的属于楔子事務所[TabExplain]的<color=#ffffff>全体</color>友方人格獲得1層[PenetrateDamageUp](<color=#7C5738>每回合</color>最多1次)\n[WhenUse] 若同一<color=#ffffff>行動槽</color>的令一个技能為“快速<color=#ffffff>突刺</color>”，則棄弃 該技能\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1</style>\n<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>每帯有1層[WedgeOffice]，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)</style>\n[WhenUse] 使<color=#ffffff>自身</color>獲得2層[Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Breath]3を得る<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加1層[Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3352,23 +3352,23 @@
         },
         {
           "level": 4,
-          "name": "閃光の槍",
-          "desc": "[StartBattle] 自分を含む味方の全楔事務所[TabExplain]所属人格に[PenetrateDamageUp]1を付与 (ターンにつき1回)\n[WhenUse] このスキルスロットの選択していないスキルが「快速突き」なら捨てる\n[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計6<style=\"highlight\">につき、コイン威力 +1 (最大2)</style>\n[WhenUse] 自分の[WedgeOffice]1につき、最終威力 +1 (最大3)\n[WhenUse] 自分の[Breath]回数が<style=\"highlight\">3</style>増加",
+          "name": "閃光之槍",
+          "desc": "[StartBattle] 使包括<color=#ffffff>自身</color>在内的属于楔子事務所[TabExplain]的<color=#ffffff>全体</color>友方人格獲得1層[PenetrateDamageUp](<color=#7C5738>每回合</color>最多1次)\n[WhenUse] 若同一<color=#ffffff>行動槽</color>的令一个技能為“快速<color=#ffffff>突刺</color>”，則棄弃 該技能\n[WhenUse] <color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和<style=\"highlight\">每有6級，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>\n[WhenUse] <color=#ffffff>自身</color>每帯有1層[WedgeOffice]，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 使<color=#ffffff>自身</color>獲得<style=\"highlight\">3</style>層[Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Breath]3を得る<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が1増加<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加1層[Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3381,8 +3381,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "貫く",
-          "desc": "[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力 +1 (最大3)\n[WhenUse] [Breath]2を得る\n[WhenUse] 自分の[Breath]回数が3増加\n\n[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- [WhenUse] [ComboWedgeDawn]1を得る (スキルにつき1回)",
+          "name": "貫穿",
+          "desc": "[WhenUse] <color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 使<color=#ffffff>自身</color>増加2級[Breath]強度\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]\n\n[ComboSkill]：黎明事務所[TabExplain] 代表 格里高尓\n- [WhenUse] 使<color=#ffffff>自身</color>獲得1層[ComboWedgeDawn](每个技能最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -3390,22 +3390,25 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "対象が[Switch_Vibration]または[FusionVibration]状態なら、このコインのダメージ量 +50%"
+                  "desc": "若<color=#ffffff>目標</color>処于[Switch_Vibration]或[FusionVibration]状態，則使本硬幣造成的<color=#ffffff>傷害</color>+50%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]"
+                  "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 },
                 {
-                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- ダメージ量 +30%\n- [OnSucceedAttack] [Vibration]回数が2増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量100%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
+                },
+                {
+                  "desc": "[ComboSkill]：黎明事務所[TabExplain] 代表 格里高尓\n- 使本硬幣造成的<color=#ffffff>傷害</color>+30%\n- [OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
                 }
               ]
             }
@@ -3413,8 +3416,8 @@
         },
         {
           "level": 4,
-          "name": "貫く",
-          "desc": "<style=\"highlight\">[WhenUse] ダメージ量 +(対象の[Vibration]威力 × [Vibration]回数)% (最大100%)</style>\n<style=\"highlight\">[WhenUse] クリティカルダメージ量 +(自分の[Breath]威力 × [Breath]回数)% (最大100%)</style>\n[WhenUse] 自分の[Breath]威力と対象の[Vibration]威力の合計4につき、最終威力 +1 (最大<style=\"highlight\">5</style>)\n<style=\"highlight\">[WhenUse] 自分の[WedgeOffice]が3なら、マッチ威力 +6</style>\n[WhenUse] [Breath]2を得る\n[WhenUse] 自分の[Breath]回数が3増加\n\n[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- [WhenUse] [ComboWedgeDawn]1を得る (スキルにつき1回)",
+          "name": "貫穿",
+          "desc": "<style=\"highlight\">[WhenUse] 使本技能造成的<color=#ffffff>傷害</color>+(<color=#ffffff>目標</color>的[Vibration]強度与[Vibration]層数之積)%(最多+100%)</style>\n<style=\"highlight\">[WhenUse] 使本技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Breath]強度与[Breath]層数之積)%(最多+100%)</style>\n[WhenUse] <color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+<style=\"highlight\">5</style>)\n<style=\"highlight\">[WhenUse] 若<color=#ffffff>自身</color>的[WedgeOffice]層数為3層，則使本技能的<color=#ffffff>拼点威力</color>+6</style>\n[WhenUse] 使<color=#ffffff>自身</color>増加2級[Breath]強度\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]\n\n[ComboSkill]：黎明事務所[TabExplain] 代表 格里高尓\n- [WhenUse] 使<color=#ffffff>自身</color>獲得1層[ComboWedgeDawn](每个技能最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -3422,25 +3425,28 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "対象が[Switch_Vibration]または[FusionVibration]状態なら、このコインのダメージ量 +50%<style=\"highlight\"></style>"
+                  "desc": "若<color=#ffffff>目標</color>処于[Switch_Vibration]或[FusionVibration]状態，則使本硬幣造成的<color=#ffffff>傷害</color>+50%<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 対象が[Switch_Vibration]状態でないなら、[VibrationCollapse]へ[Switch_Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が2増加<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] [PenetrateTakeDamageUp]2を付与 (ターンにつき1回)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[PenetrateTakeDamageUp](<color=#7C5738>每回合</color>最多1次)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- ダメージ量 +30%\n- [OnSucceedAttack] [Vibration]回数が2増加<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量100%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
+                },
+                {
+                  "desc": "[ComboSkill]：黎明事務所[TabExplain] 代表 格里高尓\n- 使本硬幣造成的<color=#ffffff>傷害</color>+30%\n- [OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3453,16 +3459,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "息を整える",
-          "desc": "[StartBattle] [SupportProtect]1を得る (ターンにつき2回)\n[OnSucceedEvade]\n- [Breath]2を得る (ターンにつき3回)\n- 次のターンに[Agility]2を得る (ターンにつき1回)",
+          "name": "調整呼吸",
+          "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得1層[SupportProtect](<color=#7C5738>每回合</color>最多2次)\n[OnSucceedEvade]\n- 使<color=#ffffff>自身</color>増加2級[Breath]強度(<color=#7C5738>每回合</color>最多3次)\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility](<color=#7C5738>每回合</color>最多1次)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "息を整える",
-          "desc": "[StartBattle] [SupportProtect]1を得る (ターンにつき2回)\n<style=\"highlight\">[WhenUse] 自分の[Breath]威力3につき、コイン威力 +1 (最大2)</style>\n[OnSucceedEvade]\n- [Breath]2を得る (ターンにつき3回)\n- 次のターンに[Agility]2を得る (ターンにつき1回)",
+          "name": "調整呼吸",
+          "desc": "[StartBattle] 使<color=#ffffff>自身</color>獲得1層[SupportProtect](<color=#7C5738>每回合</color>最多2次)\n<style=\"highlight\">[WhenUse] <color=#ffffff>自身</color>每帯有3級[Breath]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)</style>\n[OnSucceedEvade]\n- 使<color=#ffffff>自身</color>増加2級[Breath]強度(<color=#7C5738>每回合</color>最多3次)\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility](<color=#7C5738>每回合</color>最多1次)",
           "coinlist": [
             {}
           ]
@@ -3474,39 +3480,39 @@
       "levelList": [
         {
           "level": 3,
-          "name": "楔形陣展開",
-          "desc": "[CantDuel]\n[WhenUse] 自分の[Breath]威力が8以上なら、コイン威力 +1\n[WhenUse] 対象の[Vibration]威力が8以上なら、最終威力 +1\n[WhenUse] 自分の[Breath]回数が3増加\n[EndSkill]\n- 自分の[ComboWedge]を25消耗\n- 自分以外の味方の楔事務所[TabExplain]所属人格へ次のターンに[PenetrateResultUp]1を付与\n- [ComboWedgeDawn]1を得る",
+          "name": "展開楔形陣勢",
+          "desc": "[CantDuel]\n[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于8級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 若<color=#ffffff>目標</color>的[Vibration]強度不低于8級，則使本技能的<color=#ffffff>最終威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>獲得3層[Breath]\n[EndSkill]\n- 消耗<color=#ffffff>自身</color>25層[ComboWedge]\n- <color=#7C5738>下回合</color>使除<color=#ffffff>自身</color>以外属于楔子事務所[TabExplain]的友方人格獲得1層[PenetrateResultUp]\n- 使<color=#ffffff>自身</color>獲得1層[ComboWedgeDawn]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサードンキホーテ\n- ダメージ量 +30%\n- 最後のコイン的中時、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 堂吉訶德\n- 使本硬幣造成的<color=#ffffff>傷害</color>+30%\n- 本技能的最后一枚硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                 },
                 {
-                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサーシンクレア\n- ダメージ量 +30%\n- 最後のコイン的中時、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 辛克莱\n- 使本硬幣造成的<color=#ffffff>傷害</color>+30%\n- 本技能的最后一枚硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "クリティカルダメージ量 +30%"
+                  "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+30%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 }
               ]
             }
@@ -3519,45 +3525,54 @@
       "levelList": [
         {
           "level": 3,
-          "name": "…総員、激突用意。",
-          "desc": "[WhenUse] 自分の[Breath]威力8につき、コイン威力 +1 (最大2)\n[WhenUse] 対象の[Vibration]威力8につき、最終威力 +1 (最大2)\n[WhenUse]\n- 自分の[Breath]回数が3増加\n- 自分以外の行動可能な味方の楔事務所[TabExplain]所属人格数分、攻撃加重値が増加 (最大2)\n[WhenUse] このスキルの攻撃加重値に対して攻撃対象数が1少ないごとに、ダメージ量 +30% (集中戦闘の場合は部位で判定)\n[EndSkill]\n- 自分の[ComboWedgeDawn]を全て消耗",
+          "name": "…全員，做好交鋒准備。",
+          "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有8級[Breath]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>目標</color>每帯有8級[Vibration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse]\n- 使<color=#ffffff>自身</color>獲得3層[Breath]\n- 除<color=#ffffff>自身</color>以外每有1名可行動且属于楔子事務所[TabExplain]的友方人格，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n[WhenUse] 本技能的<color=#ffffff>攻撃容量</color>高于攻撃<color=#ffffff>目標</color>数時，每高于1点，使本技能造成的<color=#ffffff>傷害</color>+60%(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n[EndSkill]\n- 消耗<color=#ffffff>自身</color>所有[ComboWedgeDawn]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationCollapse]へ[FusionVibration]"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>以[VibrationCollapse][FusionVibration]"
                 },
                 {
-                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]フィクサーファウスト\n- ダメージ量 +20%\n- [OnSucceedAttack] [Combustion]3を付与\n- [OnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量15%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
+                },
+                {
+                  "desc": "[ComboSkill]：黎明事務所[TabExplain] 收尾人 浮士德\n- 使本硬幣造成的<color=#ffffff>傷害</color>+20%\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Combustion]強度\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
                 },
                 {
-                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサードンキホーテ\n- クリティカルダメージ量 +20%\n- [OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量15%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                 },
                 {
-                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサーシンクレア\n- クリティカルダメージ量 +20%\n- [OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 堂吉訶德\n- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+20%\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                },
+                {
+                  "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 辛克莱\n- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+20%\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 },
                 {
-                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- ダメージ量 +20%\n- [OnSucceedAttack] [Combustion]2を付与\n- [OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少\n- [OnSucceedAttack] 対象の[Combustion]が発動。対象の[Combustion]回数が1減少"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量15%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
+                },
+                {
+                  "desc": "[ComboSkill]：黎明事務所[TabExplain] 代表 格里高尓\n- 使本硬幣造成的<color=#ffffff>傷害</color>+20%\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層\n- [OnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]，并使其[Combustion]層数減少1層"
                 }
               ]
             }
@@ -3570,45 +3585,54 @@
       "levelList": [
         {
           "level": 3,
-          "name": "夜明けの後に貫き来る楔",
-          "desc": "[WhenUse] 自分の[Breath]威力8につき、コイン威力 +1 (最大2)\n[WhenUse] 対象の[Vibration]威力8につき、最終威力 +1 (最大2)\n[WhenUse]\n- 自分の[Breath]回数が3増加\n- 自分以外の行動可能な味方の楔事務所[TabExplain]所属人格数分、攻撃加重値が増加 (最大2)\n[WhenUse] このスキルの攻撃加重値に対して攻撃対象数が1少ないごとに、ダメージ量 +30% (集中戦闘の場合は部位で判定)\n[WinDuel] [VibrationCollapse]で[FusionVibration]\n[EndSkill]\n- 自分の[ComboWedgeDawn]を全て消耗",
+          "name": "黎明后貫穿而来之楔",
+          "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有8級[Breath]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[WhenUse] <color=#ffffff>目標</color>每帯有8級[Vibration]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[WhenUse]\n- 使<color=#ffffff>自身</color>獲得3層[Breath]\n- 除<color=#ffffff>自身</color>以外每有1名可行動且属于楔子事務所[TabExplain]的友方人格，使本技能的<color=#ffffff>攻撃容量</color>+1(最多+2)\n[WhenUse] 本技能的<color=#ffffff>攻撃容量</color>高于攻撃<color=#ffffff>目標</color>数時，每高于1点，使本技能造成的<color=#ffffff>傷害</color>+60%(若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)\n[WinDuel] 使<color=#ffffff>目標</color>以[VibrationCollapse][FusionVibration]\n[EndSkill]\n- 消耗<color=#ffffff>自身</color>所有[ComboWedgeDawn]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]回数が3増加"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
                 },
                 {
-                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]フィクサーファウスト\n- ダメージ量 +20%\n- [OnSucceedAttack] [Combustion]3を付与\n- [OnSucceedAttack] [VibrationIgnition]で[Switch_Vibration]"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量20%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                 },
                 {
-                  "desc": "[ComboSkill] : 夜明事務所[TabExplain]代表グレゴール\n- ダメージ量 +20%\n- [OnSucceedAttack] [Combustion]2を付与\n- [OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少\n- [OnSucceedAttack] 対象の[Combustion]が発動。対象の[Combustion]回数が1減少"
+                  "desc": "[ComboSkill]：黎明事務所[TabExplain] 收尾人 浮士德\n- 使本硬幣造成的<color=#ffffff>傷害</color>+20%\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Combustion]強度\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]"
+                },
+                {
+                  "desc": "[ComboSkill]：黎明事務所[TabExplain] 代表 格里高尓\n- 使本硬幣造成的<color=#ffffff>傷害</color>+20%\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層\n- [OnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]，并使其[Combustion]層数減少1層"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
                 },
                 {
-                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサードンキホーテ\n- クリティカルダメージ量 +20%\n- [OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量20%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                 },
                 {
-                  "desc": "[ComboSkill] : 楔事務所[TabExplain]フィクサーシンクレア\n- クリティカルダメージ量 +20%\n- [OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 堂吉訶德\n- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+20%\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                },
+                {
+                  "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 辛克莱\n- 使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+20%\n- [OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "クリティカルダメージ量 +100%"
+                  "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]2を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量20%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>"
                 }
               ]
             }
@@ -3621,8 +3645,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "下がっていろ",
-          "desc": "[DuelCounter]\n[SupportProtect]専用スキル\n[WhenUse] 自分の失った体力20%につき、マッチ威力 +1 (最大4)\n[WhenUse]\n- [SupportProtect]した対象の味方と自分の精神力を5回復\n- 最大体力の15%分のバリアを得る (ターンにつき1回)",
+          "name": "退下叭",
+          "desc": "[DuelCounter]\n[SupportProtect]専用技能\n[WhenUse] <color=#ffffff>自身</color>每失去20%的<color=#61DA61>体力</color>，使本技能的<color=#ffffff>拼点威力</color>+1(最多+4)\n[WhenUse]\n- 使[SupportProtect]的<color=#ffffff>目標</color><color=#ffffff>友方単位</color>与<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n- 使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限15%的<color=#81BBE8>護盾</color>(<color=#7C5738>每回合</color>最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -3630,10 +3654,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
                 }
               ]
             },
@@ -3643,10 +3667,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Breath]2を得る"
+                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
                 }
               ]
             }

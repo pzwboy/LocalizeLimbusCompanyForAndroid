@@ -4014,6 +4014,7 @@
     {
       "id": "DawnTeam",
       "name": "黎明事務所",
+      "excludeAutoLink": true,
       "desc": "- 最大値：3\n- 每帯有1層本效果，使<color=#ffffff>自身</color>増加1級攻撃等級\n- <color=#7C5738>回合開始</color>時，若本效果層数為3層，則使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n- <color=#7C5738>回合開始</color>時，若除<color=#ffffff>自身</color>以外帯有“黎明事務所”的<color=#ffffff>全体</color>友方人格陣亡，則解除本效果",
       "summary": "",
       "undefined": "-",
@@ -4250,28 +4251,28 @@
     {
       "id": "PersonalityCombustion",
       "name": "焼傷人格",
-      "desc": "",
+      "desc": "擁有増加焼傷 強度，施加焼傷 層数或施加<color=#E40302>特殊焼傷</color>的基礎攻撃技能的人格",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PersonalityLaceration",
       "name": "流血人格",
-      "desc": "",
+      "desc": "擁有増加流血 強度，施加流血 層数或施加<color=#E40302>特殊流血</color>的基礎攻撃技能的人格",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PersonalityBurst",
       "name": "破裂人格",
-      "desc": "",
+      "desc": "擁有増加破裂 強度，施加破裂 層数或施加特殊破裂的基礎攻撃技能的人格",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PersonalitySinking",
       "name": "沈淪人格",
-      "desc": "",
+      "desc": "擁有増加沈淪 強度，施加沈淪 層数或施加<color=#E40302>特殊沈淪</color>的基礎攻撃技能的人格",
       "summary": "",
       "undefined": "-"
     },
@@ -4428,89 +4429,89 @@
     },
     {
       "id": "WedgeOffice",
-      "name": "楔事務所",
+      "name": "楔子事務所",
       "excludeAutoLink": true,
-      "desc": "- 最大値 : 3\n- 数値1につき、攻撃レベルが1増加\n- 数値が3なら、戦闘開始時に貫通ダメージ量増加1を得る\n- ターン終了時に消滅",
+      "desc": "- 最大値：3\n- 每帯有1層本效果，使<color=#ffffff>自身</color>増加1級攻撃等級\n- <color=#ffffff>戦斗開始</color>時，若本效果層数為3層，則使<color=#ffffff>自身</color>獲得1層<color=#ffffff>突刺</color>傷害強化 \n- <color=#7C5738>回合結束</color>時，解除本效果",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ComboWedge",
-      "name": "勝機",
-      "desc": "- 最大値 : 30\n- 1ターンにつき最大20まで得られる",
+      "name": "勝机",
+      "excludeAutoLink": true,
+      "desc": "- 最大値：30\n- <color=#7C5738>每回合</color>最多獲得20層本效果\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱(每場戦斗最多1次，不包括強制混乱)",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "ComboWedgeDawn",
-      "name": "夜明けの絆",
-      "desc": "- 最大値 : 5",
+      "name": "黎明紐帯",
+      "excludeAutoLink": true,
+      "desc": "- 最大値：5",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "DespairKnightEGOProtect",
-      "name": "騎士の守護",
-      "desc": "基本値 : 3\n自分の1.5を超過する物理耐性が1.5に調整される (混乱状態を除く)\n自分が混乱状態なら、被ダメージ量 -30% (強制混乱を含む)\n\nターン終了時に1減少\n付与したキャラクターが退却・死亡するか、他の対象へこの効果を付与すると消滅。他のキャラクターから同じ効果が付与されると置き換えられる。\n\n敵に倒されたとき、攻撃者へ次のターンに脆弱2を付与し、この効果の付与者が次のターンに攻撃威力増加2、ダメージ量増加3を得る (1ターンにつき1回)",
+      "name": "騎士的庇護",
+      "excludeAutoLink": true,
+      "desc": "基礎値：3\n使<color=#ffffff>自身</color>高于1.5的物理抗性変為1.5(不包括陷入混乱)\n若<color=#ffffff>自身</color>陷入混乱，則使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>-30%(包括強制混乱)\n\n<color=#7C5738>回合結束</color>時，本效果層数減少1層\n施加者撤退，陣亡或対不同的<color=#ffffff>目標</color>施加本效果時，解除本效果。被其他単位施加相同效果時，本效果被替換\n\n<color=#ffffff>敵方単位</color><color=#7C5738>撃殺</color><color=#ffffff>自身</color>時，<color=#7C5738>下回合</color>対攻撃者施加2層<color=#ffffff>易損</color> ，并在<color=#7C5738>下回合</color>使施加者獲得2層強壮 与3層傷害強化 (<color=#7C5738>每回合</color>最多1次)",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "DespairKnightEGOSword",
-      "name": "涙で研ぎ澄まされた剣",
-      "desc": "- 最大値 : 3\n- 充電を得る、または消耗するスキルのダメージ量 +(充電威力 × 2)% (最大10%)\n- 貫通または傲慢スキルのダメージ量 +(数値 × 5)%\n- 自分の貫通または傲慢スキル的中時、(この効果の数値 × 2) + (該当コインの最終ダメージ量の5%)だけ傲慢ダメージ\n- 攻撃終了時、メインターゲットが敵なら数値分の沈潜威力を付与",
+      "name": "泪鋒之剣",
+      "excludeAutoLink": true,
+      "desc": "- 最大値：3\n- 獲得或消耗充能 的技能造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的充能 強度×2)%(最多+10%)\n- <color=#ffffff>突刺</color>或<color=#044ED6>傲慢</color>技能造成的<color=#ffffff>傷害</color>+(本效果層数×5)%\n- <color=#ffffff>自身</color>的<color=#ffffff>突刺</color>或<color=#044ED6>傲慢</color>技能命中時，対<color=#ffffff>目標</color>造成((本效果層数×2)+(該硬幣最終<color=#ffffff>傷害</color>量5%))点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>\n- 攻撃后，若主要<color=#ffffff>目標</color>為<color=#ffffff>敵方単位</color>，則使其増加相当于本效果層数的沈淪 強度",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "DespairKnightEGOMind",
-      "name": "磨り減ってしまった矜持",
-      "desc": "- 最大値 : 999\n- 1ターンにつき最大500まで得られる",
+      "name": "磨滅的自尊",
+      "excludeAutoLink": true,
+      "desc": "- 最大値：999\n- <color=#7C5738>每回合</color>最多獲得500層本效果",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "DespairKnightEGOAlly",
-      "name": "忘れられた騎士の剣",
-      "desc": "- 最大値 : 3\n- 貫通または傲慢スキルで被撃時、数値が1増加 (スキルにつき1回)\n· 数値が最大値なら、傲慢ダメージを50受けてこの効果が消滅。このターンと次のターンに貫通脆弱1を得る\n- この効果は同時に1体のキャラクターのみ保有できる (他の対象へ付与すると、既存の効果は消滅)",
+      "name": "被遺忘騎士之剣",
+      "excludeAutoLink": true,
+      "desc": "- 最大値：3\n- 受到<color=#ffffff>突刺</color>或<color=#044ED6>傲慢</color>技能攻撃時，使本效果層数増加1層(每个技能最多1次)\n· 若本效果層数為最大値，則対<color=#ffffff>自身</color>造成50点<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>并解除本效果，<color=#7C5738>本回合</color>与<color=#7C5738>下回合</color>対<color=#ffffff>自身</color>施加1層<color=#ffffff>突刺</color><color=#ffffff>易損</color> \n- 該效果僅能1名単位帯有(対其他単位施加時，解除現存效果)",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "BattleFieldKnow",
-      "name": "戦場把握",
-      "desc": "- 最大値: 5\n- この効果の数値が増加するとき、自分の呼吸回数が1増加\n- ターン終了時、数値分自分の呼吸回数が増加\n- この効果の数値に応じて、基本攻撃スキルが下記の効果を得る\n・2～ : スキル使用時、敵に与えるダメージ量 +(30÷コイン数)% (小数点以下切り捨て)\n・3～ : コイン威力 +1、スキル使用時に最終コインが破壊不能コインになる\n・4～ : スキル使用時、敵に与えるダメージ量 +(30÷コイン数)% (小数点以下切り捨て)\n・5～ : 攻撃開始時から攻撃終了時まで、攻撃対象の貫通耐性 +0.1\n- ダメージ量の増加と破壊不能コインへの変更は、スキル使用直前の数値で判定",
+      "name": "掌握戦况",
+      "excludeAutoLink": true,
+      "desc": "- 最大値：5\n- 獲得本效果層数時，使<color=#ffffff>自身</color>獲得1層呼吸法 \n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得(本效果層数)層呼吸法\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱(每場戦斗最多2次，不包括強制混乱)\n- 根据本效果層数，相應使<color=#ffffff>自身</color>基礎攻撃技能獲得以下效果\n· 不低于2層：使用技能時，使該技能対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+(30/硬幣数)%(向下取整)\n· 不低于3層：<color=#ffffff>硬幣威力</color>+1，使用技能時，使該技能的最后一枚硬幣轉化為不可摧毀的硬幣\n· 不低于4層：使用技能時，使該技能対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+(30/硬幣数)%(向下取整)\n· 不低于5層：从攻撃開始到攻撃結束時，使攻撃<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>抗性+0.1\n- 以使用技能前的層数判定造成的<color=#ffffff>傷害</color>増加与轉化不可摧毀的硬幣",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "WedgeMarkYellow",
-      "name": "楔 - ドンキホーテ",
-      "desc": "- 最大値: 8\n- この効果が一定数値以上なら、楔事務所フィクサーシンクレアの特定のスキルが強化される\n- ターン終了時、自分の振動回数が1増加\n- ターン開始時、戦場に敵の楔事務所所属キャラクターがいなければ、この効果は消滅",
+      "name": "楔子-堂吉訶德",
+      "excludeAutoLink": true,
+      "desc": "- 最大値：8\n- 若本效果層数不低于一定値，則使楔子事務所 收尾人 辛克莱的特定技能獲得強化\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加1層震顫 \n- <color=#7C5738>回合開始</color>時，若場上没有属于楔子事務所的<color=#ffffff>敵方単位</color>，則解除本效果",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "WedgeMarkGreen",
-      "name": "楔 - シンクレア",
-      "desc": "- 最大値: 8\n- この効果が一定数値以上なら、楔事務所フィクサードンキホーテの特定のスキルが強化される\n- ターン終了時、自分の振動回数が1増加\n- ターン開始時、戦場に敵の楔事務所所属キャラクターがいなければ、この効果は消滅",
+      "name": "楔子-辛克莱",
+      "excludeAutoLink": true,
+      "desc": "- 最大値：8\n- 若本效果層数不低于一定値，則使楔子事務所 收尾人 堂吉訶德的特定技能獲得強化\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加1層震顫 \n- <color=#7C5738>回合開始</color>時，若場上没有属于楔子事務所的<color=#ffffff>敵方単位</color>，則解除本效果",
       "summary": "",
-      "undefined": "-",
-      "excludeAutoLink": true
+      "undefined": "-"
     },
     {
       "id": "ComboSkill",
       "name": "連",
       "excludeAutoLink": true,
-      "desc": "該当する人格が戦場で行動可能な状態で生存していれば、追加効果が発動 (該当する人格があらゆる種類の行動不能状態、E.G.O侵蝕、混乱状態の場合は発動しない)",
+      "desc": "若場上対應人格存活且可行動，則触発額外效果(該人格処于任意不可行動状態，E.G.O侵蝕或陷入混乱時不会触発)",
       "summary": "",
       "undefined": "-"
     }
