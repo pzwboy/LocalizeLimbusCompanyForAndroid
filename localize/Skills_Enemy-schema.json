@@ -1,0 +1,483 @@
+{
+  "dataList": [
+    {
+      "id": 600201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "雲払い",
+          "desc": "[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [AttackDown]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与 (スキルにつき1回)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] このコインを再使用 (スキルにつき1回)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "暗雲",
+          "desc": "[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Paralysis]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加 (スキルにつき1回)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] このコインを再使用 (スキルにつき1回)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "抜刀姿勢",
+          "desc": "[WhenUse] 自分の精神力を5回復\n- 体力が50%以下なら、代わりに10回復",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [SlashTakeDamageUp]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [DefenseDown]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "雲斬り",
+          "desc": "[Laceration]威力が最も高い対象を優先してターゲットにする\n[WhenUse]\n- [SharpSensibility]50につき、攻撃加重値 +1、コイン威力 +1\n- ダメージ量 +([SharpSensibility]の数値)%\n[WhenUse] ダメージ量 +(メインターゲットの[Laceration]威力)% (最大50%)\n[DefeatDuel] [Paralysis]3を得る。ダメージ量 -75%、このスキルのダメージでは対象が混乱しない\n[EndSkillAll] [SharpSensibility]を全て消耗",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Laceration]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Laceration]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Laceration]回数が5以上なら、[Laceration]が2回発動。対象の[Laceration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "雨斬り",
+          "desc": "[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [AttackDown]3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Laceration]回数が10以上なら、[Laceration]が1回発動。対象の[Laceration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "黒雲斬り",
+          "desc": "[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Laceration]3を付与"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Paralysis]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Laceration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Laceration]回数が10以上なら、[Laceration]が1回発動。対象の[Laceration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "空間斬[黒雲]",
+          "desc": "[Laceration]威力が最も高い対象を優先してターゲットにする\n[WhenUse]\n- [SharpSensibility]25につき、攻撃加重値 +1\n- [SharpSensibility]50につき、コイン威力 +1\n- ダメージ量 +([SharpSensibility]の数値)%\n[WhenUse] ダメージ量 +(メインターゲットの[Laceration]威力と回数の合計)% (最大100%)\n[DefeatDuel] [Paralysis]4を得る。ダメージ量 -75%、このスキルのダメージでは対象が混乱しない\n[EndSkillAll] [SharpSensibility]を全て消耗",
+          "flavor": "黒雲会第2組長が創始した剣術。不完全な斬撃でありながら、一瞬にして空間を斬る。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Laceration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与、[Laceration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 対象の[Laceration]回数が5以上なら、[Laceration]が2回発動。対象の[Laceration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 601101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "等圧追撃",
+          "desc": "[WhenUse] 自分の[DogThunder]1につき、コイン威力 +1 (最大3)\n[WhenUse] 対象の[Laceration]と[Burst]の合計5につき、ダメージ量 +15% (最大60%)\n[WhenUse] 対象の[ElectricShock]が3以上なら、このスキルの全コインが[SuperCoin]に変更される\n[DefeatDuel] ダメージ量が50%減少し、このスキルのダメージでは対象が混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Burst]5を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Burst]回数が4増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 601102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "避雷",
+          "desc": "[WhenUse] 自分の[DogThunder]1につき、コイン威力 +1 (最大3)\n[WhenUse] 対象の[Laceration]と[Burst]の合計5につき、ダメージ量 +20% (最大80%)\n[WhenUse] 対象の[ElectricShock]が3以上なら、このスキルの全コインが[SuperCoin]に変更される\n[DefeatDuel] ダメージ量が50%減少し、このスキルのダメージでは対象が混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Burst]5付与、[Burst]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 601103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "赤雷",
+          "desc": "[WhenUse] 自分の[ElectricPolePower]2につき、攻撃加重値 +1 (最大5)\n[WhenUse] 自分の[ElectricPolePower]1につき、最終威力 +1、ダメージ量 +10% (最大10、100%)\n[WhenUse] メインターゲットの[Laceration]と[Burst]の合計5につき、ダメージ量 +15% (最大60%)\n[DefeatDuel] ダメージ量が50%減少し、このスキルのダメージでは対象が混乱しない\n[EndSkill] [ElectricPolePower]が消滅",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Burst]10を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Burst]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ゴミ処理",
+          "desc": "対象の[Laceration]が4以上なら、コイン威力 +1\n[DefeatDuel] このスキルのダメージでは対象が混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]4を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加"
+                },
+                {
+                  "desc": "このコインが的中時、与えた体力ダメージ量の30%だけ体力を回復"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] このコインを再使用(スキルごとに最大3回)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "333..1973",
+          "desc": "[StartBattle] [Persistent]4を得る\n[DefeatDuel] このスキルのダメージでは対象が混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 混乱区間を5後退"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 出血 回数が3増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "裏路地の夜",
+          "desc": "対象の[Laceration]が2以上なら、コイン威力 +1\n[DefeatDuel] このスキルのダメージでは対象が混乱しない",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 体力を8回復"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 体力を8回復"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 混乱区間を8後退"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象の[Laceration]が1回発動([Laceration]回数が1減少)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

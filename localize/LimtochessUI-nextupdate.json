@@ -1,0 +1,468 @@
+{
+  "dataList": [
+    {
+      "id": "limtochess_entrance_continue",
+      "content": "이어하기"
+    },
+    {
+      "id": "limtochess_entrance_new_game",
+      "content": "새로하기"
+    },
+    {
+      "id": "limtochess_entrance_pass",
+      "content": "전용 패스"
+    },
+    {
+      "id": "limtochess_entrance_formation_check",
+      "content": "현재 편성 확인"
+    },
+    {
+      "id": "limtochess_entrance_desc",
+      "content": "도상구축 설명이 들어갑니다. <color=#ac1605>주의사항은 붉은색으로 들어갑니다."
+    },
+    {
+      "id": "limtochess_entrance_overwrite_title",
+      "content": "제목"
+    },
+    {
+      "id": "limtochess_entrance_overwrite_desc",
+      "content": "새로 게임을 시작할 때 이미 진행 중인 판이 있을경우\n진행 중인 판을 덮어쓰는지 확인하는 팝업"
+    },
+    {
+      "id": "limtochess_mode_name",
+      "content": "도상구축"
+    },
+    {
+      "id": "limtochess_mode_title",
+      "content": "도상구축 (베타)"
+    },
+    {
+      "id": "limtochess_entrance_enter",
+      "content": "입장하기"
+    },
+    {
+      "id": "limtochess_entrance_speedup_on",
+      "content": "공통 턴 {0}부터 {1}배속: 켬"
+    },
+    {
+      "id": "limtochess_entrance_speedup_off",
+      "content": "공통 턴 {0}부터 {1}배속: 끔"
+    },
+    {
+      "id": "limtochess_entrance_auto_select_bonus",
+      "content": "이번 플레이 시 자동 편성 리롤 기회 +{0}"
+    },
+    {
+      "id": "limtochess_entrance_locked",
+      "content": "{0} 후 입장할 수 있습니다."
+    },
+    {
+      "id": "limtochess_room_type_start",
+      "content": "시작 방"
+    },
+    {
+      "id": "limtochess_room_type_empty",
+      "content": "빈 방"
+    },
+    {
+      "id": "limtochess_room_type_normal",
+      "content": "일반"
+    },
+    {
+      "id": "limtochess_room_type_elite",
+      "content": "정예"
+    },
+    {
+      "id": "limtochess_room_type_rest",
+      "content": "휴식"
+    },
+    {
+      "id": "limtochess_room_type_temptation",
+      "content": "유혹"
+    },
+    {
+      "id": "limtochess_room_type_segment_boss",
+      "content": "구간 보스"
+    },
+    {
+      "id": "limtochess_room_type_final_boss",
+      "content": "최종 보스"
+    },
+    {
+      "id": "limtochess_roominfo_title",
+      "content": "전투 - {0}구간 {1} #{2}"
+    },
+    {
+      "id": "limtochess_roominfo_title_room",
+      "content": "{0}구간 {1} #{2}"
+    },
+    {
+      "id": "limtochess_roominfo_title_hidden",
+      "content": "밝혀지지 않은 방 · {0}구간"
+    },
+    {
+      "id": "limtochess_roominfo_title_visited",
+      "content": "{0}구간 {1} #{2} · 방문한 방(빈 방)"
+    },
+    {
+      "id": "limtochess_roominfo_title_current",
+      "content": "{0}구간 {1} #{2} · 현재 위치"
+    },
+    {
+      "id": "limtochess_roominfo_enemy_attribute",
+      "content": "적 속성"
+    },
+    {
+      "id": "limtochess_roominfo_enemy_info",
+      "content": "적 정보"
+    },
+    {
+      "id": "limtochess_roominfo_enemy_count",
+      "content": "출격 x{0}"
+    },
+    {
+      "id": "limtochess_roominfo_reward",
+      "content": "보상"
+    },
+    {
+      "id": "limtochess_roominfo_bonus_none",
+      "content": "없음"
+    },
+    {
+      "id": "limtochess_roominfo_bonus_mp_recover",
+      "content": "정신력 회복 +{0} (방에 들어올 때 적용됨)"
+    },
+    {
+      "id": "limtochess_roominfo_bonus_mp_risk",
+      "content": "정신력 손실 위험 -{0} (방에 들어올 때 적용됨)"
+    },
+    {
+      "id": "limtochess_roominfo_bonus_copy_card",
+      "content": "복제 카드 1장 보장 (승리 팩)"
+    },
+    {
+      "id": "limtochess_roominfo_pack_preview",
+      "content": "팩 목록 미리보기"
+    },
+    {
+      "id": "limtochess_roominfo_to_battle",
+      "content": "바로 전투 시작"
+    },
+    {
+      "id": "limtochess_roominfo_to_formation",
+      "content": "편성 시작"
+    },
+    {
+      "id": "limtochess_roominfo_move",
+      "content": "이 방으로"
+    },
+    {
+      "id": "limtochess_roominfo_cannot_move",
+      "content": "갈 수 없음"
+    },
+    {
+      "id": "limtochess_battleprep_step_formation",
+      "content": "편성"
+    },
+    {
+      "id": "limtochess_battleprep_step_defense",
+      "content": "방어 정책"
+    },
+    {
+      "id": "limtochess_battleprep_step_briefing",
+      "content": "브리핑"
+    },
+    {
+      "id": "limtochess_battleprep_next",
+      "content": "다음 단계로"
+    },
+    {
+      "id": "limtochess_battleprep_back",
+      "content": "뒤로"
+    },
+    {
+      "id": "limtochess_packpreview_title",
+      "content": "팩 목록 미리보기"
+    },
+    {
+      "id": "limtochess_packpreview_grade",
+      "content": "{0}등급"
+    },
+    {
+      "id": "limtochess_packpreview_label_random",
+      "content": "무작위"
+    },
+    {
+      "id": "limtochess_packpreview_ego_count",
+      "content": "에고 x{0}"
+    },
+    {
+      "id": "limtochess_packpreview_identity_count",
+      "content": "인격 x{0}"
+    },
+    {
+      "id": "limtochess_pack_cost",
+      "content": "COST {0}"
+    },
+    {
+      "id": "limtochess_packpreview_tier_line",
+      "content": "{0} {1}"
+    },
+    {
+      "id": "limtochess_packpreview_detail",
+      "content": "상세 보기"
+    },
+    {
+      "id": "limtochess_packdetail_title",
+      "content": "팩 목록 상세"
+    },
+    {
+      "id": "limtochess_packdetail_ego_undecided",
+      "content": "이긴 뒤 팩 선택에서 결정"
+    },
+    {
+      "id": "limtochess_personality_name",
+      "content": "{0} {1}"
+    },
+    {
+      "id": "limtochess_level",
+      "content": "Lv {0}"
+    },
+    {
+      "id": "limtochess_battleprep_start",
+      "content": "戦闘開始"
+    },
+    {
+      "id": "limtochess_defense_option_placeholder",
+      "content": "N"
+    },
+    {
+      "id": "limtochess_defense_option_hp",
+      "content": "{0}%"
+    },
+    {
+      "id": "limtochess_defense_option_mp",
+      "content": "{0}"
+    },
+    {
+      "id": "limtochess_defense_option_queue",
+      "content": "{0}個"
+    },
+    {
+      "id": "limtochess_defense_type_guard",
+      "content": "防御"
+    },
+    {
+      "id": "limtochess_defense_type_evade",
+      "content": "回避"
+    },
+    {
+      "id": "limtochess_defense_type_counter",
+      "content": "反撃"
+    },
+    {
+      "id": "limtochess_defense_preset_name_0",
+      "content": "使用しない"
+    },
+    {
+      "id": "limtochess_defense_preset_name_1",
+      "content": "体力{0}%以下"
+    },
+    {
+      "id": "limtochess_defense_preset_name_2",
+      "content": "精神力{0}以下"
+    },
+    {
+      "id": "limtochess_defense_preset_name_3",
+      "content": "混乱の予感"
+    },
+    {
+      "id": "limtochess_defense_preset_name_4",
+      "content": "標的1つ以上"
+    },
+    {
+      "id": "limtochess_defense_preset_name_5",
+      "content": "標的2つ以上"
+    },
+    {
+      "id": "limtochess_defense_preset_name_6",
+      "content": "致命の予感"
+    },
+    {
+      "id": "limtochess_defense_preset_name_7",
+      "content": "強攻撃の標的"
+    },
+    {
+      "id": "limtochess_defense_preset_name_8",
+      "content": "スタック最大"
+    },
+    {
+      "id": "limtochess_defense_preset_name_9",
+      "content": "スキル3の直前"
+    },
+    {
+      "id": "limtochess_defense_preset_name_10",
+      "content": "味方死亡直後"
+    },
+    {
+      "id": "limtochess_defense_preset_name_11",
+      "content": "キュー同属性{0}個以上"
+    },
+    {
+      "id": "limtochess_defense_preset_name_12",
+      "content": "固有条件"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_0",
+      "content": "守備スキルを使用しない"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_1",
+      "content": "自分の体力が{0}%以下のとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_2",
+      "content": "自分の精神力が{0}以下のとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_3",
+      "content": "次の被撃で混乱しそうなとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_4",
+      "content": "自分を狙う敵の攻撃があるとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_5",
+      "content": "自分を狙う敵の攻撃が2つ以上のとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_6",
+      "content": "次の被撃で死にそうなとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_7",
+      "content": "ボス・精鋭の強攻撃が自分を狙うとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_8",
+      "content": "守備が最大まで溜まったらすぐ"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_9",
+      "content": "スキル3を使う直前のターンに"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_10",
+      "content": "味方が死亡した直後の最初のターンに"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_11",
+      "content": "キューに同じ属性が{0}個以上あるとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_12",
+      "content": "この人格の固有条件を満たすとき"
+    },
+    {
+      "id": "limtochess_defense_default",
+      "content": "基本設定"
+    },
+    {
+      "id": "limtochess_defense_all_default",
+      "content": "全員 人格別の基本値"
+    },
+    {
+      "id": "limtochess_defense_all_selected",
+      "content": "全員 選択した人格の設定"
+    },
+    {
+      "id": "limtochess_defense_all_none",
+      "content": "全員 使用しない"
+    },
+    {
+      "id": "limtochess_briefing_average_level",
+      "content": "平均レベル"
+    },
+    {
+      "id": "limtochess_briefing_enemy_status",
+      "content": "敵ステータス"
+    },
+    {
+      "id": "limtochess_briefing_speed",
+      "content": "速度"
+    },
+    {
+      "id": "limtochess_briefing_ally",
+      "content": "味方"
+    },
+    {
+      "id": "limtochess_briefing_enemy",
+      "content": "敵軍"
+    },
+    {
+      "id": "limtochess_briefing_headcount",
+      "content": "人数"
+    },
+    {
+      "id": "limtochess_briefing_threat_0",
+      "content": "余裕"
+    },
+    {
+      "id": "limtochess_briefing_threat_1",
+      "content": "普通"
+    },
+    {
+      "id": "limtochess_briefing_threat_2",
+      "content": "危険"
+    },
+    {
+      "id": "limtochess_briefing_threat_3",
+      "content": "絶望"
+    },
+    {
+      "id": "limtochess_briefing_script_0",
+      "content": "一般"
+    },
+    {
+      "id": "limtochess_briefing_script_1",
+      "content": "精鋭"
+    },
+    {
+      "id": "limtochess_briefing_script_2",
+      "content": "ボス"
+    },
+    {
+      "id": "limtochess_briefing_wave_tag",
+      "content": "ウェーブ x{0}"
+    },
+    {
+      "id": "limtochess_briefing_enemy_count",
+      "content": "x{0}"
+    },
+    {
+      "id": "limtochess_briefing_refill_tag",
+      "content": "補充 x{0}"
+    },
+    {
+      "id": "limtochess_briefing_refill",
+      "content": "戦闘中に敵が{0}体補充されます。"
+    },
+    {
+      "id": "limtochess_briefing_no_refill",
+      "content": "補充される敵はいません。"
+    },
+    {
+      "id": "limtochess_briefing_speed_faster",
+      "content": "味方がおおむね先に動きます。"
+    },
+    {
+      "id": "limtochess_briefing_speed_slower",
+      "content": "敵がおおむね先に動きます。"
+    },
+    {
+      "id": "limtochess_briefing_speed_similar",
+      "content": "味方と敵の速度はほぼ同じです。"
+    }
+  ]
+}

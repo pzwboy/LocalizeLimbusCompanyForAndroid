@@ -1,103 +1,103 @@
 {
-  "dataList": [
-    {
-      "id": 9292,
-      "name": "榜様",
-      "desc": "若編入的属于收尾人的人格不低于2名，則使編入的属于收尾人的<color=#ffffff>友方単位</color>中最后編入的1名<color=#ffffff>友方単位</color>獲得以下效果(不包括待命人員)\n- <color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得[Emulation]\n\n場上每有2名属于收尾人的友方人格，<color=#7C5738>回合開始</color>時使属于收尾人的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復2点<color=#81BBE8>理智値</color>\n\n若有不低于3名属于同一陣営且属于收尾人的人格，則触発以下效果\n- 使帯有[Emulation]的<color=#ffffff>友方単位</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+(場上属于收尾人的<color=#ffffff>友方単位</color>数×3)%(最多+15%)\n\n若有不低于3名属于不同陣営且属于收尾人的人格，則触発以下效果\n- 帯有[Emulation]的<color=#ffffff>友方単位</color>使用基礎攻撃技能時，使其獲得1層[Enhancement](<color=#7C5738>每回合</color>最多2次)\n- 帯有[Emulation]的<color=#ffffff>友方単位</color>基礎攻撃技能命中時，対<color=#ffffff>目標</color>施加1層[Vulnerable](<color=#7C5738>每回合</color>最多2次;若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)",
-      "simpleDesc": [
+    "dataList": [
         {
-          "abilityID": 9292,
-          "simpleDesc": ""
-        }
-      ]
-    },
-    {
-      "id": 9293,
-      "name": "精心分類的薬材",
-      "desc": "使帯有[ComboSkill]效果的技能或通過<color=#ffffff>友方単位</color>的技能或被動效果額外使用的攻撃技能造成的<color=#ffffff>傷害</color>+10%\n- 每触発一次該效果，使造成的<color=#ffffff>傷害</color>額外+2%(最多額外+10%)\n- 使用帯有[ComboSkill]效果的技能時，使<color=#ffffff>自身</color>獲得1層[AttackDmgUp](每名人格最多2次)\n- 若該<color=#ffffff>友方単位</color>属于<noparse>黎明事務所</noparse>或<noparse>楔子事務所</noparse>，則使其獲得1層[Enhancement](每名人格最多2次)",
-      "simpleDesc": [
+            "id": 9292,
+            "name": "榜様",
+            "desc": "若編入的属于收尾人的人格不低于2名，則使編入的属于收尾人的<color=#ffffff>友方単位</color>中最后編入的1名<color=#ffffff>友方単位</color>獲得以下效果(不包括待命人員)\n- <color=#ffffff>自身</color>在戦斗中首次登場時，使<color=#ffffff>自身</color>獲得[Emulation]\n\n場上每有2名属于收尾人的友方人格，<color=#7C5738>回合開始</color>時使属于收尾人的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復2点<color=#81BBE8>理智値</color>\n\n若有不低于3名属于同一陣営且属于收尾人的人格，則触発以下效果\n- 使帯有[Emulation]的<color=#ffffff>友方単位</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+(場上属于收尾人的<color=#ffffff>友方単位</color>数×3)%(最多+15%)\n\n若有不低于3名属于不同陣営且属于收尾人的人格，則触発以下效果\n- 帯有[Emulation]的<color=#ffffff>友方単位</color>使用基礎攻撃技能時，使其獲得1層[Enhancement](<color=#7C5738>每回合</color>最多2次)\n- 帯有[Emulation]的<color=#ffffff>友方単位</color>基礎攻撃技能命中時，対<color=#ffffff>目標</color>施加1層[Vulnerable](<color=#7C5738>每回合</color>最多2次;若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9292,
+                    "simpleDesc": ""
+                }
+            ]
+        },
         {
-          "abilityID": 9293,
-          "simpleDesc": "<noparse>造成的<color=#ffffff>傷害</color>増加</noparse>，獲得[AttackDmgUp]。満足条件時獲得[Enhancement]"
-        }
-      ]
-    },
-    {
-      "id": 9294,
-      "name": "空洞的自尊",
-      "desc": "<color=#7C5737>関峠開始</color>時，随机対1名<color=#ffffff>友方単位</color>施加[CursedBlessing]\n本E.G.O飾品在6場帯有[CursedBlessing]的人格存活的情况下戦斗勝利后轉化(騎士的自尊)\n{0}",
-      "simpleDesc": [
+            "id": 9293,
+            "name": "精心分類的薬材",
+            "desc": "使帯有[ComboSkill]效果的技能或通過<color=#ffffff>友方単位</color>的技能或被動效果額外使用的攻撃技能造成的<color=#ffffff>傷害</color>+10%\n- 每触発一次該效果，使造成的<color=#ffffff>傷害</color>額外+2%(最多額外+10%)\n- 使用帯有[ComboSkill]效果的技能時，使<color=#ffffff>自身</color>獲得1層[AttackDmgUp](每名人格最多2次)\n- 若該<color=#ffffff>友方単位</color>属于<noparse>黎明事務所</noparse>或<noparse>楔子事務所</noparse>，則使其獲得1層[Enhancement](每名人格最多2次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9293,
+                    "simpleDesc": "<noparse>造成的<color=#ffffff>傷害</color>増加</noparse>，獲得[AttackDmgUp]。満足条件時獲得[Enhancement]"
+                }
+            ]
+        },
         {
-          "abilityID": 9294,
-          "simpleDesc": "施加[CursedBlessing]"
-        }
-      ]
-    },
-    {
-      "id": 9295,
-      "name": "騎士的自尊",
-      "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n移除<color=#ffffff>自身</color>所有<color=#ffffff>混乱閾値</color>，<color=#7C5737>関峠開始</color>時使<color=#ffffff>自身</color>獲得[BeyondDespair]",
-      "simpleDesc": [
+            "id": 9294,
+            "name": "空洞的自尊",
+            "desc": "<color=#7C5737>関峠開始</color>時，随机対1名<color=#ffffff>友方単位</color>施加[CursedBlessing]\n本E.G.O飾品在6場帯有[CursedBlessing]的人格存活的情况下戦斗勝利后轉化(騎士的自尊)\n{0}",
+            "simpleDesc": [
+                {
+                    "abilityID": 9294,
+                    "simpleDesc": "施加[CursedBlessing]"
+                }
+            ]
+        },
         {
-          "abilityID": 9295,
-          "simpleDesc": "獲得[BeyondDespair]"
-        }
-      ]
-    },
-    {
-      "id": 9296,
-      "name": "充盈悲痛之剣",
-      "desc": "使増加[Sinking]強度，施加[Sinking]層数或施加特殊[Sinking]的<color=#ffffff>突刺</color>基礎技能的<color=#ffffff>最終威力</color>+1\n\n<color=#ffffff>友方単位</color>的技能命中時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于-20点，則対<color=#ffffff>目標</color>造成相当于其[Sinking]強度的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n- 若該技能為<color=#ffffff>突刺</color>技能，則対<color=#ffffff>目標</color>額外造成(其[Sinking]強度/2)点固定<color=#ffffff>傷害</color>(每个技能最多1次)\n\n[脳叶公司E.G.O::<noparse>泪鋒之剣</noparse> 羅佳専属]\n<color=#ffffff>攻撃容量</color>為1且消耗[Charge]的基礎技能最后一枚硬幣命中<color=#ffffff>敵方単位</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成最終<color=#ffffff>傷害</color>量(消耗的[Charge]層数)%的<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>(包括特殊[Charge])\n\n[<noparse>泪鋒之剣</noparse> 鴻璐 E.G.O技能専属]\nE.G.O技能的<color=#ffffff>最終威力</color>+1",
-      "simpleDesc": [
+            "id": 9295,
+            "name": "騎士的自尊",
+            "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n移除<color=#ffffff>自身</color>所有<color=#ffffff>混乱閾値</color>，<color=#7C5737>関峠開始</color>時使<color=#ffffff>自身</color>獲得[BeyondDespair]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9295,
+                    "simpleDesc": "獲得[BeyondDespair]"
+                }
+            ]
+        },
         {
-          "abilityID": 9296,
-          "simpleDesc": "技能的<color=#ffffff>最終威力</color>増加，造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>，<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>較低時造成固定<color=#ffffff>傷害</color>"
-        }
-      ]
-    },
-    {
-      "id": 9297,
-      "name": "白色領巾",
-      "desc": "<color=#7C5738>回合開始</color>時，若属于<noparse>楔子事務所</noparse>的人格不低于3名，則触発該效果(包括待命人員)\n\n[<noparse>楔子事務所</noparse> 代表 奥提斯専属]\n- 首次満足以上条件的<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得20層[ComboWedge]\n- 使用“展開楔形陣勢”、“…全員，做好交鋒准備。”或“黎明后貫穿而来之楔”時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ComboWedgeDawn](<color=#7C5738>每回合</color>最多2次)\n- 使用“展開楔形陣勢”時，<color=#7C5738>下回合</color>開始時使<color=#ffffff>自身</color>獲得該技能消耗量一半的[ComboWedge](<color=#7C5738>每回合</color>最多1次，向下取整)",
-      "simpleDesc": [
+            "id": 9296,
+            "name": "充盈悲痛之剣",
+            "desc": "使増加[Sinking]強度，施加[Sinking]層数或施加特殊[Sinking]的<color=#ffffff>突刺</color>基礎技能的<color=#ffffff>最終威力</color>+1\n\n<color=#ffffff>友方単位</color>的技能命中時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>不高于-20点，則対<color=#ffffff>目標</color>造成相当于其[Sinking]強度的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n- 若該技能為<color=#ffffff>突刺</color>技能，則対<color=#ffffff>目標</color>額外造成(其[Sinking]強度/2)点固定<color=#ffffff>傷害</color>(每个技能最多1次)\n\n[脳叶公司E.G.O::<noparse>泪鋒之剣</noparse> 羅佳専属]\n<color=#ffffff>攻撃容量</color>為1且消耗[Charge]的基礎技能最后一枚硬幣命中<color=#ffffff>敵方単位</color>時，対<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>造成最終<color=#ffffff>傷害</color>量(消耗的[Charge]層数)%的<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>(包括特殊[Charge])\n\n[<noparse>泪鋒之剣</noparse> 鴻璐 E.G.O技能専属]\nE.G.O技能的<color=#ffffff>最終威力</color>+1",
+            "simpleDesc": [
+                {
+                    "abilityID": 9296,
+                    "simpleDesc": "技能的<color=#ffffff>最終威力</color>増加，造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>，<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>較低時造成固定<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
         {
-          "abilityID": 9297,
-          "simpleDesc": "獲得[ComboWedge]或[ComboWedgeDawn]"
-        }
-      ]
-    },
-    {
-      "id": 9298,
-      "name": "黑色三角帽",
-      "desc": "進行拼点時，每次拼点使<color=#ffffff>敵方単位</color>増加2級[Vibration]強度(每个技能最多3次)\n\n<color=#ffffff>友方単位</color>的基礎攻撃技能<color=#ffffff>暴撃</color>命中<color=#ffffff>敵方単位</color>時，若主要<color=#ffffff>目標</color>帯有[Vibration]，則使主要<color=#ffffff>目標</color>[VibrationExplosion]，并使主要<color=#ffffff>目標</color>的[Vibration]層数減少1層(每个技能最多1次)\n- 若<color=#ffffff>敵方単位</color>処于[Switch_Vibration]状態，則使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+10%\n- 若<color=#ffffff>敵方単位</color>処于[VibrationNesting]状態，則每畳加1種状態，使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+5%(最多+25%)",
-      "simpleDesc": [
+            "id": 9297,
+            "name": "白色領巾",
+            "desc": "<color=#7C5738>回合開始</color>時，若属于<noparse>楔子事務所</noparse>的人格不低于3名，則触発該效果(包括待命人員)\n\n[<noparse>楔子事務所</noparse> 代表 奥提斯専属]\n- 首次満足以上条件的<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得20層[ComboWedge]\n- 使用“展開楔形陣勢”、“…全員，做好交鋒准備。”或“黎明后貫穿而来之楔”時，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ComboWedgeDawn](<color=#7C5738>每回合</color>最多2次)\n- 使用“展開楔形陣勢”時，<color=#7C5738>下回合</color>開始時使<color=#ffffff>自身</color>獲得該技能消耗量一半的[ComboWedge](<color=#7C5738>每回合</color>最多1次，向下取整)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9297,
+                    "simpleDesc": "獲得[ComboWedge]或[ComboWedgeDawn]"
+                }
+            ]
+        },
         {
-          "abilityID": 9298,
-          "simpleDesc": "進行拼点時施加震顫 \n満足条件時触発震顫引爆 ，技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加"
-        }
-      ]
-    },
-    {
-      "id": 9299,
-      "name": "身体适應用装置",
-      "desc": "使帯有[VibrationCollapse]的<color=#ffffff>敵方単位</color>[VibrationExplosion]時，対每个<color=#ffffff>目標</color>造成<color=#ffffff>傷害</color>量(其防御等級減少量)%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(最多15%)",
-      "simpleDesc": [
+            "id": 9298,
+            "name": "黑色三角帽",
+            "desc": "進行拼点時，每次拼点使<color=#ffffff>敵方単位</color>増加2級[Vibration]強度(每个技能最多3次)\n\n<color=#ffffff>友方単位</color>的基礎攻撃技能<color=#ffffff>暴撃</color>命中<color=#ffffff>敵方単位</color>時，若主要<color=#ffffff>目標</color>帯有[Vibration]，則使主要<color=#ffffff>目標</color>[VibrationExplosion]，并使主要<color=#ffffff>目標</color>的[Vibration]層数減少1層(每个技能最多1次)\n- 若<color=#ffffff>敵方単位</color>処于[Switch_Vibration]状態，則使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+10%\n- 若<color=#ffffff>敵方単位</color>処于[VibrationNesting]状態，則每畳加1種状態，使<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+5%(最多+25%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9298,
+                    "simpleDesc": "進行拼点時施加震顫 \n満足条件時触発震顫引爆 ，技能<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>増加"
+                }
+            ]
+        },
         {
-          "abilityID": 9299,
-          "simpleDesc": "造成<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
-        }
-      ]
-    },
-    {
-      "id": 9300,
-      "name": "折断的槍尖",
-      "desc": "<color=#ffffff>突刺</color>基礎攻撃技能造成<color=#ffffff>暴撃</color><color=#ffffff>傷害</color>時，攻撃結束后対<color=#ffffff>目標</color>施加[EmbeddedSpearhead](每名人格<color=#7C5738>每回合</color>最多1次;若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)",
-      "simpleDesc": [
+            "id": 9299,
+            "name": "身体适應用装置",
+            "desc": "使帯有[VibrationCollapse]的<color=#ffffff>敵方単位</color>[VibrationExplosion]時，対每个<color=#ffffff>目標</color>造成<color=#ffffff>傷害</color>量(其防御等級減少量)%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(最多15%)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9299,
+                    "simpleDesc": "造成<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
+                }
+            ]
+        },
         {
-          "abilityID": 9300,
-          "simpleDesc": "施加[EmbeddedSpearhead]"
+            "id": 9300,
+            "name": "折断的槍尖",
+            "desc": "<color=#ffffff>突刺</color>基礎攻撃技能造成<color=#ffffff>暴撃</color><color=#ffffff>傷害</color>時，攻撃結束后対<color=#ffffff>目標</color>施加[EmbeddedSpearhead](每名人格<color=#7C5738>每回合</color>最多1次;若是<color=#ffffff>集中遭遇戦</color>，則改為以<color=#ffffff>部位</color>判定)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9300,
+                    "simpleDesc": "施加[EmbeddedSpearhead]"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

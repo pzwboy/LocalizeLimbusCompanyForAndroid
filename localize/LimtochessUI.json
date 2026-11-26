@@ -1,0 +1,4104 @@
+{
+  "dataList": [
+    {
+      "id": "limtochess_entrance_continue",
+      "content": "続きから"
+    },
+    {
+      "id": "limtochess_entrance_new_game",
+      "content": "はじめから"
+    },
+    {
+      "id": "limtochess_entrance_pass",
+      "content": "スキーマ構築パス"
+    },
+    {
+      "id": "limtochess_entrance_overwrite_title",
+      "content": "はじめから"
+    },
+    {
+      "id": "limtochess_entrance_overwrite_desc",
+      "content": "進行中のスキーマ構築を終了し、新しく開始しますか？\n確認を選択すると、これまでの進行度に応じた報酬を受け取ってから、新しく開始します。"
+    },
+    {
+      "id": "limtochess_mode_name",
+      "content": "スキーマ構築"
+    },
+    {
+      "id": "limtochess_mode_title",
+      "content": "スキーマ構築（ベータ）"
+    },
+    {
+      "id": "limtochess_entrance_enter",
+      "content": "入場"
+    },
+    {
+      "id": "limtochess_entrance_auto_select_bonus",
+      "content": "今回のプレイでの自動編成の更新回数 +{0}"
+    },
+    {
+      "id": "limtochess_entrance_locked",
+      "content": "{0}後に入場できます。"
+    },
+    {
+      "id": "limtochess_room_type_start",
+      "content": "開始地点"
+    },
+    {
+      "id": "limtochess_room_type_empty",
+      "content": "空き部屋"
+    },
+    {
+      "id": "limtochess_room_type_normal",
+      "content": "一般"
+    },
+    {
+      "id": "limtochess_room_type_elite",
+      "content": "精鋭"
+    },
+    {
+      "id": "limtochess_room_type_rest",
+      "content": "休息"
+    },
+    {
+      "id": "limtochess_room_type_temptation",
+      "content": "誘惑"
+    },
+    {
+      "id": "limtochess_room_type_event",
+      "content": "イベント"
+    },
+    {
+      "id": "limtochess_room_type_segment_boss",
+      "content": "ボス"
+    },
+    {
+      "id": "limtochess_room_type_final_boss",
+      "content": "最終ボス"
+    },
+    {
+      "id": "limtochess_roominfo_title_room",
+      "content": "第{0}スキーマ {1} #{2}"
+    },
+    {
+      "id": "limtochess_roominfo_bonus_none",
+      "content": "-"
+    },
+    {
+      "id": "limtochess_roominfo_bonus_mp_recover",
+      "content": "精神力回復 +{0}（入室時に適用）"
+    },
+    {
+      "id": "limtochess_roominfo_bonus_mp_risk",
+      "content": "精神力損失リスク -{0}（入室時に適用）"
+    },
+    {
+      "id": "limtochess_roominfo_list_effect",
+      "content": "効果"
+    },
+    {
+      "id": "limtochess_roominfo_list_penalty",
+      "content": "ペナルティ"
+    },
+    {
+      "id": "limtochess_roominfo_list_event_boss",
+      "content": "今回のスキーマ構築の最後に対峙するものを描きます"
+    },
+    {
+      "id": "limtochess_roominfo_list_event_skip",
+      "content": "選ばずに退出すると、効果も苦難も受けません"
+    },
+    {
+      "id": "limtochess_roominfo_list_tempt_offer",
+      "content": "入場時、人格またはE.G.Oを選択して受け取れます。（ただし、選択しなくても構いません。）"
+    },
+    {
+      "id": "limtochess_roominfo_list_tempt_mp",
+      "content": "提案に応じて、編成人格全員の精神力 {0}"
+    },
+    {
+      "id": "limtochess_roominfo_list_rest_pick",
+      "content": "入室すると、以下の休息効果から1つを選べます"
+    },
+    {
+      "id": "limtochess_roominfo_list_rest_mp",
+      "content": "精神力回復"
+    },
+    {
+      "id": "limtochess_roominfo_list_rest_reroll",
+      "content": "更新回数"
+    },
+    {
+      "id": "limtochess_roominfo_list_rest_syncup",
+      "content": "編成人格1名の同期化 +1段階"
+    },
+    {
+      "id": "limtochess_roominfo_list_rest_freeroll_carry",
+      "content": "追加ロール（未使用の追加ロールは次のスキーマに持ち越されます）"
+    },
+    {
+      "id": "limtochess_roominfo_list_event_pool",
+      "content": "入室すると、以下のイベントのうち1つが表示されます。選択肢を1つ選ぶと、効果が適用されます"
+    },
+    {
+      "id": "limtochess_roominfo_to_formation",
+      "content": "編成開始"
+    },
+    {
+      "id": "limtochess_roominfo_move",
+      "content": "表象に進む"
+    },
+    {
+      "id": "limtochess_roominfo_cannot_move",
+      "content": "移動不可"
+    },
+    {
+      "id": "limtochess_battleprep_step_formation",
+      "content": "編成"
+    },
+    {
+      "id": "limtochess_battleprep_step_defense",
+      "content": "防御方針"
+    },
+    {
+      "id": "limtochess_battleprep_step_briefing",
+      "content": "ブリーフィング"
+    },
+    {
+      "id": "limtochess_battleprep_back",
+      "content": "戻る"
+    },
+    {
+      "id": "limtochess_packpreview_grade",
+      "content": "ランク{0}"
+    },
+    {
+      "id": "limtochess_packpreview_label_random",
+      "content": "ランダム"
+    },
+    {
+      "id": "limtochess_pack_mix_identity",
+      "content": "人格{0}つのうち{1}つを獲得"
+    },
+    {
+      "id": "limtochess_pack_mix_ego",
+      "content": "E.G.O {0}つのうち{1}つを獲得"
+    },
+    {
+      "id": "limtochess_pack_keep_identity",
+      "content": "人格{0}名"
+    },
+    {
+      "id": "limtochess_pack_keep_ego",
+      "content": "E.G.O {0}個"
+    },
+    {
+      "id": "limtochess_pack_keep_suffix",
+      "content": "獲得可能"
+    },
+    {
+      "id": "limtochess_pack_mix_identity_none",
+      "content": "人格なし"
+    },
+    {
+      "id": "limtochess_pack_mix_ego_none",
+      "content": "E.G.Oなし"
+    },
+    {
+      "id": "limtochess_pack_cost",
+      "content": "COST {0}"
+    },
+    {
+      "id": "limtochess_packpreview_tier_line",
+      "content": "{0} / {1}名"
+    },
+    {
+      "id": "limtochess_personality_name",
+      "content": "{0} {1}"
+    },
+    {
+      "id": "limtochess_level",
+      "content": "Lv {0}"
+    },
+    {
+      "id": "limtochess_battleprep_start",
+      "content": "戦闘開始"
+    },
+    {
+      "id": "limtochess_defense_option_placeholder",
+      "content": "N"
+    },
+    {
+      "id": "limtochess_defense_option_queue",
+      "content": "{0}個"
+    },
+    {
+      "id": "limtochess_defense_type_guard",
+      "content": "防御"
+    },
+    {
+      "id": "limtochess_defense_type_evade",
+      "content": "回避"
+    },
+    {
+      "id": "limtochess_defense_type_counter",
+      "content": "反撃"
+    },
+    {
+      "id": "limtochess_defense_preset_name_0",
+      "content": "使用しない"
+    },
+    {
+      "id": "limtochess_defense_preset_name_4",
+      "content": "攻撃を受けるとき"
+    },
+    {
+      "id": "limtochess_defense_preset_name_6",
+      "content": "生命の危機"
+    },
+    {
+      "id": "limtochess_defense_preset_name_7",
+      "content": "強力な攻撃を受けるとき"
+    },
+    {
+      "id": "limtochess_defense_preset_name_11",
+      "content": "待機中のスキルに同じ属性が{0}つ以上"
+    },
+    {
+      "id": "limtochess_defense_preset_name_12",
+      "content": "固有条件"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_0",
+      "content": "守備スキルを使用しません"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_4",
+      "content": "自分に攻撃スキルを使用しようとしている敵がいるとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_6",
+      "content": "死亡するほどのダメージを受けそうなとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_7",
+      "content": "自分にスキル3または強化スキル3を使用しようとしている敵がいるとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_11",
+      "content": "待機中のスキルに同じ属性が{0}つ以上あるとき"
+    },
+    {
+      "id": "limtochess_defense_preset_desc_12",
+      "content": "この人格の固有条件を満たしたとき"
+    },
+    {
+      "id": "limtochess_defense_default",
+      "content": "基本設定"
+    },
+    {
+      "id": "limtochess_defense_all_default",
+      "content": "全員を初期設定に戻す"
+    },
+    {
+      "id": "limtochess_defense_all_selected",
+      "content": "選択した人格の設定を全員に適用"
+    },
+    {
+      "id": "limtochess_defense_all_none",
+      "content": "全員使用しない"
+    },
+    {
+      "id": "limtochess_briefing_average_level",
+      "content": "平均レベル"
+    },
+    {
+      "id": "limtochess_briefing_enemy_status",
+      "content": "敵のステータス"
+    },
+    {
+      "id": "limtochess_briefing_speed",
+      "content": "速度"
+    },
+    {
+      "id": "limtochess_briefing_ally",
+      "content": "味方"
+    },
+    {
+      "id": "limtochess_briefing_enemy",
+      "content": "敵"
+    },
+    {
+      "id": "limtochess_briefing_headcount",
+      "content": "人数"
+    },
+    {
+      "id": "limtochess_briefing_threat_0",
+      "content": "余裕"
+    },
+    {
+      "id": "limtochess_briefing_threat_1",
+      "content": "普通"
+    },
+    {
+      "id": "limtochess_briefing_threat_2",
+      "content": "危険"
+    },
+    {
+      "id": "limtochess_briefing_threat_3",
+      "content": "絶望"
+    },
+    {
+      "id": "limtochess_briefing_script_0",
+      "content": "一般"
+    },
+    {
+      "id": "limtochess_briefing_script_1",
+      "content": "精鋭"
+    },
+    {
+      "id": "limtochess_briefing_script_2",
+      "content": "ボス"
+    },
+    {
+      "id": "limtochess_briefing_wave_tag",
+      "content": "ウェーブ ×{0}"
+    },
+    {
+      "id": "limtochess_briefing_enemy_count",
+      "content": "×{0}"
+    },
+    {
+      "id": "limtochess_briefing_refill",
+      "content": "戦闘中、敵が追加で{0}名出現します。"
+    },
+    {
+      "id": "limtochess_briefing_no_refill",
+      "content": "追加で出現する敵はいません。"
+    },
+    {
+      "id": "limtochess_briefing_speed_faster",
+      "content": "味方が先に行動する傾向にあります。"
+    },
+    {
+      "id": "limtochess_briefing_speed_slower",
+      "content": "敵が先に行動する傾向にあります。"
+    },
+    {
+      "id": "limtochess_briefing_speed_similar",
+      "content": "味方と敵の速度は同程度です。"
+    },
+    {
+      "id": "limtochess_briefing_multi_action_tag",
+      "content": "連続行動 ×{0}"
+    },
+    {
+      "id": "limtochess_briefing_multi_action_grow_tag",
+      "content": "連続行動 ×{0}→×{1}"
+    },
+    {
+      "id": "limtochess_packselect_my_deck",
+      "content": "編成確認"
+    },
+    {
+      "id": "limtochess_packselect_deck_tag",
+      "content": "{0} {1}"
+    },
+    {
+      "id": "limtochess_packselect_reroll",
+      "content": "更新回数"
+    },
+    {
+      "id": "limtochess_packselect_deck_count",
+      "content": "戦闘編成に{0}名"
+    },
+    {
+      "id": "limtochess_packselect_swap",
+      "content": "パック更新"
+    },
+    {
+      "id": "limtochess_packselect_swap_cost",
+      "content": "パック交換・更新回数を{0}回消費"
+    },
+    {
+      "id": "limtochess_packselect_swap_done",
+      "content": "更新完了"
+    },
+    {
+      "id": "limtochess_packselect_card_reroll",
+      "content": "交換"
+    },
+    {
+      "id": "limtochess_packselect_rest_title",
+      "content": "この部屋のパック一覧"
+    },
+    {
+      "id": "limtochess_packselect_rest_desc",
+      "content": "パックを交換すると、以下のパックのいずれかに変わります"
+    },
+    {
+      "id": "limtochess_packselect_open_pack",
+      "content": "パック開封"
+    },
+    {
+      "id": "limtochess_packselect_open_pack_mix",
+      "content": "パック開封・人格 {0}・E.G.O {1}"
+    },
+    {
+      "id": "limtochess_packselect_open_pack_step",
+      "content": "{0} ({1}/{2})"
+    },
+    {
+      "id": "limtochess_packselect_odds_cost",
+      "content": "人格コスト"
+    },
+    {
+      "id": "limtochess_packselect_odds_ego",
+      "content": "E.G.Oランク"
+    },
+    {
+      "id": "limtochess_packselect_odds_sync",
+      "content": "カードの同期化"
+    },
+    {
+      "id": "limtochess_packselect_odds_item_cost",
+      "content": "COST {0} {1}%"
+    },
+    {
+      "id": "limtochess_packselect_odds_item_sync",
+      "content": "同期化{0}段階 {1}%"
+    },
+    {
+      "id": "limtochess_packselect_odds_item",
+      "content": "{0} {1}%"
+    },
+    {
+      "id": "limtochess_packselect_pack_title",
+      "content": "[ {0} ] パック"
+    },
+    {
+      "id": "limtochess_packselect_confirm",
+      "content": "確定"
+    },
+    {
+      "id": "limtochess_packselect_confirm_count",
+      "content": "{0}/{1}"
+    },
+    {
+      "id": "limtochess_packselect_confirm_preview",
+      "content": "選択項目"
+    },
+    {
+      "id": "limtochess_packselect_toggle_recruit",
+      "content": "編成"
+    },
+    {
+      "id": "limtochess_packselect_toggle_replace",
+      "content": "交換"
+    },
+    {
+      "id": "limtochess_packselect_toggle_fragment",
+      "content": "欠片"
+    },
+    {
+      "id": "limtochess_packselect_toggle_syncup",
+      "content": "同期化"
+    },
+    {
+      "id": "limtochess_packselect_desc_recruit",
+      "content": "編成に加わります。\n同期化{0}段階から開始"
+    },
+    {
+      "id": "limtochess_packselect_desc_replace",
+      "content": "選択すると、現在の人格\n[{0}]と入れ替わります。"
+    },
+    {
+      "id": "limtochess_packselect_desc_ego_equip",
+      "content": "選択すると、空いている{0}スロットに装着します。"
+    },
+    {
+      "id": "limtochess_packselect_ego_tier",
+      "content": "幻想解析{0}段階"
+    },
+    {
+      "id": "limtochess_packselect_sync_change",
+      "content": "同期化{0}段階 → 同期化{1}段階"
+    },
+    {
+      "id": "limtochess_packselect_summary_recruit",
+      "content": "{0}を編成"
+    },
+    {
+      "id": "limtochess_packselect_summary_replace",
+      "content": "{0}の人格を交換"
+    },
+    {
+      "id": "limtochess_packselect_summary_syncup",
+      "content": "{0} 同期化{1}段階"
+    },
+    {
+      "id": "limtochess_packselect_summary_fragment",
+      "content": "{0}の欠片を獲得（同期化に必要な欠片{2}個のうち{1}個）"
+    },
+    {
+      "id": "limtochess_packselect_summary_fragment_keep",
+      "content": "{0}の欠片を{1}個保管"
+    },
+    {
+      "id": "limtochess_packselect_summary_fragment_generic",
+      "content": "{0} 汎用欠片 +{1}"
+    },
+    {
+      "id": "limtochess_packselect_summary_none",
+      "content": "選択した人格・E.G.Oがありません。\n※ 人格の同期化に必要な欠片（同期化1/2/3段階）：2/3/3個"
+    },
+    {
+      "id": "limtochess_packselect_summary_ego_equip",
+      "content": "{0}のE.G.Oを装着"
+    },
+    {
+      "id": "limtochess_packselect_summary_ego_replace",
+      "content": "{0}のE.G.Oを交換"
+    },
+    {
+      "id": "limtochess_packselect_discard",
+      "content": ""
+    },
+    {
+      "id": "limtochess_packselect_full",
+      "content": "選べるカードは{0}枚までです。選択済みのカードを押すと選択を解除できます。"
+    },
+    {
+      "id": "limtochess_packselect_full_identity",
+      "content": "人格は{0}枚まで選べます。選択済みのカードを押すと選択を解除できます。"
+    },
+    {
+      "id": "limtochess_packselect_full_ego",
+      "content": "E.G.Oは{0}枚まで選べます。選択済みのカードを押すと選択を解除できます。"
+    },
+    {
+      "id": "limtochess_packselect_count_identity",
+      "content": "人格 {0}/{1}"
+    },
+    {
+      "id": "limtochess_packselect_count_ego",
+      "content": "E.G.O {0}/{1}"
+    },
+    {
+      "id": "limtochess_packselect_need_identity",
+      "content": "確定するには人格をあと{0}枚選択してください。"
+    },
+    {
+      "id": "limtochess_packselect_need_ego",
+      "content": "確定するにはE.G.Oをあと{0}枚選択してください。"
+    },
+    {
+      "id": "limtochess_packselect_need_both",
+      "content": "確定するには人格をあと{0}枚、E.G.Oをあと{1}枚選択してください。"
+    },
+    {
+      "id": "limtochess_roster_count",
+      "content": "編成 {0}/{1}"
+    },
+    {
+      "id": "limtochess_roster_replace_note",
+      "content": "現在のスキーマの最大編成人数（{0}名）に達したため、{1}名を除外する必要があります。"
+    },
+    {
+      "id": "limtochess_confirm_unclaimed_title",
+      "content": "未受取の報酬があります"
+    },
+    {
+      "id": "limtochess_confirm_unclaimed_desc",
+      "content": "{0}\nこのまま進みますか？"
+    },
+    {
+      "id": "limtochess_confirm_overwrite_title",
+      "content": "はじめから"
+    },
+    {
+      "id": "limtochess_packselect_reroll_bonus_title",
+      "content": "更新回数ボーナス"
+    },
+    {
+      "id": "limtochess_packselect_reroll_count",
+      "content": "{0}/{1}"
+    },
+    {
+      "id": "limtochess_elite_swap_title",
+      "content": "人格交換：{0}"
+    },
+    {
+      "id": "limtochess_elite_swap_head",
+      "content": "交換対象"
+    },
+    {
+      "id": "limtochess_elite_personality_sync",
+      "content": "{0} 同期化{1}段階"
+    },
+    {
+      "id": "limtochess_elite_recruit_title",
+      "content": "編成：{0}"
+    },
+    {
+      "id": "limtochess_elite_replace_title",
+      "content": "交換：{0}"
+    },
+    {
+      "id": "limtochess_elite_keyword_head",
+      "content": "同期化{0}段階の人格"
+    },
+    {
+      "id": "limtochess_elite_base_ego",
+      "content": "囚人の基本E.G.O"
+    },
+    {
+      "id": "limtochess_elite_growth_title",
+      "content": "成長：欠片 +{0}個"
+    },
+    {
+      "id": "limtochess_elite_growth_head",
+      "content": "戦闘編成内の囚人1名に欠片を付与"
+    },
+    {
+      "id": "limtochess_elite_growth_desc",
+      "content": "人格の同期化に使用します。"
+    },
+    {
+      "id": "limtochess_elite_skip_title",
+      "content": "受け取らない"
+    },
+    {
+      "id": "limtochess_elite_skip_head",
+      "content": "現在の戦闘編成を維持"
+    },
+    {
+      "id": "limtochess_elite_sync",
+      "content": "同期化{0}段階"
+    },
+    {
+      "id": "limtochess_elite_fragments_label",
+      "content": "所持 {0} 欠片"
+    },
+    {
+      "id": "limtochess_elite_back",
+      "content": "戻る"
+    },
+    {
+      "id": "limtochess_elite_confirm",
+      "content": "確認"
+    },
+    {
+      "id": "limtochess_confirm_pack_none",
+      "content": "人格カードが選択されていません。最大{0}枚まで受け取れます。"
+    },
+    {
+      "id": "limtochess_confirm_pack_left",
+      "content": "人格カードをあと{0}枚受け取れます（選択中：{1}/{2}枚）。"
+    },
+    {
+      "id": "limtochess_confirm_pack_none_ego",
+      "content": "E.G.Oカードが選択されていません。最大{0}枚まで受け取れます。"
+    },
+    {
+      "id": "limtochess_confirm_pack_none_both",
+      "content": "カードが選択されていません。人格を最大{0}枚、E.G.Oを最大{1}枚まで受け取れます。"
+    },
+    {
+      "id": "limtochess_confirm_pack_left_ego",
+      "content": "E.G.Oカードをあと{0}枚受け取れます（選択中：{1}/{2}枚）。"
+    },
+    {
+      "id": "limtochess_confirm_pack_left_both",
+      "content": "人格カードをあと{0}枚、E.G.Oカードをあと{1}枚受け取れます（選択中：{2}/{3}枚）。"
+    },
+    {
+      "id": "limtochess_confirm_reward_skip",
+      "content": "受取可能な報酬{0}個を1つも受け取らずに進みます。"
+    },
+    {
+      "id": "limtochess_confirm_reward_rest_generic",
+      "content": "この休息では、まだ汎用欠片{0}個を使用できます（最大{1}回）。\n休息報酬を受け取ると休息が終了し、今回はそれ以上使用できません。"
+    },
+    {
+      "id": "limtochess_confirm_ego_replace_title",
+      "content": "E.G.O交換"
+    },
+    {
+      "id": "limtochess_confirm_ego_replace_desc",
+      "content": "{0}の{1}スロットには既に「{2}」（{3}段階）が装着されています。\n「{4}」（{5}段階）で上書きしますか？\nキャンセルすると新しいE.G.Oは破棄されます。"
+    },
+    {
+      "id": "limtochess_elite_disabled_swap",
+      "content": "交換できる人格がいません。"
+    },
+    {
+      "id": "limtochess_elite_disabled_keyword",
+      "content": "選択できる人格がいません。"
+    },
+    {
+      "id": "limtochess_elite_disabled_growth",
+      "content": "欠片を受け取れる囚人がいません。"
+    },
+    {
+      "id": "limtochess_elite_head_swap",
+      "content": "人格交換"
+    },
+    {
+      "id": "limtochess_elite_head_recruit",
+      "content": "人格編成"
+    },
+    {
+      "id": "limtochess_elite_head_growth",
+      "content": "成長"
+    },
+    {
+      "id": "limtochess_elite_growth_target",
+      "content": "戦闘編成内の囚人1名に欠片{0}個を付与"
+    },
+    {
+      "id": "limtochess_elite_base_ego_equipped",
+      "content": "囚人の基本E.G.Oを装着中"
+    },
+    {
+      "id": "limtochess_elite_roster_full_head",
+      "content": "編成上限に到達"
+    },
+    {
+      "id": "limtochess_elite_roster_full_desc",
+      "content": "選択すると、既存の人格{0}名を除外します"
+    },
+    {
+      "id": "limtochess_elite_skip_desc",
+      "content": "精鋭報酬を受け取らずに\n進みます。"
+    },
+    {
+      "id": "limtochess_start_title_direct",
+      "content": "初期編成"
+    },
+    {
+      "id": "limtochess_start_title_auto",
+      "content": "初期編成"
+    },
+    {
+      "id": "limtochess_start_toggle_direct",
+      "content": "手動編成"
+    },
+    {
+      "id": "limtochess_start_toggle_auto",
+      "content": "自動編成"
+    },
+    {
+      "id": "limtochess_start_count",
+      "content": "{0}/{1}"
+    },
+    {
+      "id": "limtochess_start_remaining_cost",
+      "content": "残りコスト"
+    },
+    {
+      "id": "limtochess_start_clear_all",
+      "content": "編成を一括解除"
+    },
+    {
+      "id": "limtochess_start_empty_slot",
+      "content": "編成可能"
+    },
+    {
+      "id": "limtochess_start_empty",
+      "content": "編成解除"
+    },
+    {
+      "id": "limtochess_start_locked_band",
+      "content": "編成不可"
+    },
+    {
+      "id": "limtochess_start_locked_list",
+      "content": "※ 自動編成中はリストを変更できません。"
+    },
+    {
+      "id": "limtochess_start_block_budget",
+      "content": "コスト不足"
+    },
+    {
+      "id": "limtochess_start_block_topcost",
+      "content": "{0}コスト制限"
+    },
+    {
+      "id": "limtochess_start_block_full",
+      "content": "人数超過"
+    },
+    {
+      "id": "limtochess_start_block_auto",
+      "content": "自動編成中"
+    },
+    {
+      "id": "limtochess_start_desc_auto",
+      "content": "※ 自動編成時、パス経験値を追加で獲得"
+    },
+    {
+      "id": "limtochess_start_desc_topcost",
+      "content": ""
+    },
+    {
+      "id": "limtochess_start_start",
+      "content": "開始"
+    },
+    {
+      "id": "limtochess_start_saved_deck",
+      "content": "自動編成一覧"
+    },
+    {
+      "id": "limtochess_start_reroll",
+      "content": "自動編成更新"
+    },
+    {
+      "id": "limtochess_start_rolls_left",
+      "content": "残りロール回数"
+    },
+    {
+      "id": "limtochess_start_rolls_bonus",
+      "content": "・前回のプレイの進行ボーナスにより、自動編成更新回数 +{0}"
+    },
+    {
+      "id": "limtochess_start_reroll_help",
+      "content": "（ダミー）自動編成を更新します。\n\n・毎日<color=#5f77fa>{0}回</color>分が付与され、日付が変わると補充されます。\n・プレイ終了時（クリア・敗北・ギブアップを問わず）、倒したスキーマボスの数に応じて、次のプレイで使える<color=#f8c200>更新ボーナス</color>を獲得します。前回のボーナスには加算されず、その都度決まります。\n{1}\n・ボーナスは毎日付与される回数より先に消費され、日付が変わっても失われません。\n・毎日付与される回数の残りとボーナスを合わせて、最大{2}回まで使用できます。\n\n現在のボーナス：<color=#f8c200>{3}</color>"
+    },
+    {
+      "id": "limtochess_start_reroll_help_tier",
+      "content": "    - スキーマボスの撃破数 {0}：<color=#f8c200>+{1}</color>"
+    },
+    {
+      "id": "limtochess_start_reroll_help_single",
+      "content": "{0}回"
+    },
+    {
+      "id": "limtochess_start_reroll_help_range",
+      "content": "{0}～{1}回"
+    },
+    {
+      "id": "limtochess_start_reroll_help_open",
+      "content": "{0}回以上"
+    },
+    {
+      "id": "limtochess_packselect_deck_tag_more",
+      "content": "…"
+    },
+    {
+      "id": "limtochess_confirm_underfilled_desc",
+      "content": "編成可能な人数に達していません。（{0}/{1}名）"
+    },
+    {
+      "id": "limtochess_confirm_underfilled_proceed",
+      "content": "このまま進みますか？"
+    },
+    {
+      "id": "limtochess_map_roster_standby",
+      "content": "待機"
+    },
+    {
+      "id": "limtochess_map_extra_move_steps",
+      "content": "追加ロール"
+    },
+    {
+      "id": "limtochess_map_extra_roll_warning",
+      "content": "上限を超えてロールすると、スキーマ歪曲"
+    },
+    {
+      "id": "limtochess_map_unreachable_room",
+      "content": "現在はこの表象に移動できません。"
+    },
+    {
+      "id": "limtochess_map_legend_title",
+      "content": "凡例"
+    },
+    {
+      "id": "limtochess_map_legend_normal",
+      "content": "一般戦闘"
+    },
+    {
+      "id": "limtochess_map_legend_elite",
+      "content": "精鋭戦闘"
+    },
+    {
+      "id": "limtochess_map_legend_boss",
+      "content": "ボス戦闘"
+    },
+    {
+      "id": "limtochess_map_legend_rest",
+      "content": "休息"
+    },
+    {
+      "id": "limtochess_map_legend_temptation",
+      "content": "誘惑"
+    },
+    {
+      "id": "limtochess_map_section",
+      "content": "第{0}スキーマ"
+    },
+    {
+      "id": "limtochess_roll_penalty_title",
+      "content": "スキーマ歪曲"
+    },
+    {
+      "id": "limtochess_roll_penalty_count",
+      "content": "スキーマ歪曲 {0}個"
+    },
+    {
+      "id": "limtochess_roll_penalty_next",
+      "content": "ランダムな歪曲1個（候補：{0}）"
+    },
+    {
+      "id": "limtochess_roll_penalty_next_short",
+      "content": "+1"
+    },
+    {
+      "id": "limtochess_roll_penalty_level",
+      "content": "敵レベル +{0}"
+    },
+    {
+      "id": "limtochess_roll_penalty_clash_power",
+      "content": "マッチ威力 +{0}"
+    },
+    {
+      "id": "limtochess_roll_penalty_final_power",
+      "content": "最終威力 +{0}"
+    },
+    {
+      "id": "limtochess_roll_penalty_damage",
+      "content": "与ダメージ量 +{0}%"
+    },
+    {
+      "id": "limtochess_roll_penalty_max_hp",
+      "content": "体力最大値 +{0}%"
+    },
+    {
+      "id": "limtochess_roll_penalty_boss_max_hp",
+      "content": "ボス戦闘での体力最大値 +{0}%"
+    },
+    {
+      "id": "limtochess_roll_penalty_level_name",
+      "content": "敵レベル"
+    },
+    {
+      "id": "limtochess_roll_penalty_clash_power_name",
+      "content": "マッチ威力"
+    },
+    {
+      "id": "limtochess_roll_penalty_final_power_name",
+      "content": "最終威力"
+    },
+    {
+      "id": "limtochess_roll_penalty_damage_name",
+      "content": "与ダメージ量"
+    },
+    {
+      "id": "limtochess_roll_penalty_max_hp_name",
+      "content": "体力最大値"
+    },
+    {
+      "id": "limtochess_roll_penalty_boss_max_hp_name",
+      "content": "ボス戦闘での体力最大値"
+    },
+    {
+      "id": "limtochess_map_setting_title",
+      "content": "設定"
+    },
+    {
+      "id": "limtochess_map_setting_leave",
+      "content": "一時退出"
+    },
+    {
+      "id": "limtochess_map_setting_abandon",
+      "content": "スキーマ構築をギブアップ"
+    },
+    {
+      "id": "limtochess_map_setting_close",
+      "content": "閉じる"
+    },
+    {
+      "id": "limtochess_map_setting_wait",
+      "content": "今は退出できません。しばらくしてからもう一度お試しください。"
+    },
+    {
+      "id": "limtochess_confirm_leave_title",
+      "content": "一時退出"
+    },
+    {
+      "id": "limtochess_confirm_leave_desc",
+      "content": "進行中のスキーマ構築をそのままにして、ロビーへ戻りますか？\n入場画面の「続きから」で戻ることができます。"
+    },
+    {
+      "id": "limtochess_confirm_abandon_title",
+      "content": "スキーマ構築をギブアップ"
+    },
+    {
+      "id": "limtochess_confirm_abandon_desc",
+      "content": "今回のスキーマ構築をギブアップしますか？\nここまでの進行度に応じた報酬を獲得して終了します。"
+    },
+    {
+      "id": "limtochess_report_title",
+      "content": "戦闘レポート"
+    },
+    {
+      "id": "limtochess_report_tab_hp",
+      "content": "陣営別体力"
+    },
+    {
+      "id": "limtochess_report_ally",
+      "content": "味方"
+    },
+    {
+      "id": "limtochess_report_enemy",
+      "content": "敵"
+    },
+    {
+      "id": "limtochess_report_legend_death",
+      "content": "死亡"
+    },
+    {
+      "id": "limtochess_report_legend_ego",
+      "content": "E.G.O使用"
+    },
+    {
+      "id": "limtochess_report_detail_ally_death",
+      "content": "味方死亡"
+    },
+    {
+      "id": "limtochess_report_detail_ego",
+      "content": "E.G.O使用"
+    },
+    {
+      "id": "limtochess_report_retry_title",
+      "content": "再戦"
+    },
+    {
+      "id": "limtochess_report_retry_desc",
+      "content": "すぐに同じ戦闘をやり直しますか？\nキャンセルするとスキーマに戻ります。この戦闘には再度入場できます。"
+    },
+    {
+      "id": "limtochess_report_retry_button",
+      "content": "再挑戦（残り<color=#6F87FF>{2}</color>回）"
+    },
+    {
+      "id": "limtochess_report_retry_button_unlimited",
+      "content": "再挑戦 <color=#6F87FF>{0}</color>"
+    },
+    {
+      "id": "limtochess_final_clear",
+      "content": "CLEAR"
+    },
+    {
+      "id": "limtochess_final_fail",
+      "content": "FAIL"
+    },
+    {
+      "id": "limtochess_report_defeat_title",
+      "content": "構築失敗"
+    },
+    {
+      "id": "limtochess_report_defeat_title_alt",
+      "content": "構築失敗"
+    },
+    {
+      "id": "limtochess_report_p0_line",
+      "content": "共通周期 {0}・マッチ {1}勝{2}敗・一方攻撃 味方 {3}/敵 {4}・精神力 {5}→{6}・死亡 {7}・守備 発動 {8}/条件達成 {9}/キュー不足 {10}"
+    },
+    {
+      "id": "limtochess_report_p0_death",
+      "content": "{0} ← {1}「{2}」"
+    },
+    {
+      "id": "limtochess_report_p0_death_more",
+      "content": "{0}ほか{1}名"
+    },
+    {
+      "id": "limtochess_report_p0_death_noskill",
+      "content": "{0} ← {1}"
+    },
+    {
+      "id": "limtochess_final_stage",
+      "content": "{0}/{1}"
+    },
+    {
+      "id": "limtochess_final_time",
+      "content": "合計所要時間 {0}"
+    },
+    {
+      "id": "limtochess_final_count",
+      "content": "{0}<color=#a16a3b>/{1}</color>"
+    },
+    {
+      "id": "limtochess_final_complete",
+      "content": "完成"
+    },
+    {
+      "id": "limtochess_final_incomplete",
+      "content": "未完成"
+    },
+    {
+      "id": "limtochess_final_gift_enhance",
+      "content": "{0} +{1}"
+    },
+    {
+      "id": "limtochess_final_empty",
+      "content": "-"
+    },
+    {
+      "id": "limtochess_final_completion",
+      "content": "完成判定"
+    },
+    {
+      "id": "limtochess_final_ego",
+      "content": "E.G.O"
+    },
+    {
+      "id": "limtochess_rest_mp_title",
+      "content": "精神力 +{0}"
+    },
+    {
+      "id": "limtochess_rest_mp_desc",
+      "content": "現在の平均 {0} → {1}"
+    },
+    {
+      "id": "limtochess_rest_reroll_title",
+      "content": "更新回数 +{0}"
+    },
+    {
+      "id": "limtochess_rest_reroll_desc",
+      "content": "パック・人格・E.G.Oの交換に使用できます。"
+    },
+    {
+      "id": "limtochess_rest_syncup_title",
+      "content": "人格1名の同期化 +{0}段階"
+    },
+    {
+      "id": "limtochess_rest_syncup_desc",
+      "content": "戦闘編成から同期化{0}段階以下の人格1名を選択します。"
+    },
+    {
+      "id": "limtochess_rest_syncup_disabled",
+      "content": "同期化段階を上げられる人格がいません。"
+    },
+    {
+      "id": "limtochess_rest_syncup_unowned_cap",
+      "content": "アカウントで所持していない人格は、同期化段階が最大{0}段階までに制限されます。"
+    },
+    {
+      "id": "limtochess_rest_freeroll_title",
+      "content": "追加ロール +{0}"
+    },
+    {
+      "id": "limtochess_rest_freeroll_carry",
+      "content": "未使用の追加ロールは次のスキーマに持ち越されます。"
+    },
+    {
+      "id": "limtochess_rest_generic_label",
+      "content": "汎用欠片"
+    },
+    {
+      "id": "limtochess_rest_generic_use",
+      "content": "汎用欠片を使用"
+    },
+    {
+      "id": "limtochess_rest_generic_desc",
+      "content": "汎用欠片で同期化{1}段階以下の人格を同期化できます。\n※ 必要な汎用欠片（同期化1/2/3段階）：4/6/6個\n※ 保有する人格の欠片1個につき、必要な汎用欠片が2個ずつ減少します。"
+    },
+    {
+      "id": "limtochess_rest_generic_none",
+      "content": "汎用欠片で同期化できる人格がいません。（同期化{0}段階以下の人格のみ可能）"
+    },
+    {
+      "id": "limtochess_rest_generic_confirm",
+      "content": "汎用欠片を使用しますか？"
+    },
+    {
+      "id": "limtochess_rest_growth_title",
+      "content": "休息：成長"
+    },
+    {
+      "id": "limtochess_rest_generic_title",
+      "content": "汎用欠片を使用"
+    },
+    {
+      "id": "limtochess_rest_empty",
+      "content": "空き"
+    },
+    {
+      "id": "limtochess_bossreward_empty_slot",
+      "content": "空き"
+    },
+    {
+      "id": "limtochess_rest_sync_change",
+      "content": "同期化{0}段階 → 同期化{1}段階"
+    },
+    {
+      "id": "limtochess_rest_sync_cap",
+      "content": "同期化上限：{0}段階"
+    },
+    {
+      "id": "limtochess_rest_generic_need",
+      "content": "汎用欠片{0}個が必要"
+    },
+    {
+      "id": "limtochess_rest_not_target",
+      "content": "対象外"
+    },
+    {
+      "id": "limtochess_rest_select",
+      "content": "選択"
+    },
+    {
+      "id": "limtochess_current_deck",
+      "content": "編成確認"
+    },
+    {
+      "id": "limtochess_current_deck_sync",
+      "content": "同期化{0}段階"
+    },
+    {
+      "id": "limtochess_giftstatus_title",
+      "content": "E.G.Oギフトの所持状況"
+    },
+    {
+      "id": "limtochess_tempt_title_original",
+      "content": "誘惑"
+    },
+    {
+      "id": "limtochess_tempt_original_title",
+      "content": "同期化{0}段階の人格+E.G.O"
+    },
+    {
+      "id": "limtochess_tempt_recruit",
+      "content": "{0}を編成"
+    },
+    {
+      "id": "limtochess_tempt_replace",
+      "content": "{0}を交換"
+    },
+    {
+      "id": "limtochess_tempt_replace_before",
+      "content": "現在の人格：{0} 同期化{1}段階"
+    },
+    {
+      "id": "limtochess_tempt_ego_equip",
+      "content": "{0} {1}（{2}段階）を装着"
+    },
+    {
+      "id": "limtochess_tempt_ego_no_slot",
+      "content": "装着できる空きE.G.Oスロットがないため、E.G.Oを受け取れません。"
+    },
+    {
+      "id": "limtochess_tempt_ego_none",
+      "content": "受取可能なE.G.Oがないため、E.G.Oを受け取れません。"
+    },
+    {
+      "id": "limtochess_tempt_skip_title",
+      "content": "受け取らない"
+    },
+    {
+      "id": "limtochess_tempt_skip_desc",
+      "content": "現在の戦闘編成を維持します。"
+    },
+    {
+      "id": "limtochess_tempt_roll_cost",
+      "content": "サイコロのロール回数を{1}回消費"
+    },
+    {
+      "id": "limtochess_tempt_roll_free",
+      "content": "サイコロのロール回数を消費しない"
+    },
+    {
+      "id": "limtochess_tempt_roll_penalty",
+      "content": "残りロール回数が不足しているため、スキーマ歪曲 +{0}"
+    },
+    {
+      "id": "limtochess_tempt_before_label",
+      "content": "現在の人格"
+    },
+    {
+      "id": "limtochess_tempt_before_sync",
+      "content": "同期化"
+    },
+    {
+      "id": "limtochess_battleprep_level_label",
+      "content": "現在の人格レベル"
+    },
+    {
+      "id": "limtochess_briefing_threat_title",
+      "content": "脅威ランク"
+    },
+    {
+      "id": "limtochess_briefing_threat_reason",
+      "content": "レベル差 {0}"
+    },
+    {
+      "id": "limtochess_briefing_threat_reason_script",
+      "content": "レベル差 {0}・{2}"
+    },
+    {
+      "id": "limtochess_briefing_threat_script_1",
+      "content": "精鋭 +1"
+    },
+    {
+      "id": "limtochess_briefing_threat_script_2",
+      "content": "ボス +2"
+    },
+    {
+      "id": "limtochess_briefing_weak_label",
+      "content": "弱点"
+    },
+    {
+      "id": "limtochess_briefing_weak_none",
+      "content": "弱点なし"
+    },
+    {
+      "id": "limtochess_briefing_egores_title",
+      "content": "獲得資源"
+    },
+    {
+      "id": "limtochess_briefing_egores_demand",
+      "content": "必要資源"
+    },
+    {
+      "id": "limtochess_briefing_appear",
+      "content": "名出現"
+    },
+    {
+      "id": "limtochess_briefing_reinforce",
+      "content": "戦闘中に敵{0}名が追加で出現"
+    },
+    {
+      "id": "limtochess_briefing_refill_card",
+      "content": "増援{0}名"
+    },
+    {
+      "id": "limtochess_packselect_screen_title",
+      "content": "戦闘報酬：パック選択"
+    },
+    {
+      "id": "limtochess_elite_screen_title",
+      "content": "精鋭報酬：選択"
+    },
+    {
+      "id": "limtochess_bossreward_screen_title",
+      "content": "スキーマクリア報酬"
+    },
+    {
+      "id": "limtochess_bossreward_gift_rule",
+      "content": "1枠は戦闘編成のキーワードから、残りの3枠はランダムに決まります。"
+    },
+    {
+      "id": "limtochess_bossreward_gift_rule_pair",
+      "content": "戦闘編成のキーワード1枠・所持ギフトと対になるギフト1枠・ランダム2枠"
+    },
+    {
+      "id": "limtochess_bossreward_gift_skip_full",
+      "content": "ギフトを{0}個所持"
+    },
+    {
+      "id": "limtochess_bossreward_gift_skip_none",
+      "content": "選択可能なギフトなし"
+    },
+    {
+      "id": "limtochess_bossreward_progress",
+      "content": "完成：同期化4段階 {0}/{1}名・E.G.O条件 {2}/{1}名"
+    },
+    {
+      "id": "limtochess_bossreward_gift_enhance_title",
+      "content": "ギフト強化 +1"
+    },
+    {
+      "id": "limtochess_bossreward_gift_enhance_desc",
+      "content": "選択すると、所持しているギフトのうち1個が強化されます。"
+    },
+    {
+      "id": "limtochess_bossreward_gift_enhance_twice_title",
+      "content": "ギフト強化 +1（{0}回）"
+    },
+    {
+      "id": "limtochess_bossreward_gift_enhance_twice_desc",
+      "content": "選択すると、所持しているギフトを{0}回選んで強化します。"
+    },
+    {
+      "id": "limtochess_bossreward_gift_enhance_disabled",
+      "content": "強化できるギフトがありません。"
+    },
+    {
+      "id": "limtochess_bossreward_reroll_title",
+      "content": "更新回数 +{0}"
+    },
+    {
+      "id": "limtochess_bossreward_reroll_desc",
+      "content": "更新回数を{0}回獲得します。"
+    },
+    {
+      "id": "limtochess_bossreward_sync_under_title",
+      "content": "同期化{0}段階以下の人格1名の同期化段階 +{1}"
+    },
+    {
+      "id": "limtochess_bossreward_sync_plus_title",
+      "content": "同期化{0}段階以下の人格1名の同期化段階 +{1}"
+    },
+    {
+      "id": "limtochess_bossreward_sync_desc",
+      "content": "条件を満たす人格{0}名のうち、1名を選びます。"
+    },
+    {
+      "id": "limtochess_bossreward_sync_disabled",
+      "content": "同期化段階を上げられる人格がいません。"
+    },
+    {
+      "id": "limtochess_bossreward_generic_title",
+      "content": "汎用欠片 +{0}"
+    },
+    {
+      "id": "limtochess_bossreward_generic_desc",
+      "content": "汎用欠片を{0}個獲得します。休息で他の人格の同期化段階を上げる際に使用します。"
+    },
+    {
+      "id": "limtochess_bossreward_gift_pick",
+      "content": "スキーマクリア報酬：ギフト強化"
+    },
+    {
+      "id": "limtochess_bossreward_gift_pick_count",
+      "content": "スキーマクリア報酬：ギフト強化（{0}/{1}）"
+    },
+    {
+      "id": "limtochess_bossreward_enhance_change",
+      "content": "強化 {0} → {1}"
+    },
+    {
+      "id": "limtochess_bossreward_enhance_max",
+      "content": "最大まで強化済み"
+    },
+    {
+      "id": "limtochess_bossreward_sync_pick",
+      "content": "スキーマクリア報酬：成長"
+    },
+    {
+      "id": "limtochess_bossreward_enhance_none",
+      "content": "強化不可"
+    },
+    {
+      "id": "limtochess_bossreward_pack_random",
+      "content": "＋ランダムなパック1個（{0}ランク）"
+    },
+    {
+      "id": "limtochess_bossreward_pack_sinner",
+      "content": "＋選択した囚人のパック1個（{0}ランク）"
+    },
+    {
+      "id": "limtochess_bossreward_pack_sinner_pick",
+      "content": "スキーマクリア報酬：囚人パック"
+    },
+    {
+      "id": "limtochess_bossreward_pack_sinner_change",
+      "content": "{0}ランクの囚人パック"
+    },
+    {
+      "id": "limtochess_bossreward_pack_sinner_not_joined",
+      "content": "未編成 ― 人格カードで加入"
+    },
+    {
+      "id": "limtochess_gauge_cycle",
+      "content": "TURN {0}"
+    },
+    {
+      "id": "limtochess_unitstatus_break",
+      "content": "混乱"
+    },
+    {
+      "id": "limtochess_unitstatus_panic",
+      "content": "パニック"
+    },
+    {
+      "id": "limtochess_unitstatus_erode",
+      "content": "侵蝕"
+    },
+    {
+      "id": "limtochess_skillart_awaken",
+      "content": "覚醒"
+    },
+    {
+      "id": "limtochess_skillart_erosion",
+      "content": "侵蝕"
+    },
+    {
+      "id": "limtochess_unitstatus_lowmorale",
+      "content": "動揺"
+    },
+    {
+      "id": "limtochess_egobar_auto_target",
+      "content": "自動ターゲット"
+    },
+    {
+      "id": "limtochess_egobar_waiting",
+      "content": "発動待機"
+    },
+    {
+      "id": "limtochess_egobar_waiting_target",
+      "content": "発動待機 → {0}"
+    },
+    {
+      "id": "limtochess_egobar_lethal",
+      "content": "死亡直前"
+    },
+    {
+      "id": "limtochess_egobar_aimed",
+      "content": "ターゲット先 {0}"
+    },
+    {
+      "id": "limtochess_egobar_retreat",
+      "content": "退却中"
+    },
+    {
+      "id": "limtochess_egobar_block_defect",
+      "content": "欠陥"
+    },
+    {
+      "id": "limtochess_egobar_block_inactionable",
+      "content": "行動不能"
+    },
+    {
+      "id": "limtochess_egobar_block_resource",
+      "content": "資源不足"
+    },
+    {
+      "id": "limtochess_egobar_block_unusable",
+      "content": "使用不可"
+    },
+    {
+      "id": "limtochess_egobar_onesided",
+      "content": "一方攻撃"
+    },
+    {
+      "id": "limtochess_egobar_resonance",
+      "content": "共鳴"
+    },
+    {
+      "id": "limtochess_egobar_notice_lack",
+      "content": "資源不足 ― あと{0}必要"
+    },
+    {
+      "id": "limtochess_egobar_notice_no_overclock",
+      "content": "オーバークロック不可 ― 侵蝕スキルなし"
+    },
+    {
+      "id": "limtochess_roominfo_pack_label",
+      "content": "{0}ランク {1}"
+    },
+    {
+      "id": "limtochess_battle_pause",
+      "content": "一時停止"
+    },
+    {
+      "id": "limtochess_battle_resume",
+      "content": "再開"
+    },
+    {
+      "id": "limtochess_battle_speed",
+      "content": "{0}倍速"
+    },
+    {
+      "id": "limtochess_battle_resume_hint",
+      "content": "[再開]を押して続ける"
+    },
+    {
+      "id": "limtochess_battle_resume_hint_key",
+      "content": "[再開]を押して続ける"
+    },
+    {
+      "id": "limtochess_battle_tail_speed",
+      "content": "後半の戦闘速度：{0}倍"
+    },
+    {
+      "id": "limtochess_battle_toggle_damage",
+      "content": "ダメージ数値"
+    },
+    {
+      "id": "limtochess_battle_toggle_hitfx",
+      "content": "ヒット演出"
+    },
+    {
+      "id": "limtochess_battle_toggle_ally_cards",
+      "content": "味方カード"
+    },
+    {
+      "id": "limtochess_battle_toggle_enemy_cards",
+      "content": "敵カード"
+    },
+    {
+      "id": "limtochess_battle_stage",
+      "content": "第{0}スキーマ ステージ{1}"
+    },
+    {
+      "id": "limtochess_battle_turn",
+      "content": "共通ターン {0}"
+    },
+    {
+      "id": "limtochess_report_seconds",
+      "content": "{0}秒"
+    },
+    {
+      "id": "limtochess_report_time",
+      "content": "所要時間"
+    },
+    {
+      "id": "limtochess_roominfo_enemy_avg_level",
+      "content": "敵の平均レベル"
+    },
+    {
+      "id": "limtochess_gauge_skill_tier",
+      "content": "スキル{0}"
+    },
+    {
+      "id": "limtochess_gauge_clash",
+      "content": "マッチ進行中"
+    },
+    {
+      "id": "limtochess_gauge_onesided",
+      "content": "一方攻撃"
+    },
+    {
+      "id": "limtochess_battle_retry_used_up",
+      "content": "最後の再挑戦です ― 敗北するとスキーマ構築が終了します"
+    },
+    {
+      "id": "limtochess_battle_retry_count",
+      "content": "再挑戦 {0}回使用（残り{2}回）"
+    },
+    {
+      "id": "limtochess_battle_retry_count_unlimited",
+      "content": "再挑戦 {0}回使用（無制限）"
+    },
+    {
+      "id": "limtochess_battle_retry_confirm_title",
+      "content": "戦闘リトライ"
+    },
+    {
+      "id": "limtochess_battle_retry_confirm_desc",
+      "content": "やり直すと、再挑戦回数を1回消費します（残り{2}回）。\nやり直しますか？"
+    },
+    {
+      "id": "limtochess_battle_giveup_confirm_title",
+      "content": "戦闘をギブアップ"
+    },
+    {
+      "id": "limtochess_battle_giveup_confirm_desc",
+      "content": "ギブアップすると、再挑戦回数を1回消費します（残り{2}回）。\nスキーマに戻り、この戦闘には再度入場できます。ギブアップしますか？"
+    },
+    {
+      "id": "limtochess_battle_giveup_confirm_desc_last",
+      "content": "再挑戦回数を全て消費しました。\nギブアップすると、今回のスキーマ構築が終了します。ギブアップしますか？"
+    },
+    {
+      "id": "limtochess_room_info_elite_fx",
+      "content": "精鋭効果"
+    },
+    {
+      "id": "limtochess_elite_fx_brawler",
+      "content": "喧嘩屋"
+    },
+    {
+      "id": "limtochess_elite_fx_brawler_desc",
+      "content": "全ての敵のマッチ威力 +{0}"
+    },
+    {
+      "id": "limtochess_elite_fx_footwork",
+      "content": "足さばき"
+    },
+    {
+      "id": "limtochess_elite_fx_footwork_desc",
+      "content": "全ての敵の速度の最小値・最大値 +{0}"
+    },
+    {
+      "id": "limtochess_elite_fx_weapon",
+      "content": "得物"
+    },
+    {
+      "id": "limtochess_elite_fx_weapon_desc",
+      "content": "全ての敵の与ダメージ量 +{0}%"
+    },
+    {
+      "id": "limtochess_elite_fx_firststrike",
+      "content": "先制攻撃"
+    },
+    {
+      "id": "limtochess_elite_fx_firststrike_desc",
+      "content": "戦場に出現した敵の与ダメージ量が{0}ターンの間 +{1}%"
+    },
+    {
+      "id": "limtochess_elite_fx_tough",
+      "content": "打たれ強さ"
+    },
+    {
+      "id": "limtochess_elite_fx_tough_desc",
+      "content": "全ての敵の体力最大値 +{0}%"
+    },
+    {
+      "id": "limtochess_elite_fx_struggle",
+      "content": "悪あがき"
+    },
+    {
+      "id": "limtochess_elite_fx_struggle_desc",
+      "content": "ターン開始時、体力が50%以下の敵がダメージ量増加{0}、クイック{1}を得る"
+    },
+    {
+      "id": "limtochess_elite_fx_boss",
+      "content": "親分"
+    },
+    {
+      "id": "limtochess_elite_fx_boss_desc",
+      "content": "ステージ開始時、体力最大値が最も高い敵1名の体力最大値 +{0}%、与ダメージ量 +{1}%"
+    },
+    {
+      "id": "limtochess_elite_fx_brawl",
+      "content": "泥仕合"
+    },
+    {
+      "id": "limtochess_elite_fx_brawl_desc",
+      "content": "敵の与ダメージ量 +{0}%、被ダメージ量 +{1}%"
+    },
+    {
+      "id": "limtochess_elite_fx_loyalty",
+      "content": "義理"
+    },
+    {
+      "id": "limtochess_elite_fx_loyalty_desc",
+      "content": "敵が死亡したとき、戦場にいる他の敵全員の攻撃レベルが次のターンに +{0}"
+    },
+    {
+      "id": "limtochess_elite_fx_interest",
+      "content": "利子"
+    },
+    {
+      "id": "limtochess_elite_fx_interest_desc",
+      "content": "全ての敵の攻撃レベル +{0}。ターンが経過するたびにさらに +{1}（合計で最大 +{2}）"
+    },
+    {
+      "id": "limtochess_elite_fx_companion",
+      "content": "道連れ"
+    },
+    {
+      "id": "limtochess_elite_fx_companion_desc",
+      "content": "敵はスキルによる被ダメージ量 +{0}%。その代わり、受けた最終ダメージ量の{1}%を攻撃した囚人に返す"
+    },
+    {
+      "id": "limtochess_elite_fx_intimidate",
+      "content": "威圧"
+    },
+    {
+      "id": "limtochess_elite_fx_intimidate_desc",
+      "content": "囚人がマッチ敗北時、または他の囚人の死亡時に失う精神力が{0}倍になる"
+    },
+    {
+      "id": "limtochess_elite_fx_backer",
+      "content": "後ろ盾"
+    },
+    {
+      "id": "limtochess_elite_fx_backer_desc",
+      "content": "待機中の敵が戦場に出るたびに、精神力を持つ全ての敵の精神力 +{0}。次のターンにクイック{1}・加算コイン強化{2}を得る"
+    },
+    {
+      "id": "limtochess_event_deck_title",
+      "content": "選択肢 {0}"
+    },
+    {
+      "id": "limtochess_event_deck_text",
+      "content": "デッキを整える機会だ。選んだ枠の代償は、今回のプレイが終わるまで全ての敵に適用される。"
+    },
+    {
+      "id": "limtochess_event_boss_title",
+      "content": "ボス選択肢 {0}"
+    },
+    {
+      "id": "limtochess_event_boss_text",
+      "content": "今回のプレイの最終ボスを決める。代償はない。"
+    },
+    {
+      "id": "limtochess_event_effect_none",
+      "content": "効果なし"
+    },
+    {
+      "id": "limtochess_event_effect_reroll_segment",
+      "content": "今回のスキーマの更新回数 +{0}"
+    },
+    {
+      "id": "limtochess_event_effect_reroll_carry",
+      "content": "更新回数 +{0}（次のスキーマに持ち越し）"
+    },
+    {
+      "id": "limtochess_event_effect_sync_pick",
+      "content": "選択した人格{0}名の同期化 +1段階"
+    },
+    {
+      "id": "limtochess_event_effect_sync_pick_set",
+      "content": "選択した人格{0}名の同期化段階を{1}に変更"
+    },
+    {
+      "id": "limtochess_event_effect_sync_random",
+      "content": "ランダムな人格{0}名の同期化 +1段階"
+    },
+    {
+      "id": "limtochess_event_effect_recruit_pick",
+      "content": "未編成の囚人1名が加入\n同期化{1}段階"
+    },
+    {
+      "id": "limtochess_event_effect_pack_random",
+      "content": "ランダムなパックを獲得"
+    },
+    {
+      "id": "limtochess_event_effect_pack_keyword",
+      "content": "選択したキーワードのパックを獲得"
+    },
+    {
+      "id": "limtochess_event_effect_pack_random_grade",
+      "content": "ランダムな{0}ランクのパックを獲得"
+    },
+    {
+      "id": "limtochess_event_effect_pack_keyword_grade",
+      "content": "選択したキーワードの{0}ランクのパックを獲得"
+    },
+    {
+      "id": "limtochess_event_effect_ego_pick",
+      "content": "編成中の囚人のE.G.Oを1個装着"
+    },
+    {
+      "id": "limtochess_event_effect_ego_keyword",
+      "content": "選択したキーワードのE.G.Oを1個装着"
+    },
+    {
+      "id": "limtochess_event_effect_reroll_to_generic",
+      "content": "残りの更新回数{0}回につき、汎用欠片1個に交換"
+    },
+    {
+      "id": "limtochess_event_effect_swap_affiliation_random",
+      "content": "ランダムな囚人{0}名を同じ所属の人格に交換"
+    },
+    {
+      "id": "limtochess_event_effect_swap_affiliation_pick",
+      "content": "囚人1名を同じ所属の人格に交換"
+    },
+    {
+      "id": "limtochess_event_effect_cost_up_tail",
+      "content": "\n{0}%の確率でコスト +1"
+    },
+    {
+      "id": "limtochess_event_effect_swap_pick",
+      "content": "編成中の囚人1名を別の人格に交換\n同期化段階を維持"
+    },
+    {
+      "id": "limtochess_event_effect_swap_all_cost_up",
+      "content": "編成中の全員をランダムな人格に交換\n同期化段階を維持・{0}%の確率でコスト +1"
+    },
+    {
+      "id": "limtochess_event_effect_swap_one_random",
+      "content": "ランダムな囚人1名をランダムな人格に交換\n同期化段階はランダム"
+    },
+    {
+      "id": "limtochess_event_effect_swap_one_cost_up",
+      "content": "ランダムな囚人1名をランダムな人格に交換\n同期化段階を維持・{0}%の確率でコスト +1"
+    },
+    {
+      "id": "limtochess_event_effect_pack_grade_open",
+      "content": "更新回数を{0}回消費・ランダムな{1}ランクのパックを獲得"
+    },
+    {
+      "id": "limtochess_event_effect_pack_sync_tail",
+      "content": "\n人格の同期化{0}段階"
+    },
+    {
+      "id": "limtochess_event_reroll_left",
+      "content": "残りの更新回数 {0}"
+    },
+    {
+      "id": "limtochess_event_effect_swap_cost_up_pick",
+      "content": "選択した囚人1名をコストが1高い人格に交換\n同期化段階を維持"
+    },
+    {
+      "id": "limtochess_event_effect_swap_cost_up_pick_multi",
+      "content": "選択した囚人{0}名をコストが1高い人格に交換\n同期化段階を維持"
+    },
+    {
+      "id": "limtochess_event_effect_swap_one_pick",
+      "content": "選択した囚人1名をランダムな人格に交換\n同期化段階を維持・コスト {0}"
+    },
+    {
+      "id": "limtochess_event_effect_final_boss",
+      "content": "最終ボス → {0}"
+    },
+    {
+      "id": "limtochess_event_effect_segment_boss",
+      "content": "第{0}スキーマボス → {1}"
+    },
+    {
+      "id": "limtochess_event_effect_segment_pool",
+      "content": "第{0}スキーマの戦闘に出現する敵が、{1}の敵に変わる"
+    },
+    {
+      "id": "limtochess_event_effect_stage_unlock",
+      "content": "ボス変更なし・ボス選択肢「{0}」が出現可能"
+    },
+    {
+      "id": "limtochess_event_effect_decline",
+      "content": "ボス変更なし"
+    },
+    {
+      "id": "limtochess_event_locked",
+      "content": "未解放 ― {0}の撃破が必要"
+    },
+    {
+      "id": "limtochess_event_hardship_hp",
+      "content": "全ての敵の体力 +{0}%"
+    },
+    {
+      "id": "limtochess_event_hardship_dmg",
+      "content": "全ての敵の与ダメージ量 +{0}%"
+    },
+    {
+      "id": "limtochess_event_hardship_none",
+      "content": "苦難なし"
+    },
+    {
+      "id": "limtochess_event_pick_cost_up_sinner",
+      "content": "コストが1高い人格に交換する囚人を選択してください。"
+    },
+    {
+      "id": "limtochess_event_pick_swap_one_sinner",
+      "content": "ランダムな人格に交換する囚人を選択してください。"
+    },
+    {
+      "id": "limtochess_event_pick_sinner",
+      "content": "同期化段階を上げる人格を選択してください。"
+    },
+    {
+      "id": "limtochess_event_pick_personality",
+      "content": "加入させる人格を選択してください。"
+    },
+    {
+      "id": "limtochess_event_pick_ego",
+      "content": "装着するE.G.Oを選択してください。"
+    },
+    {
+      "id": "limtochess_event_pick_keyword",
+      "content": "受け取るパックのキーワードを選択してください。"
+    },
+    {
+      "id": "limtochess_event_boss_name_jun",
+      "content": "黒雲会副組長 ジュン"
+    },
+    {
+      "id": "limtochess_event_boss_name_ricardo",
+      "content": "リカルド"
+    },
+    {
+      "id": "limtochess_event_boss_name_cleaners",
+      "content": "都市の掃除屋"
+    },
+    {
+      "id": "limtochess_event_boss_name_alley",
+      "content": "路地の番犬・フォーレグ"
+    },
+    {
+      "id": "limtochess_event_boss_name_blackcloud",
+      "content": "黒雲会"
+    },
+    {
+      "id": "limtochess_event_skip_text",
+      "content": "ランダムなペナルティ1つ（精神力・欠片・体力・攻撃レベル・マッチ威力の減少）"
+    },
+    {
+      "id": "limtochess_event_skip_short",
+      "content": "受け取らない"
+    },
+    {
+      "id": "limtochess_event_skip_text_reserve_roll",
+      "content": "ランダムなペナルティ1つ（精神力・欠片・体力・攻撃レベル・マッチ威力の減少）"
+    },
+    {
+      "id": "limtochess_event_skip_short_reserve_roll",
+      "content": "受け取らない・追加ロール +{0}"
+    },
+    {
+      "id": "limtochess_event_penalty_none",
+      "content": "ペナルティなし"
+    },
+    {
+      "id": "limtochess_event_penalty_mentalall",
+      "content": "編成中の囚人全員の精神力 −{0}"
+    },
+    {
+      "id": "limtochess_event_penalty_mentalrandom",
+      "content": "ランダムな囚人{0}名の精神力 −{1}"
+    },
+    {
+      "id": "limtochess_event_penalty_fragmentsinner",
+      "content": "囚人{0}の同期化用の欠片が0個になる"
+    },
+    {
+      "id": "limtochess_event_penalty_fragmentgeneric",
+      "content": "汎用欠片を{0}個失う"
+    },
+    {
+      "id": "limtochess_event_penalty_fragment_random",
+      "content": "ランダムな1名"
+    },
+    {
+      "id": "limtochess_event_penalty_hpall",
+      "content": "ステージ開始時、出撃する味方全員の体力が体力最大値の{0}%分減少"
+    },
+    {
+      "id": "limtochess_event_penalty_hprandom",
+      "content": "ステージ開始時、出撃する味方のうちランダムな{0}名の体力が体力最大値の{1}%分減少"
+    },
+    {
+      "id": "limtochess_event_penalty_attackdownall",
+      "content": "ステージ開始時、出撃する味方全員に攻撃レベル減少{0}"
+    },
+    {
+      "id": "limtochess_event_penalty_attackdownrandom",
+      "content": "ステージ開始時、出撃する味方のうちランダムな{0}名に攻撃レベル減少{1}"
+    },
+    {
+      "id": "limtochess_event_penalty_clashdownall",
+      "content": "ステージ開始時、出撃する味方全員にマッチ威力減少{0}"
+    },
+    {
+      "id": "limtochess_event_penalty_clashdownrandom",
+      "content": "ステージ開始時、出撃する味方のうちランダムな{0}名にマッチ威力減少{1}"
+    },
+    {
+      "id": "limtochess_event_penalty_pending",
+      "content": "次の戦闘のペナルティ：{0}個"
+    },
+    {
+      "id": "limtochess_event_penalty_nextbattle",
+      "content": "次の戦闘1回のみ — {0}"
+    },
+    {
+      "id": "limtochess_event_penalty_immediate",
+      "content": "即時 — {0}"
+    },
+    {
+      "id": "limtochess_event_penalty_fragment_now",
+      "content": "(現在{0}個)"
+    },
+    {
+      "id": "limtochess_event_penalty_label",
+      "content": "ペナルティ"
+    },
+    {
+      "id": "limtochess_hud_hardship",
+      "content": "苦難：{0}"
+    },
+    {
+      "id": "limtochess_hud_segment_penalty",
+      "content": "スキーマ歪曲：{0}"
+    },
+    {
+      "id": "limtochess_hud_none",
+      "content": "なし"
+    },
+    {
+      "id": "limtochess_hud_hardship_hp",
+      "content": "敵の体力 {0}%"
+    },
+    {
+      "id": "limtochess_hud_hardship_dmg",
+      "content": "敵のダメージ量 {0}%"
+    },
+    {
+      "id": "limtochess_hud_hardship_atk",
+      "content": "攻撃レベル {0}"
+    },
+    {
+      "id": "limtochess_hud_hardship_def",
+      "content": "防御レベル {0}"
+    },
+    {
+      "id": "limtochess_hud_hardship_order",
+      "content": "選択した苦難：{0}"
+    },
+    {
+      "id": "limtochess_hud_penalty_order",
+      "content": "適用順：{0}"
+    },
+    {
+      "id": "limtochess_hud_penalty_target_all",
+      "content": "スキーマ歪曲は、このスキーマの全ての戦闘に適用されます。"
+    },
+    {
+      "id": "limtochess_hud_penalty_target_boss",
+      "content": "スキーマ歪曲は、このスキーマのボス戦闘に適用されます。"
+    },
+    {
+      "id": "limtochess_event_pick_swap",
+      "content": "交換で編成に加える人格を選択してください。(同期化段階を維持)"
+    },
+    {
+      "id": "limtochess_synergy_line",
+      "content": "シナジー：{0}"
+    },
+    {
+      "id": "limtochess_synergy_item",
+      "content": "{0}（デッキ内{1}名）"
+    },
+    {
+      "id": "limtochess_synergy_item_strength",
+      "content": "{0} {1}（デッキ内{2}名）"
+    },
+    {
+      "id": "limtochess_synergy_more",
+      "content": "+{0}"
+    },
+    {
+      "id": "limtochess_synergy_tag",
+      "content": "{0} {1}名"
+    },
+    {
+      "id": "limtochess_synergy_strength_1",
+      "content": "弱"
+    },
+    {
+      "id": "limtochess_synergy_strength_2",
+      "content": "中"
+    },
+    {
+      "id": "limtochess_synergy_strength_3",
+      "content": "強"
+    },
+    {
+      "id": "limtochess_synergy_set_full_stop_office",
+      "content": "終止符事務所"
+    },
+    {
+      "id": "limtochess_synergy_set_black_beast_hongyuan_lord",
+      "content": "黒獣 + 鴻園の君主 ホンル"
+    },
+    {
+      "id": "limtochess_synergy_set_black_beast_horse_family_ga",
+      "content": "黒獣 - 午 筆頭 イサン + 家主候補 イシュメール"
+    },
+    {
+      "id": "limtochess_synergy_set_blade_lineage",
+      "content": "剣契"
+    },
+    {
+      "id": "limtochess_synergy_set_blade_lineage_chakyeong_hwido",
+      "content": "剣契 + 着影揮刀"
+    },
+    {
+      "id": "limtochess_synergy_set_black_cloud",
+      "content": "黒雲会"
+    },
+    {
+      "id": "limtochess_synergy_set_wedge_office",
+      "content": "楔事務所"
+    },
+    {
+      "id": "limtochess_synergy_set_wedge_dawn_office",
+      "content": "楔事務所 + 夜明事務所"
+    },
+    {
+      "id": "limtochess_synergy_set_dawn_office",
+      "content": "夜明事務所"
+    },
+    {
+      "id": "limtochess_synergy_set_spider_house",
+      "content": "蜘蛛の巣"
+    },
+    {
+      "id": "limtochess_synergy_set_spider_house_thumb",
+      "content": "蜘蛛の巣の親指"
+    },
+    {
+      "id": "limtochess_synergy_set_spider_house_middle",
+      "content": "蜘蛛の巣の中指"
+    },
+    {
+      "id": "limtochess_synergy_set_spider_house_ring",
+      "content": "蜘蛛の巣の薬指"
+    },
+    {
+      "id": "limtochess_synergy_set_ring_finger",
+      "content": "薬指"
+    },
+    {
+      "id": "limtochess_synergy_set_ring_finger_fauvism",
+      "content": "薬指 野獣派"
+    },
+    {
+      "id": "limtochess_synergy_set_index_finger",
+      "content": "人差し指"
+    },
+    {
+      "id": "limtochess_synergy_set_thumb_finger",
+      "content": "親指"
+    },
+    {
+      "id": "limtochess_synergy_set_middle_finger",
+      "content": "中指"
+    },
+    {
+      "id": "limtochess_synergy_set_middle_finger_spider_house",
+      "content": "中指・蜘蛛の巣"
+    },
+    {
+      "id": "limtochess_synergy_set_le_rouge",
+      "content": "ル・ルージュ"
+    },
+    {
+      "id": "limtochess_synergy_set_le_noir",
+      "content": "ル・ノワール"
+    },
+    {
+      "id": "limtochess_synergy_set_la_mancha_land",
+      "content": "ラ・マンチャランド"
+    },
+    {
+      "id": "limtochess_synergy_set_la_mancha_land_mircalla",
+      "content": "ラ・マンチャランド + 渇望-ミルカラ"
+    },
+    {
+      "id": "limtochess_synergy_set_n_corp_ego",
+      "content": "N社E.G.O"
+    },
+    {
+      "id": "limtochess_synergy_set_n_corp_fanatic",
+      "content": "N社の狂信者"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_solemn_lament",
+      "content": "厳粛な哀悼"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_hyungtan",
+      "content": "凶弾"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_gyeongmyeol_gyeongoe",
+      "content": "軽蔑、畏敬"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_hongyeomsal",
+      "content": "紅炎殺"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_aedd",
+      "content": "AEDD"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_matan",
+      "content": "魔弾"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_love_and_hate",
+      "content": "愛と憎悪の名の下に"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_ohyeol_eupru",
+      "content": "汚血泣涙"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_samcheon_daesegye",
+      "content": "三千大世界"
+    },
+    {
+      "id": "limtochess_synergy_set_wuthering_heights",
+      "content": "ワザリング・ハイツ"
+    },
+    {
+      "id": "limtochess_synergy_set_t_corp",
+      "content": "T社"
+    },
+    {
+      "id": "limtochess_synergy_set_dieci",
+      "content": "ディエーチ協会"
+    },
+    {
+      "id": "limtochess_synergy_set_pequod",
+      "content": "ピークォド号"
+    },
+    {
+      "id": "limtochess_synergy_set_seven",
+      "content": "セブン協会"
+    },
+    {
+      "id": "limtochess_synergy_set_cinq",
+      "content": "センク協会"
+    },
+    {
+      "id": "limtochess_synergy_set_zwei",
+      "content": "ツヴァイ協会"
+    },
+    {
+      "id": "limtochess_synergy_set_liu",
+      "content": "リウ協会"
+    },
+    {
+      "id": "limtochess_synergy_set_w_corp",
+      "content": "W社"
+    },
+    {
+      "id": "limtochess_synergy_set_ego_equipment",
+      "content": "E.G.O装備"
+    },
+    {
+      "id": "limtochess_synergy_set_fixer",
+      "content": "フィクサー"
+    },
+    {
+      "id": "limtochess_synergy_set_backstreet_cook",
+      "content": "りょ・ミ・パ"
+    },
+    {
+      "id": "limtochess_sync_change",
+      "content": "同期化{0}段階 → 同期化{1}段階"
+    },
+    {
+      "id": "limtochess_event_cost_up_sinner",
+      "content": "{0}・{1}・コスト{2} → {3}"
+    },
+    {
+      "id": "limtochess_event_swap_one_sinner",
+      "content": "{0}・{1}・コスト {2}"
+    },
+    {
+      "id": "limtochess_sync_target",
+      "content": "{0}・{1} 同期化{2}段階 → 同期化{3}段階"
+    },
+    {
+      "id": "limtochess_sync_level",
+      "content": "同期化{0}段階"
+    },
+    {
+      "id": "limtochess_sync_of_cap",
+      "content": "同期化{0}/{1}段階"
+    },
+    {
+      "id": "limtochess_sync_keep",
+      "content": " ・同期化{0}段階を維持"
+    },
+    {
+      "id": "limtochess_sync_card_name",
+      "content": "{0} 同期化{1}段階"
+    },
+    {
+      "id": "limtochess_sync_after_replace",
+      "content": "交換後：同期化{0}段階"
+    },
+    {
+      "id": "limtochess_sync_cap_unowned",
+      "content": " （未所持：同期化3段階まで）"
+    },
+    {
+      "id": "limtochess_sync_cap_unowned_sub",
+      "content": " ・未所持：同期化3段階まで"
+    },
+    {
+      "id": "limtochess_sync_generic_cost",
+      "content": " ・汎用欠片{0}個"
+    },
+    {
+      "id": "limtochess_pack_outcome_fill",
+      "content": "未編成 → 同期化{0}段階で加入"
+    },
+    {
+      "id": "limtochess_pack_outcome_replace",
+      "content": "同期化{0}段階 → 同期化{1}段階で交換"
+    },
+    {
+      "id": "limtochess_pack_outcome_syncup",
+      "content": "同じ人格：同期化{0}段階 → 同期化{1}段階"
+    },
+    {
+      "id": "limtochess_pack_outcome_fragment_up",
+      "content": "欠片 +{0} {1}/{2} → 同期化{3}段階 → 同期化{4}段階"
+    },
+    {
+      "id": "limtochess_reward_fragment_up",
+      "content": "欠片 +{0} → 同期化{1}段階 → 同期化{2}段階"
+    },
+    {
+      "id": "limtochess_cost_label",
+      "content": "コスト{0}"
+    },
+    {
+      "id": "limtochess_affiliation_tail",
+      "content": " ・所属：{0}"
+    },
+    {
+      "id": "limtochess_start_topcost_block_hint",
+      "content": " ・コスト{0}の人格は{1}名まで"
+    },
+    {
+      "id": "limtochess_start_topcost_hint",
+      "content": " ・手動編成ではコスト{0}の人格は{1}名まで（自動編成は制限なし）"
+    },
+    {
+      "id": "limtochess_sync_cap_unowned_tail",
+      "content": " ・未所持（同期化{0}段階まで）"
+    },
+    {
+      "id": "limtochess_pack_hover_replace",
+      "content": "現在：{0} 同期化{1}段階\n→ このカード：同期化{2}段階"
+    },
+    {
+      "id": "limtochess_pack_hover_syncup",
+      "content": "現在の同一人格：同期化{0}段階\n→同期化{1}段階"
+    },
+    {
+      "id": "limtochess_reward_no_target_sync",
+      "content": "対象なし（※全員が同期化{0}段階以上、または編成されていない場合）"
+    },
+    {
+      "id": "limtochess_reward_face_sync_plus",
+      "content": "同期化 +{0}段階"
+    },
+    {
+      "id": "limtochess_reward_why_capped",
+      "content": "同期化{0}段階・上限"
+    },
+    {
+      "id": "limtochess_reward_why_generic_cost",
+      "content": "同期化{0}段階・汎用欠片が{1}個必要"
+    },
+    {
+      "id": "limtochess_reward_why_generic_max",
+      "content": "同期化{0}段階・汎用欠片で上げられるのは同期化{1}段階まで"
+    },
+    {
+      "id": "limtochess_reward_why_not_target",
+      "content": "同期化{0}段階・対象外"
+    },
+    {
+      "id": "limtochess_reward_title_sync_up_small",
+      "content": "所持人格1名を同期化（{0}段階まで）"
+    },
+    {
+      "id": "limtochess_reward_face_sync_personality",
+      "content": "同期化{0}段階の人格"
+    },
+    {
+      "id": "limtochess_reward_title_sync_under",
+      "content": "同期化{0}段階未満の人格1名"
+    },
+    {
+      "id": "limtochess_reward_label_sync_up_small",
+      "content": "所持人格1名の同期化 +{0}段階（{1}段階まで）"
+    },
+    {
+      "id": "limtochess_sync_cap_unowned_short",
+      "content": "未所持（同期化{0}段階が上限）"
+    },
+    {
+      "id": "limtochess_generic_rule_tail",
+      "content": "同期化{0}段階まで +1"
+    },
+    {
+      "id": "limtochess_completion_sync4",
+      "content": "同期化4段階 {0}/{1}名（第1段階の条件：{2}名）"
+    },
+    {
+      "id": "limtochess_completion_stage2",
+      "content": "第2段階：全員が同期化4段階に達し、各人格に4段階のE.G.Oを{0}個装着（{1}/{2}名）"
+    },
+    {
+      "id": "limtochess_completion_record",
+      "content": "記録達成：{0}の人格{1}名が同期化4段階に到達"
+    },
+    {
+      "id": "limtochess_roominfo_name_battle",
+      "content": "{0}戦闘"
+    },
+    {
+      "id": "limtochess_roominfo_name_room",
+      "content": "{0}"
+    },
+    {
+      "id": "limtochess_roominfo_name_hidden",
+      "content": "明かされていない部屋"
+    },
+    {
+      "id": "limtochess_roominfo_name_visited",
+      "content": "{0}・訪問済みの部屋"
+    },
+    {
+      "id": "limtochess_roominfo_name_current",
+      "content": "{0}・現在地"
+    },
+    {
+      "id": "limtochess_roominfo_pack_count",
+      "content": "{0}/{1}"
+    },
+    {
+      "id": "limtochess_packtip_cost_low",
+      "content": "COST 0～1"
+    },
+    {
+      "id": "limtochess_packtip_chance_line",
+      "content": "{0}  {1}"
+    },
+    {
+      "id": "limtochess_packtip_percent",
+      "content": "{0}%"
+    },
+    {
+      "id": "limtochess_packtip_percent_under_min",
+      "content": "0.01%未満"
+    },
+    {
+      "id": "limtochess_part_focus_header",
+      "content": "WARNING"
+    },
+    {
+      "id": "limtochess_part_focus_6011_pole",
+      "content": "電信柱を優先して攻撃"
+    },
+    {
+      "id": "limtochess_entrance_pass_locked_title",
+      "content": "未解放"
+    },
+    {
+      "id": "limtochess_final_title_cleared",
+      "content": "構築成功"
+    },
+    {
+      "id": "limtochess_final_title_defeated",
+      "content": "構築失敗"
+    },
+    {
+      "id": "limtochess_final_title_abandoned",
+      "content": "構築放棄"
+    },
+    {
+      "id": "limtochess_final_mode_auto",
+      "content": "自動編成"
+    },
+    {
+      "id": "limtochess_final_mode_manual",
+      "content": "手動編成"
+    },
+    {
+      "id": "limtochess_final_summary_line",
+      "content": "{0}・スキーマ進行度 {1}/{2}・編成人格 {3}名・人格レベル {4}"
+    },
+    {
+      "id": "limtochess_final_auto_bonus",
+      "content": "※ 自動編成ボーナス：スキーマ構築パス経験値 +40%"
+    },
+    {
+      "id": "limtochess_final_measure_line",
+      "content": "合計所要時間：{0}・サイコロを振った回数：{1}回"
+    },
+    {
+      "id": "limtochess_duration_hours",
+      "content": "{0}時間{1}分"
+    },
+    {
+      "id": "limtochess_duration_minutes",
+      "content": "{0}分{1}秒"
+    },
+    {
+      "id": "limtochess_final_defeat_where",
+      "content": "敗北したステージ - {0}"
+    },
+    {
+      "id": "limtochess_final_completion_none",
+      "content": "最終編成"
+    },
+    {
+      "id": "limtochess_final_not_in_roster",
+      "content": "編成から除外"
+    },
+    {
+      "id": "limtochess_final_damage_head",
+      "content": "ダメージ記録［一般戦闘{0}回、精鋭戦闘{1}回、ボス戦闘{2}回の合計］"
+    },
+    {
+      "id": "limtochess_final_damage_row",
+      "content": "与ダメージ量 {0}（{1}%）・被ダメージ量 {2}・討伐数 {3}・出撃 {4}回"
+    },
+    {
+      "id": "limtochess_final_damage_row_deaths",
+      "content": " ・死亡 {0}回"
+    },
+    {
+      "id": "limtochess_final_damage_total",
+      "content": "合計：与ダメージ量 {0}・被ダメージ量 {1}・討伐数 {2}"
+    },
+    {
+      "id": "limtochess_final_battle_log_head",
+      "content": "戦闘記録"
+    },
+    {
+      "id": "limtochess_final_battle_log_line",
+      "content": "{0} — {1}（{2}ターン経過）・所要時間：{3}・死亡した人格：{4}名"
+    },
+    {
+      "id": "limtochess_battle_result_win",
+      "content": "勝利"
+    },
+    {
+      "id": "limtochess_room_title",
+      "content": "第{0}スキーマ {1}"
+    },
+    {
+      "id": "limtochess_room_label_final_boss",
+      "content": "最終ボス戦闘"
+    },
+    {
+      "id": "limtochess_report_subline",
+      "content": "{0}・{1}ターン"
+    },
+    {
+      "id": "limtochess_report_round",
+      "content": "{0}ターン"
+    },
+    {
+      "id": "limtochess_report_retry_left",
+      "content": "再戦（残り{0}回）"
+    },
+    {
+      "id": "limtochess_report_continue",
+      "content": "続行"
+    },
+    {
+      "id": "limtochess_event_hardship_stacked",
+      "content": "受けた苦難 {0}個：{1}"
+    },
+    {
+      "id": "limtochess_event_boss_current",
+      "content": "現在の最終ボス：{0}"
+    },
+    {
+      "id": "limtochess_event_pick_guide",
+      "content": "追加された苦難は、以降の全ての戦闘で敵に累積して適用されます。"
+    },
+    {
+      "id": "limtochess_event_card_selected",
+      "content": "選択済み"
+    },
+    {
+      "id": "limtochess_event_card_select",
+      "content": "選択"
+    },
+    {
+      "id": "limtochess_event_choice_confirm",
+      "content": "確認"
+    },
+    {
+      "id": "limtochess_event_keyword_picked",
+      "content": "選択したキーワード：{0}"
+    },
+    {
+      "id": "limtochess_event_roster_note",
+      "content": "編成 {0}/{1}名・加入時、編成中の人格1名と入れ替わります"
+    },
+    {
+      "id": "limtochess_event_none",
+      "content": "進行可能なイベントがありません。"
+    },
+    {
+      "id": "limtochess_event_back_to_map",
+      "content": "マップに戻る"
+    },
+    {
+      "id": "limtochess_event_empty_slot",
+      "content": "空き編成枠"
+    },
+    {
+      "id": "limtochess_event_unknown_personality",
+      "content": "不明な人格"
+    },
+    {
+      "id": "limtochess_event_unknown_ego",
+      "content": "不明なE.G.O"
+    },
+    {
+      "id": "limtochess_notice_battle_quit",
+      "content": "戦闘を中断しました。戦闘入場直前の状態に戻ります。"
+    },
+    {
+      "id": "limtochess_notice_server_wait",
+      "content": "サーバー情報を読み込み中です。しばらくしてから再度お試しください。"
+    },
+    {
+      "id": "limtochess_notice_deck_unavailable",
+      "content": "この編成は現在使用できません。"
+    },
+    {
+      "id": "limtochess_notice_rolls_used_up",
+      "content": "編成更新の回数を使い切りました。"
+    },
+    {
+      "id": "limtochess_notice_auto_rolls_used_up",
+      "content": "自動編成の更新回数を使い切りました。"
+    },
+    {
+      "id": "limtochess_notice_pick_one",
+      "content": "人格を1名以上選択してください。"
+    },
+    {
+      "id": "limtochess_notice_roll_first",
+      "content": "先に編成更新を行ってください。"
+    },
+    {
+      "id": "limtochess_notice_cost_over",
+      "content": "コストが不足しています。"
+    },
+    {
+      "id": "limtochess_notice_max_picks",
+      "content": "最大{0}名まで編成できます。"
+    },
+    {
+      "id": "limtochess_notice_run_in_progress",
+      "content": "進行中のデータがあります。「続きから」を選択してください。"
+    },
+    {
+      "id": "limtochess_notice_already_picked",
+      "content": "既に選択した対象です。"
+    },
+    {
+      "id": "limtochess_notice_no_target",
+      "content": "選択できる対象がいません。"
+    },
+    {
+      "id": "limtochess_confirm_ego_swap_desc",
+      "content": "{0}のE.G.Oを交換しますか？"
+    },
+    {
+      "id": "limtochess_notice_reroll_charged",
+      "content": "更新回数が{0}回分補充されました。"
+    },
+    {
+      "id": "limtochess_notice_reroll_short",
+      "content": "更新回数が不足しています。"
+    },
+    {
+      "id": "limtochess_notice_identity_joined",
+      "content": "人格を編成しました。"
+    },
+    {
+      "id": "limtochess_notice_identity_replaced",
+      "content": "人格を交換しました。"
+    },
+    {
+      "id": "limtochess_notice_sync_up",
+      "content": "{0}の人格の同期化段階が{1}段階から{2}段階に上昇しました。"
+    },
+    {
+      "id": "limtochess_notice_level_catch_up",
+      "content": "人格レベルが{0}から{1}に上昇しました。"
+    },
+    {
+      "id": "limtochess_formation_cost",
+      "content": "{0} Cost"
+    },
+    {
+      "id": "limtochess_notice_server_error",
+      "content": "サーバーエラーが発生しました。しばらくしてから再度お試しください。"
+    },
+    {
+      "id": "limtochess_notice_battle_enter_failed",
+      "content": "戦闘に入場できませんでした。しばらくしてから再度お試しください。"
+    },
+    {
+      "id": "limtochess_roster_replace_title",
+      "content": "編成人数が上限を超えています。除外する人格を{0}名選択してください"
+    },
+    {
+      "id": "limtochess_roster_replace_desc",
+      "content": "このスキーマの編成上限は{0}名です。新たに加入すると編成人格は合計{1}名になります。\n編成から外れた人格は装着中のE.G.Oを失います。同期化段階に応じてその人格の欠片の一部が保管され、再加入時に保管された欠片が適用されます。"
+    },
+    {
+      "id": "limtochess_roster_replace_confirm",
+      "content": "除外して受け取る"
+    },
+    {
+      "id": "limtochess_roster_replace_count",
+      "content": "選択中 {0}/{1}名"
+    },
+    {
+      "id": "limtochess_roster_replace_head",
+      "content": "編成人数超過"
+    },
+    {
+      "id": "limtochess_roster_replace_sub",
+      "content": "除外する人格を{0}名選択してください"
+    },
+    {
+      "id": "limtochess_roster_replace_card_power",
+      "content": "構築力 {0}"
+    },
+    {
+      "id": "limtochess_roster_replace_card_refund",
+      "content": "除外する場合、欠片{0}個を保管"
+    },
+    {
+      "id": "limtochess_roster_replace_exclude",
+      "content": "除外"
+    },
+    {
+      "id": "limtochess_roster_replace_cancel",
+      "content": "キャンセル"
+    },
+    {
+      "id": "limtochess_roster_replace_limit",
+      "content": "交換は{0}名までです。選択中の囚人を押して選択を解除し、選び直してください"
+    },
+    {
+      "id": "limtochess_formation_all_join",
+      "content": "全ての人格が戦闘に参加しないと先に進めません。"
+    },
+    {
+      "id": "limtochess_weekly_reset_end_title",
+      "content": "構築終了"
+    },
+    {
+      "id": "limtochess_weekly_reset_end_desc",
+      "content": "ウィークリーリセットにより、進行中の構築が終了しました。"
+    },
+    {
+      "id": "limtochess_final_claim_reward",
+      "content": "報酬を受け取る"
+    },
+    {
+      "id": "limtochess_final_exit",
+      "content": "退出"
+    },
+    {
+      "id": "limtochess_report_duel_win",
+      "content": "味方のマッチ勝利数"
+    },
+    {
+      "id": "limtochess_report_mp_avg",
+      "content": "味方の平均精神力"
+    },
+    {
+      "id": "limtochess_report_table_title",
+      "content": "戦闘記録"
+    },
+    {
+      "id": "limtochess_report_dealt",
+      "content": "与ダメージ量"
+    },
+    {
+      "id": "limtochess_report_taken",
+      "content": "被ダメージ量"
+    },
+    {
+      "id": "limtochess_report_ego_damage",
+      "content": "E.G.Oダメージ"
+    },
+    {
+      "id": "limtochess_report_kill",
+      "content": "討伐"
+    },
+    {
+      "id": "limtochess_report_duel",
+      "content": "マッチ勝利"
+    },
+    {
+      "id": "limtochess_report_dealt_count",
+      "content": "与ダメージ回数"
+    },
+    {
+      "id": "limtochess_report_taken_count",
+      "content": "被ダメージ回数"
+    },
+    {
+      "id": "limtochess_report_damage_count",
+      "content": "{0} ({1})"
+    },
+    {
+      "id": "limtochess_report_duel_rate",
+      "content": "マッチ勝率"
+    },
+    {
+      "id": "limtochess_report_one_sided",
+      "content": "一方攻撃の割合"
+    },
+    {
+      "id": "limtochess_report_weak_resist",
+      "content": "<color=#FF6B5E>弱点</color>・<color=#6FB2FF>耐性</color>への的中"
+    },
+    {
+      "id": "limtochess_report_dot",
+      "content": "持続ダメージ"
+    },
+    {
+      "id": "limtochess_report_tab_attack",
+      "content": "攻撃"
+    },
+    {
+      "id": "limtochess_report_tab_hit",
+      "content": "被撃"
+    },
+    {
+      "id": "limtochess_report_total_ally",
+      "content": "味方全体"
+    },
+    {
+      "id": "limtochess_report_total_enemy",
+      "content": "敵全体"
+    },
+    {
+      "id": "limtochess_sweeper_banner_start_time",
+      "content": "午前3時13分"
+    },
+    {
+      "id": "limtochess_sweeper_banner_elapsed",
+      "content": "{0}分経過"
+    },
+    {
+      "id": "limtochess_sweeper_banner_night_start",
+      "content": "裏路地の夜が始まります。"
+    },
+    {
+      "id": "limtochess_sweeper_banner_rush",
+      "content": "さらに多くの掃除屋が押し寄せてきます。"
+    },
+    {
+      "id": "limtochess_sweeper_banner_night_end",
+      "content": "裏路地の夜がまもなく明けます。"
+    },
+    {
+      "id": "limtochess_battle_hardship_label",
+      "content": "苦難"
+    },
+    {
+      "id": "limtochess_final_result_title",
+      "content": "最終戦闘結果"
+    },
+    {
+      "id": "limtochess_final_pass_exp",
+      "content": "スキーマ構築パス経験値 +{0}"
+    },
+    {
+      "id": "limtochess_final_segment_progress",
+      "content": "スキーマ進行度"
+    },
+    {
+      "id": "limtochess_final_battle_progress",
+      "content": "戦闘回数"
+    },
+    {
+      "id": "limtochess_final_participants",
+      "content": "参加した人格"
+    },
+    {
+      "id": "limtochess_final_identity_level",
+      "content": "人格レベル"
+    },
+    {
+      "id": "limtochess_final_level_value",
+      "content": "LV {0}"
+    },
+    {
+      "id": "limtochess_final_damage_title",
+      "content": "ダメージ記録"
+    },
+    {
+      "id": "limtochess_final_battle_detail_bracket",
+      "content": "[ 一般戦闘{0}回、精鋭戦闘{1}回、ボス戦闘{2}回 ]"
+    },
+    {
+      "id": "limtochess_final_clash_value",
+      "content": "{0}/{1}"
+    },
+    {
+      "id": "limtochess_final_reward_title",
+      "content": "報酬記録"
+    },
+    {
+      "id": "limtochess_final_pack_picked",
+      "content": "選択"
+    },
+    {
+      "id": "limtochess_final_reroll_used",
+      "content": "更新回数（使用分）"
+    },
+    {
+      "id": "limtochess_final_generic_shards",
+      "content": "汎用欠片の数"
+    },
+    {
+      "id": "limtochess_final_acquired_identity",
+      "content": "獲得した人格数"
+    },
+    {
+      "id": "limtochess_final_acquired_ego",
+      "content": "獲得したE.G.O数"
+    },
+    {
+      "id": "limtochess_final_history_title",
+      "content": "履歴"
+    },
+    {
+      "id": "limtochess_final_history_change",
+      "content": "{0} → {1}"
+    },
+    {
+      "id": "limtochess_final_history_ego",
+      "content": "[{0}] {1}"
+    },
+    {
+      "id": "limtochess_battle_buildpower_label",
+      "content": "構築力"
+    },
+    {
+      "id": "limtochess_battle_distortion_row",
+      "content": "スキーマ歪曲"
+    },
+    {
+      "id": "limtochess_roominfo_line",
+      "content": "• {0}"
+    },
+    {
+      "id": "limtochess_roominfo_effect_hardship",
+      "content": "{0}または{1}"
+    },
+    {
+      "id": "limtochess_roominfo_section_packs",
+      "content": "出現パック一覧"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_reroll_segment",
+      "content": "更新回数"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_sync_pick",
+      "content": "同期化段階を上げる人格を選択"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_sync_random",
+      "content": "ランダムな人格の同期化段階が上昇"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_recruit_pick",
+      "content": "人格が加入"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_pack_random",
+      "content": "ランダムなパックを獲得"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_pack_keyword",
+      "content": "キーワードパックを獲得"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_ego_pick",
+      "content": "E.G.Oを装着"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_ego_keyword",
+      "content": "キーワードに対応するE.G.Oを装着"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_reroll_to_generic",
+      "content": "汎用欠片に換算"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_swap_affiliation_random",
+      "content": "同じ所属の人格とランダムに交換"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_swap_affiliation_pick",
+      "content": "同じ所属の人格を選んで交換"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_swap_pick",
+      "content": "人格を交換して編成"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_swap_all",
+      "content": "編成人格を全員変更"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_swap_one",
+      "content": "人格を1名変更"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_pack_grade_open",
+      "content": "ランク別パックを開封"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_swap_cost_up_pick",
+      "content": "コストが1高い人格と交換"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_swap_one_pick",
+      "content": "選択した人格1名を変更"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_final_boss",
+      "content": "最終ボスを変更"
+    },
+    {
+      "id": "limtochess_roominfo_effect_name_stage_unlock",
+      "content": "ボス選択肢を解放"
+    },
+    {
+      "id": "limtochess_packtip_deck_match",
+      "content": "現在編成中の{1}人格{0}名"
+    },
+    {
+      "id": "limtochess_packtip_guarantee_head",
+      "content": "{1}カードが最低{0}枚確定"
+    },
+    {
+      "id": "limtochess_packtip_chance_head",
+      "content": "確率"
+    },
+    {
+      "id": "limtochess_packtip_identity",
+      "content": "人格"
+    },
+    {
+      "id": "limtochess_packtip_ego",
+      "content": "E.G.O"
+    },
+    {
+      "id": "limtochess_packtip_keep",
+      "content": "選択\n可能"
+    },
+    {
+      "id": "limtochess_gauge_cycle_state_extended",
+      "content": "共通周期を延長中"
+    },
+    {
+      "id": "limtochess_option_retry_left",
+      "content": "残り{0}回"
+    },
+    {
+      "id": "limtochess_roominfo_list_merit",
+      "content": "勝利報酬"
+    },
+    {
+      "id": "limtochess_roominfo_merit_pack",
+      "content": "パック{0}個のうち1個を開封"
+    },
+    {
+      "id": "limtochess_roominfo_merit_reroll",
+      "content": "更新回数 +{0}"
+    },
+    {
+      "id": "limtochess_roominfo_merit_elite",
+      "content": "精鋭報酬を1つ選択（人格およびE.G.Oの交換・編成・同期化）"
+    },
+    {
+      "id": "limtochess_roominfo_merit_level",
+      "content": "人格レベル +{0}"
+    },
+    {
+      "id": "limtochess_ego_choice_title",
+      "content": "{0} {1} E.G.O選択"
+    },
+    {
+      "id": "limtochess_ego_choice_desc",
+      "content": "{0}の{1}スロットに装着できるE.G.Oは1個のみです。装着するE.G.Oを選択してください。"
+    },
+    {
+      "id": "limtochess_ego_choice_warning",
+      "content": "選ばなかったE.G.Oは失われます。"
+    },
+    {
+      "id": "limtochess_ego_choice_current",
+      "content": "装着中のE.G.O・{0}段階"
+    },
+    {
+      "id": "limtochess_ego_choice_new",
+      "content": "新しいE.G.O・{0}段階"
+    },
+    {
+      "id": "limtochess_ego_choice_confirm",
+      "content": "装着"
+    },
+    {
+      "id": "limtochess_ego_choice_back",
+      "content": "戻る"
+    },
+    {
+      "id": "limtochess_packselect_summary_ego_keep",
+      "content": "{0}のE.G.Oを保管"
+    },
+    {
+      "id": "limtochess_packselect_ego_same_grade",
+      "content": "{0}の{1}のE.G.Oを{2}枚選択しています。確定時に装着されるのは1枚のみです。"
+    },
+    {
+      "id": "limtochess_band_ready_buff_turn",
+      "content": "TURN {0}から"
+    },
+    {
+      "id": "limtochess_roominfo_choice_1",
+      "content": "選択肢1"
+    },
+    {
+      "id": "limtochess_roominfo_choice_2",
+      "content": "選択肢2"
+    },
+    {
+      "id": "limtochess_roominfo_choice_3",
+      "content": "選択肢3"
+    },
+    {
+      "id": "limtochess_roominfo_choice_4",
+      "content": "選択肢4"
+    },
+    {
+      "id": "limtochess_roominfo_choice_5",
+      "content": "選択肢5"
+    },
+    {
+      "id": "limtochess_roominfo_choice_6",
+      "content": "選択肢6"
+    },
+    {
+      "id": "limtochess_roominfo_choice_7",
+      "content": "選択肢7"
+    },
+    {
+      "id": "limtochess_roominfo_choice_8",
+      "content": "選択肢8"
+    },
+    {
+      "id": "limtochess_roominfo_choice_option",
+      "content": "{0} · {1}"
+    },
+    {
+      "id": "limtochess_briefing_skill",
+      "content": "スキル"
+    },
+    {
+      "id": "limtochess_ink_lobby_run_title",
+      "content": "進行中のスキーマ構築"
+    },
+    {
+      "id": "limtochess_ink_lobby_ticker",
+      "content": "※ BETA — ベータ期間中は、スキーマ構築の進行方法や画面が変わる場合があります"
+    },
+    {
+      "id": "limtochess_ink_start_ego_resource",
+      "content": "開始時のE.G.O資源"
+    },
+    {
+      "id": "limtochess_ink_start_primary",
+      "content": "構築開始"
+    },
+    {
+      "id": "limtochess_ink_start_reroll_info",
+      "content": "・自動編成更新回数は最大{1}回まで保有できます。\n・自動編成更新回数は毎日{0}回ずつ補充されます。\n・スキーマ構築を終えると、進行度に応じて自動編成更新回数を最大{1}回まで獲得できます。"
+    },
+    {
+      "id": "limtochess_ink_map_formation",
+      "content": "編成"
+    },
+    {
+      "id": "limtochess_ink_start_deck_empty",
+      "content": "・自動編成更新で出現した編成は画面下部に保存され、お好みの編成を選択して入場できます。"
+    },
+    {
+      "id": "limtochess_ink_event_pick_skip",
+      "content": "受け取らない"
+    },
+    {
+      "id": "limtochess_ink_pass_tab_reward",
+      "content": "報酬"
+    },
+    {
+      "id": "limtochess_ink_pass_tab_mission_progress",
+      "content": "アチーブメント {0}%"
+    },
+    {
+      "id": "limtochess_ink_pass_max",
+      "content": "最高レベル"
+    },
+    {
+      "id": "limtochess_ink_pass_featured",
+      "content": "Lv {0} 報酬"
+    },
+    {
+      "id": "limtochess_ink_pass_featured_receivable",
+      "content": "現在受け取れます"
+    },
+    {
+      "id": "limtochess_ink_pass_featured_need",
+      "content": "パス経験値があと{0}必要です"
+    },
+    {
+      "id": "limtochess_ink_pass_featured_received",
+      "content": "受取済みの報酬です"
+    },
+    {
+      "id": "limtochess_ink_pass_count",
+      "content": "×{0}"
+    },
+    {
+      "id": "limtochess_ink_pass_coming",
+      "content": "準備中"
+    },
+    {
+      "id": "limtochess_ink_result_mvp_tag",
+      "content": "MVP"
+    },
+    {
+      "id": "limtochess_ink_prep_ego_owned_demand",
+      "content": "所持 / 必要"
+    },
+    {
+      "id": "limtochess_ink_pass_featured_item",
+      "content": "{0} ×{1}"
+    },
+    {
+      "id": "limtochess_ink_pass_mission_empty",
+      "content": "登録されたアチーブメントはありません"
+    },
+    {
+      "id": "limtochess_ink_pass_mission_progress",
+      "content": "{0}/{1}"
+    },
+    {
+      "id": "limtochess_ink_pass_mission_receivable",
+      "content": "受け取る"
+    },
+    {
+      "id": "limtochess_ink_pass_mission_received",
+      "content": "受取済み"
+    },
+    {
+      "id": "limtochess_battleprep_sortie_label",
+      "content": "戦闘可能人数"
+    },
+    {
+      "id": "limtochess_ink_pass_exp",
+      "content": "{0}/{1}"
+    },
+    {
+      "id": "limtochess_ink_pass_beta_notice",
+      "content": "・スキーマ構築のプレイで得られるパス経験値は、毎週最大1,000まで獲得できます。\n・現在開放されている最大レベルに達すると、スキーマ構築のプレイで得られる経験値はそれ以上累積しません。\n・ただし、今後追加されるアチーブメントで得られる経験値の超過分は、パスレベルの上限が拡張されたときに自動的に反映されます。"
+    },
+    {
+      "id": "limtochess_ink_start_drawer_open",
+      "content": "出撃人格選択"
+    },
+    {
+      "id": "limtochess_ink_gauge_cycle",
+      "content": "TURN {0}"
+    },
+    {
+      "id": "limtochess_ink_band_ready_buff_turn",
+      "content": "TURN {0}から\n効果を適用"
+    },
+    {
+      "id": "limtochess_ego_guide_aim_click",
+      "content": "対象の敵を選択してください"
+    },
+    {
+      "id": "limtochess_ego_guide_aim_cancel",
+      "content": "(右クリックでキャンセル)"
+    },
+    {
+      "id": "limtochess_ego_guide_drop_fire",
+      "content": "敵の上に置くと発動"
+    },
+    {
+      "id": "limtochess_ego_guide_drop_reserve",
+      "content": "敵の上に置くと発動準備"
+    },
+    {
+      "id": "limtochess_ego_guide_drop_cancel",
+      "content": "(何もない場所に置くとキャンセル)"
+    },
+    {
+      "id": "limtochess_ego_badge_duel",
+      "content": "マッチ"
+    },
+    {
+      "id": "limtochess_ego_badge_oneside",
+      "content": "一方攻撃"
+    },
+    {
+      "id": "limtochess_ego_badge_impossible",
+      "content": "不可"
+    },
+    {
+      "id": "limtochess_ego_badge_target",
+      "content": "E.G.O対象"
+    },
+    {
+      "id": "limtochess_ego_badge_resonance",
+      "content": "{0} {1}共鳴"
+    },
+    {
+      "id": "limtochess_ego_badge_absolute",
+      "content": "絶対 {0}"
+    },
+    {
+      "id": "limtochess_egoaim_guide",
+      "content": "敵の上にドラッグ"
+    },
+    {
+      "id": "limtochess_egoaim_resonance",
+      "content": "{0}共鳴"
+    },
+    {
+      "id": "limtochess_egoaim_absolute",
+      "content": "{0}完全共鳴"
+    },
+    {
+      "id": "limtochess_egoaim_target",
+      "content": "{0} ({1})"
+    },
+    {
+      "id": "limtochess_packpreview_detail",
+      "content": "詳細"
+    },
+    {
+      "id": "limtochess_ink_start_exp_up",
+      "content": "スキーマ構築パス経験値 +40%"
+    },
+    {
+      "id": "limtochess_cost_tag",
+      "content": "COST"
+    },
+    {
+      "id": "limtochess_elite_replace_target_label",
+      "content": "交換する人格"
+    },
+    {
+      "id": "limtochess_result_dmg_label",
+      "content": "DMG"
+    },
+    {
+      "id": "limtochess_buildpower_help",
+      "content": "構築力は、現在の編成がどの程度整っているかを示す数値です。\n\n人格のコスト・同期化段階・レベルが高いほど、構築力が増加します。また、同じキーワード・所属の人格を集めたり、ランクの高いE.G.Oを装着したりした場合も、構築力が増加します。出撃人格は待機人格よりも構築力に大きく反映されます。\n\n※ただし、構築力は編成の強さを測る参考指標にすぎず、戦闘に直接影響するものではありません。"
+    },
+    {
+      "id": "limtochess_event_block_no_boss_set",
+      "content": "ボスの敵セットなし"
+    },
+    {
+      "id": "limtochess_event_block_same_boss",
+      "content": "現在の最終ボスと同じ"
+    },
+    {
+      "id": "limtochess_event_block_cleared_boss",
+      "content": "クリア済みのボス"
+    },
+    {
+      "id": "limtochess_event_block_no_target",
+      "content": "対象なし"
+    },
+    {
+      "id": "limtochess_event_block_not_enough_reroll",
+      "content": "更新回数が不足"
+    },
+    {
+      "id": "limtochess_event_block_skip_off",
+      "content": "「選択しない」が無効"
+    },
+    {
+      "id": "limtochess_packselect_roster_cap_short",
+      "content": "編成上限{0}名 ― 入れ替えられる囚人が足りません。選択したカードを減らしてください"
+    },
+    {
+      "id": "limtochess_ink_start_auto_cost_info",
+      "content": "・自動編成を選択すると、{0}コスト以内でランダムに人格が選ばれます。"
+    },
+    {
+      "id": "limtochess_notice_roster_cap_up",
+      "content": "編成可能な人格数が{0}名から{1}名に増加しました。"
+    },
+    {
+      "id": "limtochess_level_bonus",
+      "content": "Lv {0}+{1}"
+    },
+    {
+      "id": "limtochess_ink_gauge_cycle_extended",
+      "content": "TURN {0} - 延長中"
+    },
+    {
+      "id": "limtochess_battle_effect_level",
+      "content": "敵レベル {0}"
+    },
+    {
+      "id": "limtochess_roster_replace_power_now",
+      "content": "現在の構築力"
+    },
+    {
+      "id": "limtochess_buildpower_recommended_label",
+      "content": "推奨構築力"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10910",
+      "content": "デリバリーキャリア - ロージャが15以上で、退却が可能なときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11011",
+      "content": "デリバリーキャリア - シンクレアが15以上で、退却が可能なときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10812",
+      "content": "始が3以上で、退却が可能なときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10613",
+      "content": "待機・復帰人員がいて、退却させる黒獣がいるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10710",
+      "content": "デュラハンを準備するとき、または攻撃を受ける際にデュラハンがあり、精神力が15以上で強化反撃が可能なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10415",
+      "content": "天殺を準備する蜘蛛の巣の味方がいるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10416",
+      "content": "ル・ノワール ギャバジン生地のコートとアルミュール・エヴェイエを切り替えるとき、または攻撃を受ける際に強化攻撃が可能なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10216",
+      "content": "攻撃を受けるとき、炎蝶の棺が30以上で、過熱された棺がなければ守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11216",
+      "content": "攻撃を受けるとき、暁の火が30以上なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10110",
+      "content": "生きた蝶と死んだ蝶の合計が最大値の25%以下で、再装填後の精神力が-40超過なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10115",
+      "content": "解禁 - IIを準備できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10213",
+      "content": "狙撃姿勢を準備するか、閃弓に切り替えられるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10309",
+      "content": "時間貸与を開始できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10314",
+      "content": "解禁段階を上げられるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10315",
+      "content": "黒き神の加護が100以上で、強化攻撃を使用できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10412",
+      "content": "視線の軽蔑状態に入れるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10514",
+      "content": "胞子弾[基本]と胞子弾[散弾]の合計が最大値の25%以下で、再装填後の精神力が-40超過なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10611",
+      "content": "弾丸がなく、再装填できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10713",
+      "content": "充電回数が15未満で、過充電を準備できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10813",
+      "content": "次のスキルにスキル1が2つ以上溜まっており、組札を切り替えるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10816",
+      "content": "体力が10%以下で試着室に入るとき、または試着室で体力が体力最大値未満のため回復するときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10902",
+      "content": "攻撃を受けるとき、呼吸が5以上で、パッシブ「黒雲刀」による強化反撃を使用できるなら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10909",
+      "content": "時間貸与を開始できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10913",
+      "content": "涙で研ぎ澄ますが3未満で、精神力を消耗した後の精神力が-40超過なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10915",
+      "content": "自分にレフレクスィヨンがなく、攻撃してくる敵のマイナス効果が3種以上で、クリティークを使用できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10916",
+      "content": "加速弾が5未満で、補充できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11113",
+      "content": "時間貸与を開始できるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11213",
+      "content": "体力が40%以下の敵がいて、メルチェによる追加攻撃を準備できるなら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10111",
+      "content": "好餌妖精が3未満のとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10113",
+      "content": "反撃する相手がいて、引き裂かれた追憶が2未満のときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10114",
+      "content": "脚力【午】がなく、次のターンに得る予定もないとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10207",
+      "content": "攻撃を受けるとき、振動回数が6未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10210",
+      "content": "攻撃を受けるとき、充電回数が5未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10211",
+      "content": "攻撃を受けるとき、自分の火傷が10以上なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10212",
+      "content": "反撃する相手がいて、脚力【卯】がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10312",
+      "content": "攻撃を受けるとき、愛/憎悪回数が4未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10313",
+      "content": "反撃する相手がいて、発角がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10411",
+      "content": "反撃する相手がいて、脚力【卯】がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10413",
+      "content": "護衛態勢がないとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10503",
+      "content": "充電回数が5未満のとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10506",
+      "content": "攻撃を受けるとき、充電回数が5未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10612",
+      "content": "攻撃を受けるとき、充電回数が10未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10709",
+      "content": "攻撃を受けるとき、充電回数が5未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10714",
+      "content": "反撃する相手がいて、血炎がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10810",
+      "content": "防御態勢がないとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10905",
+      "content": "充電回数が5未満のとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10912",
+      "content": "巳腕がなく、次のターンに得る予定もないとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10914",
+      "content": "攻撃を受けるとき、充電回数が5未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11010",
+      "content": "攻撃を受けるとき、振動回数が3未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11014",
+      "content": "反撃する相手がいて、血炎がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11015",
+      "content": "呼吸が25未満なら、スキル1を使用する順番で守備を使用。呼吸が25以上で、攻撃を受けるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11110",
+      "content": "攻撃を受けるとき、充電回数が15未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11112",
+      "content": "反撃する相手がいて、脚力【卯】がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11211",
+      "content": "12区産燃料が50未満のとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11212",
+      "content": "巳腕がなく、次のターンに得る予定もないとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11215",
+      "content": "高電圧外皮がないとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10105",
+      "content": "攻撃を受けるとき、待機中のスキルにスキル1だけが2つ以上残っていれば守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11105",
+      "content": "攻撃を受けるとき、待機中のスキルにスキル1だけが2つ以上残っていれば守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10108",
+      "content": "攻撃を受けるとき、待機中のスキルにスキル3がなく、探求した知識を維持または増加できる捨てる効果が使用可能なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10608",
+      "content": "攻撃を受けるとき、待機中のスキルにスキル3がなく、探求した知識を維持または増加できる捨てる効果が使用可能なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10510",
+      "content": "攻撃を受けるとき、待機中のスキルでスキル3を残しながら探求した知識を維持または増加できれば守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10907",
+      "content": "攻撃を受けるとき、待機中のスキルでスキル3を残しながら探求した知識を維持または増加できれば守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10116",
+      "content": "充電回数が7未満で、体力を消耗した後の体力が60%以上なら、スキル1を使用する順番で守備を使用。充電回数が15超過かつ体力が85%未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10310",
+      "content": "血餐が10以上、硬血が10未満、体力が60%以上のとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10414",
+      "content": "攻撃を受けるとき、体力が80%以上、花びらが10未満で、脆弱がなければ守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10513",
+      "content": "攻撃を受けるとき、硬血甲冑が3未満で、対象の味方が出血コストを支払った後の体力が60%以上なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10605",
+      "content": "攻撃を受けるとき、体力が50%以下でK社アンプルが2未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10702",
+      "content": "攻撃を受けるとき、呼吸回数が3以上で、体力を5消耗した後の体力が60%以上なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10705",
+      "content": "攻撃を受けるとき、体力が60%以上、精神力が-20以上0以下で、自分の沈潜が5未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11005",
+      "content": "精神力が-30以下のときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11006",
+      "content": "攻撃を受けるとき、お札が4あり、この後、伝達に使うスキル3があるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11016",
+      "content": "暴走状態ではなく、脈動回数が15未満で、体力を消耗した後の体力が60%以上のとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11107",
+      "content": "攻撃を受けるとき、魔弾が6未満で、精神力を消耗した後の精神力が-20以上なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11210",
+      "content": "体力が40%未満で血餐があれば守備を使用。それ以外は、磨り減ってしまった心が3未満で、出血コストを支払った後の体力が60%以上なら、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11214",
+      "content": "ランプが8未満で、体力を消耗した後の体力が60%以上のとき、スキル1を使用する順番で守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10215",
+      "content": "拘束解除 - 創作没入状態で、体力が70%以下の味方がいて、援護防御がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10614",
+      "content": "体力が70%以下の味方がいて、援護防御がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10615",
+      "content": "攻撃を受けるとき、呼吸が5未満で、捕縛 [ホンル]が付与された敵がいなければ守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10711",
+      "content": "攻撃を受けるとき、援護可能な終止符ホンルがいて、集中【狙撃】がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10808",
+      "content": "攻撃を受けるとき、両隣の味方の中に精神力が35以下の味方がいれば守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10811",
+      "content": "速度が最も高い黒雲会の味方2名のうち、体力が70%以下で守備威力増加のない味方がいるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10815",
+      "content": "体力が70%以下の味方がいて、援護防御がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10911",
+      "content": "攻撃を受けるとき、出血が3以上の他の味方がいれば守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10917",
+      "content": "自分または体力の割合が最も低い味方2名のうち、体力が70%以下かつバリアのない対象がいるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10410",
+      "content": "攻撃を受けるとき、反撃で得る赤眼または懺悔が7未満なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11116",
+      "content": "体力が70%以下の味方がいて、援護防御がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10316",
+      "content": "攻撃してくる敵の楔 - シンクレアが4以上のときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11017",
+      "content": "攻撃してくる敵の楔 - ドンキホーテが4以上のときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10617",
+      "content": "傾聴の時間があれば、攻撃を受けるときに守備を使用。それ以外は、体力が70%以下の味方がいて、援護防御がないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10717",
+      "content": "攻撃を受けるとき、自分の体力が50%以上なら守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_10117",
+      "content": "攻撃してくる敵に「規則：守備スキルの指定禁止」があるときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_condition_11217",
+      "content": "繋がった糸を保有する味方がいないときに守備を使用"
+    },
+    {
+      "id": "limtochess_defense_identity_retreat_support",
+      "content": "イシュメールの支援効果で退却が可能なとき"
+    },
+    {
+      "id": "limtochess_defense_identity_fallback",
+      "content": "この人格の固有条件を満たしたとき"
+    },
+    {
+      "id": "limtochess_event_choice_tag_gain",
+      "content": "獲得"
+    },
+    {
+      "id": "limtochess_event_choice_tag_cost",
+      "content": "代償"
+    },
+    {
+      "id": "limtochess_buildpower_band_low",
+      "content": "注意"
+    },
+    {
+      "id": "limtochess_buildpower_band_fit",
+      "content": "適正"
+    },
+    {
+      "id": "limtochess_buildpower_band_high",
+      "content": "余裕"
+    },
+    {
+      "id": "limtochess_buildpower_penalty_hint",
+      "content": "ペナルティの詳細を確認"
+    },
+    {
+      "id": "limtochess_buildpower_range",
+      "content": "{0}～{1}"
+    },
+    {
+      "id": "limtochess_packselect_cap_title",
+      "content": "編成上限に到達"
+    },
+    {
+      "id": "limtochess_packselect_cap_desc",
+      "content": "選択時、既存の人格1名を除外します"
+    },
+    {
+      "id": "limtochess_egoreplace_sync_label",
+      "content": "幻想解析"
+    },
+    {
+      "id": "limtochess_report_to_formation_retry",
+      "content": "編成を変更して再挑戦"
+    },
+    {
+      "id": "limtochess_rest_generic_short",
+      "content": "汎用欠片が不足しています。"
+    },
+    {
+      "id": "limtochess_lobby_run_level",
+      "content": "人格レベル {0}"
+    },
+    {
+      "id": "limtochess_packselect_boss_reward",
+      "content": "ボスクリア報酬"
+    },
+    {
+      "id": "limtochess_packselect_slot_reroll_identity",
+      "content": "更新"
+    },
+    {
+      "id": "limtochess_packselect_slot_reroll_ego",
+      "content": "更新"
+    },
+    {
+      "id": "limtochess_packselect_slot_reroll_used",
+      "content": "更新完了"
+    },
+    {
+      "id": "limtochess_packselect_sync_keep",
+      "content": "同期化{0}段階を維持"
+    },
+    {
+      "id": "limtochess_roominfo_list_event_skip_head",
+      "content": "選択しない場合"
+    },
+    {
+      "id": "limtochess_packselect_title_event_reward",
+      "content": "イベント報酬"
+    },
+    {
+      "id": "limtochess_ink_start_reroll_caption",
+      "content": "残り回数"
+    },
+    {
+      "id": "limtochess_packselect_title_normal_reward",
+      "content": "一般戦闘クリア報酬"
+    },
+    {
+      "id": "limtochess_packselect_title_elite_reward",
+      "content": "精鋭戦闘クリア報酬"
+    },
+    {
+      "id": "limtochess_part_focus_6011_pole_broken",
+      "content": "電信柱破壊"
+    },
+    {
+      "id": "limtochess_part_focus_6011_pole_failed",
+      "content": "電信柱破壊失敗"
+    },
+    {
+      "id": "limtochess_part_focus_6011_pole_imminent",
+      "content": "赤雷発動間近"
+    },
+    {
+      "id": "limtochess_report_axis_round",
+      "content": "T{0}"
+    },
+    {
+      "id": "limtochess_packselect_toggle_replace_identity",
+      "content": "人格交換"
+    },
+    {
+      "id": "limtochess_packselect_toggle_replace_ego",
+      "content": "E.G.O交換"
+    },
+    {
+      "id": "limtochess_ink_start_ego_resource_help",
+      "content": "E.G.O資源は次の戦闘に持ち越されず、戦闘開始のたびに現在の編成に応じたE.G.O資源を獲得して戦闘を行います。\n\nE.G.O資源の獲得量は、編成した人格全員（待機を含む）のスキルを属性別に数えた数の半分（小数点以下切り捨て）です。\n・スキル1・2・3は、それぞれ3・2・1個として数えます。\n・守備スキルは数えません。"
+    },
+    {
+      "id": "limtochess_pass_weekly_max_limit",
+      "content": "ウィークリー獲得上限"
+    },
+    {
+      "id": "limtochess_beta_desc_at_all",
+      "content": "※ BETA — ベータ期間中は、スキーマ構築の進行方式や画面が変更される場合があります"
+    },
+    {
+      "id": "limtochess_buildpower_line_change",
+      "content": "構築力 {0} → {1} ({2})"
+    },
+    {
+      "id": "limtochess_buildpower_line_range",
+      "content": "構築力 {0} → {1}～{2}"
+    },
+    {
+      "id": "limtochess_buildpower_roster_drop",
+      "content": "除外時の構築力 {0}"
+    },
+    {
+      "id": "limtochess_buildpower_roster_result_pending",
+      "content": "構築力 加入後 {0} → 除外後 ？"
+    },
+    {
+      "id": "limtochess_buildpower_roster_result",
+      "content": "構築力 加入後 {0} → 除外後 {1} ({2})"
+    },
+    {
+      "id": "limtochess_buildpower_roster_now",
+      "content": "現在 {0}"
+    },
+    {
+      "id": "limtochess_event_effect_final_boss_weakness",
+      "content": "最終ボス → {0} {1}"
+    },
+    {
+      "id": "limtochess_event_boss_hidden_name",
+      "content": "???"
+    },
+    {
+      "id": "limtochess_event_boss_weakness_jun",
+      "content": "[推奨属性：斬撃・暴食・傲慢]"
+    },
+    {
+      "id": "limtochess_event_boss_weakness_ricardo",
+      "content": "[推奨属性：打撃・怠惰・嫉妬]"
+    },
+    {
+      "id": "limtochess_event_boss_weakness_cleaners",
+      "content": "[推奨属性：貫通・色欲・傲慢]"
+    },
+    {
+      "id": "limtochess_event_boss_weakness_alley",
+      "content": "[推奨属性：打撃・怠惰・傲慢]"
+    },
+    {
+      "id": "limtochess_event_boss_weakness_blackcloud",
+      "content": "[推奨属性：斬撃・傲慢]"
+    },
+    {
+      "id": "limtochess_pass_level_up_popup_title",
+      "content": "パスレベル上昇"
+    },
+    {
+      "id": "limtochess_pass_level_up_popup_name",
+      "content": "スキーマ構築パス"
+    },
+    {
+      "id": "limtochess_affiliation_name_L_CORP",
+      "content": "L社"
+    }
+  ]
+}

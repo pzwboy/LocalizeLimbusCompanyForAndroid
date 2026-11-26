@@ -1,230 +1,230 @@
 {
-  "dataList": [
-    {
-      "id": "Emulation",
-      "name": "效倣的姿勢",
-      "desc": "最大値：30\n満足以下条件時，獲得本效果\n- <color=#ffffff>自身</color>拼点勝利時，使<color=#ffffff>自身</color>獲得2層本效果;基礎攻撃技能命中時，使<color=#ffffff>自身</color>獲得1層本效果;攻撃后，若<color=#ffffff>敵方単位</color>陣亡，則使<color=#ffffff>自身</color>獲得3層本效果\n- 除<color=#ffffff>自身</color>以外的<color=#ffffff>友方単位</color>基礎攻撃技能拼点勝利時，使<color=#ffffff>自身</color>獲得2層本效果\n· 除<color=#ffffff>自身</color>以外与<color=#ffffff>自身</color>属于同一陣営的<color=#ffffff>友方単位</color>基礎攻撃技能拼点勝利時，改為使<color=#ffffff>自身</color>獲得4層本效果\n\n根据本效果層数，相應使<color=#ffffff>自身</color>畳加獲得以下效果\n- 每帯有1層本效果，使<color=#ffffff>自身</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+1%(最多+30%)\n- 不低于10層：基礎攻撃技能的<color=#ffffff>拼点威力</color>+1\n- 不低于20層：基礎攻撃技能的<color=#ffffff>硬幣威力</color>+1",
-      "summary": "満足特定条件時獲得本效果\n根据本效果層数相應使造成的<color=#ffffff>傷害</color>，<color=#ffffff>拼点威力</color>与<color=#ffffff>硬幣威力</color>増加"
-    },
-    {
-      "id": "CursedBlessing",
-      "name": "絶望的試錬",
-      "desc": "- 使<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>的挑釁値 +20\n- 使用攻撃技能時，使<color=#ffffff>自身</color>失去20点<color=#81BBE8>理智値</color>\n- <color=#ffffff>自身</color>陣亡時，使除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>失去20点<color=#81BBE8>理智値</color>",
-      "summary": ""
-    },
-    {
-      "id": "BeyondDespair",
-      "name": "超越絶望之人",
-      "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層守護 与1層強壮 \n- 使用守備技能時，使<color=#ffffff>自身</color>獲得3層忍耐 (<color=#7C5738>每回合</color>最多1次)\n- 拼点勝利時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(<color=#7C5738>每回合</color>最多2次)\n· 若<color=#ffffff>自身</color><color=#81BBE8>理智値</color>為最大値，則解除<color=#ffffff>自身</color>帯有的1種可解除的負面状態\n- 基礎技能結束時，対各个<color=#ffffff>敵方単位</color>造成該技能対其造成<color=#ffffff>傷害</color>量10%的<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>\n\n- 受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，該回合<color=#ffffff>自身</color>不会受到<color=#ffffff>傷害</color>(每場戦斗最多1次)\n· 触発以上效果后，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>恢復所有<color=#61DA61>体力</color>，<color=#7C5738>戦斗結束</color>前，<color=#ffffff>自身</color>每帯有1層守護 ，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%(最多+80%)",
-      "summary": ""
-    },
-    {
-      "id": "EmbeddedSpearhead",
-      "name": "刺入的槍尖",
-      "desc": "- 最大値：1\n- 受到除施加本效果的<color=#ffffff>目標</color>以外的<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>基礎攻撃技能<color=#ffffff>暴撃</color>攻撃時，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+15%\n- 受到帯有“連”效果的技能攻撃時，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>額外+20%\n- 受到技能攻撃后解除本效果",
-      "summary": ""
-    },
-    {
-      "id": "WalpuTenWedgeOffice",
-      "name": "楔子事務所",
-      "desc": "- 最大値：3\n- 每帯有1層本效果，使<color=#ffffff>自身</color>増加1級攻撃等級\n- <color=#7C5738>回合開始</color>時，若本效果層数為3層，則使<color=#ffffff>自身</color>獲得1層<color=#ffffff>突刺</color>傷害強化 \n- <color=#7C5738>回合開始</color>時，若除<color=#ffffff>自身</color>以外帯有“楔子事務所”的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>陣亡，則解除本效果",
-      "summary": ""
-    },
-    {
-      "id": "WalpuTenComboWedge",
-      "name": "勝机",
-      "desc": "- 最大値：30\n- 使用特定技能時消耗\n- <color=#7C5738>每回合</color>最多獲得20層本效果",
-      "summary": ""
-    },
-    {
-      "id": "WalpuTenBattleFieldKnow",
-      "name": "掌握戦况",
-      "desc": "- 最大値：4\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得2層呼吸法 \n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得(本效果層数×2)層呼吸法 \n- 根据本效果層数，相應使<color=#ffffff>自身</color>技能獲得以下效果\n· 不低于1層：対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+(本效果層数×2.5)%\n· 不低于2層：進行拼点時，每拼点2次，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1(最多+2)\n· 不低于3層：<color=#ffffff>硬幣威力</color>+1，使本技能的最后一枚硬幣轉化為不可摧毀的硬幣 \n· 不低于4層：直到攻撃結束時，使攻撃<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>抗性+0.1",
-      "summary": ""
-    },
-    {
-      "id": "WalpuTenWedgeMarkSilver",
-      "name": "銀色印記[楔]",
-      "desc": "- 最大値：5\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加1層震顫 \n- <color=#7C5738>回合開始</color>時，若場上没有属于楔子事務所的<color=#ffffff>敵方単位</color>，則解除本效果",
-      "summary": ""
-    },
-    {
-      "id": "WalpuTenWedgeMarkGold",
-      "name": "金色印記[楔]",
-      "desc": "- 最大値：5\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加1層震顫 \n- <color=#7C5738>回合開始</color>時，若場上没有属于楔子事務所的<color=#ffffff>敵方単位</color>，則解除本效果",
-      "summary": ""
-    },
-    {
-      "id": "DawnOfficeStigmaSOne",
-      "name": "黎明之火",
-      "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>増加1級焼傷 強度\n- <color=#7C5738>回合開始</color>時，每帯有10層本效果，対<color=#ffffff>自身</color>施加1層焼傷 \n- 若本效果層数不低于10層，則令<color=#ffffff>自身</color>基礎技能使<color=#ffffff>敵方単位</color>増加的焼傷 強度額外+1級\n- 若本效果層数不低于20層，則令<color=#ffffff>自身</color>基礎技能対<color=#ffffff>敵方単位</color>施加焼傷 層数額外+1層",
-      "summary": "",
-      "flavor": "照亮黎明的火焰，并非是燃焼某物的火，而是照耀着某人的火。"
-    },
-    {
-      "id": "DawnOfficeStigmaSTwo",
-      "name": "黎明之火",
-      "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>増加1級焼傷 強度\n- <color=#7C5738>回合開始</color>時，每帯有10層本效果，対<color=#ffffff>自身</color>施加1層焼傷 \n- 若本效果層数不低于10層，則令<color=#ffffff>自身</color>基礎技能使<color=#ffffff>敵方単位</color>増加的焼傷 強度額外+1級\n- 若本效果層数不低于20層，則令<color=#ffffff>自身</color>基礎技能対<color=#ffffff>敵方単位</color>施加焼傷 層数額外+1層",
-      "summary": "",
-      "flavor": "照亮黎明的火焰，并非是燃焼某物的火，而是照耀着某人的火。"
-    },
-    {
-      "id": "DawnOfficeStigmaSThree",
-      "name": "黎明之火",
-      "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>増加1級焼傷 強度\n- <color=#7C5738>回合開始</color>時，每帯有10層本效果，対<color=#ffffff>自身</color>施加1層焼傷 \n- 若本效果層数不低于10層，則令<color=#ffffff>自身</color>基礎技能使<color=#ffffff>敵方単位</color>増加的焼傷 強度額外+1級\n- 若本效果層数不低于20層，則令<color=#ffffff>自身</color>基礎技能対<color=#ffffff>敵方単位</color>施加焼傷 層数額外+1層",
-      "summary": "",
-      "flavor": "照亮黎明的火焰，并非是燃焼某物的火，而是照耀着某人的火。"
-    },
-    {
-      "id": "DawnOfficeStigmaYOne",
-      "name": "炎蝶之棺",
-      "desc": "- 最大値：30\n- 基礎技能命中時，使<color=#ffffff>自身</color>獲得3層本效果\n· 若該技能為通過被動“黎明事務所-前輩”使用的1技能，則額外獲得1層本效果\n· 若<color=#ffffff>目標</color>帯有焼傷 ，則額外獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若本效果層数不低于20層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相当于超過20層的本效果層数一半的焼傷 強度(向下取整)\n· 若本效果層数為30層，則改為使<color=#ffffff>自身</color>増加5級焼傷 強度并対<color=#ffffff>自身</color>施加2層焼傷 ",
-      "summary": "",
-      "flavor": "棺中被加熱過的蝴蝶們如同撲撃般飛出，将攻撃対象熔化并撕裂。\n\n“雖然対菲利普而言使用這把武器還太早了，不過先学習下它的特性也不錯……”\n“多虧棺中的数把刀刃，対付大量敵人的時候很方便。平時一个人完成起来很難的委托也能接下。”"
-    },
-    {
-      "id": "DawnOfficeStigmaYTwo",
-      "name": "炎蝶之棺",
-      "desc": "- 最大値：30\n- 基礎技能命中時，使<color=#ffffff>自身</color>獲得3層本效果\n· 若該技能為通過被動“黎明事務所-前輩”使用的1技能，則額外獲得1層本效果\n· 若<color=#ffffff>目標</color>帯有焼傷 ，則額外獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若本效果層数不低于20層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相当于超過20層的本效果層数一半的焼傷 強度(向下取整)\n· 若本效果層数為30層，則改為使<color=#ffffff>自身</color>増加5級焼傷 強度并対<color=#ffffff>自身</color>施加2層焼傷 ",
-      "summary": "",
-      "flavor": "棺中被加熱過的蝴蝶們如同撲撃般飛出，将攻撃対象熔化并撕裂。\n\n“雖然対菲利普而言使用這把武器還太早了，不過先学習下它的特性也不錯……”\n“多虧棺中的数把刀刃，対付大量敵人的時候很方便。平時一个人完成起来很難的委托也能接下。”"
-    },
-    {
-      "id": "DawnOfficeStigmaYThree",
-      "name": "炎蝶之棺",
-      "desc": "- 最大値：30\n- 基礎技能命中時，使<color=#ffffff>自身</color>獲得3層本效果\n· 若該技能為通過被動“黎明事務所-前輩”使用的1技能，則額外獲得1層本效果\n· 若<color=#ffffff>目標</color>帯有焼傷 ，則額外獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若本效果層数不低于20層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相当于超過20層的本效果層数一半的焼傷 強度(向下取整)\n· 若本效果層数為30層，則改為使<color=#ffffff>自身</color>増加5級焼傷 強度并対<color=#ffffff>自身</color>施加2層焼傷 ",
-      "summary": "",
-      "flavor": "棺中被加熱過的蝴蝶們如同撲撃般飛出，将攻撃対象熔化并撕裂。\n\n“雖然対菲利普而言使用這把武器還太早了，不過先学習下它的特性也不錯……”\n“多虧棺中的数把刀刃，対付大量敵人的時候很方便。平時一个人完成起来很難的委托也能接下。”"
-    },
-    {
-      "id": "LoneFixer",
-      "name": "孤独的收尾人",
-      "desc": "- <color=#ffffff>最終威力</color>+3\n- 攻撃等級+3\n- 防御等級+3",
-      "summary": ""
-    },
-    {
-      "id": "PhilipReady",
-      "name": "爆炎一撃准備",
-      "desc": "在一定回合后使用爆炎一撃",
-      "summary": ""
-    },
-    {
-      "id": "PhilipShield",
-      "name": "羽之盾",
-      "desc": "- 受到攻撃時，使攻撃者増加2級焼傷 強度\n- 受到来自攻撃的<color=#ffffff>傷害</color>-5%",
-      "summary": ""
-    },
-    {
-      "id": "PhilipSword",
-      "name": "燃焼之剣",
-      "desc": "攻撃命中時，使<color=#ffffff>目標</color>増加2級焼傷 強度",
-      "summary": ""
-    },
-    {
-      "id": "PhilipPower",
-      "name": "与悲傷一同奮起之路",
-      "desc": "- <color=#ffffff>自身</color>的技能結束時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n- 使<color=#ffffff>自身</color>対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+20%\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱并在該回合内使<color=#ffffff>自身</color>的所有抗性固定為1.5",
-      "summary": "",
-      "flavor": "“為了比任何人都悲傷的我自己……”"
-    },
-    {
-      "id": "PhilipWax",
-      "name": "无法確定的悲傷情感",
-      "desc": "- 最大値：5\n- 每帯有1層本效果，使最大焼傷 強度+10\n· 本效果減少或解除時，解除溢出的焼傷 強度\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到来自触発焼傷 的<color=#ffffff>傷害</color>+10%\n- 触発焼傷 時，本效果層数減少1層",
-      "summary": ""
-    },
-    {
-      "id": "PatronLibrarianofHistorysPage",
-      "name": "指定司書[暦史層]",
-      "desc": "- 該人格的<color=#ffffff>行動槽</color>+1，将該人格的一个1技能替換為3技能\n- <color=#ffffff>自身</color>技能施加的焼傷、流血、破裂、沈淪与震顫額外+1(特殊異常状態同様适用)\n- <color=#ffffff>自身</color>技能獲得的呼吸法与充能(<color=#FCC700>特殊充能</color>)額外+1\n- 使用<color=#ffffff>突刺</color>技能時，使該技能造成的<color=#ffffff>傷害</color>+30%\n- 技能命中時，随机獲得持有量最少的1个E.G.O資源(每个技能最多2次)",
-      "summary": ""
-    },
-    {
-      "id": "EmotionLevelZero",
-      "name": "情感等級0級",
-      "desc": "- 最大値：30\n- 直到<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数達到9層前，本效果層数不会高于9層\n- 拼点勝利時，硬幣正面命中時或<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時獲得3層本效果\n- 拼点失敗時，硬幣反面命中時或<color=#ffffff>友方単位</color>陣亡時獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数為9層，則使其額外獲得1層情感等級并使情感等級提升",
-      "summary": ""
-    },
-    {
-      "id": "EmotionLevelOne",
-      "name": "情感等級1級",
-      "desc": "- 最大値：30\n- <color=#ffffff>最終威力</color>+1\n- 直到<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数達到19層前，本效果層数不会高于19層\n- 拼点勝利時，硬幣正面命中時或<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時獲得3層本效果\n- 拼点失敗時，硬幣反面命中時或<color=#ffffff>友方単位</color>陣亡時獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数為19層，則使其額外獲得1層情感等級并使情感等級提升\n\n[指定司書専属]\n- 余燼：受到攻撃時，使攻撃者増加1~3級焼傷 強度。受到攻撃時，以40%的概率在<color=#7C5738>下回合</color>獲得“技能命中時，使<color=#ffffff>目標</color>増加1級焼傷 強度”效果(不可畳加)",
-      "summary": ""
-    },
-    {
-      "id": "EmotionLevelTwo",
-      "name": "情感等級2級",
-      "desc": "- 最大値：30\n- <color=#ffffff>最終威力</color>+2\n- 直到<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数達到29層前，本效果層数不会高于29層\n- 拼点勝利時，硬幣正面命中時或<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時獲得3層本效果\n- 拼点失敗時，硬幣反面命中時或<color=#ffffff>友方単位</color>陣亡時獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数為29層，則使其額外獲得1層情感等級并使情感等級提升\n\n[指定司書専属]\n- 余燼：受到攻撃時，使攻撃者増加1~3級焼傷 強度。受到攻撃時，以40%的概率在<color=#7C5738>下回合</color>獲得“技能命中時，使<color=#ffffff>目標</color>増加1級焼傷 強度”效果(不可畳加)\n- 令人懐念的昔日的擁抱：拼点勝利時，以20%的概率使<color=#ffffff>目標</color>震顫引爆 ，与同一<color=#ffffff>目標</color>拼点次数越多，概率越高(每次拼点増加2%，最多50%)",
-      "summary": ""
-    },
-    {
-      "id": "EmotionLevelThree",
-      "name": "情感等級3級",
-      "desc": "- 最大値：30\n- <color=#ffffff>最終威力</color>+3\n\n[指定司書専属]\n- 余燼：受到攻撃時，使攻撃者増加1~3級焼傷 強度。受到攻撃時，以40%的概率在<color=#7C5738>下回合</color>獲得“技能命中時，使<color=#ffffff>目標</color>増加1級焼傷 強度”效果(不可畳加)\n- 令人懐念的昔日的擁抱：拼点勝利時，以20%的概率使<color=#ffffff>目標</color>震顫引爆 ，与同一<color=#ffffff>目標</color>拼点次数越多，概率越高(每次拼点増加2%，最多50%)\n- 貪食：若<color=#ffffff>自身</color>的攻撃<color=#ffffff>目標</color>在<color=#7C5738>本回合</color>受到了<color=#ffffff>傷害</color>，則使<color=#ffffff>自身</color>命中時造成的<color=#ffffff>傷害</color>+1~3点并恢復2~5点<color=#61DA61>体力</color>",
-      "summary": ""
-    },
-    {
-      "id": "WalpuTenHard",
-      "name": "困難難度",
-      "desc": "- <color=#61DA61>体力</color>上限+50%\n- 移除<color=#ffffff>自身</color>第一<color=#ffffff>混乱閾値</color>\n- 攻撃等級+3\n- 焼傷 、流血 、震顫 、破裂 与沈淪 強度最多累積到30級，層数最多累積到10層\n- 受到的流血 、震顫、破裂 与沈淪 <color=#ffffff>傷害</color>-30%",
-      "summary": ""
-    },
-    {
-      "id": "HistoryAshes",
-      "name": "圖書館的書頁-余燼",
-      "desc": "受到攻撃時，使攻撃者増加1~3級焼傷 強度。受到攻撃時，以40%的概率在<color=#7C5738>下回合</color>獲得“技能命中時，使<color=#ffffff>目標</color>増加1級焼傷 強度”效果(不可畳加)",
-      "summary": "",
-      "flavor": "“焼得焦黑的身体代表那孩子支离破碎的希望，仍在燃焼的火焰則可以視作渴望愛的執着。”"
-    },
-    {
-      "id": "HistoryNostalgicEmbraceOfTheOldDays",
-      "name": "圖書館的書頁-令人懐念的昔日的擁抱",
-      "desc": "拼点勝利時，以20%的概率使<color=#ffffff>目標</color>震顫引爆 ，与同一<color=#ffffff>目標</color>拼点次数越多，概率越高(每次拼点増加2%，最多50%)",
-      "summary": "",
-      "flavor": "泰迪熊正緊緊抱着某人。泰迪熊非常喜歓擁抱。但好像有点奇怪。"
-    },
-    {
-      "id": "HistoryGluttony",
-      "name": "圖書館的書頁-貪食",
-      "desc": "若<color=#ffffff>自身</color>的攻撃<color=#ffffff>目標</color>在<color=#7C5738>本回合</color>受到了<color=#ffffff>傷害</color>，則使<color=#ffffff>自身</color>命中時造成的<color=#ffffff>傷害</color>+1~3点并恢復2~5点<color=#61DA61>体力</color>",
-      "summary": "",
-      "flavor": "精霊們只是喜好食肉的怪物而已，它們“保護”的行為只是為了避免肉的新鮮度下降。"
-    },
-    {
-      "id": "DawnOffice_LowMorale",
-      "name": "黎明事務所",
-      "desc": "- 士气低落\n- 対帯有焼傷 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>-5%\n- 対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+5%",
-      "summary": ""
-    },
-    {
-      "id": "DawnOffice_Panic",
-      "name": "黎明事務所",
-      "desc": "- 陷入恐慌\n- 対帯有焼傷 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>-10%\n- 対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+10%",
-      "summary": ""
-    },
-    {
-      "id": "WedgeOffice_LowMorale",
-      "name": "楔子事務所",
-      "desc": "- 士气低落\n- <color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>-5%\n- 対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+5%",
-      "summary": ""
-    },
-    {
-      "id": "WedgeOffice_Panic",
-      "name": "楔子事務所",
-      "desc": "- 陷入恐慌\n- <color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>-10%\n- 対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+10%",
-      "summary": ""
-    },
-    {
-      "id": "WaxWing_LowMorale",
-      "name": "蝋翼",
-      "desc": "- 士气低落\n- 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n- 対帯有焼傷的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%",
-      "summary": ""
-    },
-    {
-      "id": "WaxWing_Panic",
-      "name": "蝋翼",
-      "desc": "- 陷入恐慌\n- 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n- 対帯有焼傷的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+25%",
-      "summary": ""
-    }
-  ]
+    "dataList": [
+        {
+            "id": "Emulation",
+            "name": "效倣的姿勢",
+            "desc": "最大値：30\n満足以下条件時，獲得本效果\n- <color=#ffffff>自身</color>拼点勝利時，使<color=#ffffff>自身</color>獲得2層本效果;基礎攻撃技能命中時，使<color=#ffffff>自身</color>獲得1層本效果;攻撃后，若<color=#ffffff>敵方単位</color>陣亡，則使<color=#ffffff>自身</color>獲得3層本效果\n- 除<color=#ffffff>自身</color>以外的<color=#ffffff>友方単位</color>基礎攻撃技能拼点勝利時，使<color=#ffffff>自身</color>獲得2層本效果\n· 除<color=#ffffff>自身</color>以外与<color=#ffffff>自身</color>属于同一陣営的<color=#ffffff>友方単位</color>基礎攻撃技能拼点勝利時，改為使<color=#ffffff>自身</color>獲得4層本效果\n\n根据本效果層数，相應使<color=#ffffff>自身</color>畳加獲得以下效果\n- 每帯有1層本效果，使<color=#ffffff>自身</color>基礎攻撃技能造成的<color=#ffffff>傷害</color>+1%(最多+30%)\n- 不低于10層：基礎攻撃技能的<color=#ffffff>拼点威力</color>+1\n- 不低于20層：基礎攻撃技能的<color=#ffffff>硬幣威力</color>+1",
+            "summary": "満足特定条件時獲得本效果\n根据本效果層数相應使造成的<color=#ffffff>傷害</color>，<color=#ffffff>拼点威力</color>与<color=#ffffff>硬幣威力</color>増加"
+        },
+        {
+            "id": "CursedBlessing",
+            "name": "絶望的試錬",
+            "desc": "- 使<color=#ffffff>自身</color>所有<color=#ffffff>行動槽</color>的挑釁値 +20\n- 使用攻撃技能時，使<color=#ffffff>自身</color>失去20点<color=#81BBE8>理智値</color>\n- <color=#ffffff>自身</color>陣亡時，使除<color=#ffffff>自身</color>以外的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>失去20点<color=#81BBE8>理智値</color>",
+            "summary": ""
+        },
+        {
+            "id": "BeyondDespair",
+            "name": "超越絶望之人",
+            "desc": "- <color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>獲得2層守護 与1層強壮 \n- 使用守備技能時，使<color=#ffffff>自身</color>獲得3層忍耐 (<color=#7C5738>每回合</color>最多1次)\n- 拼点勝利時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>(<color=#7C5738>每回合</color>最多2次)\n· 若<color=#ffffff>自身</color><color=#81BBE8>理智値</color>為最大値，則解除<color=#ffffff>自身</color>帯有的1種可解除的負面状態\n- 基礎技能結束時，対各个<color=#ffffff>敵方単位</color>造成該技能対其造成<color=#ffffff>傷害</color>量10%的<color=#044ED6>傲慢</color><color=#ffffff>傷害</color>\n\n- 受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，該回合<color=#ffffff>自身</color>不会受到<color=#ffffff>傷害</color>(每場戦斗最多1次)\n· 触発以上效果后，<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>恢復所有<color=#61DA61>体力</color>，<color=#7C5738>戦斗結束</color>前，<color=#ffffff>自身</color>每帯有1層守護 ，使<color=#ffffff>自身</color>造成的<color=#ffffff>傷害</color>+10%(最多+80%)",
+            "summary": ""
+        },
+        {
+            "id": "EmbeddedSpearhead",
+            "name": "刺入的槍尖",
+            "desc": "- 最大値：1\n- 受到除施加本效果的<color=#ffffff>目標</color>以外的<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>基礎攻撃技能<color=#ffffff>暴撃</color>攻撃時，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>+15%\n- 受到帯有“連”效果的技能攻撃時，使<color=#ffffff>自身</color>受到的<color=#ffffff>傷害</color>額外+20%\n- 受到技能攻撃后解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "WalpuTenWedgeOffice",
+            "name": "楔子事務所",
+            "desc": "- 最大値：3\n- 每帯有1層本效果，使<color=#ffffff>自身</color>増加1級攻撃等級\n- <color=#7C5738>回合開始</color>時，若本效果層数為3層，則使<color=#ffffff>自身</color>獲得1層<color=#ffffff>突刺</color>傷害強化 \n- <color=#7C5738>回合開始</color>時，若除<color=#ffffff>自身</color>以外帯有“楔子事務所”的<color=#ffffff>全体</color><color=#ffffff>友方単位</color>陣亡，則解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "WalpuTenComboWedge",
+            "name": "勝机",
+            "desc": "- 最大値：30\n- 使用特定技能時消耗\n- <color=#7C5738>每回合</color>最多獲得20層本效果",
+            "summary": ""
+        },
+        {
+            "id": "WalpuTenBattleFieldKnow",
+            "name": "掌握戦况",
+            "desc": "- 最大値：4\n- 獲得本效果時，使<color=#ffffff>自身</color>獲得2層呼吸法 \n- <color=#7C5738>回合結束</color>時，使<color=#ffffff>自身</color>獲得(本效果層数×2)層呼吸法 \n- 根据本效果層数，相應使<color=#ffffff>自身</color>技能獲得以下效果\n· 不低于1層：対<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+(本效果層数×2.5)%\n· 不低于2層：進行拼点時，每拼点2次，使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1(最多+2)\n· 不低于3層：<color=#ffffff>硬幣威力</color>+1，使本技能的最后一枚硬幣轉化為不可摧毀的硬幣 \n· 不低于4層：直到攻撃結束時，使攻撃<color=#ffffff>目標</color>的<color=#ffffff>突刺</color>抗性+0.1",
+            "summary": ""
+        },
+        {
+            "id": "WalpuTenWedgeMarkSilver",
+            "name": "銀色印記[楔]",
+            "desc": "- 最大値：5\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加1層震顫 \n- <color=#7C5738>回合開始</color>時，若場上没有属于楔子事務所的<color=#ffffff>敵方単位</color>，則解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "WalpuTenWedgeMarkGold",
+            "name": "金色印記[楔]",
+            "desc": "- 最大値：5\n- <color=#7C5738>回合結束</color>時，対<color=#ffffff>自身</color>施加1層震顫 \n- <color=#7C5738>回合開始</color>時，若場上没有属于楔子事務所的<color=#ffffff>敵方単位</color>，則解除本效果",
+            "summary": ""
+        },
+        {
+            "id": "DawnOfficeStigmaSOne",
+            "name": "黎明之火",
+            "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>増加1級焼傷 強度\n- <color=#7C5738>回合開始</color>時，每帯有10層本效果，対<color=#ffffff>自身</color>施加1層焼傷 \n- 若本效果層数不低于10層，則令<color=#ffffff>自身</color>基礎技能使<color=#ffffff>敵方単位</color>増加的焼傷 強度額外+1級\n- 若本效果層数不低于20層，則令<color=#ffffff>自身</color>基礎技能対<color=#ffffff>敵方単位</color>施加焼傷 層数額外+1層",
+            "summary": "",
+            "flavor": "照亮黎明的火焰，并非是燃焼某物的火，而是照耀着某人的火。"
+        },
+        {
+            "id": "DawnOfficeStigmaSTwo",
+            "name": "黎明之火",
+            "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>増加1級焼傷 強度\n- <color=#7C5738>回合開始</color>時，每帯有10層本效果，対<color=#ffffff>自身</color>施加1層焼傷 \n- 若本效果層数不低于10層，則令<color=#ffffff>自身</color>基礎技能使<color=#ffffff>敵方単位</color>増加的焼傷 強度額外+1級\n- 若本效果層数不低于20層，則令<color=#ffffff>自身</color>基礎技能対<color=#ffffff>敵方単位</color>施加焼傷 層数額外+1層",
+            "summary": "",
+            "flavor": "照亮黎明的火焰，并非是燃焼某物的火，而是照耀着某人的火。"
+        },
+        {
+            "id": "DawnOfficeStigmaSThree",
+            "name": "黎明之火",
+            "desc": "- 最大値：30\n- <color=#7C5738>回合開始</color>時，每帯有5層本效果，使<color=#ffffff>自身</color>増加1級焼傷 強度\n- <color=#7C5738>回合開始</color>時，每帯有10層本效果，対<color=#ffffff>自身</color>施加1層焼傷 \n- 若本效果層数不低于10層，則令<color=#ffffff>自身</color>基礎技能使<color=#ffffff>敵方単位</color>増加的焼傷 強度額外+1級\n- 若本效果層数不低于20層，則令<color=#ffffff>自身</color>基礎技能対<color=#ffffff>敵方単位</color>施加焼傷 層数額外+1層",
+            "summary": "",
+            "flavor": "照亮黎明的火焰，并非是燃焼某物的火，而是照耀着某人的火。"
+        },
+        {
+            "id": "DawnOfficeStigmaYOne",
+            "name": "炎蝶之棺",
+            "desc": "- 最大値：30\n- 基礎技能命中時，使<color=#ffffff>自身</color>獲得3層本效果\n· 若該技能為通過被動“黎明事務所-前輩”使用的1技能，則額外獲得1層本效果\n· 若<color=#ffffff>目標</color>帯有焼傷 ，則額外獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若本效果層数不低于20層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相当于超過20層的本效果層数一半的焼傷 強度(向下取整)\n· 若本效果層数為30層，則改為使<color=#ffffff>自身</color>増加5級焼傷 強度并対<color=#ffffff>自身</color>施加2層焼傷 ",
+            "summary": "",
+            "flavor": "棺中被加熱過的蝴蝶們如同撲撃般飛出，将攻撃対象熔化并撕裂。\n\n“雖然対菲利普而言使用這把武器還太早了，不過先学習下它的特性也不錯……”\n“多虧棺中的数把刀刃，対付大量敵人的時候很方便。平時一个人完成起来很難的委托也能接下。”"
+        },
+        {
+            "id": "DawnOfficeStigmaYTwo",
+            "name": "炎蝶之棺",
+            "desc": "- 最大値：30\n- 基礎技能命中時，使<color=#ffffff>自身</color>獲得3層本效果\n· 若該技能為通過被動“黎明事務所-前輩”使用的1技能，則額外獲得1層本效果\n· 若<color=#ffffff>目標</color>帯有焼傷 ，則額外獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若本效果層数不低于20層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相当于超過20層的本效果層数一半的焼傷 強度(向下取整)\n· 若本效果層数為30層，則改為使<color=#ffffff>自身</color>増加5級焼傷 強度并対<color=#ffffff>自身</color>施加2層焼傷 ",
+            "summary": "",
+            "flavor": "棺中被加熱過的蝴蝶們如同撲撃般飛出，将攻撃対象熔化并撕裂。\n\n“雖然対菲利普而言使用這把武器還太早了，不過先学習下它的特性也不錯……”\n“多虧棺中的数把刀刃，対付大量敵人的時候很方便。平時一个人完成起来很難的委托也能接下。”"
+        },
+        {
+            "id": "DawnOfficeStigmaYThree",
+            "name": "炎蝶之棺",
+            "desc": "- 最大値：30\n- 基礎技能命中時，使<color=#ffffff>自身</color>獲得3層本效果\n· 若該技能為通過被動“黎明事務所-前輩”使用的1技能，則額外獲得1層本效果\n· 若<color=#ffffff>目標</color>帯有焼傷 ，則額外獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若本效果層数不低于20層，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>増加相当于超過20層的本效果層数一半的焼傷 強度(向下取整)\n· 若本效果層数為30層，則改為使<color=#ffffff>自身</color>増加5級焼傷 強度并対<color=#ffffff>自身</color>施加2層焼傷 ",
+            "summary": "",
+            "flavor": "棺中被加熱過的蝴蝶們如同撲撃般飛出，将攻撃対象熔化并撕裂。\n\n“雖然対菲利普而言使用這把武器還太早了，不過先学習下它的特性也不錯……”\n“多虧棺中的数把刀刃，対付大量敵人的時候很方便。平時一个人完成起来很難的委托也能接下。”"
+        },
+        {
+            "id": "LoneFixer",
+            "name": "孤独的收尾人",
+            "desc": "- <color=#ffffff>最終威力</color>+3\n- 攻撃等級+3\n- 防御等級+3",
+            "summary": ""
+        },
+        {
+            "id": "PhilipReady",
+            "name": "爆炎一撃准備",
+            "desc": "在一定回合后使用爆炎一撃",
+            "summary": ""
+        },
+        {
+            "id": "PhilipShield",
+            "name": "羽之盾",
+            "desc": "- 受到攻撃時，使攻撃者増加2級焼傷 強度\n- 受到来自攻撃的<color=#ffffff>傷害</color>-5%",
+            "summary": ""
+        },
+        {
+            "id": "PhilipSword",
+            "name": "燃焼之剣",
+            "desc": "攻撃命中時，使<color=#ffffff>目標</color>増加2級焼傷 強度",
+            "summary": ""
+        },
+        {
+            "id": "PhilipPower",
+            "name": "与悲傷一同奮起之路",
+            "desc": "- <color=#ffffff>自身</color>的技能結束時，使<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n- 使<color=#ffffff>自身</color>対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+20%\n- <color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱并在該回合内使<color=#ffffff>自身</color>的所有抗性固定為1.5",
+            "summary": "",
+            "flavor": "“為了比任何人都悲傷的我自己……”"
+        },
+        {
+            "id": "PhilipWax",
+            "name": "无法確定的悲傷情感",
+            "desc": "- 最大値：5\n- 每帯有1層本效果，使最大焼傷 強度+10\n· 本效果減少或解除時，解除溢出的焼傷 強度\n- 每帯有1層本效果，使<color=#ffffff>自身</color>受到来自触発焼傷 的<color=#ffffff>傷害</color>+10%\n- 触発焼傷 時，本效果層数減少1層",
+            "summary": ""
+        },
+        {
+            "id": "PatronLibrarianofHistorysPage",
+            "name": "指定司書[暦史層]",
+            "desc": "- 該人格的<color=#ffffff>行動槽</color>+1，将該人格的一个1技能替換為3技能\n- <color=#ffffff>自身</color>技能施加的焼傷、流血、破裂、沈淪与震顫額外+1(特殊異常状態同様适用)\n- <color=#ffffff>自身</color>技能獲得的呼吸法与充能(<color=#FCC700>特殊充能</color>)額外+1\n- 使用<color=#ffffff>突刺</color>技能時，使該技能造成的<color=#ffffff>傷害</color>+30%\n- 技能命中時，随机獲得持有量最少的1个E.G.O資源(每个技能最多2次)",
+            "summary": ""
+        },
+        {
+            "id": "EmotionLevelZero",
+            "name": "情感等級0級",
+            "desc": "- 最大値：30\n- 直到<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数達到9層前，本效果層数不会高于9層\n- 拼点勝利時，硬幣正面命中時或<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時獲得3層本效果\n- 拼点失敗時，硬幣反面命中時或<color=#ffffff>友方単位</color>陣亡時獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数為9層，則使其額外獲得1層情感等級并使情感等級提升",
+            "summary": ""
+        },
+        {
+            "id": "EmotionLevelOne",
+            "name": "情感等級1級",
+            "desc": "- 最大値：30\n- <color=#ffffff>最終威力</color>+1\n- 直到<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数達到19層前，本效果層数不会高于19層\n- 拼点勝利時，硬幣正面命中時或<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時獲得3層本效果\n- 拼点失敗時，硬幣反面命中時或<color=#ffffff>友方単位</color>陣亡時獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数為19層，則使其額外獲得1層情感等級并使情感等級提升\n\n[指定司書専属]\n- 余燼：受到攻撃時，使攻撃者増加1~3級焼傷 強度。受到攻撃時，以40%的概率在<color=#7C5738>下回合</color>獲得“技能命中時，使<color=#ffffff>目標</color>増加1級焼傷 強度”效果(不可畳加)",
+            "summary": ""
+        },
+        {
+            "id": "EmotionLevelTwo",
+            "name": "情感等級2級",
+            "desc": "- 最大値：30\n- <color=#ffffff>最終威力</color>+2\n- 直到<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数達到29層前，本效果層数不会高于29層\n- 拼点勝利時，硬幣正面命中時或<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時獲得3層本效果\n- 拼点失敗時，硬幣反面命中時或<color=#ffffff>友方単位</color>陣亡時獲得1層本效果\n- <color=#7C5738>回合結束</color>時，若<color=#ffffff>全体</color><color=#ffffff>友方単位</color>的情感等級層数為29層，則使其額外獲得1層情感等級并使情感等級提升\n\n[指定司書専属]\n- 余燼：受到攻撃時，使攻撃者増加1~3級焼傷 強度。受到攻撃時，以40%的概率在<color=#7C5738>下回合</color>獲得“技能命中時，使<color=#ffffff>目標</color>増加1級焼傷 強度”效果(不可畳加)\n- 令人懐念的昔日的擁抱：拼点勝利時，以20%的概率使<color=#ffffff>目標</color>震顫引爆 ，与同一<color=#ffffff>目標</color>拼点次数越多，概率越高(每次拼点増加2%，最多50%)",
+            "summary": ""
+        },
+        {
+            "id": "EmotionLevelThree",
+            "name": "情感等級3級",
+            "desc": "- 最大値：30\n- <color=#ffffff>最終威力</color>+3\n\n[指定司書専属]\n- 余燼：受到攻撃時，使攻撃者増加1~3級焼傷 強度。受到攻撃時，以40%的概率在<color=#7C5738>下回合</color>獲得“技能命中時，使<color=#ffffff>目標</color>増加1級焼傷 強度”效果(不可畳加)\n- 令人懐念的昔日的擁抱：拼点勝利時，以20%的概率使<color=#ffffff>目標</color>震顫引爆 ，与同一<color=#ffffff>目標</color>拼点次数越多，概率越高(每次拼点増加2%，最多50%)\n- 貪食：若<color=#ffffff>自身</color>的攻撃<color=#ffffff>目標</color>在<color=#7C5738>本回合</color>受到了<color=#ffffff>傷害</color>，則使<color=#ffffff>自身</color>命中時造成的<color=#ffffff>傷害</color>+1~3点并恢復2~5点<color=#61DA61>体力</color>",
+            "summary": ""
+        },
+        {
+            "id": "WalpuTenHard",
+            "name": "困難難度",
+            "desc": "- <color=#61DA61>体力</color>上限+50%\n- 移除<color=#ffffff>自身</color>第一<color=#ffffff>混乱閾値</color>\n- 攻撃等級+3\n- 焼傷 、流血 、震顫 、破裂 与沈淪 強度最多累積到30級，層数最多累積到10層\n- 受到的流血 、震顫、破裂 与沈淪 <color=#ffffff>傷害</color>-30%",
+            "summary": ""
+        },
+        {
+            "id": "HistoryAshes",
+            "name": "圖書館的書頁-余燼",
+            "desc": "受到攻撃時，使攻撃者増加1~3級焼傷 強度。受到攻撃時，以40%的概率在<color=#7C5738>下回合</color>獲得“技能命中時，使<color=#ffffff>目標</color>増加1級焼傷 強度”效果(不可畳加)",
+            "summary": "",
+            "flavor": "“焼得焦黑的身体代表那孩子支离破碎的希望，仍在燃焼的火焰則可以視作渴望愛的執着。”"
+        },
+        {
+            "id": "HistoryNostalgicEmbraceOfTheOldDays",
+            "name": "圖書館的書頁-令人懐念的昔日的擁抱",
+            "desc": "拼点勝利時，以20%的概率使<color=#ffffff>目標</color>震顫引爆 ，与同一<color=#ffffff>目標</color>拼点次数越多，概率越高(每次拼点増加2%，最多50%)",
+            "summary": "",
+            "flavor": "泰迪熊正緊緊抱着某人。泰迪熊非常喜歓擁抱。但好像有点奇怪。"
+        },
+        {
+            "id": "HistoryGluttony",
+            "name": "圖書館的書頁-貪食",
+            "desc": "若<color=#ffffff>自身</color>的攻撃<color=#ffffff>目標</color>在<color=#7C5738>本回合</color>受到了<color=#ffffff>傷害</color>，則使<color=#ffffff>自身</color>命中時造成的<color=#ffffff>傷害</color>+1~3点并恢復2~5点<color=#61DA61>体力</color>",
+            "summary": "",
+            "flavor": "精霊們只是喜好食肉的怪物而已，它們“保護”的行為只是為了避免肉的新鮮度下降。"
+        },
+        {
+            "id": "DawnOffice_LowMorale",
+            "name": "黎明事務所",
+            "desc": "- 士气低落\n- 対帯有焼傷 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>-5%\n- 対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+5%",
+            "summary": ""
+        },
+        {
+            "id": "DawnOffice_Panic",
+            "name": "黎明事務所",
+            "desc": "- 陷入恐慌\n- 対帯有焼傷 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>-10%\n- 対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+10%",
+            "summary": ""
+        },
+        {
+            "id": "WedgeOffice_LowMorale",
+            "name": "楔子事務所",
+            "desc": "- 士气低落\n- <color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>-5%\n- 対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+5%",
+            "summary": ""
+        },
+        {
+            "id": "WedgeOffice_Panic",
+            "name": "楔子事務所",
+            "desc": "- 陷入恐慌\n- <color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>-10%\n- 対帯有震顫 的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>混乱閾値</color>前移量+10%",
+            "summary": ""
+        },
+        {
+            "id": "WaxWing_LowMorale",
+            "name": "蝋翼",
+            "desc": "- 士气低落\n- 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n- 対帯有焼傷的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+10%",
+            "summary": ""
+        },
+        {
+            "id": "WaxWing_Panic",
+            "name": "蝋翼",
+            "desc": "- 陷入恐慌\n- 対<color=#ffffff>自身</color>施加1層<color=#ffffff>易損</color> \n- 対帯有焼傷的<color=#ffffff>敵方単位</color>造成的<color=#ffffff>傷害</color>+25%",
+            "summary": ""
+        }
+    ]
 }

@@ -1,1294 +1,1294 @@
 {
-  "dataList": [
-    {
-      "id": 158001,
-      "levelList": [
+    "dataList": [
         {
-          "level": 1,
-          "name": "委托処理",
-          "desc": "[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158001,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                    "level": 1,
+                    "name": "委托処理",
+                    "desc": "[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158002,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "黎明閃光",
-          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[DawnOfficeStigmaSOne]層数不低于15層，則額外使用本技能的第2枚硬幣1次，且額外使用的硬幣為[SuperCoin] ",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158002,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                    "level": 1,
+                    "name": "黎明閃光",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[DawnOfficeStigmaSOne]層数不低于15層，則額外使用本技能的第2枚硬幣1次，且額外使用的硬幣為[SuperCoin] ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158003,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "霞光剣刃",
-          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[DawnOfficeStigmaSOne]層数不低于15層，則触発以下效果\n- 額外使用本技能的第3枚硬幣1次，且額外使用的硬幣為[SuperCoin] \n- 額外使用的硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158003,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Combustion]強度"
+                    "level": 1,
+                    "name": "霞光剣刃",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[DawnOfficeStigmaSOne]層数不低于15層，則触発以下效果\n- 額外使用本技能的第3枚硬幣1次，且額外使用的硬幣為[SuperCoin] \n- 額外使用的硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158004,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "撕裂黎明之剣",
-          "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaSOne]，使本技能的<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158004,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]"
+                    "level": 1,
+                    "name": "撕裂黎明之剣",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaSOne]，使本技能的<color=#ffffff>最終威力</color>+1，造成的<color=#ffffff>傷害</color>+10%\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]1次，并使其[Combustion]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]1次，并使其[Combustion]層数減少1層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158005,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "黎明将至",
-          "desc": "[WhenUse] 每指定1名<color=#ffffff>目標</color>，使本技能造成的<color=#ffffff>傷害</color>+20%(最多+60%)\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[EndSkill] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度之和×2)%的<color=#61DA61>体力</color>(最多30%)\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[DawnOfficeStigmaSOne]与[Combustion]",
-          "flavor": "烟霾戦争那些激戦中的戦場之一。于該処，将某位决戦兵器所剩的最后一対翅膀与空間一同熔化的，宣告黎明終結的技術。\n\n“哈……差点就見鬼去了……”\n“喂。那个怪物……袮能……稿得定麼？”",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158005,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]"
+                    "level": 1,
+                    "name": "黎明将至",
+                    "desc": "[WhenUse] 每指定1名<color=#ffffff>目標</color>，使本技能造成的<color=#ffffff>傷害</color>+20%(最多+60%)\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[EndSkill] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度之和×2)%的<color=#61DA61>体力</color>(最多30%)\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[DawnOfficeStigmaSOne]与[Combustion]",
+                    "flavor": "烟霾戦争那些激戦中的戦場之一。于該処，将某位决戦兵器所剩的最后一対翅膀与空間一同熔化的，宣告黎明終結的技術。\n\n“哈……差点就見鬼去了……”\n“喂。那个怪物……袮能……稿得定麼？”",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158006,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "守護者",
-          "desc": "[CanDuelGuard]\n[StartBattle] 使<color=#ffffff>自身</color>獲得1層[SupportProtect]\n[StartBattle] 使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限20%的<color=#81BBE8>護盾</color>\n[StartBattle] 使<color=#ffffff>自身</color>獲得層数相当于帯有[Combustion]的<color=#ffffff>敵方単位</color>数的[Protection]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158006,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
+                    "level": 1,
+                    "name": "守護者",
+                    "desc": "[CanDuelGuard]\n[StartBattle] 使<color=#ffffff>自身</color>獲得1層[SupportProtect]\n[StartBattle] 使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限20%的<color=#81BBE8>護盾</color>\n[StartBattle] 使<color=#ffffff>自身</color>獲得層数相当于帯有[Combustion]的<color=#ffffff>敵方単位</color>数的[Protection]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158007,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "熱浪",
-          "desc": "[DuelCounter]\n[SupportProtect]専用技能\n[WhenUse] 使<color=#ffffff>自身</color>獲得5層[DawnOfficeStigmaSOne]\n[WhenUse] 使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復6点<color=#81BBE8>理智値</color>",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158007,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]"
+                    "level": 1,
+                    "name": "熱浪",
+                    "desc": "[DuelCounter]\n[SupportProtect]専用技能\n[WhenUse] 使<color=#ffffff>自身</color>獲得5層[DawnOfficeStigmaSOne]\n[WhenUse] 使<color=#ffffff>全体</color><color=#ffffff>友方単位</color>恢復6点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158101,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "委托処理",
-          "desc": "[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158101,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                    "level": 1,
+                    "name": "委托処理",
+                    "desc": "[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PlusCoinValueUp]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PlusCoinValueUp]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158102,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "蝶斬",
-          "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得6層[DawnOfficeStigmaYOne]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158102,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Combustion]強度"
+                    "level": 1,
+                    "name": "蝶斬",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得6層[DawnOfficeStigmaYOne]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加3級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多2次)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "<color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多2次)"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158103,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "迸射",
-          "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得8層[DawnOfficeStigmaYOne]\n[WhenUse] <color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，使本技能的<color=#ffffff>最終威力</color>+1\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158103,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]"
+                    "level": 1,
+                    "name": "迸射",
+                    "desc": "[WhenUse] 使<color=#ffffff>自身</color>獲得8層[DawnOfficeStigmaYOne]\n[WhenUse] <color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，使本技能的<color=#ffffff>最終威力</color>+1\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]1次，并使其[Combustion]層数減少1層"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多2次)"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]1次，并使其[Combustion]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]1次，并使其[Combustion]層数減少1層"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "<color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多2次)"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]1次，并使其[Combustion]層数減少1層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158104,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "迸射-正午",
-          "desc": "[WideAreaRampage]\n[WhenUse] 每指定1名<color=#ffffff>目標</color>，使本技能造成的<color=#ffffff>傷害</color>+20%(最多+60%)\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[BeforeAttack] 使本技能的<color=#ffffff>全体</color><color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]\n[EndSkill] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度之和)%的<color=#61DA61>体力</color>(最多15%)\n[EndSkill] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[Combustion]強度)%的<color=#61DA61>体力</color>(最多15%)\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[DawnOfficeStigmaYOne]与[Combustion]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158104,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                    "level": 1,
+                    "name": "迸射-正午",
+                    "desc": "[WideAreaRampage]\n[WhenUse] 每指定1名<color=#ffffff>目標</color>，使本技能造成的<color=#ffffff>傷害</color>+20%(最多+60%)\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[BeforeAttack] 使本技能的<color=#ffffff>全体</color><color=#ffffff>目標</color>[Switch_Vibration]為[VibrationIgnition]\n[EndSkill] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>全体</color><color=#ffffff>目標</color>的[Combustion]強度之和)%的<color=#61DA61>体力</color>(最多15%)\n[EndSkill] 使<color=#ffffff>自身</color>恢復<color=#61DA61>体力</color>上限(<color=#ffffff>自身</color>的[Combustion]強度)%的<color=#61DA61>体力</color>(最多15%)\n[EndSkill] 消耗<color=#ffffff>自身</color>所有[DawnOfficeStigmaYOne]与[Combustion]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多2次)"
+                                },
+                                {
+                                    "desc": "- <color=#ffffff>重復使用</color>時，本硬幣会命中<color=#ffffff>全体</color>攻撃<color=#ffffff>目標</color>"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack]"
+                                },
+                                {
+                                    "desc": "- [UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次"
+                                },
+                                {
+                                    "desc": "- [UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "<color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，<color=#ffffff>重復使用</color>本硬幣1次(每个技能最多2次)"
-                },
-                {
-                  "desc": "- <color=#ffffff>重復使用</color>時，本硬幣会命中<color=#ffffff>全体</color>攻撃<color=#ffffff>目標</color>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Combustion]強度"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack]"
-                },
-                {
-                  "desc": "- [UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次"
-                },
-                {
-                  "desc": "- [UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158105,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "烙印",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>回合開始時自身每帯有10層[DawnOfficeStigmaYOne]，自身受到攻撃時重復使用1次本技能(最多2次)</color></mark></b></u>\n[StartBattle] 自身每帯有2層[DawnOfficeStigmaYOne]，使本技能的最終威力+1(最多+5)\n[StartBattle] 使自身獲得層数相当于帯有[Combustion]的敵方単位数的[DefenseUp]\n[WhenUse] 自身每帯有10層[DawnOfficeStigmaYOne]，令本技能施加的負面状態額外+1",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158105,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Combustion]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]"
+                    "level": 1,
+                    "name": "烙印",
+                    "desc": "<color=#ff6000><mark color=#ff000040><b><u>回合開始時自身每帯有10層[DawnOfficeStigmaYOne]，自身受到攻撃時重復使用1次本技能(最多2次)</color></mark></b></u>\n[StartBattle] 自身每帯有2層[DawnOfficeStigmaYOne]，使本技能的最終威力+1(最多+5)\n[StartBattle] 使自身獲得層数相当于帯有[Combustion]的敵方単位数的[DefenseUp]\n[WhenUse] 自身每帯有10層[DawnOfficeStigmaYOne]，令本技能施加的負面状態額外+1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158106,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "聯合",
-          "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有1層[DawnOfficeStigmaYOne]，使本技能造成的<color=#ffffff>傷害</color>+2%;<color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158106,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
+                    "level": 1,
+                    "name": "聯合",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有1層[DawnOfficeStigmaYOne]，使本技能造成的<color=#ffffff>傷害</color>+2%;<color=#ffffff>自身</color>每帯有10層[DawnOfficeStigmaYOne]，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Combustion]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158201,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "委托処理",
-          "desc": "[BeforeAttack] 使<color=#ffffff>自身</color>恢復20点<color=#81BBE8>理智値</color>\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158201,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                    "level": 1,
+                    "name": "委托処理",
+                    "desc": "[BeforeAttack] 使<color=#ffffff>自身</color>恢復20点<color=#81BBE8>理智値</color>\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158202,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "霞光剣刃",
-          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Combustion]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158202,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
+                    "level": 1,
+                    "name": "霞光剣刃",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Combustion]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Combustion]強度"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158203,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "烙印",
-          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Combustion]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[BeforeAttack] 使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158203,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度"
+                    "level": 1,
+                    "name": "烙印",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有4級[Combustion]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[BeforeAttack] 使<color=#ffffff>自身</color>恢復15点<color=#81BBE8>理智値</color>\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次，并使其[Combustion]層数減少2次"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次，并使其[Combustion]層数減少2次"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158204,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "閃避",
-          "desc": "[WhenUse] 目標每帯有4級[Combustion]強度，使本技能的最終威力+1(最多+3)\n<color=#ff6000><mark color=#ff000040><b><u>[OnSucceedEvade] 使自身恢復体力上限15%的体力</color></mark></b></u>",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158301,
-      "levelList": [
+            "id": 158204,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "閃避",
+                    "desc": "[WhenUse] 目標每帯有4級[Combustion]強度，使本技能的最終威力+1(最多+3)\n<color=#ff6000><mark color=#ff000040><b><u>[OnSucceedEvade] 使自身恢復体力上限15%的体力</color></mark></b></u>",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
         {
-          "level": 1,
-          "name": "快速突刺",
-          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[WalpuTenWedgeOffice]層数為3層，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WinDuel] 使<color=#ffffff>自身</color>獲得2層[Breath]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158301,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                    "level": 1,
+                    "name": "快速突刺",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[WalpuTenWedgeOffice]層数為3層，則使本技能的<color=#ffffff>拼点威力</color>+1\n[WinDuel] 使<color=#ffffff>自身</color>獲得2層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[CriticalOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[Vibration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158302,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "閃光之槍",
-          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[WalpuTenWedgeOffice]層数為3層，則使本技能的<color=#ffffff>拼点威力</color>+2\n[WinDuel] 使<color=#ffffff>自身</color>獲得2層[Breath]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158302,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度"
+                    "level": 1,
+                    "name": "閃光之槍",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[WalpuTenWedgeOffice]層数為3層，則使本技能的<color=#ffffff>拼点威力</color>+2\n[WinDuel] 使<color=#ffffff>自身</color>獲得2層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加3級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加1層[Vibration]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加1層[Vibration]"
-                },
-                {
-                  "desc": "[CriticalOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158303,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "貫穿",
-          "desc": "使本技能造成的傷害+(<color=#ff6000><mark color=#ff000040><b><u>目標現存体力比例</color></mark></b></u>-50)%(最多+50%，最少+0%)\n使本技能暴撃時造成的傷害+(自身的[Breath]強度与目標的[Vibration]強度之和×2.5)%(最多+50%)\n[WhenUse] 若自身的[WalpuTenWedgeOffice]層数為3層，則使本技能的拼点威力+6\n[WinDuel] 使自身増加2級[Breath]強度并使自身獲得3層[Breath]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158303,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態，</color></mark></b></u>則使本硬幣造成的傷害+50%"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加2層[Vibration]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[PenetrateTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層(每个技能最多1次)"
+                    "level": 1,
+                    "name": "貫穿",
+                    "desc": "使本技能造成的傷害+(<color=#ff6000><mark color=#ff000040><b><u>目標現存体力比例</color></mark></b></u>-50)%(最多+50%，最少+0%)\n使本技能暴撃時造成的傷害+(自身的[Breath]強度与目標的[Vibration]強度之和×2.5)%(最多+50%)\n[WhenUse] 若自身的[WalpuTenWedgeOffice]層数為3層，則使本技能的拼点威力+6\n[WinDuel] 使自身増加2級[Breath]強度并使自身獲得3層[Breath]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態，</color></mark></b></u>則使本硬幣造成的傷害+50%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度并対其施加2層[Vibration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[PenetrateTakeDamageUp](<color=#7C5738>每回合</color>最多1次)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層(每个技能最多1次)"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158304,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "展開楔形陣勢",
-          "desc": "本技能的攻撃容量高于攻撃目標数時，每高于1点，使本技能造成的傷害+30%\n[WhenUse]\n- 使自身獲得3層[Breath]\n- 除自身以外<color=#ff6000><mark color=#ff000040><b><u>每有1名可行動且属于楔子事務所的友方単位，使本技能的攻撃容量+1</color></mark></b></u>(最多+2)\n[EndSkill]\n- 消耗自身25層[WalpuTenComboWedge]\n- 下回合使自身獲得(本技能未使用的硬幣数×5)層[WalpuTenComboWedge]\n- 下回合使除自身以外属于楔子事務所的友方単位獲得1層[PenetrateResultUp]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158304,
+            "levelList": [
                 {
-                  "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅拉"
-                },
-                {
-                  "desc": "- 使本硬幣造成的<color=#ffffff>傷害</color>+30%"
-                },
-                {
-                  "desc": "- 本技能的最后一枚硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
+                    "level": 1,
+                    "name": "展開楔形陣勢",
+                    "desc": "本技能的攻撃容量高于攻撃目標数時，每高于1点，使本技能造成的傷害+30%\n[WhenUse]\n- 使自身獲得3層[Breath]\n- 除自身以外<color=#ff6000><mark color=#ff000040><b><u>每有1名可行動且属于楔子事務所的友方単位，使本技能的攻撃容量+1</color></mark></b></u>(最多+2)\n[EndSkill]\n- 消耗自身25層[WalpuTenComboWedge]\n- 下回合使自身獲得(本技能未使用的硬幣数×5)層[WalpuTenComboWedge]\n- 下回合使除自身以外属于楔子事務所的友方単位獲得1層[PenetrateResultUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅拉"
+                                },
+                                {
+                                    "desc": "- 使本硬幣造成的<color=#ffffff>傷害</color>+30%"
+                                },
+                                {
+                                    "desc": "- 本技能的最后一枚硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅莉"
+                                },
+                                {
+                                    "desc": "- 使本硬幣造成的<color=#ffffff>傷害</color>+30%"
+                                },
+                                {
+                                    "desc": "- 本技能的最后一枚硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+30%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅莉"
-                },
-                {
-                  "desc": "- 使本硬幣造成的<color=#ffffff>傷害</color>+30%"
-                },
-                {
-                  "desc": "- 本技能的最后一枚硬幣命中時，使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "使本硬幣<color=#ffffff>暴撃</color>時造成的<color=#ffffff>傷害</color>+30%"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158305,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "調整呼吸",
-          "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3級[Breath]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[OnSucceedEvade]\n- 使<color=#ffffff>自身</color>増加2級[Breath]強度(<color=#7C5738>每回合</color>最多3次)\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility](<color=#7C5738>每回合</color>最多1次)\n[EndBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp]与1層[PenetrateDamageUp](<color=#7C5738>每回合</color>最多1次)",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158306,
-      "levelList": [
+            "id": 158305,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "調整呼吸",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>每帯有3級[Breath]強度，使本技能的<color=#ffffff>硬幣威力</color>+1(最多+2)\n[OnSucceedEvade]\n- 使<color=#ffffff>自身</color>増加2級[Breath]強度(<color=#7C5738>每回合</color>最多3次)\n- <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[Agility](<color=#7C5738>每回合</color>最多1次)\n[EndBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp]与1層[PenetrateDamageUp](<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
         {
-          "level": 1,
-          "name": "退下叭",
-          "desc": "[DuelCounter]\n援護防御専用技能\n[WhenUse] <color=#ffffff>自身</color>每失去20%的<color=#61DA61>体力</color>，使本技能的<color=#ffffff>拼点威力</color>+1(最多+4)\n[WhenUse]\n- 使[SupportProtect]的<color=#ffffff>目標</color><color=#ffffff>友方単位</color>与<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n- 使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限15%的<color=#81BBE8>護盾</color>(<color=#7C5738>每回合</color>最多1次)\n- 使<color=#ffffff>自身</color>獲得2層[Protection](<color=#7C5738>每回合</color>最多1次)",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158306,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                    "level": 1,
+                    "name": "退下叭",
+                    "desc": "[DuelCounter]\n援護防御専用技能\n[WhenUse] <color=#ffffff>自身</color>每失去20%的<color=#61DA61>体力</color>，使本技能的<color=#ffffff>拼点威力</color>+1(最多+4)\n[WhenUse]\n- 使[SupportProtect]的<color=#ffffff>目標</color><color=#ffffff>友方単位</color>与<color=#ffffff>自身</color>恢復5点<color=#81BBE8>理智値</color>\n- 使<color=#ffffff>自身</color>獲得<color=#61DA61>体力</color>上限15%的<color=#81BBE8>護盾</color>(<color=#7C5738>每回合</color>最多1次)\n- 使<color=#ffffff>自身</color>獲得2層[Protection](<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加1級[Vibration]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158401,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "交鋒",
-          "desc": "[WhenUse] 自身的[Breath]強度与目標的[Vibration]強度之和每有4級，使本技能的最終威力+1(最多+3)\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅拉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 重復使用本技能最后一枚硬幣(每个技能最多1次)",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158401,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                    "level": 1,
+                    "name": "交鋒",
+                    "desc": "[WhenUse] 自身的[Breath]強度与目標的[Vibration]強度之和每有4級，使本技能的最終威力+1(最多+3)\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅拉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 重復使用本技能最后一枚硬幣(每个技能最多1次)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本硬幣造成的<color=#ffffff>傷害</color>+5%(最多+20%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WalpuTenWedgeMarkSilver]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "<color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本硬幣造成的<color=#ffffff>傷害</color>+5%(最多+20%)"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WalpuTenWedgeMarkSilver]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158402,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "乘勢",
-          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>増加3級[Breath]強度",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158402,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                    "level": 1,
+                    "name": "乘勢",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[WhenUse] 使<color=#ffffff>自身</color>増加3級[Breath]強度",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本硬幣造成的<color=#ffffff>傷害</color>+5%(最多+20%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "<color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本硬幣造成的<color=#ffffff>傷害</color>+5%(最多+20%)"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158403,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "長槍横掃",
-          "desc": "[WhenUse] 若自身的[Breath]強度与目標的[Vibration]強度之和不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅拉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 使本技能造成的傷害+30%",
-          "coinlist": [
-            {},
-            {
-              "coindescs": [
+            "id": 158403,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                    "level": 1,
+                    "name": "長槍横掃",
+                    "desc": "[WhenUse] 若自身的[Breath]強度与目標的[Vibration]強度之和不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅拉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 使本技能造成的傷害+30%",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本硬幣造成的<color=#ffffff>傷害</color>+10%(最多+40%)"
+                                },
+                                {
+                                    "desc": "<color=#ffffff>目標</color>每帯有1級[Vibration]強度，使本硬幣造成的<color=#ffffff>傷害</color>+2%(最多+20%)"
+                                },
+                                {
+                                    "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態</color></mark></b></u>，則使本硬幣造成的傷害+30%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少2層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "<color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本硬幣造成的<color=#ffffff>傷害</color>+10%(最多+40%)"
-                },
-                {
-                  "desc": "<color=#ffffff>目標</color>每帯有1級[Vibration]強度，使本硬幣造成的<color=#ffffff>傷害</color>+2%(最多+20%)"
-                },
-                {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態</color></mark></b></u>，則使本硬幣造成的傷害+30%"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少2層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158404,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "迅速行動，切實貫穿叭",
-          "desc": "目標每帯有1層[WalpuTenWedgeMarkSilver]，使本技能的拼点威力+1(最多+5)\n[WhenUse] 若自身的[Breath]強度与目標的[Vibration]強度之和不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] 使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅拉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 使本技能造成的傷害+30%\n[EndSkill] 消耗目標所有[WalpuTenWedgeMarkSilver]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158404,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                    "level": 1,
+                    "name": "迅速行動，切實貫穿叭",
+                    "desc": "目標每帯有1層[WalpuTenWedgeMarkSilver]，使本技能的拼点威力+1(最多+5)\n[WhenUse] 若自身的[Breath]強度与目標的[Vibration]強度之和不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] 使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅拉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 使本技能造成的傷害+30%\n[EndSkill] 消耗目標所有[WalpuTenWedgeMarkSilver]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本硬幣造成的<color=#ffffff>傷害</color>+10%(最多+40%)"
+                                },
+                                {
+                                    "desc": "<color=#ffffff>目標</color>每帯有1級[Vibration]強度，使本硬幣造成的<color=#ffffff>傷害</color>+2%(最多+40%)"
+                                },
+                                {
+                                    "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態</color></mark></b></u>，則使本硬幣造成的傷害+30%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(其[WalpuTenWedgeMarkSilver]層数×10)%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最多50%)"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少2層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "<color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本硬幣造成的<color=#ffffff>傷害</color>+10%(最多+40%)"
-                },
-                {
-                  "desc": "<color=#ffffff>目標</color>每帯有1級[Vibration]強度，使本硬幣造成的<color=#ffffff>傷害</color>+2%(最多+40%)"
-                },
-                {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態</color></mark></b></u>，則使本硬幣造成的傷害+30%"
-                },
-                {
-                  "desc": "[OnSucceedAttack] <color=#ffffff>重復使用</color>本硬幣(每个技能最多1次)"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>造成本硬幣最終<color=#ffffff>傷害</color>量(其[WalpuTenWedgeMarkSilver]層数×10)%的<color=#ffffff>突刺</color><color=#ffffff>傷害</color>(最多50%)"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少2層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158405,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "調整呼吸",
-          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[OnSucceedEvade] 使<color=#ffffff>自身</color>増加2級[Breath]強度(每个技能最多1次)\n[OnSucceedEvade] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility](<color=#7C5738>每回合</color>最多1次)\n[EndBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp](<color=#7C5738>每回合</color>最多1次)",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158501,
-      "levelList": [
+            "id": 158405,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "調整呼吸",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[OnSucceedEvade] 使<color=#ffffff>自身</color>増加2級[Breath]強度(每个技能最多1次)\n[OnSucceedEvade] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility](<color=#7C5738>每回合</color>最多1次)\n[EndBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp](<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
         {
-          "level": 1,
-          "name": "交鋒",
-          "desc": "[WhenUse] 自身的[Breath]強度与目標的[Vibration]強度之和每有4級，使本技能的最終威力+1(最多+3)\n[WhenUse] 使自身増加4級[Breath]強度\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅莉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 重復使用本技能最后一枚硬幣(每个技能最多1次)\n[WinDuel] 下回合使自身獲得1層[PenetrateDamageUp](每回合最多1次)\n[BeforeAttack] 自身每帯有1層[WalpuTenBattleFieldKnow]，使本技能最后一枚硬幣的最終威力+1(最多+2)",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158501,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WalpuTenWedgeMarkGold]"
+                    "level": 1,
+                    "name": "交鋒",
+                    "desc": "[WhenUse] 自身的[Breath]強度与目標的[Vibration]強度之和每有4級，使本技能的最終威力+1(最多+3)\n[WhenUse] 使自身増加4級[Breath]強度\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅莉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 重復使用本技能最后一枚硬幣(每个技能最多1次)\n[WinDuel] 下回合使自身獲得1層[PenetrateDamageUp](每回合最多1次)\n[BeforeAttack] 自身每帯有1層[WalpuTenBattleFieldKnow]，使本技能最后一枚硬幣的最終威力+1(最多+2)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加2級[Vibration]強度"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>施加1層[WalpuTenWedgeMarkGold]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158502,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "描准空隙",
-          "desc": "[WhenUse] <color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 使<color=#ffffff>自身</color>増加3級[Breath]強度\n[WinDuel] 使<color=#ffffff>目標</color>増加1級[Vibration]強度，使其[VibrationExplosion]，并使其[Vibration]層数減少1層\n[BeforeAttack] <color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本技能最后一枚硬幣的<color=#ffffff>最終威力</color>+1(最多+3)",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158502,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                    "level": 1,
+                    "name": "描准空隙",
+                    "desc": "[WhenUse] <color=#ffffff>自身</color>的[Breath]強度与<color=#ffffff>目標</color>的[Vibration]強度之和每有4級，使本技能的<color=#ffffff>最終威力</color>+1(最多+3)\n[WhenUse] 使<color=#ffffff>自身</color>増加3級[Breath]強度\n[WinDuel] 使<color=#ffffff>目標</color>増加1級[Vibration]強度，使其[VibrationExplosion]，并使其[Vibration]層数減少1層\n[BeforeAttack] <color=#ffffff>自身</color>每帯有1層[WalpuTenBattleFieldKnow]，使本技能最后一枚硬幣的<color=#ffffff>最終威力</color>+1(最多+3)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加2級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Vibration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158503,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "長槍横掃",
-          "desc": "[WhenUse] 若自身的[Breath]強度与目標的[Vibration]強度之和不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅莉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 使本技能造成的傷害+40%\n[WinDuel] 使目標増加2級[Vibration]強度，使其[VibrationExplosion]，并使其[Vibration]層数減少1層\n[BeforeAttack] 自身每帯有1層[WalpuTenBattleFieldKnow]，使本技能最后一枚硬幣的最終威力+1(最多+4)",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158503,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                    "level": 1,
+                    "name": "長槍横掃",
+                    "desc": "[WhenUse] 若自身的[Breath]強度与目標的[Vibration]強度之和不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅莉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 使本技能造成的傷害+40%\n[WinDuel] 使目標増加2級[Vibration]強度，使其[VibrationExplosion]，并使其[Vibration]層数減少1層\n[BeforeAttack] 自身每帯有1層[WalpuTenBattleFieldKnow]，使本技能最后一枚硬幣的最終威力+1(最多+4)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>目標</color>每帯有1級[Vibration]強度，使本硬幣造成的<color=#ffffff>傷害</color>+2%(最多+20%)"
+                                },
+                                {
+                                    "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態</color></mark></b></u>，則使本硬幣造成的傷害+30%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "<color=#ffffff>目標</color>每帯有1級[Vibration]強度，使本硬幣造成的<color=#ffffff>傷害</color>+2%(最多+20%)"
-                },
-                {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態</color></mark></b></u>，則使本硬幣造成的傷害+30%"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]，并使其[Vibration]層数減少1層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158504,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "不留空隙，切實貫穿叭",
-          "desc": "目標每帯有1層[WalpuTenWedgeMarkGold]，使本技能的拼点威力+1(最多+5)\n[WhenUse] 若自身的[Breath]強度与目標的[Vibration]強度之和不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] 使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅莉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 使本技能造成的傷害+30%\n[WinDuel] 使目標増加4級[Vibration]強度并使其[VibrationExplosion]\n[BeforeAttack] 自身的[WalpuTenBattleFieldKnow]層数与目標的[WalpuTenWedgeMarkGold]層数之和每有1層，使本技能最后一枚硬幣的最終威力+1(最多+8)\n[EndSkill] 消耗目標所有[WalpuTenWedgeMarkGold]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158504,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                    "level": 1,
+                    "name": "不留空隙，切實貫穿叭",
+                    "desc": "目標每帯有1層[WalpuTenWedgeMarkGold]，使本技能的拼点威力+1(最多+5)\n[WhenUse] 若自身的[Breath]強度与目標的[Vibration]強度之和不低于6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身増加2級[Breath]強度\n[WhenUse] 使本技能的所有硬幣轉化為[SuperCoin]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]：楔子事務所[TabExplain] 收尾人 帕梅莉</color></mark></b></u>(每回合最多1次)\n- 使自身獲得1層[WalpuTenBattleFieldKnow]\n- 使本技能造成的傷害+30%\n[WinDuel] 使目標増加4級[Vibration]強度并使其[VibrationExplosion]\n[BeforeAttack] 自身的[WalpuTenBattleFieldKnow]層数与目標的[WalpuTenWedgeMarkGold]層数之和每有1層，使本技能最后一枚硬幣的最終威力+1(最多+8)\n[EndSkill] 消耗目標所有[WalpuTenWedgeMarkGold]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>自身</color>増加4級[Breath]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "<color=#ffffff>目標</color>每帯有1級[Vibration]強度，使本硬幣造成的<color=#ffffff>傷害</color>+2%(最多+40%)"
+                                },
+                                {
+                                    "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態</color></mark></b></u>，則使本硬幣造成的傷害+30%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少2層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Vibration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "<color=#ffffff>目標</color>每帯有1級[Vibration]強度，使本硬幣造成的<color=#ffffff>傷害</color>+2%(最多+40%)"
-                },
-                {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>若目標処于[Switch_Vibration]或[FusionVibration]状態</color></mark></b></u>，則使本硬幣造成的傷害+30%"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 若<color=#ffffff>目標</color>未処于[Switch_Vibration]状態，則使其[Switch_Vibration]為[VibrationCollapse]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少2層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158505,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "調整呼吸",
-          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[OnSucceedEvade] 使<color=#ffffff>自身</color>増加3級[Breath]強度(每个技能最多1次)\n[OnSucceedEvade] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility](<color=#7C5738>每回合</color>最多1次)\n[EndBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp](<color=#7C5738>每回合</color>最多1次)",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158601,
-      "levelList": [
+            "id": 158505,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "調整呼吸",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的[Breath]強度不低于6級，則使本技能的<color=#ffffff>硬幣威力</color>+1\n[OnSucceedEvade] 使<color=#ffffff>自身</color>増加3級[Breath]強度(每个技能最多1次)\n[OnSucceedEvade] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility](<color=#7C5738>每回合</color>最多1次)\n[EndBattle] <color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[PenetrateResultUp](<color=#7C5738>每回合</color>最多1次)",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
         {
-          "level": 1,
-          "name": "悔恨",
-          "desc": "[WhenUse] 目標每帯有4級[Combustion]強度，使本技能的最終威力+2(最多+4)\n[BeforeAttack] <color=#ff6000><mark color=#ff000040><b><u>若自身的理智値不低于20/40点</color></mark></b></u>，則使本技能造成的傷害+50%/+100%\n[DefeatDuel]\n- 使本技能造成的傷害-80%\n- 使本技能造成的傷害不会使目標陷入混乱",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158601,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                    "level": 1,
+                    "name": "悔恨",
+                    "desc": "[WhenUse] 目標每帯有4級[Combustion]強度，使本技能的最終威力+2(最多+4)\n[BeforeAttack] <color=#ff6000><mark color=#ff000040><b><u>若自身的理智値不低于20/40点</color></mark></b></u>，則使本技能造成的傷害+50%/+100%\n[DefeatDuel]\n- 使本技能造成的傷害-80%\n- 使本技能造成的傷害不会使目標陷入混乱",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>増加5級[Vibration]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次，并使其[Combustion]層数減少2次"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少2層"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次，并使其[Combustion]層数減少2次"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 使<color=#ffffff>目標</color>[VibrationExplosion]2次，并使其[Vibration]層数減少2層"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158701,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "悲傷的黄昏",
-          "desc": "[WhenUse] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于40点，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ParryingResultUp]\n[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158701,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Combustion]強度"
+                    "level": 1,
+                    "name": "悲傷的黄昏",
+                    "desc": "[WhenUse] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于40点，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ParryingResultUp]\n[BeforeAttack] 使<color=#ffffff>自身</color>恢復10点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Combustion]強度"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Combustion]強度"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158702,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "羽之盾",
-          "desc": "[WhenUse] 使自身獲得2層[Protection]\n- <color=#ff6000><mark color=#ff000040><b><u>若目標帯有[Combustion]</color></mark></b></u>，則使自身額外獲得2層[Protection]\n[WhenUse] 若自身的理智値不低于30点，則下回合使自身獲得2層[DefenseUp]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158702,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Combustion]"
+                    "level": 1,
+                    "name": "羽之盾",
+                    "desc": "[WhenUse] 使自身獲得2層[Protection]\n- <color=#ff6000><mark color=#ff000040><b><u>若目標帯有[Combustion]</color></mark></b></u>，則使自身額外獲得2層[Protection]\n[WhenUse] 若自身的理智値不低于30点，則下回合使自身獲得2層[DefenseUp]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Combustion]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Combustion]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Combustion]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158703,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "燃焼之剣",
-          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有6級[Combustion]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[BeforeAttack] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于40/45点，則使本技能的<color=#ffffff>攻撃容量</color>+1/+2",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158703,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Combustion]"
+                    "level": 1,
+                    "name": "燃焼之剣",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有6級[Combustion]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[DefeatDuel]\n- 使本技能造成的<color=#ffffff>傷害</color>-80%\n- 使本技能造成的<color=#ffffff>傷害</color>不会使<color=#ffffff>目標</color>陷入混乱\n[BeforeAttack] 若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于40/45点，則使本技能的<color=#ffffff>攻撃容量</color>+1/+2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[Combustion]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Combustion]強度"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[PhilipWax]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加6級[Combustion]強度"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 対<color=#ffffff>目標</color>施加3層[PhilipWax]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158704,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "猛烈突進",
-          "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有6級[Combustion]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[BeforeAttack] <color=#ffffff>目標</color>每帯有2級[Combustion]強度，使本技能造成的<color=#ffffff>傷害</color>+2%(最多+30%)\n[EndSkill] 使<color=#ffffff>自身</color>失去(本技能第1枚硬幣<color=#ffffff>重復使用</color>次数)点<color=#81BBE8>理智値</color>",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158704,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Combustion]強度"
-                },
-                {
-                  "desc": "[OnSucceedAttackHead] <color=#ffffff>重復使用</color>本硬幣(每个技能最多2次)"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
-                },
-                {
-                  "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[PhilipWax]"
+                    "level": 1,
+                    "name": "猛烈突進",
+                    "desc": "[WhenUse] <color=#ffffff>目標</color>每帯有6級[Combustion]強度，使本技能的<color=#ffffff>最終威力</color>+1(最多+2)\n[BeforeAttack] <color=#ffffff>目標</color>每帯有2級[Combustion]強度，使本技能造成的<color=#ffffff>傷害</color>+2%(最多+30%)\n[EndSkill] 使<color=#ffffff>自身</color>失去(本技能第1枚硬幣<color=#ffffff>重復使用</color>次数)点<color=#81BBE8>理智値</color>",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加4級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] <color=#ffffff>重復使用</color>本硬幣(每个技能最多2次)"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[Combustion]"
+                                },
+                                {
+                                    "desc": "[ReUseOnSucceedAttack] 対<color=#ffffff>目標</color>施加2層[PhilipWax]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 158705,
-      "levelList": [
+            ]
+        },
         {
-          "level": 1,
-          "name": "爆炎一撃",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>可无視速度値与本技能拼点</color></mark></b></u>\n装備本技能的回合内，<color=#ff6000><mark color=#ff000040><b><u>自身受到攻撃技能攻撃時，対自身施加2層[ResultReduction]</color></mark></b></u>(每个技能最多1次，每回合最多3次)\n[WhenUse] 主要目標每帯有4級[Combustion]強度，使本技能的最終威力+2(最多+4)\n[BeforeAttack] 若自身的理智値不低于20/40点，則使本技能造成的傷害+50%/+100%\n[DefeatDuel]\n- 使本技能造成的傷害-80%\n- 使本技能造成的傷害不会使目標陷入混乱\n[EndSkill] 結束本回合",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 158705,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加10級[Combustion]強度"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次，并使其[Combustion]層数減少2次"
+                    "level": 1,
+                    "name": "爆炎一撃",
+                    "desc": "<color=#ff6000><mark color=#ff000040><b><u>可无視速度値与本技能拼点</color></mark></b></u>\n装備本技能的回合内，<color=#ff6000><mark color=#ff000040><b><u>自身受到攻撃技能攻撃時，対自身施加2層[ResultReduction]</color></mark></b></u>(每个技能最多1次，每回合最多3次)\n[WhenUse] 主要目標每帯有4級[Combustion]強度，使本技能的最終威力+2(最多+4)\n[BeforeAttack] 若自身的理智値不低于20/40点，則使本技能造成的傷害+50%/+100%\n[DefeatDuel]\n- 使本技能造成的傷害-80%\n- 使本技能造成的傷害不会使目標陷入混乱\n[EndSkill] 結束本回合",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] 使<color=#ffffff>目標</color>増加10級[Combustion]強度"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] 触発<color=#ffffff>目標</color>的[Combustion]2次，并使其[Combustion]層数減少2次"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

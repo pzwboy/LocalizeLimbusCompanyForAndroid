@@ -1,188 +1,188 @@
 {
-  "dataList": [
-    {
-      "id": 9284,
-      "name": "過時的紅派服飾",
-      "desc": "<color=#ffffff>友方単位</color>通過基礎攻撃技能的技能或<color=#ffffff>硬幣效果</color>恢復<color=#61DA61>体力</color>時，使恢復的<color=#61DA61>体力</color>+50%(<color=#7C5738>每回合</color>最多3次，向下取整)\n\n[高級定制::紅派精品店 以實瑪利専属]\n若高級定制::紅派 赤紅之神 辛克莱与<color=#ffffff>自身</color>同時在場，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得1層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)\n- 若被動“進入<noparse>更衣室</noparse>…”的“本場戦斗中，<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，无視該<color=#ffffff>傷害</color>，并立即使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)”效果触発，則専属效果不会触発\n- 若専属效果触発，則被動的“進入<noparse>更衣室</noparse>…”的“本場戦斗中，<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，无視該<color=#ffffff>傷害</color>，并立即使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)”效果不会触発",
-      "simpleDesc": [
+    "dataList": [
         {
-          "abilityID": 9284,
-          "simpleDesc": "立即進入[RougeIshmaelCocoon]状態"
+            "id": 9284,
+            "name": "過時的紅派服飾",
+            "desc": "<color=#ffffff>友方単位</color>通過基礎攻撃技能的技能或<color=#ffffff>硬幣效果</color>恢復<color=#61DA61>体力</color>時，使恢復的<color=#61DA61>体力</color>+50%(<color=#7C5738>每回合</color>最多3次，向下取整)\n\n[高級定制::紅派精品店 以實瑪利専属]\n若高級定制::紅派 赤紅之神 辛克莱与<color=#ffffff>自身</color>同時在場，則<color=#7C5738>回合開始</color>時使<color=#ffffff>自身</color>獲得1層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)\n- 若被動“進入<noparse>更衣室</noparse>…”的“本場戦斗中，<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，无視該<color=#ffffff>傷害</color>，并立即使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)”效果触発，則専属效果不会触発\n- 若専属效果触発，則被動的“進入<noparse>更衣室</noparse>…”的“本場戦斗中，<color=#ffffff>自身</color>受到使<color=#ffffff>自身</color><color=#61DA61>体力</color>降至0点的<color=#ffffff>傷害</color>時，无視該<color=#ffffff>傷害</color>，并立即使<color=#ffffff>自身</color>獲得2層[RougeIshmaelCocoon]并進入[RougeIshmaelCocoon]状態(每場戦斗最多1次)”效果不会触発",
+            "simpleDesc": [
+                {
+                    "abilityID": 9284,
+                    "simpleDesc": "立即進入[RougeIshmaelCocoon]状態"
+                },
+                {
+                    "abilityID": 92841,
+                    "simpleDesc": "額外恢復<color=#61DA61>体力</color>"
+                }
+            ]
         },
         {
-          "abilityID": 92841,
-          "simpleDesc": "額外恢復<color=#61DA61>体力</color>"
+            "id": 9285,
+            "name": "炭酸飲料",
+            "desc": "<color=#7C5738>本回合</color>不低于1次試圖通過<color=#ffffff>自身</color>的技能或<color=#ffffff>硬幣效果</color>恢復<color=#61DA61>体力</color>的罪人在<color=#7C5738>下回合</color>使其技能造成的<color=#ffffff>傷害</color>+10%并獲得(該回合試圖恢復量/10)層[AttackUp](最多6層，向下取整)\n\n若場上有与<color=#ffffff>自身</color>属于同一陣営的人格，則使<color=#ffffff>自身</color>獲得層数相当于除<color=#ffffff>自身</color>以外与<color=#ffffff>自身</color>属于同一陣営的人格通過以上效果獲得的[AttackUp]層数一半的[AttackUp](最少1層，<color=#7C5738>每回合</color>最多3層，向下取整)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9285,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>増加[TabExplain]，獲得[AttackUp]"
+                }
+            ]
+        },
+        {
+            "id": 9286,
+            "name": "黑派品牌世家休閑庫",
+            "desc": "[Charge]強度不低于2級的<color=#ffffff>友方単位</color>触発[VibrationExplosion]時，触発以下效果\n- 対<color=#ffffff>目標</color>造成(<color=#ffffff>自身</color>的[Charge]強度与層数之積)点<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>(每个技能最多2次，每次最多100点)\n- 若通過以上效果造成了2次<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[Binding]\n\n<color=#ffffff>友方単位</color>通過技能触発[VibrationExplosion]時，<color=#7C5738>下回合</color>使其獲得(其[Charge]強度/3)層[AttackUp](<color=#7C5738>每回合</color>最多5層，向下取整)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9286,
+                    "simpleDesc": "造成<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>并施加[Binding]"
+                },
+                {
+                    "abilityID": 92861,
+                    "simpleDesc": "獲得[AttackUp]"
+                }
+            ]
+        },
+        {
+            "id": 9287,
+            "name": "黑派瑪麗珍鞋",
+            "desc": "<color=#ffffff>戦斗開始</color>時帯有的<color=#81BBE8>護盾</color>最高的人格攻撃命中時，対<color=#ffffff>目標</color>造成相当于該人格現存<color=#81BBE8>護盾</color>50%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(每个技能最多2次，每次最多100点，向下取整)\n- 若帯有的<color=#81BBE8>護盾</color>相同的人格不低于2名，則按編隊順序适用\n\n若該人格為[PersonalityCharge]，則改為造成相当于其<color=#81BBE8>護盾</color>100%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(每个技能最多3次，每次最多100点，向下取整)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9287,
+                    "simpleDesc": "根据<color=#81BBE8>護盾</color>相應造成<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9288,
+            "name": "裁縫之王的珠針",
+            "desc": "<color=#7C5738>回合開始</color>時，若没有<color=#ffffff>敵方単位</color>帯有[SewingKingMark]，則随机対1名<color=#ffffff>敵方単位</color>施加[SewingKingMark](若是<color=#ffffff>集中遭遇戦</color>，則以<color=#ffffff>部位</color>判定)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9288,
+                    "simpleDesc": "施加[SewingKingMark]，陣亡時造成固定<color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9289,
+            "name": "軟骨",
+            "desc": "消耗[Charge]層数或特殊[Charge]的技能造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Charge]強度×2)%(最多+10%)\n\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>消耗了[Charge]層数或特殊[Charge]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>目標</color>的<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1\n- 若<color=#ffffff>自身</color>属于西西弗，則改為<color=#ffffff>最終威力</color>+1",
+            "simpleDesc": [
+                {
+                    "abilityID": 9289,
+                    "simpleDesc": "造成的<color=#ffffff>傷害</color>，<color=#ffffff>拼点威力</color>与<color=#ffffff>最終威力</color>増加[TabExplain]，獲得[Agility]"
+                }
+            ]
+        },
+        {
+            "id": 9290,
+            "name": "毛毯",
+            "desc": "<color=#7C5738>本回合</color>装備了守備技能的人格受到来自<color=#ffffff>敵方単位</color>攻撃的<color=#ffffff>傷害</color>-20%\n- <color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>為[PersonalityCharge]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[AttackUp]\n- <color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>属于西西弗，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement]",
+            "simpleDesc": [
+                {
+                    "abilityID": 9290,
+                    "simpleDesc": "受到的<color=#ffffff>傷害</color>減少[TabExplain]，獲得[AttackUp]或[ResultEnhancement]"
+                }
+            ]
+        },
+        {
+            "id": 9291,
+            "name": "飾花剪刀",
+            "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量5%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 9291,
+                    "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
+                }
+            ]
+        },
+        {
+            "id": 19291,
+            "name": "飾花剪刀+",
+            "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量<style=\"upgradeHighlight\">10%</style>的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 19291,
+                    "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
+                }
+            ]
+        },
+        {
+            "id": 29291,
+            "name": "飾花剪刀++",
+            "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量<style=\"upgradeHighlight\">15%</style>的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
+            "simpleDesc": [
+                {
+                    "abilityID": 29291,
+                    "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
+                }
+            ]
+        },
+        {
+            "id": 9301,
+            "name": "狂風呼嘯的山丘",
+            "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱，<color=#7C5738>下回合</color>開始時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級[Sinking]強度并対其施加4層[Sinking](每場戦斗最多1次;不包括強制混乱;若是<color=#ffffff>集中遭遇戦</color>，則改為所有<color=#ffffff>部位</color>)\n- 每編入2名属于呼嘯山庄或埃德加家族的人格，該效果每場戦斗可額外触発1次(每場戦斗最多触発4次，包括待命人員)\n\n<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，対[Sinking]層数最低的1名<color=#ffffff>敵方単位</color>施加2層[Sinking](<color=#7C5738>每回合</color>最多3次;若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)\n\n命中帯有<color=#81BBE8>理智値</color>的<color=#ffffff>敵方単位</color>時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為-45点，則対其造成相当于其[Sinking]強度的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>\n\n<color=#ffffff>集中遭遇戦</color>中，命中[Sinking]強度与[Sinking]層数之和不低于10点的<color=#ffffff>敵方単位</color>時，対<color=#ffffff>目標</color>造成(其[Sinking]強度/2)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n\n若命中<color=#ffffff>敵方単位</color>的技能為施加[Sinking](包括施加[Sinking]層数与特殊[Sinking])的技能，則改為其造成(其[Sinking]強度)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>，而非([Sinking]強度/2)点\n(适用于<color=#7C5738>每回合</color>首个攻撃命中的施加[Sinking]的技能)\n\n[<noparse>狂猟</noparse> 希斯克利夫専属]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>未帯有[NightPathfinding]，則使<color=#ffffff>自身</color>獲得1層[NightPathfinding]\n- 若<color=#ffffff>自身</color>的[Coffin]層数為5/10層，則改為使<color=#ffffff>自身</color>獲得2/3層[NightPathfinding]\n- 使属于呼嘯山庄或埃德加家族的人格獲得1層[SoundOfStorm](每名人格每場戦斗最多3次)\n\n使<color=#ffffff>自身</color>獲得的[Coffin]層数変為2倍\n- 属于呼嘯山庄或埃德加家族的人格<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>獲得2層[Coffin]\n\n“悲嘆、哀慟、破滅叭”的使用時效果額外使<color=#ffffff>自身</color>失去15点<color=#81BBE8>理智値</color>\n- 該技能或本飾品的效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点\n\n“悲嘆、哀慟、破滅叭”的最后一枚硬幣命中時，若<color=#ffffff>敵方単位</color>的[Sinking]強度不低于20級，則対其造成本硬幣最終<color=#ffffff>傷害</color>量100%的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>",
+            "simpleDesc": [
+                {
+                    "abilityID": 9432,
+                    "simpleDesc": "<color=#7C5738>下回合</color>使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級[Sinking]強度并施加4層[Sinking]"
+                },
+                {
+                    "abilityID": 94321,
+                    "simpleDesc": "対[Sinking]層数最低的1名<color=#ffffff>敵方単位</color>施加2層[Sinking]"
+                },
+                {
+                    "abilityID": 9436,
+                    "simpleDesc": "根据<color=#ffffff>目標</color>帯有的[Sinking]強度造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>"
+                },
+                {
+                    "abilityID": 94361,
+                    "simpleDesc": "根据<color=#ffffff>目標</color>帯有的[Sinking]強度造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>"
+                },
+                {
+                    "abilityID": 93011,
+                    "simpleDesc": "獲得[NightPathfinding]，属于特定陣営的人格獲得[SoundOfStorm]"
+                },
+                {
+                    "abilityID": 93012,
+                    "simpleDesc": "獲得的[Coffin]層数変為2倍"
+                },
+                {
+                    "abilityID": 93013,
+                    "simpleDesc": "属于特定陣営的人格<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，獲得[Coffin]"
+                },
+                {
+                    "abilityID": 93014,
+                    "simpleDesc": "“悲嘆、哀慟、破滅叭”使用時減少的<color=#81BBE8>理智値</color>増加"
+                },
+                {
+                    "abilityID": 93015,
+                    "simpleDesc": "“悲嘆、哀慟、破滅叭”的最后一枚硬幣命中時，造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>"
+                }
+            ]
+        },
+        {
+            "id": 9302,
+            "name": "霜之温度",
+            "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于40点或不高于-40点，則使<color=#ffffff>自身</color>獲得1層[GainSinStockAdder]\n\n[擁有不低于2个減算硬幣技能的人格専属]\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>失去15点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点)\n\n本場戦斗中，受到使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>降至-45点的理智<color=#ffffff>傷害</color>時，該回合期間使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>維持為-44点(每場戦斗最多1次)\n(※ 僅适用于理智<color=#ffffff>傷害</color>，不対改変<color=#81BBE8>理智値</color>或使用E.G.O技能等消耗<color=#81BBE8>理智値</color>的效果生效) \n\n3技能或E.G.O技能攻撃前，消耗最多5个与該技能属性相同的E.G.O資源，使該技能造成的<color=#ffffff>傷害</color>+(消耗的E.G.O資源数×10)%",
+            "simpleDesc": [
+                {
+                    "abilityID": 9302,
+                    "simpleDesc": "満足<color=#81BBE8>理智値</color>条件時獲得[GainSinStockAdder]"
+                },
+                {
+                    "abilityID": 93021,
+                    "simpleDesc": "<color=#7C5738>回合開始</color>時<color=#81BBE8>理智値</color>減少"
+                },
+                {
+                    "abilityID": 93022,
+                    "simpleDesc": "受到使<color=#ffffff>自身</color><color=#81BBE8>理智値</color>降至-45点的理智<color=#ffffff>傷害</color>時，維持為-44点1次"
+                },
+                {
+                    "abilityID": 93023,
+                    "simpleDesc": "消耗E.G.O資源并使3技能与E.G.O技能<noparse>造成的<color=#ffffff>傷害</color>増加</noparse>"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": 9285,
-      "name": "炭酸飲料",
-      "desc": "<color=#7C5738>本回合</color>不低于1次試圖通過<color=#ffffff>自身</color>的技能或<color=#ffffff>硬幣效果</color>恢復<color=#61DA61>体力</color>的罪人在<color=#7C5738>下回合</color>使其技能造成的<color=#ffffff>傷害</color>+10%并獲得(該回合試圖恢復量/10)層[AttackUp](最多6層，向下取整)\n\n若場上有与<color=#ffffff>自身</color>属于同一陣営的人格，則使<color=#ffffff>自身</color>獲得層数相当于除<color=#ffffff>自身</color>以外与<color=#ffffff>自身</color>属于同一陣営的人格通過以上效果獲得的[AttackUp]層数一半的[AttackUp](最少1層，<color=#7C5738>每回合</color>最多3層，向下取整)",
-      "simpleDesc": [
-        {
-          "abilityID": 9285,
-          "simpleDesc": "造成的<color=#ffffff>傷害</color>増加[TabExplain]，獲得[AttackUp]"
-        }
-      ]
-    },
-    {
-      "id": 9286,
-      "name": "黑派品牌世家休閑庫",
-      "desc": "[Charge]強度不低于2級的<color=#ffffff>友方単位</color>触発[VibrationExplosion]時，触発以下效果\n- 対<color=#ffffff>目標</color>造成(<color=#ffffff>自身</color>的[Charge]強度与層数之積)点<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>(每个技能最多2次，每次最多100点)\n- 若通過以上效果造成了2次<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>，則<color=#7C5738>下回合</color>対<color=#ffffff>目標</color>施加3層[Binding]\n\n<color=#ffffff>友方単位</color>通過技能触発[VibrationExplosion]時，<color=#7C5738>下回合</color>使其獲得(其[Charge]強度/3)層[AttackUp](<color=#7C5738>每回合</color>最多5層，向下取整)",
-      "simpleDesc": [
-        {
-          "abilityID": 9286,
-          "simpleDesc": "造成<color=#9702DE>嫉炉</color><color=#ffffff>傷害</color>并施加[Binding]"
-        },
-        {
-          "abilityID": 92861,
-          "simpleDesc": "獲得[AttackUp]"
-        }
-      ]
-    },
-    {
-      "id": 9287,
-      "name": "黑派瑪麗珍鞋",
-      "desc": "<color=#ffffff>戦斗開始</color>時帯有的<color=#81BBE8>護盾</color>最高的人格攻撃命中時，対<color=#ffffff>目標</color>造成相当于該人格現存<color=#81BBE8>護盾</color>50%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(每个技能最多2次，每次最多100点，向下取整)\n- 若帯有的<color=#81BBE8>護盾</color>相同的人格不低于2名，則按編隊順序适用\n\n若該人格為[PersonalityCharge]，則改為造成相当于其<color=#81BBE8>護盾</color>100%的<color=#FED233>怠惰</color><color=#ffffff>傷害</color>(每个技能最多3次，每次最多100点，向下取整)",
-      "simpleDesc": [
-        {
-          "abilityID": 9287,
-          "simpleDesc": "根据<color=#81BBE8>護盾</color>相應造成<color=#FED233>怠惰</color><color=#ffffff>傷害</color>"
-        }
-      ]
-    },
-    {
-      "id": 9288,
-      "name": "裁縫之王的珠針",
-      "desc": "<color=#7C5738>回合開始</color>時，若没有<color=#ffffff>敵方単位</color>帯有[SewingKingMark]，則随机対1名<color=#ffffff>敵方単位</color>施加[SewingKingMark](若是<color=#ffffff>集中遭遇戦</color>，則以<color=#ffffff>部位</color>判定)",
-      "simpleDesc": [
-        {
-          "abilityID": 9288,
-          "simpleDesc": "施加[SewingKingMark]，陣亡時造成固定<color=#ffffff>傷害</color>"
-        }
-      ]
-    },
-    {
-      "id": 9289,
-      "name": "軟骨",
-      "desc": "消耗[Charge]層数或特殊[Charge]的技能造成的<color=#ffffff>傷害</color>+(<color=#ffffff>自身</color>的[Charge]強度×2)%(最多+10%)\n\n<color=#7C5738>回合結束</color>時，若<color=#7C5738>本回合</color><color=#ffffff>自身</color>消耗了[Charge]層数或特殊[Charge]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[Agility]\n\n若<color=#ffffff>目標</color>的<color=#7C5737>速度値</color>低于<color=#ffffff>自身</color>，則使<color=#ffffff>自身</color>的<color=#ffffff>拼点威力</color>+1\n- 若<color=#ffffff>自身</color>属于西西弗，則改為<color=#ffffff>最終威力</color>+1",
-      "simpleDesc": [
-        {
-          "abilityID": 9289,
-          "simpleDesc": "造成的<color=#ffffff>傷害</color>，<color=#ffffff>拼点威力</color>与<color=#ffffff>最終威力</color>増加[TabExplain]，獲得[Agility]"
-        }
-      ]
-    },
-    {
-      "id": 9290,
-      "name": "毛毯",
-      "desc": "<color=#7C5738>本回合</color>装備了守備技能的人格受到来自<color=#ffffff>敵方単位</color>攻撃的<color=#ffffff>傷害</color>-20%\n- <color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>為[PersonalityCharge]，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得2層[AttackUp]\n- <color=#7C5738>戦斗結束</color>時，若<color=#ffffff>自身</color>属于西西弗，則<color=#7C5738>下回合</color>使<color=#ffffff>自身</color>獲得1層[ResultEnhancement]",
-      "simpleDesc": [
-        {
-          "abilityID": 9290,
-          "simpleDesc": "受到的<color=#ffffff>傷害</color>減少[TabExplain]，獲得[AttackUp]或[ResultEnhancement]"
-        }
-      ]
-    },
-    {
-      "id": 9291,
-      "name": "飾花剪刀",
-      "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量5%的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
-      "simpleDesc": [
-        {
-          "abilityID": 9291,
-          "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
-        }
-      ]
-    },
-    {
-      "id": 19291,
-      "name": "飾花剪刀+",
-      "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量<style=\"upgradeHighlight\">10%</style>的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
-      "simpleDesc": [
-        {
-          "abilityID": 19291,
-          "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
-        }
-      ]
-    },
-    {
-      "id": 29291,
-      "name": "飾花剪刀++",
-      "desc": "[第1順位<color=#ffffff>友方単位</color>専属]\n\n属于西西弗的人格或[PersonalityCharge]基礎技能的最后一枚硬幣命中時，対主要<color=#ffffff>目標</color>造成相当于該硬幣最終<color=#ffffff>傷害</color>量<style=\"upgradeHighlight\">15%</style>的<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>(每个技能最多1次)",
-      "simpleDesc": [
-        {
-          "abilityID": 29291,
-          "simpleDesc": "対主要<color=#ffffff>目標</color>造成<color=#ffffff>斬撃</color><color=#ffffff>傷害</color>[TabExplain]"
-        }
-      ]
-    },
-    {
-      "id": 9301,
-      "name": "狂風呼嘯的山丘",
-      "desc": "<color=#7C5738>回合結束</color>時，若<color=#ffffff>自身</color>陷入混乱，則解除<color=#ffffff>自身</color>的混乱，<color=#7C5738>下回合</color>開始時使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級[Sinking]強度并対其施加4層[Sinking](每場戦斗最多1次;不包括強制混乱;若是<color=#ffffff>集中遭遇戦</color>，則改為所有<color=#ffffff>部位</color>)\n- 每編入2名属于呼嘯山庄或埃德加家族的人格，該效果每場戦斗可額外触発1次(每場戦斗最多触発4次，包括待命人員)\n\n<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，対[Sinking]層数最低的1名<color=#ffffff>敵方単位</color>施加2層[Sinking](<color=#7C5738>每回合</color>最多3次;若是<color=#ffffff>集中遭遇戦</color>，則改為1个<color=#ffffff>部位</color>)\n\n命中帯有<color=#81BBE8>理智値</color>的<color=#ffffff>敵方単位</color>時，若<color=#ffffff>目標</color>的<color=#81BBE8>理智値</color>為-45点，則対其造成相当于其[Sinking]強度的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>\n\n<color=#ffffff>集中遭遇戦</color>中，命中[Sinking]強度与[Sinking]層数之和不低于10点的<color=#ffffff>敵方単位</color>時，対<color=#ffffff>目標</color>造成(其[Sinking]強度/2)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>(每个技能最多1次)\n\n若命中<color=#ffffff>敵方単位</color>的技能為施加[Sinking](包括施加[Sinking]層数与特殊[Sinking])的技能，則改為其造成(其[Sinking]強度)点<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>，而非([Sinking]強度/2)点\n(适用于<color=#7C5738>每回合</color>首个攻撃命中的施加[Sinking]的技能)\n\n[<noparse>狂猟</noparse> 希斯克利夫専属]\n<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>未帯有[NightPathfinding]，則使<color=#ffffff>自身</color>獲得1層[NightPathfinding]\n- 若<color=#ffffff>自身</color>的[Coffin]層数為5/10層，則改為使<color=#ffffff>自身</color>獲得2/3層[NightPathfinding]\n- 使属于呼嘯山庄或埃德加家族的人格獲得1層[SoundOfStorm](每名人格每場戦斗最多3次)\n\n使<color=#ffffff>自身</color>獲得的[Coffin]層数変為2倍\n- 属于呼嘯山庄或埃德加家族的人格<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，使<color=#ffffff>自身</color>獲得2層[Coffin]\n\n“悲嘆、哀慟、破滅叭”的使用時效果額外使<color=#ffffff>自身</color>失去15点<color=#81BBE8>理智値</color>\n- 該技能或本飾品的效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点\n\n“悲嘆、哀慟、破滅叭”的最后一枚硬幣命中時，若<color=#ffffff>敵方単位</color>的[Sinking]強度不低于20級，則対其造成本硬幣最終<color=#ffffff>傷害</color>量100%的<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>",
-      "simpleDesc": [
-        {
-          "abilityID": 9432,
-          "simpleDesc": "<color=#7C5738>下回合</color>使<color=#ffffff>全体</color><color=#ffffff>敵方単位</color>増加4級[Sinking]強度并施加4層[Sinking]"
-        },
-        {
-          "abilityID": 94321,
-          "simpleDesc": "対[Sinking]層数最低的1名<color=#ffffff>敵方単位</color>施加2層[Sinking]"
-        },
-        {
-          "abilityID": 9436,
-          "simpleDesc": "根据<color=#ffffff>目標</color>帯有的[Sinking]強度造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>"
-        },
-        {
-          "abilityID": 94361,
-          "simpleDesc": "根据<color=#ffffff>目標</color>帯有的[Sinking]強度造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>"
-        },
-        {
-          "abilityID": 93011,
-          "simpleDesc": "獲得[NightPathfinding]，属于特定陣営的人格獲得[SoundOfStorm]"
-        },
-        {
-          "abilityID": 93012,
-          "simpleDesc": "獲得的[Coffin]層数変為2倍"
-        },
-        {
-          "abilityID": 93013,
-          "simpleDesc": "属于特定陣営的人格<color=#7C5738>撃殺</color><color=#ffffff>敵方単位</color>時，獲得[Coffin]"
-        },
-        {
-          "abilityID": 93014,
-          "simpleDesc": "“悲嘆、哀慟、破滅叭”使用時減少的<color=#81BBE8>理智値</color>増加"
-        },
-        {
-          "abilityID": 93015,
-          "simpleDesc": "“悲嘆、哀慟、破滅叭”的最后一枚硬幣命中時，造成<color=#1BC7F0>憂郁</color><color=#ffffff>傷害</color>"
-        }
-      ]
-    },
-    {
-      "id": 9302,
-      "name": "霜之温度",
-      "desc": "<color=#7C5738>回合開始</color>時，若<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>不低于40点或不高于-40点，則使<color=#ffffff>自身</color>獲得1層[GainSinStockAdder]\n\n[擁有不低于2个減算硬幣技能的人格専属]\n<color=#7C5738>回合開始</color>時，使<color=#ffffff>自身</color>失去15点<color=#81BBE8>理智値</color>(該效果不会使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>低于-40点)\n\n本場戦斗中，受到使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>降至-45点的理智<color=#ffffff>傷害</color>時，該回合期間使<color=#ffffff>自身</color>的<color=#81BBE8>理智値</color>維持為-44点(每場戦斗最多1次)\n(※ 僅适用于理智<color=#ffffff>傷害</color>，不対改変<color=#81BBE8>理智値</color>或使用E.G.O技能等消耗<color=#81BBE8>理智値</color>的效果生效) \n\n3技能或E.G.O技能攻撃前，消耗最多5个与該技能属性相同的E.G.O資源，使該技能造成的<color=#ffffff>傷害</color>+(消耗的E.G.O資源数×10)%",
-      "simpleDesc": [
-        {
-          "abilityID": 9302,
-          "simpleDesc": "満足<color=#81BBE8>理智値</color>条件時獲得[GainSinStockAdder]"
-        },
-        {
-          "abilityID": 93021,
-          "simpleDesc": "<color=#7C5738>回合開始</color>時<color=#81BBE8>理智値</color>減少"
-        },
-        {
-          "abilityID": 93022,
-          "simpleDesc": "受到使<color=#ffffff>自身</color><color=#81BBE8>理智値</color>降至-45点的理智<color=#ffffff>傷害</color>時，維持為-44点1次"
-        },
-        {
-          "abilityID": 93023,
-          "simpleDesc": "消耗E.G.O資源并使3技能与E.G.O技能<noparse>造成的<color=#ffffff>傷害</color>増加</noparse>"
-        }
-      ]
-    }
-  ]
+    ]
 }
